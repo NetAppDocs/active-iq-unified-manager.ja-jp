@@ -1,0 +1,403 @@
+---
+permalink: events/reference_node_events.html 
+sidebar: sidebar 
+keywords: node, events, impact area, availability, capacity, configuration, performance, security 
+summary: ノードイベントは、ノードのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
+---
+= ノードイベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ノードイベントは、ノードのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+
+アスタリスク（ * ）は、 Unified Manager イベントに変換された EMS イベントを示します。
+
+
+
+== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ノードのルートボリュームのスペースがほぼフル（ Document EvtClusterNodeRootVolumeSpaceNearlyFull ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+Cloud AWS MetaDataConnFail * （ Document CloudAwsMetadataConnFail ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+Cloud AWS IAM クレデンシャルが期限切れ * （ Document CloudAwIamCredsExpired ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+Cloud AWS IAM クレデンシャルが無効 * （ドキュメント CloudAwsIamCredsInvalid ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+Cloud AWS IAM クレデンシャルが見つからない * （ドキュメント Cloud AwsIamCredsNotFound ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+Cloud AWS IAM クレデンシャルが初期化されていない * （ドキュメント CloudAwsIamCredsNotInitialized ）
+ a| 
+イベント
+ a| 
+ノード
+ a| 
+情報
+
+
+
+ a| 
+Cloud AWS IAM ロールが無効 * （ DocumentCloudAwsIamRoleInvalid ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+Cloud AWS IAM RoleNotFound * （ドキュメント CloudAwsIamRoleNotFound ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+クラウド階層のホスト解決不可 * （文書 ObjstoreHostUnresolvable ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+クラウド階層のクラスタ間 LIF が停止している * （ ObjstoreInterClusterLifDown ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+NFSv4 プールの 1 つを使い果たしました * （ nbladeNfsv4PoolExhaust ）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+要求とクラウド階層シグネチャの不一致 * （オシレチャ不一致）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+|===
+
+
+== 影響範囲：容量
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+QoS 監視メモリの最大化 * （文書 QosMonitorMemoryMaxed ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
+
+
+
+ a| 
+QoS 監視メモリの異常 * （文書化された QosMonitorMemoryAbated ）
+ a| 
+イベント
+ a| 
+ノード
+ a| 
+情報
+
+|===
+
+
+== 影響範囲：構成
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ノードの名前を変更（該当なし）
+ a| 
+イベント
+ a| 
+ノード
+ a| 
+情報
+
+|===
+
+
+== 影響範囲：パフォーマンス
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ノード IOPS の重大しきい値を超過（ドキュメントノード IopsIncident ）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノード IOPS の警告しきい値を超過（ドキュメントノード IopsWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノード MBps の重大しきい値を超過（ドキュメントノード MbpsIncident ）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノード MBps の警告しきい値を超過（ドキュメントノード MbpsWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノードレイテンシミリ秒 / 処理の重大しきい値を超過（ドキュメントノードレイテンシインシデント）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノードレイテンシミリ秒 / 処理の警告しきい値を超過（ドキュメントノードレイテンシ警告）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノードの使用済みパフォーマンス容量の重大しきい値を超過（ ocNodePerfCapacityUsedIncident ）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノードの使用済みパフォーマンス容量の警告しきい値を超過（ ocNodePerfCapacityUsedWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノードの使用済みパフォーマンス容量 - テイクオーバーの重大しきい値を超過（ ocNodePerfCapacityUsedTakeoverIncident ）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノードの使用済みパフォーマンス容量 - テイクオーバーの警告しきい値を超過（ ocNodePerfCapacityUsedTakeoverWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノード利用率の重大しきい値を超過（ドキュメントノード利用率インシデント）
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+
+
+ a| 
+ノード利用率の警告しきい値を超過（ドキュメントノード利用率の警告）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+利用率の高いノード HA ペアのしきい値を超過（ ocNodeHaPairOverUtilizedInformation ）
+ a| 
+イベント
+ a| 
+ノード
+ a| 
+情報
+
+
+
+ a| 
+ノードディスク断片化の警告しきい値を超過（ Document NodeDiskFragmentationWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+使用済みパフォーマンス容量のしきい値を超過（ドキュメントノードのオーバー利用率警告）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+
+
+ a| 
+ノード動的しきい値を超過（ Document NodeDynamicEventWarning ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+警告
+
+|===
+
+
+== 影響範囲：セキュリティ
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+アドバイザリ ID ： NTAP-<_advisory ID__ （ドキュメント x ）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+重要
+
+|===

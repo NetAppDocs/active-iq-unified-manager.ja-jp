@@ -1,0 +1,15 @@
+---
+permalink: reporting/concept_report_work_flow.html 
+sidebar: sidebar 
+keywords: report, workflow 
+summary: レポートのワークフローを説明するデシジョンツリー。 
+---
+= レポートワークフロー
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+レポートのワークフローを説明するデシジョンツリー。
+
+image::../media/reports_view_workflow.png[レポートビューのワークフロー]

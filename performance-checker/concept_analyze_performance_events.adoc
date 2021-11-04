@@ -1,0 +1,13 @@
+---
+permalink: performance-checker/concept_analyze_performance_events.html 
+sidebar: sidebar 
+keywords: analyze, performance, events 
+summary: パフォーマンスイベントを分析して、イベントが検出されたタイミング、アクティブなイベント（新規または確認済みのイベント）か廃止されたイベントか、関連するワークロードとクラスタコンポーネント、およびイベントを解決するためのオプションを特定できます。 
+---
+= パフォーマンスイベントを分析しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+パフォーマンスイベントを分析して、イベントが検出されたタイミング、アクティブなイベント（新規または確認済みのイベント）か廃止されたイベントか、関連するワークロードとクラスタコンポーネント、およびイベントを解決するためのオプションを特定できます。

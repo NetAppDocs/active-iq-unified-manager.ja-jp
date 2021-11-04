@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html 
+sidebar: sidebar 
+keywords: contract, renewal, cluster, inventory report, hardware, generate 
+summary: ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含むレポートを生成できます。このレポートは、 NetAppActive IQ プラットフォームに接続されていないセキュアなサイト（「ダーク」サイト）で契約更新を行う際に役立ちます。 
+---
+= 契約更新用のハードウェアインベントリレポートの生成
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含むレポートを生成できます。このレポートは、 NetAppActive IQ プラットフォームに接続されていないセキュアなサイト（「ディレクトリ」）で契約更新を行う際に役立ちます。
+
+* 必要なもの *
+
+オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * Nodes * をクリックします。
+. 「 * Health ： All Nodes * view 」または「 * Performance ： All Nodes * view 」に移動します。
+. *Reports *>***>** Hardware Inventory Report* を選択します。
++
+ハードウェアインベントリレポートは、 .csv ファイルとしてダウンロードされ、現在の日付以降の完全な情報が表示されます。
+
+. この情報をネットアップのサポート担当者に提供して契約更新を申請します。
+

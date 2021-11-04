@@ -1,0 +1,50 @@
+---
+permalink: data-protection/task_configure_connection_between_workflow_automation_um.html 
+sidebar: sidebar 
+keywords: configure, connection, workflow, automation, unified manager 
+summary: OnCommand Workflow Automation （ WFA ）と Unified Manager の間にセキュアな接続を確立することができます。Workflow Automation に接続することで、 SnapMirror や SnapVault の設定ワークフロー、 SnapMirror 関係の管理用コマンドなどの保護機能を使用できるようになります。 
+---
+= Workflow Automation と Unified Manager の間の接続の設定
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+OnCommand Workflow Automation （ WFA ）と Unified Manager の間にセキュアな接続を確立することができます。Workflow Automation に接続することで、 SnapMirror や SnapVault の設定ワークフロー、 SnapMirror 関係の管理用コマンドなどの保護機能を使用できるようになります。
+
+* 必要なもの *
+
+* Workflow Automation のバージョン 5.1 以降がインストールされている必要があります。
++
+[NOTE]
+====
+WFA 5.1 には「 WFA pack for managing Clustered Data ONTAP 」が含まれています。したがって、以前のようにこのパックを NetAppStorage Automation Store からダウンロードして、 WFA サーバに個別にインストールする必要はありません。  https://automationstore.netapp.com/pack-list.shtml["ONTAP を管理するための WFA パック"]
+
+====
+* WFA と Unified Manager の接続をサポートするために Unified Manager で作成したデータベースユーザの名前を確認しておく必要があります。
++
+このデータベースユーザには、統合スキーマユーザロールが割り当てられている必要があります。
+
+* Workflow Automation で Administrator ロールまたは Architect のロールが割り当てられている必要があります。
+* ホストアドレス、ポート番号 443 、および Workflow Automation セットアップのユーザ名とパスワードが必要です。
+* アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+
+.手順
+. 左側のナビゲーションペインで、 * 一般 * > * Workflow Automation * をクリックします。
+. Workflow Automation ページ * の * データベースユーザ * 領域で、名前を選択し、 Unified Manager 接続と Workflow Automation 接続をサポートするために作成したデータベースユーザのパスワードを入力します。
+. ページの * Workflow Automation Credentials * 領域に、ホスト名または IP アドレス（ IPv4 または IPv6 ）、および Workflow Automation セットアップのユーザ名とパスワードを入力します。
++
+Unified Manager サーバのポート（ポート 443 ）を使用する必要があります。
+
+. [ 保存（ Save ） ] をクリックします。
+. 自己署名証明書を使用する場合は、 [* はい ] をクリックしてセキュリティ証明書を承認します。
++
+Workflow Automation ページが表示されます。
+
+. Web UI をリロードして Workflow Automation の機能を追加するには、「 * Yes 」をクリックします。
+
+
+* 関連情報 *
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550["ネットアップのマニュアル： OnCommand Workflow Automation （現在のリリース）"]

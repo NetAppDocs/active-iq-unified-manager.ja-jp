@@ -1,0 +1,118 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html 
+sidebar: sidebar 
+keywords: install, HTTPS, certificate, generated from external tools 
+summary: 自己署名または CA 署名の証明書をインストールできます。証明書は、 OpenSSL 、 BoringSSL 、 LetsEncrypt などの外部ツールを使用して生成されます。 
+---
+= 外部ツールを使用して生成された HTTPS 証明書のインストール
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+自己署名または CA 署名の証明書をインストールできます。証明書は、 OpenSSL 、 BoringSSL 、 LetsEncrypt などの外部ツールを使用して生成されます。
+
+秘密鍵と証明書チェーンをロードするのは、外部で生成された公開鍵と秘密鍵のペアであるためです。許可される鍵ペアアルゴリズムは「 RSA 」と「 EC 」です。［ 一般 ］ セクションの ［ HTTPS 証明書 ］ ページで、 ［ * HTTPS 証明書のインストール * ］ オプションを使用できます。アップロードするファイルは、次の入力形式である必要があります。
+
+. Active IQ UM ホストに属するサーバの秘密鍵
+. 秘密鍵と一致するサーバの証明書
+. ルートまでの CA の証明書（上記の証明書への署名に使用）
+
+
+
+
+== EC キーペアを含む証明書をロードするための形式
+
+許可される曲線は "prime256v1" と "`ecp384r1" です。外部で生成された EC ペアを含む証明書の例：
+
+[listing]
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+[listing]
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+
+== RSA キーペアを含む証明書をロードするための形式
+
+ホスト証明書に属する RSA キーペアで使用できるキーサイズは、 2048 、 3072 、および 4096 です。外部で生成された * RSA キーペア * の証明書：
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+証明書をアップロードしたら、 Active IQ Unified Manager インスタンスを再起動して変更を有効にする必要があります。
+
+
+
+== 外部で生成された証明書をアップロードする際にチェック
+
+システムは、外部ツールを使用して生成された証明書をアップロードする際にチェックを実行します。いずれかのチェックに失敗すると、証明書は拒否されます。また、製品内の CSR から生成された証明書、および外部ツールを使用して生成された証明書の検証も含まれます。
+
+* 入力された秘密鍵が、入力されたホスト証明書に照らして検証されます。
+* ホスト証明書の Common Name （ CN ；共通名）とホストの FQDN の照合が行われます。
+* ホスト証明書の Common Name （ CN ；共通名）を空または空白にしたり、 localhost に設定したりすることはできません。
+* 有効開始日は将来の日付にすることはできません。また、証明書の有効期限は過去の日付にすることはできません。
+* 中間 CA または CA が存在する場合、証明書の有効開始日を将来の日付にすることはできません。また、有効期限は過去の日付にすることはできません。
+
+
+[NOTE]
+====
+入力内の秘密鍵を暗号化しないでください。暗号化された秘密鍵がある場合、それらの秘密鍵はシステムで拒否されます。
+
+====
+例 1.
+
+[listing]
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+例 2
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+例 3
+
+[listing]
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----

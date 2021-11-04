@@ -1,0 +1,192 @@
+---
+permalink: install-linux/task_selinux_requirements_for_mounting_opt_netapp.html 
+sidebar: sidebar 
+keywords: unified manager, selinux requirements, mounting, nfs, cifs, share 
+summary: SELinux を有効にしている場合、 NAS デバイスまたは SAN デバイスに /opt/netapp または /opt/netapp/data をマウントする場合は、次の点を考慮する必要があります。 
+---
+= SELinux で NFS 共有と CIFS 共有に接続する必要がある
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SELinux を有効にしている場合 '/opt/netapp または /opt/netapp/data を NAS または SAN デバイスにマウントする場合は ' いくつかの考慮事項に注意する必要があります
+
+SELinux を有効にしている環境で、ルートファイルシステム以外の場所から「 /opt/netapp 」または「 /opt/netapp/data 」をマウントする場合、マウントされたディレクトリに正しいコンテキストを設定する必要があります。ご使用の環境で該当するシナリオについて、次の手順を実行して正しい SELinux コンテキストを設定および確認してください。
+
+
+
+== /opt/NetApp/data がマウントされている場合の SELinux コンテキストの設定
+
+システムに「 /opt/NetApp/data 」をマウントし、 SELinux が「 forcing 」に設定されている場合は、「 /opt/NetApp/data 」の SELinux コンテキストタイプが「 `m ysqld_db_t' 」に設定されていることを確認します。これは、データベースファイルの場所に対応するデフォルトのコンテキスト要素です。
+
+. 次のコマンドを実行してコンテキストを確認します。
++
+ls -DZ /opt/NetApp/data
+
++
+出力例を次に示します。
+
++
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp/data
+----
++
+
+NOTE: この出力では、コンテキストは「 default_t' 」です。このコンテキストを「 mysqld_db_t' 」に変更してください。
+
+. /opt/NetApp/data のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。
++
+.. 次のコマンドを実行して、コンテキストを「 `mysqld_db_t` 」に設定します。
+
+
+
+
+[listing]
+----
+semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
+restorecon -R -v /opt/netapp/data
+----
+. /etc/fstab に /opt/NetApp/data を設定している場合は '/etc/fstab ファイルを編集する必要があります/opt/NetApp/data/' マウント・オプションの場合は 'MySQL ラベルを次のように追加します
++
+`context=system_u:object_r:mysqld_db_t:s0`
+
+. コンテキストを有効にするために '/opt/NetApp/data/ をアンマウントして再マウントします
+. NFS を直接マウントしている場合は、次のコマンドを実行してコンテキストを「 m ysqld_db_t 」に設定します。
++
+`m ount <nfsshare>:/ <mountpoint>/opt/NetApp/data-o context=system_u:object_r:mysqld_db_t:s0`.コンテキストが正しく設定されているかどうかを確認します。
+
+
+
+ls -DZ /opt/NetApp/data/`
+
+出力例を次に示します。
+
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
+----
+
+
+== /opt/netapp がマウントされていて、 /opt/netapp/data も別途マウントされている場合に、 SELinux コンテキストを設定します
+
+このシナリオでは、最初に前のセクションで説明したように、「 /opt/NetApp/data/ 」のコンテキストを設定する必要があります。「 /opt/NetApp/data/ 」のコンテキストを正しく設定したら、親ディレクトリ「 /opt/netapp 」に SELinux コンテキストが「 file-t 」に設定されていないことを確認します。
+
+.手順
+. 次のコマンドを実行してコンテキストを確認します。
++
+ls -DZ /opt/netapp
+
++
+出力例を次に示します。
+
++
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:file_t:s0 /opt/netapp
+----
++
+この出力では ' コンテキストは 'file_t' に変更する必要があります次のコマンドは ' コンテキストを 'usr_t' に設定しますセキュリティ要件に基づいて 'file_t' 以外の任意の値にコンテキストを設定できます
+
+. /opt/netapp のマウント方法に基づいて、コンテキストを設定するには、次の手順を実行します。
++
+.. 次のコマンドを実行してコンテキストを設定します。
+
+
+
+
+[listing]
+----
+semanage fcontext -a -t usr_t "/opt/netapp"
+restorecon -v /opt/netapp
+----
+. /etc/fstab に /opt/netapp を設定している場合は '/etc/fstab ファイルを編集する必要があります/opt/netapp マウント・オプションの場合は 'mysql ラベルを次のように追加します
++
+`context=system_u:object_r:usr_t:s0`
+
+. コンテキストを有効にするために '/opt/netapp をアンマウントしてから再度マウントします
+. NFS を直接マウントした場合は、次のコマンドを実行してコンテキストを設定します。
++
+`m ount <nfsshare>:/ <mountpoint>/opt/NetApp-o context=system_u:object_r:usr_t:s0`
+
++
+.. コンテキストが正しく設定されているかどうかを確認します。
++
+ls -DZ /opt/netapp
+
++
+出力例を示します
+
+
+
+
+
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
+----
+
+
+== /opt/netapp がマウントされていて、 /opt/netapp/data が別途マウントされていない場合に、 SELinux コンテキストを設定します
+
+システムに「 /opt/netapp 」をマウントして、 SELinux が「 Enforcing 」に設定されている場合は、「 /opt/netapp 」の SELinux コンテキストタイプが「 m ysqld_db_t' 」に設定されていることを確認します。これは、データベースファイルの場所に対応するデフォルトのコンテキスト要素です。
+
+.手順
+. 次のコマンドを実行してコンテキストを確認します。
++
+ls -DZ /opt/netapp
+
++
+出力例を次に示します。
+
+
+
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp
+----
+
+NOTE: この出力では、コンテキストは「 default_t' 」です。このコンテキストを「 mysqld_db_t' 」に変更してください。
+
+. /opt/netapp のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。
++
+.. 次のコマンドを実行して、コンテキストを「 `mysqld_db_t` 」に設定します。
+
+
+
+
+[listing]
+----
+semanage fcontext -a -t mysqld_db_t "/opt/netapp"
+restorecon -R -v /opt/netapp
+----
+. /etc/fstab に /opt/netapp を設定している場合は '/etc/fstab ファイルを編集します/opt/NetApp/マウント ・オプションの場合は 'MySQL ラベルを次のように追加します
+
+
+[listing]
+----
+context=system_u:object_r:mysqld_db_t:s0
+----
+. コンテキストを有効にするために '/opt/NetApp/' をアンマウントしてから再度マウントします
+. NFS を直接マウントしている場合は、次のコマンドを実行してコンテキストを「 m ysqld_db_t 」に設定します。
+
+
+[listing]
+----
+mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:mysqld_db_t:s0
+----
+. コンテキストが正しく設定されているかどうかを確認します。
++
+ls -DZ /opt/NetApp/`
+
++
+出力例を次に示します。
+
+
+
+[listing]
+----
+drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/
+----
+'''

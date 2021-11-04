@@ -1,0 +1,53 @@
+---
+permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
+sidebar: sidebar 
+keywords: define, backup, schedule, linux, windows 
+summary: Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。 
+---
+= Linux と Windows のバックアップスケジュールの定義
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。
+
+* 必要なもの *
+
+* オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+* メンテナンスコンソールで、 Snapshot を作成するデスティネーションを特定するように NetApp Snapshot バックアップを設定しておく必要があります。
+
+
+数分で Snapshot バックアップが作成され、 Unified Manager データベースがロックされるのは数秒だけです。
+
+[NOTE]
+====
+新しいクラスタに追加してから最初の 15 日間に作成されたバックアップは、過去のパフォーマンスデータを取得するのに十分な精度がない可能性があります。
+
+====
+.手順
+. 左側のナビゲーションペインで、 * General * > * Database Backup * をクリックします。
+. [* データベース・バックアップ * ] ページで、 [ * バックアップ設定 * ] をクリックします。
+. 保持する Snapshot コピーの最大数を「 * Retention Count * 」フィールドに入力します。
++
+保持数のデフォルト値は 10 です。Snapshot コピーの最大数は、クラスタ上の ONTAP ソフトウェアのバージョンによって決まります。このフィールドを空白のままにすると、 ONTAP のバージョンに関係なく最大値を実装できます。
+
+. 「毎日スケジュール」または「毎週スケジュール」 * ボタンを選択し、スケジュールの詳細を指定します。
+. [ 適用（ Apply ） ] をクリックします。
+
+
+Snapshot バックアップファイルはスケジュールに基づいて作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。
+
+このボリュームと Snapshot の重要性により、次のいずれかの場合に通知を受けるために、このボリュームに対して 1 つまたは 2 つのアラートを作成することができます。
+
+* ボリュームスペースが 90% フルの場合。イベント「 * Volume Space Full 」を使用してアラートを設定します。
++
+ONTAP System Manager または ONTAP CLI を使用してボリュームに容量を追加し、 Unified Manager データベースのスペースが不足しないようにすることができます。
+
+* Snapshot が最大数に近づいています。イベント * Snapshot コピー数が多すぎる * を使用してアラートを設定してください。
++
+ONTAP System Manager または ONTAP CLI を使用して古い Snapshot を削除して、新しい Snapshot バックアップ用の空きスペースを常に確保することができます。
+
+
+
+アラートの設定は、 Alert Setup ページで行います。

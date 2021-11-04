@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_break_snapmirror_relationship.html 
+sidebar: sidebar 
+keywords: break, snapmirror, relationship, volume, relationship page 
+summary: 保護関係を解除して、 SnapMirror 関係にあるソースボリュームとデスティネーションボリュームの間のデータ転送を停止することができます。関係の解除は、データを移行する場合、ディザスタリカバリやアプリケーションのテストなどの目的で行うことがあります。デスティネーションボリュームは読み書き可能ボリュームに変わります。SnapVault 関係を解除することはできません。 
+---
+= ボリューム関係ページから SnapMirror 関係を解除します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保護関係を解除して、 SnapMirror 関係にあるソースボリュームとデスティネーションボリュームの間のデータ転送を停止することができます。関係の解除は、データを移行する場合、ディザスタリカバリやアプリケーションのテストなどの目的で行うことがあります。デスティネーションボリュームは読み書き可能ボリュームに変わります。SnapVault 関係を解除することはできません。
+
+* 必要なもの *
+
+* アプリケーション管理者またはストレージ管理者のロールが必要です。
+* Workflow Automation のセットアップが完了している必要があります。
+
+
+.手順
+. [ * ボリューム関係 * ] ページで、データ転送を停止する保護関係のある 1 つ以上のボリュームを選択し、ツールバーの [ * 解除 * ] をクリックします。
++
+[ 関係の解除（ Break Relationship ） ] ダイアログボックスが表示されます。
+
+. 「 * Continue * 」をクリックして関係を解除します。
+. ボリューム関係 * ページで、 * 関係状態 * 列に関係が解除されていることを確認します。
++
+デフォルトでは、 [ 関係の状態（ Relationship State ） ] 列は非表示になっているため、 [ 列の表示 / 非表示（ Show/Hide Column ） ] リストで選択する必要がある場合があります image:../media/icon_columnshowhide_sm_onc.gif[""]。
+
+

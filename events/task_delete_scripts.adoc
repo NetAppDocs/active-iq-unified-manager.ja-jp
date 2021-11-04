@@ -1,0 +1,25 @@
+---
+permalink: events/task_delete_scripts.html 
+sidebar: sidebar 
+keywords: delete, scripts 
+summary: 不要または無効になったスクリプトは、 Unified Manager から削除できます。 
+---
+= スクリプトの削除
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要または無効になったスクリプトは、 Unified Manager から削除できます。
+
+* 必要なもの *
+
+* アプリケーション管理者またはストレージ管理者のロールが必要です。
+* スクリプトがアラートに関連付けられていないことを確認する必要があります。
+
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Scripts * をクリックします。
+. [ * スクリプト * ] ページで、削除するスクリプトを選択し、 [ * 削除 ] をクリックします。
+. [ 警告 * ] ダイアログボックスで、 [ はい ] をクリックして削除を確認します。
+

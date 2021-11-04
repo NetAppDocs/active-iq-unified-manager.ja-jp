@@ -1,0 +1,19 @@
+---
+permalink: install-vapp/concept_introduction_to_unified_manager.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager 
+summary: Active IQ Unified Manager （旧 OnCommand Unified Manager ）を使用すると、 ONTAP ストレージシステムの健常性とパフォーマンスを 1 つのインターフェイスから監視および管理できます。Unified Manager は、 Linux サーバや Windows サーバに導入できるほか、 VMware ホストに仮想アプライアンスとして導入することもできます。 
+---
+= Active IQ Unified Manager の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager （旧 OnCommand Unified Manager ）を使用すると、 ONTAP ストレージシステムの健常性とパフォーマンスを 1 つのインターフェイスから監視および管理できます。Unified Manager は、 Linux サーバや Windows サーバに導入できるほか、 VMware ホストに仮想アプライアンスとして導入することもできます。
+
+インストールの完了後、管理対象のクラスタを追加すると、 Unified Manager のグラフィカルインターフェイスに、監視対象ストレージシステムの容量、可用性、保護、パフォーマンスのステータスが表示されます。
+
+* 関連情報 *
+
+https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]

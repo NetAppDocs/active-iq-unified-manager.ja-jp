@@ -1,0 +1,127 @@
+---
+permalink: events/reference_port_events.html 
+sidebar: sidebar 
+keywords: port, events, impact area, availability, performance 
+summary: ポートイベントは、クラスタポートに関するステータスを提供します。これにより、ポートが停止しているかどうかなど、ポート上の変更や問題を監視できます。 
+---
+= ポートイベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ポートイベントは、クラスタポートに関するステータスを提供します。これにより、ポートが停止しているかどうかなど、ポート上の変更や問題を監視できます。
+
+
+
+== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ポートステータス停止 (DocumentEvtPortStatusDown)
+ a| 
+インシデント
+ a| 
+ノード
+ a| 
+重要
+
+|===
+
+
+== 影響範囲：パフォーマンス
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ネットワークポート MBps の重大しきい値を超過（文書 NetworkPortMbpsIncident ）
+ a| 
+インシデント
+ a| 
+ポート
+ a| 
+重要
+
+
+
+ a| 
+ネットワークポート MBps の警告しきい値を超過（文書ネットワークポートの MbpsWarning ）
+ a| 
+リスク
+ a| 
+ポート
+ a| 
+警告
+
+
+
+ a| 
+FCP ポート MBps の重大しきい値を超過（ドキュメント FcpPortMbpsIncident ）
+ a| 
+インシデント
+ a| 
+ポート
+ a| 
+重要
+
+
+
+ a| 
+FCP ポート MBps の警告しきい値を超過（ドキュメント FcpPortMbpsWarning ）
+ a| 
+リスク
+ a| 
+ポート
+ a| 
+警告
+
+
+
+ a| 
+ネットワークポート利用率の重大しきい値を超過（ドキュメント NetworkPortUtilizationIncident ）
+ a| 
+インシデント
+ a| 
+ポート
+ a| 
+重要
+
+
+
+ a| 
+ネットワークポート利用率の警告しきい値を超過（ドキュメント NetworkPortUtilizationWarning ）
+ a| 
+リスク
+ a| 
+ポート
+ a| 
+警告
+
+
+
+ a| 
+FCP ポート利用率の重大しきい値を超過（ドキュメント FcpPortUtilizationIncident ）
+ a| 
+インシデント
+ a| 
+ポート
+ a| 
+重要
+
+
+
+ a| 
+FCP ポート利用率の警告しきい値を超過（ドキュメント FcpPortUtilizationWarning ）
+ a| 
+リスク
+ a| 
+ポート
+ a| 
+警告
+
+|===

@@ -1,0 +1,13 @@
+---
+permalink: performance-checker/concept_apply_filtering_to_correlated_objects.html 
+sidebar: sidebar 
+keywords: apply, filter, reduce, list, correlated, objects, grid 
+summary: フィルタを使用してグリッドに表示されるオブジェクトのサブセットを絞り込むことができます。たとえば、グリッドにボリュームが 25 個ある場合、フィルタを使用することで、それらのボリュームの中からスループットが 90MBps 未満のボリュームのみを表示したり、レイテンシが 1 ミリ秒 / 処理を超えるボリュームだけを表示したりできます 
+---
+= フィルタによるグリッドの関連オブジェクトのリストの絞り込み
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+フィルタを使用してグリッドに表示されるオブジェクトのサブセットを絞り込むことができます。たとえば、グリッドにボリュームが 25 個ある場合、フィルタを使用することで、それらのボリュームの中からスループットが 90MBps 未満のボリュームのみを表示したり、レイテンシが 1 ミリ秒 / 処理を超えるボリュームだけを表示したりできます

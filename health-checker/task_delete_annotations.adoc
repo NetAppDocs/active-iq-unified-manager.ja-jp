@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_delete_annotations.html 
+sidebar: sidebar 
+keywords: delete, annotations 
+summary: 不要になったカスタムアノテーションとその値を削除できます。 
+---
+= アノテーションを削除する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったカスタムアノテーションとその値を削除できます。
+
+* 必要なもの *
+
+* アプリケーション管理者またはストレージ管理者のロールが必要です。
+* アノテーションの値が他のアノテーションやグループルールで使用されていないことを確認する必要があります。
+
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Annotations * をクリックします。
+. [ * 注釈 * （ * Annotations * ） ] タブで、削除する注釈を選択する。
++
+選択したアノテーションの詳細が表示されます。
+
+. 選択したアノテーションとその値を削除するには、 * Actions * > * Delete * をクリックします。
+. 警告ダイアログボックスで、「 * はい * 」をクリックして削除を確認します。
+

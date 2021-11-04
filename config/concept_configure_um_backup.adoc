@@ -1,0 +1,15 @@
+---
+permalink: config/concept_configure_um_backup.html 
+sidebar: sidebar 
+keywords: configure, unified manager, backup 
+summary: Unified Manager のバックアップ機能は、ホストシステムおよびメンテナンスコンソールから実行する一連の設定手順で設定できます。 
+---
+= Unified Manager のバックアップを設定しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager のバックアップ機能は、ホストシステムおよびメンテナンスコンソールから実行する一連の設定手順で設定できます。
+
+設定手順の詳細については、『 Active IQ ® Unified Manager ワークフローガイド - クラスタ健全性管理』の「バックアップおよびリストア処理の管理」を参照してください。

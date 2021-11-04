@@ -1,0 +1,29 @@
+---
+permalink: install-vapp/task_download_unified_manager_ova_file.html 
+sidebar: sidebar 
+keywords: download, unified manager, installation, file 
+summary: Unified Manager のインストールファイルをネットアップサポートサイトからダウンロードして、 Unified Manager を仮想アプライアンスとして導入します。 
+---
+= Unified Manager インストールファイルをダウンロードします
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager のインストールファイルをネットアップサポートサイトからダウンロードして、 Unified Manager を仮想アプライアンスとして導入します。
+
+* 必要なもの *
+
+ネットアップサポートサイトのログインクレデンシャルが必要です。
+
+インストールファイルは「 OVA 」ファイルで、仮想アプライアンスで設定された Unified Manager ソフトウェアが含まれています。
+
+.手順
+. ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"]
+
+. 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
+. VMware vSphere インストール用の「 OVA 」ファイルをダウンロードし、 vSphere Client からアクセス可能なローカルディレクトリまたはネットワークディレクトリに保存します。
+. チェックサムを確認して、ソフトウェアが正しくダウンロードされたことを確認します。
+

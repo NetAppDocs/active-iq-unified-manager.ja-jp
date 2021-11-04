@@ -1,0 +1,13 @@
+---
+permalink: events/reference_list_of_events_and_severity_types.html 
+sidebar: sidebar 
+keywords: list, events, severity, types 
+summary: リストに表示されるイベントを使用して、イベントのカテゴリと名前、および Unified Manager に表示される各イベントの重大度タイプを確認することができます。イベントは、オブジェクトカテゴリごとにアルファベット順に一覧表示されます。 
+---
+= イベントおよび重大度タイプのリスト
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リストに表示されるイベントを使用して、イベントのカテゴリと名前、および Unified Manager に表示される各イベントの重大度タイプを確認することができます。イベントは、オブジェクトカテゴリごとにアルファベット順に一覧表示されます。

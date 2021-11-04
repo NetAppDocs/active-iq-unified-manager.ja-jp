@@ -1,0 +1,17 @@
+---
+permalink: install-linux/concept_overview_of_installation_sequence_um.html 
+sidebar: sidebar 
+keywords: overview, installation sequence 
+summary: 以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。 
+---
+= インストール手順の概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。
+
+このインストールガイドの各章では、次のワークフローに示されている各項目について説明します。
+
+image::../media/overall_um_install_flow.png[全体的な um インストールフロー]

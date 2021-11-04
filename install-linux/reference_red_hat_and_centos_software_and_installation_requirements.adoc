@@ -1,0 +1,109 @@
+---
+permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+sidebar: sidebar 
+keywords: linux software, installation requirements, system, authorization,  requirements 
+summary: Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。 
+---
+= Linux ソフトウェアとインストールの要件
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。
+
+
+
+== オペレーティングシステムソフトウェア
+
+Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。
+
+* x86_64 アーキテクチャに基づく Red Hat Enterprise Linux または CentOS バージョン 7.x および 8.x 。CentOS ストリームはサポートされていません。
+
+
+サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+
+NOTE: ネットアップは、 Microsoft System Center Configuration Manager （ SCCM ）などのサードパーティツールを使用した Unified Manager のインストールをサポートしていません。
+
+
+
+== サードパーティ製ソフトウェア
+
+Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 が Unified Manager にバンドルされて構成されています。
+
+次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
+
+* MySQL Community Edition バージョン 8.0.25 （ MySQL リポジトリから入手）
+* OpenJDK バージョン 11.0.12 （ Red Hat Extra Enterprise Linux Server リポジトリから入手）
+* Python 3.6.x
+* p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）
+
+
+[NOTE]
+====
+サードパーティ製ソフトウェアをアップグレードする前に、 Unified Manager の実行中のインスタンスをシャットダウンする必要があります。サードパーティ製ソフトウェアのインストールが完了したら、 Unified Manager を再起動できます。
+
+====
+
+
+== ユーザ認証の要件
+
+Linux システムへの Unified Manager のインストールは、 root ユーザに加え、「 sudo 」コマンドを使用すれば root 以外のユーザも実行できます。
+
+
+
+== インストールの要件
+
+Red Hat Enterprise Linux または CentOS とその関連リポジトリをシステムにインストールする際のベストプラクティスは次のとおりです。別の方法でインストールまたは設定されたシステム、またはオフプレミス（クラウド）に導入されたシステムでは、追加の手順が必要になる場合があります。また、 Unified Manager が適切に実行されない可能性があります。
+
+* Red Hat のベストプラクティスに従って Red Hat Enterprise Linux または CentOS をインストールし、次のデフォルトのオプションを選択する必要があります。デフォルトのオプションでは、「 GUI を使用するサーバ」ベース環境を選択します。
+* Red Hat Enterprise Linux または CentOS への Unified Manager のインストール中にインストールプログラムが必要なすべてのソフトウェアにアクセスしてインストールできるように、システムには該当するリポジトリへのアクセスが必要です。
+* yum` インストーラが Red Hat Enterprise Linux リポジトリで依存するソフトウェアを見つけるためには、 Red Hat Enterprise Linux のインストール中またはインストール後に有効な Red Hat サブスクリプションを使用してシステムを登録しておく必要があります。
++
+Red Hat Subscription Manager については、 Red Hat のドキュメントを参照してください。
+
+* 必要なサードパーティユーティリティがシステムに正しくインストールされるように、 Extra Packages for Enterprise Linux （ EPEL ）リポジトリを有効にする必要があります。
++
+システムで EPEL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。
+
++
+link:task_manually_configure_epel_repository.html["EPEL リポジトリを手動で設定します"]
+
+* 正しいバージョンの MySQL がインストールされていない場合は、システムに MySQL ソフトウェアが正しくインストールされるように MySQL リポジトリを有効にする必要があります。
++
+システムで MySQL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。
+
++
+link:task_manually_configure_mysql_repository.html["MySQL リポジトリを手動で設定する"]
+
+
+
+システムがインターネットにアクセスできず、インターネットに接続されたシステムからリポジトリがミラーリングされていない場合は、インストール手順に従ってシステムに必要な外部ソフトウェアを確認してください。必要なソフトウェアを特定したら、インターネットに接続されたシステムにそのソフトウェアをダウンロードし、「 .rpm 」ファイルを Unified Manager をインストールするシステムにコピーします。アーティファクトとパッケージをダウンロードするには 'yum install コマンドを使用する必要があります2 つのシステムで同じバージョンのオペレーティングシステムを実行していること、および該当する Red Hat Enterprise Linux バージョンまたは CentOS バージョンのサブスクリプションライセンスがあることを確認してください。
+
+[NOTE]
+====
+必要なサードパーティ製ソフトウェアは、ここに記載されたリポジトリ以外からはインストールしないでください。Red Hat リポジトリからインストールされるソフトウェアは、 Red Hat Enterprise Linux 用に特別に設計されたものであり、 Red Hat のベストプラクティス（ディレクトリのレイアウトや権限など）に準拠しています。他の場所から入手したソフトウェアは必ずしもこれらのガイドラインに従っていないため、原因 Unified Manager のインストールに失敗したり、将来のアップグレードで原因の問題が発生したりする可能性があります。
+
+====
+
+
+== ポート 443 の要件
+
+Red Hat Enterprise Linux および CentOS の汎用イメージは、ポート 443 への外部アクセスをブロックする場合があります。そのため、 Unified Manager のインストール後に管理者 Web UI に接続できなくなることがあります。次のコマンドを実行すると、汎用の Red Hat Enterprise Linux または CentOS システムのすべての外部ユーザとアプリケーションがポート 443 にアクセスできるようになります。
+
+`#firewall-cmd --zone=public--add-port =443/tcp--permanent; firewall-cmd --reload`
+
+Red Hat Enterprise Linux および CentOS は、「 GUI を使用するサーバ」ベース環境でインストールする必要があります。このベース環境は、 Unified Manager のインストール手順で使用されるコマンドを提供します。他のベース環境では、インストールを検証または完了するために追加のコマンドのインストールが必要になる場合があります。システムで「 firewall-cmd 」を使用できない場合は、次のコマンドを実行してこれをインストールする必要があります。
+
+#sudo yum install firewalld`
+
+コマンドを実行する前に IT 部門に問い合わせて、セキュリティポリシーで別の手順が必要かどうかを確認してください。
+
+[NOTE]
+====
+CentOS および Red Hat システムでは Transparent Huge Pages （ THP ）を無効にします。有効にすると、特定のプロセスがメモリを大量に消費して終了した場合に原因 Unified Manager をシャットダウンできる場合があります。
+
+====

@@ -1,0 +1,23 @@
+---
+permalink: storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html 
+sidebar: sidebar 
+keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation 
+summary: ONTAP の一部の問題については、 ONTAP System Manager や ONTAP CLI を使用する代わりに、 Unified Manager ユーザインターフェイスから直接修正することができます。「管理操作」オプションでは、 Unified Manager イベントをトリガーした ONTAP のさまざまな問題を修正できます。 
+---
+= ONTAP の問題または機能を Unified Manager から直接管理する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP の一部の問題を修正したり、 ONTAP の特定の機能を Unified Manager ユーザインターフェイスから直接管理したりできます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。「管理操作」オプションは、 Unified Manager イベントをトリガーした ONTAP のさまざまな問題に対する修正を提供します。
+
+左側のナビゲーションペインで * 管理操作 * オプションを選択すると、管理操作ページから直接問題を修正できます。管理操作は、ダッシュボードの管理操作パネル、イベントの詳細ページ、および左側のナビゲーションメニューのワークロード分析からも実行できます。
+
+問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。ランサムウェア対策の監視など、 ONTAP の一部の機能については、 Unified Manager で内部チェックが実行され、特定の対処が推奨されます。解決策がある場合は、 [ 管理アクション ] の [ * 修正 ] ボタンで表示されます。[* Fix it* （修正） ] ボタンをクリックして、問題を修正します。アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+Unified Manager からクラスタに ONTAP コマンドが送信され、要求された修正が実行されます。修正が完了すると、イベントは廃止状態になります。
+
+一部の管理操作では、 * すべて修正 * ボタンを使用して、複数のストレージオブジェクトで同じ問題を修正できます。たとえば、「ボリュームスペースがフル」イベントが発生しているボリュームが 5 つある場合に、「ボリュームの自動拡張を有効にする」の「すべてを修正」管理操作をクリックすると解決できます。ワンクリックで、この問題を 5 つのボリュームで修正できます。
+
+自動修正を使用して管理できる ONTAP の問題と機能については、を参照してください link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager で解決可能な問題"]

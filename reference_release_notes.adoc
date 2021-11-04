@@ -1,0 +1,15 @@
+---
+permalink: reference_release_notes.html 
+sidebar: sidebar 
+keywords: release notes, active iq unified manager 
+summary: Active IQ Unified Manager の新機能、制限事項、および既知の問題の概要を示します。 
+---
+= リリースノート
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager の新機能、制限事項、および既知の問題の概要を示します。
+
+詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2879275["Active IQ Unified Manager リリースノート"]。

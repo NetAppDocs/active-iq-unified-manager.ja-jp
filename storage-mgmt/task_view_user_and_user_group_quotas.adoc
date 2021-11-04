@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/task_view_user_and_user_group_quotas.html 
+sidebar: sidebar 
+keywords: view, user, user, group, quotas 
+summary: Storage VM / Health の詳細ページには、 SVM で設定されているユーザクォータとユーザグループクォータに関する情報が表示されます。ユーザまたはユーザグループの名前、ディスクとファイルに設定されている制限、ディスクとファイルの使用済みスペース、および通知用の E メールアドレスを確認できます。 
+---
+= ユーザクォータとユーザグループクォータの表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage VM / Health の詳細ページには、 SVM で設定されているユーザクォータとユーザグループクォータに関する情報が表示されます。ユーザまたはユーザグループの名前、ディスクとファイルに設定されている制限、ディスクとファイルの使用済みスペース、および通知用の E メールアドレスを確認できます。
+
+* 必要なもの *
+
+オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * Storage VM* をクリックします。
+. [ * 健常性：すべての Storage VM] ビューで、 Storage VM を選択し、 [ * ユーザクォータとグループクォータ * ] タブをクリックします。
+
+
+* 関連情報 *
+
+link:../config/task_add_users.html["ユーザを追加する"]

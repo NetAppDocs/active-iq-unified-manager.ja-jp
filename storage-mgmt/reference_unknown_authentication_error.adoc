@@ -1,0 +1,29 @@
+---
+permalink: storage-mgmt/reference_unknown_authentication_error.html 
+sidebar: sidebar 
+keywords: unknown, authentication, error 
+summary: トラブルシューティング：不明な認証エラーです 
+---
+= 不明な認証エラーです
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートユーザまたはリモートグループの追加、編集、削除、テストなどの認証に関連する操作を実行すると、「不明な認証エラー」というエラーメッセージが表示されることがあります
+
+* 原因 *
+
+この問題は、次のオプションに誤った値を設定した場合に発生することがあります。
+
+* Active Directory 認証サービスの管理者名
+* OpenLDAP 認証サービスのバインド識別名
+
+
+* 是正措置 *
+
+. 左側のナビゲーションペインで、 * 一般 * > * リモート認証 * をクリックします。
+. 選択した認証サービスに基づいて、管理者名またはバインド識別名に適切な情報を入力します。
+. [ 認証のテスト * ] をクリックして、指定した詳細で認証をテストします。
+. [ 保存（ Save ） ] をクリックします。
+

@@ -1,0 +1,23 @@
+---
+permalink: events/task_delete_alerts.html 
+sidebar: sidebar 
+keywords: delete, alerts 
+summary: 不要になったアラートを削除できます。たとえば、特定のリソースが Unified Manager の監視対象でなくなった場合、そのリソースに対して作成されたアラートを削除できます。 
+---
+= アラートの削除
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったアラートを削除できます。たとえば、特定のリソースが Unified Manager の監視対象でなくなった場合、そのリソースに対して作成されたアラートを削除できます。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Alert Setup * をクリックします。
+. [* アラート設定 * （ * Alert Setup * ） ] ページで、削除するアラートを選択し、 [ * 削除 * （ * Delete * ） ] をクリックします。
+. [ はい ] をクリックして、削除要求を確定します。
+

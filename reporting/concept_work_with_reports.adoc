@@ -1,0 +1,13 @@
+---
+permalink: reporting/concept_work_with_reports.html 
+sidebar: sidebar 
+keywords: work, reports 
+summary: 共有可能なスケジュール済みレポートにインベントリページビューを見つけてカスタマイズする方法について説明します。 
+---
+= レポートの操作
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+共有可能なスケジュール済みレポートにインベントリページビューを見つけてカスタマイズする方法について説明します。

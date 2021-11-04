@@ -1,0 +1,87 @@
+---
+section: api-automation
+title: REST API を使用してストレージを管理できます
+entries:
+- title: Active IQ Unified Manager での作業の開始
+  url: "/api-automation/concept_get_started_with_um_apis.html"
+  entries:
+  - title: このガイドの対象読者
+    url: "/api-automation/reference_intended_audience_for_this_guide.html"
+  - title: Active IQ Unified Manager API アクセスおよびカテゴリ
+    url: "/api-automation/concept_api_url_and_categories.html"
+  - title: Active IQ Unified Manager で提供される REST サービス
+    url: "/api-automation/concept_rest_services_offered_in_unified_manager_apis.html"
+  - title: Active IQ Unified Manager の API バージョン
+    url: "/api-automation/concept_rest_api_versioning_in_unified_manager_apis.html"
+  - title: ONTAP のストレージリソース
+    url: "/api-automation/concept_storage_resource_model.html"
+- title: Active IQ Unified Manager での REST API へのアクセスおよび認証
+  url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+  entries:
+  - title: Active IQ Unified Manager で使用される HTTP ステータスコード
+    url: "/api-automation/reference_authentication_errors.html"
+  - title: Active IQ Unified Manager で API を使用する際の推奨事項です
+    url: "/api-automation/reference_recommendations_to_use_um_apis.html"
+  - title: トラブルシューティング用のログ
+    url: "/api-automation/concept_api_logs.html"
+  - title: ジョブオブジェクトの非同期プロセス
+    url: "/api-automation/concept_async_run.html"
+  - title: Hello API server 」と入力します
+    url: "/api-automation/concept_hello_api_server.html"
+- title: Unified Manager REST API
+  url: "/api-automation/concept_um_apis_list_intro.html"
+  entries:
+  - title: データセンター内のストレージオブジェクトの管理
+    url: "/api-automation/concept_data_center_apis.html"
+  - title: プロキシアクセスを介して ONTAP API にアクセスする
+    url: "/api-automation/concept_gateway_apis.html"
+  - title: 管理タスクの実行
+    url: "/api-automation/concept_administration_apis.html"
+  - title: ユーザの管理
+    url: "/api-automation/concept_security_apis.html"
+  - title: パフォーマンス指標の表示
+    url: "/api-automation/concept_metrics_apis.html"
+  - title: ジョブおよびシステムの詳細を表示しています
+    url: "/api-automation/concept_job_api.html"
+  - title: イベントとアラートの管理
+    url: "/api-automation/concept_events_api.html"
+  - title: ワークロードの管理
+    url: "/api-automation/concept_manage_storage_workloads.html"
+    entries:
+    - title: ストレージワークロードの表示
+      url: "/api-automation/concept_view_workloads.html"
+    - title: アクセスエンドポイントの管理
+      url: "/api-automation/concept_manage_access_endpoint.html"
+    - title: Active Directory マッピングの管理
+      url: "/api-automation/concept_manage_active_directory.html"
+    - title: ファイル共有の管理
+      url: "/api-automation/concept_manage_fileshares_api.html"
+    - title: LUN の管理
+      url: "/api-automation/concept_manage_lun.html"
+    - title: パフォーマンスサービスレベルの管理
+      url: "/api-automation/concept_manage_psl.html"
+    - title: ストレージ効率化ポリシーの管理
+      url: "/api-automation/concept_manage_sep.html"
+- title: ストレージ管理の一般的なワークフロー
+  url: "/api-automation/concept_workflow_intro.html"
+  entries:
+  - title: アグリゲートのスペースの問題を特定しています
+    url: "/api-automation/concept_workflow_space_issue.html"
+  - title: イベントを使用してストレージオブジェクトの問題を特定する
+    url: "/api-automation/concept_events_workflows.html"
+  - title: ゲートウェイ API を使用した ONTAP ボリュームのトラブルシューティング
+    url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
+  - title: ワークロード管理のワークフロー
+    url: "/api-automation/concept_provision_workflow.html"
+    entries:
+    - title: クラスタの SVM の確認
+      url: "/api-automation/concept_verify_svm_workflow.html"
+    - title: CIFS および NFS ファイル共有のプロビジョニング
+      url: "/api-automation/concept_provision_file_share.html"
+    - title: LUN のプロビジョニング
+      url: "/api-automation/concept_provision_luns.html"
+    - title: ストレージワークロードの変更
+      url: "/api-automation/concept_modify_workloads_workflow.html"
+      entries:
+      - title: CIFS をサポートするための NFS ファイル共有の変更
+        url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

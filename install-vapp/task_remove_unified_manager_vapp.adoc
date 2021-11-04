@@ -1,0 +1,28 @@
+---
+permalink: install-vapp/task_remove_unified_manager_vapp.html 
+sidebar: sidebar 
+keywords: remove unified manager 
+summary: Unified Manager をアンインストールするには、 Unified Manager ソフトウェアがインストールされている仮想マシン（ VM ）を削除します。 
+---
+= Unified Manager を削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager をアンインストールするには、 Unified Manager ソフトウェアがインストールされている仮想マシン（ VM ）を削除します。
+
+* 必要なもの *
+
+* VMware vCenter Server と vSphere Web Client にアクセスするためのクレデンシャルが必要です。
+* Unified Manager サーバから Workflow Automation サーバへのアクティブな接続をすべて終了しておく必要があります。
+* 仮想マシン（ VM ）を削除する前に、 Unified Manager サーバからすべてのクラスタ（データソース）を削除しておく必要があります。
+
+
+.手順
+. Unified Manager メンテナンスコンソールを使用して、 Unified Manager サーバから外部のデータプロバイダへのアクティブな接続がないことを確認します。
+. vSphere Client で、 * Home * > * Inventory * > * VMs and Templates * をクリックします。
+. 削除する VM を選択し、 * Summary * タブをクリックします。
+. VM が実行中の場合は、 *Power*>* ゲストのシャットダウン * をクリックします。
+. 削除する VM を右クリックし、 * ディスクから削除 * をクリックします。
+

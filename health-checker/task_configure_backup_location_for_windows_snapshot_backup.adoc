@@ -1,0 +1,48 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
+sidebar: sidebar 
+keywords: configure, backup, location, windows 
+summary: Windows に Active IQ Unified Manager がインストールされている場合でも、 Snapshot バックアップを格納するようにボリュームを設定する必要があります。 
+---
+= Windows のバックアップの場所を設定しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Windows に Active IQ Unified Manager がインストールされている場合でも、 Snapshot バックアップを格納するようにボリュームを設定する必要があります。
+
+* 必要なもの *
+
+クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
+
+* クラスタの要件：
++
+** ONTAP 9.3 以降がインストールされている必要があります
+** Unified Manager サーバに地理的に近い場所に配置する必要があります
+** Unified Manager によって監視されます
+
+
+* Storage VM の要件：
++
+** ONTAP クラスタでの iSCSI 接続
+** 構成されたマシンで iSCSI プロトコルが有効になっている必要があります
+** バックアップ構成用に専用のボリュームと LUN を用意します。選択したボリュームには LUN が 1 つしか含まれていない必要があります。
+** LUN のサイズは、 9.9 Active IQ Unified Manager で処理されると想定されるデータサイズの 2 倍以上にする必要があります。
++
+これにより、ボリュームにも同じサイズ要件が設定されます。
+
+** すべての読み取り / 書き込みアクセスが選択されていることを確認します
+** エクスポートポリシーで Superuser Access が「 any 」に設定されていることを確認します
+
+
+* ボリュームと LUN の要件：
++
+** ボリュームのサイズは、 Unified Manager の MySQL データディレクトリの 2 倍以上にする必要があります。
+** セキュリティ形式は Windows に設定する必要があります
+** ローカル Snapshot ポリシーを無効にする必要があります
+** ボリュームのオートサイズを有効にする必要があります
+** パフォーマンス・サービス・レベルは 'Extreme など ' 高い IOPS と低い遅延を持つポリシーに設定する必要があります
+
+
+

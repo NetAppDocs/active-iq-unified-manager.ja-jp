@@ -1,0 +1,18 @@
+---
+permalink: health-checker/task_view_annotation_list_and_details.html 
+sidebar: sidebar 
+keywords: view, annotation list, details 
+summary: クラスタ、ボリューム、および Storage Virtual Machine （ SVM ）に動的に関連付けられるアノテーションのリストを確認することができます。また、概要、 Created By 、 Created Date 、 Values 、 rules などの詳細も参照できます。 およびアノテーションに関連付けられているオブジェクト。 
+---
+= アノテーションリストおよび詳細の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタ、ボリューム、および Storage Virtual Machine （ SVM ）に動的に関連付けられるアノテーションのリストを確認することができます。また、概要、 Created By 、 Created Date 、 Values 、 rules などの詳細も参照できます。 およびアノテーションに関連付けられているオブジェクト。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Annotations * をクリックします。
+. アノテーション * タブでアノテーション名をクリックすると、関連付けられている詳細が表示されます。
+

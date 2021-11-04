@@ -1,0 +1,25 @@
+---
+permalink: config/task_edit_authentication_servers.html 
+sidebar: sidebar 
+keywords: edit, authentication servers 
+summary: Unified Manager サーバが認証サーバとの通信に使用するポートを変更することができます。 
+---
+= 認証サーバを編集しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager サーバが認証サーバとの通信に使用するポートを変更することができます。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、 * 一般 * > * リモート認証 * をクリックします。
+. [ ネストされたグループの検索を無効にする *] ボックスをオンにします。
+. [* 認証サーバ * ] 領域で、編集する認証サーバを選択し、 [ * 編集 ] をクリックします。
+. Edit Authentication Server* ダイアログボックスで、ポートの詳細を編集します。
+. [ 保存（ Save ） ] をクリックします。
+

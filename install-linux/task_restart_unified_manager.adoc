@@ -1,0 +1,41 @@
+---
+permalink: install-linux/task_restart_unified_manager.html 
+sidebar: sidebar 
+keywords: restart, unified manager 
+summary: 設定を変更した場合、 Unified Manager の再起動が必要になることがあります。 
+---
+= Unified Manager を再開しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+設定を変更した場合、 Unified Manager の再起動が必要になることがあります。
+
+* 必要なもの *
+
+Unified Manager がインストールされている Red Hat Enterprise Linux サーバまたは CentOS サーバへの root ユーザアクセスが必要です。
+
+.手順
+. Unified Manager サービスを再起動するサーバに root ユーザとしてログインします。
+. Unified Manager サービスと関連する MySQL ソフトウェアを次の順序で停止します。
++
+'systemctl stop ocieau
+
++
+'systemctl stop ocie
+
++
+'systemctl stop mysqld
+
+. Unified Manager を次の順序で開始します。
++
+'ystemctl は mysqld' を起動します
+
++
+'ystemctl start ocie
+
++
+'systemctl start ocieau
+
+

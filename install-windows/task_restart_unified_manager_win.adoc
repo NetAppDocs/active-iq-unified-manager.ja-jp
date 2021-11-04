@@ -1,0 +1,69 @@
+---
+permalink: install-windows/task_restart_unified_manager_win.html 
+sidebar: sidebar 
+keywords: restart, unified manager 
+summary: 設定を変更した場合、 Unified Manager の再起動が必要になることがあります。 
+---
+= Unified Manager を再開しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+設定を変更した場合、 Unified Manager の再起動が必要になることがあります。
+
+* 必要なもの *
+
+Windows の管理者権限が必要です。
+
+.手順
+. デフォルトのローカル管理者アカウントで Windows にログインします。
+. Unified Manager のサービスを停止します。
++
+[cols="2*"]
+|===
+| 方法 | サービスを停止する順序 
+
+
+ a| 
+コマンドライン
+ a| 
+.. 「 ocie au 」が停止します
+.. 'c stop Oncommandsvc
+
+
+
+
+ a| 
+Microsoft Service Manager の略
+ a| 
+.. NetApp Active IQ 取得サービス（ Ocie-au ）
+.. NetApp Active IQ 管理サーバサービス（ Oncommandsvc ）
+
+
+|===
+. Unified Manager のサービスを開始します。
++
+[cols="2*"]
+|===
+| 方法 | サービスを開始する順序 
+
+
+ a| 
+コマンドライン
+ a| 
+.. 'c start Oncommandsvc
+.. 「 c start ocie-au 」を参照してください
+
+
+
+
+ a| 
+Microsoft Service Manager の略
+ a| 
+.. NetApp Active IQ 管理サーバサービス（ Oncommandsvc ）
+.. NetApp Active IQ 取得サービス（ Ocie-au ）
+
+
+|===
+

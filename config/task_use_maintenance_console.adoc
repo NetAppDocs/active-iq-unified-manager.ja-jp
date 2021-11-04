@@ -1,0 +1,13 @@
+---
+permalink: config/task_use_maintenance_console.html 
+sidebar: sidebar 
+keywords: use, maintenance, console 
+summary: メンテナンスコンソールでは、ネットワークの設定、 Unified Manager がインストールされているシステムの設定と管理、潜在的な問題の防止とトラブルシューティングに役立つその他のメンテナンスタスクを実行することができます。 
+---
+= メンテナンスコンソールを使用する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+メンテナンスコンソールでは、ネットワークの設定、 Unified Manager がインストールされているシステムの設定と管理、潜在的な問題の防止とトラブルシューティングに役立つその他のメンテナンスタスクを実行することができます。

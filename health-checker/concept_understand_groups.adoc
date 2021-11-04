@@ -1,0 +1,13 @@
+---
+permalink: health-checker/concept_understand_groups.html 
+sidebar: sidebar 
+keywords: understand, groups 
+summary: Unified Manager でグループを作成してストレージオブジェクトを管理できます。グループの概念とグループルールを使用してストレージオブジェクトをグループに追加する方法を理解しておくと、環境内のストレージオブジェクトを管理するのに役立ちます。 
+---
+= グループの概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager でグループを作成してストレージオブジェクトを管理できます。グループの概念とグループルールを使用してストレージオブジェクトをグループに追加する方法を理解しておくと、環境内のストレージオブジェクトを管理するのに役立ちます。

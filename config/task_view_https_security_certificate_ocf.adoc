@@ -1,0 +1,28 @@
+---
+permalink: config/task_view_https_security_certificate_ocf.html 
+sidebar: sidebar 
+keywords: view, https, security, certificate 
+summary: HTTPS 証明書の詳細をブラウザで取得した証明書と比較して、 Unified Manager に対するブラウザの暗号化された接続が妨害されていないことを確認できます。 
+---
+= HTTPS セキュリティ証明書の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+HTTPS 証明書の詳細をブラウザで取得した証明書と比較して、 Unified Manager に対するブラウザの暗号化された接続が妨害されていないことを確認できます。
+
+* 必要なもの *
+
+オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+
+証明書を表示すると、再生成された証明書の内容を検証したり、 Unified Manager へのアクセスに使用できる Subject Alternative Name （ SAN ）を表示したりできます。
+
+.ステップ
+. 左側のナビゲーションペインで、 * General * > * HTTPS Certificate * をクリックします。
++
+HTTPS 証明書がページの上部に表示されます
+
+
+
+HTTPS 証明書ページに表示されるものよりも詳細なセキュリティ証明書情報を表示する必要がある場合は、ブラウザで接続証明書を表示できます。

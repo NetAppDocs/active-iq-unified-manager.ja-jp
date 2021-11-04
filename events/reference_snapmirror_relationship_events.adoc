@@ -1,0 +1,138 @@
+---
+permalink: events/reference_snapmirror_relationship_events.html 
+sidebar: sidebar 
+keywords: snapmirror, relationship, events, impact area, protection 
+summary: SnapMirror 関係イベントは、非同期 SnapMirror 関係と同期 SnapMirror 関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期 SnapMirror 関係イベントは、 Storage VM とボリュームの両方に対して生成されますが、同期 SnapMirror 関係イベントはボリューム関係に対してのみ生成されます。Storage VM ディザスタリカバリ関係を構成するコンスティチュエントボリュームについては、イベントは生成されません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
+---
+= SnapMirror 関係イベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapMirror 関係イベントは、非同期 SnapMirror 関係と同期 SnapMirror 関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期 SnapMirror 関係イベントは、 Storage VM とボリュームの両方に対して生成されますが、同期 SnapMirror 関係イベントはボリューム関係に対してのみ生成されます。Storage VM ディザスタリカバリ関係を構成するコンスティチュエントボリュームについては、イベントは生成されません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+
+
+
+== 影響範囲：保護
+
+アスタリスク（ * ）は、 Unified Manager イベントに変換された EMS イベントを示します。
+
+[NOTE]
+====
+SnapMirror 関係のイベントは、 Storage VM ディザスタリカバリで保護されているが、コンスティチュエントオブジェクト関係については生成されません。
+
+====
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ミラーレプリケーションが正常でない（ ocument SnapmirrorRelationshipUnhealthy ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+警告
+
+
+
+ a| 
+ミラーレプリケーションを切断（ ocumentEvtSnapmirrorRelationshipStateBrokenoff ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+ミラーレプリケーションの初期化に失敗しました（ドキュメント SnapMirror 関係の初期化に失敗しました）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+ミラーレプリケーションの更新に失敗しました（ドキュメント： SnapmirrorRelationshipUpdateFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+ミラーレプリケーションの遅延エラー（「 Document EvtSnapMirrorRelationshipLagError 」）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+ミラーレプリケーションの遅延警告（「 Document 」「 SnapMirrorRelationshipLagWarning 」）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+警告
+
+
+
+ a| 
+ミラーレプリケーションの再同期失敗（ドキュメント： SnapmirrorRelationshipResyncFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+同期レプリケーションが同期されていない * （ syncSnapmirrorRelationshipOutofsync ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+警告
+
+
+
+ a| 
+同期レプリケーションをリストア * （同期 SnapMirror 関係は InSync ）
+ a| 
+イベント
+ a| 
+SnapMirror 関係
+ a| 
+情報
+
+
+
+ a| 
+同期レプリケーションの自動再同期失敗 * （ syncSnapmirrorRelationshipAutoSyncRetryFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+|===

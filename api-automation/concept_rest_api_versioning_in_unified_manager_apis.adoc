@@ -1,0 +1,22 @@
+---
+permalink: api-automation/concept_rest_api_versioning_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: api, version, active iq, unified, manager 
+summary: Active IQ Unified Manager の REST API URI には、バージョン番号が指定されます。たとえば、 /v2/dataCenter /SVM/SVMs のように指定します。/v2/dataCenter /SVM/SVMs のバージョン番号 v2 は、特定のリリースで使用されている API のバージョンを示しています。バージョン番号を指定することで、クライアントが処理可能な応答が返されるため、 API の変更によるクライアントソフトウェアへの影響が最小限に抑えられます。 
+---
+= Active IQ Unified Manager の API バージョン
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager の REST API URI には、バージョン番号が指定されます。たとえば、「 /v2/dataCenter /SVM/SVM.` 」のように指定します 「 /v2/datacenter /SVM/SVMs 」のバージョン番号「 v2 」は、特定のリリースで使用する API のバージョンを示します。バージョン番号を指定することで、クライアントが処理可能な応答が返されるため、 API の変更によるクライアントソフトウェアへの影響が最小限に抑えられます。
+
+このバージョン番号の数値部分は、リリースごとに増分されます。URI にバージョン番号を指定すると、今後のリリースで下位互換性を維持するための一貫したインターフェイスが提供されます。また、バージョンを持たないものと同じ API もあります。たとえば、「 /datacenter /SVM/SVMs 」は、バージョンを持たない基本 API を示します。ベース API は常に最新バージョンの API です。
+
+[NOTE]
+====
+Swagger インターフェイスの右上の領域で、使用する API のバージョンを選択できます。デフォルトでは、最新バージョンが選択されています。特定の API について、 Unified Manager インスタンスで使用可能な（最も大きな数字の）最新バージョンを使用することを推奨します。
+
+====
+すべての要求に対して、使用する API バージョンを明示的に指定する必要があります。バージョン番号が指定されている場合、アプリケーションが処理するように設計されていない応答要素は返されません。REST 要求には、バージョンパラメータを含める必要があります。以前のバージョンの API は、数回のリリース後、最終的に廃止されます。このリリースでは 'v1' バージョンの API は廃止されています

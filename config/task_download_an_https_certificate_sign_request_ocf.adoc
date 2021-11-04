@@ -1,0 +1,25 @@
+---
+permalink: config/task_download_an_https_certificate_sign_request_ocf.html 
+sidebar: sidebar 
+keywords: download, https, certificate, signing, request 
+summary: 認証局にファイルを送信して署名を求めるために、現在の HTTPS セキュリティ証明書の証明書署名要求をダウンロードできます。CA 署名証明書は、中間者攻撃を阻止するのに役立ち、自己署名証明書よりも強力なセキュリティ保護を実現します。 
+---
+= HTTPS 証明書署名要求のダウンロード
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+認証局にファイルを送信して署名を求めるために、現在の HTTPS セキュリティ証明書の証明書署名要求をダウンロードできます。CA 署名証明書は、中間者攻撃を阻止するのに役立ち、自己署名証明書よりも強力なセキュリティ保護を実現します。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、 * General * > * HTTPS Certificate * をクリックします。
+. [ * HTTPS 証明書署名要求のダウンロード * ] をクリックします。
+. 「 <hostname> .csr` 」ファイルを保存します。
+
+
+認証局にファイルを送信して署名を求め、署名済み証明書をインストールできます。

@@ -1,0 +1,35 @@
+---
+permalink: install-linux/task_download_unified_manager.html 
+sidebar: sidebar 
+keywords: download, Unified Manager 
+summary: Unified Manager をインストールするには、 Unified Manager の .zip ファイルをネットアップサポートサイトからダウンロードする必要があります。 
+---
+= Unified Manager をダウンロードしています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager をインストールするには、 Unified Manager の .zip ファイルをネットアップサポートサイトからダウンロードする必要があります。
+
+* 必要なもの *
+
+ネットアップサポートサイトのログインクレデンシャルが必要です。
+
+ダウンロードする Unified Manager のインストールパッケージは、 Red Hat Enterprise Linux と CentOS の両方のシステムで共通です。
+
+.手順
+. ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"]
+
+. 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
+. Linux 用の Unified Manager インストーラファイルをダウンロードし、 .zip ファイルをターゲットシステムのディレクトリに保存します。
++
+[NOTE]
+====
+使用している Red Hat Enterprise Linux システムに対応した正しいバージョンのインストーラファイルをダウンロードしていることを確認してください。Red Hat Enterprise Linux 7 と 8 のどちらをインストールしているかに基づいて、適切なバージョンの Unified Manager 「 .zip 」ファイルをダウンロードします。
+
+====
+. チェックサムを確認して、ソフトウェアが正しくダウンロードされたことを確認します。
+

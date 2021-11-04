@@ -1,0 +1,75 @@
+---
+permalink: events/task_add_scripts.html 
+sidebar: sidebar 
+keywords: add, scripts 
+summary: Unified Manager でスクリプトを追加し、アラートに関連付けることができます。アラートが生成されるとこれらのスクリプトが自動的に実行されるため、イベントが生成されたストレージオブジェクトに関する情報を取得できます。 
+---
+= スクリプトの追加
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager でスクリプトを追加し、アラートに関連付けることができます。アラートが生成されるとこれらのスクリプトが自動的に実行されるため、イベントが生成されたストレージオブジェクトに関する情報を取得できます。
+
+* 必要なもの *
+
+* Unified Manager サーバに追加するスクリプトを作成して保存しておく必要があります。
+* サポートされているスクリプトのファイル形式は、 Perl 、 Shell 、 PowerShell 、 Python 、および「 .bat 」ファイルです。
++
+|===
+| Unified Manager がインストールされているプラットフォーム | サポートされている言語 
+
+
+ a| 
+VMware
+ a| 
+Perl / シェルスクリプト
+
+
+
+ a| 
+Linux の場合
+ a| 
+Perl 、 Python 、シェルの各スクリプト
+
+
+
+ a| 
+Windows の場合
+ a| 
+PowerShell 、 Perl 、 Python 、 .bat スクリプト
+
+|===
++
+** Perl スクリプトを使用するには、 Perl が Unified Manager サーバにインストールされている必要があります。VMware 環境には Perl 5 がデフォルトでインストールされ、 Perl 5 のサポート対象のみがスクリプトでサポートされます。Unified Manager のあとに Perl をインストールした場合は、 Unified Manager サーバを再起動する必要があります。
+** PowerShell スクリプトを使用するには、スクリプトを実行するための適切な PowerShell 実行ポリシーが Windows サーバで設定されている必要があります。
+
+
++
+[NOTE]
+====
+スクリプトでログファイルを作成してアラートスクリプトの進捗を追跡する場合は、ログファイルが Unified Manager のインストールフォルダ内に作成されないようにする必要があります。
+
+====
+* アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+
+カスタムスクリプトをアップロードし、アラートに関するイベントの詳細を収集できます。
+
+[NOTE]
+====
+この機能がユーザインターフェイスに表示されない場合は、管理者によって無効にされています。この機能は、必要に応じて、 * Storage Management * > * Feature Settings * から有効にできます。
+
+====
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Scripts * をクリックします。
+. [ * スクリプト * ] ページで、 [ * 追加 ] をクリックします。
+. [ スクリプトの追加 * ] ダイアログボックスで、 [ * 参照 * ] をクリックしてスクリプトファイルを選択します。
+. 選択したスクリプトの概要を入力します。
+. [ 追加（ Add ） ] をクリックします。
+
+
+* 関連情報 *
+
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html["スクリプトアップロード機能の有効化と無効化"]

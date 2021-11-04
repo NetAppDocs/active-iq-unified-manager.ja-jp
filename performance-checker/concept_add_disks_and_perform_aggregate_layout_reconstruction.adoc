@@ -1,0 +1,19 @@
+---
+permalink: performance-checker/concept_add_disks_and_perform_aggregate_layout_reconstruction.html 
+sidebar: sidebar 
+keywords: add, disks, perform, aggregate, layout, reconstruction 
+summary: アグリゲートにディスクを追加することで、ストレージ容量を増やし、そのアグリゲートのパフォーマンスを高めることができます。ディスクの追加後は、アグリゲートを再構築したあとのパフォーマンスの改善だけを確認できます。 
+---
+= ディスクを追加してアグリゲートレイアウトを再構築する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アグリゲートにディスクを追加することで、ストレージ容量を増やし、そのアグリゲートのパフォーマンスを高めることができます。ディスクの追加後は、アグリゲートを再構築したあとのパフォーマンスの改善だけを確認できます。
+
+イベントの詳細ページにシステム定義のしきい値イベントが表示された場合、問題があるアグリゲートの名前がイベント概要のテキストに表示されます。このアグリゲートに対して、ディスクを追加してデータを再構築できます。
+
+アグリゲートに追加できるのは、クラスタにすでに存在しているディスクだけです。クラスタに使用可能なディスクが残っていない場合は、必要に応じて管理者に問い合わせるか追加のディスクを購入してください。ONTAP System Manager または ONTAP コマンドを使用して、アグリゲートにディスクを追加できます。
+
+http://www.netapp.com/us/media/tr-3838.pdf["テクニカルレポート 3838 ：『 Storage Subsystem Configuration Guide 』"]

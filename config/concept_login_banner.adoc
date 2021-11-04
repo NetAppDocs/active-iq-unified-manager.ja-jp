@@ -1,0 +1,15 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: この機能を使用すると、システムへのアクセスを許可されているユーザ、ログインおよびログアウト時の使用条件などの情報を組織で表示できます。 
+---
+= ログインバナーを追加しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ログインバナーを追加すると、システムへのアクセスを許可されているユーザ、ログインおよびログアウト時の使用条件などの情報を組織で表示できます。
+
+このログインバナーのポップアップは、ストレージオペレータや管理者など、ログイン、ログアウト、セッションタイムアウトの際に表示されます。

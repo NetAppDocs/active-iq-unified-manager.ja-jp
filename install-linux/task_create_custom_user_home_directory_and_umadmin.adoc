@@ -1,0 +1,60 @@
+---
+permalink: install-linux/task_create_custom_user_home_directory_and_umadmin.html 
+sidebar: sidebar 
+keywords: create, custom, user, home, directory, umadmin, password, prior, installation 
+summary: Unified Manager をインストールする前に、カスタムのホームディレクトリを作成し、 umadmin ユーザのパスワードを独自に定義できます。このタスクはオプションですが、サイトによっては Unified Manager のデフォルトのインストール設定とは異なる設定が必要になることがあります。 
+---
+= カスタムユーザのホームディレクトリと umadmin のパスワードを作成しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager をインストールする前に、カスタムのホームディレクトリを作成し、 umadmin ユーザのパスワードを独自に定義できます。このタスクはオプションですが、サイトによっては Unified Manager のデフォルトのインストール設定とは異なる設定が必要になることがあります。
+
+* 必要なもの *
+
+* に記載されたシステム要件を満たしている必要があります link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
+* Red Hat Enterprise Linux または CentOS のシステムに root ユーザとしてログインできる必要があります。
+
+
+Unified Manager のインストール時、デフォルト設定では次のタスクが実行されます。
+
+* umadmin ユーザが作成され、「 /home/umadmin 」がホームディレクトリに設定されます。
+* umadmin ユーザにデフォルトのパスワード「 admin 」を割り当てます。
+
+
+一部のインストール環境では '/home へのアクセスが制限されているため ' インストールは失敗しますホームディレクトリは別の場所に作成する必要があります。また、サイトによっては、パスワードの複雑さに関するルールが設定されている場合や、インストールプログラムではなくローカルの管理者が設定したパスワードが必要な場合があります。
+
+インストール環境でデフォルトのインストール設定とは異なる設定が必要な場合は、次の手順に従って、カスタムのホームディレクトリを作成し、 umadmin ユーザのパスワードを定義します。
+
+インストール前にこの情報を定義しておけば、インストールスクリプトで設定が検出され、定義した値がデフォルトのインストール設定の代わりに使用されます。
+
+また、 Unified Manager のデフォルトのインストールでは、 sudoers ファイル（「 ocum_sudoers 」と「 ocie_sudoers 」）の「 /etc/sudoers.d/ 」ディレクトリに umadmin ユーザが追加されています。セキュリティポリシーや一部のセキュリティ監視ツールによってこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。
+
+環境内のセキュリティポリシーでは、 Unified Manager メンテナンスユーザの sudo 権限を制限しないでください。制限されている権限があると、一部の Unified Manager 処理が失敗することがあります。インストールの完了後に umadmin ユーザとしてログインして、次の sudo コマンドを実行できることを確認します。
+
+'UDO /etc/init.d/ocie status
+
+エラーが発生せずに ocie サービスの適切なステータスが返されば問題ありません。
+
+.手順
+. サーバに root ユーザとしてログインします。
+. 「メンテナンス」という umadmin グループアカウントを作成します。
++
+「 groupadd maintenance 」
+
+. メンテナンスグループの任意のホームディレクトリにユーザアカウント「 umadmin 」を作成します。
++
+「 adduser -- home <home_directory\\>-g maintenance umadmin 」
+
+. umadmin のパスワードを定義します。
++
+「 passwd umadmin 」をクリックします
+
++
+umadmin ユーザの新しいパスワードの文字列を入力するように求められます。
+
+
+
+Unified Manager のインストールが完了したら、 umadmin ユーザのログインシェルを指定する必要があります。

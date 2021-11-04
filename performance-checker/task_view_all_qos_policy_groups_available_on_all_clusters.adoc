@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html 
+sidebar: sidebar 
+keywords: viewing, qos, policy, groups, available, clusters 
+summary: Unified Manager が監視しているクラスタで使用可能なすべての QoS ポリシーグループのリストを表示できます。これには、従来の QoS ポリシー、アダプティブ QoS ポリシー、および Unified Manager のパフォーマンスサービスレベルポリシーで管理される QoS ポリシーが含まれます。 
+---
+= すべてのクラスタで使用可能なすべての QoS ポリシーグループを表示する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager が監視しているクラスタで使用可能なすべての QoS ポリシーグループのリストを表示できます。これには、従来の QoS ポリシー、アダプティブ QoS ポリシー、および Unified Manager のパフォーマンスサービスレベルポリシーで管理される QoS ポリシーが含まれます。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * QoS Policy Groups * をクリックします。
++
+Performance ： Traditional QoS Policy Groups ビューがデフォルトで表示されます。
+
+. 使用可能な従来の各 QoS ポリシーグループの詳細な設定を表示します。
+. 展開ボタン（image:../media/chevron_down.gif[""]）をクリックし、ポリシーグループに関する詳細情報を表示します。
+. 表示メニューで、いずれかの追加オプションを選択してすべてのアダプティブ QoS ポリシーグループを表示するか、 Unified Manager のパフォーマンスサービスレベルを使用して作成されたすべての QoS ポリシーグループを表示します。
+

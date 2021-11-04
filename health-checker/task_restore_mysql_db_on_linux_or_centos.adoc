@@ -1,0 +1,55 @@
+---
+permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
+sidebar: sidebar 
+keywords: restore, linux system, mysql, database, backup 
+summary: データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Red Hat Enterprise Linux または CentOS システムにもリストアできます。 
+---
+= Linux システムでの MySQL データベースバックアップのリストア
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Red Hat Enterprise Linux または CentOS システムにもリストアできます。
+
+* 必要なもの *
+
+* Unified Manager がインストールされている Linux ホストの root ユーザのクレデンシャルが必要です。
+* Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
+* リストア処理を実行するシステムに Unified Manager のバックアップファイルとデータベースリポジトリディレクトリの内容をコピーしておく必要があります。
++
+バックアップファイルはデフォルトディレクトリ「 / 」「 data / ocum-backup 」にコピーすることをお勧めします。データベースリポジトリファイルは、「 ocum-backup」 ディレクトリの「 /`d atabase -dumps -repo 」サブディレクトリにコピーする必要があります。
+
+* バックアップファイルのタイプは「 .7z 」でなければなりません。
+
+
+リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager のバックアップは、同じバージョンの Unified Manager にのみリストアできます。Red Hat Enterprise Linux または CentOS システムにリストアできるのは、 Linux のバックアップファイルと仮想アプライアンスのバックアップファイルです。
+
+[TIP]
+====
+バックアップフォルダ名にスペースが含まれている場合は、絶対パスまたは相対パスを二重引用符で囲む必要があります。
+
+====
+.手順
+. 新しいサーバへのリストアを実行する場合は、 Unified Manager のインストールの完了後に、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。この情報は、リストアプロセスでバックアップファイルに取り込まれます。
+. Secure Shell を使用して、 Unified Manager システムの IP アドレスまたは完全修飾ドメイン名に接続します。
+. メンテナンスユーザ（ umadmin ）の名前とパスワードでシステムにログインします。
+. コマンド「 maintenance_console' 」を入力し、 Enter キーを押します。
+. メンテナンスコンソール * メインメニュー * で、 * バックアップリストア * オプションの番号を入力します。
+. 「 MySQL バックアップのリストア」 * の番号を入力します。
+. プロンプトが表示されたら、バックアップファイルの絶対パスを入力します。
++
+[listing]
+----
+Bundle to restore from: /data/ocum-backup/UM_9.8.N151113.1348_backup_rhel_02-20-2020-04-45.7z
+----
++
+リストア処理が完了したら、 Unified Manager にログインできます。
+
+
+
+バックアップをリストアしたあとに OnCommand Workflow Automation サーバが動作しない場合は、次の手順を実行します。
+
+. Workflow Automation サーバで、 Unified Manager サーバの IP アドレスを最新のマシンを参照するように変更します。
+. 手順 1 で取得に失敗した場合は、 Unified Manager サーバでデータベースパスワードをリセットします。
+

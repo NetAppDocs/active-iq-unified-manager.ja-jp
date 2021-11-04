@@ -1,0 +1,21 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: API ゲートウェイ機能を使用すると、 ONTAP を個別にログインせずに、複数の Active IQ Unified Manager クラスタを一元的に管理できます。 
+---
+= API ゲートウェイを有効にしてい
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API ゲートウェイ機能を使用すると、 ONTAP を個別にログインせずに、複数の Active IQ Unified Manager クラスタを一元的に管理できます。
+
+この機能は、 Unified Manager に最初にログインしたときに表示される設定ページから有効にできます。または、 * 一般 * > * 機能設定 * > * API ゲートウェイ * からこの機能を有効または無効にすることもできます。
+
+Unified Manager REST API と ONTAP REST API は別のものであり、 Unified Manager REST API を使用して ONTAP REST API のすべての機能を利用できるわけではありません。ただし、 Unified Manager では提供されていない特定の機能を管理するために ONTAP API にアクセスする必要がある場合は、 API ゲートウェイ機能を有効にして ONTAP API を実行できます。ゲートウェイは、ヘッダーと本文の形式を ONTAP API と同じにすることで、 API 要求をトンネリングするプロキシとして機能します。Unified Manager のクレデンシャルを使用して特定の API を実行することで、個々のクラスタのクレデンシャルを渡すことなく ONTAP クラスタにアクセスして管理することができます。Unified Manager は単一の管理ポイントとして機能し、 Unified Manager インスタンスで管理される ONTAP クラスタ全体で API を実行できます。API から返される応答は、対応する ONTAP REST API を ONTAP から直接実行した場合と同じです。
+
+この機能を有効にしたあと、 * メニューバー * > * ヘルプボタン * > * API ドキュメント * > * ゲートウェイ * カテゴリから Unified Manager REST API を実行できます。また、ホスト名または IP アドレスと URL を入力して、「 https://<hostname>/docs/api/` 」の形式で REST API ページにアクセスすることもできます
+
+API の詳細については、 Active IQ Unified Manager API 開発者ガイドを参照してください。

@@ -1,0 +1,76 @@
+---
+permalink: config/task_enable_remote_authentication.html 
+sidebar: sidebar 
+keywords: enable, remote, authentication 
+summary: Unified Manager サーバが認証サーバと通信できるように、リモート認証を有効にすることができます。認証サーバのユーザが Unified Manager のグラフィカルインターフェイスにアクセスしてストレージオブジェクトとデータを管理できるようになります。 
+---
+= リモート認証の有効化
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager サーバが認証サーバと通信できるように、リモート認証を有効にすることができます。認証サーバのユーザが Unified Manager のグラフィカルインターフェイスにアクセスしてストレージオブジェクトとデータを管理できるようになります。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+[NOTE]
+====
+Unified Manager サーバは認証サーバに直接接続する必要があります。SSSD （ System Security Services Daemon ）や NSLCD （ Name Service LDAP Caching Daemon ）などのローカルの LDAP クライアントは無効にする必要があります。
+
+====
+リモート認証は、 Open LDAP または Active Directory のいずれかを使用して有効にすることができます。リモート認証が無効になっていると、リモートユーザは Unified Manager にアクセスできません。
+
+リモート認証は、 LDAP と LDAPS （セキュアな LDAP ）でサポートされます。Unified Manager では、セキュアでない通信にはポート 389 、セキュアな通信にはポート 636 がデフォルトのポートとして使用されます。
+
+[NOTE]
+====
+ユーザの認証に使用する証明書は、 X.509 形式に準拠している必要があります。
+
+====
+.手順
+. 左側のナビゲーションペインで、 * 一般 * > * リモート認証 * をクリックします。
+. [Enable remote authentication...*] チェックボックスをオンにします。
+. [Authentication Service] フィールドで、サービスのタイプを選択し、認証サービスを設定します。
++
+[cols="2*"]
+|===
+| 認証タイプ | 入力する情報 
+
+
+ a| 
+Active Directory
+ a| 
+** 認証サーバの管理者名。次のいずれかの形式で指定します。
++
+*** 「ドメイン名 \ ユーザー名」
+*** 「 username @ domainname 」
+*** バインド識別名（適切な LDAP 表記を使用）
+
+
+** 管理者パスワード
+** ベース識別名（適切な LDAP 表記を使用）
+
+
+
+
+ a| 
+LDAP を開きます
+ a| 
+** バインド識別名（適切な LDAP 表記を使用）
+** バインドパスワード
+** ベース識別名
+
+
+|===
++
+Active Directory ユーザの認証に時間がかかる場合やタイムアウトする場合は、認証サーバからの応答に時間がかかっている可能性があります。Unified Manager でネストされたグループのサポートを無効にすると、認証時間が短縮される可能性があります。
+
++
+認証サーバに Secure Connection オプションを使用する場合、 Unified Manager は Secure Sockets Layer （ SSL ）プロトコルを使用して認証サーバと通信します。
+
+. * オプション： * 認証サーバを追加し、認証をテストします。
+. [ 保存（ Save ） ] をクリックします。
+

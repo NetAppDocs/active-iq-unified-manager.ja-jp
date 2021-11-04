@@ -1,0 +1,84 @@
+---
+permalink: install-windows/task_install_unified_manager_on_windows.html 
+sidebar: sidebar 
+keywords: install, unified manager 
+summary: Unified Manager をインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。 
+---
+= Unified Manager をインストールしています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager をインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。
+
+* 必要なもの *
+
+* Unified Manager をインストールするシステムがシステムおよびソフトウェアの要件を満たしている必要があります。
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]
+
++
+link:reference_windows_software_and_installation_requirements.html["Windows ソフトウェアとインストールの要件"]
+
++
+[NOTE]
+====
+Unified Manager 9.5 以降、 OpenJDK はインストールパッケージに含まれており、自動的にインストールされます。Unified Manager 9.5 以降では Oracle Java はサポートされません。
+
+====
+* Windows の管理者権限が必要です。ユーザ名の先頭に感嘆符「 ! 」が付いていないことを確認してください。インストールを実行するユーザのユーザ名の 1 文字目が「！」であると、 Unified Manager のインストールが失敗することがあります。
+* サポートされている Web ブラウザを用意しておきます。
+* Unified Manager のメンテナンスユーザのパスワードは 8~20 文字で指定し、アルファベットの大文字または小文字、数字、および特殊文字を含める必要があります。
+* メンテナンスユーザまたは MySQL の root ユーザのパスワードに次の特殊文字は使用できません。 " ' ' % 、 = &<> | ^ \ / （） []; ：
++
+次の特殊文字を使用できます。 ~ ！@ # $ * - ？。[+]
+
+
+
+.手順
+. デフォルトのローカル管理者アカウントで Windows にログインします。
+. ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"]
+
+. 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
+. Unified Manager Windows インストールファイルを Windows システムのターゲットディレクトリにダウンロードします。
+. インストールファイルが保存されているディレクトリに移動します。
+. Unified Manager インストーラの実行ファイル（ .exe ファイル）を右クリックし、管理者として実行します。
++
+Unified Manager により、不足しているサードパーティパッケージとインストールされているパッケージが検出されて表示されます。必要なサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。
+
+. 「 * 次へ * 」をクリックします。
+. ユーザ名とパスワードを入力してメンテナンスユーザを作成します。
+. データベース接続ウィザードで、 MySQL の root パスワードを入力します。
+. [ * 変更 * ] をクリックして、 Unified Manager のインストールディレクトリと MySQL のデータディレクトリの新しい場所を指定します。
++
+インストールディレクトリを変更しない場合は、デフォルトのインストールディレクトリに Unified Manager がインストールされます。
+
+. 「 * 次へ * 」をクリックします。
+. Ready to Install Shield ウィザードで、 * Install * をクリックします。
+. インストールが完了したら、「 * 完了 * 」をクリックします。
+
+
+インストールによって、複数のディレクトリが作成されます。
+
+* インストールディレクトリ
++
+インストール時に指定した Unified Manager のルートディレクトリです。例 : C:\Program Files\NetApp\`
+
+* MySQL データディレクトリ
++
+インストール時に指定した MySQL データベースの格納先ディレクトリです。例： C ： \ProgramData\MySQL\MySQLServerData\`
+
+* Java ディレクトリ
++
+OpenJDK がインストールされるディレクトリです。例： C ： \Program Files\NetApp\JDK\`
+
+* Unified Manager のアプリケーションデータディレクトリ（ appDataDir ）
++
+アプリケーションで生成されるすべてのデータが格納されるディレクトリです。ログ、サポートバンドル、バックアップなど、その他のすべてのデータが含まれます。例： C ： \ProgramData\NetApp\OnCommandAppData\`
+
+
+
+Web UI にアクセスして Unified Manager の初期セットアップを実行できます。手順については、を参照してください link:../config/concept_configure_unified_manager.html["『 Active IQ Unified Manager システム構成ガイド』"]。

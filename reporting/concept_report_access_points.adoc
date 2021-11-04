@@ -1,0 +1,24 @@
+---
+permalink: reporting/concept_report_access_points.html 
+sidebar: sidebar 
+keywords: access, points, generating, reports 
+summary: クラスタに関する情報を Unified Manager で収集して、 UI 、 MySQL データベースクエリ、 REST API からレポートを作成できます。 
+---
+= レポートを生成するためのアクセスポイント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタに関する情報を Unified Manager で収集して、 UI 、 MySQL データベースクエリ、 REST API からレポートを作成できます。
+
+このガイドでは、 Unified Manager の UI を使用したレポート作成とスケジュール設定について説明します。
+
+Unified Manager が提供するレポート機能には、次の 3 つの方法でアクセスできます。
+
+* UI のインベントリページからデータを直接抽出する。
+* Open Database Connectivity （ ODBC ）および ODBC のツールを使用して、使用可能なすべてのオブジェクトにアクセスする。
+* Unified Manager REST API を使用して確認したい情報を取得する。
+
+
+このガイドでは、 Unified Manager の UI を使用したレポート作成とスケジュール設定について説明します。

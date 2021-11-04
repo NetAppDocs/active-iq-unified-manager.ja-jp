@@ -1,0 +1,67 @@
+---
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+sidebar: sidebar 
+keywords: unified manager, migrate, virtual, appliance, linux system 
+summary: Unified Manager を実行するホストオペレーティングシステムを変更する場合は、 Unified Manager の MySQL データベースダンプバックアップを仮想アプライアンスから Red Hat Enterprise Linux システムまたは CentOS Linux システムにリストアすることができます。 
+---
+= Linux システムへの Unified Manager 仮想アプライアンスの移行
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager を実行するホストオペレーティングシステムを変更する場合は、 Unified Manager の MySQL データベースダンプバックアップを仮想アプライアンスから Red Hat Enterprise Linux システムまたは CentOS Linux システムにリストアすることができます。
+
+* 必要なもの *
+
+* 仮想アプライアンス：
++
+** オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+** リストア処理用に、 Unified Manager のメンテナンスユーザの名前を確認しておく必要があります。
+
+
+* Linux システム：
++
+** インストールガイドの手順に従って、 RHEL サーバまたは CentOS サーバに Unified Manager をインストールしておく必要があります。
+** このサーバの Unified Manager のバージョンは、バックアップファイルを使用する仮想アプライアンスのバージョンと同じである必要があります。
+** インストールが完了しても、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。この情報は、リストアプロセスでバックアップファイルに取り込まれます。
+** Linux ホストの root ユーザのクレデンシャルが必要です。
+
+
+
+
+ここでは、仮想アプライアンスにバックアップファイルを作成し、そのバックアップファイルを Red Hat Enterprise Linux または CentOS のシステムにコピーして、新しいシステムにデータベースバックアップをリストアする方法について説明します。
+
+.手順
+. 仮想アプライアンスで、 * Management * > * Database Backup * をクリックします。
+. [* データベース・バックアップ * ] ページで、 [ * バックアップ設定 * ] をクリックします。
+. バックアップパスを /jail / サポートに変更します。
+. Schedule （スケジュール）セクションで、 Scheduled Daily （毎日のスケジュール）を選択し、バックアップがすぐに作成されるように、現在の時刻から数分経過した時刻を入力します。
+. [ 適用（ Apply ） ] をクリックします。
+. バックアップが生成されるまで数時間待ちます。
++
+フルバックアップは 1GB を超えることもあり、完了までに 3~4 時間かかる場合があります。
+
+. Unified Manager がインストールされている Linux ホストに root ユーザとしてログインし、 SCP を使用して仮想アプライアンスのバックアップファイルのコピー元 / サポートを行います。 `root@<RHEL_server> ： /#scp-r admin@<vapp_server_ip_address > ： /support/*.`
++
+`root@ocum_RHEL-21:/ #scp-r admin@10.10.10.10 ： /support/ *
+
++
+/database-dumps-repo サブディレクトリに .7z バックアップファイルとすべての .7z リポジトリファイルがコピーされたことを確認してください。
+
+. コマンド・プロンプトで 'um backup restore -f /<backup_file_path >/<backup_file_name >` をリストアします
++
+「 um backup restore -f /UM_9.7.9.0.N151113.1348_backup_UNIX_02 -12-019-04-016.7z
+
+. リストア処理が完了したら、 Unified Manager Web UI にログインします。
+
+
+次のタスクを実行する必要があります。
+
+* 新しい HTTPS セキュリティ証明書を生成し、 Unified Manager サーバを再起動します。
+* Linux システムに jail / サポートパスがないため、バックアップパスを Linux システムのデフォルト設定（ /data/ocum-backup ）または任意の新しいパスに変更します。
+* WFA を使用している場合は、 Workflow Automation の接続の両側を再設定します。
+* SAML を使用している場合は、 SAML 認証の設定を再設定します。
+
+
+Linux システムですべてが想定どおりに動作していることを確認したら、 Unified Manager 仮想アプライアンスをシャットダウンして削除できます。

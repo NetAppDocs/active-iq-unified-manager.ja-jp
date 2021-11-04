@@ -1,0 +1,29 @@
+---
+permalink: config/concept_authentication_with_active_directory_or_openldap.html 
+sidebar: sidebar 
+keywords: authentication, active directory, openldap 
+summary: 管理サーバでリモート認証を有効にし、管理サーバが認証サーバと通信するように設定すると、認証サーバ内のユーザが Unified Manager にアクセスできるようになります。 
+---
+= Active Directory または OpenLDAP による認証
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理サーバでリモート認証を有効にし、管理サーバが認証サーバと通信するように設定すると、認証サーバ内のユーザが Unified Manager にアクセスできるようになります。
+
+事前定義された次の認証サービスのいずれかを使用するか、独自の認証サービスを指定できます。
+
+* Microsoft Active Directory の略
++
+[NOTE]
+====
+Microsoft のライトウェイトディレクトリサービスは使用できません。
+
+====
+* OpenLDAP
+
+
+必要な認証サービスを選択し、適切な認証サーバを追加してその認証サーバのリモートユーザが Unified Manager にアクセスできるようにします。リモートのユーザまたはグループのクレデンシャルは、認証サーバで管理されます。管理サーバでは、設定された認証サーバ内のリモートユーザの認証に Lightweight Directory Access Protocol （ LDAP ）を使用します。
+
+Unified Manager で作成されたローカルユーザについては、管理サーバのデータベースでユーザ名とパスワードが管理されます。管理サーバで認証が実行され、 Active Directory 認証または OpenLDAP 認証が使用されることはありません。

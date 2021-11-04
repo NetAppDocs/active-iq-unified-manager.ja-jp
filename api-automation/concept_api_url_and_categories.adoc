@@ -1,0 +1,71 @@
+---
+permalink: api-automation/concept_api_url_and_categories.html 
+sidebar: sidebar 
+keywords: active iq, unified manager, api, access, categories 
+summary: Active IQ Unified Manager API を使用して、環境内のストレージオブジェクトを管理およびプロビジョニングできます。Unified Manager Web UI にアクセスして、これらの機能の一部を実行することもできます。 
+---
+= Active IQ Unified Manager API アクセスおよびカテゴリ
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Active IQ Unified Manager API を使用して、環境内のストレージオブジェクトを管理およびプロビジョニングできます。Unified Manager Web UI にアクセスして、これらの機能の一部を実行することもできます。
+
+
+
+== REST API に直接アクセスするための URL の作成
+
+REST API には、 Python 、 C# 、 C ｛ pp ｝ 、 JavaScript などのプログラミング言語を使用して直接アクセスできます。 など。以下の形式でホスト名または IP アドレスと URL を入力して、 REST API にアクセスします
+
++ https://<hostname>/api+
+
+[NOTE]
+====
+デフォルトのポートは 443. です。環境に応じてポートを設定できます。
+
+====
+
+
+== オンラインの API ドキュメントページにアクセスする
+
+製品に付属の _API Documentation_reference コンテンツページにアクセスして API ドキュメントを表示することも、（ Swagger などのインターフェイス上の） API 呼び出しを手動で問題することもできます。このドキュメントにアクセスするには、 * メニューバー * > * ヘルプボタン * > * API ドキュメント * をクリックします
+
+または、以下の形式でホスト名または IP アドレスと URL を入力して、 REST API ページにアクセスします
+
++ https://<hostname>/docs/api/+
+
+
+
+== カテゴリ
+
+API 呼び出しは、領域またはカテゴリに基づいて機能的に分類されます。特定の API を検索するには、該当する API カテゴリをクリックします。
+
+Unified Manager に付属の REST API を使用して、管理、監視、およびプロビジョニングの各機能を実行できます。API は、次のカテゴリに分類されます。
+
+* * データセンター *
++
+このカテゴリには、 Work Flow Automation や Ansible などのツールを使用したデータセンターストレージの管理と分析に役立つ API が含まれています。このカテゴリの REST API は、クラスタ、ノード、アグリゲート、ボリューム、 LUN 、 データセンター内のファイル共有、ネームスペース、その他の要素。
+
+* * management-server *
++
+「 management-server * 」カテゴリの API には、「 jobs'system''' および「 events 」という API が含まれています。ジョブとは、 Unified Manager でのストレージオブジェクトまたはワークロードの管理に関連して、非同期の実行がスケジュールされている処理のことです。「 events 」 API はデータセンターのイベントを返し、「 system 」 API は Unified Manager インスタンスの詳細を返します。
+
+* * ストレージ・プロバイダ *
++
+このカテゴリには、ファイル共有、 LUN 、パフォーマンスサービスレベル、およびストレージ効率化ポリシーの管理とプロビジョニングに必要なすべてのプロビジョニング API が含まれています。また、アクセスエンドポイントや Active Directory を設定したり、ストレージワークロードにパフォーマンスサービスレベルとストレージ効率化ポリシーを割り当てたりすることもできます。
+
+* * 管理 *
++
+このカテゴリには、バックアップの設定の維持、 Unified Manager データソースの信頼ストア証明書の表示、 ONTAP クラスタを Unified Manager のデータソースとして管理するなどの管理タスクを実行するために使用する API が含まれます。
+
+* * ゲートウェイ *
++
+Unified Manager では、ゲートウェイカテゴリの API を使用して ONTAP REST API を呼び出し、データセンター内のストレージオブジェクトを管理できます。
+
+* * セキュリティ *
++
+このカテゴリには、 Unified Manager ユーザを管理するための API が含まれています。
+
+

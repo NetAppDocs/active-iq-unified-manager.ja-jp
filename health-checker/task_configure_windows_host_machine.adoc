@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_configure_windows_host_machine.html 
+sidebar: sidebar 
+keywords: netapp, snapshot, backup, windows, configure, windows host machine 
+summary: ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。 
+---
+= Windows ホスト・マシンを設定しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします
+
+* 必要なもの *
+
+ホストマシン上の以前の設定をすべてクリーンアップする必要があります。
+
+Windows の新規インストール時に iSCSI イニシエータを起動しようとすると、確認のプロンプトが表示され、確認のために [iSCSI Properties] ダイアログボックスが表示されます。既存の Windows インストールの場合は、非アクティブまたは接続しようとしているターゲットとともに iSCSI Properties （ iSCSI プロパティ）ダイアログボックスが表示されます。そのため、 Windows ホストで以前の設定をすべて削除する必要があります。
+
+.手順
+. ホストマシン上の以前の設定をクリーンアップします。
+. ターゲットポータルを検出する。
+. ターゲットポータルに接続します。
+. マルチパスを使用してターゲットポータルに接続します。
+. 両方の LIF を検出します。
+. Windows マシンでデバイスとして設定されている LUN を検出します。
+. Windows で、検出された LUN を新しいボリュームドライブとして設定します。
+

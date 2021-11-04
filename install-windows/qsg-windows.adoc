@@ -1,0 +1,52 @@
+---
+permalink: install-windows/qsg-windows.html 
+sidebar: sidebar 
+keywords: quick start guide, QSG, Windows QSG, quick installation, Windows installer 
+summary: Linux プラットフォームでの Unified Manager のクイックスタートガイドです。 
+---
+= Windows インストールのクイックスタート手順
+
+
+
+
+== システム要件
+
+* オペレーティングシステム： Microsoft Windows Server 2016 および 2019 の 64 ビット Standard Edition および Datacenter Edition次の言語がサポートされています。
++
+** 英語
+** 日本語
+** 簡体字中国語
+
+
+* RAM ： 12GB
+* CPU ：合計 9572MHz
+* 空きディスクスペース：インストールディレクトリ用に 100GB 、 MySQL データディレクトリ用に 50GB のディスクスペースが必要です
+
+
+システム要件の詳細については、を参照してください link:../install-windows/concept_requirements_for_installing_unified_manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
+
+
+
+== Active IQ Unified Manager をインストールしています
+
+
+
+=== インストーラをダウンロードします。
+
+. インストールパッケージ ActiveIQUnifiedManager-<version>.exe をダウンロードします。
+. インストールファイルをターゲットシステムのディレクトリにコピーします。
+
+
+
+
+=== Unified Manager をインストールします
+
+Unified Manager をインストールするには、 Microsoft .NET 4.5.2 以降のバージョンがインストールされている必要があります。インストールプロセスの一環として、 Unified Manager は必要に応じて他のサードパーティパッケージをインストールします。依存するソフトウェアパッケージの詳細については、を参照してください link:../install-windows/reference_windows_software_and_installation_requirements.html["Windows ソフトウェアとインストールの要件"]。
+
+. デフォルトのローカル管理者アカウントで Windows にログインします。
+. インストールファイルをダウンロードしたディレクトリで、 Unified Manager の実行ファイル（ .exe ファイル）を右クリックし、管理者として実行します。
+. プロンプトが表示されたら、ユーザ名とパスワードを入力して Unified Manager のメンテナンスユーザを作成します。
+. データベース接続ウィザードで、 MySQL の root パスワードを入力します。
+. 画面の指示に従ってインストールを完了します。
+. インストールの完了時に * Finish * をクリックすると、 Unified Manager Web UI が表示されます。
+

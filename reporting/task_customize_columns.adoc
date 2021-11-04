@@ -1,0 +1,22 @@
+---
+permalink: reporting/task_customize_columns.html 
+sidebar: sidebar 
+keywords: customize, columns 
+summary: '[ 表示 / 非表示 ] を使用して、レポートで使用する列を選択します。インベントリページで列をドラッグして並べ替えることができます。' 
+---
+= 列のカスタマイズ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+*Show/Hide * を使用して、レポートで使用する列を選択します。インベントリページで列をドラッグして並べ替えることができます。
+
+.手順
+. 列を追加または削除するには、 * 表示 / 非表示 * をクリックします。
++
+image::../media/show_hide_3.png[非表示 3 を表示します]
+
+. インベントリページで、列をドラッグしてレポートで必要な順序に並べ替えます。
+. 保存されていないビューに名前を付けて変更を保存します。
+

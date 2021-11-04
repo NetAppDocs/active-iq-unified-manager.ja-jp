@@ -1,0 +1,108 @@
+---
+permalink: events/reference_snapmirror_and_vault_relationship_events.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
+summary: 非同期ミラーバックアップ関係イベントは、非同期 SnapMirror 関係とバックアップ関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期ミラーバックアップ関係イベントは、ボリュームと Storage VM の両方の保護関係でサポートされます。ただし、 Storage VM ディザスタリカバリではバックアップ関係のみがサポートされません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
+---
+= 非同期ミラーバックアップ関係イベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同期ミラーバックアップ関係イベントは、非同期 SnapMirror 関係とバックアップ関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期ミラーバックアップ関係イベントは、ボリュームと Storage VM の両方の保護関係でサポートされます。ただし、 Storage VM ディザスタリカバリではバックアップ関係のみがサポートされません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+
+
+
+== 影響範囲：保護
+
+[NOTE]
+====
+また、 Storage VM ディザスタリカバリで保護されているものの、コンスティチュエントオブジェクト関係については生成されません。
+
+====
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+非同期ミラーバックアップが正常でない（ ocument EvtMirrorVaultRelationshipUnhealthy ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+警告
+
+
+
+ a| 
+非同期ミラーバックアップを切断（ Document EvtMirrorRelationshipStateBrokenoff ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+非同期ミラーバックアップの初期化失敗（ Document EvtMirrorVaultRelationshipInitializeFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+非同期ミラーバックアップの更新に失敗しました（ドキュメント EvtMirrorVaultRelationshipUpdateFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+非同期ミラーバックアップの遅延エラー（ Document EvtMirrorVaultRelationshipLagError ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+
+
+ a| 
+非同期ミラーバックアップの遅延警告（ Document EvtMirrorVaultRelationshipLagWarning ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+警告
+
+
+
+ a| 
+非同期ミラーバックアップの再同期失敗（ドキュメント EvtMirrorVaultRelationshipResyncFailed ）
+ a| 
+リスク
+ a| 
+SnapMirror 関係
+ a| 
+エラー
+
+|===
+[NOTE]
+====
+「 SnapMirror update failure 」イベントは、 Active IQ ポータル（ Config Advisor ）から生成されます。
+
+====

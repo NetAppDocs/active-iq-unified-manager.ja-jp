@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: すべてのボリュームとその現在の暗号化ステータスのリストを表示して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを確認できます。 
+---
+= すべてのボリュームの暗号化ステータスを表示します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+すべてのボリュームとその現在の暗号化ステータスのリストを表示して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを確認できます。
+
+* 必要なもの *
+
+オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+
+ボリュームに適用できる暗号化のタイプは次のとおりです。
+
+* ソフトウェア - NetApp Volume Encryption （ NVE ）または NetApp Aggregate Encryption （ NAE ）ソフトウェア暗号化ソリューションを使用して保護されているボリューム。
+* ハードウェア - NetApp Storage Encryption （ NSE ）ハードウェア暗号化を使用して保護されているボリューム。
+* ソフトウェアとハードウェア - ソフトウェア暗号化とハードウェア暗号化の両方で保護されているボリューム。
+* なし - 暗号化されていないボリューム。
+
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * Volumes * をクリックします。
+. [ 表示 ] メニューで、 [ * 正常性 * > * ボリューム暗号化 * ] を選択します
+. [* Health:Volumes Encryption* ] ビューで、 [* Encryption Type*] フィールドをソートするか、 [Filter] を使用して、特定の暗号化タイプを持つボリューム、または暗号化されていないボリュームを表示します（ [Encryption Type] は [None] ）。
+

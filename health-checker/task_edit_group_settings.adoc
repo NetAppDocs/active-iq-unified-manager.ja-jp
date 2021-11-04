@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_edit_group_settings.html 
+sidebar: sidebar 
+keywords: edit, groups 
+summary: Unified Manager で作成したグループの名前と概要を編集できます。 
+---
+= グループの編集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager で作成したグループの名前と概要を編集できます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+グループを編集して名前を更新する場合は、一意の名前を指定する必要があります。既存のグループ名は使用できません。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Groups * をクリックします。
+. [ * グループ * ] タブで、編集するグループを選択し、 [ * 編集 * ] をクリックします。
+. [ グループの編集 *] ダイアログボックスで、グループの名前、概要、またはその両方を変更します。
+. [ 保存（ Save ） ] をクリックします。
+

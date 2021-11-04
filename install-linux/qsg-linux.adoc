@@ -1,0 +1,58 @@
+---
+permalink: install-linux/qsg-linux.html 
+sidebar: sidebar 
+keywords: quick start guide, QSG, Linux QSG, RHEL QSG, quick installation 
+summary: Linux プラットフォームでの Unified Manager のクイックスタートガイドです。 
+---
+= Linux インストールのクイックスタート手順
+
+
+
+
+== システム要件
+
+* オペレーティングシステム： Red Hat Enterprise Linux および CentOS バージョン 7.x および 8.x （ x86_64 アーキテクチャに基づく）は、 OS インストーラの「ソフトウェア選択 * 」オプションの「 Server with GUI 」ベース環境を使用してインストールされます
+* RAM ： 12 GB 、 CPU ：合計 9572MHz
+* 空きディスク領域： /opt/NetApp/data ディレクトリに 100 GB のディスク領域、ルートパーティションに 50 GB 。個別にマウントされた '/opt/'/var/log' ディレクトリの場合は '/opt/'var/log' に 15 GB'/tmp に 10 GB の空き領域があることを確認してください
+
+
+システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください link:../install-linux/concept_requirements_for_install_unified_manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
+
+
+
+== Active IQ Unified Manager をインストールしています
+
+
+
+=== インストーラをダウンロードします。
+
+. ActiveIQUnifiedManager-< バージョン >.zip インストールパッケージをダウンロードします。
+. インストールファイルをダウンロードしたディレクトリで、次のコマンドを実行します。
++
+#unzip ActiveIQUnifiedManager-< バージョン >.zip
+
+
+
+
+
+=== リポジトリの構成を確認する
+
+Red Hat Enterprise Linux リポジトリまたは CentOS リポジトリを設定する手順はサイトによって異なります。インストール・パッケージに含まれている 'pre_install_check.sh' スクリプトを使用して ' オペレーティング・システムの構成を確認できますシステムがインターネットに接続されている場合は、 Red Hat Enterprise Linux リポジトリまたは CentOS リポジトリのセットアップ手順が自動的に表示されます。
+
+#sudo ./pre_install_check.sh
+
+
+
+=== Unified Manager をインストールします
+
+Unified Manager は 'yum' ユーティリティを使用してソフトウェアと依存するソフトウェアをインストールしますRed Hat Enterprise Linux または CentOS にはさまざまなイメージがインストールされるため、インストールするパッケージはイメージに含まれるソフトウェアによって異なります。yum`utility は ' インストールする依存ソフトウェアパッケージを決定します依存するソフトウェアパッケージの詳細については、を参照してください link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+
+Unified Manager をインストールするには、インストールファイルを解凍したディレクトリで、次のコマンドを root ユーザとして実行するか、「 sudo 」を使用して実行します。
+
+yum install NetApp-um <version>.x86_64.rpm`
+
+または
+
+'%sudo yum install NetApp-um <version>.x86_64.rpm
+
+インストールの完了時に、 Unified Manager Web UI に接続するための情報が表示されます。Web UI に接続できない場合は、ソフトウェアに同梱されている「 Reme 」ファイルを参照して、ポート 443 の制限についての詳細を確認してください。

@@ -1,0 +1,22 @@
+---
+permalink: data-protection/task_remove_workflow_automation.html 
+sidebar: sidebar 
+keywords: remove, oncommand, workflow, automation, setup, unified manager 
+summary: Workflow Automation が不要となった場合は、 Unified Manager から OnCommand Workflow Automation のセットアップを削除できます。 
+---
+= OnCommand Workflow Automation セットアップを Unified Manager から削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Workflow Automation が不要となった場合は、 Unified Manager から OnCommand Workflow Automation のセットアップを削除できます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+.手順
+. 左側のナビゲーションペインで、左の [ セットアップ ] メニューの [ 一般 *>* Workflow Automation * ] をクリックします。
+. [* Workflow Automation*] ページで、 [ セットアップの削除 ] をクリックします。
+

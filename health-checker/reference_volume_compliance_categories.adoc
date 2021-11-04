@@ -1,0 +1,48 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: Unified Manager は、次の表に示すボリューム暗号化パラメータを評価して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを判断します。 
+---
+= ボリュームコンプライアンスのカテゴリ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager は、次の表に示すボリューム暗号化パラメータを評価して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを判断します。
+
+ボリューム暗号化パラメータは、クラスタまたは Storage VM が準拠しているとみなされるかどうかには影響しません。
+
+[cols="2*"]
+|===
+| パラメータ | 説明 
+
+
+ a| 
+暗号化されたソフトウェア
+ a| 
+NetApp Volume Encryption （ NVE ）または NetApp Aggregate Encryption （ NAE ）ソフトウェア暗号化ソリューションを使用して保護されているボリュームの数が表示されます。
+
+
+
+ a| 
+ハードウェア暗号化
+ a| 
+NetApp Storage Encryption （ NSE ）ハードウェア暗号化を使用して保護されているボリュームの数が表示されます。
+
+
+
+ a| 
+ソフトウェアとハードウェアを暗号化
+ a| 
+ソフトウェア暗号化とハードウェア暗号化の両方で保護されているボリュームの数が表示されます。
+
+
+
+ a| 
+暗号化なし
+ a| 
+暗号化されていないボリュームの数が表示されます。
+
+|===

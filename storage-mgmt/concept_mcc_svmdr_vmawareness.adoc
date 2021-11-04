@@ -1,0 +1,90 @@
+---
+permalink: storage-mgmt/concept_mcc_svmdr_vmawareness.html 
+sidebar: sidebar 
+keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
+summary: MetroCluster 構成または Storage Virtual Machine （ Storage VM ）ディザスタリカバリ（ SVM DR ）セットアップでホストされているデータストアの設定とパフォーマンスの指標を表示できます。 
+---
+= ディザスタリカバリの設定における仮想インフラの表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+MetroCluster 構成または Storage Virtual Machine （ Storage VM ）ディザスタリカバリ（ SVM DR ）セットアップでホストされているデータストアの設定とパフォーマンスの指標を表示できます。
+
+Unified Manager では、 vCenter Server でデータストアとして接続された MetroCluster 構成の NAS ボリュームまたは LUN を表示できます。MetroCluster 構成でホストされるデータストアは、標準環境のデータストアと同じトポロジビューで表示されます。
+
+vCenter Server のデータストアにマッピングされている Storage VM ディザスタリカバリ構成内の NAS ボリュームまたは LUN を表示することもできます。
+
+
+
+== MetroCluster 構成のデータストアの表示
+
+MetroCluster 構成でデータストアを表示する前に、次の前提条件に注意してください。
+
+* スイッチオーバーとスイッチバックが発生した場合は、 HA ペアのプライマリクラスタとセカンダリクラスタ、および vCenter Server の検出が完了している必要があります。
+* HA ペアのプライマリクラスタとセカンダリクラスタ、および vCenter Server を Unified Manager で管理する必要があります。
+* ONTAP および vCenter Server で必要なセットアップを完了しておく必要があります。詳細については、 ONTAP および vCenter のドキュメントを参照してください。
++
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
+
+
+
+データストアを表示する手順は次のとおりです。
+
+. [* vmware*>* Virtual Machines *] ページで、データストアをホストする VM をクリックします。Workload Analyzer * または datastore オブジェクトのリンクをクリックします。ボリュームまたは LUN をホストしているプライマリサイトが想定どおりに機能している場合の標準的なシナリオでは、プライマリサイトの vServer クラスタの詳細を確認できます。
+. 災害が発生し、セカンダリサイトに連続的にスイッチオーバーすると、データストアのリンクからセカンダリクラスタ内のボリュームまたは LUN のパフォーマンス指標が示されます。これは、クラスタの次回のサイクルと、 vServer の検出（取得）が完了したあとに反映されます。
+. スイッチバックが成功すると、データストアのリンクにプライマリクラスタ内のボリュームまたは LUN のパフォーマンス指標が再び反映されます。これは、クラスタと vServer の次回の検出が完了したあとに反映されます。
+
+
+
+
+== Storage VM ディザスタリカバリ設定のデータストアの表示
+
+Storage VM ディザスタリカバリ構成でデータストアを表示する前に、次の前提条件に注意してください。
+
+* スイッチオーバーとスイッチバックが発生した場合は、 HA ペアのプライマリクラスタとセカンダリクラスタ、および vCenter Server の検出が完了している必要があります。
+* ソースクラスタとデスティネーションクラスタ、および Storage VM ピアの両方を Unified Manager で管理する必要があります。
+* ONTAP および vCenter Server で必要なセットアップを完了しておく必要があります。
++
+** NAS （ NFS および VMFS ）データストアの場合は、災害発生時にセカンダリ Storage VM の起動、データ LIF とルートの確認、 vCenter Server での切断された接続の確立、 VM の起動などの手順を実行します。
++
+プライマリサイトへのスイッチバックの場合は、プライマリサイトがデータの提供を開始する前にボリューム間のデータを同期する必要があります。
+
+** SAN （ iSCSI および FC for VMFS ）データストアの場合、 vCenter Server はマウントされた LUN を VMFS 形式でフォーマットします。災害が発生した場合は、セカンダリ Storage VM を起動し、データ LIF とルートを確認する手順が含まれます。iSCSI ターゲットの IP がプライマリ LIF と異なる場合は、手動で追加する必要があります。新しい LUN は、ホストのストレージアダプタの iSCSI アダプタでデバイスとして使用できる必要があります。以降は、新しい LUN を含む新しい VMFS データストアを作成し、古い VM を新しい名前で登録する必要があります。VM が起動して実行されている必要があります。
++
+リカバリの場合は、ボリューム間のデータを同期する必要があります。LUN を使用して新しい VMFS データストアを再度作成し、古い VM を新しい名前で登録する必要があります。
+
++
+セットアップの詳細については、 ONTAP および vCenter Server のドキュメントを参照してください。
+
++
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
+
+
+
+
+
+データストアを表示する手順は次のとおりです。
+
+. [* vmware*>* Virtual Machines *] ページで、データストアをホストする VM インベントリをクリックします。データストアオブジェクトのリンクをクリックします。標準的なシナリオでは、プライマリ Storage VM 内のボリュームと LUN のパフォーマンスデータを表示できます。
+. 災害が発生し、セカンダリ Storage VM に連続してスイッチオーバーされた場合、データストアのリンクからセカンダリ Storage VM 内のボリュームまたは LUN のパフォーマンス指標が参照されます。これは、クラスタの次回のサイクルと、 vServer の検出（取得）が完了したあとに反映されます。
+. スイッチバックが成功すると、データストアのリンクにプライマリ Storage VM のボリュームまたは LUN のパフォーマンス指標が再び反映されます。これは、クラスタと vServer の次回の検出が完了したあとに反映されます。
+
+
+
+
+== サポート対象外のシナリオです
+
+* MetroCluster 構成では、次の制限事項に注意してください。
++
+** 「 NORMAL 」状態と「 S WITCHOVER 」状態のクラスタのみが使用されます。「 PARTIAL 」スイッチオーバー、「 PARTIAL 」スイッチバック、「 NOT 」などの他の状態はサポートされていません。
+** 自動スイッチオーバー（ ASO ）が有効になっていない限り、プライマリクラスタがダウンした場合、セカンダリクラスタは検出できず、トポロジはプライマリクラスタ内のボリュームまたは LUN を引き続き参照します。
+
+
+* Storage VM ディザスタリカバリ構成では、次の制限に注意してください。
++
+** Site Recovery Manager （ SRM ）または Storage Replication Adapter （ SRA ）が SAN ストレージ環境で有効になっている構成はサポートされません。
+
+
+

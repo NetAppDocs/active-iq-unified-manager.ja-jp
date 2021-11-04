@@ -1,0 +1,13 @@
+---
+permalink: reporting/concept_customize_svm_reports.html 
+sidebar: sidebar 
+keywords: customize, storage, vm reports 
+summary: Storage VM レポートを作成して、ボリューム情報を分析したり、全体の健全性とストレージの可用性を確認したりできます。たとえば、レポートを作成して、ボリューム数の上限に達した SVM を表示したり、停止した SVM を分析したりできます。 
+---
+= Storage VM レポートのカスタマイズ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage VM レポートを作成して、ボリューム情報を分析したり、全体の健全性とストレージの可用性を確認したりできます。たとえば、レポートを作成して、ボリューム数の上限に達した SVM を表示したり、停止した SVM を分析したりできます。

@@ -1,0 +1,13 @@
+---
+permalink: events/concept_manage_events.html 
+sidebar: sidebar 
+keywords: manage, events 
+summary: イベントによって、監視対象のクラスタ内の問題を特定できます。 
+---
+= イベントの管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イベントによって、監視対象のクラスタ内の問題を特定できます。

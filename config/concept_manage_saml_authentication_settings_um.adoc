@@ -1,0 +1,15 @@
+---
+permalink: config/concept_manage_saml_authentication_settings_um.html 
+sidebar: sidebar 
+keywords: manage, saml, authentication, settings 
+summary: リモート認証の設定が完了したら、 Security Assertion Markup Language （ SAML ）認証を有効にして、 Unified Manager の Web UI にアクセスするリモートユーザをセキュアなアイデンティティプロバイダ（ IdP ）で認証するように設定できます。 
+---
+= SAML 認証の設定を管理する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモート認証の設定が完了したら、 Security Assertion Markup Language （ SAML ）認証を有効にして、 Unified Manager の Web UI にアクセスするリモートユーザをセキュアなアイデンティティプロバイダ（ IdP ）で認証するように設定できます。
+
+SAML 認証を有効にしたあとで Unified Manager のグラフィカルユーザインターフェイスにアクセスできるのはリモートユーザのみです。ローカルユーザとメンテナンスユーザは UI にアクセスできません。この設定は、メンテナンスコンソールにアクセスするユーザには影響しません。

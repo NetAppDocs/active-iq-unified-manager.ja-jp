@@ -1,0 +1,17 @@
+---
+permalink: data-protection/concept_what_jobs_are.html 
+sidebar: sidebar 
+keywords: jobs 
+summary: ジョブは、 Unified Manager を使用して監視できる一連のタスクです。ジョブとその関連タスクを表示すると、それらが正常に完了したかどうかを確認できます。 
+---
+= ジョブとは
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ジョブは、 Unified Manager を使用して監視できる一連のタスクです。ジョブとその関連タスクを表示すると、それらが正常に完了したかどうかを確認できます。
+
+SnapMirror 関係と SnapVault 関係の作成時、関係の操作（解除、編集、休止、削除、再開、 再同期、逆再同期）、データのリストアタスクを実行したとき、クラスタにログインしたときなど。
+
+ジョブを開始すると、ジョブページおよびジョブの詳細ページを使用して、ジョブおよび関連するジョブタスクの進捗状況を監視できます。

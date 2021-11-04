@@ -1,0 +1,17 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: Active IQ Unified Manager では、 Storage VM ディザスタリカバリ関係の監視がサポートされており、ディザスタリカバリは Storage VM レベルできめ細かく実行できます。Storage VM ディザスタリカバリを使用すると、 Storage VM のコンスティチュエントボリュームに存在するデータをリカバリしたり、 Storage VM の設定をリカバリしたりできます。 
+---
+= Storage VM ディザスタリカバリ保護関係を監視しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager では、 Storage VM ディザスタリカバリ関係の監視がサポートされており、ディザスタリカバリは Storage VM レベルできめ細かく実行できます。Storage VM ディザスタリカバリを使用すると、 Storage VM のコンスティチュエントボリュームに存在するデータをリカバリしたり、 Storage VM の設定をリカバリしたりできます。
+
+非同期のディザスタリカバリを実現するために、ソース Storage VM からデスティネーション Storage VM への Storage VM DR 関係が作成されます。クラスタのセットアップに基づいて、データボリュームと一緒に Storage VM の設定をすべてレプリケートするか一部だけ（ネットワークとプロトコルの設定を除く）レプリケートするかを選択できます。
+
+Storage VM ディザスタリカバリ関係の設定後、ハードウェア障害や環境障害が原因でソース Storage VM が使用できなくなったときに、デスティネーション Storage VM が起動し、最小限のシステム停止でデータへのアクセスが提供されます。同様に、ソース Storage VM が使用可能になると、デスティネーション Storage VM と再同期され、ソースからデータの提供が再開されます。SnapMirror コマンドを使用して、 Storage VM ディザスタリカバリ関係を設定および管理できます。

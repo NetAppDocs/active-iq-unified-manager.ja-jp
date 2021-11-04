@@ -1,0 +1,40 @@
+---
+permalink: api-automation/concept_events_workflows.html 
+sidebar: sidebar 
+keywords: determine, issues, storage, objects, events 
+summary: データセンターのストレージオブジェクトがしきい値を超えると、そのイベントに関する通知が表示されます。この通知を使用すると、問題を分析し、イベント API を使用して対処することができます。 
+---
+= イベントを使用してストレージオブジェクトの問題を特定する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+データセンターのストレージオブジェクトがしきい値を超えると、そのイベントに関する通知が表示されます。この通知を使用すると、問題を分析し、「 events 」 API を使用して修正措置をとることができます。
+
+このワークフローでは、リソースオブジェクトとしてボリュームの例を使用します。「 events 」 API を使用すると、ボリュームに関連するイベントのリストを取得し、そのボリュームの重要な問題を分析してから、問題を修正するための修正措置を講じることができます。
+
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[ストレージオブジェクトフローチャートのイベント関連の問題への対処]
+
+修復手順を実行する前に、次の手順に従ってボリュームの問題を特定します。
+
+.手順
+. データセンター内のボリュームに関する重要な Active IQ Unified Manager イベント通知を分析できます。
+. /management-server/events API で次のパラメータを使用して、ボリュームのすべてのイベントを照会します。 "" * resource_type"" ： "" volume * "" * severity "" ： "" critical *""
++
+[cols="3*"]
+|===
+| カテゴリ | HTTP 動詞 | パス 
+
+
+ a| 
+management-server
+ a| 
+取得
+ a| 
+/management-server / イベント
+
+|===
+. の出力を確認し、特定のボリュームの問題を分析します。
+. Unified Manager REST API または Web UI を使用して必要な操作を実行し、問題を解決します。
+

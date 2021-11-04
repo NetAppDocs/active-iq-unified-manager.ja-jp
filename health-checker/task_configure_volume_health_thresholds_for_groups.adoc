@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_configure_volume_health_thresholds_for_groups.html 
+sidebar: sidebar 
+keywords: configure, volume, health, thresholds, groups 
+summary: ボリュームの容量、 Snapshot コピー、 qtree クォータ、増加率、および inode について、グループレベルで健全性しきい値を設定することができます。 
+---
+= グループに対するボリューム健常性しきい値を設定する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームの容量、 Snapshot コピー、 qtree クォータ、増加率、および inode について、グループレベルで健全性しきい値を設定することができます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+ボリューム健全性しきい値タイプのグループ操作は、グループのボリュームにのみ適用されます。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Groups * をクリックします。
+. [ * グループアクション * ] タブで、 [ * 追加 * ] をクリックします。
+. グループ操作の名前と概要を入力します。
+. [* グループ *] ドロップダウンボックスから、グループアクションを設定するグループを選択します。
+. ボリュームの健常性しきい値として「 * Action Type * 」を選択します。
+. しきい値を設定するカテゴリを選択します。
+. 健常性しきい値の必要な値を入力します。
+. [ 追加（ Add ） ] をクリックします。
+

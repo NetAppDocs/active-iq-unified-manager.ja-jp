@@ -1,0 +1,21 @@
+---
+permalink: health-checker/reference_description_of_cluster_object_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, cluster, object, windows, dialog boxes 
+summary: それぞれのストレージオブジェクトのページで、すべてのクラスタおよびクラスタオブジェクトを表示できます。対応するストレージオブジェクトの詳細ページで詳細を確認することもできます。インベントリの次のストレージおよび保護セクションから System Manager ユーザインターフェイスを起動できるようになりました。 
+---
+= クラスタオブジェクトのウィンドウとダイアログボックスの概要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+それぞれのストレージオブジェクトのページで、すべてのクラスタおよびクラスタオブジェクトを表示できます。対応するストレージオブジェクトの詳細ページで詳細を確認することもできます。インベントリの次のストレージおよび保護セクションから System Manager ユーザインターフェイスを起動できるようになりました。
+
+* クラスタインベントリ、クラスタヘルス、およびクラスタパフォーマンスの各ページ
+* アグリゲートのインベントリページ、アグリゲートの健常性ページ、およびアグリゲートのパフォーマンスページ
+* ボリュームのインベントリ、ボリュームの健常性、およびボリュームのパフォーマンスの各ページ
+* ノードのインベントリページとノードのパフォーマンスページ
+* StorageVM Inventory 、 StorageVM Health 、 StorageVM Performance の各ページ
+* 保護関係のページ
+

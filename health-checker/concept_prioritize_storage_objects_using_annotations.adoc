@@ -1,0 +1,13 @@
+---
+permalink: health-checker/concept_prioritize_storage_objects_using_annotations.html 
+sidebar: sidebar 
+keywords: prioritize, storage, object, events, annotations 
+summary: アノテーションルールを作成してストレージオブジェクトに適用すると、適用されたアノテーションのタイプとその優先度に基づいてオブジェクトを特定し、フィルタリングできるようになります。 
+---
+= アノテーションを使用したストレージオブジェクトイベントの優先順位の設定
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アノテーションルールを作成してストレージオブジェクトに適用すると、適用されたアノテーションのタイプとその優先度に基づいてオブジェクトを特定し、フィルタリングできるようになります。

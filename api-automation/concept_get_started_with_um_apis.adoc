@@ -1,0 +1,17 @@
+---
+permalink: api-automation/concept_get_started_with_um_apis.html 
+sidebar: sidebar 
+keywords: active iq, unified manager 
+summary: Active IQ Unified Manager には、サポート対象のストレージシステム上のストレージリソースを RESTful Web サービスインターフェイスを介して管理するための一連の API が用意されており、サードパーティ製品との統合に使用できます。 
+---
+= Active IQ Unified Manager での作業の開始
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager には、サポート対象のストレージシステム上のストレージリソースを RESTful Web サービスインターフェイスを介して管理するための一連の API が用意されており、サードパーティ製品との統合に使用できます。
+
+Unified Manager API 開発者ガイド _ には、 API とサンプルコードに関する情報が記載されています。このガイドに記載されている情報を使用して、ネットアップシステムを管理するためのネットアップ管理ソフトウェアソリューションを備えた RESTful クライアントを作成できます。API は、 Representational State Transfer （ REST ）アーキテクチャスタイルに基づいています。
+
+Unified Manager には、ネットアップ環境におけるストレージ管理のための API が用意されています。Create 、 Read 、 Update 、 Delete （ CRUD とも呼ばれる）の 4 つすべての REST 処理がサポートされています。

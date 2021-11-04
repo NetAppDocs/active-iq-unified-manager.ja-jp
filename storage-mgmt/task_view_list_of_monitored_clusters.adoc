@@ -1,0 +1,27 @@
+---
+permalink: storage-mgmt/task_view_list_of_monitored_clusters.html 
+sidebar: sidebar 
+keywords: view, list, monitored, clusters 
+summary: クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。 
+---
+= 監視対象クラスタのリストの表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。
+
+* 必要なもの *
+
+オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
+
+クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。
+
+.ステップ
+. 左側のナビゲーションペインで、 * Storage Management * > * Cluster Setup * をクリックします。
+
+
+* 関連情報 *
+
+link:["セツテイ / クラスタテエタソオスヘエシ"]

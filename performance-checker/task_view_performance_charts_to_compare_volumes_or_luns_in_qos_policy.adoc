@@ -1,0 +1,35 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: 同じ QoS ポリシーグループ内のボリュームと LUN を表示して、単一の IOPS 、 MBps 、または IOPS/TB チャートでパフォーマンスを比較し、問題がないかどうかを確認できます。 
+---
+= パフォーマンスチャートを表示して、同じ QoS ポリシーグループ内のボリュームまたは LUN を比較できます
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同じ QoS ポリシーグループ内のボリュームと LUN を表示して、単一の IOPS 、 MBps 、または IOPS/TB チャートでパフォーマンスを比較し、問題がないかどうかを確認できます。
+
+同じ QoS ポリシーグループ内のボリュームのパフォーマンスを比較する手順を次に示します。LUN についても同様です。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * Volumes * をクリックします。
++
+デフォルトでは、 Health ： All Volumes （健常性：すべてのボリューム）ビューが表示されます。
+
+. [ 表示 ] メニューで、 [* パフォーマンス： QoS ポリシーグループ内のボリューム ] を選択します。 *
+. 確認するボリュームの名前をクリックします。
++
+ボリュームのパフォーマンスエクスプローラページが表示されます。
+
+. View and Compare メニューで、 *Volumes in Same QoS Policy Group* を選択します。
++
+同じ QoS ポリシーを共有する他のボリュームが下の表に表示されます。
+
+. グラフにこれらのボリュームを追加して、グラフ内で選択したすべてのボリュームの IOPS 、 MBps 、 IOPS/TB 、およびその他のパフォーマンスカウンタを比較できるようにします。
++
+パフォーマンスを表示する期間はデフォルトの 72 時間以外に変更できます。
+
+

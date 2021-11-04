@@ -1,0 +1,21 @@
+---
+permalink: reporting/task_filter_data.html 
+sidebar: sidebar 
+keywords: filtering, data 
+summary: データをフィルタして、レポートの要件を満たしていることを確認します。フィルタリングすることで関心のあるデータのみを表示できます。 
+---
+= データのフィルタリング
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+データをフィルタして、レポートの要件を満たしていることを確認します。フィルタリングすることで関心のあるデータのみを表示できます。
+
+.手順
+. フィルタアイコンをクリックして、表示する結果を絞り込むフィルタを追加し、 * フィルタの適用 * をクリックします。
++
+image::../media/filter_cold_data_2.png[コールドデータをフィルタ 2.]
+
+. 保存されていないビューに名前を付けて変更を保存します。
+

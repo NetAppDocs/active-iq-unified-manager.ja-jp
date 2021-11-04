@@ -1,0 +1,54 @@
+---
+permalink: api-automation/concept_manage_active_directory.html 
+sidebar: sidebar 
+keywords: manage, active, directory, mapping 
+summary: ここに記載された API を使用して、 SVM 上の CIFS 共有のプロビジョニングに必要な SVM の Active Directory マッピングを管理できます。ONTAP を備えた SVM をマッピングするには、 Active Directory マッピングを設定する必要があります。 
+---
+= Active Directory マッピングの管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ここに記載された API を使用して、 SVM 上の CIFS 共有のプロビジョニングに必要な SVM の Active Directory マッピングを管理できます。ONTAP を備えた SVM をマッピングするには、 Active Directory マッピングを設定する必要があります。
+
+
+
+== Active Directory マッピングを表示します
+
+SVM の Active Directory マッピングの設定の詳細を表示するには、次のメソッドを使用します。SVM の Active Directory マッピングを表示するには、 SVM キーを入力する必要があります。特定のマッピングの詳細を照会するには、マッピングキーを入力する必要があります。
+
+[cols="3*"]
+|===
+| カテゴリ | HTTP 動詞 | パス 
+
+
+ a| 
+ストレージプロバイダ
+ a| 
+取得
+ a| 
+「 /storage-provider/active-directories-mappings 」を参照してください
+
+「 /storage-provider/active-directories/\{key}` 」
+
+|===
+
+
+== Active Directory マッピングを追加します
+
+SVM に Active Directory マッピングを作成するには、次のメソッドを使用します。マッピングの詳細を入力パラメータとして指定する必要があります。
+
+[cols="3*"]
+|===
+| カテゴリ | HTTP 動詞 | パス 
+
+
+ a| 
+ストレージプロバイダ
+ a| 
+投稿（ Post ）
+ a| 
+「 /storage-provider/active-directories-mappings 」を参照してください
+
+|===

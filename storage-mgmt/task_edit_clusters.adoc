@@ -1,0 +1,35 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html 
+sidebar: sidebar 
+keywords: edit, clusters 
+summary: クラスタの編集ダイアログボックスを使用して、ホスト名または IP アドレス、ユーザ名、パスワード、ポートなど、既存のクラスタの設定を変更できます。 
+---
+= クラスタを編集します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタの編集ダイアログボックスを使用して、ホスト名または IP アドレス、ユーザ名、パスワード、ポートなど、既存のクラスタの設定を変更できます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+[NOTE]
+====
+Unified Manager 9.7 以降では、クラスタを追加する際に HTTPS のみを使用できます。
+
+====
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Cluster Setup * をクリックします。
+. [* クラスタセットアップ * ] ページで、編集するクラスタを選択し、 [ * 編集 ] をクリックします。
+. [ クラスタの編集（ Edit Cluster ） ] ダイアログボックスで、必要に応じて値を変更します。
+. [Submit （送信） ] をクリックします。
+
+
+* 関連情報 *
+
+link:../config/task_add_users.html["ユーザを追加する"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["クラスタリストおよび詳細の表示"]

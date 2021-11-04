@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_delete_annotation_rules.html 
+sidebar: sidebar 
+keywords: delete, annotation rules 
+summary: 不要になったアノテーションルールは、 Active IQ Unified Manager から削除できます。 
+---
+= アノテーションルールを削除する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったアノテーションルールは、 Active IQ Unified Manager から削除できます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+アノテーションルールを削除すると、アノテーションの関連付けが解除されてストレージオブジェクトから削除されます。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Annotations * をクリックします。
+. [ * アノテーションルール * （ * Annotation Rules * ） ] タブで、削除するアノテーションルールを選択し、 [ * 削除 * （ * Delete * ） ] をクリックします。
+. [ 警告 * ] ダイアログボックスで、 [ はい * ] をクリックして削除を確認します。
+

@@ -1,0 +1,37 @@
+---
+permalink: data-protection/view-lun-relationships.html 
+sidebar: sidebar 
+keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
+summary: SM-BC で保護されている LUN の統合ビュー。 
+---
+= コンシステンシグループ関係の LUN を監視しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP 環境で、 LUN を使用してアプリケーションを保護するために SnapMirror のビジネス継続性（ SM-BC ）がサポートされている場合は、 Active IQ Unified Manager でそれらの LUN を表示および監視できます。
+
+SM-BC は、 SAN 環境でのフェイルオーバー時に Recovery Time Objective （ RTO ；目標復旧時間）をゼロにします。SM-BC をサポートする一般的な環境では、ボリューム上の LUN は整合グループ関係で保護されます。
+
+これらのプライマリ LUN とセカンダリ LUN は、複合 LUN か、同じ UUID とシリアル番号を持つレプリカ LUN ペアです。I/O 処理（読み取りと書き込みの両方）がこれらの複合 LUN 上のソースサイトとデスティネーションサイト間で多重化されるため、透明性が確保されます。
+
+複数の LUN を表示する場合は、整合グループ関係の一部である LUN を含むプライマリクラスタとセカンダリクラスタの両方を Unified Manager で追加して検出する必要があります。iSCSI LUN と FCP LUN のみがサポートされます。
+
+SM-BC の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html["SnapMirror Business Continuity 解決策のドキュメント"]。
+
+環境内のコンポジット LUN を表示するには、次の手順を実行します。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * LUNs * をクリックします。
+. [ 表示 ] メニューから、 [* 関係 *>* すべての LUN* ] を選択します。
++
+Relationship ： All LUNs ビューが表示されています。
+
+
+
+LUN の名前、ボリューム、 LUN をホストしている Storage VM 、クラスタ、整合グループ、パートナー LUN など、 LUN の詳細を確認できます。これらの各コンポーネントをクリックすると、詳細ビューにドリルダウンできます。コンシステンシ・グループをクリックすると '[ 関係 ] ページが表示されます
+
+パートナー LUN をクリックすると、そのパートナー LUN がホストされている Storage VM の Storage VM の詳細ページの SAN タブで設定の詳細を確認できます。パートナー LUN のイニシエータやイニシエータグループなどの情報が表示されます。
+
+環境内の保護対象 LUN のレポートをソート、フィルタ、生成、およびアップロードするための、グリッドレベルの標準機能を実行できます。

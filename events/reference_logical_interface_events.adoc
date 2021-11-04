@@ -1,0 +1,156 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: network, interface, (lif) events, impact area, availability, configuration, performance 
+summary: ネットワークインターフェイスイベントは、ネットワークインターフェイス（ LIF ）のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
+---
+= ネットワークインターフェイス（ LIF ）イベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ネットワークインターフェイスイベントは、ネットワークインターフェイス（ LIF ）のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+
+
+
+== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ネットワークインターフェイスのステータスが停止しています（ DocumentEvtLifStatusDown ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+エラー
+
+
+
+ a| 
+FC / FCoE ネットワークインターフェイスのステータスが停止（ Document EvtFCLifStatusDown ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+エラー
+
+
+
+ a| 
+ネットワークインターフェイスのフェールオーバーができません（ DocumentEvtLifFailoverNotPossible ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+警告
+
+
+
+ a| 
+ホームポートにないネットワークインタフェース (DocumentEvtLifNotAtHomePort)
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+警告
+
+|===
+
+
+== 影響範囲：構成
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ネットワークインターフェイスのルートが設定されていません（該当なし）
+ a| 
+イベント
+ a| 
+インターフェイス
+ a| 
+情報
+
+|===
+
+
+== 影響範囲：パフォーマンス
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ネットワークインターフェイス MBps の重大しきい値を超過（文書 NetworkLifMbpsIncident ）
+ a| 
+インシデント
+ a| 
+インターフェイス
+ a| 
+重要
+
+
+
+ a| 
+ネットワークインターフェイス MBps の警告しきい値を超過（文書ネットワーク LifMbpsWarning ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+警告
+
+
+
+ a| 
+FC ネットワークインターフェイス MBps の重大しきい値を超過（ドキュメント FcpLifMbpsIncident ）
+ a| 
+インシデント
+ a| 
+インターフェイス
+ a| 
+重要
+
+
+
+ a| 
+FC ネットワークインターフェイス MBps の警告しきい値を超過（ドキュメント FcpLifMbpsWarning ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+警告
+
+
+
+ a| 
+NVMf FC ネットワークインターフェイス MBps の重大しきい値を超過（ドキュメント NvmfFcLifMbpsIncident ）
+ a| 
+インシデント
+ a| 
+インターフェイス
+ a| 
+重要
+
+
+
+ a| 
+NVMf FC ネットワークインターフェイス MBps の警告しきい値を超過（ドキュメント NvmfFcLifMbpsWarning ）
+ a| 
+リスク
+ a| 
+インターフェイス
+ a| 
+警告
+
+|===

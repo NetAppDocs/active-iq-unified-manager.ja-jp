@@ -1,0 +1,28 @@
+---
+permalink: config/reference_support_and_diagnostics_menu.html 
+sidebar: sidebar 
+keywords: support and diagnostics, menu 
+summary: Support and Diagnostics メニューでは、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信できるサポートバンドルを生成することができます。 
+---
+= Support and Diagnostics （サポートと診断）メニュー
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Support and Diagnostics メニューでは、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信できるサポートバンドルを生成することができます。
+
+次のメニューオプションを使用できます。
+
+* * ライトサポートバンドル * を生成します
++
+30 日間のログと構成データベースのレコードを含む軽量なサポートバンドルを作成できます。パフォーマンスデータ、取得記録ファイル、サーバヒープダンプは含まれません。
+
+* * サポートバンドル * を生成します
++
+診断ユーザのホームディレクトリに診断情報を含む完全なサポートバンドル（ 7-Zip ファイル）を作成できます。システムがインターネットに接続されている場合は、ネットアップにサポートバンドルをアップロードすることもできます。
+
++
+このファイルには、 AutoSupport メッセージで生成された情報、 Unified Manager データベースの内容、 Unified Manager サーバの内部に関する詳細なデータ、および通常は AutoSupport メッセージや軽量なサポートバンドルには含まれない詳細なログが収められます。
+
+

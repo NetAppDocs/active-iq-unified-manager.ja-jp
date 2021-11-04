@@ -1,0 +1,15 @@
+---
+permalink: performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html 
+sidebar: sidebar 
+keywords: analyze, events, user-defined, performance, thresholds 
+summary: ユーザ定義のしきい値で生成されたイベントは、アグリゲートやボリュームなどの特定のストレージオブジェクトのパフォーマンスカウンタがポリシーで定義されたしきい値を超えたことを示しています。これは、クラスタオブジェクトでパフォーマンス問題が発生していることを示しています。 
+---
+= ユーザ定義のパフォーマンスしきい値で生成されたイベントを分析します
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ユーザ定義のしきい値で生成されたイベントは、アグリゲートやボリュームなどの特定のストレージオブジェクトのパフォーマンスカウンタがポリシーで定義されたしきい値を超えたことを示しています。これは、クラスタオブジェクトでパフォーマンス問題が発生していることを示しています。
+
+イベントの詳細ページを使用してパフォーマンスイベントを分析し、必要に応じてイベントに対処してパフォーマンスを正常な状態に戻します。

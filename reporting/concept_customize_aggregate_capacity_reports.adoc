@@ -1,0 +1,15 @@
+---
+permalink: reporting/concept_customize_aggregate_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, aggregate, capacity, reports 
+summary: 以下に記載するサンプルのカスタムレポートを使用して、アグリゲートのストレージ容量に関連する潜在的な問題を特定して対処することができます。 
+---
+= アグリゲート容量レポートのカスタマイズ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以下に記載するサンプルのカスタムレポートを使用して、アグリゲートのストレージ容量に関連する潜在的な問題を特定して対処することができます。
+
+このセクションのレポートは、それぞれのストレージシステムリソースの監視に役立つアグリゲート容量レポートの作成方法を説明するためのサンプルです。

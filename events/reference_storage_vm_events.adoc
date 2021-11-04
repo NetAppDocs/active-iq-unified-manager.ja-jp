@@ -1,0 +1,451 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: Storage VM イベントは、 Storage VM （ SVM ）のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
+---
+= Storage VM イベント
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage VM （ Storage Virtual Machine 、 SVM ）イベントは、 Storage VM （ SVM ）のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+
+アスタリスク（ * ）は、 Unified Manager イベントに変換された EMS イベントを示します。
+
+
+
+== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+SVM CIFS サービスが停止（ Document EvtVserverCifsServiceStatusDown ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM CIFS サービス未設定（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+存在しない CIFS 共有への接続試行 * （ nbladeCifsNoPrivShare ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+CIFS NetBIOS Name Conflict * （ nbladeCifsNbNameConflict ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+CIFS シャドウコピー処理失敗 * （ cifsShadowCopyFailure ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+多数の CIFS 接続 * （ nbladeCifsManyAths ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+最大 CIFS 接続数を超過 * （ nbladeCifsMaxOpenSameFile ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+ユーザあたりの最大 CIFS 接続数を超過 * （ nbladeCifsMaxSessPerUsrConn ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+SVM FC/FCoE サービス停止（ Document EvtVserverFcServiceStatusDown ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM iSCSI サービスが停止（ ocument EvtVserverIscsiServiceStatusDown ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM NFS サービス停止（ Document EvtVserverNfsServiceStatusDown ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM FC / FCoE サービス未設定（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+SVM iSCSI サービス未設定（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+SVM NFS サービス未設定（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+SVM が停止しました（ Document EvtDown ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+AV サーバがビジーのため新しいスキャン要求を受け入れることができません * （ nbladeVscanConnBackPressure ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+ウィルススキャン用の AV サーバ接続がありません * （ nbladeVscanNoScannerConn ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+AV サーバが登録されていません * （ nbladeVscanNoRegdScanner ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+応答する AV サーバ接続がありません * （ nbladeVscanConnInactive ）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+権限のないユーザが AV サーバにアクセスしようとしました * （ nbladeVscanBadUserPrivAccess ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+
+
+ a| 
+AV サーバが検出したウイルス * （ nbladeVscanVirusDetected ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+エラー
+
+|===
+
+
+== 影響範囲：構成
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+SVM を検出（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+SVM が削除されました（該当なし）
+ a| 
+イベント
+ a| 
+クラスタ
+ a| 
+情報
+
+
+
+ a| 
+SVM の名前が変更されました（該当なし）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+|===
+
+
+== 影響範囲：パフォーマンス
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+SVM IOPS の重大しきい値を超過（ドキュメント： vmIopsIncident ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM IOPS の警告しきい値を超過（ドキュメントの注意：警告）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+SVM MBps の重大しきい値を超過（ドキュメント： vmMbpsIncident ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM MBps の警告しきい値を超過（ドキュメントの vmMbpsWarning ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+SVM レイテンシの重大しきい値を超過（ドキュメント： vmLatencyIncident ）
+ a| 
+インシデント
+ a| 
+SVM
+ a| 
+重要
+
+
+
+ a| 
+SVM レイテンシの警告しきい値を超過（ドキュメント： vmLatencyWarning ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+|===
+
+
+== 影響範囲：セキュリティ
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+監査ログ無効（ VserverAuditLogDisabled ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+ログインバナーが無効になっています（ドキュメントの LoginBannerDisabled ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+SSH でセキュアでない暗号を使用（ ocumentVserverSSHSecure ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+ログインバナーが変更されました（ Document LoginBannerChanged ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+Storage VM のランサムウェア対策監視が無効（ antiRansomwareSvmStateDisabled ）
+ a| 
+リスク
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+Storage VM のランサムウェア対策監視が有効（ラーニングモード）（ antiRansomwareSvmStateDryrun ）
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+
+
+ a| 
+Storage VM ：ランサムウェア対策監視（ラーニングモード）（ Document EvtSvmArwCandidate ）に適している
+ a| 
+イベント
+ a| 
+SVM
+ a| 
+情報
+
+|===

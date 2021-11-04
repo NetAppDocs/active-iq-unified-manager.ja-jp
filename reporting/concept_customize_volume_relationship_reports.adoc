@@ -1,0 +1,13 @@
+---
+permalink: reporting/concept_customize_volume_relationship_reports.html 
+sidebar: sidebar 
+keywords: customize, volume, relationship, reports 
+summary: ボリューム関係インベントリレポートでは、クラスタ内のストレージインベントリの詳細を分析できるほか、ボリュームに必要な保護レベルを把握したり、障害の原因、パターン、スケジュールに基づいてボリュームの詳細をフィルタリングしたりできます。 
+---
+= ボリューム関係レポートのカスタマイズ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリューム関係インベントリレポートでは、クラスタ内のストレージインベントリの詳細を分析できるほか、ボリュームに必要な保護レベルを把握したり、障害の原因、パターン、スケジュールに基づいてボリュームの詳細をフィルタリングしたりできます。

@@ -1,0 +1,13 @@
+---
+permalink: reporting/concept_customize_qtree_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, qtree, capacity, reports 
+summary: 以下に記載するサンプルのカスタムレポートを使用して、 qtree 容量に関連する潜在的な問題を特定して対処することができます。 
+---
+= qtree 容量レポートのカスタマイズ
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以下に記載するサンプルのカスタムレポートを使用して、 qtree 容量に関連する潜在的な問題を特定して対処することができます。

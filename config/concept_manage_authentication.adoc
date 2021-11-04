@@ -1,0 +1,15 @@
+---
+permalink: config/concept_manage_authentication.html 
+sidebar: sidebar 
+keywords: manage, authentication 
+summary: Unified Manager サーバで LDAP または Active Directory のいずれかを使用して認証を有効にし、サーバと連携してリモートユーザを認証するように設定することができます。 
+---
+= 認証の管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager サーバで LDAP または Active Directory のいずれかを使用して認証を有効にし、サーバと連携してリモートユーザを認証するように設定することができます。
+
+リモート認証の有効化、認証サービスのセットアップ、認証サーバの追加については、「 Unified Manager でアラート通知を送信するための設定」の前のセクションを参照してください。

@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_delete_group_rules.html 
+sidebar: sidebar 
+keywords: delete, group rules 
+summary: 不要になったグループルールは Active IQ Unified Manager から削除できます。 
+---
+= グループルールを削除しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったグループルールは Active IQ Unified Manager から削除できます。
+
+* 必要なもの *
+
+アプリケーション管理者またはストレージ管理者のロールが必要です。
+
+グループルールを削除すると、関連付けられているストレージオブジェクトがグループから削除されます。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage Management * > * Groups * をクリックします。
+. [ * グループルール * ] タブで、削除するグループルールを選択し、 [ * 削除 * ] をクリックします。
+. [ 警告 * ] ダイアログボックスで、 [ はい ] をクリックして削除を確認します。
+

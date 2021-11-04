@@ -1,0 +1,13 @@
+---
+permalink: storage-mgmt/concept_manage_clusters.html 
+sidebar: sidebar 
+keywords: manage, clusters 
+summary: Unified Manager を使用してクラスタを監視、追加、編集、削除することで、 ONTAP クラスタを管理できます。 
+---
+= クラスタの管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager を使用してクラスタを監視、追加、編集、削除することで、 ONTAP クラスタを管理できます。

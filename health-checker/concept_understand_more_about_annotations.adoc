@@ -1,0 +1,13 @@
+---
+permalink: health-checker/concept_understand_more_about_annotations.html 
+sidebar: sidebar 
+keywords: understand, annotations 
+summary: アノテーションの概念を理解しておくと、環境内のストレージオブジェクトに関連するイベントを管理するのに役立ちます。 
+---
+= アノテーションに関する詳細情報
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アノテーションの概念を理解しておくと、環境内のストレージオブジェクトに関連するイベントを管理するのに役立ちます。

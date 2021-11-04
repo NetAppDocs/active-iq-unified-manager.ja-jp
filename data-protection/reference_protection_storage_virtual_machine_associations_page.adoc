@@ -1,0 +1,57 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, peers, page 
+summary: SVM ピアページでは、ソースとデスティネーションの Storage VM 間の既存の Storage VM ピアを表示したり、パートナーアプリケーションが SnapMirror 関係と SnapVault 関係を作成するために使用する新しい Storage VM を作成したりできます。 
+---
+= SVM peers ページにアクセスします
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SVM ピアページでは、ソースとデスティネーションの Storage VM 間の既存の Storage VM ピアを表示したり、パートナーアプリケーションが SnapMirror 関係と SnapVault 関係を作成するために使用する新しい Storage VM を作成したりできます。
+
+
+
+== コマンドボタン
+
+各コマンドボタンを使用して次のタスクを実行できます。
+
+* * 作成 * 。
++
+Storage Virtual Machine ピアの作成ページを開きます。
+
+* * 削除 *
++
+選択した Storage VM ピアを削除できます。
+
+
+
+
+
+== Storage VM ピアのリスト
+
+SVM ピアのリストには、作成されたソースとデスティネーションの Storage VM の関連付けと、各関連付けで許可されている保護関係のタイプが表形式で表示されます。
+
+* * ソース Storage Virtual Machine *
++
+ソース SVM の名前が表示されます。
+
+* * ソースクラスタ *
++
+ソースクラスタの名前が表示されます。
+
+* * デスティネーション Storage Virtual Machine *
++
+デスティネーション SVM の名前が表示されます。
+
+* * デスティネーションクラスタ *
++
+デスティネーションクラスタの名前が表示されます。
+
+* * タイプ *
++
+保護関係のタイプが表示されます。関係タイプは、 SnapMirror または SnapVault のいずれかです。
+
+

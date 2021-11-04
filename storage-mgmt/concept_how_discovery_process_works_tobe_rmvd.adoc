@@ -1,0 +1,19 @@
+---
+permalink: storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html 
+sidebar: sidebar 
+keywords: discovery, process, works 
+summary: クラスタを Unified Manager に追加すると、サーバによってクラスタオブジェクトが検出され、サーバのデータベースに追加されます。検出プロセスの仕組みを理解しておくと、組織のクラスタとそのオブジェクトを管理する際に役立ちます。 
+---
+= 検出プロセスの仕組み
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+クラスタを Unified Manager に追加すると、サーバによってクラスタオブジェクトが検出され、サーバのデータベースに追加されます。検出プロセスの仕組みを理解しておくと、組織のクラスタとそのオブジェクトを管理する際に役立ちます。
+
+デフォルトの監視間隔は 15 分です。 Unified Manager サーバにクラスタを追加した場合、そのクラスタの詳細が Unified Manager の UI に表示されるまでに 15 分かかります。
+
+次の図は、 Active IQ Unified Manager での検出プロセスを示しています。
+
+image::../media/discovery_process_oc_6_0.gif[検出プロセスの仕組み]

@@ -1,0 +1,15 @@
+---
+permalink: install-windows/concept_upgrade_third_party_products_on_windows_um.html 
+sidebar: sidebar 
+keywords: data center manager, third-party, products, upgrade 
+summary: JRE などのサードパーティ製品が Windows システムにインストールされている場合は、 Unified Manager でそれらの製品をアップグレードできます。 
+---
+= サードパーティ製品のアップグレード
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+JRE などのサードパーティ製品が Windows システムにインストールされている場合は、 Unified Manager でそれらの製品をアップグレードできます。
+
+これらのサードパーティ製品を開発する企業は、定期的にセキュリティの脆弱性を報告しています。このソフトウェアの新しいバージョンには、独自のスケジュールでアップグレードできます。

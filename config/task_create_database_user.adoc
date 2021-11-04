@@ -1,0 +1,47 @@
+---
+permalink: config/task_create_database_user.html 
+sidebar: sidebar 
+keywords: create, database, user 
+summary: Workflow Automation と Unified Manager の間の接続をサポートする場合や、データベースビューにアクセスする場合は、まず Unified Manager Web UI で、 Integration Schema ロールまたは Report Schema ロールを持つデータベースユーザを作成する必要があります。 
+---
+= データベースユーザを作成しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Workflow Automation と Unified Manager の間の接続をサポートする場合や、データベースビューにアクセスする場合は、まず Unified Manager Web UI で、 Integration Schema ロールまたは Report Schema ロールを持つデータベースユーザを作成する必要があります。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+データベースユーザは、 Workflow Automation との統合およびレポート固有のデータベースビューへのアクセスを行うことができます。データベースユーザは、 Unified Manager Web UI やメンテナンスコンソールにはアクセスできず、 API 呼び出しも実行できません。
+
+.手順
+. 左側のナビゲーションペインで、 * 一般 * > * ユーザー * をクリックします。
+. ユーザーページで、 * 追加 * をクリックします。
+. [ ユーザーの追加 ] ダイアログボックスの [ タイプ *] ドロップダウンリストで [* データベースユーザー *] を選択します。
+. データベースユーザの名前とパスワードを入力します。
+. [* 役割 *] ドロップダウンリストで、適切な役割を選択します。
++
+[cols="2*"]
+|===
+| 実行する作業 | このロールを選択します 
+
+
+ a| 
+Unified Manager を Workflow Automation に接続しています
+ a| 
+統合スキーマ
+
+
+
+ a| 
+レポートおよびその他のデータベースビューにアクセスする
+ a| 
+レポートスキーマ
+
+|===
+. [ 追加（ Add ） ] をクリックします。
+

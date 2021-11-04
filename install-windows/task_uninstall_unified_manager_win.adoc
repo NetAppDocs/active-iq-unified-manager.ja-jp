@@ -1,0 +1,56 @@
+---
+permalink: install-windows/task_uninstall_unified_manager_win.html 
+sidebar: sidebar 
+keywords: uninstall, unified manager 
+summary: Unified Manager をアンインストールするには、プログラムと機能ウィザードを使用するか、コマンドラインインターフェイスから無人アンインストールを実行します。 
+---
+= Unified Manager をアンインストールしています
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Unified Manager をアンインストールするには、プログラムと機能ウィザードを使用するか、コマンドラインインターフェイスから無人アンインストールを実行します。
+
+* 必要なもの *
+
+* Windows の管理者権限が必要です。
+* ソフトウェアをアンインストールする前に、 Unified Manager サーバからすべてのクラスタ（データソース）を削除しておく必要があります。
+
+
+.手順
+. 次のいずれかを実行して Unified Manager をアンインストールします。
++
+[cols="2*"]
+|===
+| Unified Manager をアンインストールする方法 | 作業 
+
+
+ a| 
+プログラムと機能ウィザード：
+| ： 
+
+
+ a| 
+.. [ コントロールパネル *>* プログラムと機能 * ] に移動します。
+.. Active IQ Unified Manager を選択し、 * Uninstall * をクリックします。
+
+ a| 
+コマンドライン
+
+|===
++
+サーバでユーザアカウント制御（ UAC ）が有効になっていて、ドメインユーザとしてログインしている場合は、コマンドラインによるアンインストールを実行する必要があります。
+
++
+Unified Manager がシステムからアンインストールされます。
+
+. Unified Manager のアンインストール時に削除されない次のサードパーティパッケージとデータをアンインストールします。
++
+** サードパーティパッケージ： JRE 、 MySQL 、 Microsoft Visual C&#43;2015 再頒布可能パッケージ、 7zip
+** Unified Manager によって生成された MySQL のアプリケーションデータ
+** アプリケーションログとアプリケーションデータディレクトリの内容
+
+
+

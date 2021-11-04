@@ -1,0 +1,29 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html 
+sidebar: sidebar 
+keywords: relationship, 1 month, transfer rate, view 
+summary: Relationship ： Last 1 month Transfer Rate ビューを使用すると、非同期関係にあるボリュームについて、転送されるデータボリュームの量を 1 日単位で分析できます。また、このページには、毎日の転送に関する詳細およびボリュームと Storage VM の転送処理を完了するために必要な時間が表示されます。 
+---
+= 関係：過去 1 カ月の転送速度ビュー
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Relationship ： Last 1 month Transfer Rate ビューを使用すると、非同期関係にあるボリュームについて、転送されるデータボリュームの量を 1 日単位で分析できます。また、このページには、毎日の転送に関する詳細およびボリュームと Storage VM の転送処理を完了するために必要な時間が表示されます。
+
+ページ上部のコントロールを使用すると、特定のオブジェクトの検索、フィルタの作成と適用による表示データの絞り込み、ページ上の列の追加と削除 / 並べ替え、ページ上のデータの .csv 、 .pdf 、 .xlsx ファイルへのエクスポートを実行できます。カスタマイズしたページをカスタムビューとして保存し、データのレポートを定期的に生成して E メールで送信するようにスケジュール設定できます。たとえば、ボリュームの関係を表示するには、 * Storage * > * Volumes * > * Relationship ： Last 1 Month Transfer Rate * メニュー、または * Protection * > * Relationships ： Last 1 Month Transfer Rate * メニューのいずれかにアクセスし、 * Filter * を使用してボリュームのデータのみを表示できます。
+
+* * 合計転送サイズ *
++
+ボリューム転送の合計サイズがギガバイト単位で表示されます。
+
+* * 日 *
++
+ボリューム転送が開始された日にちが表示されます。
+
+* * 終了時間 *
++
+ボリューム転送が終了した日時が表示されます。
+
+

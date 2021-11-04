@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html 
+sidebar: sidebar 
+keywords: view, volumes, luns, same. qos, policy, group 
+summary: 同じ QoS ポリシーグループに割り当てられているボリュームと LUN のリストを表示できます。 
+---
+= 同じ QoS ポリシーグループ内のボリュームまたは LUN の表示
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同じ QoS ポリシーグループに割り当てられているボリュームと LUN のリストを表示できます。
+
+複数のボリュームを「赤」で表した従来の QoS ポリシーグループでは、特定のボリュームがポリシーグループに定義されたスループットであるかどうかを確認するのに役立ちます。また、他のボリュームに悪影響を及ぼすことなくポリシーグループにボリュームを追加できるかどうかを判断することもできます。
+
+アダプティブ QoS ポリシーと Unified Manager のパフォーマンスサービスレベルポリシーの場合は、 これは、ポリシーグループを使用しているすべてのボリュームまたは LUN を表示して、 QoS ポリシーの設定を変更した場合に影響を受けるオブジェクトを確認するのに役立ちます。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * QoS Policy Groups * をクリックします。
++
+Performance ： Traditional QoS Policy Groups ビューがデフォルトで表示されます。
+
+. 従来のポリシーグループに関心がある場合は、このページを表示したままにします。それ以外の場合は、追加の View オプションを 1 つ選択して、 Unified Manager のパフォーマンスサービスレベルによって作成されたすべてのアダプティブ QoS ポリシーグループまたはすべての QoS ポリシーグループを表示します。
+. 目的の QoS ポリシーで、展開ボタン（image:../media/chevron_down.gif[""]）をクリックしてください。image:../media/adaptive_qos_expanded.gif[""]
+. ボリュームまたは LUN のリンクをクリックし、この QoS ポリシーを使用しているオブジェクトを表示します。
++
+ボリュームまたは LUN のパフォーマンスインベントリページが、 QoS ポリシーを使用しているオブジェクトのソート済みリストとともに表示されます。
+
+

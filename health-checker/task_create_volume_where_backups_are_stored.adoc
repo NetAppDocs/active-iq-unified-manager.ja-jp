@@ -1,0 +1,51 @@
+---
+permalink: health-checker/task_create_volume_where_backups_are_stored.html 
+sidebar: sidebar 
+keywords: configure, snapshot, backup location 
+summary: ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。 
+---
+= Snapshot バックアップの場所を設定しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。
+
+* 必要なもの *
+
+クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
+
+* クラスタの要件：
++
+** ONTAP 9.3 以降がインストールされている必要があります
+** Unified Manager サーバに地理的に近い場所に配置する必要があります
+** Unified Manager で監視できますが、必須ではありません
+
+
+* Storage VM の要件：
++
+** ネームスイッチとネームマッピングは「 files 」を使用するように設定する必要があります。
+** クライアント側ユーザに対応するように作成されたローカルユーザ
+** すべての読み取り / 書き込みアクセスが選択されていることを確認します
+** エクスポートポリシーで Superuser Access が「 any 」に設定されていることを確認します
+** Linux 用 NetApp Snapshot 用の NFS
+** NFS サーバと、クライアントおよび Storage VM で指定された NFSv4 ID ドメインで NFSv4 が有効になっている必要があります
+** ボリュームのサイズは、 Unified Manager /opt/NetApp/data ディレクトリのサイズの少なくとも 2 倍にする必要があります
++
+コマンド du -sh /opt/NetApp/data/ を使用して、現在のサイズを確認します。
+
+
+
+* ボリューム要件：
++
+** ボリュームのサイズは、 Unified Manager /opt/NetApp/data ディレクトリのサイズの少なくとも 2 倍にする必要があります
+** セキュリティ形式は UNIX に設定する必要があります
+** ローカル Snapshot ポリシーを無効にする必要があります
+** ボリュームのオートサイズを有効にする必要があります
+** パフォーマンス・サービス・レベルは 'Extreme など ' 高い IOPS と低い遅延を持つポリシーに設定する必要があります
+
+
+
+
+NFS ボリュームの作成手順の詳細については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["ONTAP 9 で NFSv4 を設定する方法"] および。

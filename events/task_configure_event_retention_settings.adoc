@@ -1,0 +1,24 @@
+---
+permalink: events/task_configure_event_retention_settings.html 
+sidebar: sidebar 
+keywords: configure, event, retention, settings 
+summary: イベントが自動的に削除されるまでに Unified Manager サーバでイベントを保持する月数を指定できます。 
+---
+= イベント保持を設定しています
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イベントが自動的に削除されるまでに Unified Manager サーバでイベントを保持する月数を指定できます。
+
+* 必要なもの *
+
+アプリケーション管理者のロールが必要です。
+
+サーバのパフォーマンスに影響する可能性があるため、イベントの保持期間を 6 カ月以上に設定することは推奨されません。
+
+.手順
+. 左側のナビゲーションペインで、 * 一般 * > * データ保持 * をクリックします。
+. [ * データ保持期間 * ] ページで、 [ イベント保持期間 ] 領域のスライダを選択し、イベントを保持する月数に移動して、 [ 保存 ] をクリックします。
+

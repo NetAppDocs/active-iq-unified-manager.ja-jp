@@ -1,0 +1,50 @@
+---
+permalink: config/concept_security_dashboard.html 
+sidebar: sidebar 
+keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
+summary: Unified Manager でセキュリティパラメータを有効または無効にして準拠の監視を行うことができます。 
+---
+= 準拠のためのセキュリティ設定の有効化と無効化
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Features Settings ページの * Security Dashboard * パネルにある * Customize * ボタンを使用して、 Unified Manager でセキュリティパラメータを有効または無効にして、コンプライアンス監視を実行できます。
+
+このページで有効または無効になる設定によって、 Unified Manager でのクラスタと Storage VM の全体的な準拠ステータスが制御されます。選択内容に応じて、対応する列がクラスタインベントリページの「セキュリティ：すべてのクラスタ」の「 * セキュリティ：すべての Storage VM * 」ビューと「 Storage VM インベントリ」ページの「 * セキュリティ：すべての Storage VM * 」ビューに表示されます。
+
+[NOTE]
+====
+これらの設定を編集できるのは、管理者ロールのユーザだけです。
+
+====
+ONTAP クラスタ、 Storage VM 、およびボリュームのセキュリティ条件は、で定義されている推奨事項に照らして評価されます link:https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Security Hardening Guide for NetApp ONTAP 9 』を参照してください"]。ダッシュボードおよびセキュリティページのセキュリティパネルには、クラスタ、 Storage VM 、およびボリュームのデフォルトのセキュリティコンプライアンスステータスが表示されます。また、セキュリティイベントが生成され、セキュリティ違反があるクラスタと Storage VM に対して有効になる管理操作も実行されます。
+
+
+
+== セキュリティ設定のカスタマイズ
+
+ONTAP 環境に応じて準拠監視の設定をカスタマイズするには、次の手順を実行します。
+
+.手順
+. [ 一般 ] 、 [ 機能設定 ] 、 [ セキュリティダッシュボード ] 、 [ カスタマイズ *] の順にクリックします。セキュリティダッシュボード設定のカスタマイズ * ポップアップが表示されます。
++
+[NOTE]
+====
+有効または無効にしたセキュリティコンプライアンスパラメータは、クラスタおよび Storage VM 画面のデフォルトのセキュリティビュー、レポート、およびスケジュールされたレポートに直接影響します。セキュリティパラメータを変更する前に、これらの画面から Excel レポートをアップロードした場合、ダウンロードした Excel レポートに問題がある可能性があります。
+
+====
+. ONTAP クラスタのカスタム設定を有効または無効にするには、「 * Cluster * 」で必要な一般設定を選択します。クラスタコンプライアンスをカスタマイズするためのオプションについては、を参照してください link:../health-checker/reference_cluster_compliance_categories.html["クラスタコンプライアンスのカテゴリ"]
+. Storage VM のカスタム設定を有効または無効にするには、「 Storage VM * 」で必要な一般設定を選択します。Storage VM コンプライアンスをカスタマイズするためのオプションについては、を参照してください link:../health-checker/reference_svm_compliance_categories.html["Storage VM コンプライアンスのカテゴリ"]。
+
+
+
+
+== AutoSupport および認証設定のカスタマイズ
+
+AutoSupport 設定 * セクションでは、 AutoSupport からの ONTAP メッセージの送信に HTTPS 転送を使用するかどうかを指定できます。
+
+認証設定 * セクションでは、デフォルトの ONTAP 管理者ユーザに対して Unified Manager のアラートを生成するように設定できます。
+
+'''

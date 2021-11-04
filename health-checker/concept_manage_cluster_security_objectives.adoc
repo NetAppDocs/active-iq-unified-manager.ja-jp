@@ -1,0 +1,19 @@
+---
+permalink: health-checker/concept_manage_cluster_security_objectives.html 
+sidebar: sidebar 
+keywords: cluster, security, manage, objectives 
+summary: Unified Manager には、『 NetApp Security Hardening Guide for ONTAP 9 』に定義されている推奨事項を基に、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがどの程度セキュアであるかを示すダッシュボードが用意されています。 
+---
+= クラスタのセキュリティ目標の管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager には、『 ONTAP 9_ NetApp Security Hardening Guide for ONTAP 』に定義されている推奨事項を基に、 クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがどの程度セキュアであるかを示すダッシュボードが用意されています。
+
+セキュリティダッシュボードの目的は、 ONTAP クラスタがネットアップ推奨のガイドラインに従っていない領域を提示して、潜在的な問題を修正できるようにすることです。ほとんどの場合、問題は ONTAP System Manager または ONTAP CLI を使用して解決します。組織がすべての推奨事項に従うとは限らないため、場合によっては変更を加える必要がありません。
+
+を参照してください http://www.netapp.com/us/media/tr-4569.pdf["『 ONTAP 9 セキュリティ設定ガイド』"] 詳細な推奨事項と解決策については、 TR-4569 を参照してください。
+
+Unified Manager は、セキュリティステータスを報告するだけでなく、セキュリティ違反があるクラスタまたは SVM に対してセキュリティイベントを生成します。これらの問題はイベント管理インベントリページで追跡できます。また、イベントにアラートを設定して、新たなセキュリティイベントが発生したときにストレージ管理者が通知を受け取るようにすることができます。

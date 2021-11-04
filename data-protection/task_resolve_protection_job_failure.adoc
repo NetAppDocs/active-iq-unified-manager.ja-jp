@@ -1,0 +1,36 @@
+---
+permalink: data-protection/task_resolve_protection_job_failure.html 
+sidebar: sidebar 
+keywords: resolve, protection, job failure 
+summary: このワークフローでは、 Unified Manager のダッシュボードで保護ジョブの失敗を特定して解決する方法の例を示します。 
+---
+= 保護ジョブの失敗を解決する
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+このワークフローでは、 Unified Manager のダッシュボードで保護ジョブの失敗を特定して解決する方法の例を示します。
+
+* 必要なもの *
+
+このワークフローの一部のタスクは管理者ロールでログインする必要があるため、さまざまな機能を使用するために必要なロールを把握しておく必要があります。
+
+このシナリオでは、ダッシュボードページにアクセスして、保護ジョブに問題がないかどうかを確認します。保護インシデント領域には、ボリュームで保護ジョブの失敗エラーが表示され、ジョブ終了インシデントがあることがわかりました。このエラーを調査して、原因と潜在的な解決策を特定します。
+
+.手順
+. [ 未解決のインシデントとリスクのダッシュボード ] 領域の [ 保護インシデント ] パネルで、 [ 保護ジョブの失敗 *] イベントをクリックします。
++
+[TIP]
+====
+イベントのリンクされたテキストは 'object_name:/ object_name -Error Name' の形式で書き込まれますたとえば 'cluster2_src_SVM:/cluster2_src_vol2 -Protection Job Failed' のようになります
+
+====
++
+失敗した保護ジョブのイベントの詳細ページが表示されます。
+
+. 「概要」エリアの「原因」フィールドのエラーメッセージを確認して、問題を特定し、考えられる対処方法を評価します。
++
+を参照してください link:task_identify_problem_for_failed_protection_job.html["保護ジョブが失敗した場合の問題の特定と対処策の実施"]。
+
+

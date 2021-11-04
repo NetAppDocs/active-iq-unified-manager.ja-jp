@@ -1,0 +1,58 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: rest, services, offer, active iq, unified, manager 
+summary: Active IQ Unified Manager API の使用を開始する前に、提供される REST サービスと処理について理解しておく必要があります。 
+---
+= Active IQ Unified Manager で提供される REST サービス
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager API の使用を開始する前に、提供される REST サービスと処理について理解しておく必要があります。
+
+API サーバの設定に使用されるプロビジョニング API と管理 API では、読み取り（ GET ）処理または書き込み（ POST 、 PATCH 、 DELETE ）処理がサポートされます。API でサポートされる GET 、 PATCH 、 POST 、および DELETE 処理のいくつかの例を次に示します。
+
+* GET の例 : 「 GET /datacenter /cluster/clusters 」では、データセンターのクラスタの詳細を取得します。'get' 操作で返されるレコードの最大数は 1000 です
++
+[NOTE]
+====
+API を使用すると、レコードをサポートされている属性でフィルタ、ソート、および並べ替えることができます。
+
+====
+* POST の例：「 POST/DataCenter /SVM/SVMs 」では、カスタムの Storage Virtual Machine （ SVM ）が作成されます。
+* PATCH の例：「 patch/datacenter /svm /SVM/{ key ｝ 」は、一意のキーを使用して SVM のプロパティを変更します。
+* 例：「 delete 」 / 「 storage-provider/access-endpoints / ｛ key ｝ 」と指定すると、一意のキーを使用して、 LUN 、 SVM 、またはファイル共有からアクセスエンドポイントが削除されます。
+
+
+API を使用して実行できる REST 処理は、オペレータ、ストレージ管理者、またはアプリケーション管理者ユーザのロールによって異なります。
+
+[cols="2*"]
+|===
+| ユーザロール | サポートされている REST メソッド 
+
+
+ a| 
+演算子
+ a| 
+データへの読み取り専用アクセス。このロールのユーザは、すべての GET 要求を実行できます。
+
+
+
+ a| 
+ストレージ管理者
+ a| 
+すべてのデータへの読み取りアクセス。このロールのユーザは、すべての GET 要求を実行できます。
+
+また、管理、ストレージサービスオブジェクト、ストレージ管理オプションなどの特定のアクティビティを実行するための書き込みアクセス（ PATCH 、 POST 、および DELETE 要求を実行するため）が可能です。
+
+
+
+ a| 
+アプリケーション管理者
+ a| 
+すべてのデータへの読み取りおよび書き込みアクセス。このロールのユーザは、すべての機能に対する GET 、 PATCH 、 POST 、および DELETE 要求を実行できます。
+
+|===
+すべての REST 処理の詳細については、 _ オンラインの API ドキュメントを参照してください。

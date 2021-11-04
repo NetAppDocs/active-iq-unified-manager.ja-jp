@@ -1,0 +1,48 @@
+---
+permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html 
+sidebar: sidebar 
+keywords: specify, destination location, windows, snapshot, backups 
+summary: いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。 
+---
+= Windows Snapshot バックアップのデスティネーションの指定
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。
+
+* Active IQ Unified Manager がインストールされている Windows ホストに対する管理者権限が必要です。
+* Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
+* クラスタ管理 IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、およびストレージシステムのユーザ名とパスワードが必要です。
+* ボリュームをネットワークドライブとして Active IQ Unified Manager ホストにマウントし、マウントドライブを用意しておく必要があります。
+
+
+.手順
+. パワーシェルを使用して、 Active IQ Unified Manager システムの IP アドレスまたは完全修飾ドメイン名に接続します。
+. メンテナンスユーザ（ umadmin ）の名前とパスワードでシステムにログインします。
+. コマンド「 maintenance_console' 」を入力し、 Enter キーを押します。
+. メンテナンスコンソール * メインメニュー * で、 * バックアップリストア * オプションの番号を入力します。
+. Configure NetApp Snapshot Backup * の番号を入力します。
+. iSCSI を設定する番号を入力します。
+. 指定する必要がある情報を確認し、「バックアップ設定の詳細を入力」 * の番号を入力します。
+. Snapshot を書き込むボリュームを特定するには、クラスタ管理インターフェイスの IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、ストレージシステムのユーザ名とパスワード、およびマウントドライブを入力します。
+. この情報を確認して 'y' を入力します
++
+システムは次のタスクを実行します。
+
++
+** Storage VM が検証されました
+** ボリュームが検証されています
+** マウントドライブとステータスが検証されます
+** LUN の有無とステータス
+** ネットワークドライブの存在
+** マウントされたボリュームに推奨されるスペース（ MySQL データディレクトリの 2 倍以上）があるかどうかが検証されます
+** ボリューム内の専用 LUN に対応する LUN パス
+** igroup 名
+** ネットワークドライブがマウントされているボリュームの GUID
+** ONTAP との通信に使用する iSCSI イニシエータ
+
+
+. メンテナンスコンソールを終了し、 Active IQ Unified Manager インターフェイスを起動して Snapshot バックアップスケジュールを作成します（まだ作成していない場合）。
+
