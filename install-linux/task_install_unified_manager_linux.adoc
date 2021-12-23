@@ -45,7 +45,7 @@ OpenJDK バージョン 11.0.12
 
 
  a| 
-MySQL 8.0.25 Community Edition
+MySQL 8.0.27 Community Edition の場合
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
@@ -57,7 +57,7 @@ p7zip 16.02
 rpm -qa | grep p7zip
 
 |===
-. インストールされている MySQL のバージョンが MySQL 8.0.25 Community Edition より前の場合は、次のコマンドを入力してアンインストールします。
+. MySQL 8.0.27 Community Edition より前のバージョンの MySQL がインストールされている場合は、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 

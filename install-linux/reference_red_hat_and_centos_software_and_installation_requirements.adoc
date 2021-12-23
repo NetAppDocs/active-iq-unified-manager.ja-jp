@@ -36,7 +36,7 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 
-* MySQL Community Edition バージョン 8.0.25 （ MySQL リポジトリから入手）
+* MySQL Community Edition バージョン 8.0.27 （ MySQL リポジトリから入手）。
 * OpenJDK バージョン 11.0.12 （ Red Hat Extra Enterprise Linux Server リポジトリから入手）
 * Python 3.6.x
 * p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）

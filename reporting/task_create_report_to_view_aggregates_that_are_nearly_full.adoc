@@ -2,7 +2,7 @@
 permalink: reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html 
 sidebar: sidebar 
 keywords: create, report, view, aggregates, full 
-summary: 80% 以上フルのアグリゲートを表示するレポートを作成できます。 
+summary: '80% 以上フルのアグリゲートを表示するレポートを作成できます。' 
 ---
 = 80% 以上フルのアグリゲートを表示するレポートの作成
 :icons: font

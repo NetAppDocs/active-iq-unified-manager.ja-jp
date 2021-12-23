@@ -1,6 +1,6 @@
 ---
 section: install-windows
-title: Windows システムに Unified Manager をインストールします
+title: Windows システムに Unified Manager をインストールする
 entries:
 - title: Active IQ Unified Manager の概要
   url: "/install-windows/concept_introduction_to_unified_manager.html"

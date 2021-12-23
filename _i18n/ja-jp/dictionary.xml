@@ -74,11 +74,9 @@
   <block id="60ac5243d2f769547fffd7ab4ba0a421" category="paragraph">ポートキーの入力パラメータで指定された特定のイーサネットポートのパフォーマンス指標を取得します。サポートされている範囲から間隔（時間範囲）を指定すると、 API はその期間における最小、最大、平均パフォーマンス値などの累積カウンタを返します。</block>
   <block id="27bf512f49572e6e3cc027b0204736de" category="paragraph">「 /datacenter / network / ethernet / ports / analytics 」を参照してください</block>
   <block id="dd5ecf23d0de0ed90d26bd0e466870da" category="paragraph">データセンター環境内のすべてのイーサネットポートのパフォーマンス指標の概要を取得します。クラスタとノードキー、 UUID 、スループット、収集期間、ポートの利用率などの情報が返されます。ポートキー、利用率、クラスタとノードの名前と UUID など、使用可能なパラメータで結果をフィルタリングできます。</block>
-  <block id="abe126041e26e6ec8b437d2c09defb5a" category="paragraph">「データセンター /network/fc/interfaces/{key}/metrics 」</block>
   <block id="617385df62d8ee1feda0c898607c75be" category="paragraph">インターフェイスキーの入力パラメータで指定した特定のネットワーク FC インターフェイスのパフォーマンス指標を取得します。サポートされている範囲から間隔（時間範囲）を指定すると、 API はその期間における最小、最大、平均パフォーマンス値などの累積カウンタを返します。</block>
   <block id="ce4c5f909f6080cdfb677741a5a72f57" category="paragraph">「 /datacenter /network /fc/interfaces/analytics 」を参照してください</block>
   <block id="6f3367a4223d9ae25b8e05d3e2f0ae4e" category="paragraph">データセンター環境内のすべてのイーサネットポートのパフォーマンス指標の概要を取得します。クラスタと FC インターフェイスキーと UUID 、スループット、 IOPS 、レイテンシ、 Storage VM などの情報が返されます。クラスタと FC インターフェイスの名前と UUID 、 Storage VM 、スループットなど、使用可能なパラメータで結果をフィルタリングできます。</block>
-  <block id="f936d6f6e7d701c4777ef02d6cac9225" category="paragraph">「データセンター /network/fc/ports/{key}/metrics 」</block>
   <block id="1ec798ff54c7e836ca962ac3b3c6b624" category="paragraph">ポートキーの入力パラメータで指定した特定の FC ポートのパフォーマンス指標を取得します。サポートされている範囲から間隔（時間範囲）を指定すると、 API はその期間における最小、最大、平均パフォーマンス値などの累積カウンタを返します。</block>
   <block id="6a307c89e0fa557b8daf1370da104d41" category="paragraph">「 /datacenter /network/fc/ports/analytics 」を参照してください</block>
   <block id="4bd52abc7a20c825c80ee5f30ceec53e" category="paragraph">データセンター環境内のすべての FC ポートのパフォーマンス指標の概要を取得します。クラスタとノードキー、 UUID 、スループット、収集期間、ポートの利用率などの情報が返されます。ポートキー、利用率、クラスタとノードの名前と UUID など、使用可能なパラメータで結果をフィルタリングできます。</block>
@@ -330,7 +328,6 @@
   <block id="ff8bbf1a43a7bbb388a5ad120ae725f6" category="section-title">データセンター内のストレージオブジェクト用の API</block>
   <block id="7f66d69475054c7b88ee61b87a4a087b" category="paragraph">「 /datacenter /cluster/clusters/\{key}` 」を指定します</block>
   <block id="a500afdfb29b23c2de6babf25b482312" category="paragraph">このメソッドを使用して、データセンター全体の ONTAP クラスタの詳細を表示できます。API は、クラスタの IPv4 アドレスや IPv6 アドレス、ノードの健全性、パフォーマンス容量、ハイアベイラビリティ（ HA ）ペアなどのノードに関する情報を返し、クラスタがオール SAN アレイかどうかを示します。</block>
-  <block id="cc7fa4c02673168f903ee59394888c0a" category="paragraph">「 /datacenter /cluster/licensing/licenses/datacenter /cluster/licensing/licenses/\{key}` 」のように入力します</block>
   <block id="5bb0fec577dfeca346360d7d16893dfc" category="paragraph">データセンター内のクラスタにインストールされているライセンスの詳細を返します。必要な条件に基づいて結果をフィルタできます。ライセンスキー、クラスタキー、有効期限、ライセンス範囲などの情報が返されます。ライセンスキーを入力すると、特定のライセンスの詳細を取得できます。</block>
   <block id="8cc1ea8a5cc4dd65f76cecc21ac548a7" category="paragraph">「 /datacenter /cluster/nodes 」のように指定します</block>
   <block id="56ffa23c916c6a37e5d858185249f041" category="paragraph">「 /datacenter /cluster/nodes/ \ ｛ key ｝ 」を指定します</block>
@@ -690,12 +687,10 @@
   <block id="8a1b780a6cb07cc691ea9faaf55733b5" category="paragraph">イベントの詳細については、を参照してください <block ref="baf15d19a1503c0d684977d68b5c6ac5" category="inline-link-macro-rx"></block></block>
   <block id="df121661ba85bab80e47aa0c5ecb9568" category="paragraph">「 /management-server /events 」「 /management-server /events/{key} 」</block>
   <block id="dd46d77407d87e413f34e58cc432ad33" category="paragraph">GET All メソッドを実行すると、応答の本文にはデータセンター内のすべてのイベントの詳細が含まれます。特定のキーを使用してイベントの詳細を取得すると、特定のイベントの詳細を表示し、リソースに対して次の処理を実行できます。応答の本文は、そのイベントの詳細で構成されます。</block>
-  <block id="e397c4c04c704632e66e65b9d8d34d56" category="paragraph">「管理サーバ /events/{key}` 」</block>
   <block id="36a2bf35fada678afa61bf4b167e7205" category="paragraph">この API を実行してイベントを割り当てるか、または状態を acknowledged または Resolved に変更します。このメソッドを使用して、自分または別のユーザにイベントを割り当てることもできます。これは同期操作です。</block>
   <block id="de90cfdf5ff9158417a164a4544e68ef" category="section-title">アラートの管理</block>
   <block id="40de2202ef59ad7ed6f0ffb7dd483536" category="paragraph">イベントは自動的かつ継続的に生成されます。Unified Manager では、イベントが特定のフィルタ条件を満たしている場合にのみアラートが生成されます。アラートを生成するイベントを選択できます。/management-server/alerts API を使用すると ' 特定の重大度タイプのイベントまたはイベントが発生したときに自動的に通知を送信するようにアラートを設定できます</block>
   <block id="4ae3658f5afaeec46035601639b1ef88" category="paragraph">アラートの詳細については、を参照してください <block ref="25246ff61554e89e09cf0430b140aefb" category="inline-link-macro-rx"></block></block>
-  <block id="91a39bf29c72820da022f24551ea2b04" category="paragraph">「 /management-server / alerts 」「 /management-server / alerts/{key}` 」</block>
   <block id="9dc71727f6bbbc38c8d34efcf1fb5613" category="paragraph">アラートキーを使用して、環境内の既存のすべてのアラートまたは特定のアラートを照会します。環境で生成されたアラートについて、アラート概要、アクション、通知の送信先 E メール ID 、イベント、重大度などの情報を確認することができます。</block>
   <block id="9aa1508200a1fcc527e1ef766a692952" category="paragraph">「 /management-server / alerts 」を参照してください</block>
   <block id="fd66c49d5484f51b9cfa5cca876beaff" category="paragraph">このメソッドを使用すると、特定のイベントに対するアラートを追加できます。アラート名、アラートが適用される物理リソースまたは論理リソース、アラートが有効かどうか、および SNMP トラップを発行するかどうかを追加する必要があります。アラートを生成する追加の詳細を追加できます。これには、アラートスクリプトを追加する場合に備えて、アクション、通知 E メール ID 、スクリプトの詳細などの情報が含まれます。</block>
@@ -4710,8 +4705,6 @@
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Unified Manager にバンドルされているサードパーティパッケージを次に示します。これらのサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;2015 再頒布可能パッケージバージョン 14.26.28720.3</block>
   <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Visual Studio 2013 バージョン 12.0.40660.0 の Microsoft Visual C&amp;#43;&amp;#43; 再頒布可能パッケージ</block>
-  <block id="55c7e70983a8101a8f064202c14e262b" category="list-text">MySQL Community Edition バージョン 8.0.21</block>
-  <block id="dce0fc9fb5e4b1053f025d5a70dcbdd9" category="paragraph">Unified Manager のインストーラは、問題との相互運用性があるため、 MySQL Community Edition 8.0.21 までしかサポートされていません。MySQL を 8.0.21 以降のリリースにアップグレードすることはできません。</block>
   <block id="b69583bdad3a63373172cbe89ddde845" category="list-text">Python 3.9.x</block>
   <block id="0c487400e7de3d10fd03ccbb93cad0bb" category="list-text">OpenJDK バージョン 11.0.12</block>
   <block id="3eb9f5dac9a6d7c6556c2754973bdc44" category="list-text">p7zip バージョン 18.05 以降</block>
@@ -4819,11 +4812,9 @@
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">オプション</block>
   <block id="49cc8e6220245b65cd7d20fc6ccc74f5" category="cell">手順</block>
   <block id="ef73f81c301936ee7ede7cbb718d1330" category="paragraph">サードパーティパッケージが事前にインストールされている場合</block>
-  <block id="daccee7502c43a5667847b14d253b387" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v" mysql_password=mysql_password INSTALLDIR=\\" インストールディレクトリ \"mysql_data_DIR=\"MySQL データディレクトリ \"maintenance_password=maintenance_username/qn /l * v CompletePathForLogFile"`</block>
   <block id="c26fe677a830587ef1c141567a86c86a" category="paragraph">* 例： *</block>
   <block id="c32f4bc2075bfecdf086ac899289f21e" category="paragraph">「 ActiveIQUnifiedManager.exe /s /v 」 mysql_password = netapp21 ！INSTALLDIR= \" C ： \Program Files\ NetApp \" mysql_data_DIR= \" C ： \ProgramData\MySQLServer\" maintenance_password=******* maintenance_username=admin/qn /l * v C ： \install.log 」と入力します</block>
   <block id="bfc58992270c237a371803c2b0f8a88d" category="paragraph">サードパーティパッケージがインストールされていない場合</block>
-  <block id="d44556ceef1e6229a1074890b5040173" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v 」 mysql_password=mysql_password INSTALLDIR=\\" インストールディレクトリ \\" mysql_data_DIR=\"mysql data directory\\" maintenance_password=maintenance_username/QR /l * v CompletePathForLogFile"</block>
   <block id="7470eee048df1289bb5715c956f3d5bd" category="paragraph">「 ActiveIQUnifiedManager.exe /s /v 」 mysql_password = netapp21 ！INSTALLDIR= \" C ： \Program Files\ NetApp \" mysql_data_DIR= \" C ： \ProgramData\MySQLServer\" maintenance_password=******* maintenance_username=admin/qr/l * v C ： \install.log 」というメッセージが表示されます</block>
   <block id="42a6f909880eff163663231f875a22fb" category="paragraph">「 /qr 」オプションを指定すると、ユーザインターフェイスが制限された Quiet モードが有効になります。インストールの進捗を示す基本的なユーザインターフェイスが表示されます。入力を求められることはありません。JRE 、 MySQL 、 7zip などのサードパーティパッケージが事前にインストールされていない場合は、「 /qr 」オプションを使用する必要があります。サード・パーティ・パッケージがインストールされていないサーバで /qn オプションを使用すると ' インストールは失敗します</block>
   <block id="ba09ab9eeb47d751b462983382ef7938" category="paragraph">/qn オプションを指定すると、ユーザ・インターフェイスを使用しない Quiet モードがイネーブルになります。インストール中にユーザインターフェイスや詳細は表示されません。サードパーティパッケージがインストールされていない場合は '/qn オプションを使用しないでください</block>
@@ -4931,8 +4922,6 @@
   <block id="faea1ae077af360ba8a684d0f5eba7d8" category="paragraph"><block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block></block>
   <block id="8e877ca55995ad1793162a0c7fd7384d" category="paragraph">Unified Manager 9.5 以降、 OpenJDK はインストールパッケージに含まれており、自動的にインストールされます。Unified Manager 9.5 以降では Oracle Java はサポートされません。</block>
   <block id="4ad11e2ce9de8bb4ae34d6b5efca525c" category="paragraph">アップグレードを開始する前に、システムに Microsoft .NET 4.5.2 以上がインストールされていることを確認してください。</block>
-  <block id="5399b078308959fb9fe54625631961cf" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.21 より前の場合は、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.21 に自動的にアップグレードされます。旧バージョンの MySQL から 8.0.21 へのスタンドアロンアップグレードは実行しないでください。システムにインストールされている MySQL のバージョンが 5.7 の場合は、 MySQL をバージョン 8.0.21 に直接アップグレードすることは * できません。その結果、アプリケーションのデータが失われます。</block>
-  <block id="66f6e1e94940c48693f9fe69def2fa8e" category="paragraph">Unified Manager のインストーラは、問題との相互運用性があるため、 MySQL Community Edition 8.0.21 までしかサポートされていません。MySQL を 8.0.21 以降のリリースにアップグレードしないでください。</block>
   <block id="5988a7237bcee29aa6c84c04b743f834" category="list-text">Windows の管理者権限が必要です。ユーザ名の先頭に感嘆符「 ! 」が付いていないことを確認してください。インストールを実行するユーザのユーザ名の 1 文字目が「！」であると、 Unified Manager のインストールが失敗することがあります。</block>
   <block id="118b787faad1d75a1fba9c9848031d8f" category="list-text">ネットアップサポートサイトにログインするための有効なクレデンシャルが必要です。</block>
   <block id="102ef1b1e4adc3606ce0a19622d711bc" category="list-text">アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager マシンのバックアップを作成しておく必要があります。</block>
@@ -9055,18 +9044,11 @@
   <block id="ca798667878fa7b1a5df99579247a758" category="paragraph">Unified Manager をインストールする前にカスタムのホームディレクトリを作成して独自の umadmin ユーザのパスワードを定義していた場合、インストール時に maintenance グループまたは umadmin ユーザがもう一度作成されることはありません。</block>
   <block id="63abb0f288c1d7a899870a973e2a1a26" category="summary">Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。</block>
   <block id="bae43629fc80334bfb253eda91870d0a" category="doc">Linux での MySQL のアップグレード</block>
-  <block id="c1a4fd586101f0a1caa518d4af73dbce" category="paragraph">Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされている MySQL のバージョンが 8.0.25 より前の場合は、 Unified Manager 9.10 のアップグレードプロセスによって MySQL が自動的に 8.0.25 にアップグレードされます。旧バージョンから 8.0.25 への MySQL のスタンドアロンアップグレードは実行しないでください。</block>
   <block id="76b45bd64e794aa15caf86e164b12820" category="paragraph">Unified Manager がインストールされている Linux システムに対する root 権限が必要です。</block>
-  <block id="b0ab9ebec45cfba96fa3239ff7b2ea0e" category="paragraph">MySQL 8.0.25 の基本バージョンを新しいバージョンにアップグレードできるのは、マイナーアップデートのみです。</block>
   <block id="f53d1531676d47e1ac40a9a7f8022ad4" category="list-text">Unified Manager ホストマシンに root ユーザとしてログインします。</block>
   <block id="7bb52bb3ab7705ec1ebfe15ec998339e" category="list-text">ターゲット・システムに最新の MySQL Community Server の「 .rpm 」バンドルをダウンロードします。</block>
   <block id="5115846061c6b31d315d4c6bb626ceb3" category="list-text">バンドルをターゲットシステム上のディレクトリに展開します。</block>
   <block id="4276a11fa4b3253f36d59f5a58894c99" category="list-text">展開したバンドルには複数の「 .rpm 」パッケージが含まれていますが、 Unified Manager で必要とされるのは次の rpm パッケージのみです。</block>
-  <block id="6d50340f4d5f694cc5971959959d9021" category="list-text">mysql-community-client-8.0.25</block>
-  <block id="ecb42563780c2fa3a822d00a188a7d79" category="list-text">mysql-community-libs-8.0.25</block>
-  <block id="4d91d28757fedcdf52e02c55b406d4e7" category="list-text">mysql-community-server-8.0.25</block>
-  <block id="0206c79cd0e5e3fccef6b03d1e1a4373" category="list-text">mysql-community-common-8.0.25</block>
-  <block id="dd0de75bb7096228e7f41d3e1739e639" category="list-text">mysql-community-client-plugins/8.1.25 その他すべてのパッケージを削除します。ただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。</block>
   <block id="dc0f63223f9fd934e2a95489bf3b41fc" category="list-text">Unified Manager サービスと関連する MySQL ソフトウェアを次の順序で停止します。</block>
   <block id="404da40c487927dba2ac8fbeaf4164c7" category="paragraph">'systemctl stop ocieau</block>
   <block id="67c3532937b08ee6ee4886253d23ae77" category="paragraph">'systemctl stop ocie</block>
@@ -9159,11 +9141,9 @@
   <block id="b9daaadd85248f3222d1ce5a685bb69e" category="cell">必要なソフトウェアと最小バージョン</block>
   <block id="fc6a57067ea7fdf362320a9b8f280942" category="cell">ソフトウェアとバージョンを確認するコマンド</block>
   <block id="d349bda8382351b9fe435583c56eca3b" category="paragraph">「 java -version 」のように指定します</block>
-  <block id="48b5305f6b1975aaad2487b3007ef652" category="paragraph">MySQL 8.0.25 Community Edition</block>
   <block id="ebf01eb8c517f12e8cecc2a481529448" category="paragraph">「 rpm -qa | grep -i mysql 」と入力します</block>
   <block id="a795b555665b99a19e8172dcea1db7f8" category="paragraph">p7zip 16.02</block>
   <block id="a7257213829973c5c49764d7424d2afc" category="paragraph">rpm -qa | grep p7zip</block>
-  <block id="4666440f705831d1ed3e40b7aeb6462b" category="list-text">インストールされている MySQL のバージョンが MySQL 8.0.25 Community Edition より前の場合は、次のコマンドを入力してアンインストールします。</block>
   <block id="13403dd457b6243a3c87fe19d5c61014" category="paragraph">`rpm -e &lt;mysql_package_name&gt;`</block>
   <block id="de62e757ceb412d713be5a4d33f999bc" category="paragraph">依存関係エラーが発生した場合は '--nodeps' オプションを追加してコンポーネントをアンインストールする必要があります</block>
   <block id="3d07560c3dc428c1a0c49eb9c78954c3" category="list-text">インストール用の「 .zip 」ファイルをダウンロードしたディレクトリに移動し、 Unified Manager のバンドルを展開します。</block>
@@ -9202,7 +9182,6 @@
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。</block>
   <block id="ba319a4c4016780cd7c22ad751a1ad56" category="admonition">ネットアップは、 Microsoft System Center Configuration Manager （ SCCM ）などのサードパーティツールを使用した Unified Manager のインストールをサポートしていません。</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります</block>
-  <block id="0e9c4dbfb76cdde8fa9788426b7dedbf" category="list-text">MySQL Community Edition バージョン 8.0.25 （ MySQL リポジトリから入手）</block>
   <block id="4b7bbc94176007b0c7640a27ef7b6282" category="list-text">OpenJDK バージョン 11.0.12 （ Red Hat Extra Enterprise Linux Server リポジトリから入手）</block>
   <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
   <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）</block>
@@ -9323,10 +9302,6 @@
   <block id="e4ed881267e1fda6e2abe689c01e2602" category="list-text">Red Hat Enterprise Linux Subscription Manager への登録が必要です。</block>
   <block id="ed2c45fc23f3cfea044bc28997ea71c4" category="list-text">アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。また、バックアップ・ファイルを「 /opt/NetApp/data 」ディレクトリから外部の場所に移動することをお勧めします。</block>
   <block id="57631e141b8f0f57a0f764b018516b87" category="list-text">アップグレードプロセスの実行中は Unified Manager を使用できなくなるため、実行中の処理がある場合は完了しておいてください。</block>
-  <block id="dd886dca175787e859f5f9418071f4f0" category="list-text">* MySQL 要件 * ： MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.25 より前の場合は、 Unified Manager のアップグレードプロセスによって MySQL が自動的に 8.0.25 にアップグレードされます。</block>
-  <block id="37904b1324e4df92afaa8f1efab0fd55" category="paragraph">ただし、システムの MySQL を最新のマイナーバージョンにアップグレードすることもできます。次のマイナーバージョンにアップグレードする前に、システムの MySQL の基本バージョンが 8.0.25 であることを確認してください。</block>
-  <block id="fc7cfe0f565c89308e58db41a5dcf143" category="paragraph">MySQL 8.0.25 で設定されたリポジトリがサイトにない場合、 Unified Manager をアップグレードできない可能性があります。アップグレード前にリポジトリを設定する手順は、次のとおりです。</block>
-  <block id="2adc60346208d03f8f172798259872db" category="list-text">必要な最小バージョン（この場合は 8.0.25 ）の MySQL RPM パッケージをダウンロードし、「 NetApp-um &lt;version&gt;.x86_64.rpm 」が保存されているディレクトリに保存します。</block>
   <block id="9036fc0a5fcfd893d6d6b4578a8aea1f" category="list-text">このコマンドを実行して新しいバージョンをインストールします :yum install *.rpm`</block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">Unified Manager サーバを起動します。次のコマンドを実行します。</block>
   <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">ターゲットの Red Hat Enterprise Linux サーバまたは CentOS サーバにログインします。</block>
@@ -10039,7 +10014,6 @@
   <block id="e460cec37dab71c0977ffb3dad7c632d" category="paragraph">特定の権限を必要とする処理を開始すると、管理サーバによってログインを求められます。たとえば、管理者アカウントを作成するには、アプリケーション管理者アカウントのアクセス権でログインする必要があります。</block>
   <block id="cae711e2d20a76c0a0f37127c924cd4b" category="summary">Unified Manager のバックアップ機能は、ホストシステムおよびメンテナンスコンソールから実行する一連の設定手順で設定できます。</block>
   <block id="3eaf250ac7aefe28e741d8611e020782" category="doc">Unified Manager のバックアップを設定しています</block>
-  <block id="90455dc10790e7ab86379d76cbd3a232" category="paragraph">設定手順の詳細については、『 Active IQ ® Unified Manager ワークフローガイド - クラスタ健全性管理』の「バックアップおよびリストア処理の管理」を参照してください。</block>
   <block id="2a3977c85fc65ed83155c5fba53e008a" category="summary">Unified Manager データベースのデータディスクのスペースを増やす必要がある場合は、インストール後に Unified Manager のメンテナンスコンソールを使用してディスクスペースを増やして容量を追加できます。</block>
   <block id="6763436a8b6909224d9cec1d110674a8" category="doc">VMware 仮想マシンのデータディスクにスペースを追加しています</block>
   <block id="72bd2d256219188666fbe9f971529391" category="list-text">vSphere Client へのアクセス権が必要です。</block>
@@ -11499,7 +11473,6 @@
   <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">関係 / すべての関係ビュー</block>
   <block id="917d12d3945843e955409b6049824fe7" category="sidebar">関係 / 過去 1 カ月の転送ステータスビュー</block>
   <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">関係 / 過去 1 カ月の転送速度ビュー</block>
-  <block id="b1573dafb71cc7baccce1a92a36f7644" category="sidebar">Windows システムに Unified Manager をインストールします</block>
   <block id="d74069c8854de78bc74ebbb6f3a7d046" category="sidebar">イベントとアラートの管理</block>
   <block id="6f047d4c177cc734ed65cb347cf6bd42" category="sidebar">クラスタのパフォーマンスを監視および管理する</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
@@ -11509,4 +11482,31 @@
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">設定タスクと管理タスクを実行</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">ストレージを監視および管理する</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">ONTAP の問題を Unified Manager から直接修正または管理する</block>
+  <block id="725999ab15ba9076beeae097d322f86a" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v" mysql_password=mysql_password INSTALLDIR=\" インストールディレクトリ \"mysql_data_DIR=\"MySQL データディレクトリ \"maintenance_password=maintenance_username/qn /l * V CompletePathForLogFile" 」です</block>
+  <block id="fcd7df289adf5001f27988061b118e6d" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v 」 mysql_password=mysql_password INSTALLDIR=\" インストールディレクトリ \"mysql_data_DIR=\" MySQL データディレクトリ \"maintenance_password=maintenance_username/QR / l * v CompletePathForLogFile" 」です</block>
+  <block id="ce358b3113b47d3203aa2868dcd1aed9" category="list-text">MySQL Community Edition バージョン 8.0.27</block>
+  <block id="603140aee7e0394e7a45b946fa63701d" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。旧バージョンの MySQL から 8.0.17 へのスタンドアロンアップグレードは実行しないでください。</block>
+  <block id="faba12e25d46c49b1bf20440c559a011" category="list-text">* NTP サービスの変更 *</block>
+  <block id="57663e46604227b9442d1cfe28abf917" category="paragraph">'ntp' と 'systemd-timesyncd' サービスを切り替えます</block>
+  <block id="24dde324c273e6fbdb5e05a5335b2997" category="paragraph">設定手順の詳細については、を参照してください <block ref="b867a7663a8e0fd154dcc2c6962f7760" category="inline-link-macro-rx"></block>。</block>
+  <block id="9f5b309ea6f5c0107df68af41b42385c" category="paragraph">Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager 9.10 のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。旧バージョンから 8.0.17 への MySQL のスタンドアロンアップグレードは実行しないでください。</block>
+  <block id="ca431acdff879bf74443b03a3ea7b05e" category="paragraph">基本バージョンである MySQL 8.0.17 を新しいバージョンにアップグレードできるのは、マイナーアップデートのみが対象です。</block>
+  <block id="0dd020de8717fef4759ed42bb7a9371e" category="list-text">mysql-community-client-8.0.27 を参照してください</block>
+  <block id="54bf75329ac0640a1a4b19d525aa3298" category="list-text">mysql-community-libs-8.0.27 を参照してください</block>
+  <block id="5d2f50f494763ca33ac61b7394b49365" category="list-text">mysql-community-server-8.0.27 を参照してください</block>
+  <block id="9b02dcce074ad8f0677667ae3bdefe4a" category="list-text">mysql-community-common-8.0.27 を参照してください</block>
+  <block id="ebda0ef640f941a251bca0c42fabf09b" category="list-text">mysql-community-client-plugins/8.0.27 その他すべてのパッケージを削除します。ただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。</block>
+  <block id="37354e6beb8513ddd7766e179aaab3e2" category="list-text">* MySQL 要件 * ： MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。</block>
+  <block id="1db6ec26f9e37dfe675bdaf66bc0347c" category="paragraph">ただし、システムの MySQL を最新のマイナーバージョンにアップグレードすることもできます。次のマイナーバージョンにアップグレードする前に、システムの MySQL の基本バージョンが 8.0.27 であることを確認してください。</block>
+  <block id="a1071bfb77eca5179d618fb7269b7629" category="paragraph">MySQL 8.0.17 でリポジトリが設定されていない場合、 Unified Manager をアップグレードできない可能性があります。アップグレード前にリポジトリを設定する手順は、次のとおりです。</block>
+  <block id="8bd7aee1af6eb4a67ab8ad5f5b38af79" category="list-text">必要な最小バージョン（この場合は 8.0.27 ）の MySQL RPM パッケージをダウンロードし、「 NetApp-um &lt;version&gt;.x86_64.rpm 」が保存されているディレクトリに保存します。</block>
+  <block id="a4f051daab9927f07a1368a1390cf080" category="paragraph">MySQL 8.0.27 Community Edition の場合</block>
+  <block id="9141d8b8e038016829f182b871f131e8" category="list-text">MySQL 8.0.27 Community Edition より前のバージョンの MySQL がインストールされている場合は、次のコマンドを入力してアンインストールします。</block>
+  <block id="ddfa8d995a85ef5f86e5eae4134040c1" category="list-text">MySQL Community Edition バージョン 8.0.27 （ MySQL リポジトリから入手）。</block>
+  <block id="afdabd70b25ac8d92c6c796efc0bc1ff" category="paragraph">データセンター / クラスタ / ライセンス / ライセンス / データセンター / クラスタ / ライセンス / ライセンス /\ ｛ key ｝</block>
+  <block id="67566ae5ee0878974aed5a2b1f52321f" category="paragraph">「 management-server /events/{key}`</block>
+  <block id="363b24906686e470f3b827a7e14ced28" category="paragraph">「 /management-server /alerts 」 /management-server /alerts/{key}`</block>
+  <block id="eecf698dfc7cb9d2b5e24530d593153a" category="paragraph">「 /datacenter /network/fc/interfaces/{ key }/metrics 」を参照してください</block>
+  <block id="74202c4c8ab34d9532fd78765a96f893" category="paragraph">「 /datacenter /network/fc/ports/{key}/metrics 」を参照してください</block>
+  <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">Windows システムに Unified Manager をインストールする</block>
 </blocks>

@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_use_performance_capacity_used_counter.html 
 sidebar: sidebar 
 keywords: performance, capacity, counter, manage, performance 
-summary: 通常、組織では、使用済みパフォーマンス容量の割合を 100% 未満に抑えて、リソースを効率的に使用しつつ、ピーク時の需要に対応するパフォーマンス容量を確保する必要があります。しきい値ポリシーを使用して、使用済みパフォーマンス容量の値が高い場合にアラートを送信するタイミングを設定できます。 
+summary: '通常、組織では、使用済みパフォーマンス容量の割合を 100% 未満に抑えて、リソースを効率的に使用しつつ、ピーク時の需要に対応するパフォーマンス容量を確保する必要があります。しきい値ポリシーを使用して、使用済みパフォーマンス容量の値が高い場合にアラートを送信するタイミングを設定できます。' 
 ---
 = 使用済みパフォーマンス容量カウンタを使用してパフォーマンスを管理する
 :icons: font

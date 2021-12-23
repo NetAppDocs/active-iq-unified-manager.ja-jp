@@ -57,6 +57,10 @@ Unified Manager を Linux または Microsoft Windows システムにインス�
 +
 IP アドレスや Fully Qualified Domain Name （ FQDN ；完全修飾ドメイン名）などの NTP サーバ設定を変更します。
 
+* * NTP サービスの変更 *
++
+'ntp' と 'systemd-timesyncd' サービスを切り替えます
+
 * * Unified Manager バックアップからのリストア *
 +
 以前にバックアップしたバージョンから Unified Manager データベースと設定をリストアします。

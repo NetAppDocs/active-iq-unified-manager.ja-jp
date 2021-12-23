@@ -45,7 +45,7 @@ management-server
  a| 
 パッチ
  a| 
-「管理サーバ /events/{key}` 」
+「 management-server /events/{key}`
  a| 
 この API を実行してイベントを割り当てるか、または状態を acknowledged または Resolved に変更します。このメソッドを使用して、自分または別のユーザにイベントを割り当てることもできます。これは同期操作です。
 
@@ -68,7 +68,7 @@ management-server
  a| 
 取得
  a| 
-「 /management-server / alerts 」「 /management-server / alerts/{key}` 」
+「 /management-server /alerts 」 /management-server /alerts/{key}`
  a| 
 アラートキーを使用して、環境内の既存のすべてのアラートまたは特定のアラートを照会します。環境で生成されたアラートについて、アラート概要、アクション、通知の送信先 E メール ID 、イベント、重大度などの情報を確認することができます。
 
@@ -90,7 +90,7 @@ management-server
  a| 
 パッチと削除
  a| 
-「管理サーバ /events/{key}` 」
+「 management-server /events/{key}`
  a| 
 これらのメソッドを使用して、特定のアラートを変更および削除できます。概要、名前、アラートの有効化 / 無効化など、さまざまな属性を変更できます。不要になったアラートを削除できます。
 

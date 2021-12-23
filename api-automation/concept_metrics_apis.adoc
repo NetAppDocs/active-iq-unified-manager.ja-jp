@@ -323,7 +323,7 @@ Storage VM キーの入力パラメータで指定した Storage VM のパフォ
  a| 
 「 GET 」
  a| 
-「データセンター /network/fc/interfaces/{key}/metrics 」
+「 /datacenter /network/fc/interfaces/{ key }/metrics 」を参照してください
  a| 
 インターフェイスキーの入力パラメータで指定した特定のネットワーク FC インターフェイスのパフォーマンス指標を取得します。サポートされている範囲から間隔（時間範囲）を指定すると、 API はその期間における最小、最大、平均パフォーマンス値などの累積カウンタを返します。
 
@@ -341,7 +341,7 @@ Storage VM キーの入力パラメータで指定した Storage VM のパフォ
  a| 
 「 GET 」
  a| 
-「データセンター /network/fc/ports/{key}/metrics 」
+「 /datacenter /network/fc/ports/{key}/metrics 」を参照してください
  a| 
 ポートキーの入力パラメータで指定した特定の FC ポートのパフォーマンス指標を取得します。サポートされている範囲から間隔（時間範囲）を指定すると、 API はその期間における最小、最大、平均パフォーマンス値などの累積カウンタを返します。
 

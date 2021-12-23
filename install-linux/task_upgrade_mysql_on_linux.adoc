@@ -10,13 +10,13 @@ summary: Unified Manager がインストールされている Linux サーバで
 
 
 [role="lead"]
-Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされている MySQL のバージョンが 8.0.25 より前の場合は、 Unified Manager 9.10 のアップグレードプロセスによって MySQL が自動的に 8.0.25 にアップグレードされます。旧バージョンから 8.0.25 への MySQL のスタンドアロンアップグレードは実行しないでください。
+Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager 9.10 のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。旧バージョンから 8.0.17 への MySQL のスタンドアロンアップグレードは実行しないでください。
 
 * 必要なもの *
 
 Unified Manager がインストールされている Linux システムに対する root 権限が必要です。
 
-MySQL 8.0.25 の基本バージョンを新しいバージョンにアップグレードできるのは、マイナーアップデートのみです。
+基本バージョンである MySQL 8.0.17 を新しいバージョンにアップグレードできるのは、マイナーアップデートのみが対象です。
 
 .手順
 . Unified Manager ホストマシンに root ユーザとしてログインします。
@@ -24,11 +24,11 @@ MySQL 8.0.25 の基本バージョンを新しいバージョンにアップグ�
 . バンドルをターゲットシステム上のディレクトリに展開します。
 . 展開したバンドルには複数の「 .rpm 」パッケージが含まれていますが、 Unified Manager で必要とされるのは次の rpm パッケージのみです。
 +
-** mysql-community-client-8.0.25
-** mysql-community-libs-8.0.25
-** mysql-community-server-8.0.25
-** mysql-community-common-8.0.25
-** mysql-community-client-plugins/8.1.25 その他すべてのパッケージを削除します。ただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。
+** mysql-community-client-8.0.27 を参照してください
+** mysql-community-libs-8.0.27 を参照してください
+** mysql-community-server-8.0.27 を参照してください
+** mysql-community-common-8.0.27 を参照してください
+** mysql-community-client-plugins/8.0.27 その他すべてのパッケージを削除します。ただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。
 
 
 . Unified Manager サービスと関連する MySQL ソフトウェアを次の順序で停止します。
