@@ -2,7 +2,7 @@
 permalink: performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html 
 sidebar: sidebar 
 keywords: view, node, iops, workloads, reside, only, local node 
-summary: ノードの IOPS カウンタグラフでは、リモートノード上のボリュームに対する読み取り / 書き込み処理を実行するために、処理がネットワーク LIF を使用してローカルノードのみを経由する箇所を特定できます。IOPS の「 Total (Local) 」グラフと「 Breakdown (Local) 」グラフには、現在のノード上にあるローカルボリュームに存在するデータの IOPS が表示されます。 
+summary: 'ノードの IOPS カウンタグラフでは、リモートノード上のボリュームに対する読み取り / 書き込み処理を実行するために、処理がネットワーク LIF を使用してローカルノードのみを経由する箇所を特定できます。IOPS の「 Total (Local) 」グラフと「 Breakdown (Local) 」グラフには、現在のノード上にあるローカルボリュームに存在するデータの IOPS が表示されます。' 
 ---
 = ローカルノード上にのみ存在するワークロードに基づくノード IOPS の表示
 :icons: font

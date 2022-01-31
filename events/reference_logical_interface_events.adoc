@@ -1,7 +1,7 @@
 ---
 permalink: events/reference_logical_interface_events.html 
 sidebar: sidebar 
-keywords: network, interface, (lif) events, impact area, availability, configuration, performance 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
 summary: ネットワークインターフェイスイベントは、ネットワークインターフェイス（ LIF ）のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = ネットワークインターフェイス（ LIF ）イベント
