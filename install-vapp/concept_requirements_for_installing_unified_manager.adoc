@@ -20,4 +20,4 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/
 
 * 関連情報 *
 
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+詳細については、を参照してください https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]

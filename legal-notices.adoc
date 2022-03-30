@@ -10,3 +10,9 @@ summary:
 
 
 link:https://raw.githubusercontent.com/NetAppDocs/common/main/_include/common-legal-notices.adoc[""]
+
+
+
+== オープンソース
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2879276["Active IQ Unified Manager 9.10 に関する注意事項"]

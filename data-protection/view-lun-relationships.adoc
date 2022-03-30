@@ -18,7 +18,7 @@ SM-BC は、 SAN 環境でのフェイルオーバー時に Recovery Time Object
 
 複数の LUN を表示する場合は、整合グループ関係の一部である LUN を含むプライマリクラスタとセカンダリクラスタの両方を Unified Manager で追加して検出する必要があります。iSCSI LUN と FCP LUN のみがサポートされます。
 
-SM-BC の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html["SnapMirror Business Continuity 解決策のドキュメント"]。
+SM-BC の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC に関する ONTAP 9 のマニュアル"]。
 
 環境内のコンポジット LUN を表示するには、次の手順を実行します。
 

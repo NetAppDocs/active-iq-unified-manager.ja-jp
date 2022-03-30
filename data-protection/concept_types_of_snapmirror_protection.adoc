@@ -81,4 +81,4 @@ SM-BC 関係で保護されているボリュームと LUN を表示すると、
 
 [ 関係 ] ページでは ' ソースストレージオブジェクトとデスティネーションストレージオブジェクト ' およびコンシステンシグループによって保護されているそれらの関係の保護をソート ' フィルタ ' および拡張することもできます
 
-SnapMirror Synchronous のビジネス継続性機能の詳細については、を参照してください https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html["ONTAP 9 のドキュメント"]。
+SnapMirror Synchronous のビジネス継続性の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC に関する ONTAP 9 のマニュアル"]。
