@@ -5,6 +5,7 @@ keywords: workload analyzer, charts, display, data
 summary: Workload Analyzer ページには、ワークロードに影響している可能性のある現在のイベントに関する情報、イベントの原因となっている問題を修正するための推奨事項、およびパフォーマンスと容量の履歴を分析するためのグラフが表示されます。 
 ---
 = Workload Analyzer で表示されるデータは何ですか
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: enable, saml, authentication
 summary: Security Assertion Markup Language （ SAML ）認証を有効にして、 Unified Manager の Web UI にアクセスするリモートユーザをセキュアなアイデンティティプロバイダ（ IdP ）で認証するように設定できます。 
 ---
 = SAML 認証の有効化
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

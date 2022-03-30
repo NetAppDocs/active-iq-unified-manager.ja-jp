@@ -5,6 +5,7 @@ keywords: install, unified manager, linux systems
 summary: Unified Manager をダウンロードしてインストールする一連の手順は、インストールシナリオによって異なります。 
 ---
 = Linux システムへの Unified Manager のインストール
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

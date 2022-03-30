@@ -5,6 +5,7 @@ keywords: Common, unified, manager, health, workflows, tasks
 summary: Unified Manager に関連する一般的な管理ワークフローと管理タスクには、監視対象のストレージクラスタの選択、データの可用性 / 容量 / 保護に悪影響を及ぼす状態の診断、消失したデータのリストア、ボリュームの設定と管理、診断データのバンドルとテクニカルサポートへの送信（必要時）などがあります。 
 ---
 = Unified Manager の一般的な健常性関連のワークフローとタスク
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

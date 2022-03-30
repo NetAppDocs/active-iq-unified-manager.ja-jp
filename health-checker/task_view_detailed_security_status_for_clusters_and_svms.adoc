@@ -5,6 +5,7 @@ keywords: view, cluster security status, svm security status, volume encryption 
 summary: Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。 
 ---
 = クラスタと Storage VM の詳細なセキュリティステータスの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

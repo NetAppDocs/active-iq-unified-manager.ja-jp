@@ -5,6 +5,7 @@ keywords: view, cluster security status, svm security status, high-level
 summary: Unified Manager のダッシュボードのセキュリティパネルには、現在のビューに応じて、すべてのクラスタまたは単一のクラスタのセキュリティステータスの概要が表示されます。 
 ---
 = クラスタのセキュリティステータスの概要の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

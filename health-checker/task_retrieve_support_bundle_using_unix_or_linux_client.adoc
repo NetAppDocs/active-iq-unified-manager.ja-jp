@@ -5,6 +5,7 @@ keywords: retrieve, support bundle, unix, linux, client
 summary: UNIX または Linux を使用している場合は、 Linux クライアントサーバでコマンドラインインターフェイス（ CLI ）を使用して、 vApp からサポートバンドルを取得することができます。サポートバンドルの取得には、 SCP または SFTP を使用します。 
 ---
 = UNIX または Linux クライアントを使用したサポートバンドルの取得
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

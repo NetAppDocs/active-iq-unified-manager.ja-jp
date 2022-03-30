@@ -5,6 +5,7 @@ keywords: override, management, actions, scripts
 summary: カスタムスクリプトを作成してアラートに関連付けることで、特定のイベントに対して特定の処理を実行できます。この処理に使用できるデフォルトの管理操作は、管理操作ページや Unified Manager のダッシュボードでは選択できません。 
 ---
 = スクリプトによる管理操作の上書き
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

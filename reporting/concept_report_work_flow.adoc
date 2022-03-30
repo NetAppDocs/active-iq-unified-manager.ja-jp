@@ -5,6 +5,7 @@ keywords: report, workflow
 summary: レポートのワークフローを説明するデシジョンツリー。 
 ---
 = レポートワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

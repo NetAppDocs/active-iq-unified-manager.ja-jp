@@ -5,6 +5,7 @@ keywords: editing, schedule, reports
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページで編集できます。' 
 ---
 = スケジュール済みレポートの編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

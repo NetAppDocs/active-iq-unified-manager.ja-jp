@@ -5,6 +5,7 @@ keywords: identify, victim workloads, dynamic, performance, event
 summary: Unified Manager では、競合状態のストレージコンポーネントが原因の応答時間（レイテンシ）の偏差が最も高いボリュームワークロードを特定できます。このようなワークロードを特定すると、そのワークロードにアクセスするクライアントアプリケーションのパフォーマンスが通常よりも遅い理由を把握できます。 
 ---
 = 動的なパフォーマンスイベントに関連した Victim ワークロードの特定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

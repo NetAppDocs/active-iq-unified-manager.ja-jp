@@ -5,6 +5,7 @@ keywords: view, resource pools, inventory
 summary: リソースプールページを使用して、リソースプールのインベントリを表示したり、各リソースプールの残りの容量を監視したりできます。 
 ---
 = リソースプールインベントリの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

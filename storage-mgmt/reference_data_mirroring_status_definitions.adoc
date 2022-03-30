@@ -5,6 +5,7 @@ keywords: data mirror, status, definitions
 summary: MetroCluster 構成では、データのミラーリングが可能で、サイト全体が利用できなくなった場合にフェイルオーバーを開始する機能も利用できます。MetroCluster 構成のクラスタ間のデータミラーリングのステータスは、「 Normal 」または「 Mirroring Unavailable 」のいずれかになります。これらのステータスを理解しておくと、 MetroCluster 構成を効果的に管理できます。 
 ---
 = データミラーリングのステータスの定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

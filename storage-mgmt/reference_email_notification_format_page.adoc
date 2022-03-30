@@ -5,6 +5,7 @@ keywords: email, notification, format, page
 summary: '[ 電子メール通知形式 ] ページには、クォータ関連の問題が存在するときにユーザーまたはユーザーグループに送信される電子メールのルールが表示されます ( ソフトリミットを超過しているか、ハードリミットに達しています ) 。' 
 ---
 = Email Notification Format ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

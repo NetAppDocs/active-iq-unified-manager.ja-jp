@@ -5,6 +5,7 @@ keywords: expected, range, performance, latency, forecast, formed
 summary: レイテンシ予測とは、特定の時間に想定されるパフォーマンスの上限と下限の値です。ワークロードのレイテンシについては、パフォーマンスしきい値を上回る値です。実測値がパフォーマンスしきい値を超えると、 Unified Manager によって動的なパフォーマンスイベントがトリガーされます。 
 ---
 = パフォーマンスの想定範囲
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

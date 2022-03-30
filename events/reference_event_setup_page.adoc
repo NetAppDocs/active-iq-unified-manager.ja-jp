@@ -5,6 +5,7 @@ keywords: event, setup, page, command, buttons, list, view
 summary: '[Event Setup] ページに、無効なイベントのリストが表示され、関連するオブジェクトタイプやイベントの重大度などの情報が提供されます。イベントのグローバルな無効化や有効化などのタスクを実行することもできます。' 
 ---
 = Event Setup ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

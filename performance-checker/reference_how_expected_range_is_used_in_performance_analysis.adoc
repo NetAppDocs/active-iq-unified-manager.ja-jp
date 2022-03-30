@@ -5,6 +5,7 @@ keywords: latency, forecast, performance, analysis
 summary: Unified Manager は、レイテンシ予測を使用して監視対象のワークロードの一般的な I/O レイテンシ（応答時間）を表します。ワークロードの実際のレイテンシがレイテンシ予測の上限を上回るとアラートが生成されて動的なパフォーマンスイベントがトリガーされるため、パフォーマンス問題を分析して解決することができます。 
 ---
 = レイテンシ予測とパフォーマンス分析
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

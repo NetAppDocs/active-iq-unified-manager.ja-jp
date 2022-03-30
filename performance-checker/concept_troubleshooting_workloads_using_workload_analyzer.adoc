@@ -5,6 +5,7 @@ keywords: workload analyzer, troubleshoot
 summary: Workload Analyzer は、 1 つのワークロードに関する健全性とパフォーマンスの重要な条件を 1 つのページに表示して、トラブルシューティングを支援します。ワークロードの現在と過去のイベントをすべて表示することで、ワークロードにパフォーマンス問題または容量 が割り当てられている理由をより正確に把握できます。 
 ---
 = Workload Analyzer を使用したワークロードのトラブルシューティング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

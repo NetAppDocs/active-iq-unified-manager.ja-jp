@@ -5,6 +5,7 @@ keywords: description, event, impact, levels
 summary: イベントには、対処する際の優先度を判別できるように、それぞれに影響レベル（インシデント、リスク、イベント、またはアップグレード）が関連付けられています。 
 ---
 = イベントの影響レベルの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

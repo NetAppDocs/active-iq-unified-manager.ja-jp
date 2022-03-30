@@ -5,6 +5,7 @@ keywords: calculate, reclaimable space, snapshot copies
 summary: 1 つ以上の Snapshot コピーを削除した場合に再利用可能となるディスクスペースの量を計算できます。 
 ---
 = Snapshot コピーの再利用可能なスペースを計算しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

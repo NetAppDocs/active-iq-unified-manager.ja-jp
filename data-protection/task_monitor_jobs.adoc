@@ -5,6 +5,7 @@ keywords: monitor, jobs
 summary: ジョブページでは、ジョブステータスを監視したり、ストレージサービスのタイプ、状態、送信日時、完了日時などのジョブプロパティを表示したりして、ジョブが正常に完了したかどうかを判断できます。 
 ---
 = ジョブの監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

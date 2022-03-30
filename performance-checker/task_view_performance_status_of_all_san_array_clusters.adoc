@@ -5,6 +5,7 @@ keywords: all san, array, performance, clusters
 summary: Performance ： All SAN Array クラスタのパフォーマンスステータスは、 Performance ： All Clusters ビューを使用して表示できます。 
 ---
 = オール SAN アレイクラスタのパフォーマンスの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: upgrade, unified manager, virtual, appliance
 summary: Unified Manager 仮想アプライアンスはアップグレードできます 
 ---
 = Unified Manager 仮想アプライアンスをアップグレードします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storage, resource, ONTAP
 summary: ONTAP のストレージリソースは、物理ストレージリソースと論理ストレージリソースに大きく分類できます。Active IQ Unified Manager の API を使用して ONTAP システムを効果的に管理するには、ストレージリソースモデルと、さまざまなストレージリソース間の関係を理解する必要があります。 
 ---
 = ONTAP のストレージリソース
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

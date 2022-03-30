@@ -5,6 +5,7 @@ keywords: sort, data
 summary: 結果をソートするには、列をクリックし、昇順または降順を指定します。データをソートすることで、レポートに必要な情報に優先順位を付けることができます。 
 ---
 = データのソート
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

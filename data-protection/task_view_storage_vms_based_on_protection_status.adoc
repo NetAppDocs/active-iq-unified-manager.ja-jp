@@ -5,6 +5,7 @@ keywords: storage vm, view protection status
 summary: インベントリの Storage VM ページを使用して Active IQ Unified Manager 内のすべての Storage VM を表示し、保護ステータスに基づいて Storage VM をフィルタリングできます。 
 ---
 = 保護ステータスに基づいた Storage VM の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

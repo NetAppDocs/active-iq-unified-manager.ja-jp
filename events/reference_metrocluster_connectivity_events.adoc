@@ -5,6 +5,7 @@ keywords: metrocluster, connectivity, events, impact area, availability
 summary: 接続イベントは、クラスタのコンポーネント間の接続および MetroCluster 構成のクラスタ間の接続に関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = MetroCluster 接続イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

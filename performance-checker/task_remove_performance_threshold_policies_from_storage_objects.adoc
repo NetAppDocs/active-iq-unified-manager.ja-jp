@@ -5,6 +5,7 @@ keywords: remove, performance, threshold, policies, storage, objects
 summary: Unified Manager でパフォーマンスカウンタの値を監視する必要がなくなった場合は、ストレージオブジェクトからユーザ定義のパフォーマンスしきい値ポリシーを削除できます。 
 ---
 = ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

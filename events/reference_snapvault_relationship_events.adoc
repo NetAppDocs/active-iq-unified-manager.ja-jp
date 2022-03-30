@@ -5,6 +5,7 @@ keywords: snapvault, relationship, events, impact area, protection
 summary: SnapVault 関係イベントは、 SnapVault 関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = SnapVault 関係イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, group rules
 summary: グループルールを編集して条件グループおよび条件グループに含まれる条件を変更することで、特定のグループに対してまたは特定のグループからストレージオブジェクトを追加または削除できます。 
 ---
 = グループルールを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

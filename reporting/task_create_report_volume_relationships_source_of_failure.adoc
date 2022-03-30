@@ -5,6 +5,7 @@ keywords: create, report, group, volume, relationships, source, failure
 summary: 関係が正常な状態でない理由別にボリュームをグループ化するレポートを作成できます。 
 ---
 = ボリューム関係を障害の原因別にグループ化するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

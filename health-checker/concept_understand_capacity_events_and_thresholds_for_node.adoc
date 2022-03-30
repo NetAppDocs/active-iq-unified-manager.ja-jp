@@ -5,6 +5,7 @@ keywords: understand, events, thresholds, node, root, aggregates
 summary: Unified Manager を使用して、ノードのルートアグリゲートを監視できます。ルートアグリゲート内のルートボリュームをシックプロビジョニングしてノードの停止を防ぐことを推奨します。 
 ---
 = ノードのルートアグリゲートのイベントとしきい値の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

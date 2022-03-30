@@ -5,6 +5,7 @@ keywords: vmware, software, installation, requirements
 summary: Unified Manager をインストールする VMware vSphere システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。 
 ---
 = VMware ソフトウェアとインストールの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

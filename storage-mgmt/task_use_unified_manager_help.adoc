@@ -5,6 +5,7 @@ keywords: use, unified manager, help
 summary: このヘルプには、 Active IQ Unified Manager に含まれているすべての機能に関する情報が含まれています。目次、索引、または検索ツールを使用して、機能に関する情報や機能の使用方法を検索できます。 
 ---
 = Unified Manager ヘルプを使用する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

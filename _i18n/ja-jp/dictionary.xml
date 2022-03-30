@@ -3244,7 +3244,6 @@
   <block id="8de21a35f65c014ecc55f169fd0bf784" category="doc">ノードルートボリュームの概要</block>
   <block id="1aafd50acd3eec04290825cc7070495e" category="paragraph">ノードのルートボリュームの使用容量がノードのルートボリュームの合計容量の 80% を超えると、「 Node Root Volume Space Nearly Full 」イベントが生成されます。通知を受け取るようにイベントのアラートを設定できます。ONTAP System Manager または ONTAP CLI を使用して、ノードの停止を防ぐための適切な処置を行うことができます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
-  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
   <block id="3137ef72598d7594f057d3be7920e952" category="summary">健全性：すべてのボリュームビューを使用して、同じ Storage VM 上の 1 つ以上のボリュームの SnapVault 関係を作成し、データを保護するためのデータバックアップを有効にすることができます。</block>
   <block id="db86253f7843b8ab497704209fd4f2c9" category="doc">「健常性：すべてのボリューム」ビューで SnapVault 保護関係を作成します</block>
   <block id="b97129194b59af319f9dcc7d6f39fc0a" category="list-text">Workflow Automation のセットアップが完了している必要があります。</block>
@@ -11512,4 +11511,15 @@
   <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC に関する ONTAP 9 のマニュアル</block>
   <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous のビジネス継続性の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
   <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">SM-BC の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
 </blocks>

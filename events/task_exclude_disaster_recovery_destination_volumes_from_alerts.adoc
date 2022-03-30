@@ -5,6 +5,7 @@ keywords: exclude, disaster, recovery, destination, volumes, generate, alerts
 summary: ボリュームアラートを設定するときに、ボリュームまたはボリュームグループを識別する文字列をアラートダイアログボックスで指定できます。ただし、 SVM のディザスタリカバリを設定している場合は、ソースボリュームとデスティネーションボリュームの名前が同じであるため、両方のボリュームについてアラートを受け取ることになります。 
 ---
 = ディザスタリカバリのデスティネーションボリュームをアラート生成対象から除外します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

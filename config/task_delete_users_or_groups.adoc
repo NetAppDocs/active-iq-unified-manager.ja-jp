@@ -5,6 +5,7 @@ keywords: delete, users, groups
 summary: 管理サーバデータベースから 1 人以上のユーザを削除して、特定のユーザが Unified Manager にアクセスできないようにすることができます。また、グループを削除して、グループ内のすべてのユーザが管理サーバにアクセスできないようにすることもできます。 
 ---
 = ユーザまたはグループを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, overcommitted
 summary: アグリゲートのストレージ容量と使用状況を分析するために、オーバーコミットされたアグリゲートを表示するレポートを作成できます。 
 ---
 = オーバーコミットされたアグリゲートを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

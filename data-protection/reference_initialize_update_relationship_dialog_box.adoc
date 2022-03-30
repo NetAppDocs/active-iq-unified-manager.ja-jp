@@ -5,6 +5,7 @@ keywords: initialize, update, dialog box
 summary: Initialize/Update ダイアログボックスでは、新しい保護関係で最初のベースライン転送を実行できます。また、すでに初期化されている関係でスケジュールされていない増分更新を手動で実行する場合は、関係を更新できます。 
 ---
 = Initialize/Update ダイアログボックスが表示されます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: delete, scripts
 summary: 不要または無効になったスクリプトは、 Unified Manager から削除できます。 
 ---
 = スクリプトの削除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

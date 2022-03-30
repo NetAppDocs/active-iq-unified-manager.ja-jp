@@ -5,6 +5,7 @@ keywords: smb, cifs, view, shares, details
 summary: すべての SMB/CIFS 共有について、共有名、ジャンクションパス、コンテナオブジェクト、セキュリティ設定、共有に対して定義されているエクスポートポリシーなどの詳細情報を表示できます。すべての監視対象クラスタ上のすべての SMB 共有を表示するには Health ： All SMB Shares ビューを使用し、 Storage VM/Health 詳細ページを使用して特定の Storage Virtual Machine （ SVM ）上のすべての SMB 共有を表示します。 
 ---
 = SMB / CIFS 共有に関する詳細の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

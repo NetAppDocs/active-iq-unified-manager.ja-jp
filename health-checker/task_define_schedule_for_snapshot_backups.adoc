@@ -5,6 +5,7 @@ keywords: define, backup, schedule, linux, windows
 summary: Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。 
 ---
 = Linux と Windows のバックアップスケジュールの定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

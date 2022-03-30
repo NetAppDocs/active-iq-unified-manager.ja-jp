@@ -5,6 +5,7 @@ keywords: install, unified manager
 summary: Unified Manager をインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。 
 ---
 = Unified Manager をインストールしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

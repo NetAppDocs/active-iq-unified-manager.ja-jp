@@ -5,6 +5,7 @@ keywords: run, storage, efficiency, operations, less, busy, times
 summary: Storage Efficiency 処理に適用されるポリシーやスケジュールを変更して、影響を受けるボリュームワークロードの負荷が低いときに Storage Efficiency 処理を実行するように設定できます。 
 ---
 = 負荷の低い時間帯で Storage Efficiency 処理を実行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

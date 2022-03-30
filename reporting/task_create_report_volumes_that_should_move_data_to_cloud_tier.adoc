@@ -5,6 +5,7 @@ keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud
 summary: 現在 FabricPool アグリゲートにあるボリューム、クラウド階層に関する推奨事項があり、さらに大量のコールドデータがあるボリュームのリストを記載したレポートを作成できます。このレポートを使用して、特定のボリュームの階層化ポリシーを「自動」または「すべて」に変更して、より多くのコールド（非アクティブ）データをクラウド階層にオフロードする必要があるかどうかを判断できます。 
 ---
 = クラウド階層へのデータの移動が必要な FabricPool アグリゲート上のボリュームを特定するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

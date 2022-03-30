@@ -5,6 +5,7 @@ keywords: backup, restore, using, netapp, snapshots
 summary: NetApp Snapshot バックアップは、システム障害やデータ損失が発生した場合にリストアに使用できる Unified Manager データベースと構成ファイルのポイントインタイムイメージを作成します。Snapshot バックアップをいずれかの ONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。 
 ---
 = NetApp Snapshot を使用したバックアップとリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

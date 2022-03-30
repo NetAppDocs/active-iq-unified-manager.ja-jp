@@ -5,6 +5,7 @@ keywords: fix, issues, use, unified manager, automatic, remediations
 summary: イベントによっては、 Unified Manager の詳細な診断によって解決ボタンが 1 つ表示される場合があります。解決策がある場合は、ダッシュボード、イベントの詳細ページ、左側のナビゲーションメニューのワークロード分析の順に表示されます。 
 ---
 = Unified Manager の自動修復を使用して問題を修正します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

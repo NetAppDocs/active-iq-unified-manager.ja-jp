@@ -5,6 +5,7 @@ keywords: determine, space, issue, aggregate
 summary: Active IQ Unified Manager のデータセンター API を使用して、ボリューム内のスペースの可用性と使用率を監視できます。ボリューム内のスペースの問題を特定し、使用率が高すぎる、または十分に活用されていないストレージリソースを特定できます。 
 ---
 = アグリゲートのスペースの問題を特定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

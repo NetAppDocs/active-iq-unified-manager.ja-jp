@@ -5,6 +5,7 @@ keywords: enable, remote, authentication
 summary: Unified Manager サーバが認証サーバと通信できるように、リモート認証を有効にすることができます。認証サーバのユーザが Unified Manager のグラフィカルインターフェイスにアクセスしてストレージオブジェクトとデータを管理できるようになります。 
 ---
 = リモート認証の有効化
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

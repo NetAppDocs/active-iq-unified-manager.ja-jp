@@ -5,6 +5,7 @@ keywords: group
 summary: グループとは、種類の異なるストレージオブジェクト（クラスタ、 SVM 、またはボリューム）の動的な集まりです。Unified Manager でグループを作成することで、一連のストレージオブジェクトを簡単に管理できます。グループのメンバーは、その時点で Unified Manager が監視しているストレージオブジェクトに応じて変更される場合があります。 
 ---
 = グループとは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

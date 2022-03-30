@@ -5,6 +5,7 @@ keywords: unified manager, maintenance, window
 summary: Unified Manager のメンテナンス時間を定義することで、クラスタのメンテナンスを計画している場合に、その期間はイベントやアラートを抑制して不要な通知を受け取らないようにすることができます。 
 ---
 = Unified Manager のメンテナンス時間とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

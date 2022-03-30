@@ -5,6 +5,7 @@ keywords: restore, data, volume, health details page
 summary: ボリューム / 健全性の詳細ページのリストア機能を使用して、上書きまたは削除したファイルやディレクトリ、またはボリューム全体を Snapshot コピーからリストアできます。 
 ---
 = ボリューム / 健全性の詳細ページを使用したデータのリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

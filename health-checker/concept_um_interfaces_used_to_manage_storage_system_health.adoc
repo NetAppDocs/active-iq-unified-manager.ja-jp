@@ -5,6 +5,7 @@ keywords: unified manager, interfaces, manage, storage system, health
 summary: このガイドでは、 Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための 2 種類のユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。 
 ---
 = ストレージシステムの健常性を管理するために使用される Unified Manager のインターフェイス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storage vm, viewing protection relationships
 summary: Storage VM ページを使用して、既存の Storage VM のディザスタリカバリ関係のステータスを表示できます。 
 ---
 = Storage VM ページで保護関係を表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

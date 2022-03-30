@@ -5,6 +5,7 @@ keywords: scheduling, reports
 summary: レポートとして再利用して共有したいビューがある場合は、 Active IQ Unified Manager を使用してそのビューをスケジュール設定できます。スケジュールされたレポートの管理、各レポートスケジュールの受信者と配信頻度の変更が可能です。 
 ---
 = レポートのスケジュール設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

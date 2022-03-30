@@ -5,6 +5,7 @@ keywords: create, rules, generate, email, addresses
 summary: クラスタ、 Storage Virtual Machine （ SVM ）、ボリューム、 qtree 、ユーザ、またはユーザグループに関連付けられたユーザクォータに基づいて、 E メールアドレスを指定するルールを作成できます。クォータに違反が発生すると、指定した E メールアドレスに通知が送信されます。 
 ---
 = E メールアドレスを生成するルールを作成しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

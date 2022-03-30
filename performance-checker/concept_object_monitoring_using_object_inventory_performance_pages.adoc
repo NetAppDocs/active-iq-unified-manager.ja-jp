@@ -5,6 +5,7 @@ keywords: object, monitoring, performance, object, inventory, pages
 summary: パフォーマンスオブジェクトのインベントリページでは、特定のパフォーマンスカウンタの値またはパフォーマンスイベントに基づいてオブジェクトのパフォーマンスを監視できます。パフォーマンスイベントが報告されたオブジェクトを特定することで、クラスタのパフォーマンスの問題について原因を調査できます。 
 ---
 = パフォーマンスオブジェクトのインベントリページを使用したオブジェクトの監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

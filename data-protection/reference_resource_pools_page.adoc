@@ -5,6 +5,7 @@ keywords: resource, pools, page
 summary: リソースプールページには、既存のリソースプールとそのメンバーが表示されます。また、プロビジョニングのためにリソースプールを作成、監視、管理することもできます。 
 ---
 = リソースプールページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

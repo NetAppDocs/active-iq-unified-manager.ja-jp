@@ -5,6 +5,7 @@ keywords: view, volume, protection status, dashboard protection card, protection
 summary: データ保護ページには、データセンター内で保護されているすべてのボリュームのデータ保護の詳細が全体的に表示されます。 
 ---
 = ボリュームの保護ステータスを表示しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

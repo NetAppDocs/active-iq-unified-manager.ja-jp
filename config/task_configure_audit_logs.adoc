@@ -5,6 +5,7 @@ keywords: configure, audit logs
 summary: 監査ログセクションの設定ボタンを使用して、監査ログファイルのローリングポリシーを設定したり、監査ログのリモートロギングを有効にしたりできます。 
 ---
 = 監査ログを設定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

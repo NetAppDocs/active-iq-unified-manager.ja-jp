@@ -5,6 +5,7 @@ keywords: active iq, unified manager, api, access, categories
 summary: Active IQ Unified Manager API を使用して、環境内のストレージオブジェクトを管理およびプロビジョニングできます。Unified Manager Web UI にアクセスして、これらの機能の一部を実行することもできます。 
 ---
 = Active IQ Unified Manager API アクセスおよびカテゴリ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 :pp: &#43;&#43;

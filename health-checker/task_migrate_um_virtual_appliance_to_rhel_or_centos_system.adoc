@@ -5,6 +5,7 @@ keywords: unified manager, migrate, virtual, appliance, linux system
 summary: Unified Manager を実行するホストオペレーティングシステムを変更する場合は、 Unified Manager の MySQL データベースダンプバックアップを仮想アプライアンスから Red Hat Enterprise Linux システムまたは CentOS Linux システムにリストアすることができます。 
 ---
 = Linux システムへの Unified Manager 仮想アプライアンスの移行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

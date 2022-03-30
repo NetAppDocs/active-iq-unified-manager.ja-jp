@@ -5,6 +5,7 @@ keywords: cluster, performance, events, pane, counter
 summary: クラスタパフォーマンスイベントのペインには、クラスタのパフォーマンス統計およびアクティブなすべてのイベントが表示されます。これは、クラスタおよびクラスタ関連のすべてのパフォーマンスとイベントを監視する場合に最も役立ちます。 
 ---
 = クラスタパフォーマンスイベントのペイン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

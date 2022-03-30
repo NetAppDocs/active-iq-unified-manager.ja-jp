@@ -5,6 +5,7 @@ keywords: linux software, installation requirements, system, authorization,  req
 summary: Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。 
 ---
 = Linux ソフトウェアとインストールの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: view, https, security, certificate
 summary: HTTPS 証明書の詳細をブラウザで取得した証明書と比較して、 Unified Manager に対するブラウザの暗号化された接続が妨害されていないことを確認できます。 
 ---
 = HTTPS セキュリティ証明書の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

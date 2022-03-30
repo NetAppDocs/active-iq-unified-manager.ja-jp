@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, full
 summary: '80% 以上フルのアグリゲートを表示するレポートを作成できます。' 
 ---
 = 80% 以上フルのアグリゲートを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

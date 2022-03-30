@@ -5,6 +5,7 @@ keywords: add, alert, dialog, box, name, resources, events, actions, command but
 summary: アラートを作成すると、特定のイベントが生成されたときに通知されるため、問題にすばやく対処し、環境への影響を最小限に抑えることができます。アラートは、単一のリソース、一連のリソース、および特定の重大度タイプのイベントについて作成することができます。アラートの通知方式と通知頻度を指定することもできます。 
 ---
 = Add Alert ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

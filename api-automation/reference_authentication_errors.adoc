@@ -5,6 +5,7 @@ keywords: http, status, code, active iq, unified manager
 summary: API の実行時や問題のトラブルシューティング時には、 Active IQ Unified Manager API で使用されるさまざまな HTTP ステータスコードとエラーコードについて理解しておく必要があります。 
 ---
 = Active IQ Unified Manager で使用される HTTP ステータスコード
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

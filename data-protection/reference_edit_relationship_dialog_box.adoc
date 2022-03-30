@@ -5,6 +5,7 @@ keywords: edit, relationship, dialog box
 summary: 既存の保護関係を編集して、最大転送速度、保護ポリシー、保護スケジュールを変更することができます。 
 ---
 = 関係の編集ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: upgrade, unified manager
 summary: VMware vSphere 上の Unified Manager にアップグレードできます 
 ---
 = Unified Manager をアップグレードする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: understanding, reports
 summary: レポートには、ストレージ、ネットワーク、サービス品質、および保護関係に関する詳細情報が表示されます。これにより、潜在的な問題を発生前に特定して解決することができます。 
 ---
 = レポートの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

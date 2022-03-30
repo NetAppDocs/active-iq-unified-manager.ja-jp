@@ -5,6 +5,7 @@ keywords: saml authentication page
 summary: SAML 認証ページを使用して、 Unified Manager の Web UI にログインするリモートユーザを SAML を使用してセキュアなアイデンティティプロバイダ（ IdP ）で認証するように Unified Manager を設定できます。 
 ---
 = SAML Authentication ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

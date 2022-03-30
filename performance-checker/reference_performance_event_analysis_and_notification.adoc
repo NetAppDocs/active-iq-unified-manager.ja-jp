@@ -5,6 +5,7 @@ keywords: performance, event, analysis, notification
 summary: パフォーマンスイベントは、クラスタコンポーネントの競合に起因するワークロードの I/O パフォーマンスの問題を管理者に通知します。Unified Manager はイベントを分析して、関連するすべてのワークロード、競合状態のコンポーネント、および解決する必要のある問題かどうかを特定します。 
 ---
 = パフォーマンスイベントの分析と通知
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

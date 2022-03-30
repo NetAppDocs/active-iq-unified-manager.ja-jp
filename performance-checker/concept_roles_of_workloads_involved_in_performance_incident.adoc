@@ -5,6 +5,7 @@ keywords: roles, workloads, involved, performance, event
 summary: Unified Manager では、ロールを使用して、パフォーマンスイベントにワークロードがどのように関連しているかを特定します。役割には Victim 、 Bully 、 Shark があります。ユーザ定義のワークロードは同時に Victim 、 Bully 、 Shark となることがあります。 
 ---
 = パフォーマンスイベントに関連したワークロードの役割
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

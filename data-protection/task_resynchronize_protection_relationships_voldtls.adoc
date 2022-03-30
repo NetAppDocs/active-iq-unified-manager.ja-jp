@@ -5,6 +5,7 @@ keywords: resynchronize, protection, relationships, volume, health details page
 summary: SnapMirror 関係や SnapVault 関係を解除してデスティネーションが読み書き可能になったあとに、ソースのデータとデスティネーションのデータが一致するようにデータを再同期することができます。再同期は、必要な共通の Snapshot コピーがソースボリュームで削除されたために SnapMirror や SnapVault の更新が失敗する場合にも実行することがあります。 
 ---
 = ボリューム / 健全性の詳細ページから保護関係を再同期しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

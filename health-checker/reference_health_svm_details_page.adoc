@@ -5,6 +5,7 @@ keywords: storage VM, health details page
 summary: Storage VM / 健全性の詳細ページでは、選択した Storage VM について、健全性、容量、構成、データポリシー、論理インターフェイス（ LIF ）、 LUN 、 qtree 、ユーザ、ユーザグループクォータ、および保護の詳細Storage VM に関連するオブジェクトやアラートに関する情報も確認できます。 
 ---
 = Storage VM / 健全性の詳細ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

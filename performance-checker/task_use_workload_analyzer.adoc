@@ -5,6 +5,7 @@ keywords: workload analyzer
 summary: Workload Analyzer は、ユーザインターフェイスからさまざまな方法で起動できます。ここでは、左側のナビゲーションペインからツールを起動する方法について説明します。 
 ---
 = Workload Analyzer の使用
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

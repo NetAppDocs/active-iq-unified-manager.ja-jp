@@ -5,6 +5,7 @@ keywords: setting, connection, between, unified manager, server, external, data,
 summary: Unified Manager サーバと外部データプロバイダを接続すると、クラスタのパフォーマンスデータを外部サーバに送信できるので、ストレージ管理者は他社製ソフトウェアを使用してパフォーマンス指標をグラフ化できるようになります。 
 ---
 = Unified Manager サーバと外部データプロバイダ間の接続の設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

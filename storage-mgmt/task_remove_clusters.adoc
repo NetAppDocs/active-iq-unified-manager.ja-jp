@@ -5,6 +5,7 @@ keywords: remove, cluster
 summary: Unified Manager からクラスタを削除するには、クラスタセットアップページを使用します。たとえば、クラスタの検出に失敗した場合やストレージシステムを運用停止する場合に、クラスタを削除できます。 
 ---
 = クラスタの削除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

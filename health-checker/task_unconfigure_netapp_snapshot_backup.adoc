@@ -5,6 +5,7 @@ keywords: netapp, modify, snapshot backup, windows, unconfigure, backup type
 summary: Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup オプションを使用すると、 MySQL ベースのバックアップにフォールバックできます。 
 ---
 = バックアップタイプを変更しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

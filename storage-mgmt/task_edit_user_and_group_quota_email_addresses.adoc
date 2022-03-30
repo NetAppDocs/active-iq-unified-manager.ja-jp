@@ -5,6 +5,7 @@ keywords: edit, user, group, quota, email, addresses
 summary: 'クラスタ、 Storage Virtual Machine （ SVM ）、ボリューム、 qtree 、ユーザ、またはユーザグループに関連付けられたユーザクォータに基づいて、 E メールアドレスを変更することができます。[ ユーザクォータおよびグループクォータの E メールアドレスを生成するルール ] ダイアログボックスで指定したルールによって生成された E メールアドレスを上書きする場合は、 E メールアドレスを変更できます。' 
 ---
 = ユーザクォータおよびグループクォータの E メールアドレスの編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

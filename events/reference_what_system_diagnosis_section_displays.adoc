@@ -5,6 +5,7 @@ keywords: system, diagnosis, section, displays
 summary: イベント詳細ページのシステム診断セクションには、イベントに関連する問題の診断に役立つ情報が記載されています。 
 ---
 = 「システム診断」セクションの表示内容
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

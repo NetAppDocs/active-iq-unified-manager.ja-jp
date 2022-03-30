@@ -5,6 +5,7 @@ keywords: security criteria, evaluated
 summary: 一般に、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームのセキュリティ条件は、『 ONTAP 9 セキュリティ設定ガイド』に定義されている推奨事項に照らして評価されます。 
 ---
 = 評価されるセキュリティ条件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

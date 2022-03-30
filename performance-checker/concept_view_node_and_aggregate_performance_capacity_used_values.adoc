@@ -5,6 +5,7 @@ keywords: view, node, aggregate, performance, capacity, used, values
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用済みパフォーマンス容量の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
 = ノードとアグリゲートの使用済みパフォーマンス容量の値の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

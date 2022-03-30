@@ -5,6 +5,7 @@ keywords: rest api, access, authentication, active iq, unified, manager
 summary: Active IQ Unified Manager REST API には、問題 HTTP 要求を実行できる任意の Web ブラウザまたはプログラミングプラットフォームを使用してアクセスできます。Unified Manager は、基本的な HTTP 認証メカニズムをサポートしています。Unified Manager REST API を呼び出す前に、ユーザを認証する必要があります。 
 ---
 = Active IQ Unified Manager での REST API へのアクセスおよび認証
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

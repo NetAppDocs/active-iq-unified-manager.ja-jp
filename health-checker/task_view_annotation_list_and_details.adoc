@@ -5,6 +5,7 @@ keywords: view, annotation list, details
 summary: クラスタ、ボリューム、および Storage Virtual Machine （ SVM ）に動的に関連付けられるアノテーションのリストを確認することができます。また、概要、 Created By 、 Created Date 、 Values 、 rules などの詳細も参照できます。 およびアノテーションに関連付けられているオブジェクト。 
 ---
 = アノテーションリストおよび詳細の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

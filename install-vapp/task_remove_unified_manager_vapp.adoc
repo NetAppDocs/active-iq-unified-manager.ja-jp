@@ -5,6 +5,7 @@ keywords: remove unified manager
 summary: Unified Manager をアンインストールするには、 Unified Manager ソフトウェアがインストールされている仮想マシン（ VM ）を削除します。 
 ---
 = Unified Manager を削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

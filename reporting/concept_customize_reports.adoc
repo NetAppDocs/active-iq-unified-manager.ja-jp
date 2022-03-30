@@ -5,6 +5,7 @@ keywords: customize, reports
 summary: さまざまな方法でビューをカスタマイズして、 ONTAP クラスタの管理に必要なすべての情報を含むレポートを作成できます。 
 ---
 = レポートのカスタマイズ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

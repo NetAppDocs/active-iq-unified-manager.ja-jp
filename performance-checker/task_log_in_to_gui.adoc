@@ -5,6 +5,7 @@ keywords: log in, ui, unified manager
 summary: Unified Manager の UI には、サポートされている Web ブラウザからログインできます。 
 ---
 = UI にログインします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: remove, protection, relationship, volume, relationships page
 summary: ボリューム関係ページでは、保護関係を削除して、選択したソースとデスティネーションの間の既存の関係を完全に削除できます。たとえば、別のデスティネーションを使用して関係を作成する場合などです。この処理ではすべてのメタデータが削除され、元に戻すことはできません。 
 ---
 = ボリューム関係ページから保護関係を削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

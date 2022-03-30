@@ -5,6 +5,7 @@ keywords: change, performance, statistics, collection, interval
 summary: パフォーマンス統計のデフォルトの収集間隔は 5 分です。大規模なクラスタからの収集がデフォルトの時間内に完了しない場合は、この間隔を 10 分または 15 分に変更できます。この設定は、この Unified Manager インスタンスで監視しているすべてのクラスタからの統計の収集に適用されます。 
 ---
 = パフォーマンス統計データの収集間隔を変更する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

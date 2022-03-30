@@ -5,6 +5,7 @@ keywords: storage, capacity, health, thresholds
 summary: ストレージ容量の健常性しきい値は、ストレージオブジェクトに関する容量の問題を報告するために Unified Manager サーバがイベントを生成するポイントです。そのようなイベントが発生するたびに通知を送信するようにアラートを設定できます。 
 ---
 = ストレージ容量の健常性しきい値とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

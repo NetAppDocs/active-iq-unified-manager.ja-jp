@@ -5,6 +5,7 @@ keywords: work, reports
 summary: 共有可能なスケジュール済みレポートにインベントリページビューを見つけてカスタマイズする方法について説明します。 
 ---
 = レポートの操作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

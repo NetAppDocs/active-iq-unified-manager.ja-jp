@@ -5,6 +5,7 @@ keywords: common, workflows, storage, management
 summary: この一般的なワークフローは、クライアントアプリケーション開発者向けに、クライアントアプリケーションから Active IQ Unified Manager API を呼び出して一般的なストレージ管理機能を実行する方法を示します。ここでは、これらのサンプルワークフローの一部を紹介します。 
 ---
 = ストレージ管理の一般的なワークフロー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

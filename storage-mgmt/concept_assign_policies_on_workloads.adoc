@@ -5,6 +5,7 @@ keywords: assign, policies, workloads, single, multiple, storage, system-recomme
 summary: 各種のナビゲーションオプションを使用して、ストレージ効率化ポリシー（ SEP ）とパフォーマンスサービスレベル（ PSL ）をすべてのワークロードページからストレージワークロードに割り当てることができます。 
 ---
 = ワークロードにポリシーを割り当てます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

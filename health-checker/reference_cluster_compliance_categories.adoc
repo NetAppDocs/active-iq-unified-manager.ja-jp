@@ -5,6 +5,7 @@ keywords: cluster compliance, categories
 summary: 次の表に、 Unified Manager で評価されるクラスタセキュリティコンプライアンスのパラメータ、ネットアップの推奨事項、およびクラスタが準拠か非準拠かの総合的な判断にパラメータが影響するかどうかを示します。 
 ---
 = クラスタコンプライアンスのカテゴリ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

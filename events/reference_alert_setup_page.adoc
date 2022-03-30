@@ -5,6 +5,7 @@ keywords: alert, setup, page, command buttons, list view, details area
 summary: '[Alert Setup] ページには、アラートのリストが表示され、アラート名、ステータス、通知方法、および通知頻度に関する情報が提供されます。また、このページでアラートを追加、編集、削除、有効化、無効化することもできます。' 
 ---
 = Alert Setup ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

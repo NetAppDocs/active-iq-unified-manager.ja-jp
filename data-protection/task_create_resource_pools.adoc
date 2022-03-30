@@ -5,6 +5,7 @@ keywords: creating, resource, pools
 summary: '[Create Resource Pool] ダイアログボックスを使用すると、プロビジョニングのためにアグリゲートをグループ化できます。' 
 ---
 = リソースプールを作成しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: defining, list, correlated, objects, comparison, graphing
 summary: カウンタグラフペインでは、データとパフォーマンスの比較の関連オブジェクトのリストを定義できます。たとえば、 Storage Virtual Machine （ SVM ）でパフォーマンス問題が発生した場合は、 SVM 内のすべてのボリュームを比較して、問題の原因となったボリュームを特定できます。 
 ---
 = 比較グラフ用の関連オブジェクトのリストを定義する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

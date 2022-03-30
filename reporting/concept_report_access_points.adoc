@@ -5,6 +5,7 @@ keywords: access, points, generating, reports
 summary: クラスタに関する情報を Unified Manager で収集して、 UI 、 MySQL データベースクエリ、 REST API からレポートを作成できます。 
 ---
 = レポートを生成するためのアクセスポイント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

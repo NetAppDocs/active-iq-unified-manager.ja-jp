@@ -5,6 +5,7 @@ keywords: check, health, clusters, metrocluster, configuration
 summary: Unified Manager を使用して、 MetroCluster 構成のクラスタとそのコンポーネントの運用の健常性を確認できます。Unified Manager によって検出されたパフォーマンスイベントにクラスタが関連している場合は、健常性ステータスを確認することで、ハードウェアまたはソフトウェアの問題がイベントの一因となったかどうかを判断できます。 
 ---
 = MetroCluster 構成のクラスタの健常性を確認しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: view, node, aggregate, available, iops, values
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用可能な IOPS の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
 = ノードとアグリゲートの使用可能な IOPS の値の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

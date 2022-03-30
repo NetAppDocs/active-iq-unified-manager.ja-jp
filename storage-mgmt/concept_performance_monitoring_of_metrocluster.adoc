@@ -5,6 +5,7 @@ keywords: performance, monitor, metrocluster, configurations
 summary: Unified Manager では、 MetroCluster 構成のクラスタ間の書き込みスループットを監視して、大量の書き込みスループットを生成しているワークロードを特定できます。このような負荷の高いワークロードが原因でローカルクラスタの他のボリュームの I/O 応答時間が長くなると、 Unified Manager はパフォーマンスイベントをトリガーしてユーザに通知します。 
 ---
 = MetroCluster 構成のパフォーマンス監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

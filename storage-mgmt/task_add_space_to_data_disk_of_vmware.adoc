@@ -5,6 +5,7 @@ keywords: add space, data, disk, vmware, virtual, machine
 summary: Unified Manager データベースのデータディスクのスペースを増やす必要がある場合は、インストール後に Unified Manager のメンテナンスコンソールを使用してディスクスペースを増やして容量を追加できます。 
 ---
 = VMware 仮想マシンのデータディスクにスペースを追加しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

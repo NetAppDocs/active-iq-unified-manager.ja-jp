@@ -5,6 +5,7 @@ keywords: restore, dialog box
 summary: リストアダイアログボックスを使用すると、特定の Snapshot コピーからボリュームにデータをリストアできます。 
 ---
 = リストアダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

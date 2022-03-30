@@ -5,6 +5,7 @@ keywords: backup, restore, unified manager, virtual, appliance
 summary: 仮想アプライアンスにインストールされた Unified Manager のバックアップとリストアのモデルでは、仮想アプリケーション全体のイメージをキャプチャしてリストアします。 
 ---
 = 仮想アプライアンスでの Unified Manager のバックアップとリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

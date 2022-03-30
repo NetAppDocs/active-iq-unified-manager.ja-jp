@@ -5,6 +5,7 @@ keywords: event, investigation, navigation
 summary: Unified Manager のイベント詳細ページには、パフォーマンスイベントに関する詳しい情報が表示されます。トラブルシューティングやシステムパフォーマンスの微調整を行う際に、このページでパフォーマンスイベントを調査できます。 
 ---
 = イベント調査時の画面操作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

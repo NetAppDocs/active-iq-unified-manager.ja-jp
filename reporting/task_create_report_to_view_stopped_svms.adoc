@@ -5,6 +5,7 @@ keywords: create, report, view, stopped, storage VMs
 summary: 停止しているすべての SVM のリストを表示するレポートを作成できます。 
 ---
 = 停止している Storage VM を表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

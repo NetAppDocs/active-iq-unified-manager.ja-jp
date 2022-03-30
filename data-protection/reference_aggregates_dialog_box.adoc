@@ -5,6 +5,7 @@ keywords: aggregates, dialog box
 summary: アグリゲートダイアログボックスを使用して、リソースプールに追加するアグリゲートを選択できます。 
 ---
 = Aggregates タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

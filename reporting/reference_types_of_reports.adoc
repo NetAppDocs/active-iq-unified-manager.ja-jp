@@ -5,6 +5,7 @@ keywords: types, reports
 summary: この表には、カスタマイズ、ダウンロード、およびスケジュール設定が可能なレポートとして使用できるビューとインベントリページの包括的なリストが表示されます。 
 ---
 = レポートのタイプ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

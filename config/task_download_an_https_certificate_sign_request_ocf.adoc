@@ -5,6 +5,7 @@ keywords: download, https, certificate, signing, request
 summary: 認証局にファイルを送信して署名を求めるために、現在の HTTPS セキュリティ証明書の証明書署名要求をダウンロードできます。CA 署名証明書は、中間者攻撃を阻止するのに役立ち、自己署名証明書よりも強力なセキュリティ保護を実現します。 
 ---
 = HTTPS 証明書署名要求のダウンロード
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

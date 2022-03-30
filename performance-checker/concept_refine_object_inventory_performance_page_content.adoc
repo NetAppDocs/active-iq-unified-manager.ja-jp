@@ -5,6 +5,7 @@ keywords: refining, performance, inventory, page, contents
 summary: パフォーマンスオブジェクトのインベントリページには、オブジェクトインベントリデータのコンテンツを絞り込むためのツールが含まれており、特定のデータをすばやく簡単に見つけることができます。 
 ---
 = パフォーマンスインベントリページの内容の改善
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

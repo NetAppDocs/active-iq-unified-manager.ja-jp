@@ -5,6 +5,7 @@ keywords: event management, system,
 summary: Event Management System （ EMS ；イベント管理システム）は、 ONTAP カーネルのさまざまな部分からイベントデータを収集し、イベント転送のメカニズムを提供します。Unified Manager では、このような ONTAP イベントを EMS イベントとして報告できます。一元化された監視と管理により、重大な EMS イベントとそれらの EMS イベントに基づくアラート通知を簡単に設定することができます。 
 ---
 = イベント管理システムイベントとは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

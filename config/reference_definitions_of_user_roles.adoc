@@ -5,6 +5,7 @@ keywords: definitions, user roles
 summary: メンテナンスユーザまたはアプリケーション管理者が、各ユーザにロールを割り当てます。各ロールには特定の権限が含まれていますUnified Manager で実行できる操作の範囲は、割り当てられたロールとその権限で決まります。 
 ---
 = ユーザロールの定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: unified manager ,rest api, reporting
 summary: REST API を使用すると、 Unified Manager で収集された健全性、容量、パフォーマンス、セキュリティの情報を確認することができ、クラスタの管理に便利です。 
 ---
 = レポート作成に使用できる Unified Manager REST API
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

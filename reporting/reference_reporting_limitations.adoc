@@ -5,6 +5,7 @@ keywords: reporting, limitations
 summary: Active IQ Unified Manager の新しいレポート機能には、注意が必要な制限事項があります。 
 ---
 = レポート機能の制限事項
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

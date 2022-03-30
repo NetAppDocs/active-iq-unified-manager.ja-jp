@@ -5,6 +5,7 @@ keywords: view, events, details
 summary: Unified Manager がトリガーするイベントに関する詳細を表示して、そのイベントに対処することができます。たとえば、健全性イベントである「ボリュームはオフライン」が発生した場合は、そのイベントをクリックして詳細を表示し、対処方法を実行できます。 
 ---
 = イベントとイベントの詳細を表示する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

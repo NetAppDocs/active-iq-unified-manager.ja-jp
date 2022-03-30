@@ -5,6 +5,7 @@ keywords: create, snapmirror, policy, dialog box
 summary: SnapMirror ポリシーの作成ダイアログボックスでは、 SnapMirror 転送の優先度を設定するポリシーを作成できます。ポリシーを使用することで、ソースからデスティネーションへの転送効率を最大化できます。 
 ---
 = SnapMirror ポリシーの作成ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

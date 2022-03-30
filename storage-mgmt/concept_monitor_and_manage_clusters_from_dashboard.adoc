@@ -5,6 +5,7 @@ keywords: monitor, manage, clusters, dashboard
 summary: ダッシュボードには、監視対象の ONTAP システムの現在までの健全性に関する履歴情報がわかりやすく表示されます。ダッシュボードには、監視しているクラスタの全体的な容量、パフォーマンス、およびセキュリティの健全性を評価できる「パネル」があります。 
 ---
 = ダッシュボードからクラスタを監視および管理する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

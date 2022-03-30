@@ -5,6 +5,7 @@ keywords: analyze, dynamic, performance, event, cluster, metrocluster, configura
 summary: Unified Manager を使用して、パフォーマンスイベントが検出された MetroCluster 構成のクラスタについて分析することができます。クラスタの名前、イベントの検出時刻、および関連する Bully と Victim のワークロードを特定できます。 
 ---
 = MetroCluster 構成のクラスタの動的なパフォーマンスイベントを分析する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

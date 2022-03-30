@@ -5,6 +5,7 @@ keywords: components, node, failover, planning page, performance, statistics, gr
 summary: Performance / Node Failover Planning ページのコンポーネントが、グリッドと Comparing ペインに表示されます。これらのセクションで、ノードのフェイルオーバーによるテイクオーバーノードのパフォーマンスへの影響を評価できます。 
 ---
 = Node Failover Planning ページのコンポーネント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

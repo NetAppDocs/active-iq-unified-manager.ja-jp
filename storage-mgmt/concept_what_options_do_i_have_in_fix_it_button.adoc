@@ -5,6 +5,7 @@ keywords: fix it,fix all
 summary: 管理操作ページの修正またはすべて修正ボタンを使用して、 Unified Manager にイベントを通じて通知された問題を修正できます。 
 ---
 = [ 修正 ] または [ すべて修正 ] ボタンが表示されたら、どのようなオプションがありますか
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

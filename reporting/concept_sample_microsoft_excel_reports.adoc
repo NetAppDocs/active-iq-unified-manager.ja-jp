@@ -5,6 +5,7 @@ keywords: sample, microsoft, excel, reports
 summary: このサンプルの Microsoft Excel レポートは、 Excel の高度な機能を使用して利用できるレポートオプションを紹介することを目的としています。 
 ---
 = Microsoft Excel レポートの例
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

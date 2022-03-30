@@ -5,6 +5,7 @@ keywords: reverse, resync, dialog box
 summary: ソースボリュームが機能しなくなったために保護関係を解除して、デスティネーションを読み書き可能なボリュームにした場合は、逆再同期によって関係の方向を反転させて、デスティネーションを新しいソースにし、ソースを新しいデスティネーションにすることができます。 
 ---
 = ReverseResync タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

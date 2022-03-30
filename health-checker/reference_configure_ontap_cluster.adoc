@@ -5,6 +5,7 @@ keywords: netapp, snapshot, backup, windows, configure, ontap, cluster
 summary: Windows で Active IQ Unified Manager を Snapshot バックアップおよびリストア用に設定する前に、 ONTAP および Windows ホストマシンに対していくつかの事前設定を実行しておく必要があります。 
 ---
 = ONTAP クラスタを設定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

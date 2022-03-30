@@ -5,6 +5,7 @@ keywords: logs, troubleshooting
 summary: システムログを使用して、 API の実行中に発生する可能性のある障害の原因を分析し、問題のトラブルシューティングを行うことができます。 
 ---
 = トラブルシューティング用のログ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

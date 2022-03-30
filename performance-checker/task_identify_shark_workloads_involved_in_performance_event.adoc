@@ -5,6 +5,7 @@ keywords: identify, shark workloads, involved, dynamic, performance, event
 summary: Unified Manager では、競合しているストレージコンポーネントを集中的に使用しているワークロードを特定できます。このようなワークロードを特定すると、利用率が低いクラスタにこれらのワークロードを移動する必要があるかどうかを判断できます。 
 ---
 = 動的なパフォーマンスイベントに関連した Shark ワークロードの特定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

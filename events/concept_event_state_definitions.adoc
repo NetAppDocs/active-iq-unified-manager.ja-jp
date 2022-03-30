@@ -5,6 +5,7 @@ keywords: event, state, definitions
 summary: イベントの状態を確認すると、対処が必要かどうかを特定するのに役立ちます。イベントの状態は、「新規」、「確認済み」、「解決済み」、「廃止」のいずれかです。「新規」と「確認済み」のイベントの両方がアクティブなイベントとみなされます。 
 ---
 = イベントの状態の定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

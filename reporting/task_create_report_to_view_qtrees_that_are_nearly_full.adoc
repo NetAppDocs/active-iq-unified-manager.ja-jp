@@ -5,6 +5,7 @@ keywords: create, report, view, qtrees, full
 summary: qtree のストレージ容量と使用状況を分析するために、ほぼフルの qtree を表示するレポートを作成できます。 
 ---
 = ほぼフルの qtree を表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

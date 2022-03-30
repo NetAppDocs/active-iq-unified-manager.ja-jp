@@ -5,6 +5,7 @@ keywords: relationship, 1 month, transfer rate, view
 summary: Relationship ： Last 1 month Transfer Rate ビューを使用すると、非同期関係にあるボリュームについて、転送されるデータボリュームの量を 1 日単位で分析できます。また、このページには、毎日の転送に関する詳細およびボリュームと Storage VM の転送処理を完了するために必要な時間が表示されます。 
 ---
 = 関係：過去 1 カ月の転送速度ビュー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

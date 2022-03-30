@@ -5,6 +5,7 @@ keywords: happens, performance, threshold, policy, changed
 summary: 既存のパフォーマンスしきい値ポリシーのカウンタの値や期間を調整した場合、そのポリシーを使用するすべてのストレージオブジェクトに変更が反映されます。新しい設定はすぐに有効になり、 Unified Manager で新たに収集されるすべてのパフォーマンスデータについて、パフォーマンスカウンタの値が新しいしきい値の設定と比較されるようになります。 
 ---
 = パフォーマンスしきい値ポリシーが変更された場合の動作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

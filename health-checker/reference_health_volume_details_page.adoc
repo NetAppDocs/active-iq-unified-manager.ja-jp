@@ -5,6 +5,7 @@ keywords: volume, health details page
 summary: ボリューム / 健全性の詳細ページでは、選択したボリュームについて、容量、ストレージ効率、設定、保護などの詳細情報を確認できます。 生成されたアノテーションおよびイベントまた、そのボリュームに関連するオブジェクトやアラートに関する情報も参照できます。 
 ---
 = ボリューム / 健全性の詳細ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

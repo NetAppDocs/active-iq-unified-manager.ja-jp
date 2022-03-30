@@ -5,6 +5,7 @@ keywords: dynamic, performance, event, ha, takeover
 summary: Unified Manager を使用して、ハイアベイラビリティ（ HA ）ペアを構成するクラスタノードでの大量のデータ処理が原因のパフォーマンスイベントを調査できます。また、 Unified Manager を使用してノードの健全性を確認し、ノードで検出された最近の健全性イベントがパフォーマンスイベントに関与しているかどうかを判断できます。 
 ---
 = HA テイクオーバーが原因の動的なパフォーマンスイベントへの対処
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

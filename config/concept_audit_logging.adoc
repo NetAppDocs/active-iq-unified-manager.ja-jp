@@ -5,6 +5,7 @@ keywords: audit, logging
 summary: 監査ログを使用すると、監査ログが侵害されたかどうかを検出できます。ユーザが実行するすべてのアクティビティが監視され、監査ログに記録されます。監査は、 Active IQ Unified Manager のすべてのユーザーインターフェイスと公開されている API の機能に対して実行されます。 
 ---
 = 監査ログ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

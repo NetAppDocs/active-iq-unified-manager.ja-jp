@@ -5,6 +5,7 @@ keywords: group rules, work, groups
 summary: グループルールとは、ストレージオブジェクト（ボリューム、クラスタ、または SVM ）を特定のグループに追加する基準を定義したものです。グループのグループルールは、条件グループまたは条件を使用して定義できます。 
 ---
 = グループでのグループルールの仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

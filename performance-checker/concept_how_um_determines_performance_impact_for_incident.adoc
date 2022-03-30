@@ -5,6 +5,7 @@ keywords: unified manager, determines, performance, impact, event
 summary: Unified Manager は、ワークロードについてそのアクティビティ、利用率、書き込みスループット、クラスタコンポーネントの使用量、または I/O レイテンシ（応答時間）の偏差を使用して、ワークロードパフォーマンスへの影響のレベルを判定します。この情報によって、イベントにおける各ワークロードの役割とイベントの詳細ページでのランク付けが決まります。 
 ---
 = Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: resource pools
 summary: リソースプールは、 Unified Manager を使用してストレージ管理者が作成するアグリゲートのグループであり、バックアップ管理用のパートナーアプリケーションにプロビジョニングを提供します。 
 ---
 = リソースプールとは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

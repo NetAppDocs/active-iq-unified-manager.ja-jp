@@ -5,6 +5,7 @@ keywords: what happens, oncommand, workflow automation, reinstalled, upgraded
 summary: OnCommand Workflow Automation を再インストールまたはアップグレードする前に、 OnCommand Workflow Automation と Unified Manager の間の接続を削除し、実行中のすべての OnCommand Workflow Automation またはスケジュールされたジョブが停止されていることを確認する必要があります。 
 ---
 = OnCommand Workflow Automation を再インストールまたはアップグレードするとどうなりますか
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

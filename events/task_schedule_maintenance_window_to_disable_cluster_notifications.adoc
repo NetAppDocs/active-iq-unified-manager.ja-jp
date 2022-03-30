@@ -5,6 +5,7 @@ keywords: schedule, maintenance, window, disable, cluster, event, notifications
 summary: クラスタをアップグレードしたり、いずれかのノードを移動したりする場合など、クラスタを計画的に停止するときは、 Unified Manager のメンテナンス時間をスケジュールすることで、その間は通常生成されるイベントやアラートを抑制することができます。 
 ---
 = メンテナンス時間のスケジュールによるクラスタイベント通知の無効化
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

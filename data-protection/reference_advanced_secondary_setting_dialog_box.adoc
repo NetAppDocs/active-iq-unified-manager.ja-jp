@@ -5,6 +5,7 @@ keywords: advanced, secondary, settings, dialog box
 summary: Advanced Secondary Settings ダイアログボックスを使用して、セカンダリボリュームのバージョンに依存しないレプリケーション、複数コピーバックアップ、およびスペース関連設定を有効にすることができます。Advanced Secondary Settings ダイアログボックスを使用して、現在の設定を有効または無効にすることができます。 
 ---
 = Advanced Secondary Settings ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: customize, qtree, capacity, reports
 summary: 以下に記載するサンプルのカスタムレポートを使用して、 qtree 容量に関連する潜在的な問題を特定して対処することができます。 
 ---
 = qtree 容量レポートのカスタマイズ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

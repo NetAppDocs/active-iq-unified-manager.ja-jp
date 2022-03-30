@@ -5,6 +5,7 @@ keywords: unified manager, configure, conditions, annotation rules
 summary: 1 つ以上の条件を設定して、 Unified Manager がストレージオブジェクトに適用するアノテーションルールを作成できます。アノテーションルールに一致するストレージオブジェクトに、ルールで指定した値がアノテートされます。 
 ---
 = アノテーションルールの条件の設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: page descriptions, certificate management
 summary: HTTPS 証明書ページを使用して、現在のセキュリティ証明書を表示したり、新しい HTTPS 証明書を生成したりできます。 
 ---
 = 証明書管理のページの説明
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

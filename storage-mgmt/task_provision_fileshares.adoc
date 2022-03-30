@@ -5,6 +5,7 @@ keywords: provision, file, share, volumes
 summary: CIFS / SMB プロトコルと NFS プロトコルをサポートするファイル共有ボリュームは、既存のクラスタと Storage Virtual Machine （ Storage VM ）のプロビジョニングワークロードページから作成できます。 
 ---
 = ファイル共有ボリュームのプロビジョニング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

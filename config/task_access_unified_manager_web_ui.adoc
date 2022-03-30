@@ -5,6 +5,7 @@ keywords: access, unified manager, web ui
 summary: Unified Manager をインストールしたら、 ONTAP システムの監視を開始できるように、 Web UI にアクセスして Unified Manager をセットアップします。 
 ---
 = Unified Manager Web UI にアクセスします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

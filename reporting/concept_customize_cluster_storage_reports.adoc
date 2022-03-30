@@ -5,6 +5,7 @@ keywords: customize, cluster, storage, reports
 summary: このセクションのクラスタストレージレポートは、それぞれのストレージシステムリソースの監視に役立つクラスタ容量に関するレポートの作成方法を説明するためのサンプルです。 
 ---
 = クラスタストレージレポートのカスタマイズ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

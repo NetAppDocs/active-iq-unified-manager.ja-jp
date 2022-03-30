@@ -5,6 +5,7 @@ keywords: create, report, identify, volumes, full capacity, snapshot, autodelete
 summary: Snapshot の自動削除機能が無効になっていて容量がフルに近づいているボリュームをリストするレポートを作成できます。このレポートは、 Snapshot の自動削除を設定する必要があるボリュームを特定するのに役立ちます。 
 ---
 = Snapshot の自動削除がオフで容量がフルに近づいているボリュームを特定するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

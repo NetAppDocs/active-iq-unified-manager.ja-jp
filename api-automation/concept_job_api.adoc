@@ -5,6 +5,7 @@ keywords: jobs, view
 summary: management-server カテゴリのジョブ API を使用すると、非同期処理の実行の詳細を表示できます。 
 ---
 = ジョブおよびシステムの詳細を表示しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

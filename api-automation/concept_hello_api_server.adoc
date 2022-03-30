@@ -5,6 +5,7 @@ keywords: hello, api server
 summary: Hello API server は、シンプルな REST クライアントを使用して Active IQ Unified Manager で REST API を呼び出す方法を示すサンプルプログラムです。このサンプルプログラムは、 API サーバに関する基本的な詳細情報を JSON 形式で提供します（サーバでは application/json 形式のみがサポートされます）。 
 ---
 = Hello API server 」と入力します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

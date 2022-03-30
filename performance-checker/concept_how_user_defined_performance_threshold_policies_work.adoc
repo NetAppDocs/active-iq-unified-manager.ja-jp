@@ -5,6 +5,7 @@ keywords: user-defined, performance, threshold, policies, work
 summary: ストレージオブジェクト（アグリゲートやボリュームなど）に対してパフォーマンスしきい値ポリシーを設定して、クラスタでパフォーマンス問題が発生していることを通知するイベントをストレージ管理者に送信できるようにします。 
 ---
 = ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: add, group, actions
 summary: グループ内のストレージオブジェクトに適用するグループ操作を設定できます。グループのアクションを設定すると、これらのアクションを各オブジェクトに個別に追加する必要がないため、時間を節約できます。 
 ---
 = グループ操作の追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

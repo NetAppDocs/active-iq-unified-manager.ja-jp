@@ -5,6 +5,7 @@ keywords: resynchronize, protection, relationships, volume, relationships page
 summary: ボリューム関係ページで関係を再同期することができます。これは、ソースボリュームを機能しないイベントからリカバリする場合や、現在のソースを別のボリュームに変更する場合に行います。 
 ---
 = ボリューム関係ページから保護関係を再同期しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

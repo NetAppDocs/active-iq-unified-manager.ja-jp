@@ -5,6 +5,7 @@ keywords: provisioning, performance service levels, storage management, enable, 
 summary: Unified Manager 9.7 以降では、 ONTAP クラスタにストレージワークロード（ボリュームと LUN ）をプロビジョニングし、割り当てられたパフォーマンスサービスレベルに基づいてワークロードを管理できます。この機能は ONTAP System Manager でワークロードを作成して QoS ポリシーを適用する処理に相当しますが、 Unified Manager を使用して適用した場合は、 Unified Manager インスタンスで監視しているすべてのクラスタのワークロードをプロビジョニングおよび管理できます。 
 ---
 = ポリシーベースのストレージ管理を有効または無効にします
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

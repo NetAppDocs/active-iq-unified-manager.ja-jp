@@ -5,6 +5,7 @@ keywords: cluster, health details page
 summary: クラスタ / 健全性の詳細ページには、選択したクラスタについて、健全性、容量、設定の詳細などの情報が表示されます。クラスタのネットワークインターフェイス（ LIF ）、ノード、ディスク、関連するデバイス、および関連するアラートに関する情報も確認できます。 
 ---
 = クラスタ / 健全性の詳細ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

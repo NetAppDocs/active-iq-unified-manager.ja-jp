@@ -5,6 +5,7 @@ keywords: enable, disable, active iq, event, report
 summary: Active IQ プラットフォームイベントは、デフォルトで生成されて Unified Manager ユーザインターフェイスに表示されます。これらのイベントが「ノイジー」に起因している場合や、 Unified Manager でこれらのイベントを表示したくない場合は、これらのイベントの生成を無効にすることができます。あとで有効にして、これらの通知の受信を再開することができます。 
 ---
 = Active IQ イベントレポートの有効化と無効化
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

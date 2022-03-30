@@ -5,6 +5,7 @@ keywords: create, snapvault, policy,  maximize, transfer, efficiency
 summary: 新しい SnapVault ポリシーを作成して SnapVault 転送の優先度を設定できます。ポリシーを使用することで、保護関係におけるプライマリからセカンダリへの転送効率を最大化できます。 
 ---
 = 転送効率を最大化するための SnapVault ポリシーを作成する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

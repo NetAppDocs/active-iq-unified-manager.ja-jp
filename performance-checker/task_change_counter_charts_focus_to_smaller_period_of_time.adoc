@@ -5,6 +5,7 @@ keywords: change, counter, charts, focus, shorter, period, time
 summary: 'マウスを使用して期間を短縮し、 [ カウンタグラフ ] ペインまたは [ カウンタグラフズームビュー ] ウィンドウで特定の期間にフォーカスを切り替えることができます。これにより、タイムラインの任意の部分について、パフォーマンスデータ、イベント、およびしきい値をより細かく確認することができます。' 
 ---
 = カウンタグラフに表示する期間を短くする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

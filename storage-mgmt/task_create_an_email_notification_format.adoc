@@ -5,6 +5,7 @@ keywords: create, email, notification, format, user, group, quotas
 summary: クォータ関連の問題がある場合（ソフトリミットを超えた場合、またはハードリミットに達した場合）にユーザまたはユーザグループに送信する E メール通知の形式を作成できます。 
 ---
 = ユーザクォータとユーザグループクォータの E メール通知形式の作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: data, continuity, collection, cycle
 summary: データの継続性収集サイクルは、リアルタイムのクラスタパフォーマンス収集サイクルの外部で、デフォルトでは 5 分ごとにパフォーマンスデータを取得します。データの継続性収集により、 Unified Manager がリアルタイムのデータを収集できなかった期間の統計データを補完することができます。 
 ---
 = データの継続性収集サイクルとは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

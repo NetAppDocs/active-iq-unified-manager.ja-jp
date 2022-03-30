@@ -5,6 +5,7 @@ keywords: description, script, windows, dialog boxes
 summary: Scripts ページを使用して、 Unified Manager にスクリプトを追加できます。 
 ---
 = スクリプトのウィンドウとダイアログボックスの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage, monitor, clusters, cluster object, health
 summary: Unified Manager では、定期的な API クエリとデータ収集エンジンを使用してクラスタからデータが収集されます。Unified Manager データベースにクラスタを追加することで、そのクラスタの可用性と容量のリスクを監視して管理できるようになります。 
 ---
 = クラスタおよびクラスタオブジェクトの健常性を管理および監視する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

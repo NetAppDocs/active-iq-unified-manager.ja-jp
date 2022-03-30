@@ -5,6 +5,7 @@ keywords: select, predefined, time, range
 summary: 事前定義の期間を選択すると、クラスタオブジェクトのパフォーマンスデータを表示する際に、すばやく効率的にデータ出力をカスタマイズして絞り込むことができます。事前定義の期間を選択する場合、最大 13 カ月分のデータを使用できます。 
 ---
 = 事前定義の期間を選択します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, snapmirror, policy, maximize, transfer, efficiency
 summary: SnapMirror ポリシーを作成して、保護関係における SnapMirror 転送の優先順位を指定することができます。SnapMirror ポリシーで優先度を割り当てて、優先度が低い転送を通常の優先度の転送よりもあとに実行するようにスケジュールすることで、ソースからデスティネーションへの転送効率を最大化できます。 
 ---
 = 転送効率を最大化するために、 SnapMirror ポリシーを作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

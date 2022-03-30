@@ -5,6 +5,7 @@ keywords: monitor, virtual, machines, view, summary, topology, expand
 summary: 仮想マシン（ VM ）のアプリケーションでレイテンシ問題が発生した場合、原因の分析とトラブルシューティングのために VM の監視が必要になることがあります。VM を使用できるのは、 vCenter Server と、 VM ストレージをホストする ONTAP クラスタを Unified Manager に追加したときです。 
 ---
 = 仮想マシンの監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

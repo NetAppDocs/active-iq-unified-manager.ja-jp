@@ -5,6 +5,7 @@ keywords: provision, manage, workloads
 summary: Active IQ Unified Manager のアクティブ管理機能を使用すると、パフォーマンスサービスレベル、ストレージ効率化ポリシー、およびデータセンターのストレージワークロードをプロビジョニング、監視、管理するためのストレージプロバイダ API を利用できます。 
 ---
 = ワークロードのプロビジョニングと管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

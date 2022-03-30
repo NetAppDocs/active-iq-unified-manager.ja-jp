@@ -5,6 +5,7 @@ keywords: manage, performance, service, levels
 summary: パフォーマンスサービスレベルを使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの作成時または編集時に、パフォーマンスサービスレベルをワークロードに割り当てることができます。 
 ---
 = パフォーマンスサービスレベルの管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

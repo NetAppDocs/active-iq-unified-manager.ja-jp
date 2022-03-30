@@ -5,6 +5,7 @@ keywords: view, active, security events
 summary: アクティブなセキュリティイベントをすべて表示し、問題を解決できるユーザに各イベントを割り当てることができます。また、受信不要なセキュリティイベントがある場合は、このリストを利用して無効にするイベントを特定できます。 
 ---
 = アクティブなすべてのセキュリティイベントを表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

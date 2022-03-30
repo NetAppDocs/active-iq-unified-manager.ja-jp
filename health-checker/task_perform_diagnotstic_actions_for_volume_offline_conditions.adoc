@@ -5,6 +5,7 @@ keywords: perform, diagnostic actions, volume, offline, conditions
 summary: オフラインと報告されたボリュームのボリューム / 健全性の詳細ページに移動したら、ボリュームのオフライン状態を診断するのに役立つ追加情報を検索できます。 
 ---
 = ボリュームがオフライン状態になった場合の診断処置の実施
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

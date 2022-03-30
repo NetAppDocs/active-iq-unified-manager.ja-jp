@@ -5,6 +5,7 @@ keywords: performance, cluster, landing page
 summary: パフォーマンスクラスタのランディングページには、選択したクラスタのパフォーマンスステータスの概要が表示されます。このページから、選択したクラスタ上のストレージオブジェクトの各パフォーマンスカウンタの詳細にアクセスできます。 
 ---
 = パフォーマンスクラスタランディングページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

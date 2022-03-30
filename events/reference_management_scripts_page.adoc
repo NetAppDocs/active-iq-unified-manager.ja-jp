@@ -5,6 +5,7 @@ keywords: scripts, page, command, buttons, list, view
 summary: Scripts ページを使用して、 Unified Manager にカスタムスクリプトを追加できます。これらのスクリプトをアラートに関連付けると、ストレージオブジェクトが自動的に再設定されます。 
 ---
 = [ スクリプト ] ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

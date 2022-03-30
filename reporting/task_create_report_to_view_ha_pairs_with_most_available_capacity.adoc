@@ -5,6 +5,7 @@ keywords: create, report, view, HA pairs, available, capacity
 summary: 新しいボリュームや LUN のプロビジョニングに使用できる容量が最も多いハイアベイラビリティ（ HA ）ペアを検出するレポートを作成できます。 
 ---
 = 使用可能な容量が最も多い HA ペアを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

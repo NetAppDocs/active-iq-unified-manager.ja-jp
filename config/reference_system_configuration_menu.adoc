@@ -5,6 +5,7 @@ keywords: system, configuration, menu
 summary: System Configuration メニューでは、サーバのステータスの表示、仮想マシンのリブートとシャットダウンなど、さまざまなオプションを指定して仮想アプライアンスを管理できます。 
 ---
 = System Configuration （システム設定）メニュー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

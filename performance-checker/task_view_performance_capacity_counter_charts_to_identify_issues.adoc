@@ -5,6 +5,7 @@ keywords: view, performance, capacity, counter charts, identify, issues
 summary: ノードやアグリゲートの使用済みパフォーマンス容量グラフは、パフォーマンスエクスプローラのページで確認できます。選択したノードとアグリゲートの特定の期間にわたる詳細なパフォーマンス容量データを確認できます。 
 ---
 = 問題を特定するためのパフォーマンス容量カウンタグラフの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -7,6 +7,7 @@ summary: Active IQ Unified Manager 、 AIQUM のドキュメント、 UM のド�
 ---
 = Active IQ Unified Manager のドキュメント
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

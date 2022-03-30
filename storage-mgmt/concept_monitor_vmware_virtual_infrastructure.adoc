@@ -5,6 +5,7 @@ keywords: monitor, vmware, virtual, infrastructure, not, supported
 summary: Active IQ Unified Manager では、仮想インフラ内の仮想マシン（ VM ）を可視化し、仮想環境内のストレージやパフォーマンスの問題を監視してトラブルシューティングできます。この機能を使用すると、ストレージ環境におけるレイテンシの問題や、 vCenter Server でパフォーマンスイベントが報告されたタイミングを特定できます。 
 ---
 = VMware 仮想インフラを監視する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

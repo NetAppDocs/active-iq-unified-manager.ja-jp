@@ -5,6 +5,7 @@ keywords: configure, lag, threshold settings, unmanaged, protection, relationshi
 summary: 管理対象外の保護関係のデフォルトの遅延警告しきい値と遅延エラー健常性しきい値のグローバルな設定を編集して、それぞれのニーズに適した間隔でイベントを生成することができます。 
 ---
 = 管理対象外の保護関係の遅延しきい値を設定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

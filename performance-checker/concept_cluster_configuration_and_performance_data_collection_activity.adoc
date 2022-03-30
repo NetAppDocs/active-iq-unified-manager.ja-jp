@@ -5,6 +5,7 @@ keywords: cluster, configuration, performance, data, collection, activity
 summary: クラスタの構成データの収集間隔は 15 分です。たとえば、クラスタを追加したあと、そのクラスタの詳細が Unified Manager の UI に表示されるまでに 15 分かかります。クラスタに対する変更を行った場合にも同じ間隔が適用されます。 
 ---
 = クラスタの構成とパフォーマンスのデータの収集アクティビティ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: determine, issues, storage, objects, events
 summary: データセンターのストレージオブジェクトがしきい値を超えると、そのイベントに関する通知が表示されます。この通知を使用すると、問題を分析し、イベント API を使用して対処することができます。 
 ---
 = イベントを使用してストレージオブジェクトの問題を特定する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

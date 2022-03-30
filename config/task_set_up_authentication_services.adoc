@@ -5,6 +5,7 @@ keywords: set up, authentication, services
 summary: 認証サービスを使用すると、 Unified Manager へのアクセスを許可する前に、リモートユーザまたはリモートグループを認証サーバで認証できます。事前定義された認証サービス（ Active Directory や OpenLDAP など）を使用するか、または独自の認証メカニズムを設定してユーザを認証できます。 
 ---
 = 認証サービスをセットアップしています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

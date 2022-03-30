@@ -5,6 +5,7 @@ keywords: issue, addi, ldap, use, other, authentication, services
 summary: トラブルシューティング：問題に他の認証サービスを使用して LDAP を追加する 
 ---
 = 問題で他の認証サービスを使用して LDAP を追加
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

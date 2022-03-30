@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, available, IOPS
 summary: このレポートには、新しいワークロードをプロビジョニングできるアグリゲートタイプごとの IOPS が最も使用可能なアグリゲートが表示されます。 
 ---
 = IOPS が最も高いアグリゲートを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

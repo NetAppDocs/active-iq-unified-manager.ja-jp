@@ -5,6 +5,7 @@ keywords: delete, annotation rules
 summary: 不要になったアノテーションルールは、 Active IQ Unified Manager から削除できます。 
 ---
 = アノテーションルールを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

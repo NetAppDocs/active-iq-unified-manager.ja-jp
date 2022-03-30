@@ -5,6 +5,7 @@ keywords: available, iops, total iops, aggregate iops, volume iops
 summary: 使用可能な IOPS カウンタは、リソースの上限に達するまでにノードまたはアグリゲートに追加できる残りの IOPS の数を示します。ノードで提供可能な合計 IOPS は、 CPU の数、 CPU の速度、 RAM の容量など、ノードの物理仕様に基づきます。アグリゲートで提供可能な合計 IOPS は、ディスクが SATA 、 SAS 、 SSD のいずれであるかなど、ディスクの物理特性に基づきます。 
 ---
 = 使用可能な IOPS とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

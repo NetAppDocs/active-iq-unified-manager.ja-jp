@@ -5,6 +5,7 @@ keywords: create, edit, storage, efficiency, policies
 summary: システム定義のストレージ効率化ポリシーがワークロードの要件に合わない場合は、ワークロードに合わせて最適化された独自のストレージ効率化ポリシーを作成できます。 
 ---
 = ストレージ効率化ポリシーの作成と編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

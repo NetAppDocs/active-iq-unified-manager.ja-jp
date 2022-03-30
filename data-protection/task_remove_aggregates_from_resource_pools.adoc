@@ -5,6 +5,7 @@ keywords: remove, aggregates, resource pools
 summary: アグリゲートを他の目的に使用したい場合などに、既存のリソースプールからアグリゲートを削除することができます。 
 ---
 = リソースプールからアグリゲートを削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

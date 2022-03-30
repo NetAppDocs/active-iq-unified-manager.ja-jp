@@ -5,6 +5,7 @@ keywords: jobs
 summary: ジョブは、 Unified Manager を使用して監視できる一連のタスクです。ジョブとその関連タスクを表示すると、それらが正常に完了したかどうかを確認できます。 
 ---
 = ジョブとは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, resource pool, dialog box
 summary: Edit Resource Pool ダイアログボックスを使用して、既存のリソースプールの名前と概要を変更できます。たとえば、元の名前や概要が正確でない場合や正しくない場合は、より正確になるように名前を変更できます。 
 ---
 = EditResourcePool タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

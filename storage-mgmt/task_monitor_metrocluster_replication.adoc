@@ -5,6 +5,7 @@ keywords: monitor, metrocluster, replication
 summary: データのミラーリング中に論理接続の全体的な健常性を監視して診断することができます。アグリゲート、ノード、 Storage Virtual Machine などのクラスタコンポーネントのミラーリングを中断する問題やリスクを特定することができます。 
 ---
 = MetroCluster レプリケーションを監視しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

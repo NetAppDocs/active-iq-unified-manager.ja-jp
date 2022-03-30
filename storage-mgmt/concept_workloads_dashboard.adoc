@@ -5,6 +5,7 @@ keywords: workloads, overview, data center, sections
 summary: ワークロードとは、ボリュームや LUN などのストレージオブジェクトの入出力（ I/O ）処理のことです。ストレージのプロビジョニング方法は、想定されるワークロード要件に基づいています。Active IQ Unified Manager は、ストレージオブジェクトとの間にトラフィックが発生した時点でワークロードの統計情報の追跡を開始します。たとえば、ユーザがデータベースまたは E メールアプリケーションの使用を開始した時点で、ワークロードの IOPS とレイテンシを取得できるようになります。 
 ---
 = ワークロードの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

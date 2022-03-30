@@ -5,6 +5,7 @@ keywords: remove, custom, umadmin, user, maintenance group
 summary: Unified Manager をインストールする前にカスタムのホームディレクトリを作成して独自の umadmin ユーザと maintenance アカウントを定義していた場合は、 Unified Manager のアンインストール後にそれらを削除する必要があります。 
 ---
 = カスタムの umadmin ユーザと maintenance グループを削除します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

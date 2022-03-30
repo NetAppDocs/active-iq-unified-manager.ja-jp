@@ -5,6 +5,7 @@ keywords: determine, volume, offline, svm, node
 summary: Unified Manager Web UI を使用して、ボリュームがオフラインになっている原因が、そのホスト Storage Virtual Machine （ SVM ）のルートボリュームをホストするノードの停止に起因して SVM が停止したためであるかどうかを確認することができます。 
 ---
 = ボリュームのオフライン状態とその SVM の停止の原因がノードの停止であるかどうかの判別
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

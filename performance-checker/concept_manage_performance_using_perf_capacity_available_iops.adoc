@@ -5,6 +5,7 @@ keywords: managing, performance, performance, capacity, available, iops, informa
 summary: パフォーマンス容量は、あるリソースの有用なパフォーマンスを超過しない範囲で、そのリソースから引き出すことのできるスループットの量を示します。既存のパフォーマンスカウンタを使用した場合、レイテンシが問題になる前に、ノードまたはアグリゲートを最大限利用できるポイントがパフォーマンス容量です。 
 ---
 = パフォーマンス容量と使用可能な IOPS の情報を使用してパフォーマンスを管理する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

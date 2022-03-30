@@ -5,6 +5,7 @@ keywords: browse, directories, dialog box
 summary: '元のソースとは異なるクラスタおよび SVM 上のディレクトリにデータをリストアする場合は、 [Browse Directories] ダイアログボックスを使用します。元のソースクラスタとボリュームがデフォルトで選択されます。' 
 ---
 = BrowseDirectories タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

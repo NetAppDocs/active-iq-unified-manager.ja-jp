@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, reaching, full capacity
 summary: 容量がフルに近づいているアグリゲートを検出するレポートを作成して、容量を追加したり、ワークロードを他のアグリゲートに移動したりできます。 
 ---
 = 容量がフルに達しているアグリゲートを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

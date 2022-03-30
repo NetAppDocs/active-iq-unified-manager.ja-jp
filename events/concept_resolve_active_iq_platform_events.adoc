@@ -5,6 +5,7 @@ keywords: active iq, resolve, events
 summary: 'Active IQ プラットフォームのインシデントとリスクは、 Unified Manager の他のイベントと同様に、解決のために他のユーザに割り当て可能で、ステータスの種類も同じです。ただし、 [ 修正 ] ボタンを使用してこれらのタイプのイベントを解決すると、解決を数時間以内に検証できます。' 
 ---
 = Active IQ プラットフォームイベントを解決しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, resource, pools
 summary: リソースプールの名前や概要を変更する場合は、既存のリソースプールを編集することができます。 
 ---
 = リソースプールを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

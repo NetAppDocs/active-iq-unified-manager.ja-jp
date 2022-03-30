@@ -5,6 +5,7 @@ keywords: configure, netapp, snapshot, backup, maintenance console
 summary: メンテナンスコンソールから Active IQ Unified Manager バックアップを NetApp Snapshot バックアップに設定する必要があります。 
 ---
 = メンテナンスコンソールから NetApp Snapshot バックアップを設定する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

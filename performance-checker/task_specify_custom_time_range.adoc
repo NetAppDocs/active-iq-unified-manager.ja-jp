@@ -5,6 +5,7 @@ keywords: specify, custom, time range
 summary: パフォーマンスエクスプローラページでは、パフォーマンスデータの日時範囲を指定できます。カスタムの期間を指定すると、クラスタオブジェクトのデータを絞り込む際に、事前定義の期間を使用するよりも柔軟に設定できます。 
 ---
 = カスタムの期間を指定する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

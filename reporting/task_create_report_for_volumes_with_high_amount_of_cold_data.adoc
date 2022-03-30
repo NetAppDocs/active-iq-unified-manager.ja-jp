@@ -5,6 +5,7 @@ keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify
 summary: FabricPool 以外のアグリゲート上のコールドデータを大量に含むボリュームを表示するレポートを作成できます。このレポートから、 FabricPool アグリゲートに移動する必要があるボリュームを特定できます。 
 ---
 = FabricPool 対応でないアグリゲート上の大量のコールドデータを含むボリュームを表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

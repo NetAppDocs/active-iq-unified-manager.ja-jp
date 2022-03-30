@@ -5,6 +5,7 @@ keywords: specify, time range, zoom view
 summary: カウンタグラフズームビューウィンドウの期間コントロールを使用すると、選択したグラフの日時範囲を指定できます。これにより、設定済みの期間またはカスタムの期間に基づいてデータをすばやく特定できます。 
 ---
 = ズームビューで期間を指定します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

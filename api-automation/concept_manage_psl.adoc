@@ -5,6 +5,7 @@ keywords: manage, performance, service, level
 summary: Active IQ Unified Manager でストレージプロバイダ API を使用して、パフォーマンスサービスレベルを表示、作成、変更、および削除できます。 
 ---
 = パフォーマンスサービスレベルの管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

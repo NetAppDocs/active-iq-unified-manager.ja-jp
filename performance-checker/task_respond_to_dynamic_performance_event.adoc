@@ -5,6 +5,7 @@ keywords: dynamic, performance, qos, policy, group, throttling
 summary: Unified Manager を使用して、ワークロードのスループット（ MBps ）を調整しているサービス品質（ QoS ）ポリシーグループが原因のパフォーマンスイベントを調査できます。この調整によって、ポリシーグループ内のボリュームワークロードの応答時間（レイテンシ）が増加します。イベント情報を使用して、ポリシーグループに新しい制限値を設定して調整を停止する必要があるかどうかを判断できます。 
 ---
 = QoS ポリシーグループの調整が原因の動的なパフォーマンスイベントへの対処
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

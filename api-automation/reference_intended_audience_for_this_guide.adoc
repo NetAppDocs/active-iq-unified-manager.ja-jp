@@ -5,6 +5,7 @@ keywords: audience, guide
 summary: このガイドは、 REST API を使用して Active IQ Unified Manager ソフトウェアと連携するアプリケーションを作成する開発者を対象としています。 
 ---
 = このガイドの対象読者
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

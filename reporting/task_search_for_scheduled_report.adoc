@@ -5,6 +5,7 @@ keywords: search, schedule, report
 summary: スケジュール済みレポートは、名前、ビュー名、オブジェクトタイプ、または受信者で検索できます。 
 ---
 = スケジュール済みレポートを検索しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: advanced, destination, settings, dialog box
 summary: デスティネーションボリュームのスペースギャランティの設定を有効にするには、詳細設定ダイアログボックスを使用します。詳細設定は、ソースではスペースギャランティが無効になっている状況において、デスティネーションでスペースギャランティを有効にする場合に使用します。SnapMirror 関係の重複排除、圧縮、および自動拡張の設定はソースボリュームから継承され、変更することはできません。 
 ---
 = Advanced Destination Settings ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: generate, https, security, certificate
 summary: Active IQ Unified Manager を初めてインストールするときは、デフォルトの HTTPS 証明書がインストールされます。既存の証明書を置き換える新しい HTTPS セキュリティ証明書を生成することがあります。 
 ---
 = HTTPS セキュリティ証明書の生成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

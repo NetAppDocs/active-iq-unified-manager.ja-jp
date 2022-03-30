@@ -5,6 +5,7 @@ keywords: cluster, connectivity, status, definitions
 summary: MetroCluster 構成のクラスタ間の接続のステータスは、「 Optimal 」、「 Impacted 」「 Down 」のいずれかになります。接続ステータスを理解しておくと、 MetroCluster 構成を効果的に管理できるようになります。 
 ---
 = クラスタの接続ステータスの定義
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: different, types, qos, policies, display, throughput, charts
 summary: パフォーマンスエクスプローラおよびワークロード分析の IOPS 、 IOPS/TB 、および MBps の各グラフで、ボリュームや LUN に適用されている ONTAP 定義のサービス品質（ QoS ）ポリシーの設定を確認することができます。グラフに表示される情報は、ワークロードに適用されている QoS ポリシーのタイプによって異なります。 
 ---
 = スループットグラフでの各種 QoS ポリシーの表示形式
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

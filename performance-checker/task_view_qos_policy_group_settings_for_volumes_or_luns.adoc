@@ -5,6 +5,7 @@ keywords: view, qos, policy, group, settings, applied, specific, volumes, luns
 summary: ボリュームおよび LUN に適用されている QoS ポリシーグループを表示したり、パフォーマンス / QoS ポリシーグループビューにリンクして、各 QoS ポリシーの詳細な設定を表示したりできます。 
 ---
 = 特定のボリュームまたは LUN に適用されている QoS ポリシーグループ設定を表示する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

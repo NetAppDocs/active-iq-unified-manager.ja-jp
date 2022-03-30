@@ -5,6 +5,7 @@ keywords: upgrade events, view, security events, software, firmware updates
 summary: 特定のセキュリティイベントには、影響領域が「 Upgrade 」になっているものがあります。これらのイベントは Active IQ プラットフォームから報告され、 ONTAP ソフトウェア、ノードファームウェア、またはオペレーティングシステムソフトウェア（セキュリティアドバイザリ用）のアップグレードが必要な問題を特定します。 
 ---
 = ソフトウェアまたはファームウェアの更新が必要なセキュリティイベントの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

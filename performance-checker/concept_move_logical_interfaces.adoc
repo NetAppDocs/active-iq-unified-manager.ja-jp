@@ -5,6 +5,7 @@ keywords: move, logical, interfaces, lifs
 summary: 論理インターフェイス（ LIF ）を負荷の低いポートに移動すると、負荷分散を改善し、メンテナンス処理やパフォーマンスの調整、間接アクセスの軽減に役立ちます。 
 ---
 = 論理インターフェイス（ LIF ）の移動
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

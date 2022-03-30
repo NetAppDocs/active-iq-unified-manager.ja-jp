@@ -5,6 +5,7 @@ keywords: change, identity, provider, used, saml, authentication
 summary: Unified Manager でリモートユーザの認証に使用するアイデンティティプロバイダ（ IdP ）を変更することができます。 
 ---
 = SAML 認証に使用するアイデンティティプロバイダを変更する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

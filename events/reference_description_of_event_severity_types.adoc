@@ -5,6 +5,7 @@ keywords: description, event, severity, types
 summary: イベントには、対処する際の優先度を判別できるように、それぞれ重大度タイプが関連付けられています。 
 ---
 = 概要のイベントの重大度タイプ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: resolve, protection, job failure
 summary: このワークフローでは、 Unified Manager のダッシュボードで保護ジョブの失敗を特定して解決する方法の例を示します。 
 ---
 = 保護ジョブの失敗を解決する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

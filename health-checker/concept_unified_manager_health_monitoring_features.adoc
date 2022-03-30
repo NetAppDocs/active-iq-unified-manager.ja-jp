@@ -5,6 +5,7 @@ keywords: unified manager, health, monitor, features
 summary: Unified Manager のサーバインフラは拡張性とサポート性に優れ、高度な監視機能と通知機能を備えています。Unified Manager では、 ONTAP ソフトウェアを実行しているシステムの監視をサポートします。 
 ---
 = Unified Manager の健常性監視機能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

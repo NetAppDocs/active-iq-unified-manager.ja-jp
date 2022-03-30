@@ -5,6 +5,7 @@ keywords: expand, counter, charts, pane
 summary: カウンタグラフペインを展開すると、グラフをより大きくて読みやすくすることができます。 
 ---
 = カウンタグラフペインを展開します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

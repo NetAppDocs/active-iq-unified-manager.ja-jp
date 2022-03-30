@@ -5,6 +5,7 @@ keywords: enable, flash pool, storage, aggregate, improve, workload, performance
 summary: アグリゲートで Flash Pool 機能を有効にすることで、ワークロードパフォーマンスを改善できます。Flash Pool は、 HDD と SSD の両方が組み込まれているアグリゲートです。プライマリストレージには HDD を使用し、 SSD を使用して読み取りと書き込みの高性能なキャッシュを実現することで、アグリゲートのパフォーマンスを向上させることができます。 
 ---
 = ストレージアグリゲートで Flash Pool を有効にしてワークロードパフォーマンスを改善する方法
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

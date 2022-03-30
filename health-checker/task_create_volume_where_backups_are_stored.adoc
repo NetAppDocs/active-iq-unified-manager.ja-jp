@@ -5,6 +5,7 @@ keywords: configure, snapshot, backup location
 summary: ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。 
 ---
 = Snapshot バックアップの場所を設定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
@@ -48,4 +49,4 @@ ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタ�
 
 
 
-NFS ボリュームの作成手順の詳細については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["ONTAP 9 で NFSv4 を設定する方法"] および。
+NFS ボリュームの作成手順の詳細については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["ONTAP 9 で NFSv4 を設定する方法"] および http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["ONTAP 9 NFS 構成エクスプレスガイド"]。

@@ -5,6 +5,7 @@ keywords: display, information, performance, events
 summary: イベント管理インベントリページを使用して、 Unified Manager で監視されているクラスタ上のすべてのパフォーマンスイベントのリストを表示できます。この情報を表示することで、最も重大なイベントを特定し、詳細情報にドリルダウンしてイベントの原因を確認できます。 
 ---
 = パフォーマンスイベントに関する情報を表示する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

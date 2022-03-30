@@ -5,6 +5,7 @@ keywords: create, snapvault, protection, relationship, health, volumes view
 summary: 健全性：すべてのボリュームビューを使用して、同じ Storage VM 上の 1 つ以上のボリュームの SnapVault 関係を作成し、データを保護するためのデータバックアップを有効にすることができます。 
 ---
 = 「健常性：すべてのボリューム」ビューで SnapVault 保護関係を作成します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

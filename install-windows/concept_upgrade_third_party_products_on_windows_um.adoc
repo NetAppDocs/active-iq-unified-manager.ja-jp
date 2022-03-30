@@ -5,6 +5,7 @@ keywords: data center manager, third-party, products, upgrade
 summary: JRE などのサードパーティ製品が Windows システムにインストールされている場合は、 Unified Manager でそれらの製品をアップグレードできます。 
 ---
 = サードパーティ製品のアップグレード
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

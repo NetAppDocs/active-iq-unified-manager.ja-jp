@@ -5,6 +5,7 @@ keywords: overview, deployment, process
 summary: 以下は、 Unified Manager を使用する前に必要な導入作業のワークフローです。 
 ---
 = 導入プロセスの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: authentication, active directory, openldap
 summary: 管理サーバでリモート認証を有効にし、管理サーバが認証サーバと通信するように設定すると、認証サーバ内のユーザが Unified Manager にアクセスできるようになります。 
 ---
 = Active Directory または OpenLDAP による認証
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: upgrade, unified manager
 summary: Unified Manager をアップグレードするには、 Red Hat プラットフォームでインストールファイルをダウンロードして実行します。 
 ---
 = Unified Manager をアップグレードする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

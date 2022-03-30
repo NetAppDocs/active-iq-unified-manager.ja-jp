@@ -5,6 +5,7 @@ keywords: view, job, details
 summary: ジョブを開始したら、ジョブの詳細ページでその進捗状況を追跡し、関連タスクにエラーの可能性がないかどうかを監視できます。 
 ---
 = ジョブの詳細を表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

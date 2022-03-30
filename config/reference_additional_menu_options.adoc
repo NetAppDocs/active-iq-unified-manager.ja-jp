@@ -5,6 +5,7 @@ keywords: additional menu, options
 summary: 次に示すメニューオプションでは、 Unified Manager サーバでさまざまな管理タスクを実行することができます。 
 ---
 = その他のメニューオプション
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: functionality, maintenance, console
 summary: Unified Manager のメンテナンスコンソールでは、 Unified Manager システムの設定を管理し、問題の発生を防ぐために必要な変更を行うことができます。 
 ---
 = メンテナンスコンソールで提供される機能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

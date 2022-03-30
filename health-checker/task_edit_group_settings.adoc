@@ -5,6 +5,7 @@ keywords: edit, groups
 summary: Unified Manager で作成したグループの名前と概要を編集できます。 
 ---
 = グループの編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

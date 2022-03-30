@@ -5,6 +5,7 @@ keywords: options, improving, workload, performance, client-side
 summary: パフォーマンスイベントに関連したボリュームに I/O を送信しているアプリケーションやデータベースなどのクライアントワークロードを確認して、クライアント側の変更によってイベントが修正される可能性があるかどうかを判断できます。 
 ---
 = クライアント側からワークロードパフォーマンスを改善するためのオプション
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

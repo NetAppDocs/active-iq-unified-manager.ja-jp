@@ -5,6 +5,7 @@ keywords: customize, nfs, share, reports
 summary: NFS 共有レポートをカスタマイズして、ストレージシステム上のボリュームの NFS エクスポートポリシーおよびルールに関する情報を分析できます。たとえば、アクセスできないマウントパスがあるボリュームやデフォルトのエクスポートポリシーを使用するボリュームを表示するように、レポートをカスタマイズできます。 
 ---
 = NFS 共有レポートのカスタマイズ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

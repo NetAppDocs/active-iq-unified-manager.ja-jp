@@ -5,6 +5,7 @@ keywords: filtering, inventory, page, content
 summary: Unified Manager でインベントリページのデータをフィルタリングして、特定の条件に基づいてデータをすばやく特定できます。フィルタリングを使用すると、 Unified Manager のページの内容を絞り込んで、関心のある結果だけを表示できます。そのため、関心のあるデータだけを効率的に表示できます。 
 ---
 = インベントリページの内容のフィルタリング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, storage, vm, peers
 summary: Storage Virtual Machine ピアの作成ウィザードでは、パートナーの保護アプリケーションを使用してソース Storage VM をデスティネーション Storage VM に関連付け、 SnapMirror 関係と SnapVault 関係で使用することができます。パートナーアプリケーションでは、デスティネーションボリュームの最初のプロビジョニングの際にこれらの関連付けを使用して、選択するリソースを決定します。 
 ---
 = Storage VM ピアを作成しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

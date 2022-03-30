@@ -5,6 +5,7 @@ keywords: add, alerts, security events
 summary: セキュリティイベントのアラートは、 Unified Manager で受信する他のイベントと同様に、イベントごとに個別に設定することができます。また、すべてのセキュリティイベントを同じように扱い、同じユーザに E メールを送信する場合は、セキュリティイベントがトリガーされたときに通知する共通のアラートを作成することもできます。 
 ---
 = セキュリティイベントのアラートを追加する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

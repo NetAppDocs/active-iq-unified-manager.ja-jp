@@ -5,6 +5,7 @@ keywords: configure, unified manager, backup
 summary: Unified Manager のバックアップ機能は、ホストシステムおよびメンテナンスコンソールから実行する一連の設定手順で設定できます。 
 ---
 = Unified Manager のバックアップを設定しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

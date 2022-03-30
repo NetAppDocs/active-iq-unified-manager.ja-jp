@@ -5,6 +5,7 @@ keywords: protection, events, impact area, protection
 summary: 保護イベントは、ジョブの失敗や中止を通知して、問題を監視できるようにします。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = 保護イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

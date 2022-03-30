@@ -5,6 +5,7 @@ keywords: monitor, troubleshoot, data availability
 summary: Unified Manager は、許可されたユーザが格納データにアクセスできる信頼性を監視し、アクセスのブロックや妨害をもたらしている状態をユーザに警告します。また、ユーザがその状態を診断して解決方法を決定し、追跡することができます。 
 ---
 = データの可用性の監視とトラブルシューティング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: provision, luns
 summary: CIFS / SMB プロトコルと NFS プロトコルをサポートする LUN は、既存のクラスタおよび Storage Virtual Machine （ Storage VM ）上のプロビジョニングワークロードのページで作成できます。 
 ---
 = LUN のプロビジョニング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

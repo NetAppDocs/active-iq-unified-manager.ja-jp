@@ -5,6 +5,7 @@ keywords: create, snapvault, policy, dialog box
 summary: Create SnapVault Policy ダイアログボックスでは、 SnapVault 転送の優先度を設定するポリシーを作成できます。ポリシーを使用することで、プライマリからセカンダリボリュームへの転送効率を最大化できます。 
 ---
 = Create SnapVault Policy ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

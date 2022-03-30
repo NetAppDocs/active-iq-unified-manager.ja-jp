@@ -5,6 +5,7 @@ keywords: create, annotation rules
 summary: Unified Manager がボリューム、クラスタ、 Storage Virtual Machine （ SVM ）などのストレージオブジェクトを動的にアノテートするために使用するアノテーションルールを作成できます。 
 ---
 = アノテーションルールの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

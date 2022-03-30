@@ -5,6 +5,7 @@ keywords: add, script, dialog, box
 summary: スクリプトの追加ダイアログボックスでは、 Unified Manager にスクリプトを追加できます。スクリプトを使用して、ストレージオブジェクトに対して生成されたイベントを自動的に解決するようにアラートを設定することができます。 
 ---
 = [ スクリプトの追加 ] ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

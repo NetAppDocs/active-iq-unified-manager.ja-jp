@@ -5,6 +5,7 @@ keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remedia
 summary: ONTAP の一部の問題については、 ONTAP System Manager や ONTAP CLI を使用する代わりに、 Unified Manager ユーザインターフェイスから直接修正することができます。「管理操作」オプションでは、 Unified Manager イベントをトリガーした ONTAP のさまざまな問題を修正できます。 
 ---
 = ONTAP の問題または機能を Unified Manager から直接管理する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

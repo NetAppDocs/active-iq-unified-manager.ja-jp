@@ -5,6 +5,7 @@ keywords: edit, authentication servers
 summary: Unified Manager サーバが認証サーバとの通信に使用するポートを変更することができます。 
 ---
 = 認証サーバを編集しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

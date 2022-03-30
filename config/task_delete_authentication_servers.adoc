@@ -5,6 +5,7 @@ keywords: delete, authentication, servers
 summary: Unified Manager サーバが認証サーバと通信できないようにするには、認証サーバを削除します。たとえば、管理サーバが通信する認証サーバを変更する場合は、認証サーバを削除して新しい認証サーバを追加できます。 
 ---
 = 認証サーバを削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

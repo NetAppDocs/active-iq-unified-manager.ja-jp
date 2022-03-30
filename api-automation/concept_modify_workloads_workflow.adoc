@@ -5,6 +5,7 @@ keywords: modify, storage, workloads
 summary: ストレージワークロードを変更するには、パラメータが不足している LUN またはファイル共有を更新するか、既存のパラメータを変更します。 
 ---
 = ストレージワークロードの変更
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

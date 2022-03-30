@@ -5,6 +5,7 @@ keywords: snapmirror, relationship, events, impact area, protection
 summary: SnapMirror 関係イベントは、非同期 SnapMirror 関係と同期 SnapMirror 関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期 SnapMirror 関係イベントは、 Storage VM とボリュームの両方に対して生成されますが、同期 SnapMirror 関係イベントはボリューム関係に対してのみ生成されます。Storage VM ディザスタリカバリ関係を構成するコンスティチュエントボリュームについては、イベントは生成されません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = SnapMirror 関係イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

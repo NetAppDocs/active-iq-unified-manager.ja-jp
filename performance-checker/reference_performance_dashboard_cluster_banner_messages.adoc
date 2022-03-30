@@ -5,6 +5,7 @@ keywords: performance, banner, messages, descriptions
 summary: Unified Manager の通知ページ（通知ベルから）にバナーメッセージが表示されて、特定のクラスタのステータスの問題を通知することができます。 
 ---
 = パフォーマンスのバナーメッセージと説明
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

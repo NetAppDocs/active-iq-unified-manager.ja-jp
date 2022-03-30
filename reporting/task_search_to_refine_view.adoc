@@ -5,6 +5,7 @@ keywords: search, refine, view
 summary: '目的のビューが表示されたら、 [ 検索 ] フィールドを使用してレポートに含める結果を絞り込むことができます。' 
 ---
 = 検索を使用してビューを絞り込みます
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

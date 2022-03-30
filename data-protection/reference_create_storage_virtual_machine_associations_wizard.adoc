@@ -5,6 +5,7 @@ keywords: create, storage, virtual machine, peers, wizard
 summary: Storage Virtual Machine ピアの作成ウィザードでは、 SnapMirror 保護関係と SnapVault 保護関係で使用するソース Storage VM とデスティネーション Storage VM をピアリングできます。 
 ---
 = Create Storage Virtual Machine Peers ウィザード
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

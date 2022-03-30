@@ -5,6 +5,7 @@ keywords: restore, data, health, volumes view
 summary: ケンセンセイ： All Volumes ビューのリストア機能を使用すると、上書きまたは削除したファイルやディレクトリ、またはボリューム全体を Snapshot コピーからリストアできます。 
 ---
 = Health ： All Volumes ビューを使用したデータのリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

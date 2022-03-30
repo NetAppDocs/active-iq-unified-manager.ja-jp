@@ -5,6 +5,7 @@ keywords: port, events, impact area, availability, performance
 summary: ポートイベントは、クラスタポートに関するステータスを提供します。これにより、ポートが停止しているかどうかなど、ポート上の変更や問題を監視できます。 
 ---
 = ポートイベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

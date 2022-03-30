@@ -5,6 +5,7 @@ keywords: rediscover clusters,
 summary: クラスタを手動で再検出することで、クラスタの健常性、監視ステータス、およびパフォーマンスステータスに関する最新情報を取得できます。 
 ---
 = クラスタの再検出
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

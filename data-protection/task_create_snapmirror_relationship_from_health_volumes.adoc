@@ -5,6 +5,7 @@ keywords: create, snapmirror, protection, relationship, health, volumes view
 summary: Health ： All Volumes ビューでは、同じ Storage VM 上にある複数のボリュームを選択して、複数の SnapMirror 保護関係を一度に作成できます。 
 ---
 = ケンセンセイ：スヘテノホリユウムヒユウカラノ SnapMirror ホコカンケイノサクセイ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: download, reports
 summary: レポートをダウンロードして、データをカンマ区切り値（ CSV ）ファイル、 Microsoft Excel （ .xlsx ）ファイル、または PDF ファイルとしてローカルドライブまたはネットワークドライブに保存できます。CSV ファイルと XLSX ファイルは、 Microsoft Excel などのスプレッドシートアプリケーションで、 PDF ファイルは Adobe Acrobat などのリーダーで開くことができます。 
 ---
 = レポートのダウンロード
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

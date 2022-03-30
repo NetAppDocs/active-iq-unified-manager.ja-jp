@@ -5,6 +5,7 @@ keywords: view, performance, threshold, policies
 summary: 現在定義されているパフォーマンスしきい値ポリシーはすべて、パフォーマンスしきい値ページで確認できます。 
 ---
 = パフォーマンスしきい値ポリシーを表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

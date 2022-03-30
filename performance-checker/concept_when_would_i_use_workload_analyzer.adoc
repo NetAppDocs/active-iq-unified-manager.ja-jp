@@ -5,6 +5,7 @@ keywords: workload analyzer, use
 summary: Workload Analyzer は、ユーザから報告されたレイテンシ問題のトラブルシューティングを行う場合、報告されたイベントやアラートを詳しく分析する場合、動作に異常があるワークロードについて調べる場合に使用します。 
 ---
 = Workload Analyzer を使用するタイミング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

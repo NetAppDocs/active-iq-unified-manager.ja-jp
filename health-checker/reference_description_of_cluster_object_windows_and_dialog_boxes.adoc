@@ -5,6 +5,7 @@ keywords: description, cluster, object, windows, dialog boxes
 summary: それぞれのストレージオブジェクトのページで、すべてのクラスタおよびクラスタオブジェクトを表示できます。対応するストレージオブジェクトの詳細ページで詳細を確認することもできます。インベントリの次のストレージおよび保護セクションから System Manager ユーザインターフェイスを起動できるようになりました。 
 ---
 = クラスタオブジェクトのウィンドウとダイアログボックスの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: disable, events, dialog box, properties, area, command buttons
 summary: '[ イベントの無効化 ] ダイアログボックスには、イベントを無効にできるイベントタイプのリストが表示されます。イベントタイプの特定の重大度のイベントを無効にしたり、一連のイベントを無効にしたりできます。' 
 ---
 = DisableEvents タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

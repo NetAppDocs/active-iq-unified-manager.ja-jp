@@ -5,6 +5,7 @@ keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG
 summary: SM-BC で保護されている LUN の統合ビュー。 
 ---
 = コンシステンシグループ関係の LUN を監視しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: view, events, occurred, maintenance, window
 summary: 必要に応じて、すべてのストレージオブジェクトについて Unified Manager のメンテナンス時間中に生成されたイベントを確認することができます。ほとんどのイベントは、メンテナンス時間が終了し、すべてのシステムリソースが再び稼働すると、「廃止」の状態になります。 
 ---
 = メンテナンス時間中に発生したイベントの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

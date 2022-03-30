@@ -5,6 +5,7 @@ keywords: setting, graphite, receive, performance, data, unified manager
 summary: Graphite は、コンピュータシステムからパフォーマンスデータを収集してグラフ化するオープンソフトウェアツールです。Unified Manager から統計データを受信するには、 Graphite サーバとソフトウェアを適切に設定する必要があります。 
 ---
 = Unified Manager からパフォーマンスデータを受信するための Graphite の設定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

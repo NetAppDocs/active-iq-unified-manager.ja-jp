@@ -5,6 +5,7 @@ keywords: inodes, events, impact area, capacity
 summary: inode イベントは、 inode がフルまたはほぼフルになったことを通知します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = inode イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

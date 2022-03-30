@@ -5,6 +5,7 @@ keywords: view, performance, metrics
 summary: Active IQ Unified Manager には、データセンターカテゴリ下の一連の API が用意されており、データセンター内のクラスタおよびストレージオブジェクトのパフォーマンスデータを表示できます。これらの API は、クラスタ、ノード、 LUN 、ボリュームなどのさまざまなストレージオブジェクトのパフォーマンスデータを取得します。 アグリゲート、 Storage VM 
 ---
 = パフォーマンス指標の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

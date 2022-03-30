@@ -5,6 +5,7 @@ keywords: add cluster
 summary: Active IQ Unified Manager にクラスタを追加して監視することができます。たとえば、クラスタの健常性、容量、パフォーマンス、構成などの情報を取得して、発生する可能性がある問題を特定して解決できるようにすることができます。 
 ---
 = クラスタを追加する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

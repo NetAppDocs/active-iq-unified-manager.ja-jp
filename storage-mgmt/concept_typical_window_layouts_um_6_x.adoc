@@ -5,6 +5,7 @@ keywords: typical, window, layouts, object, list, details
 summary: 一般的なウィンドウレイアウトを理解しておくと、 Active IQ Unified Manager を効果的に操作して使用できるようになります。Unified Manager のほとんどのウィンドウは、オブジェクトリストまたは詳細の 2 つの一般的なレイアウトの 1 つに似ています。推奨される表示設定は 1280 × 1024 ピクセル以上です。 
 ---
 = 一般的なウィンドウレイアウト
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

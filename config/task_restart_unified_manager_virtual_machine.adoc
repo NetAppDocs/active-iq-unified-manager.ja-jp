@@ -5,6 +5,7 @@ keywords: restart, unified manager, virtual, machine
 summary: 仮想マシンは、 Unified Manager のメンテナンスコンソールから再起動できます。新しいセキュリティ証明書を生成した場合や仮想マシンで問題が発生した場合、仮想マシンの再起動が必要になります。 
 ---
 = Unified Manager 仮想マシンを再起動しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

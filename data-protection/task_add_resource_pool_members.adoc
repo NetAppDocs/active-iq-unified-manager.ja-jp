@@ -5,6 +5,7 @@ keywords: add, resource, pool, members
 summary: リソースプールは、複数のメンバーアグリゲートで構成されます。既存のリソースプールにアグリゲートを追加して、セカンダリボリュームのプロビジョニングに使用できるスペースを増やすことができます。 
 ---
 = リソースプールのメンバーを追加しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

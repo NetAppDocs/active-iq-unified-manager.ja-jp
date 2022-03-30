@@ -5,6 +5,7 @@ keywords: volume, events, impact area, availability, capacity, configuration, pe
 summary: ボリュームイベントは、ボリュームのステータスに関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名、トラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = ボリュームイベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

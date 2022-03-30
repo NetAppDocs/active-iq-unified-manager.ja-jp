@@ -5,6 +5,7 @@ keywords: view, details, nfs shares
 summary: すべての NFS 共有について、ステータス、ボリューム（ FlexGroup ボリュームまたは FlexVol ボリューム）に関連付けられているパス、 NFS 共有に対するクライアントのアクセスレベル、エクスポートされているボリュームに定義されているエクスポートポリシーなどの詳細情報を表示できます。すべての監視対象クラスタ上のすべての NFS 共有を表示するには、 Health ： All NFS Shares ビューを使用し、 Storage VM/Health 詳細ページを使用して特定の Storage Virtual Machine （ SVM ）上のすべての NFS 共有を表示します。 
 ---
 = NFS 共有に関する詳細の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

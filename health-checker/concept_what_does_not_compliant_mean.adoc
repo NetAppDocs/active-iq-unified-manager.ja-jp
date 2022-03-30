@@ -5,6 +5,7 @@ keywords: not compliant, compliant
 summary: 『 ONTAP 9 セキュリティ設定ガイド』に定義されている推奨事項に照らして評価されるセキュリティ条件が 1 つでも満たされていない場合、クラスタと Storage Virtual Machine （ SVM ）は非準拠とみなされます。また、非準拠と判断された SVM が 1 つでもある場合も、クラスタは非準拠とみなされます。 
 ---
 = 非準拠の条件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

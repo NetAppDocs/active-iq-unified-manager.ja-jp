@@ -5,6 +5,7 @@ keywords: deploy, unified manager, virtual appliance
 summary: インストールファイルをダウンロードしたら、 Unified Manager を仮想アプライアンスとして導入します。vSphere Web Client を使用して、 ESXi サーバに仮想アプライアンスを導入します。仮想アプライアンスを導入すると、仮想マシンが作成されます。 
 ---
 = Unified Manager 仮想アプライアンスの導入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

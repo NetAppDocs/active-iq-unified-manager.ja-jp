@@ -5,6 +5,7 @@ keywords: annotation rules, work, unified manager
 summary: アノテーションルールとは、ストレージオブジェクト（ボリューム、クラスタ、または Storage Virtual Machine （ SVM ））をアノテートする基準を定義したものです。アノテーションルールは、条件グループまたは条件のいずれかを使用して定義できます。 
 ---
 = Unified Manager でのアノテーションルールの仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

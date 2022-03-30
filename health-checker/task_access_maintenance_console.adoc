@@ -5,6 +5,7 @@ keywords: access, maintenance, console
 summary: Unified Manager ユーザインターフェイスが動作状態でない場合、またはこのユーザインターフェイスにない機能を実行する必要がある場合は、メンテナンスコンソールにアクセスして Unified Manager システムを管理できます。 
 ---
 = メンテナンスコンソールへのアクセス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

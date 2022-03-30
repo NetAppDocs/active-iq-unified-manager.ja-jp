@@ -5,6 +5,7 @@ keywords: filtering, data
 summary: データをフィルタして、レポートの要件を満たしていることを確認します。フィルタリングすることで関心のあるデータのみを表示できます。 
 ---
 = データのフィルタリング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

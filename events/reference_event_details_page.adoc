@@ -5,6 +5,7 @@ keywords: event, details, page
 summary: イベントの詳細ページでは、選択したイベントの重大度、影響レベル、影響領域、イベントソースなどの詳細を確認できます。問題を解決するための考えられる対処方法について、追加情報を確認することもできます。 
 ---
 = イベントの詳細ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

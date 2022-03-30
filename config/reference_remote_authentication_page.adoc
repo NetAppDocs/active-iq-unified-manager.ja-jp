@@ -5,6 +5,7 @@ keywords: remote authentication, page
 summary: Remote Authentication ページでは、 Unified Manager Web UI にログインするリモートユーザを認証できるように、 Unified Manager と認証サーバの通信を設定することができます。 
 ---
 = Remote Authentication ページの略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

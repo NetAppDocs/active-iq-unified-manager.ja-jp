@@ -5,6 +5,7 @@ keywords: unified manager, interfaces, used, manage, storage, system, performanc
 summary: Active IQ Unified Manager では、データストレージのパフォーマンスに関する問題の監視とトラブルシューティング用に、 Web ユーザインターフェイスとメンテナンスコンソールの 2 つのインターフェイスを提供しています。 
 ---
 = ストレージシステムのパフォーマンスを管理するために使用される Unified Manager インターフェイス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

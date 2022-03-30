@@ -5,6 +5,7 @@ keywords: manage, monitor, groups
 summary: Unified Manager でグループを作成してストレージオブジェクトを管理できます。 
 ---
 = グループの管理と監視
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

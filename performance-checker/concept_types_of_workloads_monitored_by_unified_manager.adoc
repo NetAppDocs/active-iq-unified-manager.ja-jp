@@ -5,6 +5,7 @@ keywords: types, workloads, monitored, unified manager
 summary: Unified Manager では、ユーザ定義とシステム定義の 2 種類のワークロードのパフォーマンスを監視できます。 
 ---
 = Unified Manager で監視されるワークロードのタイプ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

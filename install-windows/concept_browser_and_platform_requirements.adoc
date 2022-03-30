@@ -5,6 +5,7 @@ keywords: supported, browsers
 summary: Unified Manager Web UI にアクセスするには、サポートされているブラウザを使用します。 
 ---
 = サポートされているブラウザ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: group actions, work, storage, objects
 summary: グループアクションは、グループ内のすべてのストレージオブジェクトに対して実行される処理です。たとえば、ボリュームしきい値のグループアクションを設定して、グループ内のすべてのボリュームのしきい値を同時に変更できます。 
 ---
 = ストレージオブジェクトでのグループ操作の仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

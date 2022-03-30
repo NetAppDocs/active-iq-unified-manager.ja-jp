@@ -5,6 +5,7 @@ keywords: unified manager, configuration, changes, detected
 summary: Unified Manager では、クラスタの構成の変更が監視され、それが原因で発生したパフォーマンスイベントがないかどうかを判断できます。パフォーマンスエクスプローラのページには、変更イベントアイコン（）が表示され、変更が検出された日時が示されます。 
 ---
 = Unified Manager によって設定の変更が検出されました
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

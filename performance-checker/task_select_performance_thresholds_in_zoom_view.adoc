@@ -5,6 +5,7 @@ keywords: select, performance, thresholds, counter, charts, zoom, view
 summary: カウンタグラフズームビューでしきい値を適用すると、該当するパフォーマンスしきい値イベントに関する詳細が表示されます。しきい値を適用または削除してすぐに結果を表示でき、トラブルシューティングが必要かどうかを判断する際に役立ちます。 
 ---
 = カウンタグラフズームビューでパフォーマンスしきい値を選択します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

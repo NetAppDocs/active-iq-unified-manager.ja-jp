@@ -5,6 +5,7 @@ keywords: information, contained, alert, email
 summary: Unified Manager のアラート E メールには、イベントのタイプ、イベントの重大度、イベントを原因で通知するために違反したポリシーまたはしきい値の名前、およびイベントの概要が記載されています。また、 UI でイベントの詳細ページを確認できるように、各イベントのハイパーリンクも E メールメッセージ内に記載されています。 
 ---
 = アラート E メールに含まれる情報
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: add, authentication servers
 summary: 認証サーバを追加して管理サーバでリモート認証を有効にすると、その認証サーバのリモートユーザが Unified Manager にアクセスできるようになります。 
 ---
 = 認証サーバを追加しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

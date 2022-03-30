@@ -5,6 +5,7 @@ keywords: storage vm, compliance, svm compliance, categories
 summary: 次の表に、 Unified Manager で評価される Storage Virtual Machine （ SVM ）セキュリティコンプライアンスの条件、ネットアップの推奨事項、および SVM が準拠か非準拠かの総合的な判断にパラメータが影響するかどうかを示します。 
 ---
 = Storage VM コンプライアンスのカテゴリ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

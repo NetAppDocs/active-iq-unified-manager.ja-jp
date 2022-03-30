@@ -5,6 +5,7 @@ keywords: support and diagnostics, menu
 summary: Support and Diagnostics メニューでは、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信できるサポートバンドルを生成することができます。 
 ---
 = Support and Diagnostics （サポートと診断）メニュー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

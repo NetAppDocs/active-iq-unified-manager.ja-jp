@@ -5,6 +5,7 @@ keywords: delete, values, annotations
 summary: カスタムアノテーションに関連付けられている値がアノテーションの環境でなくなった場合は、その値を削除できます。 
 ---
 = アノテーションから値を削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

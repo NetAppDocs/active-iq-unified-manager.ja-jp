@@ -5,6 +5,7 @@ keywords: cluster events, impact, area, availability, capacity, configuration, p
 summary: クラスタイベントは、クラスタのステータスに関する情報を提供します。これにより、クラスタの潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名、トラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = クラスタイベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

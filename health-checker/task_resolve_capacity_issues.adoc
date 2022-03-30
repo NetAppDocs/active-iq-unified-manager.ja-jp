@@ -5,6 +5,7 @@ keywords: resolve, capacity issues
 summary: このワークフローでは、容量問題を解決する方法の例を示します。このシナリオでは、管理者またはオペレータが、 Unified Manager のダッシュボードページにアクセスして、監視対象のストレージオブジェクトに容量の問題がないかどうかを確認します。問題に対する原因の候補と解決策を特定する。 
 ---
 = 容量の問題を解決する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

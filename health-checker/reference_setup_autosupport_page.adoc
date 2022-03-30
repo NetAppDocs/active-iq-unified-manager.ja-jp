@@ -5,6 +5,7 @@ keywords: autosupport, messages, support bundles, technical support
 summary: AutoSupport ページでは、事前定義されたオンデマンドの AutoSupport メッセージをテクニカルサポートチームに送信して、環境の正しい運用や環境の整合性の維持に役立てることができます。AutoSupport はデフォルトで有効になっており、 NetAppActive IQ のメリットを活用するためには無効にしないでください。 
 ---
 = テクニカルサポートに AutoSupport メッセージとサポートバンドルを送信する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

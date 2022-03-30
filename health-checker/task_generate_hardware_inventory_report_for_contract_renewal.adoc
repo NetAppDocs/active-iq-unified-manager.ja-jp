@@ -5,6 +5,7 @@ keywords: contract, renewal, cluster, inventory report, hardware, generate
 summary: ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含むレポートを生成できます。このレポートは、 NetAppActive IQ プラットフォームに接続されていないセキュアなサイト（「ダーク」サイト）で契約更新を行う際に役立ちます。 
 ---
 = 契約更新用のハードウェアインベントリレポートの生成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

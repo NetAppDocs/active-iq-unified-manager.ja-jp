@@ -5,6 +5,7 @@ keywords: support bundle, technical support
 summary: 問題で AutoSupport メッセージよりも詳細な診断情報とトラブルシューティング情報が必要な場合は、テクニカルサポートにサポートバンドルを送信します。 
 ---
 = テクニカルサポートへのサポートバンドルの送信
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

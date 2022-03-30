@@ -5,6 +5,7 @@ keywords: verify, svms, clusters
 summary: ファイル共有または LUN をプロビジョニングする前に、クラスタに Storage Virtual Machine （ SVM ）が作成されているかどうかを確認する必要があります。 
 ---
 = クラスタの SVM の確認
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

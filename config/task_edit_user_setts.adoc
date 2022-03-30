@@ -5,6 +5,7 @@ keywords: edit, user, settings
 summary: 各ユーザを指定した E メールアドレスやロールなどのユーザ設定を編集することができます。たとえば、ストレージオペレータのユーザのロールを変更して、そのユーザにストレージ管理者の権限を割り当てることができます。 
 ---
 = ユーザ設定の編集
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

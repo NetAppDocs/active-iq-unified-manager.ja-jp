@@ -5,6 +5,7 @@ keywords: create, resource pool, dialog box
 summary: Create Resource Pool ダイアログボックスを使用して、新しいリソースプールの名前と説明を指定し、そのリソースプールに対してアグリゲートを追加および削除することができます。 
 ---
 = CreateResourcePool タイアロクホツクス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system-defined, performance, threshold, events
 summary: Unified Manager を使用して、パフォーマンスカウンタがシステム定義の警告しきい値を超えたことに起因するパフォーマンスイベントを調査できます。また、 Unified Manager を使用してクラスタコンポーネントの健常性を確認し、コンポーネントで検出された最近のイベントがパフォーマンスイベントに関与しているかどうかを判断できます。 
 ---
 = システム定義のパフォーマンスしきい値のイベントへの対処
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

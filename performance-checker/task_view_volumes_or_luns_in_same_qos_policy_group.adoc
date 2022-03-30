@@ -5,6 +5,7 @@ keywords: view, volumes, luns, same. qos, policy, group
 summary: 同じ QoS ポリシーグループに割り当てられているボリュームと LUN のリストを表示できます。 
 ---
 = 同じ QoS ポリシーグループ内のボリュームまたは LUN の表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: unified manager, workload, latency, identify, performance, issues
 summary: ワークロードのレイテンシ（応答時間）は、クラスタ上のボリュームがクライアントアプリケーションからの I/O 要求に応答するまでの時間です。Unified Manager は、レイテンシを使用してパフォーマンスイベントを検出し、アラートを生成します。 
 ---
 = Unified Manager がワークロードのレイテンシを使用してパフォーマンスの問題を特定する仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

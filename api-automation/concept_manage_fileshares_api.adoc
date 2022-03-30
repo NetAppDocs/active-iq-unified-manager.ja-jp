@@ -5,6 +5,7 @@ keywords: manage, file, share
 summary: /storage-provider/file-shares API を使用して、データセンター環境内の CIFS および NFS のファイル共有ボリュームを表示、追加、変更、および削除できます。 
 ---
 = ファイル共有の管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

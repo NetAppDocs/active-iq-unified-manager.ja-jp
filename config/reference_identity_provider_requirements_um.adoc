@@ -5,6 +5,7 @@ keywords: identity, provider, requirements
 summary: すべてのリモートユーザについてアイデンティティプロバイダ（ IdP ）を使用して SAML 認証を実行するように Unified Manager で設定するときは、 Unified Manager に正しく接続できるように、いくつかの必要な設定を確認しておく必要があります。 
 ---
 = アイデンティティプロバイダの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

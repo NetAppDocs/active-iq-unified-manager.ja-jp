@@ -5,6 +5,7 @@ keywords: rest, services, offer, active iq, unified, manager
 summary: Active IQ Unified Manager API の使用を開始する前に、提供される REST サービスと処理について理解しておく必要があります。 
 ---
 = Active IQ Unified Manager で提供される REST サービス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

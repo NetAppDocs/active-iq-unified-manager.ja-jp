@@ -5,6 +5,7 @@ keywords: performance, counters, tracked, thresholds
 summary: IOPS や MBps など、一部の共通のパフォーマンスカウンタでは、すべてのストレージオブジェクトを対象にしきい値を設定できます。それ以外のカウンタでは、特定のストレージオブジェクトに対してのみしきい値を設定できます。 
 ---
 = しきい値を使用して追跡可能なパフォーマンスカウンタ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

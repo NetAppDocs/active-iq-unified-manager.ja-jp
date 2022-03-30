@@ -5,6 +5,7 @@ keywords: quota, limits
 summary: ユーザクォータ制限とは、ユーザのスペース使用量がそのユーザのクォータで設定されている制限値に近づいているかどうか、または到達したかどうかを評価するために Unified Manager サーバで使用される値です。ソフトリミットを超えた場合や、ハードリミットに達した場合は、 Unified Manager サーバでユーザクォータイベントが生成されます。 
 ---
 = クォータ制限とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

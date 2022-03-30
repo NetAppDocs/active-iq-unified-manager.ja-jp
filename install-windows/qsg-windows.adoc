@@ -5,6 +5,7 @@ keywords: quick start guide, QSG, Windows QSG, quick installation, Windows insta
 summary: Linux プラットフォームでの Unified Manager のクイックスタートガイドです。 
 ---
 = Windows インストールのクイックスタート手順
+:allow-uri-read: 
 
 
 

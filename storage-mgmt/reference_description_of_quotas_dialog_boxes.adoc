@@ -5,6 +5,7 @@ keywords: description, quotas, dialog, boxes
 summary: Health ： All Storage VMs ビューの User and Group Quotas タブで適切なオプションを使用して、クォータ関連の問題が発生したときに送信される E メール通知の形式を設定したり、ユーザクォータに基づいて E メールアドレスを指定するルールを設定したりできます。 
 ---
 = クォータの概要ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

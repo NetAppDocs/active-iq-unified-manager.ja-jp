@@ -5,6 +5,7 @@ keywords: view, storage, vm peers
 summary: Storage VM Peers ページを使用して、既存の Storage VM ピアとそのプロパティを表示したり、追加の Storage VM が必要かどうかを確認したりできます。 
 ---
 = Storage VM ピアの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

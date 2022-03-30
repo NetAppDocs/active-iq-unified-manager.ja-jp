@@ -5,6 +5,7 @@ keywords: view, all san array, health and capacity, clusters
 summary: クラスタインベントリページでは、オール SAN アレイクラスタの健全性と容量のステータスを表示できます。 
 ---
 = オール SAN アレイクラスタの健全性と容量のステータスの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

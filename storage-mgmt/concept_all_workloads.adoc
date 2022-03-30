@@ -5,6 +5,7 @@ keywords: view, workloads, add, provision, storage, filter, analyze, performance
 summary: すべてのワークロードビューには、データセンター内のクラスタで使用可能なすべてのワークロードのリストが表示されます。 
 ---
 = ワークロードの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

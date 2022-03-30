@@ -5,6 +5,7 @@ keywords: edit, clusters
 summary: クラスタの編集ダイアログボックスを使用して、ホスト名または IP アドレス、ユーザ名、パスワード、ポートなど、既存のクラスタの設定を変更できます。 
 ---
 = クラスタを編集します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

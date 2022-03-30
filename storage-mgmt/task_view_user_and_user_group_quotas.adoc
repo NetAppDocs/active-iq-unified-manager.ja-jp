@@ -5,6 +5,7 @@ keywords: view, user, user, group, quotas
 summary: Storage VM / Health の詳細ページには、 SVM で設定されているユーザクォータとユーザグループクォータに関する情報が表示されます。ユーザまたはユーザグループの名前、ディスクとファイルに設定されている制限、ディスクとファイルの使用済みスペース、および通知用の E メールアドレスを確認できます。 
 ---
 = ユーザクォータとユーザグループクォータの表示
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

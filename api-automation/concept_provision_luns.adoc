@@ -5,6 +5,7 @@ keywords: provision, luns
 summary: Active IQ Unified Manager に付属のプロビジョニング API を使用して、 Storage Virtual Machine （ SVM ）に LUN をプロビジョニングできます。このプロビジョニングワークフローでは、 LUN を作成する前に SVM 、パフォーマンスサービスレベル、およびストレージ効率化ポリシーのキーを取得する手順について詳しく説明します。 
 ---
 = LUN のプロビジョニング
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

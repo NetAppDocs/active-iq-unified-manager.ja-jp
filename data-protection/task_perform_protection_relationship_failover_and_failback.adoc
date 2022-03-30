@@ -5,6 +5,7 @@ keywords: perform, protection, relationship, failover, failback
 summary: ハードウェア障害や災害が原因で保護関係のソースボリュームが無効になっている場合は、 Unified Manager の保護関係機能を使用して保護デスティネーションの読み取り / 書き込みアクセスを可能にし、ソースがオンラインに戻るまでそのボリュームにフェイルオーバーすることができます。 その後、データの提供に使用できる元のソースにフェイルバックできます。 
 ---
 = 保護関係のフェイルオーバーとフェイルバックを実行する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

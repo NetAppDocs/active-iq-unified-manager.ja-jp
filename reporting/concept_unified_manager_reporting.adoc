@@ -5,6 +5,7 @@ keywords: unified, manager, reporting
 summary: Active IQ Unified Manager （旧 OnCommand Unified Manager ）では、 ONTAP ストレージシステムのレポートを表示、カスタマイズ、ダウンロード、およびスケジュール設定できます。レポートには、ストレージシステムの容量、健全性、パフォーマンス、保護関係に関する詳細を表示できます。 
 ---
 = Unified Manager のレポート機能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

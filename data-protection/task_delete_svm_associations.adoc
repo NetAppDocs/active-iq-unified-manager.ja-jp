@@ -5,6 +5,7 @@ keywords: delete, storage, vm, peers
 summary: パートナーアプリケーション用の Storage VM ピアを削除して、ソースとデスティネーションの Storage VM 間のセカンダリプロビジョニング関係を削除できます。この処理は、たとえば、デスティネーション Storage VM がいっぱいになったために新しい Storage VM 保護ピアを作成する場合などに行います。 
 ---
 = Storage VM ピアを削除しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

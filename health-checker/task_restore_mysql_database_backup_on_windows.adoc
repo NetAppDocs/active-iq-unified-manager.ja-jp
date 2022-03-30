@@ -5,6 +5,7 @@ keywords: restore, windows, mysql, database, backup
 summary: データ損失やデータ破損が発生した場合、リストア機能を使用して Unified Manager を以前の安定した状態にリストアすることで損失を最小限に抑えることができます。Unified Manager の MySQL データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Windows システムにもリストアできます。 
 ---
 = Windows での MySQL データベースバックアップのリストア
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

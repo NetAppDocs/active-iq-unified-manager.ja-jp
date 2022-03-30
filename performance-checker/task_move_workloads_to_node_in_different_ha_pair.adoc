@@ -5,6 +5,7 @@ keywords: move, workloads, node, different, ha pair
 summary: 現在ワークロードが実行されている HA ペアよりも空きパフォーマンス容量が大きい別のハイアベイラビリティ（ HA ）ペアのノード上のアグリゲートを Unified Manager で特定し、その後、選択したボリュームを新しい HA ペア上のアグリゲートに移動できます。 
 ---
 = 別の HA ペアのノードへのワークロードの移動
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

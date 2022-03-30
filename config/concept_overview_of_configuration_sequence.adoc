@@ -5,6 +5,7 @@ keywords: overview, configuration, sequence
 summary: 以下は、 Unified Manager を使用する前に必要な設定作業のワークフローです。 
 ---
 = 設定手順の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

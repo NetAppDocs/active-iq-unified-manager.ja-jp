@@ -5,6 +5,7 @@ keywords: performance, capacity, threshold, conditions
 summary: ユーザ定義のパフォーマンスしきい値ポリシーを作成して、ノードまたはアグリゲートの使用済みパフォーマンス容量の値が定義されている使用済みパフォーマンス容量しきい値の設定を超えたときにイベントがトリガーされるようにすることができます。 
 ---
 = 使用済みパフォーマンス容量のパフォーマンスしきい値条件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

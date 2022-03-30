@@ -5,6 +5,7 @@ keywords: understand storage vm peers
 summary: Storage VM ピアは、ソース Storage VM からデスティネーション Storage VM へのマッピングであり、リソースの選択やセカンダリボリュームのプロビジョニングのためにパートナーアプリケーションで使用されます。 
 ---
 = Storage VM ピアの概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

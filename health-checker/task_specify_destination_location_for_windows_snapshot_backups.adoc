@@ -5,6 +5,7 @@ keywords: specify, destination location, windows, snapshot, backups
 summary: いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。 
 ---
 = Windows Snapshot バックアップのデスティネーションの指定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

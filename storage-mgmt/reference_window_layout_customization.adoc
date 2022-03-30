@@ -5,6 +5,7 @@ keywords: window, layout, customization
 summary: Active IQ Unified Manager を使用して、ストレージオブジェクトとネットワークオブジェクトのページに表示される情報のレイアウトをカスタマイズできます。ウィンドウをカスタマイズすることによって、表示するデータやその表示方法を制御できます。 
 ---
 = ウィンドウレイアウトのカスタマイズ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

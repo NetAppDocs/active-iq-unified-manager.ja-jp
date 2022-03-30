@@ -5,6 +5,7 @@ keywords: requirements, installing, unified manager
 summary: インストールプロセスを開始する前に、 Unified Manager をインストールするサーバがソフトウェア、ハードウェア、 CPU 、およびメモリの所定の要件を満たしていることを確認してください。 
 ---
 = Unified Manager をインストールするための要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: objects, counters, combination, threshold, policies
 summary: 組み合わせポリシーで一緒に使用できるパフォーマンスカウンタには種類に制限があります。プライマリとセカンダリのパフォーマンスカウンタを指定した場合、両方のパフォーマンスカウンタが上限を超えたときにイベントが生成されます。 
 ---
 = 組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

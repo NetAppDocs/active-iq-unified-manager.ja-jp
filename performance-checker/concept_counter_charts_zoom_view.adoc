@@ -5,6 +5,7 @@ keywords: counter, charts, zoom, view
 summary: カウンタグラフにはズームビューが用意されており、指定した期間のパフォーマンスの詳細を拡大できます。これによりパフォーマンスの詳細やイベントをより細かく確認できるため、パフォーマンスの問題のトラブルシューティングを行うときに便利です。 
 ---
 = カウンタグラフズームビュー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

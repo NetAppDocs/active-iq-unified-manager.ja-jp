@@ -5,6 +5,7 @@ keywords: test, script, execution
 summary: ストレージオブジェクトに対してアラートが生成されたときにスクリプトが正しく実行されるかどうかを確認することができます。 
 ---
 = スクリプトの実行テスト
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

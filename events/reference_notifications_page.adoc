@@ -5,6 +5,7 @@ keywords: notifications page, email, smtp, server, snmp
 summary: Unified Manager サーバでは、イベントが生成されたときやユーザに割り当てられたときに通知を送信するように設定することができます。通知メカニズムを設定することもできます。たとえば、通知を E メールや SNMP トラップとして送信できます。 
 ---
 = 通知ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: enable, remote, logging, audit, logs
 summary: Configure Audit Logs ダイアログボックスの Enable Remote Logging チェックボックスをオンにして、リモート監査ロギングをイネーブルにできます。この機能を使用すると、監査ログをリモートの syslog サーバに転送できます。これにより、スペースに制約がある場合でも監査ログを管理できます。 
 ---
 = 監査ログのリモートロギングを有効にする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

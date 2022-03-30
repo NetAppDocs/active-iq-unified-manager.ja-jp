@@ -5,6 +5,7 @@ keywords: create, report, view, volume, transfers, day
 summary: ボリューム転送を日付別に表示するレポートを作成できます。 
 ---
 = ボリューム転送を日付別に表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

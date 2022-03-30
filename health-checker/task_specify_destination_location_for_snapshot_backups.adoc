@@ -5,6 +5,7 @@ keywords: specify, destination location, snapshot backups
 summary: いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの設定場所は Active IQ Unified Manager メンテナンスコンソールから定義します。 
 ---
 = Snapshot バックアップのデスティネーションの指定
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

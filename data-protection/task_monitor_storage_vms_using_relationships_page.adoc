@@ -5,6 +5,7 @@ keywords: relationships page, monitor, storage, vm
 summary: Storage VM ディザスタリカバリ関係は、インベントリの保護セクションにある関係ページで監視できます。デフォルトでは、関係ページには、コンスティチュエント関係のフィルタが適用されたときの上位レベルの関係のみが表示されます。 
 ---
 = カンケイヘエシヲシヨウシタ Storage VM ノカンシ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

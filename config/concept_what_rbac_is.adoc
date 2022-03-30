@@ -5,6 +5,7 @@ keywords: rbac, active iq unified manager, server
 summary: RBAC （ロールベースアクセス制御）を使用すると、 Active IQ Unified Manager サーバのさまざまな機能やリソースにアクセスできるユーザを制御できます。 
 ---
 = RBAC とは
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

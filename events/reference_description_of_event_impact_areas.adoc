@@ -5,6 +5,7 @@ keywords: description, event, impact, areas
 summary: イベントは、 6 つの影響領域（可用性、容量、構成、パフォーマンス、保護、 および security ）を使用して、管理者が担当するタイプのイベントに集中できるようにします。 
 ---
 = イベントの影響領域の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

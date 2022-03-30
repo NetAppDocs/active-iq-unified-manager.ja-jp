@@ -5,6 +5,7 @@ keywords: delete, reports
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページから削除できます。' 
 ---
 = スケジュール済みレポートの削除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

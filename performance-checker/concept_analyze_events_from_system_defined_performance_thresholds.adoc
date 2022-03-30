@@ -5,6 +5,7 @@ keywords: analyze, events, system-defined, performance, thresholds
 summary: システム定義のパフォーマンスしきい値で生成されたイベントは、特定のストレージオブジェクトの 1 つまたは複数のパフォーマンスカウンタがシステム定義ポリシーのしきい値を超えたことを示しています。これは、アグリゲートやノードなどのストレージオブジェクトでパフォーマンス問題が発生していることを示しています。 
 ---
 = システム定義のパフォーマンスしきい値で生成されたイベントを分析します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

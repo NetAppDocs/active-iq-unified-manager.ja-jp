@@ -5,6 +5,7 @@ keywords: svm, resource pool requirements, support, storage services
 summary: ストレージサービスに固有の SVM の関連付けやリソースプールの要件を確認する場合は、パートナーアプリケーションへの準拠を適切に確保することができます。 たとえば、 SVM を関連付けて Unified Manager でリソースプールを作成すると、パートナーアプリケーションから提供されるストレージサービスの保護トポロジがサポートされます。 
 ---
 = ストレージサービスをサポートするための SVM とリソースプールの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

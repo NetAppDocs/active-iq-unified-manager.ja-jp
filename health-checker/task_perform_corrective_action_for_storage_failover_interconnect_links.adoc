@@ -5,6 +5,7 @@ keywords: perform, corrective action, storage failover, interconnect links
 summary: ストレージフェイルオーバー関連イベントのイベントの詳細ページを表示して、ページの概要情報を確認し、イベントの緊急性、問題の原因の候補、問題への解決策を特定できます。 
 ---
 = ストレージフェイルオーバーインターコネクトリンクが停止した場合の対処策の実施
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

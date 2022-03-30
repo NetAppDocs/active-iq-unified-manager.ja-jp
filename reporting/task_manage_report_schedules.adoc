@@ -5,6 +5,7 @@ keywords:
 summary: 'レポートスケジュールは、 [Report Schedules] ページで管理できます。既存のスケジュールは、表示、変更、または削除することができます。' 
 ---
 = レポートスケジュールの管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

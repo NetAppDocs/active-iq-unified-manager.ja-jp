@@ -5,6 +5,7 @@ keywords: system-defined, performance, threshold, policies, cluster, node. aggre
 summary: Unified Manager には、クラスタのパフォーマンスを監視し、イベントを自動生成する標準のしきい値ポリシーがいくつか用意されています。これらのポリシーはデフォルトで有効になっており、監視対象のパフォーマンスしきい値を超えたときに警告イベントまたは情報イベントを生成します。 
 ---
 = システム定義のパフォーマンスしきい値ポリシーのタイプ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

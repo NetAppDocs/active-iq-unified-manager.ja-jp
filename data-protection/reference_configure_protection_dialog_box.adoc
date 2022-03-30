@@ -5,6 +5,7 @@ keywords: configure, protection, dialog box
 summary: 保護の設定ダイアログボックスを使用して、クラスタ上のすべての読み取り、書き込み、データ保護のボリュームに対して SnapMirror 関係と SnapVault 関係を作成し、ソースボリュームまたはプライマリボリューム上のデータをレプリケートできます。 
 ---
 = Configure Protection （保護の設定）ダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

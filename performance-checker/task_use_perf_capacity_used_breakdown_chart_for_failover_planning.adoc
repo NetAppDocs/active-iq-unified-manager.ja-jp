@@ -5,6 +5,7 @@ keywords: performance, capacity, used, breakdown, chart, failover, planning
 summary: 詳細な使用済みパフォーマンス容量 - 内訳グラフには、プライマリノードとパートナーノードの使用済みパフォーマンス容量が表示されます。また、推定テイクオーバーノードの空きパフォーマンス容量も表示されます。この情報から、パートナーノードで障害が発生した場合にパフォーマンス問題が確保されるかどうかを判断できます。 
 ---
 = フェイルオーバー計画に使用済みパフォーマンス容量の内訳グラフを使用する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

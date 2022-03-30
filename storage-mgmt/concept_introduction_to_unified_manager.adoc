@@ -5,6 +5,7 @@ keywords: introduction, active iq unified manager
 summary: Active IQ Unified Manager （旧 OnCommand Unified Manager ）を使用すると、 ONTAP ストレージシステムの健常性とパフォーマンスを 1 つのインターフェイスから監視および管理できます。 
 ---
 = Active IQ Unified Manager の概要
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

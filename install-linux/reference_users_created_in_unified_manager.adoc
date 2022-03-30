@@ -5,6 +5,7 @@ keywords: users, created, unified manager, installation
 summary: Red Hat Enterprise Linux または CentOS に Unified Manager をインストールすると、 Unified Manager とサードパーティユーティリティによって umadmin 、 jboss 、および mysql の各ユーザが作成されます。 
 ---
 = Unified Manager のインストール時に作成されるユーザ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: scan, resolve, storage, failover, interconnect link, conditions
 summary: このワークフローでは、ストレージフェイルオーバーインターコネクトリンクの停止状態をスキャンし、評価して解決する方法の例を示します。このシナリオでは、管理者が、ノードで ONTAP バージョンのアップグレードを開始する前に Unified Manager を使用してストレージフェイルオーバーのリスクがないかをスキャンします。 
 ---
 = ストレージフェイルオーバーインターコネクトリンクの停止状態をスキャンして解決しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

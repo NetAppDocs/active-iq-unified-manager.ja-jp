@@ -5,6 +5,7 @@ keywords: unified manager, user, roles, capabilities
 summary: Unified Manager で実行できる操作は、割り当てられているユーザロールに基づいて決まります。 
 ---
 = Unified Manager のユーザロールと機能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: performance, cluster, summary page
 summary: Performance Cluster Summary ページには、クラスタのアクティブなイベント、 IOPS パフォーマンス、および MBps パフォーマンスの概要が表示されます。このページには、クラスタ内のストレージオブジェクトの総数も表示されます。 
 ---
 = Performance Cluster Summary ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

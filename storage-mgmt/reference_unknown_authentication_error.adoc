@@ -5,6 +5,7 @@ keywords: unknown, authentication, error
 summary: トラブルシューティング：不明な認証エラーです 
 ---
 = 不明な認証エラーです
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

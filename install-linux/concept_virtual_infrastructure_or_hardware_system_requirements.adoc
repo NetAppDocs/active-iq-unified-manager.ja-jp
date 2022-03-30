@@ -5,6 +5,7 @@ keywords: virtual, infrastructure, hardware, system, requirements, host, connect
 summary: 仮想インフラまたは物理システムに Unified Manager をインストールする場合、メモリ、 CPU 、およびディスクスペースの最小要件を満たす必要があります。 
 ---
 = 仮想インフラおよびハードウェアシステムの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

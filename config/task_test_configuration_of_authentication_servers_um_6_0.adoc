@@ -5,6 +5,7 @@ keywords: test, configuration, authentication servers
 summary: 認証サーバの設定を検証して、管理サーバが認証サーバと通信できるかどうかを確認できます。設定を検証するには、認証サーバからリモートユーザまたはリモートグループを検索し、設定済みの設定を使用して認証します。 
 ---
 = 認証サーバの設定をテストする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

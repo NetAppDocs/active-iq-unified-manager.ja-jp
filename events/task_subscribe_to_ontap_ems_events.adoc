@@ -5,6 +5,7 @@ keywords: subscribe, ontap, ems events
 summary: ONTAP ソフトウェアがインストールされているシステムで生成された Event Management System （ EMS ；イベント管理システム）イベントを受け取るように登録することができます。一部の EMS イベントは Unified Manager に自動的に報告されますが、それ以外の EMS イベントは登録している場合にのみ報告されます。 
 ---
 = ONTAP EMS イベントに登録する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

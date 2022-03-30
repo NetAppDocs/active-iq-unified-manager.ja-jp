@@ -5,6 +5,7 @@ keywords: set up, required, software, repositories
 summary: インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。 
 ---
 = 必要なソフトウェアリポジトリをセットアップする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

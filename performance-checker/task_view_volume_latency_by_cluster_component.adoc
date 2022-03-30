@@ -5,6 +5,7 @@ keywords: view, volume, latency, cluster, component
 summary: ボリュームの詳細なレイテンシ情報を表示するには、ボリュームパフォーマンスエクスプローラのページを使用します。Latency - Total カウンタグラフはボリュームの合計レイテンシを表示し、 Latency - Breakdown カウンタグラフはボリュームへの読み取りと書き込みのレイテンシが及ぼす影響を特定するのに役立ちます。 
 ---
 = クラスタコンポーネント別のボリュームレイテンシを表示します
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: api, version, active iq, unified, manager
 summary: Active IQ Unified Manager の REST API URI には、バージョン番号が指定されます。たとえば、 /v2/dataCenter /SVM/SVMs のように指定します。/v2/dataCenter /SVM/SVMs のバージョン番号 v2 は、特定のリリースで使用されている API のバージョンを示しています。バージョン番号を指定することで、クライアントが処理可能な応答が返されるため、 API の変更によるクライアントソフトウェアへの影響が最小限に抑えられます。 
 ---
 = Active IQ Unified Manager の API バージョン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

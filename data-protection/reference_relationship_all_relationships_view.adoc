@@ -5,6 +5,7 @@ keywords: volume, relationships
 summary: Relationship ： All Relationships ビューには、ストレージシステム上の保護関係に関する情報が表示されます。 
 ---
 = 関係：すべての関係ビュー
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

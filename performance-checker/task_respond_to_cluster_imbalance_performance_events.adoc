@@ -5,6 +5,7 @@ keywords: cluster, imbalance, performance, events
 summary: Unified Manager は、クラスタ内の 1 つのノードの負荷が他のノードよりもはるかに高く、ワークロードのレイテンシに影響を及ぼしている可能性がある場合、クラスタ不均衡警告イベントを生成します。これらのシステム定義のイベントにより、多くのワークロードにレイテンシの影響が及ぶ前に潜在的なパフォーマンスの問題を修正することができます。 
 ---
 = クラスタ不均衡パフォーマンスイベントに対処する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

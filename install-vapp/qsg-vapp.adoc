@@ -5,6 +5,7 @@ keywords: quick start guide, QSG, VMWare QSG, vApp QSG, quick installation
 summary: VMware vSphere プラットフォームの Unified Manager のクイックスタートガイドです。 
 ---
 = VMware のインストールのクイックスタート手順
+:allow-uri-read: 
 
 
 

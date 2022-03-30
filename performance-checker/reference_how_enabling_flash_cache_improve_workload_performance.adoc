@@ -5,6 +5,7 @@ keywords: enabling, flash cache, node, improve, workload, performance
 summary: クラスタ内の各ノードで Flash Cache ™インテリジェントデータキャッシングを有効にすることで、ワークロードパフォーマンスを向上させることができます。 
 ---
 = ノードで Flash Cache を有効にしてワークロードパフォーマンスを改善する仕組み
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

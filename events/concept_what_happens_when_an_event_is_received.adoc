@@ -5,6 +5,7 @@ keywords: happens, when, event, received
 summary: Unified Manager がイベントを受け取ると、ダッシュボードページ、イベント管理インベントリページ、クラスタ / パフォーマンスページの概要タブとエクスプローラタブ、およびオブジェクト固有のインベントリページ（ボリューム / 健全性インベントリページなど）に表示されます。 
 ---
 = イベント受信時の動作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

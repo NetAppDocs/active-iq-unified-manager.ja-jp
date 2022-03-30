@@ -5,6 +5,7 @@ keywords: scripts, work, alerts
 summary: Unified Manager でイベントに対するアラートが発生したときにスクリプトが実行されるように、スクリプトにアラートを関連付けることができます。スクリプトを使用して、ストレージオブジェクトの問題を解決したり、イベントの生成元のストレージオブジェクトを特定したりできます。 
 ---
 = スクリプトとアラートの連携方法
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

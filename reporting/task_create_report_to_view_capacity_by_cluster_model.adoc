@@ -5,6 +5,7 @@ keywords: create, report, view, capacity, cluster, model
 summary: クラスタのストレージ容量と使用状況をストレージシステムモデルに基づいて分析するためのレポートを作成できます。 
 ---
 = 容量をクラスタモデル別に表示するレポートの作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

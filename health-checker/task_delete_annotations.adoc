@@ -5,6 +5,7 @@ keywords: delete, annotations
 summary: 不要になったカスタムアノテーションとその値を削除できます。 
 ---
 = アノテーションを削除する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

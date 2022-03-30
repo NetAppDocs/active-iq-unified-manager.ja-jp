@@ -5,6 +5,7 @@ keywords: initialize, update, protection, relationships, volume, page
 summary: ボリューム関係ページでは、新しい保護関係で最初のベースライン転送を実行できます。また、すでに初期化された関係でスケジュールされていない増分更新を手動で実行してすぐに転送する場合は、関係を更新できます。 
 ---
 = ボリューム関係ページから保護関係を初期化または更新しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

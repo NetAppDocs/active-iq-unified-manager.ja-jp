@@ -5,6 +5,7 @@ keywords: create, snapvault, protection, relationship, volume, health details pa
 summary: ボリュームでデータバックアップを有効にして保護するために、ボリューム / 健全性の詳細ページを使用して SnapVault 関係を作成することができます。 
 ---
 = ボリューム / 健全性の詳細ページから SnapVault 保護関係を作成しています
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

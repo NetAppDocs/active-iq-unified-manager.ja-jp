@@ -5,6 +5,7 @@ keywords: delete, groups
 summary: 不要になったグループは、 Unified Manager から削除できます。 
 ---
 = グループの削除
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

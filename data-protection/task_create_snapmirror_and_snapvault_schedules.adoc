@@ -5,6 +5,7 @@ keywords: create, snapmirror, snapvault, schedules
 summary: SnapMirror および SnapVault の基本または詳細スケジュールを作成して、ソースボリュームまたはプライマリボリュームで自動データ保護転送を有効にすることができます。ボリュームでのデータ変更の頻度に応じて、転送の実行頻度を調整することができます。 
 ---
 = SnapMirror スケジュールと SnapVault スケジュールを作成
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

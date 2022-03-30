@@ -5,6 +5,7 @@ keywords: analyzing, dynamic, performance, event, remote, cluster, metrocluster,
 summary: Unified Manager を使用して、 MetroCluster 構成のリモートクラスタの動的なパフォーマンスイベントを分析できます。この分析によって、リモートクラスタのイベントがそのパートナークラスタのイベントの原因となったかどうかを判断できます。 
 ---
 = MetroCluster 構成のリモートクラスタの動的なパフォーマンスイベントを分析する
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: types, snapmirror, protection, consistency group, snapmirror business 
 summary: 導入するデータストレージのトポロジに応じて、複数のタイプの SnapMirror 保護関係を Unified Manager で設定できます。すべての種類の SnapMirror 保護では、フェイルオーバーによるディザスタリカバリ保護が提供されますが、パフォーマンス、バージョン依存性の解消、および複数のバックアップコピーによる保護については、提供される機能が異なります。 
 ---
 = SnapMirror 保護のタイプ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: user, not, found
 summary: トラブルシューティング：ユーザが見つかりません 
 ---
 = ユーザが見つかりません
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

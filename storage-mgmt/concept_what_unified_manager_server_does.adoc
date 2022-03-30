@@ -5,6 +5,7 @@ keywords: unified manager, server, does
 summary: Unified Manager サーバインフラは、データ収集ユニット、データベース、アプリケーションサーバで構成され、検出、監視、ロールベースアクセス制御（ RBAC ）、監査、ロギングなどのインフラサービスを提供します。 
 ---
 = Unified Manager サーバの機能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

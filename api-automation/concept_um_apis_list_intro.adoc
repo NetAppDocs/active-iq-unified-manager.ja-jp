@@ -5,6 +5,7 @@ keywords: unified, manager, rest, api
 summary: ここでは、 Active IQ Unified Manager 用の REST API をカテゴリ別に示します。 
 ---
 = Unified Manager REST API
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

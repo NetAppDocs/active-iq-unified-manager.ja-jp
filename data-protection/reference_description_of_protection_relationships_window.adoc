@@ -5,6 +5,7 @@ keywords: description, protect, relationships, windows, dialog boxes
 summary: リソースプール、 SVM の関連付け、保護ジョブなど、保護に関連する詳細を表示および管理できます。適切な健常性しきい値ページを使用して、アグリゲート、ボリューム、および関係のグローバルな健常性しきい値を設定できます。 
 ---
 = 保護関係の概要のウィンドウとダイアログボックス
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

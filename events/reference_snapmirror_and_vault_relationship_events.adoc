@@ -5,6 +5,7 @@ keywords: asynchronous, mirror, vault, relationship, events, impact area, protec
 summary: 非同期ミラーバックアップ関係イベントは、非同期 SnapMirror 関係とバックアップ関係のステータス情報を提供します。これにより、潜在的な問題を監視できます。非同期ミラーバックアップ関係イベントは、ボリュームと Storage VM の両方の保護関係でサポートされます。ただし、 Storage VM ディザスタリカバリではバックアップ関係のみがサポートされません。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = 非同期ミラーバックアップ関係イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

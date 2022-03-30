@@ -5,6 +5,7 @@ keywords: add, disks, reallocate, data
 summary: アグリゲートにディスクを追加することで、ストレージ容量を増やし、そのアグリゲートのパフォーマンスを高めることができます。ディスクを追加したあと、追加したディスクにデータを再配置するまでは読み取りパフォーマンスは向上しません。 
 ---
 = ディスクを追加してデータを再配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

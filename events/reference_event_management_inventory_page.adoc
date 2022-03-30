@@ -5,6 +5,7 @@ keywords: event, management, inventory, page, filter, components, xommand button
 summary: Event Management インベントリページでは、現在のイベントとそのプロパティのリストを表示できます。イベントについて、確認、解決、割り当てなどのタスクを実行することができます。特定のイベントに対するアラートを追加することもできます。 
 ---
 = Event Management のインベントリページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

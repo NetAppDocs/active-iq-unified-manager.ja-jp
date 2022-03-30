@@ -5,6 +5,7 @@ keywords: complete, worksheet
 summary: Unified Manager をインストールして設定する前に、環境に関する特定の情報を確認しておく必要があります。この情報はワークシートに記録できます。 
 ---
 = ワークシートへの記入
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

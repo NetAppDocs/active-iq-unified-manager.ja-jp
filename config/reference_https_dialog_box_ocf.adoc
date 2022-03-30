@@ -5,6 +5,7 @@ keywords: https certificate page
 summary: HTTPS 証明書ページでは、現在のセキュリティ証明書の表示、証明書署名要求のダウンロード、新しい HTTPS 証明書の生成、新しい HTTPS 証明書のインストールを行うことができます。 
 ---
 = HTTPS 証明書ページ
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

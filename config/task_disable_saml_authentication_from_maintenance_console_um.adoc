@@ -5,6 +5,7 @@ keywords: disable, saml authentication, maintenance, console
 summary: Unified Manager GUI にアクセスできない場合は、必要に応じてメンテナンスコンソールから SAML 認証を無効にすることができます。この状況は、設定に誤りがある場合や IdP にアクセスできない場合に発生します。 
 ---
 = メンテナンスコンソールから SAML 認証を無効にする
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

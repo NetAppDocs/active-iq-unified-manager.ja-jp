@@ -5,6 +5,7 @@ keywords: unified manager, protocol, port, requirements, server, connections
 summary: このポートとプロトコルを使用して、 Unified Manager サーバは管理対象のストレージシステム、サーバ、その他のコンポーネントと通信します。 
 ---
 = プロトコルとポートの要件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

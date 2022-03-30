@@ -5,6 +5,7 @@ keywords: snapshot, events, impact area, availability
 summary: Snapshot イベントは、 Snapshot のステータス情報を提供します。これにより、 Snapshot の潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名、トラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
 = Snapshot イベント
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
