@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>パフォーマンスサービスレベルの管理</title>
+  <title>パフォーマンスサービスレベル</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="パフォーマンスサービスレベルの管理" />
+  <meta property="og:title" content="パフォーマンスサービスレベル" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html" />
-	<meta property="og:description" content="パフォーマンスサービスレベルを使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの作成時または編集時に、パフォーマンスサービスレベルをワークロードに割り当てることができます。" />
+	<meta property="og:description" content="パフォーマンスサービスレベルの計算と管理：" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/active-iq-unified-manager/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="パフォーマンスサービスレベルを使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの作成時または編集時に、パフォーマンスサービスレベルをワークロードに割り当てることができます。">
-  <meta name="keywords" content=" manage, performance, service, levels"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="パフォーマンスサービスレベルの計算と管理：">
+  <meta name="keywords" content=" manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL"><!-- Icons -->
   <link rel="icon" href="/ja-jp/active-iq-unified-manager/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[パフォーマンスサービスレベルの管理](https://docs.netapp.com/ja-jp/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/storage-mgmt/concept_manage_performance_service_levels.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[パフォーマンスサービスレベル](https://docs.netapp.com/ja-jp/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/storage-mgmt/concept_manage_performance_service_levels.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -1916,31 +1916,6 @@
           </a>
           
 
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/MetroCluster_構成のパフォーマンス監視.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            MetroCluster 構成のパフォーマンス監視
-          </a>
-          
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
 
 
 
@@ -2746,86 +2721,6 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとアラートの概要.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスイベントとアラートの概要
-          </a>
-          
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスしきい値の管理.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスしきい値の管理
-          </a>
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
               href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/ダッシュボードからのクラスタパフォーマンスの監視.pdf" 
             
           >
@@ -3306,6 +3201,17 @@
 
 
 
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -3314,13 +3220,27 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/MetroCluster_構成のパフォーマンス監視.pdf" 
+              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとアラートの概要.pdf" 
             
           >
             <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            MetroCluster 構成のパフォーマンス監視
+            パフォーマンスイベントとアラートの概要
           </a>
           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3341,11 +3261,11 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとは.pdf" 
+              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスしきい値の管理.pdf" 
             
           >
             <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスイベントとは
+            パフォーマンスしきい値の管理
           </a>
           
 
@@ -3357,12 +3277,17 @@
 
 
 
-          
-        </li>
-      </ul>
-    
 
-  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4797,12 +4722,6 @@
 
 
 
-
-
-
-
-
-
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -4818,10 +4737,6 @@
             保護関係の概要のウィンドウとダイアログボックス
           </a>
           
-
-
-
-
 
 
 
@@ -6196,12 +6111,9 @@
       </a></li></ul></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html">
         <div class="na-navbar-padding"> MetroCluster 構成を管理および監視する</div>
       </a>
-      <ul><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_performance_monitoring_of_metrocluster.html">
-        <div class="na-navbar-padding"> MetroCluster 構成のパフォーマンス監視</div>
-      </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html">
         スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
         クラスタの接続ステータスの定義
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_data_mirroring_status_definitions.html">
         データミラーリングのステータスの定義
@@ -6503,42 +6415,6 @@
         ストレージオブジェクトを検索しています
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_filter_inventory_page_content.html">
         インベントリページの内容のフィルタリング
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
-        <div class="na-navbar-padding"> パフォーマンスイベントとアラートの概要</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
-        パフォーマンスイベントのソース
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
-        パフォーマンスイベントの重大度タイプ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
-        Unified Manager によって設定の変更が検出されました
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
-        システム定義のパフォーマンスしきい値ポリシーのタイプ
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
-        <div class="na-navbar-padding"> パフォーマンスしきい値の管理</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
-        パフォーマンスしきい値ポリシーを超えた場合の動作
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
-        しきい値を使用して追跡可能なパフォーマンスカウンタ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
-        組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーを作成する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
-        ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
-        パフォーマンスしきい値ポリシーを表示します
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーを編集する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
-        ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
-        パフォーマンスしきい値ポリシーが変更された場合の動作
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
-        オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
       </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_monitor_cluster_performance_from_dashboard.html">
         <div class="na-navbar-padding"> ダッシュボードからのクラスタパフォーマンスの監視</div>
       </a>
@@ -6706,15 +6582,20 @@
         Unified Manager がワークロードのレイテンシを使用してパフォーマンスの問題を特定する仕組み
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html">
         クラスタでの処理がワークロードのレイテンシに与える影響
-      </a></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
-        <div class="na-navbar-padding"> MetroCluster 構成のパフォーマンス監視</div>
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
+        MetroCluster 構成のパフォーマンス監視
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
+        <div class="na-navbar-padding"> パフォーマンスイベントとアラートの概要</div>
       </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html">
-        スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_performance_events_are.html">
-        <div class="na-navbar-padding"> パフォーマンスイベントとは</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
+      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
+        パフォーマンスイベントのソース
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
+        パフォーマンスイベントの重大度タイプ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
+        Unified Manager によって設定の変更が検出されました
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
+        システム定義のパフォーマンスしきい値ポリシーのタイプ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
         パフォーマンスイベントの分析と通知
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_um_determines_performance_impact_for_incident.html">
         Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組み
@@ -6722,7 +6603,32 @@
         クラスタコンポーネントとその競合要因
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html">
         パフォーマンスイベントに関連したワークロードの役割
-      </a></li></ul></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
+        <div class="na-navbar-padding"> パフォーマンスしきい値の管理</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
+        パフォーマンスしきい値ポリシーを超えた場合の動作
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
+        しきい値を使用して追跡可能なパフォーマンスカウンタ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
+        組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーを作成する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
+        ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
+        パフォーマンスしきい値ポリシーを表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーを編集する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
+        ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
+        パフォーマンスしきい値ポリシーが変更された場合の動作
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
+        オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
         <div class="na-navbar-padding"> パフォーマンスイベントを分析しています</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_display_information_about_performance_event.html">
@@ -6940,16 +6846,16 @@
         ボリュームコンプライアンスのカテゴリ
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/concept_what_does_not_compliant_mean.html">
         非準拠の条件
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_high_level_cluster_security_status.html">
-        クラスタのセキュリティステータスの概要の表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html">
-        クラスタと SVM の詳細なセキュリティステータスの表示
+        クラスタとStorage VMの詳細なセキュリティステータスの表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html">
         ソフトウェアまたはファームウェアの更新が必要なセキュリティイベントの表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html">
         すべてのクラスタでのユーザ認証の管理状況の表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_encryption_status_of_all_volumes.html">
         すべてのボリュームの暗号化ステータスを表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checkertask_view_antiransomware_status_of_all_volumes_storage_vms.html">
+        すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_all_security_events.html">
         アクティブなすべてのセキュリティイベントを表示します
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_add_alerts_for_security_events.html">
@@ -7237,16 +7143,10 @@
         Storage VM ページで保護関係を表示します
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_view_storage_vms_based_on_protection_status.html">
         保護ステータスに基づいた Storage VM の表示
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_understand_svm_associations.html">
-        Storage VM ピアの概要
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
+        Storage VMの関連付けの概要
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html">
         ストレージサービスをサポートするための SVM とリソースプールの要件
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_create_storage_virtual_machine_svm_associations.html">
-        Storage VM ピアを作成しています
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_view_svm_associations.html">
-        Storage VM ピアの表示
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_delete_svm_associations.html">
-        Storage VM ピアを削除しています
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_what_jobs_are.html">
         ジョブとは
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_monitor_jobs.html">
@@ -7268,10 +7168,6 @@
         EditResourcePool タイアロクホツクス
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_aggregates_dialog_box.html">
         Aggregates タイアロクホツクス
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
-        SVM peers ページにアクセスします
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_create_storage_virtual_machine_associations_wizard.html">
-        Create Storage Virtual Machine Peers ウィザード
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_jobs_page.html">
         「ジョブ」ページ
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_job_details_page.html">
@@ -7592,37 +7488,107 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">パフォーマンスサービスレベルの管理</h1>
+  <h1 class="n-doc__component-detail-heading">パフォーマンスサービスレベル</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 07:15:11 +0000">04/18/2022</time>
+    <time datetime="2022-05-05 08:25:46 +0000">05/05/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>パフォーマンスサービスレベルを使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの作成時または編集時に、パフォーマンスサービスレベルをワークロードに割り当てることができます。</p>
+<p>パフォーマンスサービスレベル（PSL）を使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの最初の作成時や編集時に、PSLをワークロードに割り当てることができます。</p>
 </div>
 <div class="paragraph">
-<p>ストレージリソースは、サービスレベル目標（ SLO ）に基づいて管理および監視されます。SLO は、必要なパフォーマンスと容量に基づくサービスレベルアグリーメントによって定義されます。Unified Manager では、 SLO と言った場合、ネットアップストレージで実行されているアプリケーションの PSL の定義を表します。ストレージサービスの内容は、基盤となるリソースのパフォーマンスと利用率に基づいて決定されます。PSL はストレージサービス目標の概要です。ストレージプロバイダは、 PSL を使用してワークロードに目標とするパフォーマンスと容量を指定できます。</p>
+<p>ストレージリソースは、サービスレベル目標（ SLO ）に基づいて管理および監視されます。SLO は、必要なパフォーマンスと容量に基づくサービスレベルアグリーメントによって定義されます。Unified Manager では、 SLO と言った場合、ネットアップストレージで実行されているアプリケーションの PSL の定義を表します。ストレージサービスの内容は、基盤となるリソースのパフォーマンスと利用率に基づいて決定されます。PSL はストレージサービス目標の概要です。ストレージプロバイダは、 PSL を使用してワークロードに目標とするパフォーマンスと容量を指定できます。ワークロードにPSLを割り当てると、ONTAP 上の対応するワークロードがパフォーマンスと容量の目標で管理されます。各PSLには、ピークIOPS、想定IOPS、絶対最小IOPS、および想定レイテンシが適用されます。</p>
 </div>
 <div class="paragraph">
-<p>Unified Manager には、変更できない組み込みのポリシーがいくつか用意されています。事前定義されたパフォーマンスサービスレベルは「最高レベルのパフォーマンス」、「パフォーマンス」、「バリュー」です。Extreme Performance 、 Performance 、および Value PSL は、データセンターの一般的なストレージワークロードのほとんどに該当します。Unified Manager では、データベースアプリケーション用の PSL として「最高レベル」、「データベース共有データ用の最高レベル」、「データベースデータ用の最高レベル」の 3 つの PSL も提供されます。これらは、バースト IOPS をサポートする非常にハイパフォーマンスな PSL であり、スループットの要求が最も高いデータベースアプリケーションに適しています。事前に定義された PSL が要件に合わない場合は、 PSL のニーズを満たす新しいを作成できます。</p>
+<p>Unified Managerには、次のタイプのPSLがあります。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>システム定義</strong>：Unified Managerには、変更できない組み込みのポリシーがいくつか用意されています。事前定義されたPSLは次のとおりです</p>
+<div class="ulist">
+<ul>
+<li>
+<p>卓越したパフォーマンス</p>
+</li>
+<li>
+<p>パフォーマンス</p>
+</li>
+<li>
+<p>価値</p>
+<div class="paragraph">
+<p>Extreme Performance 、 Performance 、および Value PSL は、データセンターの一般的なストレージワークロードのほとんどに該当します。</p>
+</div>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>PSL には、「 * Policies * &gt; * Performance Service Levels * 」ページからアクセスできます。また、ストレージプロバイダ API を使用してアクセスできます。PSL を割り当ててストレージワークロードを管理すると、ストレージワークロードを個別に管理する必要がなくなるため便利です。変更については、個別に管理するのではなく、別の PSL を再割り当てして管理することもできます。</p>
+<p>Unified Managerには、データベースアプリケーションのパフォーマンスサービスレベルも3つあります。これらは、バースト IOPS をサポートする非常にハイパフォーマンスな PSL であり、スループットの要求が最も高いデータベースアプリケーションに適しています。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>データベースログの「最高レベル」</p>
+</li>
+<li>
+<p>データベース共有データ用の Extreme</p>
+</li>
+<li>
+<p>データベースデータ用の Extreme</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>ユーザ定義</strong>：事前定義されたパフォーマンスサービスレベルが要件に合わない場合は、PSLを新たに作成してニーズに対応できます。詳細については、を参照してください <a href="../storage-mgmt/task_create_and_edit_psls.html">"パフォーマンスサービスレベルの作成と編集"</a>。</p>
+</li>
+<li>
+<p>* Extremeを超える場合*：PSLが最高レベルを超えると、PSLがシステム推奨となります。PSLを超えるワークロードには、Extremeよりも高いIOPSが必要です。ワークロードの内部分析はIOPS、容量、レイテンシに基づいて行われ、ストレージ&gt;ワークロード&gt;すべてのワークロード*画面で、これらのワークロードそれぞれについてPSLを超えることが推奨されます。PSLをワークロードに適用することで最適なパフォーマンスを確保できます。</p>
+<div class="paragraph">
+<p>ワークロードのIOPSパラメータは、ワークロードの動作に応じて動的に生成され、「Beyond Extreme」PSLの名前に「Beyond Extreme」という形式で追加されます。&lt;number -（peak IOPS/TB）&gt;&lt;number（expected IOPS/TB）&gt;。たとえば、ピーク時のIOPSと予測されるIOPSがそれぞれ「106345」と「37929」であるとシステムが判断した場合、ワークロードに対して生成される「Beyond Extreme PSL」は「Exterond Extreme 106345 37929」と名付けられます。これらのPSLはシステムによって推奨されますが、これらのPSLをワークロードに割り当てると、PSLはタイプに「User-defined」とラベルされます。</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="pslを割り当ててワークロードを管理しています">PSLを割り当ててワークロードを管理しています</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>PSLには、「* Policies <strong>&gt;</strong> Performance Service Levels *」ページからアクセスできます。また、ストレージプロバイダAPIを使用してアクセスできます。PSL を割り当ててストレージワークロードを管理すると、ストレージワークロードを個別に管理する必要がなくなるため便利です。変更については、個別に管理するのではなく、別の PSL を再割り当てして管理することもできます。Unified Managerでは、内部の評価と推奨事項に基づいてワークロードにPSLを割り当てることができます。</p>
 </div>
 <div class="paragraph">
-<p>システム定義の PSL またはワークロードに現在割り当てられている PSL は変更できません。ワークロードに割り当てられている PSL 、または他に使用可能な PSL がない PSL は削除できません。</p>
+<p>システム推奨のPSLをワークロードに割り当てる方法については、を参照してください <a href="..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads">"システム推奨の PSL をワークロードに割り当て中です"</a></p>
 </div>
 <div class="paragraph">
-<p>パフォーマンスサービスレベルページには、使用可能な PSL ポリシーが表示されます。このページで、ポリシーを追加、編集、削除することができます。このページには、次の情報が表示されます。</p>
+<p>パフォーマンスサービスレベルページには、使用可能な PSL ポリシーが表示されます。このページで、ポリシーを追加、編集、削除することができます。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq-unified-manager/images/note.svg" alt="注記">
+</td>
+<td class="content">
+システム定義の PSL またはワークロードに現在割り当てられている PSL は変更できません。ワークロードに割り当てられている PSL 、または他に使用可能な PSL がない PSL は削除できません。
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>このページには、次の情報が表示されます。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -7641,7 +7607,7 @@
 <p>名前</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>パフォーマンスサービスレベルの名前。</p>
+<p>PSLの名前。</p>
 </div></div></td>
 </tr>
 <tr>
@@ -7654,7 +7620,7 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>想定 IOPS</p>
+<p>想定 IOPS/TB</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>LUN またはファイル共有でアプリケーションが実行すると想定される最小 IOPS 。想定 IOPS は、ストレージオブジェクトの割り当てサイズに基づいて、割り当てられる最小想定 IOPS を指定します。</p>
@@ -7662,7 +7628,7 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>最大 IOPS</p>
+<p>最大 IOPS/TB</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>LUN またはファイル共有でアプリケーションが実行できる最大 IOPS 。ピーク IOPS は、ストレージオブジェクトの割り当てサイズまたは使用済みサイズに基づいて、割り当て可能な最大 IOPS を指定します。</p>
@@ -7741,14 +7707,48 @@
 </tbody>
 </table>
 <div class="paragraph">
-<p>ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。</p>
+<p>ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["パフォーマンスの予算編成とは"]</p>
+</div>
+<div class="sect2">
+<h3 id="pslによって定義されるしきい値を超えているワークロードに対して生成されるイベント">PSLによって定義されるしきい値を超えているワークロードに対して生成されるイベント</h3>
+<div class="paragraph">
+<p>ワークロードが過去1時間の想定レイテンシの値を30%超えた場合、Unified Managerは次のいずれかのイベントを生成して、潜在的なパフォーマンス問題 をユーザに通知します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>パフォーマンスサービスレベルポリシーに定義されたワークロードのボリュームレイテンシしきい値を超過</p>
+</li>
+<li>
+<p>パフォーマンスサービスレベルポリシーに定義されたワークロードのLUNレイテンシしきい値を超過。</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F">"パフォーマンスの予算編成とは"</a></p>
+<p>ワークロードを分析して、レイテンシの値が高くなる原因を確認することができます。</p>
 </div>
 <div class="paragraph">
-<p>ワークロードが過去 1 時間の想定レイテンシ値の 30% を超えた場合、 Unified Manager は次のいずれかのイベントを生成して、潜在的なパフォーマンス問題をユーザに通知します。 「パフォーマンスサービスレベルポリシーに定義されたワークロードのボリュームレイテンシしきい値を超過」または「パフォーマンスサービスレベルポリシーに定義されたワークロードの LUN レイテンシしきい値を超過」。ワークロードを分析して、レイテンシの値が高くなる原因を確認することができます。</p>
+<p>詳細については、次のリンクを参照してください。</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../events/reference_volume_events.html#impact-area-performance">"ボリュームイベント"</a></p>
+</li>
+<li>
+<p><a href="../performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">"パフォーマンスしきい値ポリシーを超えた場合の動作"</a></p>
+</li>
+<li>
+<p><a href="..//performance-checker/concept_how_unified_manager_uses_workload_response_time.html">"Unified Manager がワークロードのレイテンシを使用してパフォーマンスの問題を特定する仕組み"</a></p>
+</li>
+<li>
+<p><a href="../performance-checker/concept_what_performance_events_are.html">"パフォーマンスイベントとは"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="システム定義のpsl">システム定義のPSL</h3>
 <div class="paragraph">
 <p>次の表に、システム定義の PSL に関する情報を示します。</p>
 </div>
@@ -7912,6 +7912,9 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
 
     </article>
     <!-- Page Container -->

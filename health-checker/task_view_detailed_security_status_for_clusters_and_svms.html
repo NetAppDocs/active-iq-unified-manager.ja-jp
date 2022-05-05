@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head class="at-element-marker">
-  <title>クラスタと Storage VM の詳細なセキュリティステータスの表示</title>
+  <title>クラスタとStorage VMのセキュリティステータスの表示</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="クラスタと Storage VM の詳細なセキュリティステータスの表示" />
+  <meta property="og:title" content="クラスタとStorage VMのセキュリティステータスの表示" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html" />
-	<meta property="og:description" content="Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。" />
+	<meta property="og:description" content="Securityページには、すべてのクラスタとStorage VMのセキュリティステータスの概要が表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/active-iq-unified-manager/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。">
-  <meta name="keywords" content=" view, cluster security status, svm security status, volume encryption status"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Securityページには、すべてのクラスタとStorage VMのセキュリティステータスの概要が表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。">
+  <meta name="keywords" content=" view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager"><!-- Icons -->
   <link rel="icon" href="/ja-jp/active-iq-unified-manager/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[クラスタと Storage VM の詳細なセキュリティステータスの表示](https://docs.netapp.com/ja-jp/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/health-checker/task_view_detailed_security_status_for_clusters_and_svms.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[クラスタとStorage VMのセキュリティステータスの表示](https://docs.netapp.com/ja-jp/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html)" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/health-checker/task_view_detailed_security_status_for_clusters_and_svms.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -1907,31 +1907,6 @@
           </a>
           
 
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/MetroCluster_構成のパフォーマンス監視.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            MetroCluster 構成のパフォーマンス監視
-          </a>
-          
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
 
 
 
@@ -2737,86 +2712,6 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとアラートの概要.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスイベントとアラートの概要
-          </a>
-          
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスしきい値の管理.pdf" 
-            
-          >
-            <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスしきい値の管理
-          </a>
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
               href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/ダッシュボードからのクラスタパフォーマンスの監視.pdf" 
             
           >
@@ -3297,6 +3192,17 @@
 
 
 
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -3305,13 +3211,27 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/MetroCluster_構成のパフォーマンス監視.pdf" 
+              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとアラートの概要.pdf" 
             
           >
             <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            MetroCluster 構成のパフォーマンス監視
+            パフォーマンスイベントとアラートの概要
           </a>
           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3332,11 +3252,11 @@
           
           <a target="_blank" 
             
-              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスイベントとは.pdf" 
+              href="/ja-jp/active-iq-unified-manager/pdfs/sidebar/パフォーマンスしきい値の管理.pdf" 
             
           >
             <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            パフォーマンスイベントとは
+            パフォーマンスしきい値の管理
           </a>
           
 
@@ -3348,12 +3268,17 @@
 
 
 
-          
-        </li>
-      </ul>
-    
 
-  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4049,8 +3974,6 @@
 
 
 
-
-
     <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
   <a target="_blank" href="/ja-jp/active-iq-unified-manager/pdfs/pages/health-checker/task_view_detailed_security_status_for_clusters_and_svms.pdf" >
     <img src="/ja-jp/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
@@ -4060,6 +3983,8 @@
 
 </ul>
   
+
+
 
 
 
@@ -4797,12 +4722,6 @@
 
 
 
-
-
-
-
-
-
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -4818,10 +4737,6 @@
             保護関係の概要のウィンドウとダイアログボックス
           </a>
           
-
-
-
-
 
 
 
@@ -6196,12 +6111,9 @@
       </a></li></ul></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html">
         <div class="na-navbar-padding"> MetroCluster 構成を管理および監視する</div>
       </a>
-      <ul><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_performance_monitoring_of_metrocluster.html">
-        <div class="na-navbar-padding"> MetroCluster 構成のパフォーマンス監視</div>
-      </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html">
         スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
         クラスタの接続ステータスの定義
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/storage-mgmt/reference_data_mirroring_status_definitions.html">
         データミラーリングのステータスの定義
@@ -6503,42 +6415,6 @@
         ストレージオブジェクトを検索しています
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_filter_inventory_page_content.html">
         インベントリページの内容のフィルタリング
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
-        <div class="na-navbar-padding"> パフォーマンスイベントとアラートの概要</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
-        パフォーマンスイベントのソース
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
-        パフォーマンスイベントの重大度タイプ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
-        Unified Manager によって設定の変更が検出されました
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
-        システム定義のパフォーマンスしきい値ポリシーのタイプ
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
-        <div class="na-navbar-padding"> パフォーマンスしきい値の管理</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
-        パフォーマンスしきい値ポリシーを超えた場合の動作
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
-        しきい値を使用して追跡可能なパフォーマンスカウンタ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
-        組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーを作成する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
-        ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
-        パフォーマンスしきい値ポリシーを表示します
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
-        ユーザ定義のパフォーマンスしきい値ポリシーを編集する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
-        ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
-        パフォーマンスしきい値ポリシーが変更された場合の動作
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
-        オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
       </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_monitor_cluster_performance_from_dashboard.html">
         <div class="na-navbar-padding"> ダッシュボードからのクラスタパフォーマンスの監視</div>
       </a>
@@ -6706,15 +6582,20 @@
         Unified Manager がワークロードのレイテンシを使用してパフォーマンスの問題を特定する仕組み
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html">
         クラスタでの処理がワークロードのレイテンシに与える影響
-      </a></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
-        <div class="na-navbar-padding"> MetroCluster 構成のパフォーマンス監視</div>
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
+        MetroCluster 構成のパフォーマンス監視
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
+        <div class="na-navbar-padding"> パフォーマンスイベントとアラートの概要</div>
       </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html">
-        スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
-      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_performance_events_are.html">
-        <div class="na-navbar-padding"> パフォーマンスイベントとは</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
+      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
+        パフォーマンスイベントのソース
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
+        パフォーマンスイベントの重大度タイプ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
+        Unified Manager によって設定の変更が検出されました
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
+        システム定義のパフォーマンスしきい値ポリシーのタイプ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
         パフォーマンスイベントの分析と通知
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_um_determines_performance_impact_for_incident.html">
         Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組み
@@ -6722,7 +6603,32 @@
         クラスタコンポーネントとその競合要因
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html">
         パフォーマンスイベントに関連したワークロードの役割
-      </a></li></ul></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
+        <div class="na-navbar-padding"> パフォーマンスしきい値の管理</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
+        パフォーマンスしきい値ポリシーを超えた場合の動作
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
+        しきい値を使用して追跡可能なパフォーマンスカウンタ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
+        組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーを作成する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
+        ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
+        パフォーマンスしきい値ポリシーを表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
+        ユーザ定義のパフォーマンスしきい値ポリシーを編集する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
+        ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
+        パフォーマンスしきい値ポリシーが変更された場合の動作
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
+        オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
+      </a></li></ul></li><li class="subfolders "><a href="/ja-jp/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
         <div class="na-navbar-padding"> パフォーマンスイベントを分析しています</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/performance-checker/task_display_information_about_performance_event.html">
@@ -6940,16 +6846,16 @@
         ボリュームコンプライアンスのカテゴリ
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/concept_what_does_not_compliant_mean.html">
         非準拠の条件
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_high_level_cluster_security_status.html">
-        クラスタのセキュリティステータスの概要の表示
       </a></li><li class="  active "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html">
-        クラスタと SVM の詳細なセキュリティステータスの表示
+        クラスタとStorage VMの詳細なセキュリティステータスの表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html">
         ソフトウェアまたはファームウェアの更新が必要なセキュリティイベントの表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html">
         すべてのクラスタでのユーザ認証の管理状況の表示
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_encryption_status_of_all_volumes.html">
         すべてのボリュームの暗号化ステータスを表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checkertask_view_antiransomware_status_of_all_volumes_storage_vms.html">
+        すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_view_all_security_events.html">
         アクティブなすべてのセキュリティイベントを表示します
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/health-checker/task_add_alerts_for_security_events.html">
@@ -7237,16 +7143,10 @@
         Storage VM ページで保護関係を表示します
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_view_storage_vms_based_on_protection_status.html">
         保護ステータスに基づいた Storage VM の表示
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_understand_svm_associations.html">
-        Storage VM ピアの概要
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
+        Storage VMの関連付けの概要
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html">
         ストレージサービスをサポートするための SVM とリソースプールの要件
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_create_storage_virtual_machine_svm_associations.html">
-        Storage VM ピアを作成しています
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_view_svm_associations.html">
-        Storage VM ピアの表示
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_delete_svm_associations.html">
-        Storage VM ピアを削除しています
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/concept_what_jobs_are.html">
         ジョブとは
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/task_monitor_jobs.html">
@@ -7268,10 +7168,6 @@
         EditResourcePool タイアロクホツクス
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_aggregates_dialog_box.html">
         Aggregates タイアロクホツクス
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
-        SVM peers ページにアクセスします
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_create_storage_virtual_machine_associations_wizard.html">
-        Create Storage Virtual Machine Peers ウィザード
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_protection_jobs_page.html">
         「ジョブ」ページ
       </a></li><li class=" "><a class="na-navbar-padding" href="/ja-jp/active-iq-unified-manager/data-protection/reference_job_details_page.html">
@@ -7592,43 +7488,35 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">クラスタと Storage VM の詳細なセキュリティステータスの表示</h1>
+  <h1 class="n-doc__component-detail-heading">クラスタとStorage VMのセキュリティステータスの表示</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 07:15:11 +0000">04/18/2022</time>
+    <time datetime="2022-05-05 08:25:46 +0000">05/05/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。</p>
+<p>Active IQ Unified Manager を使用すると、環境内のストレージオブジェクトのセキュリティステータスを、インターフェイスのさまざまなポイントから確認できます。定義されたパラメータに基づいて情報とレポートを収集および分析し、監視対象のクラスタおよびStorage VMについて、疑わしい動作や不正なシステム変更を検出できます。</p>
 </div>
 <div class="paragraph">
-<p>システム管理者は、セキュリティ * ページを使用して、データセンターレベルとサイトレベルの ONTAP クラスタと Storage VM のセキュリティ強度を可視化できます。</p>
+<p>セキュリティに関する推奨事項については、を参照してください <a href="http://www.netapp.com/us/media/tr-4569.pdf">"『 ONTAP 9 セキュリティ設定ガイド』"</a></p>
 </div>
-<div class="paragraph">
-<p>定義されたパラメータに基づいて情報を収集および分析し、監視対象のクラスタおよび Storage VM についての疑わしい動作や不正なシステム変更を検出できます。</p>
 </div>
-<div class="paragraph">
-<p>詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。</p>
 </div>
+<div class="sect1">
+<h2 id="セキュリティページでオブジェクトレベルのセキュリティステータスを表示します">セキュリティページでオブジェクトレベルのセキュリティステータスを表示します</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>クラスタ / セキュリティの詳細ページでは、グローバルな FIPS 、 Telnet 、セキュアでない SSH 設定、ログインバナー、ネットワークタイムプロトコル、 AutoSupport HTTPS 転送、およびデフォルト管理者。</p>
-</div>
-<div class="paragraph">
-<p>Storage VMs/Security の詳細ページでは、 Storage VM 、クラスタ、ログインバナー、監査ログ、セキュアでない SSH 設定などのセキュリティパラメータを確認することで、 Storage VM のセキュリティコンプライアンスのデフォルトビューが表示されます。</p>
-</div>
-<div class="paragraph">
-<p>セキュリティコンプライアンスレポートは、クラスタおよび Storage VM の詳細ページから生成、スケジュール、およびダウンロードすることもできます。</p>
-</div>
-<div class="paragraph">
-<p>セキュリティダッシュボード * で、 * クラスタコンプライアンス * カードおよび * Storage VMS コンプライアンス * カードの * レポートの表示 * をクリックします。</p>
+<p>システム管理者は、セキュリティ*ページを使用して、データセンターレベルとサイトレベルのONTAP クラスタとStorage VMのセキュリティ強度を可視化できます。サポートされるオブジェクトは、クラスタ、Storage VM、およびボリュームです。次の手順を実行します。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -7640,31 +7528,101 @@
 <p>すべての監視対象クラスタのセキュリティステータスを表示するか、 1 つのクラスタのセキュリティステータスを表示するかに応じて、 * すべてのクラスタ * を選択するか、ドロップダウンメニューから 1 つのクラスタを選択します。</p>
 </li>
 <li>
-<p>セキュリティ * パネルの右矢印をクリックします。</p>
+<p>セキュリティ * パネルの右矢印をクリックします。[セキュリティ]ページが表示されます。</p>
+</li>
+</ol>
+</div>
 <div class="paragraph">
-<p>Security ページには、次の情報が表示されます。</p>
+<p>棒グラフ&#8217;カウント&#8217;レポートの表示リンクをクリックすると&#8217;ボリューム&#8217;クラスタ&#8217;またはストレージ仮想マシンページが表示され&#8217;必要に応じて詳細を表示したりレポートを生成したりできます</p>
+</div>
+<div class="paragraph">
+<p>セキュリティページには、次のパネルが表示されます。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>クラスタのセキュリティステータス（準拠または非準拠のクラスタ数）</p>
+<p><strong>クラスタコンプライアンス</strong>：データセンター内のすべてのクラスタのセキュリティステータス（準拠または非準拠のクラスタ数）</p>
 </li>
 <li>
-<p>SVM のセキュリティステータス（準拠または非準拠の SVM 数）</p>
+<p>* Storage VM Compliance *：データセンター内のすべてのStorage VMのセキュリティステータス（準拠または非準拠のStorage VM数）</p>
 </li>
 <li>
-<p>ボリューム暗号化ステータス（暗号化されているボリュームまたは暗号化されていないボリュームの数）</p>
+<p>* Volume Encryption *：環境内のすべてのボリュームの暗号化ステータス（暗号化されているボリュームまたは暗号化されていないボリュームの数）</p>
 </li>
 <li>
-<p>各クラスタで使用されているクラスタ認証方式</p>
+<p>* Volume Anti-Ransomware Status *：環境内のすべてのボリュームのセキュリティステータス（ランサムウェア対策が有効または無効になっているボリュームの数）</p>
+</li>
+<li>
+<p><strong>クラスタ認証および証明書</strong>：SAML、Active Directory、証明書およびローカル認証など、各タイプの認証方法を使用するクラスタの数。このパネルには、証明書の有効期限が切れているか、60日以内に期限切れになる予定のクラスタの数も表示されます。</p>
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="クラスタページですべてのクラスタのセキュリティの詳細を表示します">クラスタページで、すべてのクラスタのセキュリティの詳細を表示します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>[*クラスタ/セキュリティ*の詳細]ページでは、セキュリティコンプライアンスのステータスをクラスタレベルで表示できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>左側のナビゲーションペインで、* Storage &gt; Clusters *の順にクリックします。</p>
 </li>
 <li>
-<p>を参照してください <a href="http://www.netapp.com/us/media/tr-4569.pdf">"『 ONTAP 9 セキュリティ設定ガイド』"</a> すべてのクラスタ、 SVM 、およびボリュームを、ネットアップのセキュリティに関する推奨事項に準拠させていただく方法については、を参照してください。</p>
+<p>[<strong>表示]&gt;[セキュリティ]&gt;[すべてのクラスタ</strong>]を選択します。</p>
 </li>
 </ol>
+</div>
+<div class="paragraph">
+<p>グローバルFIPS、Telnet、セキュアでないSSH設定、ログインバナー、ネットワークタイムプロトコル、 AutoSupport HTTPS転送プロトコルと、クラスタ証明書の有効期限のステータスが表示されます。</p>
+</div>
+<div class="paragraph">
+<p>をクリックできます <span class="image"><img src="../media/icon_kabob.gif" alt="Kabob アイコン"></span> オプションボタンをクリックし、Unified ManagerまたはSystem Managerの* Security *ページでセキュリティの詳細を表示します。System Managerで詳細を表示するには、有効なクレデンシャルが必要です。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq-unified-manager/images/note.svg" alt="注記">
+</td>
+<td class="content">
+クラスタに有効期限が切れた証明書がある場合は、「<strong>クラスタ証明書の有効期限</strong>」の下にある「期限切れ」をクリックして、System Manager（9.10.1以降）から更新できます。System Managerインスタンスが9.10.1より前のリリースの場合、「expired」をクリックすることはできません。
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="すべてのクラスタのセキュリティの詳細をstorage-vmページで表示する">すべてのクラスタのセキュリティの詳細をStorage VMページで表示する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Storage VMs/Security *の詳細ページでは、Storage VMレベルでセキュリティ準拠ステータスを確認できます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>左側のナビゲーションペインで、* Storage &gt; Storage VM*をクリックします。</p>
+</li>
+<li>
+<p>[*表示]&gt;[セキュリティ]&gt;[すべてのStorage VMs]を選択します。*セキュリティパラメータが設定されたクラスタのリストが表示されます。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Storage VMのセキュリティコンプライアンスのデフォルトビューを使用するには、Storage VM、クラスタ、ログインバナー、監査ログ、安全でないSSH設定などのセキュリティパラメータを確認します。</p>
+</div>
+<div class="paragraph">
+<p>をクリックできます <span class="image"><img src="../media/icon_kabob.gif" alt="Kabob アイコン"></span> オプションボタンをクリックし、Unified ManagerまたはSystem Managerの* Security *ページでセキュリティの詳細を表示します。System Managerで詳細を表示するには、有効なクレデンシャルが必要です。</p>
+</div>
+<div class="paragraph">
+<p><em>ボリュームおよびStorage VMのランサムウェア対策セキュリティの詳細については、を参照してください <a href="health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html">"すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する"</a>。</em></p>
+</div>
+</div>
 </div>
 
     </article>
