@@ -12,8 +12,13 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 
 == システム要件
 
-* オペレーティングシステム： Microsoft Windows Server 2016 および 2019 の 64 ビット Standard Edition および Datacenter Edition次の言語がサポートされています。
+* オペレーティングシステム
 +
+** Microsoft Windows Server 2019 Standard EditionおよびDatacenter Edition
+** Microsoft Windows Server 2022 Standard EditionおよびDatacenter Edition
++
+Unified Manager は、以下の言語で 64 ビットの Windows オペレーティングシステムでサポートされています。
+
 ** 英語
 ** 日本語
 ** 簡体字中国語

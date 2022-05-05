@@ -17,7 +17,7 @@ Unified Manager がインストールされている Windows サーバで OpenJD
 
 Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。
 
-OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、 OpenJDK 11.0.9 から OpenJDK 11.0.12 にアップグレードできますが、 OpenJDK 11 から OpenJDK 12 に直接更新することはできません。
+OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.12からOpenJDK 11.0.13にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。
 
 .手順
 . Unified Manager ホストマシンに admin ユーザとしてログインします。
@@ -32,7 +32,7 @@ OpenJDK のリリースはリリースファミリー内で更新できます。
 
 
 . 「 zip 」ファイルを展開します。
-. 作成された「 jdk' 」ディレクトリ ( たとえば「 jdk-11.0.12` 」 ) のディレクトリとファイルを Java がインストールされている場所にコピーします。例： C ： \Program Files\NetApp\JDK\`
+. 作成された「jdk'」ディレクトリ(たとえば「jdk-11.0.13」)からJavaがインストールされた場所にディレクトリとファイルをコピーします。例： C ： \Program Files\NetApp\JDK\`
 . Windows サービスコンソールを使用して Unified Manager サービスを開始します。
 +
 ** NetApp Active IQ 管理サーバサービス（ Oncommandsvc ）

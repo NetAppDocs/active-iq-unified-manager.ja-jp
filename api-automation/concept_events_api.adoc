@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: イベント API を使用すると、データセンター内の監視対象クラスタに対して生成されたイベントを取得できます。 
 ---
-= イベントとアラートの管理
+= APIを使用してイベントとアラートを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

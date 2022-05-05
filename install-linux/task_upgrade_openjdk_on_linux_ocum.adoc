@@ -17,7 +17,7 @@ Unified Manager がインストールされている Linux サーバで OpenJDK 
 
 Unified Manager がインストールされている Linux システムに対する root 権限が必要です。
 
-OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、 OpenJDK 11.0.9 から OpenJDK 11.0.12 にアップグレードできますが、 OpenJDK 11 から OpenJDK 12 に直接更新することはできません。
+OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.9からOpenJDK 11.0.14にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。
 
 .手順
 . Unified Manager ホストマシンに root ユーザとしてログインします。

@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html 
 sidebar: sidebar 
-keywords: introduction, active iq unified manager, health, monitoring 
-summary: Active IQ Unified Manager （旧 OnCommand Unified Manager ）では、 ONTAP ソフトウェアを実行する多数のシステムを一元化されたユーザインターフェイスで監視できます。Unified Manager サーバインフラは拡張性とサポート性に優れ、高度な監視機能と通知機能を備えています。 
+keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
+summary: 容量の単位物理容量と論理容量 
 ---
 = Active IQ Unified Manager の健常性監視の概要
 :allow-uri-read: 

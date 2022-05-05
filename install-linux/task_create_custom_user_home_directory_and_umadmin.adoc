@@ -35,7 +35,7 @@ Unified Manager のインストール時、デフォルト設定では次のタ�
 
 環境内のセキュリティポリシーでは、 Unified Manager メンテナンスユーザの sudo 権限を制限しないでください。制限されている権限があると、一部の Unified Manager 処理が失敗することがあります。インストールの完了後に umadmin ユーザとしてログインして、次の sudo コマンドを実行できることを確認します。
 
-'UDO /etc/init.d/ocie status
+「sudo systemctl status ocie」
 
 エラーが発生せずに ocie サービスの適切なステータスが返されば問題ありません。
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, workloads 
 summary: ここで説明する API は、ストレージワークロードの表示、 LUN とファイル共有の作成、パフォーマンスサービスレベルとストレージ効率化ポリシーの管理、ストレージワークロードに対するポリシーの割り当てなど、ストレージ管理のさまざまな機能に対応しています。 
 ---
-= ワークロードの管理
+= APIを使用してワークロードを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

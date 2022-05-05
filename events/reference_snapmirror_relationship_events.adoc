@@ -136,4 +136,59 @@ SnapMirror 関係
  a| 
 エラー
 
+
+
+ a| 
+ONTAP メディエーターがクラスタに追加されました（SnapmirrorMediatorAdded）
+ a| 
+イベント
+ a| 
+クラスタ
+ a| 
+情報
+
+
+
+ a| 
+ONTAP メディエーターがクラスタから削除されました（snapmirrorMediatorRemoved）
+ a| 
+イベント
+ a| 
+クラスタ
+ a| 
+情報
+
+
+
+ a| 
+ONTAP メディエーターがクラスタから到達できません（snapmirrorMediatorUnreachable）
+ a| 
+リスク
+ a| 
+メディエーター
+ a| 
+警告
+
+
+
+ a| 
+ONTAP メディエーターにクラスタからアクセスできない（SnapmirrorMediatorMisconfigured）
+ a| 
+リスク
+ a| 
+メディエーター
+ a| 
+エラー
+
+
+
+ a| 
+ONTAP メディエーターの接続が再確立され、再同期されてSMBC（snapmirrorMediatorInQuorum）用の準備が整いました。
+ a| 
+イベント
+ a| 
+メディエーター
+ a| 
+情報
+
 |===

@@ -11,7 +11,7 @@ summary: Unified Manager をアップグレードするには、 Red Hat プラ�
 
 
 [role="lead"]
-Red Hat プラットフォームで Unified Manager 9.8 または 9.9 から 9.10 にアップグレードするには、インストールファイルをダウンロードして実行します。
+Red HatプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。
 
 * 必要なもの *
 
@@ -30,24 +30,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html["Linux での JRE のアップグ�
 * アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。また、バックアップ・ファイルを「 /opt/NetApp/data 」ディレクトリから外部の場所に移動することをお勧めします。
 * アップグレードの実行中に、パフォーマンスデータの保持期間について、以前のデフォルト設定である 13 カ月のままにするか 6 カ月に変更するかを確認するプロンプトが表示されることがあります。変更を確認すると、 6 カ月を過ぎた過去のパフォーマンスデータはパージされます。
 * アップグレードプロセスの実行中は Unified Manager を使用できなくなるため、実行中の処理がある場合は完了しておいてください。
-* * MySQL 要件 * ： MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。
-+
-ただし、システムの MySQL を最新のマイナーバージョンにアップグレードすることもできます。次のマイナーバージョンにアップグレードする前に、システムの MySQL の基本バージョンが 8.0.27 であることを確認してください。
-
-+
-MySQL 8.0.17 でリポジトリが設定されていない場合、 Unified Manager をアップグレードできない可能性があります。アップグレード前にリポジトリを設定する手順は、次のとおりです。
-
-+
-.. 必要な最小バージョン（この場合は 8.0.27 ）の MySQL RPM パッケージをダウンロードし、「 NetApp-um <version>.x86_64.rpm 」が保存されているディレクトリに保存します。
-.. このコマンドを実行して新しいバージョンをインストールします :yum install *.rpm`
-.. Unified Manager サーバを起動します。次のコマンドを実行します。
-+
-... 'ystemctl start ocie
-... 'systemctl start ocieau
-
-
-
-
+* MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.28より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが自動的に8.0.28にアップグレードされます。
 
 
 .手順
@@ -96,6 +79,13 @@ yum install yum-plugin-downloadonly を実行します
 .. インストールシステムの新しいディレクトリにディレクトリを変更し、 MySQL Community Edition をインストールするための次のコマンドとその依存関係を実行します。
 +
 yum`install *.rpm`
+
+.. Unified Manager サーバを起動します。次のコマンドを実行します。
++
+'ystemctl start ocie
+
++
+'systemctl start ocieau
 
 
 

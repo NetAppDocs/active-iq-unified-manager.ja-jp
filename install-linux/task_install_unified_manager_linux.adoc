@@ -39,14 +39,14 @@ Red Hat Enterprise Linux または CentOS のシステムには、必要なサ�
 
 
  a| 
-OpenJDK バージョン 11.0.12
+OpenJDKバージョン11.0.14
  a| 
 「 java -version 」のように指定します
 
 
 
  a| 
-MySQL 8.0.27 Community Edition の場合
+MySQL 8.0.28 Community Editionの場合
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
@@ -58,7 +58,7 @@ p7zip 16.02
 rpm -qa | grep p7zip
 
 |===
-. MySQL 8.0.27 Community Edition より前のバージョンの MySQL がインストールされている場合は、次のコマンドを入力してアンインストールします。
+. MySQL 8.0.28 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 

@@ -12,7 +12,7 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 
 == システム要件
 
-* オペレーティングシステム： Red Hat Enterprise Linux および CentOS バージョン 7.x および 8.x （ x86_64 アーキテクチャに基づく）は、 OS インストーラの「ソフトウェア選択 * 」オプションの「 Server with GUI 」ベース環境を使用してインストールされます
+* オペレーティングシステム：OSインストーラの「ソフトウェアの選択*」オプションから「GUI付きサーバ」ベース環境を使用してインストールされた、x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.xまたはCentOSバージョン7.x
 * RAM ： 12 GB 、 CPU ：合計 9572MHz
 * 空きディスク領域： /opt/NetApp/data ディレクトリに 100 GB のディスク領域、ルートパーティションに 50 GB 。個別にマウントされた '/opt/'/var/log' ディレクトリの場合は '/opt/'var/log' に 15 GB'/tmp に 10 GB の空き領域があることを確認してください
 

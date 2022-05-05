@@ -64,3 +64,4 @@ PSL が割り当てられていないデータセンター内のストレージ�
 Unified Manager がワークロード名で検索する特殊なキーワードを使用してシステム分析を上書きし、ワークロードに別の PSL を推奨します。ワークロードの名前に「 ora 」という文字が含まれている場合は、 **Extreme Performance ** PSL が推奨されます。ワークロードの名前に「 VM 」という文字が含まれている場合は、 **Performance** PSL を使用することをお勧めします。
 
 ====
+ナレッジベース（KB）の記事も参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["Active IQ UM「システム推奨のパフォーマンスサービスレベルの割り当て」は、変数の大きいワークロードには適応されません"]

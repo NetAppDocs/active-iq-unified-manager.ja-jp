@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: ストレージプロバイダ API を使用して、ストレージ効率化ポリシーを表示、作成、変更、および削除できます。 
 ---
-= ストレージ効率化ポリシーの管理
+= APIを使用したストレージ効率化ポリシーの管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

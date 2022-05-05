@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
-keywords: supported, unified manager, cli, commands 
-summary: ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ：CLI コマンドを使用して、 Unified Manager の内部データベースと ONTAP データベースを照会できます。CLI コマンドは、処理の開始時または終了時に実行されるスクリプト、アラートがトリガーされたときに実行されるスクリプトでも使用できます。 
+keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
+summary: ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ： 
 ---
 = Unified Manager の CLI コマンドがサポートされています
 :allow-uri-read: 
@@ -14,6 +14,9 @@ summary: ストレージ管理者は、 CLI コマンドを使用して、クラ
 ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ：CLI コマンドを使用して、 Unified Manager の内部データベースと ONTAP データベースを照会できます。CLI コマンドは、処理の開始時または終了時に実行されるスクリプト、アラートがトリガーされたときに実行されるスクリプトでも使用できます。
 
 すべてのコマンドの前に 'um cli login' コマンドと認証用の有効なユーザ名およびパスワードを入力する必要があります
+
+
+NOTE: _um run_commandを実行するには、アカウントに_console_applicationアクセス権があることを確認します。
 
 |===
 | CLI コマンド | 説明 | 出力 

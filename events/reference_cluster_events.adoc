@@ -637,4 +637,26 @@ Telnet プロトコルが有効になっている（ ocClusterTelnetEnabled ）
  a| 
 警告
 
+
+
+ a| 
+クラスタ証明書の有効期限が近づいています（DocumentEvtClusterCertificateAboutToExpire）
+ a| 
+リスク
+ a| 
+クラスタ
+ a| 
+警告
+
+
+
+ a| 
+クラスタ証明書の有効期間が終了しました（ドキュメントのEvtClusterCertificateExpired）
+ a| 
+リスク
+ a| 
+クラスタ
+ a| 
+エラー
+
 |===

@@ -19,15 +19,13 @@ Unified Manager をインストールする Linux システムには、特定の
 
 Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。
 
-* x86_64 アーキテクチャに基づく Red Hat Enterprise Linux または CentOS バージョン 7.x および 8.x 。CentOS ストリームはサポートされていません。
+* x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.x
+* x86_64アーキテクチャに基づくCentOSバージョン7.x。CentOS ストリームはサポートされていません。
 
 
 サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
 
 http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
-
-
-NOTE: ネットアップは、 Microsoft System Center Configuration Manager （ SCCM ）などのサードパーティツールを使用した Unified Manager のインストールをサポートしていません。
 
 
 
@@ -37,8 +35,8 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 
-* MySQL Community Edition バージョン 8.0.27 （ MySQL リポジトリから入手）。
-* OpenJDK バージョン 11.0.12 （ Red Hat Extra Enterprise Linux Server リポジトリから入手）
+* MySQL Community Editionバージョン8.0.28（MySQLリポジトリから入手）。
+* OpenJDKバージョン11.0.14（Red Hat Extra Enterprise Linux Serverリポジトリから入手）
 * Python 3.6.x
 * p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）
 

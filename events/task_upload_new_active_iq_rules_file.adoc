@@ -1,7 +1,7 @@
 ---
 permalink: events/task_upload_new_active_iq_rules_file.html 
 sidebar: sidebar 
-keywords: upload, new, active iq, rules, file 
+keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules 
 summary: Unified Manager は、新しい Active IQ ルールファイルの有無を自動的にチェックし、ある場合は新しいファイルをダウンロードします。ただし、外部ネットワークへのアクセスがないサイトでは、ルールファイルを手動でアップロードする必要があります。 
 ---
 = 新しい Active IQ ルールファイルをアップロードしています
@@ -11,18 +11,31 @@ summary: Unified Manager は、新しい Active IQ ルールファイルの有�
 
 
 [role="lead"]
-Unified Manager は、新しい Active IQ ルールファイルの有無を自動的にチェックし、ある場合は新しいファイルをダウンロードします。ただし、外部ネットワークへのアクセスがないサイトでは、ルールファイルを手動でアップロードする必要があります。
+Unified Managerは、新しいActive IQ イベント（ルール）ファイルの有無を自動的にチェックし、ある場合は新しいファイルをダウンロードします。ただし、外部ネットワークへのアクセスがないサイトでは、ルールファイルを手動でアップロードする必要があります。
+
+
+NOTE: Active IQ ルールは、Config Advisor （CA）セキュアルールとも呼ばれます。
+
+ネットワークに接続されていないサイトでUnified Managerをインストールまたはアップグレードすると、バンドルされているActive IQ ルールを自動的にアップロードに使用できるようになります。ただし、更新されたイベントが生成されてストレージシステムが最適な状態を継続できるようにするために、ネットアップサポートサイトから月に約1回は新しいルールファイルをダウンロードすることを推奨します。
 
 * 必要なもの *
 
-* Active IQ イベントレポートを有効にしておく必要があります。
+* Active IQ ポータルイベントのレポートを有効にする必要があります。この機能はデフォルトで有効になっています。詳細については、を参照してください link:../config/concept_active_iq_platform_events.html["Active IQ ポータルイベントの有効化"]。
 * ルールファイルをネットアップサポートサイトからダウンロードする必要があります。
++
+ルールファイルは次の場所にあります。 https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
-ストレージシステムを確実に保護し、最適な状態で運用を続けるために、月に一度は新しいルールファイルをダウンロードすることを推奨します。ルールファイルは次の場所にあります。 http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
 
 .手順
 . ネットワークにアクセスできるコンピュータで、ネットアップサポートサイトにアクセスし、最新のルール「 .zip 」ファイルをダウンロードします。
++
+ルールパッケージには、ルールリポジトリ、データソース、およびネットアップの技術情報アーティクルが含まれています。
+
++
+
+NOTE: Windowsシステムでは、ネットワークに接続されていないサイトでは、デフォルトではネットアップの技術情報アーティクルがインストーラにバンドルされていません。サポートサイトから_secure_rules.zipファイルをダウンロードしてアップロードすると、すべてのルールのKB記事を参照できます。
+
 . ルールファイルをセキュリティエリアに持ち出すことができるメディアに転送し、セキュリティエリアのシステムにコピーします。
 . 左側のナビゲーションペインで、 * Storage Management * > * Event Setup * をクリックします。
 . [ * イベントの設定 * ] ページで、 [ * ルールのアップロード * ] ボタンをクリックします。
@@ -32,4 +45,4 @@ Unified Manager は、新しい Active IQ ルールファイルの有無を自�
 
 
 
-ルールファイルが Unified Manager サーバに解凍されます。午前 0 時過ぎに管理対象クラスタで AutoSupport ファイルが生成されたあと、 Unified Manager がルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。
+ルールファイルが Unified Manager サーバに解凍されます。午前0時を過ぎた時点で管理対象クラスタでAutoSupport ファイルが生成され、Unified Managerがルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。

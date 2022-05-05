@@ -18,7 +18,11 @@ Unified Manager を Windows に正しくインストールするには、 Unifie
 
 == オペレーティングシステムソフトウェア
 
-Unified Manager は、 Windows の次のエディションにインストールできます。 * Microsoft Windows Server 2016 Standard Edition および Datacenter Edition * Microsoft Windows Server 2019 Standard Edition および Datacenter Edition
+Unified Managerは次のエディションのWindowsにインストールできます。
+
+* Microsoft Windows Server 2019 Standard EditionおよびDatacenter Edition
+* Microsoft Windows Server 2022 Standard EditionおよびDatacenter Edition
+
 
 Unified Manager は、以下の言語で 64 ビットの Windows オペレーティングシステムでサポートされています。
 
@@ -31,6 +35,9 @@ Unified Manager は、以下の言語で 64 ビットの Windows オペレーテ
 
 http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
+
+NOTE: ネットアップは、Microsoft System Center Configuration Manager（SCCM）などのサードパーティツールを使用したUnified Managerのインストールをサポートしていません。
+
 Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。
 
 
@@ -41,9 +48,9 @@ Unified Manager にバンドルされているサードパーティパッケー�
 
 * Microsoft Visual C&#43;&#43;2015 再頒布可能パッケージバージョン 14.26.28720.3
 * Visual Studio 2013 バージョン 12.0.40660.0 の Microsoft Visual C&#43;&#43; 再頒布可能パッケージ
-* MySQL Community Edition バージョン 8.0.27
-* Python 3.9.x
-* OpenJDK バージョン 11.0.12
+* MySQL Community Editionバージョン8.0.28
+* Python 3.9.2
+* OpenJDKバージョン11.0.13
 * p7zip バージョン 18.05 以降
 
 
@@ -77,17 +84,11 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 * Microsoft IIS World Wide Web Publishing サービスを無効にして、ポート 80 および 443 が空いていることを確認する必要があります。
 * インストール中は、「 Windows Installer RDS Compatibility 」のリモートデスクトップセッションホスト設定が無効になっていることを確認してください。
 * UDP ポート 514 を他のサービスで使用されないように空けておく必要があります。
+* Windowsシステムにアクティブなウィルス対策ソフトウェアがインストールされている場合、Unified Managerのインストールが失敗することがあります。Unified Managerをインストールする前に、システムのウィルススキャンソフトウェアをすべて無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。
++
+** Unified Manager データディレクトリ
+** Unified Manager インストールディレクトリ
+** MySQL データディレクトリ
 
 
-[NOTE]
-====
-Unified Manager のインストールプログラムは、 Windows Defender で次の項目を除外するように設定します。
 
-* Unified Manager データディレクトリ
-* Unified Manager インストールディレクトリ
-* MySQL データディレクトリ
-
-
-サーバに別のウィルス対策ソフトウェアがインストールされている場合は、これらを手動で除外する必要があります。
-
-====

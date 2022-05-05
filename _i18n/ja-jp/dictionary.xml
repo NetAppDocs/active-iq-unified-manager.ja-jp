@@ -24,10 +24,7 @@
   <block id="dc45c2b39a506f4db838911d67200b0a" category="paragraph">特定の期間（ 72 時間を超える）における特定のタイプのストレージオブジェクトのパフォーマンスの概要レベルの集計値。</block>
   <block id="cf35b134176d8cf6bb230693679ad4ff" category="paragraph">ノードやクラスタの詳細など、オブジェクトの基本的な詳細が読み出されます。</block>
   <block id="b3b07e7b8277f44ed6e9e7e8e8579f2a" category="paragraph">具体的な詳細は取得されません。</block>
-  <block id="7778f16d4295e8577e74d7058fb876a5" category="paragraph">1 つのオブジェクトについて、読み取り、書き込み、合計、その他のカウンタなど、一定期間の平均パフォーマンス値の最小値、最大値、 95 パーセンタイル値などの累積カウンタが取得されます。たとえば '/datacenter /cluster/nodes/ \{ key }/metrics API は ' ノードの次の詳細 ( その他の詳細 ) を取得します</block>
   <block id="b3c678f9c71cd51674956271d307db61" category="admonition">サマリ値の 95 パーセンタイルは、期間について収集されたサンプルの 95% が、 95 パーセンタイルで指定された値よりも小さいカウンタ値を持っていることを示しています。</block>
-  <block id="eeebbebe982b16eae3d34f7772b61583" category="paragraph">同じタイプのすべてのオブジェクトについて、集約された単一の値が表示されます。たとえば '/datacenter /cluster/nodes /analytics API は ' すべてのノードについて次の値 ( その他の値 ) を取得します</block>
-  <block id="887ae8ed46727f1bc92ce86b997fa389" category="paragraph">時間範囲とサンプルデータは、次のスケジュールに基づいています。データの時間範囲。例として、 1h 、 12h 、 1d 、 2d 、 3d があります。 15D 、 1w 、 1m 、 2m 、 3m 、 6M 。範囲が 3 日（ 72 時間）を超える場合は 1 時間のサンプルを取得し、それ以外の場合は 5 分のサンプルを取得します。各期間は次のとおりです。</block>
   <block id="7195b873ebe0544a8ed589eccc941fff" category="list-text">1H ：直近 1 時間の測定値が 5 分以上にわたってサンプリングされます。</block>
   <block id="1c619939aea29b8671d2c0519882c15e" category="list-text">12 時間： 5 分以上にわたってサンプリングされた最新の 12 時間のメトリック。</block>
   <block id="d8d99ec78494ec580bf42dafb37bdd6f" category="list-text">1D ：直近の 1 日の測定値が 5 分以上にわたってサンプリングされます。</block>
@@ -511,31 +508,23 @@
   <block id="9966a118962913f23fdc13c6ab637e77" category="paragraph">LUN を作成するには、取得した値を必須パラメータとして指定する必要があります。</block>
   <block id="90c764bb5ddb317b1d8d07e77de09fad" category="paragraph">ストレージ効率化ポリシーは、 LUN の作成ではオプションのパラメータです。</block>
   <block id="6280c5b5faa0d06803616c53024ca4b9" category="paragraph">作成する LUN のすべての詳細を入力パラメータとして指定する必要があります。</block>
-  <block id="049262646740308b766e6e531e2293cb" category="paragraph">ウォンバット： 1 番を抽出します</block>
   <block id="bf0a6ce01c458cedfc683803e00e1122" category="paragraph">JSON 出力にジョブオブジェクトキーが表示され、作成した LUN の検証に使用できます。</block>
   <block id="8b9993195033db0f202c52842b83921a" category="list-text">ジョブの照会で返されたジョブオブジェクトキーを使用して、 LUN の作成を確認します。</block>
   <block id="2802e294767ec3795cae28f735f00911" category="paragraph">応答の末尾に、作成された LUN のキーが表示されます。</block>
-  <block id="00dfe9ed0fc0e00120c4b2a9cf7f1071" category="paragraph">ウォンバット： 2 番を抽出します</block>
   <block id="a03c16367d60fe677b196252b102ace8" category="list-text">返されたキーを指定して次の API を実行し、 LUN の作成を確認します。</block>
   <block id="e24e3f7419560b5cabc960162dcb8756" category="paragraph">/storage-provider/LUN' の POST メソッドが ' 各関数に必要なすべての API を内部的に呼び出し ' オブジェクトを作成していることがわかりますたとえば 'LUN にパフォーマンス・サービス・レベルを割り当てるための '/storage-provider/performion-service-levels /`API を呼び出します</block>
-  <block id="f7d00850e5e407e047637ea533202062" category="paragraph">Wombat ： #3 を抽出</block>
-  <block id="56989fc7a9a7e886de1fa98a56a0a9c8" category="section-title">LUN の作成またはマッピングに失敗した場合のトラブルシューティング手順</block>
   <block id="0abdcda4480c5da9f6088c32502b745e" category="paragraph">このワークフローを完了しても、 LUN の作成に失敗することがあります。LUN の作成に成功しても、 LUN を作成したノードに SAN LIF またはアクセスエンドポイントがないために igroup との LUN マッピングが失敗することがあります。障害が発生すると、次のメッセージが表示されます。</block>
   <block id="2366e4d85c1368efcd2a4b6f5bb1096d" category="paragraph">この問題を回避するには、次のトラブルシューティング手順を実行します。</block>
   <block id="f786a57b6968727e522d93814213101a" category="list-text">LUN を作成しようとした SVM に、 iSCSI/FCP プロトコルをサポートするアクセスエンドポイントを作成します。</block>
   <block id="71ad100ad3f24e98bca747d9d52bcf1a" category="paragraph">作成するアクセスエンドポイントの詳細を、入力パラメータとして指定する必要があります。</block>
   <block id="da44b9fefa343f39fca68be1e0e89779" category="paragraph">入力パラメータに、 LUN のホームノードを示すアドレスと、ホームノードのパートナーノードを示す ha_address を追加したことを確認します。この処理を実行すると、ホームノードとパートナーノードの両方にアクセスエンドポイントが作成されます。</block>
-  <block id="45befbbf82d7f446106c805dd91a1a72" category="paragraph">Wombat ： #4 を抽出</block>
   <block id="d944773e838e30b10cae87b55ec1104e" category="list-text">JSON 出力で返されたジョブオブジェクトキーを使用してジョブを照会し、 SVM にアクセスエンドポイントを追加するジョブが正常に実行されたこと、および SVM で iSCSI/FCP サービスが有効になっていることを確認します。</block>
   <block id="d7d7df74e1ce5335b4163f7e77a3a691" category="paragraph">出力の末尾に、作成されたアクセスエンドポイントのキーが表示されます。次の出力では、「 name 」：「 accessEndpointKey 」値は LUN のホームノードに作成されたアクセスエンドポイントを示します。このキーは 9c964258-14ef-11ea95e2-00a098e32c28 です。「 name 」：「 accessEndpointHAKey 」値は、ホームノードのパートナーノードに作成されたアクセスエンドポイントを示します。このキーは 9d347006-14ef-11ea-8760-00a098e3215f です。</block>
-  <block id="5508c78db23fdfa6a088655edd121e51" category="paragraph">Wombat ： #5 を抽出</block>
   <block id="49be75367a8d9b7f89252d7838bcbb95" category="list-text">LUN を変更して igroup マッピングを更新します。ワークフローの変更の詳細については、「ストレージワークロードの変更」を参照してください。</block>
   <block id="242cbd5484218f67c45660e797c7a225" category="paragraph">入力で、 LUN マッピングの更新に使用する igroup キーと LUN キーを指定します。</block>
-  <block id="b586e3d0271583461b3aa9cc743628e0" category="paragraph">ウォンバット： #6 を抽出します</block>
   <block id="31cadb84616458057fb8387b48d2b77c" category="paragraph">JSON 出力にジョブオブジェクトキーが表示され、マッピングが成功したかどうかの検証に使用できます。</block>
   <block id="59ed257d858cdb21c7060d47730cf5ea" category="list-text">LUN キーを指定して照会することで、 LUN マッピングを確認します。</block>
   <block id="3d1e874465f4fdd7f5a34c813378c606" category="paragraph">この出力から、 LUN のプロビジョニング時に使用された igroup （ d19ec2fa -fec7-11E8-b23d-00a098e32c28 キー）に LUN が正常にマッピングされていることがわかります。</block>
-  <block id="9af5b136cd1d5fd076dc14822c50821b" category="paragraph">ウォンバット： #7 を抽出します</block>
   <block id="57469eb10fb3f5934db52348b0c7ea12" category="summary">セキュリティカテゴリの API を使用して、 Active IQ Unified Manager 内の選択したクラスタオブジェクトへのユーザアクセスを制御できます。ローカルユーザまたはデータベースユーザを追加できます。また、認証サーバに属するリモートユーザやリモートグループを追加することもできます。ユーザに割り当てたロールの権限に基づいて、ストレージオブジェクトを管理したり、 Unified Manager でデータを表示したりできます。</block>
   <block id="93e4e8b56119093f81b4aed41ceeea38" category="doc">ユーザの管理</block>
   <block id="af0c210a6f2ae84e551c9886dbe2638d" category="paragraph">「セキュリティ」カテゴリの API を使用して、 Active IQ Unified Manager 内の選択したクラスタオブジェクトへのユーザアクセスを制御できます。ローカルユーザまたはデータベースユーザを追加できます。また、認証サーバに属するリモートユーザやリモートグループを追加することもできます。ユーザに割り当てたロールの権限に基づいて、ストレージオブジェクトを管理したり、 Unified Manager でデータを表示したりできます。</block>
@@ -2136,7 +2125,6 @@
   <block id="c977ccf6a1cca8720916aa986e8e90e1" category="list-text">[ 表示 ] メニューで、 [ * 健全性：すべてのクラスタ * 表示 ] を選択して健全性情報を表示するか、 [ * 容量：すべてのクラスタ * 表示 ] を選択してすべてのクラスタのストレージ容量と使用率に関する詳細を表示します。</block>
   <block id="a80dcf26976d9ce1a0b8078a55d9aa08" category="list-text">クラスタの名前をクリックし、クラスタ / 健常性 * の詳細ページにクラスタのすべての詳細を表示します。</block>
   <block id="b6bde5ece7fba8cda6e408dc0cec702c" category="paragraph"><block ref="b6bde5ece7fba8cda6e408dc0cec702c" category="inline-link-macro-rx"></block></block>
-  <block id="ede6fbde73bf0485fdd055280b82001d" category="summary">診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。Unified Manager 9.8 以降では、 Unified Manager サーバがインターネットに接続されている場合に、メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。</block>
   <block id="dd3d7fe723d933be7fc14ce6b3b64c01" category="doc">サポートバンドルの生成とアップロード</block>
   <block id="56c12fd8a5cff84a91ee618e03c20183" category="paragraph">メンテナンスコンソールにメンテナンスユーザとしてアクセスできる必要があります。</block>
   <block id="a514c988b092c5f5cdc72bc048202257" category="paragraph">一部のタイプのサポートデータでは、クラスタリソースを大量に使用したり、完了までに時間がかかったりすることがあります。そのため、完全なサポートバンドルを選択する際には、含めるデータタイプと除外するデータタイプを指定して、サポートバンドルのサイズを縮小できます。また、 30 日分のログと構成データベースのレコードを含む軽量なサポートバンドルを作成することもできます。パフォーマンスデータ、取得記録ファイル、サーバヒープダンプは含まれません。</block>
@@ -2801,24 +2789,8 @@
   <block id="e92528b72844561e5d317c4ddfbaf664" category="paragraph">選択した FlexClone ボリュームの親ボリュームの名前と容量が表示されます。選択したボリュームが FlexClone ボリュームの場合にのみ表示されます。</block>
   <block id="15ef496ae746b4e0218bb79355f85962" category="paragraph">Related Groups ペインでは、選択したボリュームに関連付けられているグループのリストを確認できます。</block>
   <block id="583cbc558bb147ccf3a3521937140fef" category="paragraph">関連するアラートペインでは、選択したボリュームに対して作成されたアラートのリストを表示できます。また、 [Add Alert] リンクをクリックしてアラートを追加したり、アラート名をクリックして既存のアラートを編集したりすることもできます。</block>
-  <block id="afb078a3db15f9c680517f2df6a673eb" category="summary">Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。</block>
   <block id="80b444e335b0732b7b90623cbd5717e9" category="doc">クラスタと Storage VM の詳細なセキュリティステータスの表示</block>
-  <block id="dcc1562e004411d25dd6d80348614e36" category="paragraph">Security ページには、すべてのクラスタのセキュリティステータスの概要と、個々のクラスタの詳細なセキュリティステータスが表示されます。</block>
-  <block id="d2de9251171314e14830e48763c831b0" category="paragraph">システム管理者は、セキュリティ * ページを使用して、データセンターレベルとサイトレベルの ONTAP クラスタと Storage VM のセキュリティ強度を可視化できます。</block>
-  <block id="5d582990e94f0286cf780932d6652813" category="paragraph">定義されたパラメータに基づいて情報を収集および分析し、監視対象のクラスタおよび Storage VM についての疑わしい動作や不正なシステム変更を検出できます。</block>
-  <block id="6de41def29128fecf2b724bf9d3bd477" category="paragraph">詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。</block>
-  <block id="12bf1764410c2cd6952534f31c7f8be2" category="paragraph">クラスタ / セキュリティの詳細ページでは、グローバルな FIPS 、 Telnet 、セキュアでない SSH 設定、ログインバナー、ネットワークタイムプロトコル、 AutoSupport HTTPS 転送、およびデフォルト管理者。</block>
-  <block id="bb16d284fad982cea57d74217a1303dd" category="paragraph">Storage VMs/Security の詳細ページでは、 Storage VM 、クラスタ、ログインバナー、監査ログ、セキュアでない SSH 設定などのセキュリティパラメータを確認することで、 Storage VM のセキュリティコンプライアンスのデフォルトビューが表示されます。</block>
-  <block id="63c96579178978ec9ef522c07cddb50b" category="paragraph">セキュリティコンプライアンスレポートは、クラスタおよび Storage VM の詳細ページから生成、スケジュール、およびダウンロードすることもできます。</block>
-  <block id="31feacd175bfb8433129ea3266c03241" category="paragraph">セキュリティダッシュボード * で、 * クラスタコンプライアンス * カードおよび * Storage VMS コンプライアンス * カードの * レポートの表示 * をクリックします。</block>
   <block id="0da0e153560fee72ee839d42802ffce4" category="list-text">すべての監視対象クラスタのセキュリティステータスを表示するか、 1 つのクラスタのセキュリティステータスを表示するかに応じて、 * すべてのクラスタ * を選択するか、ドロップダウンメニューから 1 つのクラスタを選択します。</block>
-  <block id="001cdcc1bced815dbb889c31d496a91c" category="list-text">セキュリティ * パネルの右矢印をクリックします。</block>
-  <block id="21b404ba083f7cb1aacb4498842a979b" category="paragraph">Security ページには、次の情報が表示されます。</block>
-  <block id="37462259fe1133486ea0bfe4e480c5d4" category="list-text">クラスタのセキュリティステータス（準拠または非準拠のクラスタ数）</block>
-  <block id="672f035432eaef3b1070ec3b0f8801f8" category="list-text">SVM のセキュリティステータス（準拠または非準拠の SVM 数）</block>
-  <block id="4b94431060fff6aed3bb4c4607431e43" category="list-text">ボリューム暗号化ステータス（暗号化されているボリュームまたは暗号化されていないボリュームの数）</block>
-  <block id="1113c5580efb5e128133e0c849ea6b54" category="list-text">各クラスタで使用されているクラスタ認証方式</block>
-  <block id="a4deeec5e2b40be9ffab412cfc04266c" category="list-text">を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> すべてのクラスタ、 SVM 、およびボリュームを、ネットアップのセキュリティに関する推奨事項に準拠させていただく方法については、を参照してください。</block>
   <block id="0773e722b06724950cd91ae0b155d2b2" category="summary">オフラインと報告されたボリュームのボリューム / 健全性の詳細ページに移動したら、ボリュームのオフライン状態を診断するのに役立つ追加情報を検索できます。</block>
   <block id="312861dc1c768f4bf2bba5f63d8d0920" category="doc">ボリュームがオフライン状態になった場合の診断処置の実施</block>
   <block id="b39050683788fd1119696ec82cdb91b2" category="paragraph">オフラインと報告されたボリュームが、意図的にオフラインにされたのではない場合は、いくつかの理由が考えられます。</block>
@@ -3116,15 +3088,6 @@
   <block id="eb72de6c30dbdd13a821634400904a6a" category="paragraph">バックアップファイルは、デフォルトのディレクトリ「 \ProgramData\NetApp\OnCommandAppData\ocum\backup 」にコピーすることを推奨します。データベース・リポジトリ・ファイルは '\backup' ディレクトリの \database-dumps_repo サブディレクトリにコピーする必要があります</block>
   <block id="948c2cb498a24536a687ebde6b50f93d" category="paragraph">リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager の MySQL バックアップは、同じバージョンの Unified Manager にのみリストアできます。また、 Windows のバックアップは、 Windows プラットフォームにのみリストアできます。</block>
   <block id="aa3ab80f8d41d2b351afa9c6f3df95ab" category="paragraph">フォルダ名にスペースが含まれている場合は、バックアップファイルの絶対パスまたは相対パスを二重引用符で囲む必要があります。</block>
-  <block id="aab5eede3370dc677f5e40ee8f7d8364" category="summary">Unified Manager のダッシュボードのセキュリティパネルには、現在のビューに応じて、すべてのクラスタまたは単一のクラスタのセキュリティステータスの概要が表示されます。</block>
-  <block id="885f5600f37af7d8d04e7e7d203755b2" category="doc">クラスタのセキュリティステータスの概要の表示</block>
-  <block id="fdf9ab6d7d8f2cd2596a368e1dc822ce" category="paragraph">Unified Manager のダッシュボードのセキュリティパネルには、現在のビューに応じて、すべてのクラスタまたは単一のクラスタのセキュリティステータスの概要が表示されます。</block>
-  <block id="4cb5151bae27cc78c3bfad72d948e1fe" category="list-text">全体的なステータスを確認するには、 * セキュリティ * パネルを表示します。</block>
-  <block id="8f6de4832f68549c5e00fbd7e1e6721c" category="paragraph">このパネルには次の情報が表示</block>
-  <block id="3f922fc1d1faab7789fa067de040413e" category="list-text">過去 24 時間に受信したセキュリティイベントのリスト</block>
-  <block id="eaf4d3bbced59181bfd5927fa3b8501e" category="list-text">各イベントから Event Details ページへのリンク</block>
-  <block id="7787565caf02ff4b3762baed16dc09e4" category="list-text">イベント管理インベントリページで、アクティブなすべてのセキュリティイベントを表示するためのリンク</block>
-  <block id="3a33d89d67956f13839553ac8bb070d4" category="list-text">パネル上部の右矢印をクリックすると、セキュリティの詳細が * セキュリティ * ページに表示されます。</block>
   <block id="683db528db87f79cfc80e3b7bd8cb8f4" category="summary">Unified Manager を実行するホストオペレーティングシステムを変更する場合は、 Unified Manager の MySQL データベースダンプバックアップを仮想アプライアンスから Red Hat Enterprise Linux システムまたは CentOS Linux システムにリストアすることができます。</block>
   <block id="78a4b48e7cdb9b97aa7767907cc7567d" category="doc">Linux システムへの Unified Manager 仮想アプライアンスの移行</block>
   <block id="5c96c912b91fd84d629dedfd84808218" category="list-text">仮想アプライアンス：</block>
@@ -3324,44 +3287,11 @@
   <block id="c86be4c7cc6733aa1395ae98bc490c33" category="paragraph">選択内容を破棄して [Initialize] / [Update] ダイアログボックスを閉じます。</block>
   <block id="1cab5d959d1d53ea75184e3242f4a65f" category="list-text">* 送信 *</block>
   <block id="91c734c8451fe6de2215da06b51641d1" category="paragraph">選択内容を保存し、初期化ジョブまたは更新ジョブを開始します。</block>
-  <block id="05e36b04644c76640a3bcea423fce5ea" category="summary">Storage Virtual Machine ピアの作成ウィザードでは、 SnapMirror 保護関係と SnapVault 保護関係で使用するソース Storage VM とデスティネーション Storage VM をピアリングできます。</block>
-  <block id="0dd5b5485a767274f86c400be6c4bf82" category="doc">Create Storage Virtual Machine Peers ウィザード</block>
-  <block id="3b4281ed45dc58c49c0b6cf92e4d07a2" category="section-title">ソースを選択します</block>
-  <block id="b57d98e0e35c6e4aa0549b8ce17454a6" category="paragraph">ソースの選択パネルでは、 Storage VM ピアのソースまたはプライマリ Storage VM を選択できます。</block>
   <block id="f53ab048178d767c14635a79e485a5d4" category="list-text">* 任意 *</block>
-  <block id="a4af972c86e9540dc467c581ad6cdb78" category="paragraph">任意の Storage VM ソースと 1 つ以上のデスティネーションまたはセカンダリの Storage VM の間にピアを作成できます。つまり、現時点で保護を必要とする既存のすべての Storage VM と、以降に作成されるすべての Storage VM が、指定したデスティネーション Storage VM とピア関係にあります。たとえば、異なる場所にある複数のソースのアプリケーションを 1 箇所にある 1 つ以上のデスティネーション Storage VM にバックアップできます。</block>
   <block id="7ff1c9dbf7b85364c9af00726d6f9d5f" category="list-text">* シングル *</block>
-  <block id="2277c977dc0a5cb5a92083ddd6dc65e9" category="paragraph">特定のソース Storage VM と 1 つ以上のデスティネーション Storage VM をピアリングできます。たとえば、データを互いに分離する必要のある多数のクライアントにストレージサービスを提供する場合は、このオプションを選択して、特定の Storage VM ソースを、対象のクライアントにのみ割り当てられる特定の Storage VM デスティネーションに関連付けます。</block>
   <block id="94b198184f9abf7490f8c90a6423f2a8" category="list-text">* なし（外部） *</block>
-  <block id="7747781658cb621a36f95c1cea0d1f17" category="paragraph">ソース Storage VM とデスティネーション Storage VM の外部のフレキシブルボリュームの間で関連付けを作成できます。</block>
-  <block id="40a9aa8d8be93bdef25a488011f71fcb" category="list-text">Storage Virtual Machine の略</block>
-  <block id="235744ec4f198c8925b6017b73ac00ed" category="paragraph">使用可能なソース Storage VM の名前が表示されます</block>
-  <block id="bf014d0813e4bc087a939d17be8585d9" category="paragraph">各 Storage VM が配置されているクラスタが表示されます</block>
-  <block id="9f59e920306861d4a8ecc5e05f91077a" category="list-text">* これらの種類の関係を許可する *</block>
-  <block id="17f0f723254ba6ca325664769847cf9b" category="paragraph">関連付けの関係タイプを選択できます。</block>
   <block id="794cb725c5631ad99b5b7c000307f0df" category="list-text">SnapMirror</block>
-  <block id="6fd5c94530cd60405b715b3db6e50c7c" category="paragraph">ピアタイプとして SnapMirror 関係を指定します。このオプションを選択すると、選択したソースからデスティネーションへのデータレプリケーションが有効になります。</block>
-  <block id="5bc075cee240a70af54270621d93765c" category="list-text">SnapVault</block>
-  <block id="79f93e4bb02826152950992d788ea861" category="paragraph">SnapVault 関係をピアタイプとして指定します。このオプションを選択すると、選択したプライマリの場所からセカンダリの場所へのバックアップが可能になります。</block>
-  <block id="b9a5a8f115d7d36db5c7de24573f1699" category="section-title">Protection Destinations を選択します</block>
-  <block id="198160302fc794b90fd130f1e6a61543" category="paragraph">Storage Virtual Machine ピアの作成ウィザードの保護デスティネーションの選択パネルでは、データのコピー先またはレプリケート先を選択できます。ピアはクラスタごとに 1 つのデスティネーション Storage VM にしか作成できません。</block>
-  <block id="2bf3220fca0a33666671c39ab6e7700b" category="list-text">* 次へ *</block>
-  <block id="62718807f6473eb834d1802698cbf29f" category="paragraph">ウィザードの次のページに進みます。</block>
   <block id="ffb270b8c3662e075a4fb87f91c4ca29" category="list-text">* 戻る *</block>
-  <block id="cd0ae77bc690e7a274eff62b2fb3556b" category="paragraph">ウィザードの前のページに戻ります。</block>
-  <block id="ed4cff269f04ad4ee858eaa0c6ba75b4" category="list-text">* 完了 *</block>
-  <block id="d49933a421d8be143d097b270e3d1af3" category="paragraph">選択項目を適用して関連付けを作成します。</block>
-  <block id="2b2fd73d6891a5b1d044286fb87874c1" category="paragraph">選択内容を破棄して Storage Virtual Machine ピアの作成ウィザードを閉じます。</block>
-  <block id="869fe30ad46c36e32a9a4a39c6ecfd80" category="summary">Storage VM ピアは、ソース Storage VM からデスティネーション Storage VM へのマッピングであり、リソースの選択やセカンダリボリュームのプロビジョニングのためにパートナーアプリケーションで使用されます。</block>
-  <block id="fc3d43f179d4dac52ecbdb1b6f94e694" category="doc">Storage VM ピアの概要</block>
-  <block id="ce681dc0c4c66bae81df988629a9875f" category="paragraph">ピアは、デスティネーション Storage VM がセカンダリデスティネーションか 3 次デスティネーションかに関係なく、常にソース Storage VM とデスティネーション Storage VM の間で作成されます。セカンダリデスティネーション Storage VM をソースとして使用して、 3 番目のデスティネーション Storage VM とのピアを作成することはできません。</block>
-  <block id="d8b3c9b1ed1d65a9b7bfef730eeb85c5" category="paragraph">Storage VM をピアリングする方法は 3 つあります。</block>
-  <block id="c6e4459e48c8973d086f78f2f2facfe8" category="list-text">任意の Storage VM にピアリングします</block>
-  <block id="d4ed4fb2ff0fb13eb779514445ea7bf2" category="paragraph">任意のプライマリソース Storage VM と 1 つ以上のデスティネーション Storage VM の間にピアを作成できます。つまり、現時点で保護を必要とする既存のすべての Storage VM と、以降に作成されるすべての Storage VM が、指定したデスティネーション Storage VM とピア関係にあります。たとえば、異なる場所にある複数のソースのアプリケーションを 1 箇所にある 1 つ以上のデスティネーション Storage VM にバックアップできます。</block>
-  <block id="73f5dce2d269d6cbb5f8e87e9ebe1039" category="list-text">特定の Storage VM にピアリングしてください</block>
-  <block id="7fe1dfe45e41b9019be4323b32d15e2b" category="paragraph">特定のソース Storage VM と 1 つ以上の特定のデスティネーション Storage VM の間にピアを作成できます。たとえば、データを互いに分離する必要のある多数のクライアントにストレージサービスを提供する場合は、このオプションを選択して、特定のソース Storage VM を、対象のクライアントにのみ割り当てられる特定のデスティネーション Storage VM に関連付けることができます。</block>
-  <block id="0544ad83848fb054e4a2b88f10e7dd20" category="list-text">外部の Storage VM とピアリングしてください</block>
-  <block id="9701fc1e68aac847303d8f4eaed963c7" category="paragraph">ソース Storage VM とデスティネーション Storage VM の外部のフレキシブルボリュームの間にピアを作成できます。</block>
   <block id="c3c6572d062c951811ca1fe741903a2c" category="summary">このワークフローでは、 Unified Manager のダッシュボードで保護ジョブの失敗を特定して解決する方法の例を示します。</block>
   <block id="6e94f95fe800c798b5c1bd6f98900d04" category="doc">保護ジョブの失敗を解決する</block>
   <block id="047a20fcd4bbec3aa2f90c8a7b3a2fac" category="paragraph">このワークフローの一部のタスクは管理者ロールでログインする必要があるため、さまざまな機能を使用するために必要なロールを把握しておく必要があります。</block>
@@ -3944,7 +3874,6 @@
   <block id="d05bfecdcd178e7b2e9fadea4ca07289" category="paragraph">選択したタスクに固有のメッセージが表示されます。エラーの理由や推奨される解決方法などが含まれます。すべてのタスクにタスクメッセージが表示されるわけではありませ</block>
   <block id="01517086ee90260d3b75492f0e6e194f" category="summary">Relationship ： All Relationships ビューには、ストレージシステム上の保護関係に関する情報が表示されます。</block>
   <block id="7b468f364c89cc15b88debc63877f777" category="doc">関係：すべての関係ビュー</block>
-  <block id="87940b71673e7cc35b4dc1d178e531aa" category="paragraph">デフォルトでは、関係ページにアクセスすると、ボリュームと Storage VM の両方の最上位の保護関係が表示されます。ページの上部にあるコントロールを使用すると、特定のビューの選択、特定のオブジェクトの検索の実行、フィルタの作成および適用による表示データのリストの絞り込み、ページ上の列の追加 / 削除 / 並べ替え、ページ上のデータの .csv 、 .pdf または .xlsx ファイル。カスタマイズしたページをカスタムビューとして保存し、データのレポートを定期的に生成して E メールで送信するようにスケジュール設定できます。デフォルトでは、 [ * 関係 * ] メニューを選択すると、レポートにはデータセンター内のボリュームと Storage VM の両方の保護関係が表示されます。「 * フィルタ * 」オプションを使用すると、ボリュームのみ、または Storage VM のみなど、選択したストレージシステムのみを表示できます。ストレージページと、選択したストレージエンティティについてのみ、同じレポートが表示されます。ボリュームまたは Storage VM の関係を表示するには、 * Storage * &gt; * Volumes * &gt; * Relationship ： All Relationships * ページまたはアクセス * Protection * &gt; * Relationships * &gt; * Relationship ： すべての関係 * 。フィルタ * の * 関係オブジェクトタイプ * オプションを使用して、ボリュームまたは Storage VM のデータのみをフィルタリングします。</block>
   <block id="bcfdd5fdcc9473e6fb8c763bb717d278" category="paragraph">すべての保護関係のリストが表示される関係ページには、デスティネーションクラスタのリンク * System Manager * が表示されます。このリンクを使用すると、 ONTAP System Manager で同じオブジェクトを表示できます。</block>
   <block id="2ea7f5b2289a2721f6c9c85bbdef00d9" category="paragraph">保護関係の現在のステータスが表示されます。</block>
   <block id="8b927ab73fcb2da14543715283041fd8" category="paragraph">ステータスは、 Error （<block ref="1c0ac20dc7bfc87e98ae13e96d02d807" category="inline-image-macro-rx" type="image"></block>）、警告（<block ref="f1c08a3c67e9109a6739da91403bf2f1" category="inline-image-macro-rx" type="image"></block>）、または OK （<block ref="1f713a82aed699daab6064ddfb5af937" category="inline-image-macro-rx" type="image"></block>）。</block>
@@ -4221,14 +4150,9 @@
   <block id="77b0ae415a0cadc7ff1f54850c7625e6" category="list-text">Health ： All Volumes （すべてのボリューム）ビューを表示している場合は、保護するボリュームを探して右クリックし、メニューから * Protect * &gt; * SnapMirror * * を選択します。Configure Protection （保護の設定）ダイアログボックスが表示されます。</block>
   <block id="f52ba981ac20a126c6bf3c85ef56ef28" category="paragraph">保護するソースボリュームよりも前のバージョンの ONTAP で実行されるデスティネーション SVM を指定し、その前のバージョンでバージョンに依存しないレプリケーションがサポートされる場合は、 SnapMirror にバージョンに依存しないレプリケーションが自動的に設定されます。</block>
   <block id="3ecf5b618ede025c9ab779efa87d7824" category="list-text">ソースボリュームと同じバージョンの ONTAP で実行されているデスティネーション SVM を指定し、バージョンに依存しないレプリケーションで SnapMirror を設定する場合は、 * アドバンスト * をクリックしてバージョンに依存しないレプリケーションを有効にし、 * 適用 * をクリックします。</block>
-  <block id="6af1c366c850f055ec525eaeb2ba98f8" category="summary">Storage Virtual Machine ピアの作成ウィザードでは、パートナーの保護アプリケーションを使用してソース Storage VM をデスティネーション Storage VM に関連付け、 SnapMirror 関係と SnapVault 関係で使用することができます。パートナーアプリケーションでは、デスティネーションボリュームの最初のプロビジョニングの際にこれらの関連付けを使用して、選択するリソースを決定します。</block>
-  <block id="b12741b41a001c5120c76ebbb6906169" category="doc">Storage VM ピアを作成しています</block>
   <block id="cd855f2a6babfd09e8661adbd66fd542" category="list-text">関連付ける Storage VM がすでに存在している必要があります。</block>
   <block id="e7ae8c35dd30d581b2afb0bdd41d6022" category="paragraph">すべてのソース Storage VM と関係タイプについて、各デスティネーションクラスタでデスティネーション Storage VM を 1 つだけ選択できます。</block>
   <block id="1f50d476926ce4538385faff1794ca90" category="paragraph">削除機能と作成機能を使用した関連付けの変更は、以降のプロビジョニング処理にのみ反映されます。既存のデスティネーションボリュームは移動されません。</block>
-  <block id="e873bd9b149268e1319b6391958c3134" category="list-text">左側のナビゲーションペインで、 * Protection * &gt; * Storage VM Peers * をクリックします。</block>
-  <block id="fefa3bd0f37c4bbe2b3224ed10a3f04b" category="list-text">SVM ピア * ページで、 * 作成 * をクリックします。</block>
-  <block id="cb0db9fce78a8cedf59b973e66482972" category="paragraph">Storage Virtual Machine ピアの作成ウィザードが起動します。</block>
   <block id="bc069eb87626aebc1bd2b120ad29a95a" category="list-text">次のいずれかのソースを選択します。</block>
   <block id="941f1b096a398e966f8533fbe7669919" category="paragraph">任意のプライマリ Storage VM ソースと 1 つ以上のデスティネーション Storage VM の間で関連付けを作成する場合に、このオプションを選択します。つまり、現時点で保護を必要とする既存のすべての Storage VM と、以降に作成されるすべての Storage VM が、指定したデスティネーション Storage VM に関連付けられます。たとえば、異なる場所にある複数のソースのアプリケーションを 1 箇所にある 1 つ以上のデスティネーション Storage VM にバックアップできます。</block>
   <block id="5f2fa351d88f412c7a32f68ce472fe93" category="paragraph">1 つ以上のデスティネーション Storage VM に関連付けられている特定のソース Storage VM を選択する場合に、このオプションを選択します。たとえば、データを互いに分離する必要のある多数のクライアントにストレージサービスを提供する場合は、このオプションを選択して、特定の Storage VM ソースを、対象のクライアントにのみ割り当てられる特定の Storage VM デスティネーションに関連付けます。</block>
@@ -4381,19 +4305,6 @@
   <block id="fc2427a78034e0d0152e7ffa1b7ed537" category="list-text">「 * Continue * 」をクリックして関係を解除します。</block>
   <block id="290e156192fbc3ad39ae4470a7eb1265" category="list-text">ボリューム関係 * ページで、 * 関係状態 * 列に関係が解除されていることを確認します。</block>
   <block id="a6fd819671a3696ed24be66e93539c1c" category="paragraph">デフォルトでは、 [ 関係の状態（ Relationship State ） ] 列は非表示になっているため、 [ 列の表示 / 非表示（ Show/Hide Column ） ] リストで選択する必要がある場合があります <block ref="34bd982602c6232a32e58052887af0f0" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="efa95b4884c7ad55cef5ff0f22a9f4d0" category="summary">SVM ピアページでは、ソースとデスティネーションの Storage VM 間の既存の Storage VM ピアを表示したり、パートナーアプリケーションが SnapMirror 関係と SnapVault 関係を作成するために使用する新しい Storage VM を作成したりできます。</block>
-  <block id="2a982392e1612a05191cf6ddbfa1593c" category="doc">SVM peers ページにアクセスします</block>
-  <block id="ae82db71950cdba3c98193dd5d6dc78a" category="paragraph">Storage Virtual Machine ピアの作成ページを開きます。</block>
-  <block id="fded0c5c4988f0a0b7f32253f98db7e6" category="paragraph">選択した Storage VM ピアを削除できます。</block>
-  <block id="16b19128ae61170ad9c096423b9c17c7" category="section-title">Storage VM ピアのリスト</block>
-  <block id="47b57e1bffd9f9a11eb4577923a05130" category="paragraph">SVM ピアのリストには、作成されたソースとデスティネーションの Storage VM の関連付けと、各関連付けで許可されている保護関係のタイプが表形式で表示されます。</block>
-  <block id="55ba62e9ca581e797c609dca5a830b31" category="list-text">* ソース Storage Virtual Machine *</block>
-  <block id="78dc91bb0108ce04f512e1b2be560981" category="paragraph">ソース SVM の名前が表示されます。</block>
-  <block id="886ce023ef569a2d42dbc3d16774055e" category="paragraph">ソースクラスタの名前が表示されます。</block>
-  <block id="3008bb235f999c5f317dfb5b9108e286" category="list-text">* デスティネーション Storage Virtual Machine *</block>
-  <block id="38d55d2bd99f6700ed6c2c038c765058" category="paragraph">デスティネーション SVM の名前が表示されます。</block>
-  <block id="918325ed98d67df1964d7fd5ad695dd3" category="paragraph">デスティネーションクラスタの名前が表示されます。</block>
-  <block id="f1cccf26d53ddd05424d38fb169cb14b" category="paragraph">保護関係のタイプが表示されます。関係タイプは、 SnapMirror または SnapVault のいずれかです。</block>
   <block id="3a1959ef1a7dc429f4d0104a88edeb42" category="summary">ボリューム関係ページでは、保護関係を休止してデータ転送を一時的に停止できます。関係の休止は、データベースを含む SnapMirror デスティネーションボリュームの Snapshot コピーを作成する場合に、 Snapshot コピーの処理中にデータベースコンテンツの安定を確保する目的で行うことがあります。</block>
   <block id="c44e1b9f4c3415a502140c8dfb077c9b" category="doc">ボリューム関係ページで保護関係を休止しています</block>
   <block id="196892ce9e55aaf94daf6273ddc90814" category="paragraph">次の場合は休止操作が表示されません。</block>
@@ -4425,13 +4336,8 @@
   <block id="972a9014bb0bfc9f3b884b6c23ef2517" category="list-text">Web UI をリロードして Workflow Automation の機能を追加するには、「 * Yes 」をクリックします。</block>
   <block id="62580aa51e9dd22e6410288365e0cfae" category="inline-link">ネットアップのマニュアル： OnCommand Workflow Automation （現在のリリース）</block>
   <block id="385f2125f2c2eed2ad18d00d78cfc7d4" category="paragraph"><block ref="385f2125f2c2eed2ad18d00d78cfc7d4" category="inline-link-rx"></block></block>
-  <block id="211fcc46210c802376e8a05e5b121781" category="summary">パートナーアプリケーション用の Storage VM ピアを削除して、ソースとデスティネーションの Storage VM 間のセカンダリプロビジョニング関係を削除できます。この処理は、たとえば、デスティネーション Storage VM がいっぱいになったために新しい Storage VM 保護ピアを作成する場合などに行います。</block>
-  <block id="8b3f5d68c02c2a4ca1b1389570caf07d" category="doc">Storage VM ピアを削除しています</block>
-  <block id="cea86a01121943e33e0d143d2ee4525f" category="paragraph">Delete * ボタンは、少なくとも 1 つの Storage VM ピアが選択されるまで無効になります。関連付けの削除と追加による変更は、以降のプロビジョニング処理にのみ反映されます。既存のデスティネーションボリュームが移動されることはありません。</block>
-  <block id="ea664e4a357b117a2d5e11309531b2a1" category="list-text">Storage VM ピアを少なくとも 1 つ選択してください。</block>
   <block id="3eabaead42f5f7f6cec383644c048895" category="paragraph">* Delete * （削除）ボタンが有効になっています。</block>
   <block id="681505e48158965ebaeed0d2df2a1fca" category="list-text">[ 削除 ] をクリックします。 *</block>
-  <block id="72974a0f04f1178a2c3fade391929cd3" category="paragraph">選択した Storage VM ピアがリストから削除されます。</block>
   <block id="9b2c1ed96990ab18ff40a6a49a31144c" category="summary">新しい SnapVault ポリシーを作成して SnapVault 転送の優先度を設定できます。ポリシーを使用することで、保護関係におけるプライマリからセカンダリへの転送効率を最大化できます。</block>
   <block id="7cc6454d15c5e0d08ca32cd572bc6939" category="doc">転送効率を最大化するための SnapVault ポリシーを作成する</block>
   <block id="adb525c4f675ad06c6875d775e0f65ad" category="list-text">[ 保護の設定 ] ダイアログボックスの [ 接続先情報 ] 領域が既に完了している必要があります。</block>
@@ -4442,9 +4348,6 @@
   <block id="b1e2fd08f0942f1db1d048c03d8939ac" category="list-text">* オプション： * [* コメント * （ * Comment * ） ] フィールドに、ポリシーのコメントを入力します。</block>
   <block id="45a76f8eacc1ca960404c7d018b39ebb" category="list-text">レプリケーションラベル * 領域で、必要に応じてレプリケーションラベルを追加または編集します。</block>
   <block id="a36c1fc493d26dfdc29105ef7011a23d" category="paragraph">新しいポリシーが [Create Policy] ドロップダウンリストに表示されます。</block>
-  <block id="898a67b9ac61663670d605ccaec1f8f2" category="summary">Storage VM Peers ページを使用して、既存の Storage VM ピアとそのプロパティを表示したり、追加の Storage VM が必要かどうかを確認したりできます。</block>
-  <block id="7c8359e321282c2dcba0d0487956d276" category="doc">Storage VM ピアの表示</block>
-  <block id="7bd9cb218372285d85e6fa15976ce620" category="paragraph">Storage VM ピアとそのプロパティのリストが表示されます。</block>
   <block id="fdb114cc52d0df1389b777d80f9dbf95" category="summary">デスティネーションボリュームのスペースギャランティの設定を有効にするには、詳細設定ダイアログボックスを使用します。詳細設定は、ソースではスペースギャランティが無効になっている状況において、デスティネーションでスペースギャランティを有効にする場合に使用します。SnapMirror 関係の重複排除、圧縮、および自動拡張の設定はソースボリュームから継承され、変更することはできません。</block>
   <block id="c53a2ea5684792ffef8f660a8d8e822f" category="doc">Advanced Destination Settings ダイアログボックス</block>
   <block id="6945317d8b0db275e1b767843815fe73" category="section-title">スペースギャランティ</block>
@@ -4485,33 +4388,16 @@
   <block id="61d33a2f59fc1818883ab99b2aa3c7de" category="summary">データ保護ページには、データセンター内で保護されているすべてのボリュームのデータ保護の詳細が全体的に表示されます。</block>
   <block id="d19670f77aee82fbec428cd8a280d1c3" category="doc">ボリュームの保護ステータスを表示しています</block>
   <block id="efa8584b9264c2d34dd884498d614984" category="paragraph">データ保護ページには、単一クラスタまたはデータセンター内のすべてのクラスタで保護されているすべてのボリュームのデータ保護の詳細が全体的なビューで表示されます。</block>
-  <block id="64332ce68042970c3d35c31074370221" category="paragraph">これらの詳細は、ダッシュボードのデータ保護パネルの上部にある右矢印をクリックすると表示できます。この画面には 2 つのセクションがあります。ダッシュボードですべてのクラスタを選択すると、「すべてのクラスタ」セクションに、 SnapMirror 関係と Snapshot コピーで保護されているデータセンターレベルのすべてのクラスタの保護ステータスが表示されます。個々のクラスタセクションで特定のクラスタを選択すると、そのクラスタ内で保護されているボリュームのステータスが表示されます。</block>
-  <block id="4907beb1e99d45188b753adebc981436" category="paragraph">ダッシュボードで単一のクラスタを選択した場合は、そのクラスタで保護されているボリュームの詳細が表示されます。</block>
-  <block id="1a5373df50f13823428b45e5607c8288" category="paragraph">各棒グラフにマウスを合わせると、それぞれの数を確認できます。棒グラフをクリックすると、 Volumes （ボリューム）画面が開き、それぞれのボリュームが選択されます。これらの各イベントのリンクをクリックすると、 [ イベントの詳細 ] ページが表示されます。[ すべて表示 *] リンクをクリックすると、 [ イベント管理 ] インベントリページですべてのアクティブな保護イベントを表示できます。</block>
   <block id="b0e0ed81a414c61d19e9faf379612eda" category="list-text">すべての監視対象クラスタのデータ保護ステータスを表示するか、 1 つのクラスタのデータ保護ステータスを表示するかに応じて、 * すべてのクラスタ * を選択するか、ドロップダウンメニューから 1 つのクラスタを選択します。</block>
-  <block id="ef69dd54941839389d8f5c1ad0ec080d" category="list-text">[ データ保護 ] パネルの右矢印をクリックします。</block>
-  <block id="0a744df930cf119103672a6734dfb507" category="section-title">Data Protection ページに移動します</block>
-  <block id="e4ffacb26e0557b21d884c8244479d0c" category="paragraph">データ保護ページには、すべてのクラスタの保護対象ボリュームについて、次のパネルが表示されます。</block>
-  <block id="ac96048bdb798de6f8535d460fd2af4a" category="admonition">Snapshot コピーのボリューム数の場合は、ソースとデスティネーションの両方のボリュームが考慮されます。SnapMirror 関係では、読み取りと書き込みが有効になっているソースボリュームがカウントされます。デスティネーションボリュームとルートボリュームは考慮されません。SnapMirror の数には、ソースとデスティネーションが同じクラスタまたは異なるクラスタにあるボリュームの数が含まれます。</block>
-  <block id="1055b3701ee60c07c7e03eb50483d847" category="list-text">* スナップショットの概要 * ：以下のような、 Snapshot コピーで保護されたボリュームの概要。</block>
   <block id="8e984f28e5c48ccba4af1263bf69faad" category="list-text">保護されているが Snapshot コピーで保護されていないボリュームの総数。</block>
   <block id="2e3906baac4bd7086e3f61c18c870031" category="admonition">ボリュームを保護対象とする場合は、ボリュームの Snapshot コピーのスケジュールを有効にする必要があります。</block>
-  <block id="71a6bbf63c1b54b8bdf97d327b6e8399" category="list-text">Snapshot コピーのリザーブスペースを使用中または超えているボリュームの合計数。この値は、使用されているディスクスペースの量を確認する場合や、 1 つ以上の Snapshot コピーが削除された場合に再利用可能なスペースを計算する場合に重要です。</block>
   <block id="1107f975941682cb6b641736b0aa1d31" category="list-text">* SnapMirror の概要 * ：次のような、 SnapMirror ポリシーで保護されているボリュームの概要。</block>
   <block id="3a60b741a5557e8aa08d73dc698857dd" category="list-text">Volume SnapMirror 関係、 Storage VM ディザスタリカバリ（ SVM-DR ）、およびその組み合わせなど、それぞれの SnapMirror ポリシーで保護されているボリュームの数。</block>
-  <block id="591455e076868d59cdba2183b58695a5" category="list-text">SnapMirror 関係で遅延が発生しているボリュームの合計数。ボリュームに複数の SnapMirror 関係がある場合は、ワースト遅延が選択されます。</block>
-  <block id="466ddf4e9724c1677ff14837da150545" category="paragraph">個々のクラスタのリストには、特定のクラスタの SnapMirror 関係と Snapshot 保護のステータスが表示されます。</block>
   <block id="8edfc19378266c45d3cf36f429e688f7" category="list-text">* Snapshot Copies Analysis * には、次の情報が含まれています。</block>
   <block id="51c01c75729b5fa023d5ed08b4edc574" category="list-text">Snapshot コピーの個々のイベント。過去 24 時間に生成されたイベントも含まれます。</block>
   <block id="f0ae8a8550f52ce1d214e5fb18f805c4" category="list-text">保護されているボリュームと Snapshot コピーで保護されていないボリュームの詳細チャート。</block>
-  <block id="bf8ea0891c0c41da67428b1580a3f5e8" category="list-text">ボリュームが、リザーブされている Snapshot コピー容量を使用、使用、および超えています。この情報を使用して、 1 つ以上の Snapshot コピーが削除された場合に使用されるスペースを計算したり、再利用できるスペースを再利用できます。</block>
-  <block id="a6ceb6d0ba0792548a5a8c398bcaf8d6" category="list-text">Snapshot コピー数に関するボリューム数の内訳。返される Snapshot コピーの数は、オンラインで使用可能なボリュームの数だけです。</block>
   <block id="780c8c5a0e6bb4760e680dcb28b6e077" category="list-text">* SnapMirror Analysis * には、次の情報が詳細に含まれています。</block>
   <block id="d56f963dcc83eec427c434ef2c4eab7f" category="list-text">SnapMirror 関係に対して発生した個々のイベント。過去 24 時間に発生したイベントも含まれます</block>
-  <block id="fab80019d13d0477e0025a920589aa8f" category="list-text">Volume SnapMirror 関係、 Storage VM ディザスタリカバリ（ SVM-DR ）、およびその組み合わせなど、各 SnapMirror ポリシーで保護されているボリュームの数。</block>
-  <block id="c0f66f57d9d712568156f3b260416aea" category="list-text">SnapMirror 関係で保護されるボリュームの数。非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、 StrictSync 、 SnapMirror ビジネス継続性（ SMBC ）整合グループ、同期など。</block>
-  <block id="0e1fe953d78fc893f47e2ba002baf05c" category="list-text">関係ステータスが「正常」または「正常でない」のボリュームの数。ボリュームは、すべての SnapMirror 関係が正常な状態である場合にのみ、正常であるとみなされます。</block>
-  <block id="d168bc6b08b3094d1d14fb532321c27e" category="list-text">ボリューム数の内訳として、 Recovery Point Objective （ RPO ；目標復旧時点）の遅延時間が表示されます。</block>
   <block id="f0de0fe5a83917f4b715ebdaa971c5b7" category="summary">SnapMirror および SnapVault の基本または詳細スケジュールを作成して、ソースボリュームまたはプライマリボリュームで自動データ保護転送を有効にすることができます。ボリュームでのデータ変更の頻度に応じて、転送の実行頻度を調整することができます。</block>
   <block id="6580276b7d1b191f71dd48ef9a6bae01" category="doc">SnapMirror スケジュールと SnapVault スケジュールを作成</block>
   <block id="294bcfade06abc0b236d572becedae78" category="list-text">[ 保護の設定 ] ダイアログボックスの [ 宛先情報 ] 領域に、すでに入力されている必要があります。</block>
@@ -4624,7 +4510,6 @@
   <block id="2b8a390c9d807a8f2a5ffbcb3f94eec0" category="paragraph">[Edit Resource Pool] ウィンドウが表示されます。</block>
   <block id="eff4c71d505881effd29cb9385e84d09" category="list-text">必要に応じて、リソースプール名と概要を編集します。</block>
   <block id="7ea0063870b3cf8512c8d5af60671a0e" category="paragraph">リソースプールのリストに新しい名前と概要が表示されます。</block>
-  <block id="09b5c43509703a54bc7df15066a66381" category="summary">Storage VM ディザスタリカバリ関係は、インベントリの保護セクションにある関係ページで監視できます。デフォルトでは、関係ページには、コンスティチュエント関係のフィルタが適用されたときの上位レベルの関係のみが表示されます。</block>
   <block id="5c196853deac6391854895386e646897" category="doc">カンケイヘエシヲシヨウシタ Storage VM ノカンシ</block>
   <block id="5bad779f049e7a02cf94db40e2098a90" category="paragraph">フィルタを使用して Storage VM ディザスタリカバリ関係を表示します。</block>
   <block id="027c071716ffaad6dde0b33788f176e3" category="list-text">左側のナビゲーションペインで、 * protection * &gt; * Relationships * （保護 * &gt; * 関係 * ）をクリックします。</block>
@@ -4685,7 +4570,6 @@
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">Unified Manager を Windows に正しくインストールするには、 Unified Manager をインストールするシステムがソフトウェアの要件を満たしている必要があります。</block>
   <block id="abbfbdaf21746bca446ca43c755eb8ef" category="doc">Windows ソフトウェアとインストールの要件</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">オペレーティングシステムソフトウェア</block>
-  <block id="234ad54522d9925af496168ab12f5c8d" category="paragraph">Unified Manager は、 Windows の次のエディションにインストールできます。 * Microsoft Windows Server 2016 Standard Edition および Datacenter Edition * Microsoft Windows Server 2019 Standard Edition および Datacenter Edition</block>
   <block id="84d4d095f4b0442f31e07426efa9b0a7" category="paragraph">Unified Manager は、以下の言語で 64 ビットの Windows オペレーティングシステムでサポートされています。</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="list-text">英語</block>
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">日本語</block>
@@ -4698,8 +4582,6 @@
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Unified Manager にバンドルされているサードパーティパッケージを次に示します。これらのサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;2015 再頒布可能パッケージバージョン 14.26.28720.3</block>
   <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Visual Studio 2013 バージョン 12.0.40660.0 の Microsoft Visual C&amp;#43;&amp;#43; 再頒布可能パッケージ</block>
-  <block id="b69583bdad3a63373172cbe89ddde845" category="list-text">Python 3.9.x</block>
-  <block id="0c487400e7de3d10fd03ccbb93cad0bb" category="list-text">OpenJDK バージョン 11.0.12</block>
   <block id="3eb9f5dac9a6d7c6556c2754973bdc44" category="list-text">p7zip バージョン 18.05 以降</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">Unified Manager 9.5 以降、 OpenJDK は Unified Manager のインストールパッケージに含まれており、自動的にインストールされます。Unified Manager 9.5 以降では Oracle Java はサポートされません。</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">MySQL がインストールされている場合は、次の点を確認してください。</block>
@@ -4716,11 +4598,9 @@
   <block id="ce103923838f9bc916d8e7cb36cf9794" category="list-text">Microsoft IIS World Wide Web Publishing サービスを無効にして、ポート 80 および 443 が空いていることを確認する必要があります。</block>
   <block id="a52e8dd64ba5c532ee8a9127c4a53694" category="list-text">インストール中は、「 Windows Installer RDS Compatibility 」のリモートデスクトップセッションホスト設定が無効になっていることを確認してください。</block>
   <block id="2e9f7284307b6c63613fea773cab2249" category="list-text">UDP ポート 514 を他のサービスで使用されないように空けておく必要があります。</block>
-  <block id="a8ffce21d748532a69e40672feeeaef6" category="paragraph">Unified Manager のインストールプログラムは、 Windows Defender で次の項目を除外するように設定します。</block>
   <block id="443953c08ed4d54d7066b9aa4207cbbe" category="list-text">Unified Manager データディレクトリ</block>
   <block id="92989804e9614b922b48cda022c3a4c9" category="list-text">Unified Manager インストールディレクトリ</block>
   <block id="560a4b149b9bbe1df98009b8d0ebcf46" category="list-text">MySQL データディレクトリ</block>
-  <block id="f2f43eb69cd848b60346743d98242154" category="paragraph">サーバに別のウィルス対策ソフトウェアがインストールされている場合は、これらを手動で除外する必要があります。</block>
   <block id="cfe968c64b22de8426ac7f90136f1316" category="summary">仮想インフラまたは物理システムに Unified Manager をインストールする場合、メモリ、 CPU 、およびディスクスペースの最小要件を満たす必要があります。</block>
   <block id="d6145dcd730a183bcf77f4b71f69e639" category="doc">仮想インフラおよびハードウェアシステムの要件</block>
   <block id="0ef1e75692a257ada16b2a5f71393746" category="paragraph">次の表に、メモリ、 CPU 、およびディスクスペースの各リソースについて、推奨される値を示します。これらは、 Unified Manager が許容されるパフォーマンスレベルを達成することが確認されている値です。</block>
@@ -4884,17 +4764,13 @@
   <block id="a17f437aedf2eddaf8ba841b0c1aeb45" category="doc">Unified Manager をアンインストールしています</block>
   <block id="9722ab728446f937c918c0e5e4e40c5e" category="list-text">ソフトウェアをアンインストールする前に、 Unified Manager サーバからすべてのクラスタ（データソース）を削除しておく必要があります。</block>
   <block id="2d3ba2f501d37069b8008b423d5274ab" category="list-text">次のいずれかを実行して Unified Manager をアンインストールします。</block>
-  <block id="789480eefa867b16c3a85237d473ed23" category="cell">Unified Manager をアンインストールする方法</block>
   <block id="c1325f6903ebb5ebb2bb519a73ddb1b0" category="cell">作業</block>
-  <block id="e2157921c8787523debaa4fbda78086e" category="paragraph">プログラムと機能ウィザード：</block>
-  <block id="853ae90f0351324bd73ea615e6487517" category="cell">：</block>
   <block id="c84847b1c0a346868ca317d209ade628" category="list-text">[ コントロールパネル *&gt;* プログラムと機能 * ] に移動します。</block>
   <block id="3be4bd1042d49050b5bccb3d066f2f3b" category="list-text">Active IQ Unified Manager を選択し、 * Uninstall * をクリックします。</block>
   <block id="760fbdfafca0cf0cfd2502103679fc22" category="paragraph">コマンドライン</block>
   <block id="4499aa2594bc72ac198b29f4d2e83a5f" category="paragraph">サーバでユーザアカウント制御（ UAC ）が有効になっていて、ドメインユーザとしてログインしている場合は、コマンドラインによるアンインストールを実行する必要があります。</block>
   <block id="ee99d2d1577097422ec79510b2fd84e9" category="paragraph">Unified Manager がシステムからアンインストールされます。</block>
   <block id="cee9c9f467d07df0f536920b0c81137d" category="list-text">Unified Manager のアンインストール時に削除されない次のサードパーティパッケージとデータをアンインストールします。</block>
-  <block id="7438230d8a9b1f99f2b10963201bec22" category="list-text">サードパーティパッケージ： JRE 、 MySQL 、 Microsoft Visual C&amp;#43;2015 再頒布可能パッケージ、 7zip</block>
   <block id="894a8f514225c80240b55b038fd71a5b" category="list-text">Unified Manager によって生成された MySQL のアプリケーションデータ</block>
   <block id="4ce380ffb0c2ac7f432c9a646e41fc52" category="list-text">アプリケーションログとアプリケーションデータディレクトリの内容</block>
   <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">Windows で Unified Manager をダウンロードしてインストールする一連の手順を理解することが重要です。</block>
@@ -4908,7 +4784,6 @@
   <block id="5daa5e1fcf40ce18b66f6bcc86e1fc79" category="paragraph">アイデンティティプロバイダ（ IdP ）でユーザを認証できるように Unified Manager で SAML 認証を設定する場合は、 IdP でサポートされるブラウザのリストも確認してください。</block>
   <block id="c3aaa3d5e1c6e7542a12d69e8624f700" category="summary">Unified Manager をアップグレードするには、 Windows プラットフォームでインストールファイルをダウンロードして実行します。</block>
   <block id="0521c408c6c49e7445ee8ef5abc25b44" category="doc">Unified Manager をアップグレードする</block>
-  <block id="391e3ccecfd1a5bc4a6b1424155e04b7" category="paragraph">Windows プラットフォームで Unified Manager 9.8 または 9.9 から 9.10 にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="433edfcc5f5751863b077c654c315d95" category="list-text">Unified Manager をアップグレードするシステムがシステム要件とソフトウェア要件を満たしている必要があります。</block>
   <block id="0ebe162817a0beff48242b1dc3ac7f2d" category="inline-link-macro">ハードウェアシステムの要件</block>
   <block id="6809e5c79eb6a750a89a2ba4592b6b72" category="paragraph"><block ref="6809e5c79eb6a750a89a2ba4592b6b72" category="inline-link-macro-rx"></block></block>
@@ -4989,7 +4864,6 @@
   <block id="b014cda139580b337c10a0df729494ba" category="list-text">Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。</block>
   <block id="ab52ec799c459cf45e42ec0d063a73fe" category="list-text">MySQL の root ユーザのパスワードが必要です。</block>
   <block id="c3d0e635616031ccca55f35ac35769c2" category="list-text">ディレクトリにある、ネットアップが提供する「 password.bat 」スクリプトにアクセスできる必要があります</block>
-  <block id="8eda65499ae27c0fca3257012afe8f30" category="paragraph">「 \Program Files\NetApp\essentials\bin 」にあります。</block>
   <block id="b38dd1119d43581dc92fe29ccecf4465" category="list-text">Unified Manager ホストマシンに admin ユーザとしてログインします。</block>
   <block id="11de7b3c75301534d4163a29dd7de95f" category="list-text">Windows サービスコンソールを使用して、次の Unified Manager サービスを停止します。</block>
   <block id="d009625a0fc75690f7f94100d6ed3196" category="list-text">「 password.bat 」スクリプトを起動して、パスワード変更プロセスを開始します。</block>
@@ -5009,16 +4883,13 @@
   <block id="9520854478b675c31f0555786a67f9b4" category="summary">Unified Manager がインストールされている Windows サーバで OpenJDK を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。</block>
   <block id="b70d1d0a2a88ed730b8d7e854c93fdbe" category="doc">OpenJDK のアップグレード</block>
   <block id="27a27fa27099c3dd7d2e0cb3d56381f0" category="paragraph">Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。</block>
-  <block id="7e85600490b8fb8f09d8eed3dac925a5" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、 OpenJDK 11.0.9 から OpenJDK 11.0.12 にアップグレードできますが、 OpenJDK 11 から OpenJDK 12 に直接更新することはできません。</block>
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">OpenJDK の適切なバージョン（ 64 ビット）をターゲットシステムにダウンロードします。</block>
   <block id="db7fdcdf000c603674beba9fdd7c8075" category="paragraph">たとえば、から「 openjdk-11_windows-x64_bin.zip 」をダウンロードします<block ref="b90546eba13061ee913dc6d313e28839" category="inline-link-rx"></block>。</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">「 zip 」ファイルを展開します。</block>
-  <block id="e63adb915964a7470fb81d10efd31708" category="list-text">作成された「 jdk' 」ディレクトリ ( たとえば「 jdk-11.0.12` 」 ) のディレクトリとファイルを Java がインストールされている場所にコピーします。例： C ： \Program Files\NetApp\JDK\`</block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">Windows サービスコンソールを使用して Unified Manager サービスを開始します。</block>
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux プラットフォームでの Unified Manager のクイックスタートガイドです。</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows インストールのクイックスタート手順</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">システム要件</block>
-  <block id="c77a66b379540bb4341f088044ab2a10" category="list-text">オペレーティングシステム： Microsoft Windows Server 2016 および 2019 の 64 ビット Standard Edition および Datacenter Edition次の言語がサポートされています。</block>
   <block id="a2d94c8de89a700634c79d7c9d4fc2c0" category="list-text">RAM ： 12GB</block>
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU ：合計 9572MHz</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">空きディスクスペース：インストールディレクトリ用に 100GB 、 MySQL データディレクトリ用に 50GB のディスクスペースが必要です</block>
@@ -5340,15 +5211,12 @@
   <block id="b05f44518adbc76950119415dab7a92e" category="paragraph">サービスプロセッサがオフラインです（ Document EvtServiceProcessorOffline ）</block>
   <block id="3382e9ca606f74cdded9fdde703350de" category="summary">Unified Manager は、新しい Active IQ ルールファイルの有無を自動的にチェックし、ある場合は新しいファイルをダウンロードします。ただし、外部ネットワークへのアクセスがないサイトでは、ルールファイルを手動でアップロードする必要があります。</block>
   <block id="47a1bdec12f9908ef6c7d1f58fb4b4c5" category="doc">新しい Active IQ ルールファイルをアップロードしています</block>
-  <block id="ea75e424bca80f4ec587ba490969d40c" category="list-text">Active IQ イベントレポートを有効にしておく必要があります。</block>
   <block id="53a36a15b8ceb49552246904985c7ed0" category="list-text">ルールファイルをネットアップサポートサイトからダウンロードする必要があります。</block>
-  <block id="9b5415e4731d301fb8c7af3f1f2913d7" category="paragraph">ストレージシステムを確実に保護し、最適な状態で運用を続けるために、月に一度は新しいルールファイルをダウンロードすることを推奨します。ルールファイルは次の場所にあります。<block ref="09d2f5e3e45bfdce0a0610eb279c565b" category="inline-link-rx"></block></block>
   <block id="60dde4212626cebc7bdc85f14ffd4918" category="list-text">ネットワークにアクセスできるコンピュータで、ネットアップサポートサイトにアクセスし、最新のルール「 .zip 」ファイルをダウンロードします。</block>
   <block id="795efe57fc509c635bfd81bae42c429a" category="list-text">ルールファイルをセキュリティエリアに持ち出すことができるメディアに転送し、セキュリティエリアのシステムにコピーします。</block>
   <block id="4421167ad738c8af5d557114df57d61a" category="list-text">[ * イベントの設定 * ] ページで、 [ * ルールのアップロード * ] ボタンをクリックします。</block>
   <block id="ac0e842289c6024c058415ace93b5b9c" category="list-text">[ * ルールのアップロード * ] ダイアログボックスで、ダウンロードしたルール「 .zip 」ファイルに移動して選択し、 [ * アップロード * ] をクリックします。</block>
   <block id="521fae8e49947c61ff1591a5512ef18a" category="paragraph">この処理には数分かかることがあります。</block>
-  <block id="277e15854850b1163619e94dba46434b" category="paragraph">ルールファイルが Unified Manager サーバに解凍されます。午前 0 時過ぎに管理対象クラスタで AutoSupport ファイルが生成されたあと、 Unified Manager がルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。</block>
   <block id="232d482e62b5d5b04041f98245fa580a" category="summary">ディスクのイベントは、ディスクのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="e1b75f1937203420054244f0ccd43b1d" category="doc">ディスクイベント</block>
   <block id="c61ecd1f538d513c52cdf36a444d7a7c" category="paragraph">フラッシュディスク - スペアブロックがほぼ使用されています（ Document EvtClusterFlashDiskFewerSpareBlockError ）</block>
@@ -5772,17 +5640,13 @@
   <block id="94c9d75efcd8cb6ea599403a5a380a59" category="paragraph">開始時間に達すると、クラスタがメンテナンスモードになり、「 Object Maintenance Window Started 」イベントが生成されます。</block>
   <block id="7491ba98277407189786487949ead132" category="summary">動的なパフォーマンスイベントの場合、イベントの詳細ページのシステム診断セクションに、競合状態のクラスタコンポーネントのレイテンシまたは使用量が最も高い上位のワークロードが表示されます。パフォーマンス統計は、パフォーマンスイベントが検出されてからイベントが最後に分析されるまでの時間に基づいています。このグラフには、競合状態のクラスタコンポーネントの過去のパフォーマンス統計も表示されます。</block>
   <block id="9ae243581bbda56a359c59bee68b6c53" category="doc">動的なパフォーマンスイベントチャートの詳細</block>
-  <block id="97757c42f4e50e7a50165f62ad57b19c" category="paragraph">たとえば、コンポーネントの利用率が高いワークロードを特定して、利用率が低いコンポーネントに移動するワークロードを特定できます。ワークロードを移動すると、現在のコンポーネントでの作業量が減り、コンポーネントの競合状態が解消する可能性があります。このセクションには、イベントが検出されて最後に分析された時刻と日付の範囲が表示されます。アクティブなイベント（新規または確認済みのイベント）の場合は、最後に分析された時刻が継続的に更新されます。</block>
-  <block id="df0ef18578ba604e1705bebc4678bdd3" category="paragraph">レイテンシとアクティビティのグラフにカーソルを合わせると、上位のワークロードの名前が表示されます。グラフの右側にあるワークロードのタイプメニューをクリックすると、イベントでのワークロードのロールに基づいてワークロードをソートできます。これには、 _Shark 、 _Bully 、 _Victim の各ワークロードのレイテンシと競合しているクラスタコンポーネントでの使用状況の詳細が表示されます。実際の値と想定値を比較して、ワークロードがレイテンシまたは使用量の想定範囲を外れたタイミングを確認できます。Unified Manager で監視されるワークロードを参照してください。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">レイテンシのピーク偏差でソートする場合は、システム定義のワークロードがテーブルに表示されません。これは、レイテンシがユーザ定義のワークロードにのみ適用されるためです。レイテンシの値が小さいワークロードはこのテーブルに表示されません。</block>
-  <block id="f4e4699c007dae28f5198390082cd17e" category="paragraph">動的なパフォーマンスしきい値の詳細については、「イベントとは」を参照してください。Unified Manager でワークロードをランク付けしてソート順序を決定する方法については、 Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組みを参照してください。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">グラフ内のデータには、イベントが最後に分析されるまでの 24 時間のパフォーマンス統計が示されます。各ワークロードの実際の値と想定値は、ワークロードがイベントに関連した時刻に基づいています。たとえば、イベントの検出後にワークロードがイベントに関連した可能性があるため、そのパフォーマンス統計がイベント検出時の値と一致しないことがあります。デフォルトでは、レイテンシのピーク（最大）偏差でワークロードがソートされます。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">Unified Manager では 5 分ごとのパフォーマンスとイベントの履歴データが最大 30 日分保持されるため、 30 日前より古いイベントの場合、パフォーマンスデータは表示されません。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">* ワークロードソート列 *</block>
   <block id="12f3d074758a71c04659536f7c71fe85" category="list-text">* レイテンシグラフ *</block>
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">前回の分析中の、ワークロードのレイテンシに対するイベントの影響が表示されます。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">* コンポーネント使用状況列 *</block>
-  <block id="7c1f3eeafc59e1d661d732b95f6ccf9c" category="paragraph">競合状態のクラスタコンポーネントのワークロードの使用量に関する詳細が表示されます。グラフでは、実際の使用量は青い線で表示されます。検出時刻から最後に分析された時刻までのイベント期間が赤いバーで強調表示されます。詳細については、 _ ワークロードパフォーマンスの測定値 _ を参照してください。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">ネットワークコンポーネントの場合は、クラスタ以外のアクティビティに基づいてネットワークパフォーマンス統計が作成されるため、この列は表示されません。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">* コンポーネント使用率 *</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">QoS ポリシーグループコンポーネントのネットワーク処理、データ処理、および集約コンポーネントの使用率の履歴、またはアクティビティの履歴をパーセント単位で表示します。ネットワークコンポーネントまたはインターコネクトコンポーネントについては、このグラフは表示されません。統計にカーソルを合わせると、特定の時点における使用状況を表示できます。</block>
@@ -7820,7 +7684,6 @@
   <block id="b6e46cbd1b673d1e673a6e8e057a5c8c" category="paragraph">クラスタ B が復旧してスイッチバックが実行されると、クラスタ B の Vol3p が再びアクティブになり、スイッチオーバー中に過去の統計と統計のギャップが生じます。別のスイッチオーバーが発生するまで、 Vol3b をクラスタ A で表示することはできません。</block>
   <block id="aa79b6dfffdb81f9ff1b71ea8efb4cda" category="image-alt">OPM の MCC ボリューム</block>
   <block id="43380a60a1d5a3dcb4817db0a0bb12c5" category="list-text">スイッチバック後にクラスタ A の Vol3b など、非アクティブな MetroCluster ボリュームは「 This volume was deleted` 」というメッセージで示されます。このボリュームは、実際には削除されていませんが、アクティブなボリュームでないため Unified Manager で現在監視されていません。</block>
-  <block id="b89f5e498abc9e286f68cc0139f527ee" category="list-text">単一の Unified Manager で MetroCluster 構成の両方のクラスタを監視している場合にボリュームを検索すると、その時点でアクティブなボリュームの情報が返されます。たとえば、「 vol3 」を検索すると、スイッチオーバーが発生し、クラスタ A 上で vol3 がアクティブになった場合に、クラスタ A の Vol3b の統計とイベントが返されます</block>
   <block id="e3e95a85fd025a8e0e285e2561159bbe" category="summary">Workload Analyzer ページには、ワークロードに影響している可能性のある現在のイベントに関する情報、イベントの原因となっている問題を修正するための推奨事項、およびパフォーマンスと容量の履歴を分析するためのグラフが表示されます。</block>
   <block id="b5fb18da7c3398568bbe73fbf858fe6c" category="doc">Workload Analyzer で表示されるデータは何ですか</block>
   <block id="ba092de88fbba6144602df834bd7cacd" category="paragraph">ページの上部では、分析するワークロード（ボリュームまたは LUN ）の名前と、統計情報を表示する期間を指定します。表示する期間はいつでも短縮または延長することができます。</block>
@@ -9073,7 +8936,6 @@
   <block id="e5bb72d910c6bd4af263b66381e46d9f" category="paragraph">インストール前にこの情報を定義しておけば、インストールスクリプトで設定が検出され、定義した値がデフォルトのインストール設定の代わりに使用されます。</block>
   <block id="f6dfac06a120ad910330ab2bc9b3dd5e" category="paragraph">また、 Unified Manager のデフォルトのインストールでは、 sudoers ファイル（「 ocum_sudoers 」と「 ocie_sudoers 」）の「 /etc/sudoers.d/ 」ディレクトリに umadmin ユーザが追加されています。セキュリティポリシーや一部のセキュリティ監視ツールによってこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。</block>
   <block id="d4b00de1554eff3ac10e20d1f23e292f" category="paragraph">環境内のセキュリティポリシーでは、 Unified Manager メンテナンスユーザの sudo 権限を制限しないでください。制限されている権限があると、一部の Unified Manager 処理が失敗することがあります。インストールの完了後に umadmin ユーザとしてログインして、次の sudo コマンドを実行できることを確認します。</block>
-  <block id="1a7f1dfeda0d90dbd7609485508fbec6" category="paragraph">'UDO /etc/init.d/ocie status</block>
   <block id="328b8a8d521336be73262ea714c1e325" category="paragraph">エラーが発生せずに ocie サービスの適切なステータスが返されば問題ありません。</block>
   <block id="eec7883a2bcc70de8473576c1f08a5bd" category="list-text">サーバに root ユーザとしてログインします。</block>
   <block id="3daffc60e45994853d71bd4a3d47f4b3" category="list-text">「メンテナンス」という umadmin グループアカウントを作成します。</block>
@@ -9095,12 +8957,10 @@
   <block id="73354680b9aadf478f1227e2ce786698" category="paragraph">出力例を次に示します。</block>
   <block id="621484ac778dedeb75471521b4e3da7b" category="admonition">この出力では、コンテキストは「 default_t' 」です。このコンテキストを「 mysqld_db_t' 」に変更してください。</block>
   <block id="fa2520cc69af2b496fc097509862e5e6" category="list-text">/opt/NetApp/data のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。</block>
-  <block id="8cce1b3b882f8a60215ae93e9b8463b4" category="list-text">次のコマンドを実行して、コンテキストを「 `mysqld_db_t` 」に設定します。</block>
   <block id="34ebc927070d1f0f0d168222751672fe" category="list-text">/etc/fstab に /opt/NetApp/data を設定している場合は '/etc/fstab ファイルを編集する必要があります/opt/NetApp/data/' マウント・オプションの場合は 'MySQL ラベルを次のように追加します</block>
   <block id="2ff1717e7948ea020c7558f5edcec1eb" category="paragraph">`context=system_u:object_r:mysqld_db_t:s0`</block>
   <block id="d488a1160c393f49a2c9ed8bd9ebe7ff" category="list-text">コンテキストを有効にするために '/opt/NetApp/data/ をアンマウントして再マウントします</block>
   <block id="467d316f506a1751012e8dc8bb6ab3b6" category="list-text">NFS を直接マウントしている場合は、次のコマンドを実行してコンテキストを「 m ysqld_db_t 」に設定します。</block>
-  <block id="372632985965e1ae915d17aaf74889b9" category="paragraph">`m ount &lt;nfsshare&gt;:/ &lt;mountpoint&gt;/opt/NetApp/data-o context=system_u:object_r:mysqld_db_t:s0`.コンテキストが正しく設定されているかどうかを確認します。</block>
   <block id="f39e428b6f0460103461690dc7698da5" category="paragraph">ls -DZ /opt/NetApp/data/`</block>
   <block id="5a2ae553bb790b75ebf1d88245170467" category="section-title">/opt/netapp がマウントされていて、 /opt/netapp/data も別途マウントされている場合に、 SELinux コンテキストを設定します</block>
   <block id="6a67b52571647cab034e5469c7dbe03b" category="paragraph">このシナリオでは、最初に前のセクションで説明したように、「 /opt/NetApp/data/ 」のコンテキストを設定する必要があります。「 /opt/NetApp/data/ 」のコンテキストを正しく設定したら、親ディレクトリ「 /opt/netapp 」に SELinux コンテキストが「 file-t 」に設定されていないことを確認します。</block>
@@ -9118,7 +8978,6 @@
   <block id="456be3986dc6aff928e7e16f07f8562f" category="section-title">/opt/netapp がマウントされていて、 /opt/netapp/data が別途マウントされていない場合に、 SELinux コンテキストを設定します</block>
   <block id="783fab70a524af7455cb9f3470f68fdd" category="paragraph">システムに「 /opt/netapp 」をマウントして、 SELinux が「 Enforcing 」に設定されている場合は、「 /opt/netapp 」の SELinux コンテキストタイプが「 m ysqld_db_t' 」に設定されていることを確認します。これは、データベースファイルの場所に対応するデフォルトのコンテキスト要素です。</block>
   <block id="8c5fb5a31457ddb0a355f79b5006fd17" category="list-text">/opt/netapp のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。</block>
-  <block id="6f9bd0afae96bb9d85903bf888bb1a45" category="list-text">/etc/fstab に /opt/netapp を設定している場合は '/etc/fstab ファイルを編集します/opt/NetApp/マウント ・オプションの場合は 'MySQL ラベルを次のように追加します</block>
   <block id="f9051411037b243027cff1ee99de2113" category="list-text">コンテキストを有効にするために '/opt/NetApp/' をアンマウントしてから再度マウントします</block>
   <block id="02c78a8183418401c853e94f3d195414" category="paragraph">ls -DZ /opt/NetApp/`</block>
   <block id="77d0d0a6430abce719553e446f56f1b1" category="summary">Unified Manager は、 Red Hat Enterprise Linux または CentOS の物理プラットフォームまたは仮想プラットフォームにインストールできます。</block>
@@ -9171,11 +9030,8 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。</block>
   <block id="e1b471357a7f865e8079b188a4eedcd7" category="doc">Linux ソフトウェアとインストールの要件</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。</block>
-  <block id="ee615346278b33520c4013511a807b10" category="list-text">x86_64 アーキテクチャに基づく Red Hat Enterprise Linux または CentOS バージョン 7.x および 8.x 。CentOS ストリームはサポートされていません。</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。</block>
-  <block id="ba319a4c4016780cd7c22ad751a1ad56" category="admonition">ネットアップは、 Microsoft System Center Configuration Manager （ SCCM ）などのサードパーティツールを使用した Unified Manager のインストールをサポートしていません。</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります</block>
-  <block id="4b7bbc94176007b0c7640a27ef7b6282" category="list-text">OpenJDK バージョン 11.0.12 （ Red Hat Extra Enterprise Linux Server リポジトリから入手）</block>
   <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
   <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">サードパーティ製ソフトウェアをアップグレードする前に、 Unified Manager の実行中のインスタンスをシャットダウンする必要があります。サードパーティ製ソフトウェアのインストールが完了したら、 Unified Manager を再起動できます。</block>
@@ -9265,7 +9121,6 @@
   <block id="4b9d5e4986edb2a9d0749936a3c5a16a" category="summary">インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。</block>
   <block id="90076945ee4945f723bcfab540de5957" category="doc">必要なソフトウェアリポジトリをセットアップする</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux インストールのクイックスタート手順</block>
-  <block id="ad725a8cf93b940ceeb22009da4cbe69" category="list-text">オペレーティングシステム： Red Hat Enterprise Linux および CentOS バージョン 7.x および 8.x （ x86_64 アーキテクチャに基づく）は、 OS インストーラの「ソフトウェア選択 * 」オプションの「 Server with GUI 」ベース環境を使用してインストールされます</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM ： 12 GB 、 CPU ：合計 9572MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">空きディスク領域： /opt/NetApp/data ディレクトリに 100 GB のディスク領域、ルートパーティションに 50 GB 。個別にマウントされた '/opt/'/var/log' ディレクトリの場合は '/opt/'var/log' に 15 GB'/tmp に 10 GB の空き領域があることを確認してください</block>
   <block id="5b2ce921bf2eb800e2901c4f436230d9" category="paragraph">システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください <block ref="510d66df11f8e08701d0e806aec8f2c4" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
@@ -9287,7 +9142,6 @@
   <block id="c2d77eb29a616635aaace5e484e7110e" category="paragraph">Unified Manager がインストールされている Red Hat Enterprise Linux サーバまたは CentOS サーバへの root ユーザアクセスが必要です。</block>
   <block id="bd4c43ed11101c9806bd4fded878628b" category="list-text">Unified Manager サービスを再起動するサーバに root ユーザとしてログインします。</block>
   <block id="b29348a660e9e748ea4fd292d57cfaf5" category="summary">Unified Manager をアップグレードするには、 Red Hat プラットフォームでインストールファイルをダウンロードして実行します。</block>
-  <block id="13ddd135bd2860acc9d2a7dde58cf8b6" category="paragraph">Red Hat プラットフォームで Unified Manager 9.8 または 9.9 から 9.10 にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="851b63dfbfda9a56a4773ddff04a3bb8" category="list-text">Unified Manager をアップグレードするシステムがシステム要件とソフトウェア要件を満たしている必要があります。</block>
   <block id="476492554416aa7a1518b6deeea2245d" category="list-text">Unified Manager をアップグレードする前に、適切なバージョンの OpenJDK をインストールするか、または適切なバージョンにアップグレードする必要があります。</block>
   <block id="7db7f0fa38ea709bf1cfa08b1cc2edf4" category="inline-link-macro">Linux での JRE のアップグレード</block>
@@ -9295,7 +9149,6 @@
   <block id="e4ed881267e1fda6e2abe689c01e2602" category="list-text">Red Hat Enterprise Linux Subscription Manager への登録が必要です。</block>
   <block id="ed2c45fc23f3cfea044bc28997ea71c4" category="list-text">アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。また、バックアップ・ファイルを「 /opt/NetApp/data 」ディレクトリから外部の場所に移動することをお勧めします。</block>
   <block id="57631e141b8f0f57a0f764b018516b87" category="list-text">アップグレードプロセスの実行中は Unified Manager を使用できなくなるため、実行中の処理がある場合は完了しておいてください。</block>
-  <block id="9036fc0a5fcfd893d6d6b4578a8aea1f" category="list-text">このコマンドを実行して新しいバージョンをインストールします :yum install *.rpm`</block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">Unified Manager サーバを起動します。次のコマンドを実行します。</block>
   <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">ターゲットの Red Hat Enterprise Linux サーバまたは CentOS サーバにログインします。</block>
   <block id="9d8fac2d2928116ea867fc277420d176" category="list-text">サーバに Unified Manager のバンドルをダウンロードします。</block>
@@ -9356,7 +9209,6 @@
   <block id="16cb709111f75691259b4300511c4561" category="inline-link-macro">Unified Manager ベストプラクティスガイド</block>
   <block id="7174744f7763cc5d954bc0e92733b774" category="paragraph">また、 1 つの Unified Manager インスタンスで監視できるノードの数には上限があり、この上限を超える場合は 2 つ目の Unified Manager インスタンスをインストールする必要があります。詳細については、を参照してください <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block></block>
   <block id="b09592db93e99e16c02d56499bcc0e46" category="summary">VMware vSphere 上の Unified Manager にアップグレードできます</block>
-  <block id="539da2d4c01289a71cdecb9e92ed5f9d" category="paragraph">Unified Manager 9.10 へのアップグレードは、リリース 9.8 または 9.9 からのみ実行できます。</block>
   <block id="165614b596769629e2b5d0efa723fdc8" category="inline-link-macro">Unified Manager の ISO イメージをダウンロードします</block>
   <block id="638adcb0fb1e666005e78ce6507750e4" category="list-text"><block ref="1527bfdac02a122c6f1ea8d5355cabb9" category="inline-link-macro-rx"></block>。</block>
   <block id="cb06beddce96e08399fea241fef33e34" category="inline-link-macro">Unified Manager をアップグレードします</block>
@@ -9418,7 +9270,6 @@
   <block id="0fe01979c09e5c4c4a13629e8a2dc63f" category="list-text">プロンプトでパスワードを入力し、 * Enter * をクリックします。</block>
   <block id="827e9bc6912741afa9fd15061acbdf3a" category="paragraph">VM コンソールに Unified Manager Web UI の URL が表示されます。</block>
   <block id="b251c0d5b9ac9a245c3e5680b898541b" category="paragraph">Web UI にアクセスして Unified Manager の初期セットアップを実行できます。手順については、 Active IQ Unified Manager システム構成ガイドを参照してください。</block>
-  <block id="6afd3f4c5093ce2e5e2c7336e809091a" category="admonition">MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定を変更し、メンテナンスコンソールから他のホストに接続を提供することができます。</block>
   <block id="add00995c60192dd032b1173fc3f8673" category="admonition">このポートや他のポートを使用して VMware vCenter Server または ESXi サーバに接続する場合は、そのポートが使用可能で、保護されたサイトで接続可能であることを確認してください。</block>
   <block id="c2e93c29da046a9d351a6f1cf070cfc7" category="summary">Unified Manager をアンインストールするには、 Unified Manager ソフトウェアがインストールされている仮想マシン（ VM ）を削除します。</block>
   <block id="6ada6fa6d95057606e896986fa32ae13" category="list-text">VMware vCenter Server と vSphere Web Client にアクセスするためのクレデンシャルが必要です。</block>
@@ -9468,7 +9319,6 @@
   <block id="726763bf5aecf665420de6eeab308805" category="image-alt">展開シーケンス OC 6 0</block>
   <block id="186ee8f743cf6f79dae8d8b6579d0b17" category="summary">Unified Manager 仮想アプライアンスはアップグレードできます</block>
   <block id="a1008c9caf7ebe0f026c39a427ae352b" category="doc">Unified Manager 仮想アプライアンスをアップグレードします</block>
-  <block id="43ccc80c0c263f070a643421783200f4" category="paragraph">Unified Manager 仮想アプライアンスは 9.8 および 9.9 リリースから 9.10 にアップグレードできます。</block>
   <block id="d9a8a070a49436c3c76ab9b3ca5a89ff" category="list-text">ネットアップサポートサイトから ISO イメージのアップグレードファイルをダウンロードしておきます。</block>
   <block id="d24355e99c12f5ea949a960382388c4a" category="list-text">Unified Manager をアップグレードするシステムがシステム要件とソフトウェア要件を満たしている必要があります。</block>
   <block id="f83b30b10a41161d1e74855dfac05f77" category="list-text">vSphere 6.5 以降を使用している場合は、 VMware Remote Console （ VMRC ）をインストールしておきます。</block>
@@ -9907,7 +9757,6 @@
   <block id="2cd66e4cb1059caf02b4b6194a8ee5dd" category="paragraph">クラスタ管理 IP アドレスは、管理用 Storage Virtual Machine （ SVM ）のクラスタ管理 LIF である必要があります。ノード管理 LIF を使用すると処理に失敗します。</block>
   <block id="81bd0e8291ca755124cc9a7da825fd2f" category="list-text">クラスタで ONTAP バージョン 9.1 以降が実行されている必要があります。</block>
   <block id="ef449751178f433197590c3c5074c337" category="list-text">ONTAP 管理者のユーザ名とパスワード</block>
-  <block id="22699c2de937903a991a77ce57d4e158" category="paragraph">このアカウントには、アプリケーションアクセスが _ontapi 、 _ssh_ 、および _http_に 設定された _admin_role が必要です。</block>
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">HTTPS プロトコルを使用してクラスタに接続するポート番号（通常はポート 443 ）</block>
   <block id="519e5490fb88463363f7c8fd07cbbf79" category="list-text">必要な証明書を用意しておきます。次の 2 種類の証明書が必要です。</block>
   <block id="b3b9ec51477086ec9642119cccfc771a" category="inline-link">ONTAP 9 で SSL 証明書を更新する方法</block>
@@ -10487,14 +10336,8 @@
   <block id="545ff8fed052f1a7d89b3009d5b2b769" category="paragraph">検索ボックスを使用して特定のオブジェクト属性を検索し、インベントリページ内の項目のリストを絞り込むことができます。たとえば、「 cloud 」と入力してボリュームインベントリページ内のボリュームのリストを絞り込むと、「 cloud 」という単語が含まれているすべてのボリュームを表示できます。</block>
   <block id="83672ae9d125d72b27dc1fed195fc766" category="list-text">* データのエクスポート *</block>
   <block id="0bdb9561f65edfacafe46db434b17da0" category="paragraph">[*Reports*] ボタン（または [*Export*] ボタン）をクリックすると、データをカンマ区切り値形式（ .csv ）形式のファイル、「 .pdf 」形式のドキュメント、または Microsoft Excel 形式（ .xlsx ）のファイルにエクスポートし、レポートの作成に使用できます。</block>
-  <block id="9d0c2b795242f902ab102f1763823a7b" category="summary">パフォーマンスサービスレベルを使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの作成時または編集時に、パフォーマンスサービスレベルをワークロードに割り当てることができます。</block>
-  <block id="7cb3ba427d55e6e636788665caa3ec26" category="paragraph">ストレージリソースは、サービスレベル目標（ SLO ）に基づいて管理および監視されます。SLO は、必要なパフォーマンスと容量に基づくサービスレベルアグリーメントによって定義されます。Unified Manager では、 SLO と言った場合、ネットアップストレージで実行されているアプリケーションの PSL の定義を表します。ストレージサービスの内容は、基盤となるリソースのパフォーマンスと利用率に基づいて決定されます。PSL はストレージサービス目標の概要です。ストレージプロバイダは、 PSL を使用してワークロードに目標とするパフォーマンスと容量を指定できます。</block>
-  <block id="24f489c836216c262d726fe34baae40e" category="paragraph">Unified Manager には、変更できない組み込みのポリシーがいくつか用意されています。事前定義されたパフォーマンスサービスレベルは「最高レベルのパフォーマンス」、「パフォーマンス」、「バリュー」です。Extreme Performance 、 Performance 、および Value PSL は、データセンターの一般的なストレージワークロードのほとんどに該当します。Unified Manager では、データベースアプリケーション用の PSL として「最高レベル」、「データベース共有データ用の最高レベル」、「データベースデータ用の最高レベル」の 3 つの PSL も提供されます。これらは、バースト IOPS をサポートする非常にハイパフォーマンスな PSL であり、スループットの要求が最も高いデータベースアプリケーションに適しています。事前に定義された PSL が要件に合わない場合は、 PSL のニーズを満たす新しいを作成できます。</block>
-  <block id="d957ef03b1c82352c468b8bb696fc793" category="paragraph">PSL には、「 * Policies * &gt; * Performance Service Levels * 」ページからアクセスできます。また、ストレージプロバイダ API を使用してアクセスできます。PSL を割り当ててストレージワークロードを管理すると、ストレージワークロードを個別に管理する必要がなくなるため便利です。変更については、個別に管理するのではなく、別の PSL を再割り当てして管理することもできます。</block>
   <block id="7005bc0b5df720e94cd308b434fee220" category="paragraph">システム定義の PSL またはワークロードに現在割り当てられている PSL は変更できません。ワークロードに割り当てられている PSL 、または他に使用可能な PSL がない PSL は削除できません。</block>
-  <block id="3be5151bc97f1686c9fef5708fe4dd73" category="paragraph">パフォーマンスサービスレベルページには、使用可能な PSL ポリシーが表示されます。このページで、ポリシーを追加、編集、削除することができます。このページには、次の情報が表示されます。</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
-  <block id="7bf6301ab544e8c9b641a48abd1f8094" category="paragraph">パフォーマンスサービスレベルの名前。</block>
   <block id="0a3c9475d1e35e62da5f0d597fb21890" category="paragraph">システム定義のポリシーかユーザ定義のポリシーか。</block>
   <block id="d092327d9f42b95ebbd634d5d44c3a30" category="paragraph">想定 IOPS</block>
   <block id="7bf4ff4f56c6a407eb807d4b6794420c" category="paragraph">LUN またはファイル共有でアプリケーションが実行すると想定される最小 IOPS 。想定 IOPS は、ストレージオブジェクトの割り当てサイズに基づいて、割り当てられる最小想定 IOPS を指定します。</block>
@@ -10517,10 +10360,7 @@
   <block id="17f71c02b476fa71125b526ff2677e20" category="paragraph">クラスタ内の使用可能容量と使用済み容量の合計。</block>
   <block id="35084d885dea7b061e6894c1cf3036d9" category="paragraph">ワークロード</block>
   <block id="0560dd7798f23fb552c8ee7fad9e6494" category="paragraph">PSL が割り当てられているストレージワークロードの数。</block>
-  <block id="9e28180b8b0ed53cf76cc8f82f0de990" category="paragraph">ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。</block>
   <block id="6a2f7c6fed6294a90127063b3b99b00d" category="inline-link">パフォーマンスの予算編成とは</block>
-  <block id="ca8d1d6e78ce890ca12599250d6fd33a" category="paragraph"><block ref="ca8d1d6e78ce890ca12599250d6fd33a" category="inline-link-rx"></block></block>
-  <block id="49d22a2b55c0267f82a42fe68caf3118" category="paragraph">ワークロードが過去 1 時間の想定レイテンシ値の 30% を超えた場合、 Unified Manager は次のいずれかのイベントを生成して、潜在的なパフォーマンス問題をユーザに通知します。 「パフォーマンスサービスレベルポリシーに定義されたワークロードのボリュームレイテンシしきい値を超過」または「パフォーマンスサービスレベルポリシーに定義されたワークロードの LUN レイテンシしきい値を超過」。ワークロードを分析して、レイテンシの値が高くなる原因を確認することができます。</block>
   <block id="a852266f42be6bf03c311f8a5855c8b3" category="paragraph">次の表に、システム定義の PSL に関する情報を示します。</block>
   <block id="6242d8dfa9aad926035ef1dc1578534b" category="cell">概要とユースケース</block>
   <block id="19db00508a37205f06d4d348a5208f2c" category="cell">想定レイテンシ（ミリ秒 / 処理）</block>
@@ -10717,7 +10557,6 @@
   <block id="2fafe59f8f0f817a41c3ec1b40e7390f" category="paragraph">PSL が割り当てられていないデータセンター内のストレージワークロードに、システム推奨の PSL を割り当てることができます。または、割り当てられた PSL がシステム推奨の対象と一致しません。この機能を使用するには、 * Assign System Recommended PSL * ボタンをクリックします。特定のワークロードを選択する必要はありません。</block>
   <block id="6ad7dc0a210fe4d969bf95d55ceae294" category="paragraph">推奨構成はシステム分析によって内部的に決定され、 IOPS などのパラメータが使用可能な PSL の定義と一致しないワークロードに対してはスキップされます。「 I/O 待ち」と「学習中」のストレージ・ワークロードも除外されます。</block>
   <block id="bf55685261d9f53c0f30821c3fd98be4" category="paragraph">Unified Manager がワークロード名で検索する特殊なキーワードを使用してシステム分析を上書きし、ワークロードに別の PSL を推奨します。ワークロードの名前に「 ora 」という文字が含まれている場合は、 **Extreme Performance ** PSL が推奨されます。ワークロードの名前に「 VM 」という文字が含まれている場合は、 **Performance** PSL を使用することをお勧めします。</block>
-  <block id="8282d35ad52f263e93b74a64b6fbfa9b" category="paragraph">応答時間の偏差がパフォーマンスしきい値を超えたワークロードは Victim と呼ばれ、 NVRAM への書き込みスループットの偏差が通常より高く、競合を引き起こしているワークロードは _Bully と呼ばれます。パートナークラスタには書き込み要求のみがミラーされるため、 Unified Manager は読み取りスループットを分析しません。</block>
   <block id="e914595f1e53d9a321e9209c476b6b89" category="paragraph"><block ref="e914595f1e53d9a321e9209c476b6b89" category="inline-link-macro-rx"></block></block>
   <block id="87dde0c171bff2ae51197b700e179074" category="paragraph"><block ref="87dde0c171bff2ae51197b700e179074" category="inline-link-macro-rx"></block></block>
   <block id="4e07955739f9126355991a4d6bcb27b7" category="paragraph"><block ref="4e07955739f9126355991a4d6bcb27b7" category="inline-link-macro-rx"></block></block>
@@ -11064,10 +10903,6 @@
   <block id="21879704494cd9abadd311d2f6dab477" category="doc">クォータの概要ダイアログボックス</block>
   <block id="4e9d6d4d3c82d991ce8d49f58bff12dc" category="summary">すべてのワークロードビューには、データセンター内のクラスタで使用可能なすべてのワークロードのリストが表示されます。</block>
   <block id="018d3ec165f27acba9e4a45ef0acf035" category="doc">ワークロードの表示</block>
-  <block id="bbe0e7a4338f91f5b9fc53366ee0071c" category="paragraph">すべてのワークロードビューには、 Unified Manager で管理されている ONTAP クラスタに関連付けられているストレージワークロードが表示されます。また、ストレージワークロードにストレージ効率化ポリシー（ SEP ）とパフォーマンスサービスレベル（ PSL ）を割り当てることもできます。</block>
-  <block id="c97816d6e916edb5d5a4d1eb2f52d105" category="paragraph">Unified Manager にクラスタを追加すると、 FlexGroup ボリュームとそのコンスティチュエントを除く各クラスタのストレージワークロードが自動的に検出されてこのページに表示されます。</block>
-  <block id="a6318b2274381d27256359bfb1b93adb" category="paragraph">Unified Manager は、ストレージワークロードで I/O 処理が開始された時点で、推奨される（推奨される PSL ）に対するワークロードの分析を開始します。新たに検出されたストレージワークロードで I/O 処理が行われていない場合、ステータスは「 I/O を待機中」になります。ストレージワークロードで I/O 処理が開始されると、 Unified Manager が分析を開始し、ワークロードのステータスが「学習中 ... 」に変わります。分析が完了すると（ I/O 処理の開始から 24 時間以内）、ストレージワークロードに推奨される PSL が表示されます。</block>
-  <block id="e07c411887b0f746d48ec3eda65e1220" category="paragraph">[* Workloads * &gt; * all workloads * （ * すべてのワークロード * ） ] オプションを使用すると、複数のタスクを実行できます。</block>
   <block id="a9372e236069e9faaa55a9b6f1622b96" category="list-text">ストレージワークロードを追加またはプロビジョニングする</block>
   <block id="b81e94e61e4dd867ef7d060f7a0d929a" category="list-text">ワークロードのリストを表示してフィルタリングします</block>
   <block id="41ac12e9811b01321ab5266888eb831f" category="list-text">PSL をストレージワークロードに割り当てます</block>
@@ -11078,7 +10913,6 @@
   <block id="a7904deaa8ab0a3cb4fd9ca423e1e9f4" category="section-title">ワークロードの表示とフィルタリング</block>
   <block id="93e41f41a38251bca376c06a90b2d35f" category="paragraph">All workloads （すべてのワークロード）画面では、データセンター内のすべてのワークロードを表示したり、 PSL または名前に基づいて特定のストレージワークロードを検索したりできます。フィルタアイコンを使用して、検索条件を入力できます。ホストクラスタや Storage VM など、さまざまなフィルタ条件で検索できます。容量の合計 * オプションを使用すると、ワークロードの合計容量（ MB ）でフィルタリングできます。ただしこの場合は、合計容量がバイトレベルで比較されるため、返されるワークロードの数が変わる可能性があります。</block>
   <block id="c87fa7c6e759d8461cef460152c0f88d" category="paragraph">各ワークロードについて、ホストクラスタと Storage VM などの情報、および割り当てられている PSL と SEP が表示されます。</block>
-  <block id="747575017fc251da3cef661215955460" category="paragraph">また、このページではワークロードのパフォーマンスの詳細を確認することもできます。ワークロードの IOPS 、容量、レイテンシに関する詳細情報を表示するには、「 * 列の選択 / 順序」ボタンをクリックし、表示する列を選択します。パフォーマンスビューの列にはワークロードの平均 IOPS とピーク IOPS が表示され、ワークロードアナライザのアイコンをクリックすると詳細な IOPS 分析を確認できます。IOPS 分析ポップアップの * ワークロードの分析ボタンをクリックすると、ワークロード分析ページが開き、期間を選択して、選択したワークロードのレイテンシ、スループット、容量のトレンドを確認できます。Workload Analyzer の詳細については、 Workload Analyzer を使用したワークロードのトラブルシューティング _ を参照してください</block>
   <block id="2631d37d37bc9b5c474e05a1e1c726ae" category="section-title">ワークロードのパフォーマンスと容量の条件を分析します</block>
   <block id="9fb9ad42cd98a4cc8213472f859685f8" category="paragraph">パフォーマンスビュー * 列の棒グラフアイコンをクリックすると、ワークロードに関するパフォーマンス情報を表示してトラブルシューティングに役立てることができます。ワークロードの分析ページにパフォーマンスと容量のグラフを表示してオブジェクトを分析するには、 * ワークロードの分析 * ボタンをクリックします。</block>
   <block id="d5238307b8804969155ba0a3d399d9a4" category="summary">メニューバーの通知ベルを使用すると、 Unified Manager が追跡している最も重要なアクティブイベントを簡単に確認できます。</block>
@@ -11218,23 +11052,13 @@
   <block id="2dcd695b929fbb86815e565342310bf0" category="paragraph">ダッシュボードページには、監視しているクラスタの容量、パフォーマンス、セキュリティの健全性の概要がパネルに表示されます。このページの管理操作パネルには、 Unified Manager が特定のイベントを解決するために実行できる修正が表示されます。</block>
   <block id="04a5f6e98f6a6fb512c08abc7b6e1834" category="paragraph">ほとんどのパネルには、そのカテゴリのアクティブイベントの数および過去 24 時間に追加された新しいイベントの数も表示されます。この情報から、イベントを解決するために詳細な分析が必要なクラスタを決定できます。イベントをクリックすると、上位のイベントが表示され、そのカテゴリのアクティブなイベントをフィルタリングして表示する Event Management インベントリページへのリンクが表示されます。</block>
   <block id="1fed3e7a8a0ba543e4b67922a67fbf09" category="paragraph">ダッシュボードの上部で、すべての監視対象クラスタ（「すべてのクラスタ」）の情報を表示するか、特定のクラスタの情報を表示するかを選択できます。最初にすべてのクラスタのステータスを表示してから、詳細情報を確認する場合は個々のクラスタにドリルダウンできます。</block>
-  <block id="b9336d3d8dfe7df72e97729fb4cfff6a" category="paragraph">以下のパネルの一部は、構成に応じてページに表示されません。</block>
-  <block id="7159b8d16e082bb281a900b08b5b3c53" category="list-text">* 管理操作パネル *</block>
-  <block id="b24d4d22a9c52aa56f43f1857d9e3856" category="paragraph">問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、このパネルに * Fix it * または * Fix All * ボタンで表示されます。このような問題は Unified Manager から直接解決できます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。すべての問題を表示するには、をクリックします</block>
   <block id="c076c04a5923aa493f5d80439c0a607e" category="inline-link-macro">ONTAP の問題を Unified Manager から直接修正</block>
-  <block id="5264ee457cbb4786c8014caff863b77f" category="paragraph">を参照してください <block ref="4de06821690ec8505ff30e3d01558e54" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="fefbd613edf4fa6e465728bd4899ff3c" category="list-text">* 容量パネル *</block>
   <block id="cef503ab15e4ed36b018cb3a90d14ae4" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタの使用済み物理容量（ Storage Efficiency 削減を適用したあと）と使用可能な物理容量（ Storage Efficiency による削減量の削減量を含まない）、およびディスクがフルになるまでの予測日数が表示されます。 および ONTAP の Storage Efficiency 設定に基づくデータ削減率の割合を表示します。また、設定されているクラウド階層の使用済み容量も表示されます。棒グラフをクリックすると、そのクラスタのアグリゲートのインベントリページが表示されます。「フルまでの日数」というテキストをクリックすると容量の残り日数が最も少ないアグリゲートを示すメッセージが表示され、そのアグリゲート名をクリックすると詳細が表示されます。</block>
   <block id="1d775ead11df49b05265d255ec97ba03" category="paragraph">単一のクラスタを表示している場合、このパネルには、データアグリゲートの物理使用容量と使用可能な物理容量がローカル階層とクラウド階層のそれぞれのディスクタイプでソートされて表示されます。ディスクタイプの棒グラフをクリックすると、そのディスクタイプを使用しているボリュームのボリュームインベントリページが表示されます。</block>
   <block id="72ff6bbe84ebdc6126c97ef71a5082b1" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタのパフォーマンス容量（過去 1 時間の平均）とパフォーマンス容量が上限に達するまでの日数（日次増加率に基づく）が表示されます。棒グラフをクリックすると、そのクラスタのノードインベントリページが表示されます。ノードインベントリページには、過去 72 時間のパフォーマンス容量の平均が表示されます。フルまでの日数というテキストをクリックするとパフォーマンス容量の残り日数が最も少ないノードを示すメッセージが表示され、そのノード名をクリックすると詳細が表示されます。</block>
   <block id="d2b96729b551f106fbc157a73649ed9e" category="paragraph">単一のクラスタを表示している場合、このパネルには、そのクラスタの使用済みパフォーマンス容量の割合、合計 IOPS 、合計スループット（ MBps ）、およびこれらの 3 つの指標が上限に達するまでの想定日数が表示されます。</block>
   <block id="ce0a654c3b5c722340279eb742f2247d" category="paragraph">単一のクラスタを表示している場合、このパネルには、特定の範囲の IOPS で現在実行されているワークロードの総数、およびグラフにカーソルを合わせると各ディスクタイプの数が表示されます。</block>
   <block id="db3ec3afcbb3550eaf2d4f9224d2c3b6" category="paragraph">このパネルには、各パフォーマンスサービスレベル（ PSL ）ポリシーに割り当てられている準拠ワークロードと非準拠ワークロードの総数が表示されます。また、 PSL が割り当てられていないアグリゲートの数も表示されます。棒グラフをクリックすると、そのポリシーに割り当てられている準拠ワークロードがワークロードページに表示されます。棒グラフの横に表示された数字をクリックすると、そのポリシーに割り当てられている準拠ワークロードと非準拠ワークロードが表示されます。</block>
-  <block id="ef4fe1b8268d44620ad24ec7733645fd" category="list-text">* セキュリティパネル *</block>
-  <block id="9a268bcb23ec0f95e8394deaee691d7b" category="paragraph">すべてのクラスタを表示している場合、このパネルには、準拠および非準拠のクラスタ数、準拠および非準拠の Storage VM 数、暗号化されて暗号化されているボリュームとされていないボリュームの数が表示されます。コンプライアンスは、に基づいています<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。パネル上部の右矢印をクリックして、 Security ページですべてのクラスタのセキュリティの詳細を表示します。</block>
-  <block id="c39f9f0462b38c1550c10afc121f8195" category="paragraph">単一のクラスタを表示している場合は、このパネルには、クラスタが準拠しているかどうか、準拠および非準拠の Storage VM 数、暗号化されているボリュームとされていないボリュームの数が表示されます。パネル上部の右矢印をクリックして、 Security ページでクラスタのセキュリティの詳細を表示します。詳細については、を参照してください <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>。</block>
-  <block id="779207efbcb31e6ce540b3be751f94e1" category="list-text">* データ保護パネル *</block>
-  <block id="1932eeb4d3404b8cddfc5c356e5b58a4" category="paragraph">このパネルには、データセンター内の 1 つまたはすべてのクラスタのデータ保護の概要が表示されます。ONTAP で過去 24 時間に発生したデータ保護イベントの総数とアクティブイベントの数が表示されます。このパネルには、クラスタ内のボリュームの数、または Snapshot コピーと SnapMirror 関係で保護されているデータセンター内のすべてのクラスタが表示されます。また、 SnapMirror の Recovery Point Objective （ RPO ；目標復旧時点）の遅延が設定されたボリュームの数も表示されます。マウスのカーソルを合わせると、それぞれのカウントと凡例を表示できます。棒グラフをクリックすると、 Volumes （ボリューム）画面が開き、それぞれのボリュームが選択されます。これらの各イベントのリンクをクリックすると、 [ イベントの詳細 ] ページが表示されます。[ すべて表示 *] リンクをクリックすると、 [ イベント管理 ] インベントリページですべてのアクティブな保護イベントを表示できます。詳細については、を参照してください <block ref="cce169fddfae7a31f74f472dce696e49" category="inline-link-macro-rx"></block>。</block>
   <block id="780ec40cc715a112c118d12f06bd508f" category="paragraph">すべてのクラスタを表示している場合、 IOPS 、スループット（ MBps ）、または使用済み物理容量が大きい順にクラスタを表示できます。</block>
   <block id="56301f99c72abc61a51cf04b7c012878" category="paragraph">単一のクラスタを表示している場合は、 IOPS 、スループット（ MBps ）、または使用済み論理容量が大きい順にワークロードを表示できます。</block>
   <block id="c1f3cc81a0cfeaaaecf2394212cf9ea0" category="inline-link-macro">Unified Manager の自動修正措置を使用した問題の修正</block>
@@ -11457,7 +11281,6 @@
   <block id="77d7ce66941e6a8a53f84f813d2b2bf1" category="sidebar">REST API を使用してストレージを管理できます</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">クラスタヘルスを監視および管理する</block>
   <block id="7a8adec5b77b397bb264a687d8a6c162" category="sidebar">SVM コンプライアンスのカテゴリ</block>
-  <block id="358c01d38ef061cd86f4fbe039092253" category="sidebar">クラスタと SVM の詳細なセキュリティステータスの表示</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">データを保護、リストア</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">保護関係の作成とトラブルシューティング</block>
   <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">ケンセンセイ / スヘテノホリユウムヒユウカラノ SnapVault ホコカンケイノサクセイ</block>
@@ -11477,25 +11300,9 @@
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">ONTAP の問題を Unified Manager から直接修正または管理する</block>
   <block id="725999ab15ba9076beeae097d322f86a" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v" mysql_password=mysql_password INSTALLDIR=\" インストールディレクトリ \"mysql_data_DIR=\"MySQL データディレクトリ \"maintenance_password=maintenance_username/qn /l * V CompletePathForLogFile" 」です</block>
   <block id="fcd7df289adf5001f27988061b118e6d" category="paragraph">「 ActiveIQUnifiedManager-x.y.exe /v 」 mysql_password=mysql_password INSTALLDIR=\" インストールディレクトリ \"mysql_data_DIR=\" MySQL データディレクトリ \"maintenance_password=maintenance_username/QR / l * v CompletePathForLogFile" 」です</block>
-  <block id="ce358b3113b47d3203aa2868dcd1aed9" category="list-text">MySQL Community Edition バージョン 8.0.27</block>
-  <block id="603140aee7e0394e7a45b946fa63701d" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。旧バージョンの MySQL から 8.0.17 へのスタンドアロンアップグレードは実行しないでください。</block>
   <block id="faba12e25d46c49b1bf20440c559a011" category="list-text">* NTP サービスの変更 *</block>
   <block id="57663e46604227b9442d1cfe28abf917" category="paragraph">'ntp' と 'systemd-timesyncd' サービスを切り替えます</block>
   <block id="24dde324c273e6fbdb5e05a5335b2997" category="paragraph">設定手順の詳細については、を参照してください <block ref="b867a7663a8e0fd154dcc2c6962f7760" category="inline-link-macro-rx"></block>。</block>
-  <block id="9f5b309ea6f5c0107df68af41b42385c" category="paragraph">Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager 9.10 のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。旧バージョンから 8.0.17 への MySQL のスタンドアロンアップグレードは実行しないでください。</block>
-  <block id="ca431acdff879bf74443b03a3ea7b05e" category="paragraph">基本バージョンである MySQL 8.0.17 を新しいバージョンにアップグレードできるのは、マイナーアップデートのみが対象です。</block>
-  <block id="0dd020de8717fef4759ed42bb7a9371e" category="list-text">mysql-community-client-8.0.27 を参照してください</block>
-  <block id="54bf75329ac0640a1a4b19d525aa3298" category="list-text">mysql-community-libs-8.0.27 を参照してください</block>
-  <block id="5d2f50f494763ca33ac61b7394b49365" category="list-text">mysql-community-server-8.0.27 を参照してください</block>
-  <block id="9b02dcce074ad8f0677667ae3bdefe4a" category="list-text">mysql-community-common-8.0.27 を参照してください</block>
-  <block id="ebda0ef640f941a251bca0c42fabf09b" category="list-text">mysql-community-client-plugins/8.0.27 その他すべてのパッケージを削除します。ただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。</block>
-  <block id="37354e6beb8513ddd7766e179aaab3e2" category="list-text">* MySQL 要件 * ： MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされている MySQL のバージョンが 8.0.17 より前の場合、 Unified Manager のアップグレードプロセスによって MySQL が 8.0.17 に自動的にアップグレードされます。</block>
-  <block id="1db6ec26f9e37dfe675bdaf66bc0347c" category="paragraph">ただし、システムの MySQL を最新のマイナーバージョンにアップグレードすることもできます。次のマイナーバージョンにアップグレードする前に、システムの MySQL の基本バージョンが 8.0.27 であることを確認してください。</block>
-  <block id="a1071bfb77eca5179d618fb7269b7629" category="paragraph">MySQL 8.0.17 でリポジトリが設定されていない場合、 Unified Manager をアップグレードできない可能性があります。アップグレード前にリポジトリを設定する手順は、次のとおりです。</block>
-  <block id="8bd7aee1af6eb4a67ab8ad5f5b38af79" category="list-text">必要な最小バージョン（この場合は 8.0.27 ）の MySQL RPM パッケージをダウンロードし、「 NetApp-um &lt;version&gt;.x86_64.rpm 」が保存されているディレクトリに保存します。</block>
-  <block id="a4f051daab9927f07a1368a1390cf080" category="paragraph">MySQL 8.0.27 Community Edition の場合</block>
-  <block id="9141d8b8e038016829f182b871f131e8" category="list-text">MySQL 8.0.27 Community Edition より前のバージョンの MySQL がインストールされている場合は、次のコマンドを入力してアンインストールします。</block>
-  <block id="ddfa8d995a85ef5f86e5eae4134040c1" category="list-text">MySQL Community Edition バージョン 8.0.27 （ MySQL リポジトリから入手）。</block>
   <block id="afdabd70b25ac8d92c6c796efc0bc1ff" category="paragraph">データセンター / クラスタ / ライセンス / ライセンス / データセンター / クラスタ / ライセンス / ライセンス /\ ｛ key ｝</block>
   <block id="67566ae5ee0878974aed5a2b1f52321f" category="paragraph">「 management-server /events/{key}`</block>
   <block id="363b24906686e470f3b827a7e14ced28" category="paragraph">「 /management-server /alerts 」 /management-server /alerts/{key}`</block>
@@ -11506,8 +11313,6 @@
   <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">ONTAP REST API の自動化</block>
   <block id="64bce96c9eeebb3c2c4e4047917784d7" category="paragraph"><block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
-  <block id="777d37d26729d37bb63eecb74c435e85" category="inline-link">Active IQ Unified Manager 9.10 に関する注意事項</block>
-  <block id="0c8699048289beedeedb54f53b9ba0e1" category="paragraph"><block ref="0c8699048289beedeedb54f53b9ba0e1" category="inline-link-rx"></block></block>
   <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC に関する ONTAP 9 のマニュアル</block>
   <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous のビジネス継続性の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
   <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">SM-BC の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
@@ -11522,4 +11327,304 @@
   <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="cbc6eeba3b8cd006dc2ca8ece384da6e" category="paragraph">OpenJDKバージョン11.0.14</block>
+  <block id="9c5ad3fafb573abb0b53ed02adba014e" category="paragraph">MySQL 8.0.28 Community Editionの場合</block>
+  <block id="e6bf42dd3a3e9586ee0a5b97f5a51749" category="list-text">MySQL 8.0.28 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。</block>
+  <block id="3cfcc2a63606c5600f5f04e614e429f2" category="list-text">次のコマンドを実行して、コンテキストをmysqld_db_t`に設定します。semanage fcontext -a-t mysqld_db_t」/opt/NetApp/data「`restorecon -R -v /opt/NetApp/data`</block>
+  <block id="11e1b3755b142a082c6c226b589a4ea6" category="paragraph">mount &lt;nfsshare&gt;:/&lt;mountpoint&gt;/opt/NetApp/data-o context=system_u:object_r:mysqld_db_t:s0`</block>
+  <block id="b5ac9f231ec8ae835394a788fd0afdaa" category="list-text">次のコマンドを実行して、コンテキストをmysqld_db_t`に設定します。semanage fcontext -a-t mysqld_db_t」/opt/netapp「`restorecon -R -v /opt/netapp</block>
+  <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">/etc/fstab に /opt/netapp を設定している場合は '/etc/fstab ファイルを編集します/opt/NetApp/マウント・オプションの場合は'context=system_u:object_r:mysqld_db_t:s0'としてMySQLラベルを追加します</block>
+  <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">NFSを直接マウントしている場合は'次のコマンドを実行してコンテキストをmysqld_db_t'：mount &lt;nfsshare&gt;:/&lt;mountpoint&gt;/opt/NetApp-o context=system_u:object_r:mysqld_db_t: s0`に設定します</block>
+  <block id="4432f39d800933fa29075adf5d2cb426" category="paragraph">Unified Manager がインストールされている Linux サーバで MySQL を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。システムにインストールされているMySQLのバージョンが8.0.28より前の場合は、Unified Manager 9.11のアップグレードプロセスによってMySQLが自動的に8.0.28にアップグレードされます。旧バージョンから8.0.28へのMySQLのスタンドアロンアップグレードは実行しないでください。</block>
+  <block id="24f1ea1882439997228bd802f68fa9f6" category="paragraph">基本バージョンであるMySQL 8.0.28から新しいバージョンへのアップグレードは、マイナーアップデートのみが対象です。</block>
+  <block id="026936ad00ebc4ae1db79f070a927a45" category="list-text">mysql-community-client-8.0.28</block>
+  <block id="e690854523c7fac0083784d171463dbd" category="list-text">mysql-community-libs-8.0.28</block>
+  <block id="7416b1d102126167619be7c1bc2917b9" category="list-text">mysql-community-server-8.0.28</block>
+  <block id="7e4bff08468b3a2ecc016a808e2b84e3" category="list-text">mysql-community-common-8.0.28</block>
+  <block id="e627c2b9dd11c910856a3d949365b0ba" category="list-text">mysql-community-client-plugins/8.0.28他のすべての`.rpm'パッケージを削除しますただし、 rpm バンドル内のすべてのパッケージをインストールしても、原因エラーは発生しません。</block>
+  <block id="5f03fcd1de4eb6c394b1713126eeae48" category="admonition">MySQLのデフォルトポート3306は、LinuxシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この構成は変更可能であり'メンテナンス・コンソールの[Control access to MySQL port 3306]オプションを使用して'他のホストから接続できるようにすることができます</block>
+  <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">オペレーティングシステム：OSインストーラの「ソフトウェアの選択*」オプションから「GUI付きサーバ」ベース環境を使用してインストールされた、x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.xまたはCentOSバージョン7.x</block>
+  <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.x</block>
+  <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">x86_64アーキテクチャに基づくCentOSバージョン7.x。CentOS ストリームはサポートされていません。</block>
+  <block id="daeb4be1c40e0342f376799aa2056aca" category="list-text">MySQL Community Editionバージョン8.0.28（MySQLリポジトリから入手）。</block>
+  <block id="172925fbf80ec8e28224e1554c88ee8a" category="list-text">OpenJDKバージョン11.0.14（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
+  <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">「sudo systemctl status ocie」</block>
+  <block id="209d8f24350d3586c7e8e77bccf146f6" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.9からOpenJDK 11.0.14にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
+  <block id="52404be5282c18d0b7e21cbc0500660d" category="paragraph">Red HatプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
+  <block id="afebc350be46a62a45b648162f68d68a" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.28より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが自動的に8.0.28にアップグレードされます。</block>
+  <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">オペレーティングシステム</block>
+  <block id="21fae6ca9851125bcb8a2ae0fceec434" category="list-text">Microsoft Windows Server 2019 Standard EditionおよびDatacenter Edition</block>
+  <block id="fcf00af2a56dc582433fdec6019bd75f" category="list-text">Microsoft Windows Server 2022 Standard EditionおよびDatacenter Edition</block>
+  <block id="abc1339f3a6e6d5793784f7eba3a817c" category="paragraph">C：\Program Files\NetApp\essentials\bin.</block>
+  <block id="9c94357d35bed777ae75ec5b1fb148ea" category="paragraph">WindowsプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
+  <block id="7fa1b8306b61bbac5aec005baa3183b3" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.28より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが自動的に8.0.28にアップグレードされます。旧バージョンの MySQL から 8.0.17 へのスタンドアロンアップグレードは実行しないでください。</block>
+  <block id="fa667d9ec9e561ac6d6553c9ffa6ad45" category="list-text">Windowsシステムにアクティブなウィルス対策ソフトウェアがインストールされている場合、Unified Managerのアップグレードが失敗することがあります。Unified Managerをアップグレードする前に、システムのウィルススキャンソフトウェアをすべて無効にする必要があります。</block>
+  <block id="95321bf41584f0af5249cfe77a131451" category="list-text">Windowsシステムにアクティブなアンチウイルスソフトウェアがインストールされている場合は、アップグレードの完了後に、アンチウイルススキャンから次のパスを手動で除外してください。</block>
+  <block id="903905888af29b1f6e5156b704c32cf8" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.12からOpenJDK 11.0.13にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
+  <block id="a326ba42b2f3cdc07bf58761b1c4f56e" category="list-text">作成された「jdk'」ディレクトリ(たとえば「jdk-11.0.13」)からJavaがインストールされた場所にディレクトリとファイルをコピーします。例： C ： \Program Files\NetApp\JDK\`</block>
+  <block id="35b673088d49c428fe4b71d1fb68ac32" category="paragraph">Unified Managerは次のエディションのWindowsにインストールできます。</block>
+  <block id="97acc1a41f0c48f305dbbeb45d754400" category="admonition">ネットアップは、Microsoft System Center Configuration Manager（SCCM）などのサードパーティツールを使用したUnified Managerのインストールをサポートしていません。</block>
+  <block id="66f07fbd2c7baf01707e9c250b4e3fae" category="list-text">MySQL Community Editionバージョン8.0.28</block>
+  <block id="2c9628de3d31520370d95ae47b0f78f8" category="list-text">Python 3.9.2</block>
+  <block id="fb4a7fa57c26a71e226044f076d4cdcb" category="list-text">OpenJDKバージョン11.0.13</block>
+  <block id="8c0efbddadc6fd60891df7fc8dca2445" category="list-text">Windowsシステムにアクティブなウィルス対策ソフトウェアがインストールされている場合、Unified Managerのインストールが失敗することがあります。Unified Managerをインストールする前に、システムのウィルススキャンソフトウェアをすべて無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。</block>
+  <block id="f2b9e947e73ecf5aa3eb9084d5484e42" category="list-text">アクティブなアンチウイルスソフトウェアがWindowsシステムにインストールされている場合は、インストールの完了後にアンチウイルススキャンから次のパスを手動で除外します。</block>
+  <block id="d09e8f5749e3b7058a8289ba431458ea" category="list-text">Unified Managerをプログラムと機能*ウィザードからアンインストールする場合は、次の手順を実行します。</block>
+  <block id="c8c3810a14893ac6d3284dbe2703b42e" category="list-text">コマンドラインからUnified Managerをアンインストールする場合は、次の手順を実行します。</block>
+  <block id="b5c53960619159f07babd813281a0c5f" category="list-text">管理者権限でWindowsのコマンドラインにログインします。</block>
+  <block id="8f03a3d977b03b60a275743462ed9db9" category="list-text">Active IQ Unified Manager ディレクトリに移動し、次のコマンドを実行します。</block>
+  <block id="2e5a5aa28eccce1bee3eb2d3c56b5309" category="paragraph">「+ msiexec /x｛A78760DB-7EC0-4305-97dB - E4A89CDFF4E1｝/qn /l * v %systemdrive%\UmUnInstall.log +」</block>
+  <block id="281a23b64ca4e7554e3f0e93b5e421a4" category="list-text">サードパーティパッケージ：JRE、MySQL、Microsoft Visual C# 43；2015再頒布可能パッケージ、Python、 7zipで構成されます</block>
+  <block id="e870626bc44af1911308a20544309fa5" category="admonition">MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この構成は変更可能であり'メンテナンス・コンソールの[Control access to MySQL port 3306]オプションを使用して'他のホストから接続できるようにすることができます</block>
+  <block id="7094bfb22911ca78c26602f6b95b78fa" category="paragraph">Active IQ Unified Manager をリリース9.11にアップグレードできるのは、リリース9.9または9.10からのみです。</block>
+  <block id="bbd76c12bdee88db10f4352bb5c25c68" category="paragraph">Active IQ Unified Manager 仮想アプライアンスは、リリース9.9または9.10から9.11にアップグレードできます。</block>
+  <block id="e097d9836e6942eb333688aa40c458db" category="paragraph">Active IQ Unified Manager へのユーザアクセスを制御するために、ロールを作成し、機能を割り当てることができます。Unified Managerで選択したオブジェクトにアクセスするために必要な権限を持つユーザを特定できます。これらのロールと機能を持つユーザのみがUnified Managerでオブジェクトを管理できます。</block>
+  <block id="6bb4bacb8a95b59b89d6baf47ca57e37" category="paragraph">このアカウントには、アプリケーションアクセスが_ontapi、_console_、および_http_に 設定された_admin_roleが必要です。</block>
+  <block id="6f07476dbe3e0c87ef5417742f01281d" category="summary">診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。</block>
+  <block id="f6edcb137df0b7c4e3fba5f2b371471f" category="paragraph">診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。</block>
+  <block id="f90eb4e62285b9cd8dd7d52b71e3aaeb" category="paragraph">Unified Manager 9.8 以降では、 Unified Manager サーバがインターネットに接続されている場合に、メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。</block>
+  <block id="38bf356bc057c1b138ed0aadbc422129" category="summary">Securityページには、すべてのクラスタとStorage VMのセキュリティステータスの概要が表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。</block>
+  <block id="2dfcaeaf7d872d0b41ac1a7fad3f1bc0" category="doc">クラスタとStorage VMのセキュリティステータスの表示</block>
+  <block id="363bd7c65ddeb743b3e567f3bb86d1f0" category="paragraph">Active IQ Unified Manager を使用すると、環境内のストレージオブジェクトのセキュリティステータスを、インターフェイスのさまざまなポイントから確認できます。定義されたパラメータに基づいて情報とレポートを収集および分析し、監視対象のクラスタおよびStorage VMについて、疑わしい動作や不正なシステム変更を検出できます。</block>
+  <block id="ac7c06182b625c627e480ce0c60ff4ed" category="paragraph">セキュリティに関する推奨事項については、を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block></block>
+  <block id="468b211c23c8f85e2679c3384b195d38" category="section-title">セキュリティページでオブジェクトレベルのセキュリティステータスを表示します</block>
+  <block id="78162355da23f5dd80cdec8e2b9e0d00" category="paragraph">システム管理者は、セキュリティ*ページを使用して、データセンターレベルとサイトレベルのONTAP クラスタとStorage VMのセキュリティ強度を可視化できます。サポートされるオブジェクトは、クラスタ、Storage VM、およびボリュームです。次の手順を実行します。</block>
+  <block id="3f9660f836b3463f167780161b6ee0d0" category="list-text">セキュリティ * パネルの右矢印をクリックします。[セキュリティ]ページが表示されます。</block>
+  <block id="93924d03189237f928d2d949fb28735f" category="paragraph">棒グラフ'カウント'レポートの表示リンクをクリックすると'ボリューム'クラスタ'またはストレージ仮想マシンページが表示され'必要に応じて詳細を表示したりレポートを生成したりできます</block>
+  <block id="b43d6869eba5b9bd943124b60e04f21d" category="paragraph">セキュリティページには、次のパネルが表示されます。</block>
+  <block id="4993aada6aa45a3c41b60560e1e8038f" category="list-text">*クラスタコンプライアンス*：データセンター内のすべてのクラスタのセキュリティステータス（準拠または非準拠のクラスタ数）</block>
+  <block id="9f6fdf8e9a5d57c041e9628e7be7fa35" category="list-text">* Storage VM Compliance *：データセンター内のすべてのStorage VMのセキュリティステータス（準拠または非準拠のStorage VM数）</block>
+  <block id="d49afaff9aaec964ded02b9322457e39" category="list-text">* Volume Encryption *：環境内のすべてのボリュームの暗号化ステータス（暗号化されているボリュームまたは暗号化されていないボリュームの数）</block>
+  <block id="9bd0b3e4f58ac076db0d253c51537186" category="list-text">* Volume Anti-Ransomware Status *：環境内のすべてのボリュームのセキュリティステータス（ランサムウェア対策が有効または無効になっているボリュームの数）</block>
+  <block id="bc32a70e3caba18ce60ff911b2778444" category="list-text">*クラスタ認証および証明書*：SAML、Active Directory、証明書およびローカル認証など、各タイプの認証方法を使用するクラスタの数。このパネルには、証明書の有効期限が切れているか、60日以内に期限切れになる予定のクラスタの数も表示されます。</block>
+  <block id="c37bd528b0f31f7b63f3174349bd301f" category="section-title">クラスタページで、すべてのクラスタのセキュリティの詳細を表示します</block>
+  <block id="ca65898956ec031b96dc28b5d94bc51b" category="paragraph">[*クラスタ/セキュリティ*の詳細]ページでは、セキュリティコンプライアンスのステータスをクラスタレベルで表示できます。</block>
+  <block id="c486eb92eb850d8e82e8a715bc3992df" category="list-text">左側のナビゲーションペインで、* Storage &gt; Clusters *の順にクリックします。</block>
+  <block id="5ca0fa2f751156952c40aeb7a9590b88" category="list-text">[*表示]&gt;[セキュリティ]&gt;[すべてのクラスタ*]を選択します。</block>
+  <block id="0d846c68d80d20ea88b6b3083d22bca7" category="paragraph">グローバルFIPS、Telnet、セキュアでないSSH設定、ログインバナー、ネットワークタイムプロトコル、 AutoSupport HTTPS転送プロトコルと、クラスタ証明書の有効期限のステータスが表示されます。</block>
+  <block id="52c148109936ec0cc34f1b38fb262428" category="inline-image-macro">Kabob アイコン</block>
+  <block id="b4f67db8d0f90c2e20b1813f2c70ad96" category="paragraph">をクリックできます <block ref="be3a4fe65d997bdec7cc224e43adfb38" category="inline-image-macro-rx" type="image"></block> オプションボタンをクリックし、Unified ManagerまたはSystem Managerの* Security *ページでセキュリティの詳細を表示します。System Managerで詳細を表示するには、有効なクレデンシャルが必要です。</block>
+  <block id="6827c086d302f51abdea5a46454c54f9" category="admonition">クラスタに有効期限が切れた証明書がある場合は、「*クラスタ証明書の有効期限*」の下にある「期限切れ」をクリックして、System Manager（9.10.1以降）から更新できます。System Managerインスタンスが9.10.1より前のリリースの場合、「expired」をクリックすることはできません。</block>
+  <block id="abd66bce9d2a771ac36e0132cc434dc0" category="section-title">すべてのクラスタのセキュリティの詳細をStorage VMページで表示する</block>
+  <block id="a3051107bf8d2b163dbfd3f778574303" category="paragraph">Storage VMs/Security *の詳細ページでは、Storage VMレベルでセキュリティ準拠ステータスを確認できます。</block>
+  <block id="d8f98730cfda4cc64ef2c3441ff554a8" category="list-text">左側のナビゲーションペインで、* Storage &gt; Storage VM*をクリックします。</block>
+  <block id="3011ef7c1bc86abe89d8eeeaf7c4c472" category="list-text">[*表示]&gt;[セキュリティ]&gt;[すべてのStorage VMs]を選択します。*セキュリティパラメータが設定されたクラスタのリストが表示されます。</block>
+  <block id="419ebf74a5546d21b1acd80acf25cc21" category="paragraph">Storage VMのセキュリティコンプライアンスのデフォルトビューを使用するには、Storage VM、クラスタ、ログインバナー、監査ログ、安全でないSSH設定などのセキュリティパラメータを確認します。</block>
+  <block id="1df41a302d0ac8f8b5c67157bf788ab9" category="inline-link-macro">すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する</block>
+  <block id="17b7a8cd3718b23c5fbc68976d54fae8" category="paragraph">_ボリュームおよびStorage VMのランサムウェア対策セキュリティの詳細については、を参照してください <block ref="bca545b4103a280a86945e429acfe26a" category="inline-link-macro-rx"></block>。_</block>
+  <block id="15b9361b9fb7038f56e85f3904037d8c" category="doc">評価されるセキュリティ条件</block>
+  <block id="2e97b5e5f53687c2edc46f6cfe0a5451" category="list-text">メディエーター</block>
+  <block id="142ceab668a9fc374d2beb0a4ef23836" category="paragraph">クラスタがメディエーターをサポートしているかどうかとメディエーターの接続ステータスを表示します。</block>
+  <block id="79ccc97c418cc26f3467425720f5d2c7" category="paragraph">クラスタがメディエーターをサポートしていない場合に表示されます。</block>
+  <block id="ac10863a89ea5da5d78b29ab7d8d4db9" category="list-text">未設定</block>
+  <block id="2fdd5dc5585243c3197c271994fd12c9" category="paragraph">クラスタがメディエーターをサポートしているが、メディエーターが設定されていない場合に表示されます。</block>
+  <block id="d64c1cefb3e1d5cdfa216f6d3407ec17" category="paragraph">クラスタがメディエーターをサポートし、メディエーターが設定されている場合に表示されます。メディエーターのステータスは色で示されます。緑は、メディエーターのステータスが到達可能であることを示します。赤は、メディエーターのステータスが到達不能であることを示します。</block>
+  <block id="e915243d2d9237ec496fdc596ffdf04a" category="summary">すべてのボリュームとStorage VM、および最新のランサムウェア対策ステータスのリストを表示して、ボリューム上のデータがランサムウェア攻撃から適切に保護されているかどうかを確認できます。</block>
+  <block id="7c2c886acbcd2892de2344c60378626c" category="doc">すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する</block>
+  <block id="b7fb2bac588b5767cf6c705188c389c3" category="paragraph">すべてのボリュームとStorage VM（SVM）およびその最新のランサムウェア対策ステータスのリストを表示して、ボリュームやSVM上のデータがランサムウェア攻撃から適切に保護されているかどうかを確認できます。</block>
+  <block id="a921172c77574003a53c4e7d463e4a78" category="inline-link-macro">ONTAP ：ランサムウェア対策を有効化</block>
+  <block id="72e5e5991e9c7a2e51d3ba91ca2a8e1d" category="paragraph">ランサムウェア対策のさまざまなステータスの詳細については、を参照してください <block ref="ebbc50671d350b612b279b18dc92d3ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="073bfac42f064e9ab9cfb7df8c7310dd" category="section-title">ランサムウェア対策の検出機能で、すべてのボリュームのセキュリティの詳細を表示できます</block>
+  <block id="1699ca27220cc19000bd17d85d3b28e2" category="list-text">[表示]メニューで、[* Health *&gt;* Security *&gt;* Anti-Ransomware *]を選択します</block>
+  <block id="765682c922feb0f0b9b563508b989dbd" category="list-text">セキュリティ：アンチランサムウェア*表示では、さまざまなフィールドでソートしたり、フィルタを使用したりできます。</block>
+  <block id="f8b04b532a660e0cf7f2af7a9d837104" category="admonition">ランサムウェア対策は、オフラインボリューム、制限付きボリューム、SnapLock ボリューム、FlexGroup ボリューム、FlexCache ボリュームではサポートされていません。 SAN専用ボリューム、停止しているStorage VMのボリューム、Storage VMのルートボリューム、またはデータ保護ボリューム。</block>
+  <block id="afaf73af225dba83673ea47b3051dc3d" category="section-title">ランサムウェア対策検出で、すべてのStorage VMのセキュリティの詳細を確認できます</block>
+  <block id="9b1365de5b07fbb66019457a4c7fb6a5" category="list-text">［*表示］&gt;［セキュリティ］&gt;［ランサムウェア対策*］の順に選択します。ランサムウェア対策のステータスが設定されたSVMのリストが表示されます。</block>
+  <block id="3dcc0199352a1721fd1f864e772d652e" category="admonition">NASプロトコルが有効になっていないStorage VMでは、ランサムウェア対策監視はサポートされていません。</block>
+  <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">本製品で使用されているサードパーティの著作権およびライセンスに関する情報。</block>
+  <block id="1209c02696508f6ee7115d3ea4bf25c6" category="inline-link">Active IQ Unified Manager 9.11に関する注意事項</block>
+  <block id="3d745b5d025273b12b90dd2a14f03c74" category="paragraph"><block ref="3d745b5d025273b12b90dd2a14f03c74" category="inline-link-rx"></block></block>
+  <block id="3aa0793f7dfdec5c9a41e17ceb9fd31b" category="doc">APIを使用したストレージワークロードの表示</block>
+  <block id="0479a086f219db093ecf35b973d0c99f" category="doc">APIを使用したクラスタのSVMの確認</block>
+  <block id="d5ebd8ed6c85ed5d37684affd2fa4def" category="doc">APIを使用してワークロードを管理する</block>
+  <block id="84664a7128e22baacddd3aa191e0ac07" category="doc">APIを使用したActive Directoryマッピングの管理</block>
+  <block id="ab470ee832c0f6b186ca1f4cda819c60" category="doc">APIを使用したアグリゲートのスペースの問題の特定</block>
+  <block id="40febffd8f8abd2d75c8d5b5a891196e" category="doc">CIFSをサポートするためのAPIを使用したNFSファイル共有の変更</block>
+  <block id="50e0f11482fceefc2d65544335ead398" category="doc">ワークロード管理用のAPIワークフロー</block>
+  <block id="c13f46060eb3abf10c16a81f7386d02d" category="doc">イベントAPIを使用してストレージオブジェクトの問題を特定する</block>
+  <block id="686de7649ff29618b2533b83f236c1f9" category="doc">APIを使用したLUNのプロビジョニング</block>
+  <block id="dae4b302d39d8710b93f2ab7e79ad44c" category="paragraph">= LUNの作成またはマッピングに失敗した場合のトラブルシューティング手順</block>
+  <block id="d5931491b56d1cc70bbacab3848ce5e3" category="doc">ストレージ管理のための一般的なAPIワークフロー</block>
+  <block id="d131c53163ad1393b868bfe59511a561" category="doc">APIを使用してイベントとアラートを管理する</block>
+  <block id="1b7f5aa3167ef79634d49e211d977ca9" category="doc">APIを使用したパフォーマンスサービスレベルの管理</block>
+  <block id="a04ca9649d91705a1631f7dedd600667" category="doc">APIを使用したCIFSおよびNFSファイル共有のプロビジョニング</block>
+  <block id="151dc20bb4e8b513a82b648656bd9368" category="doc">APIを使用したファイル共有の管理</block>
+  <block id="176ffeae86fc36be6a62affe4dc7670e" category="doc">APIを使用したパフォーマンス指標の表示</block>
+  <block id="ec6d62e34bf5aa5be0613a5f0bf48d90" category="paragraph">1 つのオブジェクトについて、読み取り、書き込み、合計、その他のカウンタなど、一定期間の平均パフォーマンス値の最小値、最大値、 95 パーセンタイル値などの累積カウンタが取得されます。</block>
+  <block id="c72068f0f4cfcce2af4ad5f5ca198d95" category="paragraph">同じタイプのすべてのオブジェクトについて、集約された単一の値が表示されます。</block>
+  <block id="edd03550acb1b4d7eebfc242f3bca941" category="paragraph">時間範囲とサンプルデータは、次のスケジュールに基づいています。データの時間範囲。例として、 1h 、 12h 、 1d 、 2d 、 3d があります。 15D 、 1w 、 1m 、 2m 、 3m 、 6M 。範囲が 3 日（ 72 時間）を超える場合は 1 時間のサンプルを取得し、それ以外の場合は 5 分のサンプルを取得します。各期間は次のとおりです。</block>
+  <block id="592f555d9ca68fc305a20da038e2c4a4" category="section-title">指標APIの出力例</block>
+  <block id="d77db93932ca545cf6a9aaa595e545e0" category="paragraph">たとえば'/datacenter /cluster/nodes/\{ key }/metrics APIは'ノードの次の詳細(その他の詳細)を取得します</block>
+  <block id="6fbb4072aff20a4023eb905e2ff55de2" category="section-title">分析APIの出力例を示します</block>
+  <block id="c0815a51f8ff3d35fb21c55ed784fe4d" category="paragraph">たとえば '/datacenter /cluster/nodes /analytics API は ' すべてのノードについて次の値 ( その他の値 ) を取得します</block>
+  <block id="d0afe4282d5750b811bf856294b7ee90" category="section-title">使用可能なAPIのリスト</block>
+  <block id="69e0c36da903d0d4cb49d6796d3d396f" category="doc">APIを使用したストレージワークロードの変更</block>
+  <block id="1a4d8144779e6af61297c952cc00b125" category="doc">APIを使用したユーザの管理</block>
+  <block id="c294c1867833805e6f5e0f7d96fbb7d4" category="doc">APIを使用したストレージ効率化ポリシーの管理</block>
+  <block id="0a3a79412d400bd0f3c4afd224e8b5b8" category="doc">APIを使用してデータセンター内のストレージオブジェクトを管理する</block>
+  <block id="f1b02590625e2386e3e74ef798497ebc" category="doc">APIを使用したLUNの管理</block>
+  <block id="7f645fd53d70dc3f9dc7175759aec65b" category="doc">APIを使用した管理タスクの実行</block>
+  <block id="cbdc76f186be9437aa185542dedea7ff" category="doc">APIを使用したアクセスエンドポイントの管理</block>
+  <block id="c1687ae8cb39008ec36f3b77f2402b2c" category="paragraph">Unified Manager では、 MetroCluster 構成のクラスタ間の書き込みスループットを監視して、大量の書き込みスループットを生成しているワークロードを特定できます。</block>
+  <block id="790b40c85b71368d543d3cf3c0b0b091" category="paragraph">このような負荷の高いワークロードが原因でローカルクラスタの他のボリュームの I/O 応答時間が長くなると、 Unified Manager はパフォーマンスイベントをトリガーしてユーザに通知します。</block>
+  <block id="82aec6fe5f2c3512a731aa49c2639796" category="paragraph">MetroCluster 構成内のいずれかのクラスタのスループットを表示するには、次の画面で対応するLUNおよびボリュームのワークロードを分析します。クラスタで結果をフィルタリングできます。左側のナビゲーションペインで、次の操作を実行します</block>
+  <block id="2a37c81fbb283264fc94f7411dd3c82b" category="list-text">*［ストレージ］＞［クラスタ］＞［パフォーマンス］：［すべてのクラスタ］表示を参照してください</block>
+  <block id="040c9f3199e4edb365b407a5522d8b14" category="list-text">*［ストレージ］＞［ボリューム］＞［パフォーマンス］：［すべてのボリューム］*ビュー</block>
+  <block id="1f5bcd8c3b9ed0be47ee37a37cefbf3f" category="list-text">*［ストレージ］＞［LUN］＞［パフォーマンス］：すべてのLUN*ビュー</block>
+  <block id="0936894fcc6f2d39208694eaacc0a235" category="list-text">*ワークロード分析&gt;すべてのワークロード*</block>
+  <block id="d96a098aa8eb06c65224284e82ae6777" category="paragraph">動的なパフォーマンスイベントの場合、イベントの詳細ページのシステム診断セクションに、競合状態のクラスタコンポーネントのレイテンシまたは使用量が最も高い上位のワークロードが表示されます。</block>
+  <block id="f9d3d6d4d2bd1aa28384ee37c610caba" category="paragraph">パフォーマンス統計は、パフォーマンスイベントが検出されてからイベントが最後に分析されるまでの時間に基づいています。このグラフには、競合状態のクラスタコンポーネントの過去のパフォーマンス統計も表示されます。</block>
+  <block id="25d38563524852b9ac9f9be71ef268a1" category="paragraph">たとえば、コンポーネントの利用率が高いワークロードを特定して、利用率が低いコンポーネントに移動するワークロードを特定できます。ワークロードを移動すると、現在のコンポーネントでの作業量が減り、コンポーネントの競合状態が解消する可能性があります。このセクションの上部には、イベントが検出されて最後に分析された時刻と日付の範囲が表示されます。アクティブなイベント（新規または確認済みのイベント）の場合は、最後に分析された時刻が更新されます。</block>
+  <block id="706d37f40cd6eb841506e386386017b9" category="paragraph">レイテンシとアクティビティのグラフにカーソルを合わせると、上位のワークロードの名前が表示されます。グラフの右側にあるワークロードのタイプメニューをクリックすると、イベントでのワークロードのロールに基づいてワークロードをソートできます。これには、 _Shark 、 _Bully 、 _Victim の各ワークロードのレイテンシと競合しているクラスタコンポーネントでの使用状況の詳細が表示されます。実際の値と想定値を比較して、ワークロードがレイテンシまたは使用量の想定範囲を外れたタイミングを確認できます。詳細については、を参照してください <block ref="509b647e49f1115274d5173373879611" category="inline-link-macro-rx"></block>。</block>
+  <block id="dff7d1c15c5dde10579e28c9c435ec86" category="paragraph">動的なパフォーマンスしきい値の詳細については、を参照してください <block ref="880f9de9d7dcc0d0351211e1a449b506" category="inline-link-macro-rx"></block>。</block>
+  <block id="278a177ac7739bc1de2f85f04ba9a90b" category="paragraph">Unified Managerでワークロードをランク付けしてソート順序を決定する方法については、を参照してください <block ref="eaa71b6f3a7583249cbad31583882340" category="inline-link-macro-rx"></block>。</block>
+  <block id="4c72721e1b36c4a399a797b95f0f934a" category="paragraph">競合状態のクラスタコンポーネントのワークロードの使用量に関する詳細が表示されます。グラフでは、実際の使用量は青い線で表示されます。検出時刻から最後に分析された時刻までのイベント期間が赤いバーで強調表示されます。詳細については、を参照してください <block ref="30adc51a7babb5a51be3e9a06a23aa95" category="inline-link-macro-rx"></block>。</block>
+  <block id="ae0d976bc456ed2b687e9e1494f96a6f" category="paragraph">Unified Managerは、新しいActive IQ イベント（ルール）ファイルの有無を自動的にチェックし、ある場合は新しいファイルをダウンロードします。ただし、外部ネットワークへのアクセスがないサイトでは、ルールファイルを手動でアップロードする必要があります。</block>
+  <block id="a7e941a5fe778db0eea3545de1d113b2" category="admonition">Active IQ ルールは、Config Advisor （CA）セキュアルールとも呼ばれます。</block>
+  <block id="12ceac5d2e383ae3aa41ecb5a4689a7d" category="paragraph">ネットワークに接続されていないサイトでUnified Managerをインストールまたはアップグレードすると、バンドルされているActive IQ ルールを自動的にアップロードに使用できるようになります。ただし、更新されたイベントが生成されてストレージシステムが最適な状態を継続できるようにするために、ネットアップサポートサイトから月に約1回は新しいルールファイルをダウンロードすることを推奨します。</block>
+  <block id="a845907823c19859aed3b0f18a38da4f" category="list-text">Active IQ ポータルイベントのレポートを有効にする必要があります。この機能はデフォルトで有効になっています。詳細については、を参照してください <block ref="8658b0fde93c687ddd323db3f722b419" category="inline-link-macro-rx"></block>。</block>
+  <block id="dfe7deebcd40f4161d9b14c981c9d0d4" category="paragraph">ルールファイルは次の場所にあります。<block ref="d1cfde6f5a58e572b4bc1737c935d4ad" category="inline-link-rx"></block></block>
+  <block id="7baeb0c9081f1a8cb146f93643de73dc" category="paragraph">ルールパッケージには、ルールリポジトリ、データソース、およびネットアップの技術情報アーティクルが含まれています。</block>
+  <block id="201ca5b66dc9dc1a3dc4493152ebe8ca" category="admonition">Windowsシステムでは、ネットワークに接続されていないサイトでは、デフォルトではネットアップの技術情報アーティクルがインストーラにバンドルされていません。サポートサイトから_secure_rules.zipファイルをダウンロードしてアップロードすると、すべてのルールのKB記事を参照できます。</block>
+  <block id="7e90bd45823841034e4e866f708433ba" category="paragraph">ルールファイルが Unified Manager サーバに解凍されます。午前0時を過ぎた時点で管理対象クラスタでAutoSupport ファイルが生成され、Unified Managerがルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。</block>
+  <block id="a0f263b9cc09522b877ec0d8c725a9d9" category="summary">ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ：</block>
+  <block id="159e979b9af8e11071d96adc2e429f87" category="admonition">_um run_commandを実行するには、アカウントに_console_applicationアクセス権があることを確認します。</block>
+  <block id="926c1db915510c0dea522b314f2f37b1" category="paragraph">クラスタ証明書の有効期限が近づいています（DocumentEvtClusterCertificateAboutToExpire）</block>
+  <block id="d555b856e6422225ce026b79cc781404" category="paragraph">クラスタ証明書の有効期間が終了しました（ドキュメントのEvtClusterCertificateExpired）</block>
+  <block id="b46b622b74332441365c7c69cbe27dab" category="paragraph">利用率の低いボリュームのSnapshotリザーブ（volumeSnaphotReserveUnderutilizedWarning）</block>
+  <block id="57472a018b361036c61c50edd8ef006b" category="paragraph">ボリュームのSnapshotリザーブの利用率が低い（volumeSnaphotReserveUnderutilizedCleared）</block>
+  <block id="fa639c75b35101ded38bbd88ebfdf11a" category="section-title">影響範囲：データ保護</block>
+  <block id="099458017e32324ca23af72d14d5f0d2" category="paragraph">ボリュームにローカルSnapshot保護が不十分です（volumeLacksLocalProtectionWarning）</block>
+  <block id="dd5f6d15bb6d675fda4fcf6ead3f4098" category="paragraph">ボリュームにローカルSnapshot保護が不十分です（volumeLacksLocalProtectionCleared）</block>
+  <block id="47d1c28840597a2ae7e6016669e00f6a" category="paragraph">ONTAP メディエーターがクラスタに追加されました（SnapmirrorMediatorAdded）</block>
+  <block id="255f9cf61279c6d67c62f927071a3e8f" category="paragraph">ONTAP メディエーターがクラスタから削除されました（snapmirrorMediatorRemoved）</block>
+  <block id="a6bacc83dfdb1c9689535a09836f8550" category="paragraph">ONTAP メディエーターがクラスタから到達できません（snapmirrorMediatorUnreachable）</block>
+  <block id="cf7f72fb2e3e5a9df104130ba81c194e" category="paragraph">メディエーター</block>
+  <block id="da953faa02ca184ebcadd69694229ca0" category="paragraph">ONTAP メディエーターにクラスタからアクセスできない（SnapmirrorMediatorMisconfigured）</block>
+  <block id="dc7d8942cdb2f367c68f30d022efa7f0" category="paragraph">ONTAP メディエーターの接続が再確立され、再同期されてSMBC（snapmirrorMediatorInQuorum）用の準備が整いました。</block>
+  <block id="8002c010879d451de4416c97251e7e29" category="summary">Storage VMの関連付けページでは、ソースとデスティネーションのStorage VM間の既存のStorage VMの関連付けを表示できます。</block>
+  <block id="b31a8b073692fe4fc7d0416d77032d55" category="doc">Storage VMの関連付けの概要</block>
+  <block id="8210ed29bdbce4c1e73c2d1c02b5282d" category="paragraph">Storage Virtual Machine（Storage VM）の関連付けは、ソースStorage VMからデスティネーションStorage VMへのマッピングであり、リソースの選択やセカンダリボリュームのプロビジョニングのためにパートナーアプリケーションで使用されます。</block>
+  <block id="eebfa1a3ea89701aa073f2e0c24d4210" category="paragraph">デスティネーションStorage VMがセカンダリデスティネーションか3次デスティネーションかに関係なく、ソースStorage VMとデスティネーションStorage VMの間で関連付けが作成されます。セカンダリデスティネーションStorage VMをソースとして使用して、3番目のデスティネーションStorage VMとの関連付けを作成することはできません。</block>
+  <block id="f46d5829df25f3d6453ce030811b888f" category="paragraph">アプリケーション管理者またはストレージ管理者は、環境内のStorage VMの関連付けを* Protection *&gt;* Storage VM Associations *ページで確認できます。</block>
+  <block id="65900e7edecadc6566c91a3a55beb80a" category="paragraph">SVMを関連付ける方法は3つあります。</block>
+  <block id="af28d79c27ec7868806eb52b66765432" category="list-text">*任意のStorage VMを関連付け*：任意のプライマリソースStorage VMと1つ以上のデスティネーションSVMの間で関連付けを作成できます。つまり、現時点で保護を必要とする既存のすべてのSVMおよび今後作成されるすべてのSVMが指定したデスティネーションSVMに関連付けられます。たとえば、異なる場所にある複数のソースのアプリケーションを1箇所にある1つ以上のデスティネーションSVMにバックアップできます。</block>
+  <block id="598ee3be574e8c69b305596a6e7385bf" category="list-text">*特定のStorage VMを関連付け*：特定のソースStorage VMと1つ以上の特定のデスティネーションSVMの間で関連付けを作成できます。たとえば、データを互いに分離する必要のある多数のクライアントにストレージサービスを提供する場合は、このオプションを選択して、特定のソース Storage VM を、対象のクライアントにのみ割り当てられる特定のデスティネーション Storage VM に関連付けることができます。</block>
+  <block id="2b2e5138960ce3d6824a982ba08d8bae" category="list-text">*外部Storage VMと関連付け*：ソースStorage VMとデスティネーションStorage VMの外部のフレキシブルボリュームとの間で関連付けを作成できます。</block>
+  <block id="7da2edb845ba897c58d65bd9a88f8ef2" category="section-title">Storage VMの関連付けを作成します</block>
+  <block id="61b530baa8f60c5e2288fb6ccdfa6380" category="paragraph">Create Storage Virtual Machine Associationsウィザードでは、パートナーの保護アプリケーションを使用して、ソースStorage VMをデスティネーションStorage VMに関連付けて、SnapMirror関係とSnapVault 関係で使用することができます。パートナーアプリケーションでは、デスティネーションボリュームの最初のプロビジョニングの際にこれらの関連付けを使用して、.ddを選択するリソースを特定します</block>
+  <block id="093bfc06b3ba97de48c36c373b1d8a67" category="list-text">左側のナビゲーションペインで、* Protection *&gt;* Storage VM Associations *をクリックします。</block>
+  <block id="0d882d92bf60713a394d80ffd55a986a" category="list-text">[* Storage VM Associations]ページで、[* Create]をクリックします。</block>
+  <block id="ba1a0033d8ddcf21c0dbcd5360526b4f" category="paragraph">Create Storage Virtual Machine Associations *ウィザードが起動します。</block>
+  <block id="b62286553877887b6e5266cb311292ac" category="section-title">Storage VMの関連付けを削除します</block>
+  <block id="8ba065ab119d7c4653197635d796b282" category="paragraph">パートナーアプリケーションに対するStorage VMの関連付けを削除して、ソースとデスティネーションのStorage VM間のセカンダリプロビジョニング関係を削除することができます。この処理は、たとえば、デスティネーションStorage VMがいっぱいになり、Storage VMの保護の関連付けを新たに作成する場合などに行います。</block>
+  <block id="1df7e1a7c8bf8c7e99481899b98eb1bf" category="paragraph">Delete *ボタンは、Storage VMとの関連付けが少なくとも1つ選択されるまで無効になります。関連付けの削除と追加による変更は、以降のプロビジョニング処理にのみ反映されます。既存のデスティネーションボリュームが移動されることはありません。</block>
+  <block id="5de9d55f08d138829510f52e1d4232e2" category="list-text">Storage VMの関連付けを少なくとも1つ選択してください。</block>
+  <block id="dbdac0c65ca56ce1c51d43ddb0fad70d" category="paragraph">選択したStorage VMの関連付けがリストから削除されます。</block>
+  <block id="c5571ff9e71f9fd2a0853229ddb7006d" category="summary">Storage VM ディザスタリカバリ関係は、インベントリの保護セクションにある関係ページで監視できます。デフォルトでは、関係ページには、コンスティチュエント関係のフィルタが適用されたときの最上位の関係だけが表示されます。</block>
+  <block id="b518d96f65df8e3a8c5bd9b294314ee7" category="paragraph">デフォルトでは、関係ページにアクセスすると、ボリュームとStorage VMの両方の最上位の保護関係が表示されます。ページの上部にあるコントロールを使用すると、特定のビューの選択、特定のオブジェクトの検索の実行、フィルタの作成および適用による表示データのリストの絞り込み、ページ上の列の追加 / 削除 / 並べ替え、ページ上のデータの .csv 、 .pdf または .xlsx ファイル。カスタマイズしたページをカスタムビューとして保存し、データのレポートを定期的に生成して E メールで送信するようにスケジュール設定できます。デフォルトでは、 [ * 関係 * ] メニューを選択すると、レポートにはデータセンター内のボリュームと Storage VM の両方の保護関係が表示されます。「 * フィルタ * 」オプションを使用すると、ボリュームのみ、または Storage VM のみなど、選択したストレージシステムのみを表示できます。ストレージページと、選択したストレージエンティティについてのみ、同じレポートが表示されます。ボリュームまたは Storage VM の関係を表示するには、 * Storage * &gt; * Volumes * &gt; * Relationship ： All Relationships * ページまたはアクセス * Protection * &gt; * Relationships * &gt; * Relationship ： すべての関係 * 。フィルタ * の * 関係オブジェクトタイプ * オプションを使用して、ボリュームまたは Storage VM のデータのみをフィルタリングします。</block>
+  <block id="fcd4ecf1cf7bb8267ec59d4f89b505b1" category="list-text">*メディエーター*</block>
+  <block id="496eb323c2ee5c388095071435b45af0" category="paragraph">メディエーターのステータスが表示されます。</block>
+  <block id="6b186591bdb6b54c5178194cd438daf3" category="paragraph">クラスタがSnapMirror Business Continuityをサポートしていない場合。</block>
+  <block id="6470ad126b37899e643afe35ff51f8fd" category="paragraph">このオプションが設定されていない場合や設定されているがデスティネーションクラスタのみが追加されていて、ソースクラスタがUnified Managerに追加されていない場合。</block>
+  <block id="26eeb2415026ecc2a99b19ae10c4e13e" category="list-text">メディエーターのIPアドレス</block>
+  <block id="a5a42e7a9482f606a51f46baffc94087" category="paragraph">設定されている場合は、ソースとデスティネーションの両方のクラスタがUnified Managerに追加されます。</block>
+  <block id="7e68f07357c45081317f53387f7266d7" category="list-text">[ データ保護 ] パネルの右矢印をクリックします。データ保護ページが表示されます。</block>
+  <block id="b924604020dfecc1a01747f4bfa15308" category="paragraph">データセンターで1つまたはすべてのクラスタを選択した場合は、SnapshotコピーまたはSnapMirrorポリシーで保護されているボリュームのデータ保護ステータスと、保護されていないボリュームの数が表示されます。個々のクラスタリストからクラスタを選択すると、そのクラスタ内で保護されているボリュームのSnapshot保護とSnapMirror関係のステータスが表示されます。</block>
+  <block id="0fde569b1b44739553ddaaff6135e124" category="paragraph">このページでイベントをクリックすると、イベントの詳細ページが表示されます。[ すべて表示 *] リンクをクリックすると、 [ イベント管理 ] インベントリページですべてのアクティブな保護イベントを表示できます。マウスのカーソルを合わせると、それぞれのカウントと凡例を表示できます。次のいずれかをクリックできます。</block>
+  <block id="dc79b580b3abcee40a5c1db816776add" category="list-text">保護されていないボリュームとSnapshotコピーで保護されているボリュームの棒グラフ。ボリュームのページに移動して詳細を確認できます。</block>
+  <block id="9ec4449ec67cf67ff4e6137a8c70a14c" category="list-text">すべての関係の棒グラフが関係ページに表示され、詳細はソースクラスタでフィルタリングされます。</block>
+  <block id="6d19d82d08dc4fb56d5d3cf966bcf011" category="section-title">Snapshotコピーで保護されているボリュームの保護ステータスを表示します</block>
+  <block id="d40958165499de2e87385de241423123" category="paragraph">* Snapshotコピーの概要*：次のような、Snapshotコピーで保護されているボリュームの概要</block>
+  <block id="ceeeda459e0591e5d314980d38fad5cf" category="list-text">Snapshot コピーのリザーブスペースを使用中または超えているボリュームの合計数。</block>
+  <block id="7dfeeba5b190ae4593179e8561ef6250" category="list-text">ボリュームが、リザーブされている Snapshot コピー容量を使用、使用、および超えています。</block>
+  <block id="2501c27643bb600124234f1b0df79e6b" category="list-text">Snapshot コピー数に関するボリューム数の内訳。</block>
+  <block id="a7a85c14f79a3bddc67ff04c5e702692" category="section-title">Snapshotコピーについてはメモを指定します</block>
+  <block id="cae7a1ed2c80d90222287b47bcfb88f4" category="list-text">Snapshotコピーで保護されているボリュームの数をカウントする場合、ソースボリュームとデスティネーションボリュームの両方が考慮されます。</block>
+  <block id="435e270285812ae55d84b098321f6830" category="list-text">返される Snapshot コピーの数は、オンラインで使用可能なボリュームの数だけです。</block>
+  <block id="d2f4424e946a423fe802573596a82a64" category="list-text">Snapshotコピーのリザーブスペースの値は、使用されているディスクスペースの量を確認したり、1つ以上のSnapshotコピーを削除した場合に再利用可能なスペースを計算する場合に重要です。</block>
+  <block id="48815cc485f34516122d402c7691bcbc" category="section-title">SnapMirror関係の保護ステータスを表示します</block>
+  <block id="eebf9b70421de9e6316f48de3e2cef0b" category="list-text">遅延ステータスに基づいて、目標復旧時点（RPO）の遅延が発生しているSnapMirror関係の総数。</block>
+  <block id="2cd111e77d7b5983398bdaaaee149c7b" category="list-text">各タイプのSnapMirrorポリシーで保護されているボリュームの数。</block>
+  <block id="5c421974ea0511d51906133dd8756205" category="list-text">非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、StricxtSync、SnapMirror Business Continuity（SMBC）整合グループ、同期など、SnapMirror関係で保護される関係の数。</block>
+  <block id="43e5aa2d7191d2fad1b5eb6a2779c47c" category="list-text">健全でない関係の数。</block>
+  <block id="2fb2c7d03a760408a3f8150c23df4876" category="list-text">ボリューム関係の数を表示します。グラフはRPOの遅延時間とステータスで切り替えることができます。</block>
+  <block id="63a0f94f271c2db3ea63bb2e1407963f" category="section-title">SnapMirror関係については、メモを指定します</block>
+  <block id="8306a92378d26e760d7af3731743817d" category="list-text">SnapMirror関係のカウントでは、読み取りと書き込みが有効なソースボリュームがカウントされます。デスティネーションボリュームとルートボリュームは考慮されません。</block>
+  <block id="8d511bbd194d35f08464a136bb70dcde" category="list-text">SnapMirror関係の数には、ソースとデスティネーションが同じクラスタまたは異なるクラスタにあるボリュームの数が含まれます。</block>
+  <block id="1db6a4edd103342870b2b9c5978d7367" category="list-text">データレプリケーションにおけるRPOの遅延時間は、SnapMirror関係に基づいています。ステータスは'関係のしきい値セットに基づいて'OK''warning]'または'error'に分類されますステータスを確認して、パラメータが想定どおりに機能しているかどうか、または問題 に対処する必要があるかどうかを判断できます。</block>
+  <block id="3ff4f762b527be69fe7eec08ae35b87b" category="list-text">ボリュームに複数のSnapMirror関係がある場合、RPO遅延には各関係タイプがカウントされます。</block>
+  <block id="e1b7796fc1c8956e35e14e1dd971c172" category="list-text">ソースとデスティネーションの間でデータレプリケーションに問題がある場合、たとえば関係が解除されたときなど、ボリューム関係は正常な状態でないとみなされます。</block>
+  <block id="40847d7e9432dd6c5361ae54fc2d16af" category="paragraph">構成に応じて、次のパネルの一部がダッシュボードに表示されます。</block>
+  <block id="c25d753eab05371bc6f1dc93bfec9172" category="section-title">[管理操作]パネル</block>
+  <block id="b6df0767f4960b7629f2e371610e9307" category="paragraph">問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、このパネルに * Fix it * または * Fix All * ボタンで表示されます。このような問題は Unified Manager から直接解決できます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。すべての問題を表示するには、「参照」をクリックします <block ref="4de06821690ec8505ff30e3d01558e54" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="fef8cf4e4a8fdf24035fdd7ad0e12bef" category="section-title">容量パネル</block>
+  <block id="b05da785853a29a927e963aad5156c60" category="section-title">Performance Capacity（パフォーマンス容量）パネル</block>
+  <block id="13096b4da9a657a34280608c81422b64" category="section-title">ワークロードのIOPSパネル</block>
+  <block id="4826f254fef1719f5ec200536a9b8d1c" category="section-title">ワークロードのパフォーマンスパネル</block>
+  <block id="6a9602a49f20f6de2a3c680bee025bf2" category="section-title">セキュリティパネル</block>
+  <block id="fcdbb03270e6f3305ff3df7b28850700" category="paragraph">Securityパネルには、現在のビューに応じて、すべてのクラスタまたは単一のクラスタのセキュリティステータスの概要が表示されます。このパネルには次の情報が表示</block>
+  <block id="536271dfa8f2f9916a13c215d3f41af1" category="list-text">過去24時間に受信したセキュリティイベントのリスト。イベントをクリックすると、そのイベントの詳細がイベントの詳細ページに表示されます</block>
+  <block id="456c95875c5f07d10bea6adf0d6afc89" category="list-text">クラスタのセキュリティステータス（準拠クラスタと非準拠クラスタの数）</block>
+  <block id="73898bf7f2b529343bbba3505b24ff2d" category="list-text">Storage VMのセキュリティステータス（準拠Storage VMと非準拠Storage VMの数）</block>
+  <block id="2cdea3c1ee33ca0bea905c24386731bc" category="list-text">ボリューム暗号化ステータス（暗号化されているボリュームまたは暗号化されていないボリュームの数）</block>
+  <block id="ef1b9b8be04891e22fa3ddf0fd376165" category="list-text">ボリュームのランサムウェア対策のステータス（ランサムウェア対策が有効または無効になっているボリュームの数）</block>
+  <block id="4e1bd1faabb7657ed9737620db0b2e94" category="paragraph">準拠クラスタと非準拠クラスタ、Storage VM、暗号化ボリュームと非暗号化ボリューム、およびボリュームのランサムウェア対策ステータスの棒グラフをクリックすると、該当するページに移動し、フィルタリングされたクラスタ、Storage VM、およびボリュームのセキュリティの詳細を表示できます。</block>
+  <block id="0c9a288d39552e7a6119f62b6d3007b4" category="paragraph">コンプライアンスは、に基づいています<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。パネル上部の右矢印をクリックして、Securityページですべてのクラスタのセキュリティの詳細を表示します。詳細については、を参照してください<block ref="13e0397bd43d0f4ef0a0e2d1f1544b6c" category="inline-link-macro-rx"></block></block>
+  <block id="79e2397f76dee4064846f95fa07791eb" category="section-title">データ保護パネル</block>
+  <block id="9e8696d44288182cf40230af51f64455" category="paragraph">このパネルには、データセンター内の 1 つまたはすべてのクラスタのデータ保護の概要が表示されます。ONTAP で過去 24 時間に発生したデータ保護イベントの総数とアクティブイベントの数が表示されます。これらの各イベントのリンクをクリックすると、 [ イベントの詳細 ] ページが表示されます。[ すべて表示 *] リンクをクリックすると、 [ イベント管理 ] インベントリページですべてのアクティブな保護イベントを表示できます。</block>
+  <block id="2e49679d1be13246fb079f59529684e7" category="paragraph">このパネルには、クラスタ内のボリュームの数や、SnapshotコピーとSnapMirror関係で保護されているデータセンター内のすべてのクラスタも表示されます。SnapMirror関係では、ソースクラスタのボリューム数が考慮されます。また、遅延ステータスに基づいて、SnapMirrorのRecovery Point Objective（RPO；目標復旧時点）の遅延が設定されたボリューム関係の数も確認できます。マウスのカーソルを合わせると、それぞれのカウントと凡例を表示できます。次のいずれかをクリックできます。</block>
+  <block id="96e0ea5d27f828094ba80affb2d69831" category="list-text">すべての関係の棒グラフが関係ページに表示され、詳細はソースクラスタに基づいてフィルタされます。</block>
+  <block id="88706e5bba10c2cfad56cdea8c4ba6fe" category="paragraph">詳細については、を参照してください <block ref="cce169fddfae7a31f74f472dce696e49" category="inline-link-macro-rx"></block>。</block>
+  <block id="f57c4b418e2731d49f5e6d4704d476ed" category="section-title">使用状況の概要パネル</block>
+  <block id="66576d2d96c5af7a461b297c7c1fee81" category="summary">パフォーマンスサービスレベルの計算と管理：</block>
+  <block id="8552175c85e7998c59b8494bc1ae857d" category="paragraph">パフォーマンスサービスレベル（PSL）を使用すると、ワークロードに対してパフォーマンスとストレージの目標を定義できます。ワークロードの最初の作成時や編集時に、PSLをワークロードに割り当てることができます。</block>
+  <block id="184ab5bd8865091b7cda3174a886cc26" category="paragraph">ストレージリソースは、サービスレベル目標（ SLO ）に基づいて管理および監視されます。SLO は、必要なパフォーマンスと容量に基づくサービスレベルアグリーメントによって定義されます。Unified Manager では、 SLO と言った場合、ネットアップストレージで実行されているアプリケーションの PSL の定義を表します。ストレージサービスの内容は、基盤となるリソースのパフォーマンスと利用率に基づいて決定されます。PSL はストレージサービス目標の概要です。ストレージプロバイダは、 PSL を使用してワークロードに目標とするパフォーマンスと容量を指定できます。ワークロードにPSLを割り当てると、ONTAP 上の対応するワークロードがパフォーマンスと容量の目標で管理されます。各PSLには、ピークIOPS、想定IOPS、絶対最小IOPS、および想定レイテンシが適用されます。</block>
+  <block id="b36a5e567e88c0ae0a64778c42ea9981" category="paragraph">Unified Managerには、次のタイプのPSLがあります。</block>
+  <block id="3843fd811f1ec0b59d9cdd4a7e47df49" category="list-text">*システム定義*：Unified Managerには、変更できない組み込みのポリシーがいくつか用意されています。事前定義されたPSLは次のとおりです</block>
+  <block id="778ad35b71454a746f2ee05ac17deabd" category="paragraph">Extreme Performance 、 Performance 、および Value PSL は、データセンターの一般的なストレージワークロードのほとんどに該当します。</block>
+  <block id="5cf5ab634f22e11b8dd5e06cc7f1a0de" category="paragraph">Unified Managerには、データベースアプリケーションのパフォーマンスサービスレベルも3つあります。これらは、バースト IOPS をサポートする非常にハイパフォーマンスな PSL であり、スループットの要求が最も高いデータベースアプリケーションに適しています。</block>
+  <block id="ce3e57f2cc08dc30303717cb709cb3a2" category="list-text">*ユーザ定義*：事前定義されたパフォーマンスサービスレベルが要件に合わない場合は、PSLを新たに作成してニーズに対応できます。詳細については、を参照してください <block ref="d0a8b7ff5ef359e804ab1c178548b2d2" category="inline-link-macro-rx"></block>。</block>
+  <block id="23f0b729594406f218589023be1672eb" category="list-text">* Extremeを超える場合*：PSLが最高レベルを超えると、PSLがシステム推奨となります。PSLを超えるワークロードには、Extremeよりも高いIOPSが必要です。ワークロードの内部分析はIOPS、容量、レイテンシに基づいて行われ、ストレージ&gt;ワークロード&gt;すべてのワークロード*画面で、これらのワークロードそれぞれについてPSLを超えることが推奨されます。PSLをワークロードに適用することで最適なパフォーマンスを確保できます。</block>
+  <block id="16b8789642bf182efe1472aa8429f79e" category="paragraph">ワークロードのIOPSパラメータは、ワークロードの動作に応じて動的に生成され、「Beyond Extreme」PSLの名前に「Beyond Extreme」という形式で追加されます。&lt;number -（peak IOPS/TB）&gt;&lt;number（expected IOPS/TB）&gt;。たとえば、ピーク時のIOPSと予測されるIOPSがそれぞれ「106345」と「37929」であるとシステムが判断した場合、ワークロードに対して生成される「Beyond Extreme PSL」は「Exterond Extreme 106345 37929」と名付けられます。これらのPSLはシステムによって推奨されますが、これらのPSLをワークロードに割り当てると、PSLはタイプに「User-defined」とラベルされます。</block>
+  <block id="83f918c807b58b71db4acbbc77ef8853" category="section-title">PSLを割り当ててワークロードを管理しています</block>
+  <block id="b441b9d3821de1d37228c33142c7feaf" category="paragraph">PSLには、「* Policies *&gt;* Performance Service Levels *」ページからアクセスできます。また、ストレージプロバイダAPIを使用してアクセスできます。PSL を割り当ててストレージワークロードを管理すると、ストレージワークロードを個別に管理する必要がなくなるため便利です。変更については、個別に管理するのではなく、別の PSL を再割り当てして管理することもできます。Unified Managerでは、内部の評価と推奨事項に基づいてワークロードにPSLを割り当てることができます。</block>
+  <block id="928ef7d59a43368b1173f812a02322ba" category="paragraph">システム推奨のPSLをワークロードに割り当てる方法については、を参照してください <block ref="39911180f1611c3a58b984217400bf00" category="inline-link-macro-rx"></block></block>
+  <block id="5f88ffd5a97eb92e999fdce0e40231d7" category="paragraph">パフォーマンスサービスレベルページには、使用可能な PSL ポリシーが表示されます。このページで、ポリシーを追加、編集、削除することができます。</block>
+  <block id="e245f2c7c1f2c99c5a6c90f2a8a9d663" category="paragraph">このページには、次の情報が表示されます。</block>
+  <block id="83059b29ded5b1932b48e4206971a5ee" category="paragraph">PSLの名前。</block>
+  <block id="921ad87862a6cb534bf64a36dc685190" category="paragraph">想定 IOPS/TB</block>
+  <block id="eddcc0fdb991cbf3e872a7d78bdaebf5" category="paragraph">最大 IOPS/TB</block>
+  <block id="9ca8a856539b5ae9a3a54f23f3b229f3" category="paragraph">ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。<block ref="ca8d1d6e78ce890ca12599250d6fd33a" category="inline-link-rx"></block></block>
+  <block id="1e2877fe5a3aa4eeb47784f53a7249e3" category="section-title">PSLによって定義されるしきい値を超えているワークロードに対して生成されるイベント</block>
+  <block id="e2bdcd05f95d60578d7e6bfd9d2544d6" category="paragraph">ワークロードが過去1時間の想定レイテンシの値を30%超えた場合、Unified Managerは次のいずれかのイベントを生成して、潜在的なパフォーマンス問題 をユーザに通知します。</block>
+  <block id="8b6b4056f93370fb709800d66f772b5f" category="list-text">パフォーマンスサービスレベルポリシーに定義されたワークロードのボリュームレイテンシしきい値を超過</block>
+  <block id="b5645d14881cb50cc5446fff8f8f2fe3" category="list-text">パフォーマンスサービスレベルポリシーに定義されたワークロードのLUNレイテンシしきい値を超過。</block>
+  <block id="f14587ffeeb503db87509f1c835e8083" category="paragraph">ワークロードを分析して、レイテンシの値が高くなる原因を確認することができます。</block>
+  <block id="983d6eba134705aa52a8cccb4900a665" category="list-text"><block ref="983d6eba134705aa52a8cccb4900a665" category="inline-link-macro-rx"></block></block>
+  <block id="827edeea8771884703cf6933b5bd4082" category="list-text"><block ref="827edeea8771884703cf6933b5bd4082" category="inline-link-macro-rx"></block></block>
+  <block id="1a25e589af391acb5b5e54c86cd6e406" category="list-text"><block ref="1a25e589af391acb5b5e54c86cd6e406" category="inline-link-macro-rx"></block></block>
+  <block id="e0c824f40f429abde0d08c6e8828e913" category="list-text"><block ref="e0c824f40f429abde0d08c6e8828e913" category="inline-link-macro-rx"></block></block>
+  <block id="898e52de0af612227a2f8c15ffca7e07" category="section-title">システム定義のPSL</block>
+  <block id="234af0ddc4a71a876356b59cb2384ed5" category="inline-link">Active IQ UM「システム推奨のパフォーマンスサービスレベルの割り当て」は、変数の大きいワークロードには適応されません</block>
+  <block id="3d7f2134db93b92515eeb7d6dd0d42fd" category="paragraph">ナレッジベース（KB）の記事も参照してください<block ref="392a353923a129bf2dd9e8f509eb075c" category="inline-link-rx"></block></block>
+  <block id="c5cabe6c2ad2795d23383728084e1ab7" category="paragraph">Unified Managerにクラスタを追加すると、各クラスタのストレージワークロードが自動的に検出されてワークロードページに表示されます。</block>
+  <block id="2be7409d28477749d18d42c97d70700f" category="paragraph">Unified Manager は、ストレージワークロードで I/O 処理が開始された時点で、推奨される（推奨される PSL ）に対するワークロードの分析を開始します。</block>
+  <block id="e2fa63eeafabf7368d2bbe40551b89b4" category="paragraph">FlexGroup ボリュームとそのコンスティチュエントは除外されます。</block>
+  <block id="69fde75d614c2addee8e60ebec0e1b4f" category="paragraph">ワークロードの概要ページには、データセンター内のワークロードの概要と、データセンターのスペースとパフォーマンスの概要が表示されます。</block>
+  <block id="0d08c8c5cfaa7e6e5e5560cb3b198979" category="list-text">*ワークロードの概要*パネル：ワークロードの総数、およびPSLが割り当てられている/割り当てられていないワークロードの数が表示されます。また、各PSLのワークロード数の内訳も表示されます。数をクリックすると、「すべてのワークロード」が表示され、フィルタリングされたワークロードが表示されます。また、システム推奨事項に一致しないワークロードの数を表示し、システム推奨のPSLを割り当てても、* Assign System-Recommended PSL *ボタンをクリックすることで、該当するワークロードにPSLを割り当てることができます。</block>
+  <block id="4b150d0a068c78ebc07c09b002c83b57" category="list-text">*データセンターの概要*パネル：データセンターの使用可能スペースと使用済みスペース（TiB）とパフォーマンス（IOPS）が表示されます。各PSLの下にあるすべてのワークロードの使用可能スペースと使用済みスペース（TiB）とパフォーマンス（IOPS）も表示されます。</block>
+  <block id="4cd601372baffe466cc8b21d1c762ff1" category="section-title">すべてのワークロードを表示します</block>
+  <block id="d068c2e7f4320ed06ddfd0cc2263c0a6" category="paragraph">ストレージ&gt;ワークロード&gt;すべてのワークロード*ページには、Unified Managerで管理されているONTAP クラスタに関連付けられているストレージワークロードが表示されます。</block>
+  <block id="671b92fdc84cea69331beecbe6db5269" category="paragraph">新たに検出されたストレージワークロードで I/O 処理が行われていない場合、ステータスは「 I/O を待機中」になります。ストレージワークロードで I/O 処理が開始されると、 Unified Manager が分析を開始し、ワークロードのステータスが「学習中 ... 」に変わります。分析が完了すると（ I/O 処理の開始から 24 時間以内）、ストレージワークロードに推奨される PSL が表示されます。</block>
+  <block id="c681e8e426b88a2016f782ee4077d546" category="paragraph">また、ストレージワークロードにストレージ効率化ポリシー（ SEP ）とパフォーマンスサービスレベル（ PSL ）を割り当てることもできます。複数のタスクを実行できます。</block>
+  <block id="971cc8c4f0d2e73f8c855ffbb4ee780e" category="list-text">ストレージ&gt;ワークロード&gt;すべてのワークロード&gt;作成*をクリックします。</block>
+  <block id="caf11825967fd06c8f4051cb91a0c703" category="list-text">ワークロードの作成詳細については、を参照してください <block ref="03ab5ac19ec9b39f52b8777442abceaa" category="inline-link-macro-rx"></block></block>
+  <block id="65cf3f9a6be1632ade211076f9897d9b" category="paragraph">また、このページではワークロードのパフォーマンスの詳細を確認することもできます。ワークロードの IOPS 、容量、レイテンシに関する詳細情報を表示するには、「 * 列の選択 / 順序」ボタンをクリックし、表示する列を選択します。パフォーマンスビューの列にはワークロードの平均 IOPS とピーク IOPS が表示され、ワークロードアナライザのアイコンをクリックすると詳細な IOPS 分析を確認できます。</block>
+  <block id="b676c40bb705faec2024beabbc555a79" category="paragraph">IOPS分析*ポップアップの*ワークロードの分析*ボタンをクリックすると、ワークロード分析ページが開き、期間を選択して、選択したワークロードのレイテンシ、スループット、容量のトレンドを確認できます。Workload Analyzerの詳細については、を参照してください <block ref="c4de40ea8216795b8aee67ff6e4289bc" category="inline-link-macro-rx"></block></block>
+  <block id="06a5431002003681ab6baa452dc0c7c7" category="paragraph">詳細については、を参照してください <block ref="27f2a443d50f465254d755a8f399eae1" category="inline-link-macro-rx"></block></block>
+  <block id="a26d614c9e0553f09a3b94b7c06f9fff" category="summary">容量の単位物理容量と論理容量</block>
+  <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">Active IQ Unified Manager 9.10のマニュアル</block>
+  <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">クラスタとStorage VMの詳細なセキュリティステータスの表示</block>
+  <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">Storage VMの関連付けの概要</block>
 </blocks>

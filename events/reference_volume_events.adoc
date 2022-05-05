@@ -424,6 +424,28 @@ FlexGroup ボリュームの使用率が 90% を超えています *
  a| 
 警告
 
+
+
+ a| 
+利用率の低いボリュームのSnapshotリザーブ（volumeSnaphotReserveUnderutilizedWarning）
+ a| 
+イベント
+ a| 
+ボリューム
+ a| 
+警告
+
+
+
+ a| 
+ボリュームのSnapshotリザーブの利用率が低い（volumeSnaphotReserveUnderutilizedCleared）
+ a| 
+イベント
+ a| 
+ボリューム
+ a| 
+警告
+
 |===
 
 
@@ -867,6 +889,35 @@ QoS ボリューム最大 IOPS/TB の警告しきい値を超過（ドキュメ�
 
  a| 
 ボリュームでランサムウェア対策によるアラートが発生する（ antiRansomwareFeatureNoisyVolume ）
+ a| 
+リスク
+ a| 
+ボリューム
+ a| 
+警告
+
+|===
+
+
+== 影響範囲：データ保護
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+ボリュームにローカルSnapshot保護が不十分です（volumeLacksLocalProtectionWarning）
+ a| 
+リスク
+ a| 
+ボリューム
+ a| 
+警告
+
+
+
+ a| 
+ボリュームにローカルSnapshot保護が不十分です（volumeLacksLocalProtectionCleared）
  a| 
 リスク
  a| 

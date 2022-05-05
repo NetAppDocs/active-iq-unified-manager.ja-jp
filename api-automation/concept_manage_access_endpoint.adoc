@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: Storage Virtual Machine （ SVM ）、 LUN 、およびファイル共有のプロビジョニングに必要なアクセスエンドポイントまたは論理インターフェイス（ LIF ）を作成する必要があります。Active IQ Unified Manager 環境内の SVM 、 LUN 、またはファイル共有のアクセスエンドポイントを表示、作成、変更、および削除できます。 
 ---
-= アクセスエンドポイントの管理
+= APIを使用したアクセスエンドポイントの管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -20,7 +20,7 @@ summary: このポートとプロトコルを使用して、 Unified Manager サ
 通常の環境では、 Unified Manager Web UI への接続に常にデフォルトのポートが使用されるため、ポート番号を指定する必要はありません。たとえば、 Unified Manager は常にデフォルトのポートで実行されるため、「 + https://<host>:443+` 」ではなく「 + https://<host>+` 」と入力できます。
 
 
-NOTE: MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定を変更し、メンテナンスコンソールから他のホストに接続を提供することができます。
+NOTE: MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この構成は変更可能であり'メンテナンス・コンソールの[Control access to MySQL port 3306]オプションを使用して'他のホストから接続できるようにすることができます
 
 Unified Manager サーバでは、次のインターフェイスにアクセスする際に特定のプロトコルを使用します。
 

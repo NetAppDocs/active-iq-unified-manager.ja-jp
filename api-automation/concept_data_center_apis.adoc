@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, objects, data center 
 summary: データセンターカテゴリの REST API を使用して、クラスタ、ノード、アグリゲート、 Storage VM など、データセンター内のストレージオブジェクトを管理できます。 ボリューム、 LUN 、ファイル共有、ネームスペース。これらの API はオブジェクトの設定を照会でき、一部の API を使用してオブジェクトの追加、削除、または変更の処理を実行できます。 
 ---
-= データセンター内のストレージオブジェクトの管理
+= APIを使用してデータセンター内のストレージオブジェクトを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

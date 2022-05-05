@@ -33,42 +33,6 @@ entries:
     url: "/performance-checker/concept_search_for_storage_objects.html"
   - title: インベントリページの内容のフィルタリング
     url: "/performance-checker/task_filter_inventory_page_content.html"
-- title: パフォーマンスイベントとアラートの概要
-  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
-  entries:
-  - title: パフォーマンスイベントのソース
-    url: "/performance-checker/concept_sources_of_performance_events.html"
-  - title: パフォーマンスイベントの重大度タイプ
-    url: "/performance-checker/reference_performance_event_severity_types.html"
-  - title: Unified Manager によって設定の変更が検出されました
-    url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
-  - title: システム定義のパフォーマンスしきい値ポリシーのタイプ
-    url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
-- title: パフォーマンスしきい値の管理
-  url: "/performance-checker/concept_manage_performance_thresholds.html"
-  entries:
-  - title: ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
-    url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
-  - title: パフォーマンスしきい値ポリシーを超えた場合の動作
-    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
-  - title: しきい値を使用して追跡可能なパフォーマンスカウンタ
-    url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
-  - title: 組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
-    url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
-  - title: ユーザ定義のパフォーマンスしきい値ポリシーを作成する
-    url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
-  - title: ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
-    url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
-  - title: パフォーマンスしきい値ポリシーを表示します
-    url: "/performance-checker/task_view_performance_threshold_policies.html"
-  - title: ユーザ定義のパフォーマンスしきい値ポリシーを編集する
-    url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
-  - title: ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
-    url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
-  - title: パフォーマンスしきい値ポリシーが変更された場合の動作
-    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
-  - title: オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
-    url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: ダッシュボードからのクラスタパフォーマンスの監視
   url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   entries:
@@ -238,20 +202,50 @@ entries:
     url: "/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html"
   - title: MetroCluster 構成のパフォーマンス監視
     url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
-    entries:
-    - title: スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
-      url: "/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html"
-  - title: パフォーマンスイベントとは
-    url: "/performance-checker/concept_what_performance_events_are.html"
-    entries:
-    - title: パフォーマンスイベントの分析と通知
-      url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
-    - title: Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組み
-      url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
-    - title: クラスタコンポーネントとその競合要因
-      url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: パフォーマンスイベントに関連したワークロードの役割
-      url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+- title: パフォーマンスイベントとアラートの概要
+  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
+  entries:
+  - title: パフォーマンスイベントのソース
+    url: "/performance-checker/concept_sources_of_performance_events.html"
+  - title: パフォーマンスイベントの重大度タイプ
+    url: "/performance-checker/reference_performance_event_severity_types.html"
+  - title: Unified Manager によって設定の変更が検出されました
+    url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
+  - title: システム定義のパフォーマンスしきい値ポリシーのタイプ
+    url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
+  - title: パフォーマンスイベントの分析と通知
+    url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
+  - title: Unified Manager がイベントによるパフォーマンスへの影響を判定する仕組み
+    url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
+  - title: クラスタコンポーネントとその競合要因
+    url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
+  - title: パフォーマンスイベントに関連したワークロードの役割
+    url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+- title: パフォーマンスしきい値の管理
+  url: "/performance-checker/concept_manage_performance_thresholds.html"
+  entries:
+  - title: ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
+    url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
+  - title: パフォーマンスしきい値ポリシーを超えた場合の動作
+    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
+  - title: しきい値を使用して追跡可能なパフォーマンスカウンタ
+    url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
+  - title: 組み合わせしきい値ポリシーで使用できるオブジェクトとカウンタ
+    url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
+  - title: ユーザ定義のパフォーマンスしきい値ポリシーを作成する
+    url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
+  - title: ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
+    url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
+  - title: パフォーマンスしきい値ポリシーを表示します
+    url: "/performance-checker/task_view_performance_threshold_policies.html"
+  - title: ユーザ定義のパフォーマンスしきい値ポリシーを編集する
+    url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
+  - title: ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する
+    url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
+  - title: パフォーマンスしきい値ポリシーが変更された場合の動作
+    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
+  - title: オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
+    url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: パフォーマンスイベントを分析しています
   url: "/performance-checker/concept_analyze_performance_events.html"
   entries:

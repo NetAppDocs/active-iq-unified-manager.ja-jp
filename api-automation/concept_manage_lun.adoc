@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, lun 
 summary: /storage-provider/LUNs API を使用して、データセンター環境の LUN を表示、追加、変更、および削除できます。 
 ---
-= LUN の管理
+= APIを使用したLUNの管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

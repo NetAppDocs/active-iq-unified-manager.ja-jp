@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: Active IQ Unified Manager を使用して、ストレージワークロード（ LUN 、 NFS ファイル共有、 CIFS 共有）をプロビジョニングおよび変更できます。プロビジョニングは、 Storage Virtual Machine （ SVM ）の作成から、ストレージワークロードへのパフォーマンスサービスレベルポリシーとストレージ効率化ポリシーの適用まで、複数の手順で構成されます。ワークロードの変更は、特定のパラメータの変更と、パラメータでの追加機能の有効化で構成されます。 
 ---
-= ワークロード管理のワークフロー
+= ワークロード管理用のAPIワークフロー
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

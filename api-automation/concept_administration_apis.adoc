@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, administrative, tasks 
 summary: 管理カテゴリの API を使用して、バックアップ設定を変更したり、バックアップファイル情報とクラスタ証明書を確認したり、 ONTAP クラスタを Active IQ Unified Manager データソースとして管理したりできます。 
 ---
-= 管理タスクの実行
+= APIを使用した管理タスクの実行
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

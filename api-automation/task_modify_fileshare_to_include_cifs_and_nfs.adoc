@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, nfs, file, share, support, cifs 
 summary: CIFS プロトコルをサポートするように NFS ファイル共有を変更できます。ファイル共有を作成するときに、アクセス制御リスト（ ACL ）パラメータとエクスポートポリシールールの両方を同じファイル共有に対して指定できます。ただし、 NFS ファイル共有を作成したボリュームで CIFS を有効にする場合は、 CIFS をサポートするようにファイル共有の ACL パラメータを更新できます。 
 ---
-= CIFS をサポートするための NFS ファイル共有の変更
+= CIFSをサポートするためのAPIを使用したNFSファイル共有の変更
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
