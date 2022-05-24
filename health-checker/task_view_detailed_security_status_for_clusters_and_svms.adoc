@@ -71,4 +71,4 @@ Storage VMのセキュリティコンプライアンスのデフォルトビュ�
 
 をクリックできます image:icon_kabob.gif["Kabob アイコン"] オプションボタンをクリックし、Unified ManagerまたはSystem Managerの* Security *ページでセキュリティの詳細を表示します。System Managerで詳細を表示するには、有効なクレデンシャルが必要です。
 
-_ボリュームおよびStorage VMのランサムウェア対策セキュリティの詳細については、を参照してください link:health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する"]。_
+ボリュームやStorage VMのランサムウェア対策セキュリティの詳細については、を参照してください link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する"]。

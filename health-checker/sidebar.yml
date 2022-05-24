@@ -126,7 +126,7 @@ entries:
     - title: すべてのボリュームの暗号化ステータスを表示します
       url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
     - title: すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する
-      url: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html
+      url: "/health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html"
     - title: アクティブなすべてのセキュリティイベントを表示します
       url: "/health-checker/task_view_all_security_events.html"
     - title: セキュリティイベントのアラートを追加する

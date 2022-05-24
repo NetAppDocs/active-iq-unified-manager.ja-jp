@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/task_manually_configure_mysql_repository.html 
 sidebar: sidebar 
-keywords: data center manager, manually, configure, mysql repository 
+keywords: manually configure mysql repository, mysql key, keys update 
 summary: Unified Manager をインストールするシステムが MySQL Community Edition リポジトリにアクセスできない場合、インストールが成功するためにはリポジトリを手動でダウンロードして設定する必要があります。 
 ---
 = MySQL リポジトリを手動で設定する
@@ -43,3 +43,18 @@ Red Hat Enterprise Linux 8 システムの場合、 AppStream リポジトリか
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
+キーまたはキーの不一致が見つからないというエラーが表示され、インストールが失敗した場合は、次の手順を実行してください。
+
+* 接続されているシステムで、次のコマンドを実行して、更新されたMySQLキーをインポートします。
+
+
+[listing]
+----
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
+
+for example:
+
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+----
+* インターネットに接続されていないシステムでは'MySQLリポジトリファイルを更新し'gpgcheck=0とマークしてgpgcheckを無効にします
+

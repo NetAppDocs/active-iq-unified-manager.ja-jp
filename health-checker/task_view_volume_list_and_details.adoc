@@ -36,6 +36,4 @@ Health ： All Volumes ビューでは、ボリュームのインベントリを
 
 * 関連情報 *
 
-link:../task_view_aggregate_list_and_details.html["ケンシヨウセイ / ホリユウムヘエシ"]
-
 link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["使用可能なボリューム容量グラフを表示するレポートの作成"]
