@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_windows_host_machine.html 
 sidebar: sidebar 
-keywords: netapp, snapshot, backup, windows, configure, windows host machine 
-summary: ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。 
+keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
+summary: NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。 
 ---
 = Windows ホスト・マシンを設定しています
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: ネットアップの Snapshot バックアップを作成するため�
 
 
 [role="lead"]
-ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします
+NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします
 
 * 必要なもの *
 

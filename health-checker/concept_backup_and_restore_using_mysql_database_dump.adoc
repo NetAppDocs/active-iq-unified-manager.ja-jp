@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html 
 sidebar: sidebar 
-keywords: backup, restore, using, mysql, database, dump 
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: MySQL データベースダンプバックアップは、システム障害やデータ損失が発生した場合に使用できる Active IQ Unified Manager データベースと構成ファイルのコピーです。バックアップはローカルにもリモートにも保存できますが、Active IQ Unified Manager ホストシステムとは別のリモートの場所を定義することを強く推奨します。 
 ---
 = MySQL データベースダンプを使用したバックアップとリストア
@@ -15,7 +15,7 @@ MySQL データベースダンプバックアップは、システム障害や�
 
 [NOTE]
 ====
-Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。Red Hat Enterprise Linux 、 CentOS Linux システム、または Windows の場合、 Active IQ Unified Manager で管理しているクラスタやノードの数が多い場合や、 MySQL バックアップの完了に数時間かかる場合は、 NetApp Snapshot バックアップ方式を使用できます。
+Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。ただし、Unified Managerで管理しているクラスタやノードの数が多い場合や、MySQLバックアップの完了に数時間かかる場合は、Snapshotコピーを使用してバックアップを実行できます。この機能は、Red Hat Enterprise Linux、CentOS Linuxシステム、およびWindowsで使用できます。
 
 ====
 データベースダンプバックアップは、バックアップディレクトリ内の 1 つのファイルとデータベースリポジトリディレクトリ内の 1 つ以上のファイルで構成されます。バックアップディレクトリ内のファイルは非常に小さく、バックアップを再作成するために必要なデータベースリポジトリディレクトリ内のファイルへのポインタのみが含まれます。

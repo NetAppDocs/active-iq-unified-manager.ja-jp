@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/task_unconfigure_netapp_snapshot_backup.html 
 sidebar: sidebar 
-keywords: netapp, modify, snapshot backup, windows, unconfigure, backup type 
+keywords: netapp, modify, snapshot copy, copies, windows, unconfigure, backup type 
 summary: Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup オプションを使用すると、 MySQL ベースのバックアップにフォールバックできます。 
 ---
 = バックアップタイプを変更しています
@@ -11,7 +11,7 @@ summary: Active IQ Unified Manager システムのバックアップタイプを
 
 
 [role="lead"]
-Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup オプションを使用すると、 MySQL ベースのバックアップにフォールバックできます。
+Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup *オプションを使用すると、MySQLベースのバックアップにフォールバックできます。
 
 * 必要なもの *
 
@@ -19,13 +19,13 @@ Unified Manager サーバのメンテナンスコンソールへのログイン�
 
 .手順
 . メンテナンスコンソールにアクセスします
-. バッキングリストアには * メインメニュー * から 4 を選択します。
+. バックアップとリストアを実行するには、*メインメニュー*から4を選択します。
 . [ バックアップと復元 ] メニューから 2 を選択します。
 . 「 NetApp Snapshot バックアップの設定を解除」で 4 を選択します。
 +
 実行される操作が表示され、サービスの停止、シンボリックリンクの解除、ストレージからディレクトリへのデータの移動、サービスの再開が可能になります。
 
 +
-NetApp Snapshot バックアップが設定されていないと、バックアップメカニズムがデフォルトの MySQL ベースに変わります。この変更は、 [ 一般 ] 設定の [ データベースバックアップ ] セクションに表示されます。
+バックアップ方法を変更すると、バックアップメカニズムがSnapshotコピーからデフォルトのMySQLバックアップに変更されます。この変更は、 [ 一般 ] 設定の [ データベースバックアップ ] セクションに表示されます。
 
 

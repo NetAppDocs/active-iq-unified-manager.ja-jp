@@ -157,9 +157,9 @@ entries:
       - title: Linux でバックアップを設定しています
         url: "/health-checker/concept_configure_backup_for_linux.html"
         entries:
-        - title: Snapshot バックアップの場所を設定しています
+        - title: Snapshotコピーの場所を設定しています
           url: "/health-checker/task_create_volume_where_backups_are_stored.html"
-        - title: Snapshot バックアップのデスティネーションの指定
+        - title: Snapshotコピーのデスティネーションの指定
           url: "/health-checker/task_specify_destination_location_for_snapshot_backups.html"
       - title: Windows でバックアップを設定しています
         url: "/health-checker/concept_configure_backup_for_windows.html"
@@ -170,13 +170,13 @@ entries:
           url: "/health-checker/reference_configure_ontap_cluster.html"
         - title: Windows ホスト・マシンを設定しています
           url: "/health-checker/task_configure_windows_host_machine.html"
-        - title: Windows Snapshot バックアップのデスティネーションの指定
+        - title: WindowsでのSnapshotコピーのデスティネーションの指定
           url: "/health-checker/task_specify_destination_location_for_windows_snapshot_backups.html"
-      - title: メンテナンスコンソールから NetApp Snapshot バックアップを設定する
+      - title: メンテナンスコンソールからSnapshotコピーを使用してバックアップを設定する
         url: "/health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html"
       - title: Linux と Windows のバックアップスケジュールの定義
         url: "/health-checker/task_define_schedule_for_snapshot_backups.html"
-      - title: Linux および Windows での Snapshot バックアップのリストア
+      - title: Snapshotコピーを使用したUnified Managerのリストア
         url: "/health-checker/task_restore_snapshot_backup.html"
       - title: バックアップタイプを変更しています
         url: "/health-checker/task_unconfigure_netapp_snapshot_backup.html"

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_backup_and_restore_using_netapp_snapshots.html 
 sidebar: sidebar 
-keywords: backup, restore, using, netapp, snapshots 
-summary: NetApp Snapshot バックアップは、システム障害やデータ損失が発生した場合にリストアに使用できる Unified Manager データベースと構成ファイルのポイントインタイムイメージを作成します。Snapshot バックアップをいずれかの ONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。 
+keywords: snapshot copy, copies, restore, using, netapp, snapshots 
+summary: NetApp Snapshotコピーは、システム障害やデータ損失が発生した場合にリストアに使用できるUnified Managerデータベースと構成ファイルのポイントインタイムイメージを作成します。SnapshotコピーをいずれかのONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。 
 ---
 = NetApp Snapshot を使用したバックアップとリストア
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Snapshot バックアップは、システム障害やデータ�
 
 
 [role="lead"]
-NetApp Snapshot バックアップは、システム障害やデータ損失が発生した場合にリストアに使用できる Unified Manager データベースと構成ファイルのポイントインタイムイメージを作成します。Snapshot バックアップをいずれかの ONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。
+NetApp Snapshotコピーは、システム障害やデータ損失が発生した場合にリストアに使用できるUnified Managerデータベースと構成ファイルのポイントインタイムイメージを作成します。SnapshotコピーをいずれかのONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。
 
 [NOTE]
 ====

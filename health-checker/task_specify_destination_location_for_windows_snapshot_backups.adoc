@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html 
 sidebar: sidebar 
-keywords: specify, destination location, windows, snapshot, backups 
-summary: いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。 
+keywords: specify, destination location, windows, snapshot copy, copies 
+summary: いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。 
 ---
-= Windows Snapshot バックアップのデスティネーションの指定
+= WindowsでのSnapshotコピーのデスティネーションの指定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。
+いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。
 
 * Active IQ Unified Manager がインストールされている Windows ホストに対する管理者権限が必要です。
 * Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
@@ -45,5 +45,5 @@ summary: いずれかの ONTAP クラスタで設定済みのボリュームで�
 ** ONTAP との通信に使用する iSCSI イニシエータ
 
 
-. メンテナンスコンソールを終了し、 Active IQ Unified Manager インターフェイスを起動して Snapshot バックアップスケジュールを作成します（まだ作成していない場合）。
+. メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します。
 

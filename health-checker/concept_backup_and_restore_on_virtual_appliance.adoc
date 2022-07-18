@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_backup_and_restore_on_virtual_appliance.html 
 sidebar: sidebar 
-keywords: backup, restore, unified manager, virtual, appliance 
+keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies 
 summary: 仮想アプライアンスにインストールされた Unified Manager のバックアップとリストアのモデルでは、仮想アプリケーション全体のイメージをキャプチャしてリストアします。 
 ---
 = 仮想アプライアンスでの Unified Manager のバックアップとリストア

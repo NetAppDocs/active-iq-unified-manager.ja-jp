@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html 
 sidebar: sidebar 
-keywords: specify, destination location, snapshot backups 
-summary: いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの設定場所は Active IQ Unified Manager メンテナンスコンソールから定義します。 
+keywords: specify, destination location, snapshot copies, copy 
+summary: いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。 
 ---
-= Snapshot バックアップのデスティネーションの指定
+= Snapshotコピーのデスティネーションの指定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの設定場所は Active IQ Unified Manager メンテナンスコンソールから定義します。
+いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。
 
 * Active IQ Unified Manager がインストールされている Linux ホストの root ユーザのクレデンシャルが必要です。
 * Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
@@ -40,5 +40,5 @@ summary: いずれかの ONTAP クラスタで設定済みのボリュームで�
 ** すべてのサービスを再起動します
 
 
-. メンテナンスコンソールを終了し、 Active IQ Unified Manager インターフェイスを起動して Snapshot バックアップスケジュールを作成します（まだ作成していない場合）。
+. メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します（まだ作成していない場合）。
 

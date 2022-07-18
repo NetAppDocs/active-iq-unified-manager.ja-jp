@@ -46,3 +46,5 @@ NOTE: Windowsシステムでは、ネットワークに接続されていない�
 
 
 ルールファイルが Unified Manager サーバに解凍されます。午前0時を過ぎた時点で管理対象クラスタでAutoSupport ファイルが生成され、Unified Managerがルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。
+
+詳細については、次の技術情報アーティクル（KB）を参照してください。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_AIQUM["AIQUMでAIQCASecureルールを手動で更新する方法"]

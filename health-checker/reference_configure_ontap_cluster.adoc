@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_configure_ontap_cluster.html 
 sidebar: sidebar 
-keywords: netapp, snapshot, backup, windows, configure, ontap, cluster 
-summary: Windows で Active IQ Unified Manager を Snapshot バックアップおよびリストア用に設定する前に、 ONTAP および Windows ホストマシンに対していくつかの事前設定を実行しておく必要があります。 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: WindowsシステムでSnapshotコピーを使用してActive IQ Unified Manager をバックアップおよびリストアするには、ONTAP クラスタでいくつかの事前設定手順を実行する必要があります。 
 ---
 = ONTAP クラスタを設定しています
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Windows で Active IQ Unified Manager を Snapshot バックアップ�
 
 
 [role="lead"]
-Windows で Active IQ Unified Manager を Snapshot バックアップおよびリストア用に設定する前に、 ONTAP および Windows ホストマシンに対していくつかの事前設定を実行しておく必要があります。
+WindowsシステムでSnapshotコピーを使用してActive IQ Unified Manager をバックアップおよびリストアするには、ONTAP クラスタでいくつかの事前設定手順を実行する必要があります。
 
 ONTAP クラスタは、コマンドプロンプトまたは System Manager ユーザインターフェイスを使用して設定できます。ONTAP クラスタの設定では、データ LIF を設定して、 iSCSI LIF として Storage VM に割り当てることができます。次の手順は、 System Manager ユーザインターフェイスを使用して、 iSCSI 対応の Storage VM を設定することです。この Storage VM には、 LIF が発信トラフィックをネットワークでどのように取り扱うかを制御するための静的なネットワークルートを設定する必要があります。
 

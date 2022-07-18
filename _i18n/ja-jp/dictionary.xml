@@ -833,22 +833,13 @@
   <block id="41d943ad309360a62690c81eed6494bf" category="paragraph">詳細を表示するには、 [ 最小詳細 ] ダイアログボックスの [ 詳細の表示 ] をクリックします。</block>
   <block id="68694825c7200ffde572a8d66c1976de" category="list-text">最小限の詳細ダイアログボックスで * 関連項目の表示 * をクリックすると、 SVM に関連するオブジェクトが表示されます。</block>
   <block id="146b54492f9e3bbe7f0eab12ebad671a" category="summary">データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager の Snapshot データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらのオペレーティングシステムにもリストアできます。</block>
-  <block id="32148cb10d776b094dced327a1b0fc4e" category="doc">Linux および Windows での Snapshot バックアップのリストア</block>
   <block id="e93453301a9f4ba773074e263e24f3aa" category="list-text">Unified Manager がインストールされている Windows ホストマシンに対する Linux ホストの root ユーザのクレデンシャルと管理者権限が必要です。</block>
   <block id="2b3fe6a45c51384886449255d59b9174" category="list-text">Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。</block>
   <block id="32e3809f8d6ed42f5004ad8b8baa3a43" category="paragraph">リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager のバックアップは、同じバージョンの Unified Manager にのみリストアできます。</block>
   <block id="cdb3b41720fff6c8a03e2b1cbbb34e11" category="list-text">Unified Manager システムの IP アドレスまたは完全修飾ドメイン名に接続します。</block>
-  <block id="d8613fd0262f0065e011c1c70144fae1" category="paragraph">* Linux *</block>
-  <block id="6ace128b686261095a774f72e0443c9a" category="paragraph">Secure Shell の略</block>
-  <block id="798f4b2607b39e7e9b593d42368f1ed3" category="paragraph">* Windows *</block>
-  <block id="5036b66bea4412997f6307cc829222a3" category="paragraph">パワーシェル</block>
   <block id="8838ce682897f309ce14643e22c2df54" category="list-text">root ユーザのクレデンシャルでシステムにログインします。</block>
   <block id="173a85c5c6bdf2dee74309dc573461a4" category="list-text">コマンド「 maintenance_console' 」を入力し、 Enter キーを押します。</block>
   <block id="d48ff2ea11e7b7d221c362effc2a70e4" category="list-text">メンテナンスコンソール * メインメニュー * で、 * バックアップリストア * オプションの番号を入力します。</block>
-  <block id="fc425df0709b7d093f412725b3bf1fbf" category="list-text">NetApp Snapshot を使用した * Backup and Restore の数値を入力します。</block>
-  <block id="d8f5437d42a441dfa168ae96d656db29" category="paragraph">新しいサーバへのリストアを実行する場合は、 Unified Manager のインストールの完了後に、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。Configure NetApp Snapshot Backup* の数値を入力し、元のシステムで設定した Snapshot バックアップの設定を行います。</block>
-  <block id="31068d97c65389f456740fdba6fb893d" category="list-text">NetApp Snapshot を使用した * リストアの番号を入力します。</block>
-  <block id="80cc8897454c59019774aafa996e72b0" category="list-text">リストアする Snapshot バックアップファイルを選択し、 * Enter * キーを押します。</block>
   <block id="7e3a7f64abb10a8ec2278d71c2ef33cf" category="list-text">リストアプロセスが完了したら、 Unified Manager ユーザインターフェイスにログインします。</block>
   <block id="503b5dbfe28c3dee835f7d0560bbbcda" category="paragraph">バックアップをリストアしたあとに Workflow Automation サーバが動作しなくなった場合は、次の手順を実行します。</block>
   <block id="8df76bdcdaac41e808833597fb1acc15" category="list-text">Workflow Automation サーバで、 Unified Manager サーバの IP アドレスを最新のマシンを参照するように変更します。</block>
@@ -920,8 +911,6 @@
   <block id="af72e4a0267d9949729e09700b75184d" category="list-text">REST API を使用すると、 Unified Manager で収集された健全性、容量、パフォーマンスの情報を確認することができ、クラスタの管理に便利です。を参照してください <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="b8496a14ff4b794a94b62e121844a8ad" category="list-text">テクニカルサポートへのサポートバンドルの送信</block>
   <block id="c378b949211960b7600706f3b0b6c302" category="paragraph">ストレージ管理者は、メンテナンスコンソールを使用して、サポートバンドルを取得し、テクニカルサポートに送信できます。問題で AutoSupport メッセージよりも詳しい診断とトラブルシューティングが必要な場合は、サポートバンドルをテクニカルサポートに送信する必要があります。</block>
-  <block id="f53f51112c1b2a05048cc9021799a91e" category="summary">いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの設定場所は Active IQ Unified Manager メンテナンスコンソールから定義します。</block>
-  <block id="28159d6dfa1a39e6f3ad07c1cf591e1b" category="doc">Snapshot バックアップのデスティネーションの指定</block>
   <block id="ce528b6890fb6b6c48fa6a2e269faa21" category="list-text">Active IQ Unified Manager がインストールされている Linux ホストの root ユーザのクレデンシャルが必要です。</block>
   <block id="24794d5f05454fa6bf8b40e88fe9eab1" category="list-text">クラスタ管理 IP アドレス、 Storage VM の名前、ボリュームの名前、およびストレージシステムのユーザ名とパスワードが必要です。</block>
   <block id="257925ea2fb77c58fa506e21a73a157b" category="list-text">Active IQ Unified Manager ホストにボリュームをマウントし、マウントパスを確認しておく必要があります。</block>
@@ -938,7 +927,6 @@
   <block id="8420102fd6d86210f856088e2715d39a" category="list-text">ボリュームに新しいディレクトリを作成し、 Active IQ Unified Manager データベース構成ファイルをコピーします</block>
   <block id="edd58a58db7e35fe06f237ba7a4accf8" category="list-text">Active IQ Unified Manager からファイルを削除し、新しいデータベースディレクトリへのシンボリックリンクを作成します</block>
   <block id="0e5a6eb9a29c8f12f681639b77afd06c" category="list-text">すべてのサービスを再起動します</block>
-  <block id="b3cebd9bcd8b335d0acc8502548bdfe1" category="list-text">メンテナンスコンソールを終了し、 Active IQ Unified Manager インターフェイスを起動して Snapshot バックアップスケジュールを作成します（まだ作成していない場合）。</block>
   <block id="40d1e8c1e23ff430ec55f7059aeb29de" category="summary">すべてのボリュームに対するグローバル健全性しきい値を設定して、しきい値の違反を追跡することができます。健全性しきい値の違反が発生すると該当するイベントが生成されるため、それらのイベントに基づいて予防策を講じることが可能です。監視対象のすべてのボリュームに適用されるしきい値について、ベストプラクティスの設定に基づいてグローバルな値を設定することができます。</block>
   <block id="67d61a1f90343dc94095bd23e79f381c" category="doc">ボリュームのグローバル健全性しきい値を設定しています</block>
   <block id="796758c28556120cb631d8a2e1380265" category="paragraph">ほとんどのしきい値のオプションは、効果的に監視できるようにデフォルト値が設定されていますただし、それぞれの環境の要件に合わせて値を変更することができます。</block>
@@ -1252,9 +1240,7 @@
   <block id="477d0545ba1af4b566e541fb89c13899" category="paragraph">グループを削除しても、そのグループに関連付けられているグループ操作は削除されません。ただし、グループを削除すると、これらのグループ操作のマッピングは解除されます。</block>
   <block id="352fdda78d684cf9e0a638bbab208994" category="summary">Active IQ Unified Manager が Linux マシンにインストールされている場合は、 NetApp Snapshot を使用してバックアップとリストアを設定できます。</block>
   <block id="ed8b4ef99c4658d8051ea76a5775dd5f" category="doc">Linux でバックアップを設定しています</block>
-  <block id="3235d168c9706a85abd9f513a35efe99" category="paragraph">Snapshot バックアップにかかる時間はごくわずかで、通常は数分です。 Unified Manager データベースが非常に短時間ロックされるため、インストールの中断はほとんどありません。イメージには Snapshot コピーが最後に作成されたあとに発生したファイルへの変更だけが記録されるため、ストレージスペースは最小限しか消費せず、パフォーマンスのオーバーヘッドもわずかです。この Snapshot は ONTAP クラスタ上に作成されるため、必要に応じて、 SnapMirror などのネットアップの他の機能を利用してセカンダリ保護を作成できます。</block>
   <block id="14cd7aa6f775e39058779319ad926776" category="paragraph">バックアップ処理を開始する前に、 Unified Manager で整合性チェックが実行され、デスティネーションシステムが使用可能であることが確認されます。</block>
-  <block id="dacad086c3866e5006889b83dbff8a9b" category="list-text">Snapshot バックアップは、同じバージョンの Active IQ Unified Manager にのみリストアできます。</block>
   <block id="8eb7892587443ba12dc3bdc027a2a3a5" category="paragraph">たとえば、 Unified Manager 9.9 で作成したバックアップは、 Unified Manager 9.9 システムでのみリストアできます。</block>
   <block id="d4a551e46758fef6fb9e080f35e16395" category="list-text">Snapshot 設定に変更原因があると、 Snapshot が無効である可能性があります。</block>
   <block id="97926c3c0aa12ad373dbf69a58ced1a0" category="summary">アノテーションは、別のテキスト文字列（値）に割り当てられたテキスト文字列（名前）です。アノテーションの名前と値の各ペアは、アノテーションルールを使用して動的にストレージオブジェクトに関連付けることができます。事前定義されたアノテーションにストレージオブジェクトを関連付けると、そのアノテーションに関連するイベントをフィルタリングして表示できます。アノテーションは、クラスタ、ボリューム、および Storage Virtual Machine （ SVM ）に適用できます。</block>
@@ -1290,7 +1276,6 @@
   <block id="897560ad797d0527dd90ae2a25f3f6c1" category="list-text">[ 条件の追加（ Add Condition ） ] をクリックする。</block>
   <block id="4333a6bc2c62d5d99eec8ed2d081886c" category="list-text">ステップ 8 のオペランドとして * data-priority * を選択し、ステップ 9 の演算子として * is * を、ステップ 10 の値として * critical * を選択して、ステップ 8 から 10 を繰り返します。</block>
   <block id="1e242efdff601adf92010e64b5aad895" category="list-text">* Add * をクリックして、グループルールの条件を作成します。</block>
-  <block id="efa017f823fbacb99447313c5a3cce39" category="summary">NetApp Snapshot バックアップは、システム障害やデータ損失が発生した場合にリストアに使用できる Unified Manager データベースと構成ファイルのポイントインタイムイメージを作成します。Snapshot バックアップをいずれかの ONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。</block>
   <block id="a47153d54b7968c03bc59c4c044aaccf" category="doc">NetApp Snapshot を使用したバックアップとリストア</block>
   <block id="403875c0649c7ac18910973842019b9a" category="paragraph">この機能は、仮想アプライアンスにインストールされている Active IQ Unified Manager では使用できません。</block>
   <block id="f20ca1c38c857d997291ae32adb9eba0" category="summary">デフォルトでは、すべてのイベントが有効になっています。環境で重要でないイベントは、無効にして通知が生成されないようにすることができます。無効にしたイベントの通知を再開するには、該当するイベントを有効にします。</block>
@@ -1342,8 +1327,6 @@
   <block id="b144b5b0a1861c67cb81a1c4e1750a21" category="paragraph">HTTP プロキシとして使用するサーバにアクセスするための認証情報を指定する必要がある場合は、このチェックボックスをオンにします。</block>
   <block id="2d394dbce1dc639d25c58355a2a4bfbd" category="paragraph">HTTP プロキシでの認証に必要なユーザ名とパスワードを入力します。</block>
   <block id="e86102c0990dc028ec62723526b51706" category="paragraph">ベーシック認証のみを提供する HTTP プロキシはサポートされていません。</block>
-  <block id="861c2853233db617d584ff94b9ad8386" category="summary">ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。</block>
-  <block id="349d7a256fa4f3d0418ee6eb5d23aae0" category="doc">Snapshot バックアップの場所を設定しています</block>
   <block id="b7f65d9e1cdb3964676f5e08758b08bb" category="paragraph">クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。</block>
   <block id="7c9a067ed7fc3d318d415405ab0cb349" category="list-text">クラスタの要件：</block>
   <block id="83d846dfbb93149a3f4d1024ba7ef34b" category="list-text">ONTAP 9.3 以降がインストールされている必要があります</block>
@@ -1684,8 +1667,6 @@
   <block id="e8733827df4f6de7654f034986a257b9" category="paragraph">関連するアラートペインでは、選択したクラスタのアラートのリストを確認できます。また、 [Add Alert] リンクをクリックしてアラートを追加したり、アラート名をクリックして既存のアラートを編集したりすることもできます。</block>
   <block id="179f4b3feb146242422827ff332382ee" category="inline-link-macro">［ ストレージプール ］ ダイアログボックス</block>
   <block id="6c3553c92f508e03df160191004a791f" category="paragraph"><block ref="6c3553c92f508e03df160191004a791f" category="inline-link-macro-rx"></block></block>
-  <block id="a58013aafcee31ff5cd79561dd6d040d" category="summary">メンテナンスコンソールから Active IQ Unified Manager バックアップを NetApp Snapshot バックアップに設定する必要があります。</block>
-  <block id="0d87e7e4bbf8397f4455198487c3f61b" category="doc">メンテナンスコンソールから NetApp Snapshot バックアップを設定する</block>
   <block id="aee3a95235c93d4d8b2545ff685b0e4a" category="paragraph">システムに関する次の詳細を確認しておく必要があります。</block>
   <block id="606e8e68864ef13b5bed9d31ed5797be" category="list-text">クラスタの IP アドレス</block>
   <block id="c9c34e0d9a5a20d6a7dbd22b6fdac3f1" category="list-text">Storage VM 名</block>
@@ -1696,7 +1677,6 @@
   <block id="9052146612c3ab94f1f20beeaacf22f9" category="list-text">Unified Manager のメンテナンスコンソールにアクセスします。</block>
   <block id="df92fdbdb9c940558c8bc9139cbc6f85" category="list-text">「 4 」と入力して、「 * Backup Restore * 」を選択します。</block>
   <block id="03e6497ebccd718be784d97d4ed63b2b" category="list-text">「 2 」と入力して、「 NetApp Snapshot を使用したバックアップとリストア」を選択します。</block>
-  <block id="684fec4838a87ca7dc679a28c9e5bb12" category="paragraph">バックアップ設定を変更する場合は、 Update NetApp Snapshot Backup Configuration に 3 を入力します。更新できるのはパスワードのみです。</block>
   <block id="6fafc96e75f122b9ca0dfa70e1dce340" category="list-text">メニューから「 1 」と入力して、「 NetApp Snapshot バックアップの設定」を選択します。</block>
   <block id="71abde451e7a33246cf7749cab1faab4" category="list-text">必要な情報を入力するには、 1 を入力します。</block>
   <block id="89665b3633dabf5bd26255fed5d14a20" category="list-text">メンテナンスコンソールのユーザ名とパスワードを入力し、 LUN がホストにマウントされたことを確認します。</block>
@@ -1767,7 +1747,6 @@
   <block id="3161ea58ae7a0a482ba7ff8a2ceaebec" category="paragraph">ソフトウェア暗号化とハードウェア暗号化の両方で保護されているボリュームの数が表示されます。</block>
   <block id="fbab2c7fd3dec7dd755640d7b38ceeb1" category="paragraph">暗号化なし</block>
   <block id="a61fa7795b321634988aa117af7979c4" category="paragraph">暗号化されていないボリュームの数が表示されます。</block>
-  <block id="12cbdd6ef1715b048e4f35d8e8dcd9b7" category="summary">Windows に Active IQ Unified Manager がインストールされている場合でも、 Snapshot バックアップを格納するようにボリュームを設定する必要があります。</block>
   <block id="24b6bcea87dfc79f56c5982f8cf8a3d9" category="doc">Windows のバックアップの場所を設定しています</block>
   <block id="28d4390de9be5ac07ec2afb08ad0012e" category="list-text">Unified Manager によって監視されます</block>
   <block id="e2f71a6651ab8846dfcc8dd56a14ab80" category="list-text">ONTAP クラスタでの iSCSI 接続</block>
@@ -1826,11 +1805,9 @@
   <block id="6dab4a22026046a1cce46cf4e8f8e917" category="summary">Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup オプションを使用すると、 MySQL ベースのバックアップにフォールバックできます。</block>
   <block id="c00e0a79e3a4f68a3448b0ba8cb107e8" category="doc">バックアップタイプを変更しています</block>
   <block id="6979cadafb4e3b67b5a0bda70225f50f" category="list-text">メンテナンスコンソールにアクセスします</block>
-  <block id="5047f1f25159dc471aa0a6bb927628f1" category="list-text">バッキングリストアには * メインメニュー * から 4 を選択します。</block>
   <block id="3bb3cb0671c1a0c88752482b82d3af27" category="list-text">[ バックアップと復元 ] メニューから 2 を選択します。</block>
   <block id="79d03be693d1947313fa5d96b1465a52" category="list-text">「 NetApp Snapshot バックアップの設定を解除」で 4 を選択します。</block>
   <block id="b1a2bd33a1262ae98361b42f30087b97" category="paragraph">実行される操作が表示され、サービスの停止、シンボリックリンクの解除、ストレージからディレクトリへのデータの移動、サービスの再開が可能になります。</block>
-  <block id="fa174b19ea56ab3592c90febf4d1fb03" category="paragraph">NetApp Snapshot バックアップが設定されていないと、バックアップメカニズムがデフォルトの MySQL ベースに変わります。この変更は、 [ 一般 ] 設定の [ データベースバックアップ ] セクションに表示されます。</block>
   <block id="63dfb2c8ea624da5f34114d9283b302e" category="summary">クラスタインベントリページでは、オール SAN アレイクラスタの健全性と容量のステータスを表示できます。</block>
   <block id="09d53ec07e8371ef10b07d304b7b11b2" category="doc">オール SAN アレイクラスタの健全性と容量のステータスの表示</block>
   <block id="21b05cfdb7ce226413f5ff9982e8dede" category="paragraph">すべての SAN アレイクラスタについて、「健常性：すべてのクラスタ」ビューと「容量：すべてのクラスタ」ビューで概要情報を確認できます。また、クラスタ / 健全性の詳細ページで詳細を確認できます。</block>
@@ -1865,9 +1842,7 @@
   <block id="85c25332f5af7cffdf3449420cb47c1a" category="paragraph">デフォルトでは、新規と確認済みのイベントがイベント管理のインベントリページに表示されます。</block>
   <block id="da71eb4b8e434f438366c469380ee04f" category="list-text">[ 表示 ] メニューから、 [ アクティブセキュリティイベント *] を選択します。</block>
   <block id="2c7d4b596a2ce9eecf120c5af53e6d11" category="paragraph">このページには、過去 7 日間に生成された「新規」と「確認済み」のすべてのセキュリティイベントが表示されます。</block>
-  <block id="a8e1ee6100209bd26e4466a900b48b9e" category="summary">ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。</block>
   <block id="979a48f08ca3a5524a9fb0584ff575d4" category="doc">Windows ホスト・マシンを設定しています</block>
-  <block id="c757bda4c8288d9600da64281ad2d062" category="paragraph">ネットアップの Snapshot バックアップを作成するための準備として、 Active IQ Unified Manager がインストールされている Windows ホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします</block>
   <block id="f59c0adda3b9640a8678653e8048637e" category="paragraph">ホストマシン上の以前の設定をすべてクリーンアップする必要があります。</block>
   <block id="34f7e7c2649322ad73b758a14fe6338b" category="paragraph">Windows の新規インストール時に iSCSI イニシエータを起動しようとすると、確認のプロンプトが表示され、確認のために [iSCSI Properties] ダイアログボックスが表示されます。既存の Windows インストールの場合は、非アクティブまたは接続しようとしているターゲットとともに iSCSI Properties （ iSCSI プロパティ）ダイアログボックスが表示されます。そのため、 Windows ホストで以前の設定をすべて削除する必要があります。</block>
   <block id="187c685c05bc4596438f1065a9e15994" category="list-text">ホストマシン上の以前の設定をクリーンアップします。</block>
@@ -1999,22 +1974,17 @@
   <block id="b0615107eb488522f97c49ecba9a0b02" category="list-text">'Change_capacity_threshold' グループ・アクションは ' ボリュームの容量を構成するためにランク 1 を使用します</block>
   <block id="e01a0eaf335f15a6b29d99c42df8e9a4" category="list-text">'Change_snapshot_copies ' グループ・アクションは ' ボリュームの Snapshot コピーを構成するためのランク 2 です</block>
   <block id="a4a32630a4c40008e70e516c834b39a5" category="paragraph">'Change_capacity_threshold' グループ・アクションは 'Change_snapshot_copies のグループ・アクションよりも常に優先され ' ボリューム A に適用されますUnified Manager が 1 サイクルの監視を完了すると ' ボリューム A の正常性しきい値関連イベントが 'Change_capacity_threshold' グループアクションごとに再評価されますG1 または G2 のどちらのグループにも、ボリュームしきい値タイプの別のグループアクションを設定することはできません。</block>
-  <block id="fd74e222140ff1a307995237bebe2c51" category="summary">Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。</block>
   <block id="967205d4e2ec30d380acd32f8d73993b" category="doc">Linux と Windows のバックアップスケジュールの定義</block>
-  <block id="ec132bfc3954b5c04cfbf039ac3267c8" category="list-text">メンテナンスコンソールで、 Snapshot を作成するデスティネーションを特定するように NetApp Snapshot バックアップを設定しておく必要があります。</block>
-  <block id="ed761335c7ab7d0918f158c55a70caa6" category="paragraph">数分で Snapshot バックアップが作成され、 Unified Manager データベースがロックされるのは数秒だけです。</block>
   <block id="052d9a630b7b68ae24d203fece5512e0" category="paragraph">新しいクラスタに追加してから最初の 15 日間に作成されたバックアップは、過去のパフォーマンスデータを取得するのに十分な精度がない可能性があります。</block>
   <block id="78bc84911eb423f64dab2e455740693d" category="list-text">左側のナビゲーションペインで、 * General * &gt; * Database Backup * をクリックします。</block>
   <block id="9daa697ea449b51992fc999705c3ca4f" category="list-text">[* データベース・バックアップ * ] ページで、 [ * バックアップ設定 * ] をクリックします。</block>
   <block id="ef9404f439510686ea3fc2d2a498e945" category="list-text">保持する Snapshot コピーの最大数を「 * Retention Count * 」フィールドに入力します。</block>
   <block id="ee045c7ecd2df065d64deaede9a8a762" category="paragraph">保持数のデフォルト値は 10 です。Snapshot コピーの最大数は、クラスタ上の ONTAP ソフトウェアのバージョンによって決まります。このフィールドを空白のままにすると、 ONTAP のバージョンに関係なく最大値を実装できます。</block>
   <block id="de0c9d871d0f7ebd6f1a3d921d52301b" category="list-text">「毎日スケジュール」または「毎週スケジュール」 * ボタンを選択し、スケジュールの詳細を指定します。</block>
-  <block id="1f7a831939148700efbf3b0a1070f210" category="paragraph">Snapshot バックアップファイルはスケジュールに基づいて作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。</block>
   <block id="c028e9599e750afadb79697d92d3896d" category="paragraph">このボリュームと Snapshot の重要性により、次のいずれかの場合に通知を受けるために、このボリュームに対して 1 つまたは 2 つのアラートを作成することができます。</block>
   <block id="0005648d66ebf8e8796b78cbddbfbfab" category="list-text">ボリュームスペースが 90% フルの場合。イベント「 * Volume Space Full 」を使用してアラートを設定します。</block>
   <block id="753759a900a213e5141553234b892565" category="paragraph">ONTAP System Manager または ONTAP CLI を使用してボリュームに容量を追加し、 Unified Manager データベースのスペースが不足しないようにすることができます。</block>
   <block id="6c739ccf617b158f5d9e91237a5cbbd9" category="list-text">Snapshot が最大数に近づいています。イベント * Snapshot コピー数が多すぎる * を使用してアラートを設定してください。</block>
-  <block id="58d09fb2703ad1d7697865acd260b5d7" category="paragraph">ONTAP System Manager または ONTAP CLI を使用して古い Snapshot を削除して、新しい Snapshot バックアップ用の空きスペースを常に確保することができます。</block>
   <block id="16baca3564bcca6430acf44f5cd814d1" category="paragraph">アラートの設定は、 Alert Setup ページで行います。</block>
   <block id="7c1e24d6c6d320f2ae69aa514ca0194c" category="summary">アグリゲート、ボリューム、および qtree のサイズを効果的に監視できるように、容量、増加率、 Snapshot リザーブ、クォータ、および inode について、グローバル健常性しきい値の条件を設定することができます。また、遅延しきい値を超えた場合にイベントを生成する設定を編集することもできます。</block>
   <block id="82aadbb8d499194c7ccf391d840334b9" category="doc">グローバル健全性しきい値を設定します</block>
@@ -2060,7 +2030,6 @@
   <block id="6c04472eb8434da04b6836ebd12218b7" category="summary">Active IQ Unified Manager では、 Windows オペレーティングシステムでの NetApp Snapshot を使用したバックアップとリストアがサポートされています。 LUN では iSCSI プロトコルを使用します。</block>
   <block id="a76b011d1f0216bb407469e9fcb9b607" category="doc">Windows でバックアップを設定しています</block>
   <block id="0df0d708323b0db94db9a4c857653fde" category="paragraph">Snapshot ベースのバックアップは、 UM のすべてのサービスの実行中に作成できます。データベースの整合性が取れた状態はスナップショットの一部としてキャプチャされます。バックアップによってデータベース全体にグローバルな読み取りロックが適用され、同時に書き込みを行うことができなくなります。Unified Manager システムを Windows OS 上にインストールし、 NetApp Snapshot を使用してバックアップとリストアを実行する場合は、まずメンテナンスコンソールを使用して、 Unified Manager のバックアップを Snapshot に設定します。</block>
-  <block id="e2aeeb8d5925be531d7b83fdf0c7e0d4" category="paragraph">Active IQ Unified Manager のインストールで Snapshot バックアップを設定する前に、次の設定タスクを実行する必要があります。</block>
   <block id="f1d2b7cc5beb46f3b0a532b5d98c6193" category="list-text">ONTAP クラスタを設定する</block>
   <block id="9034ed23b3c744a50f9c5977ea2d17a2" category="list-text">Windows ホスト・マシンを設定します</block>
   <block id="43635d5c791247e97712948d7926c11c" category="summary">クラスタ、アグリゲート、およびボリュームの FabricPool 容量情報は、容量とパフォーマンスのインベントリページおよびこれらのオブジェクトの詳細ページで確認できます。これらのページには、ミラー階層が構成されている場合の FabricPool ミラー情報も表示されます。</block>
@@ -2149,8 +2118,6 @@
   <block id="f8e76be652adee13708fdac477f5fec3" category="paragraph">サポートバンドルがネットアップにアップロードされます。</block>
   <block id="697f4653a992617dd4712ec69a7d6bc2" category="paragraph">Unified Manager サーバがインターネットに接続されていない場合や、何らかの理由でサポートバンドルをアップロードできない場合は、サーバを取得して手動で送信できます。このリポジトリは、 SFTP クライアントを使用するか、 UNIX または Linux の CLI コマンドを使用して取得できます。Windows 環境では、 Remote Desktop （ RDP ）を使用してサポートバンドルを取得することができます。</block>
   <block id="caa975f681ad52d1effd3184e3cca2ad" category="paragraph">生成されたサポートバンドルは、 VMware システムの /support ディレクトリ、 Linux システムの場合は /opt/NetApp/data/support/ 、 Windows システムの場合は ProgramData\NetApp\OnCommandAppData\ocum\support にあります。</block>
-  <block id="b54f31dd6204fb4eea238c710ce88c52" category="summary">いずれかの ONTAP クラスタで設定済みのボリュームでの Active IQ Unified Manager Snapshot バックアップのデスティネーションの場所を設定し、メンテナンスコンソールを使用して場所を定義する必要があります。</block>
-  <block id="799bf19e536ac1b86d71b01a9e77ae44" category="doc">Windows Snapshot バックアップのデスティネーションの指定</block>
   <block id="efe1c3aca20669b1d8155e3996b3683e" category="list-text">Active IQ Unified Manager がインストールされている Windows ホストに対する管理者権限が必要です。</block>
   <block id="6818bf7e4f9158793c3db8c8d905f8ac" category="list-text">クラスタ管理 IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、およびストレージシステムのユーザ名とパスワードが必要です。</block>
   <block id="1abe1b3d8a962cf1074567c717f8a207" category="list-text">ボリュームをネットワークドライブとして Active IQ Unified Manager ホストにマウントし、マウントドライブを用意しておく必要があります。</block>
@@ -2868,7 +2835,6 @@
   <block id="1f71f2dddc78f11345d26a52622fcdf5" category="paragraph">ステータスが異常な場合や事前定義されたしきい値を超えた場合は、イベントが生成されます。イベントによってアラートがトリガーされたときに指定した受信者に通知を送信するように Unified Manager を設定することもできます。</block>
   <block id="13e4304c150d5c87f513047dda49387e" category="summary">MySQL データベースダンプバックアップは、システム障害やデータ損失が発生した場合に使用できる Active IQ Unified Manager データベースと構成ファイルのコピーです。バックアップはローカルにもリモートにも保存できますが、Active IQ Unified Manager ホストシステムとは別のリモートの場所を定義することを強く推奨します。</block>
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">MySQL データベースダンプを使用したバックアップとリストア</block>
-  <block id="d3e2a44d169c2c9766d5e5082da2116f" category="paragraph">Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。Red Hat Enterprise Linux 、 CentOS Linux システム、または Windows の場合、 Active IQ Unified Manager で管理しているクラスタやノードの数が多い場合や、 MySQL バックアップの完了に数時間かかる場合は、 NetApp Snapshot バックアップ方式を使用できます。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">データベースダンプバックアップは、バックアップディレクトリ内の 1 つのファイルとデータベースリポジトリディレクトリ内の 1 つ以上のファイルで構成されます。バックアップディレクトリ内のファイルは非常に小さく、バックアップを再作成するために必要なデータベースリポジトリディレクトリ内のファイルへのポインタのみが含まれます。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">データベースバックアップの初回生成時は、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルがデータベースリポジトリディレクトリに作成されます。次にバックアップを生成するときは、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルとの差分を含む増分バックアップファイルがデータベースリポジトリディレクトリに作成されます。追加のバックアップを作成すると、次の図に示すように、最大保持設定までこのプロセスが繰り返されます。</block>
   <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">データベースのバックアップ</block>
@@ -3109,7 +3075,6 @@
   <block id="0ec05bf21cd0f16f93a449b1386e8731" category="list-text">WFA を使用している場合は、 Workflow Automation の接続の両側を再設定します。</block>
   <block id="640bb33494f0264c862c986b79089535" category="list-text">SAML を使用している場合は、 SAML 認証の設定を再設定します。</block>
   <block id="70fb369a76a29d2a865f82c744477faf" category="paragraph">Linux システムですべてが想定どおりに動作していることを確認したら、 Unified Manager 仮想アプライアンスをシャットダウンして削除できます。</block>
-  <block id="abade1525053b328cd00ac394aa22707" category="summary">Windows で Active IQ Unified Manager を Snapshot バックアップおよびリストア用に設定する前に、 ONTAP および Windows ホストマシンに対していくつかの事前設定を実行しておく必要があります。</block>
   <block id="8f13a5846c3dde639a93fc2554f271af" category="doc">ONTAP クラスタを設定しています</block>
   <block id="39d8477a9ad9ed927746b978b28ad783" category="paragraph">ONTAP クラスタは、コマンドプロンプトまたは System Manager ユーザインターフェイスを使用して設定できます。ONTAP クラスタの設定では、データ LIF を設定して、 iSCSI LIF として Storage VM に割り当てることができます。次の手順は、 System Manager ユーザインターフェイスを使用して、 iSCSI 対応の Storage VM を設定することです。この Storage VM には、 LIF が発信トラフィックをネットワークでどのように取り扱うかを制御するための静的なネットワークルートを設定する必要があります。</block>
   <block id="376d1e880f6b042f169c02ad77bc437e" category="paragraph">バックアップ構成用に専用のボリュームと LUN を用意します。選択したボリュームに含まれる LUN は 1 つだけです。LUN のサイズは、 Active IQ Unified Manager で処理されると予想されるデータサイズの 2 倍以上にする必要があります。</block>
@@ -3172,7 +3137,6 @@
   <block id="cd3c68cc6b8f9809448f7e2960f3960a" category="paragraph">権限： 0750 、所有権： jboss: maintenance</block>
   <block id="84c873c921ee7808689d6f63f0b75d7b" category="list-text">Unified Manager を Windows システムにインストールし、 MySQL バックアップを使用する場合は、バックアップディレクトリにアクセスできるのが管理者だけであることを確認してください。</block>
   <block id="e899e8ad18a40aa68cb10f881b14d962" category="paragraph">初回のバックアップではフルバックアップが実行されるため、 2 回目以降のバックアップよりも時間がかかります。フルバックアップは 1GB を超えることもあり、 3~4 時間かかる場合があります。2 回目以降のバックアップは増分バックアップとなり、所要時間は短くなります。</block>
-  <block id="c70b90896f6047560d324950d0533f1c" category="list-text">増分バックアップファイルがバックアップ用に割り当てたスペースに対して増えすぎている場合は、新しいフルバックアップを定期的に作成して、古いフルバックアップとそのすべての子増分ファイルを置き換えることができます。Unified Manager が Linux システムにインストールされている場合は、別の方法として NetApp Snapshot のバックアップを開始することもできます。</block>
   <block id="1a5988c5d76a9ffec9bf0d2d58f2b1bb" category="list-text">バックアップパス、保持数、およびスケジュールの値を設定します。</block>
   <block id="ad85571c0744603fcf1a8896664ac91b" category="paragraph">保持数のデフォルト値は 10 です。バックアップを無制限に作成する場合は 0 に設定します。</block>
   <block id="c9defe82acaadaf0bc7351323651edfd" category="paragraph">スケジュールに基づいてデータベースダンプバックアップファイルが作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。</block>
@@ -4557,7 +4521,6 @@
   <block id="4f2e6bc5ca97a3229fbc4389a1fd950f" category="list-text">ボリューム ID が不明な場合：クラスタ間関係が確立されているがデスティネーションクラスタが検出されていない場合など</block>
   <block id="1041e475889285c550e40043f53c7d77" category="list-text">ボリューム / 健全性 * の詳細ページの * 保護 * タブで、休止する保護関係のトポロジビューで関係を右クリックします。</block>
   <block id="4b2a905ff63b6c148444ce2c8193ec7c" category="list-text">メニューから「 * 休止」を選択します。</block>
-  <block id="254045ee23205cb1ac3f6e05905ecfab" category="summary">Active IQ Unified Manager の新機能、制限事項、および既知の問題の概要を示します。</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">リリースノート</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Active IQ Unified Manager リリースノート</block>
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">Unified Manager を Windows に正しくインストールするには、 Unified Manager をインストールするシステムがソフトウェアの要件を満たしている必要があります。</block>
@@ -7225,7 +7188,6 @@
   <block id="feca2c67539b00b94278185357af09dc" category="paragraph">システム定義のクラスタパフォーマンスしきい値ポリシーは、 Unified Manager で監視されている各クラスタにデフォルトで割り当てられます。</block>
   <block id="f79e2da0e7f82c468889e02fe9c2b430" category="list-text">* クラスタ負荷の不均衡 *</block>
   <block id="59661535e0d4f683fcb4a3ed8aa66f1d" category="paragraph">クラスタ内の 1 つのノードの負荷が他のノードよりもはるかに高く、ワークロードのレイテンシに影響を及ぼす可能性がある状況を特定します。</block>
-  <block id="f45a891026b056f4e276c653d9981111" category="paragraph">クラスタ内のすべてのノードの使用済みパフォーマンス容量の値が比較され、負荷の差が 30% を超えるノードがないかどうかが確認されます。これは警告イベントです。</block>
   <block id="7294f6f733c6ce2ec3340b93d27e5213" category="list-text">* クラスタ容量の不均衡 *</block>
   <block id="83a1ff6d54cb25f3d06152e4e5d82750" category="paragraph">クラスタ内の 1 つのアグリゲートの使用済み容量が他のアグリゲートよりもはるかに多く、その結果、処理に必要なスペースに影響を及ぼす可能性がある状況を特定します。</block>
   <block id="8846b64490352c0a0e83eeef475bff88" category="paragraph">クラスタ内のすべてのアグリゲートの使用済み容量の値が比較され、いずれかのアグリゲート間で 70% の差があるかどうかが確認されます。これは警告イベントです。</block>
@@ -11220,7 +11182,6 @@
   <block id="ade5571002c140197ffda62a04c25ae4" category="paragraph">クラスタ構成情報を収集する監視間隔は 15 分です。たとえば、クラスタを追加したあとに、クラスタオブジェクトが Unified Manager の UI に表示されるまでに 15 分かかります。この時間は、クラスタに変更を加えた場合にも当てはまります。たとえば、クラスタ内の SVM に 2 つの新しいボリュームを追加した場合、それらの新しいオブジェクトが UI に表示されるのは次回のポーリング間隔のあとであるため、最大で 15 分後になります。</block>
   <block id="3f685c5e6d90131effce2b40e4a4b07e" category="paragraph">次の図は検出プロセスを示しています。</block>
   <block id="e999bab26f41b7a7606311fad961b3b0" category="paragraph">15 日分のパフォーマンスデータを収集すると CPU に負荷がかかるため、新しいクラスタを複数追加する場合は、データの継続性収集のポーリングが同時に多数のクラスタで実行されないように、時間差をつけて追加するようにしてください。</block>
-  <block id="03c4964bc816e433324ce19426448ce5" category="sidebar">Active IQ Unified Manager のドキュメント</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere のクイックスタートインストール</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">Linux のクイックスタートインストール</block>
@@ -11624,5 +11585,46 @@
   <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">接続されているシステムで、次のコマンドを実行して、更新されたMySQLキーをインポートします。</block>
   <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">インターネットに接続されていないシステムでは'MySQLリポジトリファイルを更新し'gpgcheck=0とマークしてgpgcheckを無効にします</block>
   <block id="eb8cc10ea7290daea0c59a212428f061" category="paragraph"><block ref="eb8cc10ea7290daea0c59a212428f061" category="inline-link-macro-rx"></block></block>
-  <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
+  <block id="8b5c53741ace59564e91943c6402cc3a" category="summary">NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。</block>
+  <block id="1248b2e744f7fb1ee933bde0f938b102" category="paragraph">NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします</block>
+  <block id="f8cd459ff4a7192edfbedc254b7bca7b" category="paragraph">Unified ManagerでSnapshotコピーを作成するように設定する前に、次の設定タスクを実行する必要があります。</block>
+  <block id="acb0ccecf8f7da295a8d8689fb4fa3dd" category="paragraph">Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup *オプションを使用すると、MySQLベースのバックアップにフォールバックできます。</block>
+  <block id="4a5252be16df0bd596f3669798985895" category="list-text">バックアップとリストアを実行するには、*メインメニュー*から4を選択します。</block>
+  <block id="49404a8cd7fa908019ad2c0c44d457dd" category="paragraph">バックアップ方法を変更すると、バックアップメカニズムがSnapshotコピーからデフォルトのMySQLバックアップに変更されます。この変更は、 [ 一般 ] 設定の [ データベースバックアップ ] セクションに表示されます。</block>
+  <block id="57d3cd2d30301429d6637d67f82d9d7e" category="summary">いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。</block>
+  <block id="12fc5ceb004caac51bc7adc0919885d2" category="doc">Snapshotコピーのデスティネーションの指定</block>
+  <block id="9106687d633b6347a2301128578a0d53" category="list-text">メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します（まだ作成していない場合）。</block>
+  <block id="078057cb4fbbb2df6414096389bdf757" category="doc">Snapshotコピーを使用したUnified Managerのリストア</block>
+  <block id="6c1317e22f5a52a7e1ef24b0cfcf2808" category="list-text">Linux：Secure Shellの略</block>
+  <block id="84097b5c25253e555f1241a6265b1fc7" category="list-text">Windows：PowerShell</block>
+  <block id="6e84cad578a085c5bfb17f2ceafb779f" category="list-text">メンテナンスコンソール*メインメニュー*で、*バックアップリストア*オプションに4を入力します。</block>
+  <block id="b5d6cee6ecab9f76ec82923903ef56bf" category="list-text">「* NetApp Snapshotを使用したバックアップとリストア」を選択するには、2を入力します。</block>
+  <block id="f253c94ba6549aff2dc48be199312f74" category="paragraph">新しいサーバへのリストアを実行する場合は、 Unified Manager のインストールの完了後に、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。Configure NetApp Snapshot Backup*を選択するには1を入力し、元のシステムと同様にSnapshotコピーの設定を行います。</block>
+  <block id="547fc6d1c680c3c977eefc644b5f84bb" category="list-text">「3」と入力して、「NetApp Snapshotを使用してリストア」を選択します。</block>
+  <block id="c129bd96bead8458af46982d8d46013a" category="list-text">Unified Managerのリストアに使用するSnapshotコピーを選択します。Enter キーを押します。</block>
+  <block id="ebd9d5f342d8f7a252c552caa368fdd4" category="summary">WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。</block>
+  <block id="980280f09e181d6a54b6e6584a7a57ba" category="summary">ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。</block>
+  <block id="5e9f7df21e2aee170e82e836a89c9b1b" category="doc">Snapshotコピーの場所を設定しています</block>
+  <block id="4b57407417c4e1c7dd9db9b01598349f" category="summary">NetApp Snapshotコピーは、システム障害やデータ損失が発生した場合にリストアに使用できるUnified Managerデータベースと構成ファイルのポイントインタイムイメージを作成します。SnapshotコピーをいずれかのONTAP クラスタ上のボリュームに定期的に書き込まれるようにスケジュールして、常に最新のコピーを保持します。</block>
+  <block id="9d0c3ab790f8c8c94d736d5f3f7b064c" category="summary">Unified ManagerのUIを使用して、Unified Manager Snapshotコピーを作成するスケジュールを設定できます。</block>
+  <block id="276db03bd79cf1fd1f7a4b944102de33" category="list-text">メンテナンスコンソールからSnapshotコピーを作成するための設定を行って、Snapshotを作成するデスティネーションを特定しておく必要があります。</block>
+  <block id="83abd8acb2b7676da1cf771f64b62650" category="paragraph">数分でSnapshotコピーが作成され、Unified Managerデータベースがロックされるのは数秒だけです。</block>
+  <block id="657c331ddbfc73b6b9a208a8ae9baa85" category="paragraph">Snapshotコピーはスケジュールに基づいて作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。</block>
+  <block id="8eb7c975105334e9a925e8d0ae7bea1f" category="paragraph">ONTAP System ManagerまたはONTAP CLIを使用して古いSnapshotを削除して、新しいSnapshotコピー用の空きスペースを常に確保することができます。</block>
+  <block id="fbd8791f9c18f8663521f8eeaa9d956a" category="summary">WindowsシステムでSnapshotコピーを使用してActive IQ Unified Manager をバックアップおよびリストアするには、ONTAP クラスタでいくつかの事前設定手順を実行する必要があります。</block>
+  <block id="39127dab30a1b4106495040a421b4171" category="list-text">増分バックアップファイルがバックアップ用に割り当てたスペースに対して大きすぎる場合は、定期的にフルバックアップを実行して、古いバックアップとその増分ファイルを置き換えることができます。別の方法として、Snapshotコピーを使用してバックアップを作成することもできます。</block>
+  <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。ただし、Unified Managerで管理しているクラスタやノードの数が多い場合や、MySQLバックアップの完了に数時間かかる場合は、Snapshotコピーを使用してバックアップを実行できます。この機能は、Red Hat Enterprise Linux、CentOS Linuxシステム、およびWindowsで使用できます。</block>
+  <block id="0dacdc1f422539593cbb5a203b591b4c" category="summary">Snapshotコピーを使用してActive IQ Unified Manager バックアップを作成するには、メンテナンスコンソールからいくつかの設定手順を実行する必要があります。</block>
+  <block id="154bdb7f32d3fbfa903876b55692d782" category="doc">メンテナンスコンソールからSnapshotコピーを使用してバックアップを設定する</block>
+  <block id="e0075eac991ceb7545f11e534f56b9c5" category="paragraph">バックアップ設定を変更する場合は、「* NetApp Snapshotバックアップ設定を更新*」を選択するために「3」と入力します。更新できるのはパスワードのみです。</block>
+  <block id="d642a15bc9e79a0f7e99d72fad5a3ddd" category="paragraph">Snapshotコピーにかかる時間はごくわずかで、通常は数分です。Unified Managerデータベースが非常に短時間ロックされるため、インストールの中断はほとんどありません。イメージには Snapshot コピーが最後に作成されたあとに発生したファイルへの変更だけが記録されるため、ストレージスペースは最小限しか消費せず、パフォーマンスのオーバーヘッドもわずかです。この Snapshot は ONTAP クラスタ上に作成されるため、必要に応じて、 SnapMirror などのネットアップの他の機能を利用してセカンダリ保護を作成できます。</block>
+  <block id="e06e49da3fb49fecd85244c11ba7754d" category="list-text">Snapshotコピーは、同じバージョンのActive IQ Unified Manager にのみリストアできます。</block>
+  <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">WindowsでのSnapshotコピーのデスティネーションの指定</block>
+  <block id="5a4a0cbbe603b22097ec5fceadf09c9b" category="list-text">メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します。</block>
+  <block id="1024da4d1e601efc60b6d334667fb372" category="inline-link-macro">AIQUMでAIQCASecureルールを手動で更新する方法</block>
+  <block id="ab8d738b545ae820bcf3e08c1381f9d5" category="paragraph">詳細については、次の技術情報アーティクル（KB）を参照してください。 <block ref="2880d9e8074f03320d24915675f84536" category="inline-link-macro-rx"></block></block>
+  <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">クラスタ内のすべてのノードの使用済みパフォーマンス容量の値が比較され、いずれかのノードがしきい値の30%を超えて24時間以上経過していないかどうかが確認されます。これは警告イベントです。</block>
+  <block id="5a668f8970655ef1c7d0b0f27eacfe05" category="summary">Active IQ Unified Manager 9.11の新機能、制限事項、および既知の問題の概要を示します。</block>
+  <block id="695f7221e4fd4e02429db7170b21c850" category="sidebar">Active IQ Unified Manager 9.11のドキュメント</block>
+  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager の略</block>
 </blocks>

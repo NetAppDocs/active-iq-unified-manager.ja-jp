@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html 
 sidebar: sidebar 
-keywords: configure, destination, schedule, database dump, backups 
+keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Unified Manager のデータベースダンプバックアップ設定で、データベースのバックアップパス、保持数、およびバックアップスケジュールを設定できます。日単位または週単位のスケジュールされたバックアップを有効にすることができますデフォルトでは、スケジュールされたバックアップは無効になっていますが、バックアップスケジュールを設定する必要があります。 
 ---
 = データベースダンプバックアップのデスティネーションの設定とスケジュール設定
@@ -31,7 +31,7 @@ Unified Manager ホストシステムとは別のリモートの場所を使用�
 
 [NOTE]
 ====
-* 増分バックアップファイルがバックアップ用に割り当てたスペースに対して増えすぎている場合は、新しいフルバックアップを定期的に作成して、古いフルバックアップとそのすべての子増分ファイルを置き換えることができます。Unified Manager が Linux システムにインストールされている場合は、別の方法として NetApp Snapshot のバックアップを開始することもできます。
+* 増分バックアップファイルがバックアップ用に割り当てたスペースに対して大きすぎる場合は、定期的にフルバックアップを実行して、古いバックアップとその増分ファイルを置き換えることができます。別の方法として、Snapshotコピーを使用してバックアップを作成することもできます。
 * 新しいクラスタに追加してから最初の 15 日間に作成されたバックアップは、過去のパフォーマンスデータを取得するのに十分な精度がない可能性があります。
 
 

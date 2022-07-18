@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_create_volume_where_backups_are_stored.html 
 sidebar: sidebar 
-keywords: configure, snapshot, backup location 
-summary: ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。 
+keywords: configure, snapshot copy, copies location 
+summary: ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。 
 ---
-= Snapshot バックアップの場所を設定しています
+= Snapshotコピーの場所を設定しています
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP System Manager または ONTAP CLI を使用して、 ONTAP クラスタのいずれかに Snapshot バックアップを格納するボリュームを設定できます。
+ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。
 
 * 必要なもの *
 

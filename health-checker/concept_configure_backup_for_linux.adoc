@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_configure_backup_for_linux.html 
 sidebar: sidebar 
-keywords: netapp, snapshot, linux, operate, system, configure, backup 
+keywords: netapp, snapshot copy, copies, linux, operate, system, configure, backup 
 summary: Active IQ Unified Manager が Linux マシンにインストールされている場合は、 NetApp Snapshot を使用してバックアップとリストアを設定できます。 
 ---
 = Linux でバックアップを設定しています
@@ -13,13 +13,13 @@ summary: Active IQ Unified Manager が Linux マシンにインストールさ�
 [role="lead"]
 Active IQ Unified Manager が Linux マシンにインストールされている場合は、 NetApp Snapshot を使用してバックアップとリストアを設定できます。
 
-Snapshot バックアップにかかる時間はごくわずかで、通常は数分です。 Unified Manager データベースが非常に短時間ロックされるため、インストールの中断はほとんどありません。イメージには Snapshot コピーが最後に作成されたあとに発生したファイルへの変更だけが記録されるため、ストレージスペースは最小限しか消費せず、パフォーマンスのオーバーヘッドもわずかです。この Snapshot は ONTAP クラスタ上に作成されるため、必要に応じて、 SnapMirror などのネットアップの他の機能を利用してセカンダリ保護を作成できます。
+Snapshotコピーにかかる時間はごくわずかで、通常は数分です。Unified Managerデータベースが非常に短時間ロックされるため、インストールの中断はほとんどありません。イメージには Snapshot コピーが最後に作成されたあとに発生したファイルへの変更だけが記録されるため、ストレージスペースは最小限しか消費せず、パフォーマンスのオーバーヘッドもわずかです。この Snapshot は ONTAP クラスタ上に作成されるため、必要に応じて、 SnapMirror などのネットアップの他の機能を利用してセカンダリ保護を作成できます。
 
 バックアップ処理を開始する前に、 Unified Manager で整合性チェックが実行され、デスティネーションシステムが使用可能であることが確認されます。
 
 [NOTE]
 ====
-* Snapshot バックアップは、同じバージョンの Active IQ Unified Manager にのみリストアできます。
+* Snapshotコピーは、同じバージョンのActive IQ Unified Manager にのみリストアできます。
 +
 たとえば、 Unified Manager 9.9 で作成したバックアップは、 Unified Manager 9.9 システムでのみリストアできます。
 

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
 sidebar: sidebar 
-keywords: define, backup, schedule, linux, windows 
-summary: Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。 
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
+summary: Unified ManagerのUIを使用して、Unified Manager Snapshotコピーを作成するスケジュールを設定できます。 
 ---
 = Linux と Windows のバックアップスケジュールの定義
 :allow-uri-read: 
@@ -11,15 +11,15 @@ summary: Unified Manager UI を使用して、 Unified Manager の Snapshot バ�
 
 
 [role="lead"]
-Unified Manager UI を使用して、 Unified Manager の Snapshot バックアップを作成するスケジュールを設定できます。
+Unified ManagerのUIを使用して、Unified Manager Snapshotコピーを作成するスケジュールを設定できます。
 
 * 必要なもの *
 
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
-* メンテナンスコンソールで、 Snapshot を作成するデスティネーションを特定するように NetApp Snapshot バックアップを設定しておく必要があります。
+* メンテナンスコンソールからSnapshotコピーを作成するための設定を行って、Snapshotを作成するデスティネーションを特定しておく必要があります。
 
 
-数分で Snapshot バックアップが作成され、 Unified Manager データベースがロックされるのは数秒だけです。
+数分でSnapshotコピーが作成され、Unified Managerデータベースがロックされるのは数秒だけです。
 
 [NOTE]
 ====
@@ -37,7 +37,7 @@ Unified Manager UI を使用して、 Unified Manager の Snapshot バックア�
 . [ 適用（ Apply ） ] をクリックします。
 
 
-Snapshot バックアップファイルはスケジュールに基づいて作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。
+Snapshotコピーはスケジュールに基づいて作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。
 
 このボリュームと Snapshot の重要性により、次のいずれかの場合に通知を受けるために、このボリュームに対して 1 つまたは 2 つのアラートを作成することができます。
 
@@ -47,7 +47,7 @@ ONTAP System Manager または ONTAP CLI を使用してボリュームに容量
 
 * Snapshot が最大数に近づいています。イベント * Snapshot コピー数が多すぎる * を使用してアラートを設定してください。
 +
-ONTAP System Manager または ONTAP CLI を使用して古い Snapshot を削除して、新しい Snapshot バックアップ用の空きスペースを常に確保することができます。
+ONTAP System ManagerまたはONTAP CLIを使用して古いSnapshotを削除して、新しいSnapshotコピー用の空きスペースを常に確保することができます。
 
 
 

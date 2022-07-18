@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
 sidebar: sidebar 
-keywords: configure, backup, location, windows 
-summary: Windows に Active IQ Unified Manager がインストールされている場合でも、 Snapshot バックアップを格納するようにボリュームを設定する必要があります。 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。 
 ---
 = Windows のバックアップの場所を設定しています
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Windows に Active IQ Unified Manager がインストールされてい
 
 
 [role="lead"]
-Windows に Active IQ Unified Manager がインストールされている場合でも、 Snapshot バックアップを格納するようにボリュームを設定する必要があります。
+WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。
 
 * 必要なもの *
 
