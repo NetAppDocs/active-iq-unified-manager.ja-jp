@@ -86,9 +86,9 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 * UDP ポート 514 を他のサービスで使用されないように空けておく必要があります。
 * Windowsシステムにアクティブなウィルス対策ソフトウェアがインストールされている場合、Unified Managerのインストールが失敗することがあります。Unified Managerをインストールする前に、システムのウィルススキャンソフトウェアをすべて無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。
 +
-** Unified Manager データディレクトリ
-** Unified Manager インストールディレクトリ
-** MySQL データディレクトリ
+** Unified Managerのデータディレクトリ。たとえば、「C：\ProgramData\NetApp\OnCommandAppData\`です
+** Unified Managerのインストールディレクトリ。たとえば、「\C:\Program Files\NetApp\`です
+** MySQLのデータ・ディレクトリ（例：C：\ProgramData\MySQL\MySQLServerData）
 
 
 

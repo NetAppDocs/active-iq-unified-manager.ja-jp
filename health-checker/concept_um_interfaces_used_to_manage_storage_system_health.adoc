@@ -2,7 +2,7 @@
 permalink: health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html 
 sidebar: sidebar 
 keywords: unified manager, interfaces, manage, storage system, health 
-summary: このガイドでは、 Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための 2 種類のユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。 
+summary: このセクションでは、Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための2つのユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。 
 ---
 = ストレージシステムの健常性を管理するために使用される Unified Manager のインターフェイス
 :allow-uri-read: 
@@ -10,8 +10,8 @@ summary: このガイドでは、 Active IQ Unified Manager でデータスト�
 :imagesdir: ../media/
 
 
-[role="lead"]
-このガイドでは、 Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための 2 種類のユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。
+[role="lead lead"]
+ここでは、Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための2つのユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。
 
 Unified Manager の保護機能を使用する場合は、 OnCommand Workflow Automation （ WFA ）もインストールして設定する必要があります。
 
@@ -21,7 +21,7 @@ Unified Manager の保護機能を使用する場合は、 OnCommand Workflow Au
 
 Unified Manager Web UI では、管理者がデータストレージの容量、可用性、保護に関連するクラスタの問題を監視してトラブルシューティングすることができます。
 
-このガイドでは、管理者が Unified Manager Web UI に表示されるストレージ容量、データの可用性、または保護に関する問題をトラブルシューティングする際に従う共通のワークフローについて説明します。
+これらのセクションでは、管理者がUnified Manager Web UIに表示されるストレージ容量、データの可用性、または保護に関する問題をトラブルシューティングする際に従う共通のワークフローについて説明します。
 
 
 
@@ -29,4 +29,4 @@ Unified Manager Web UI では、管理者がデータストレージの容量、
 
 Unified Manager のメンテナンスコンソールでは、管理者が Unified Manager サーバ自体に関連するオペレーティングシステムの問題、バージョンアップグレードの問題、ユーザアクセスの問題、およびネットワークの問題を監視し、診断し、対処することができます。Unified Manager Web UI を使用できない場合は、メンテナンスコンソールが Unified Manager にアクセスする唯一の手段となります。
 
-このガイドでは、メンテナンスコンソールにアクセスして Unified Manager サーバの機能に関連する問題を解決する方法について説明します。
+この情報は、メンテナンスコンソールにアクセスしてUnified Managerサーバの機能に関連する問題を解決するために使用します。

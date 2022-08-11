@@ -104,10 +104,10 @@ OnCommand および OnCommand Workflow Automation API サービスから Unified
 |===
 [NOTE]
 ====
-HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、『 Active IQ Unified Manager システム構成ガイド』を参照してください。
+HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、「Active IQ Unified Manager の設定」を参照してください。
 
 ====
-link:../config/concept_configure_unified_manager.html["『 Active IQ Unified Manager システム構成ガイド』"]
+link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]
 
 
 

@@ -13,7 +13,7 @@ summary: クラスタに関する情報を Unified Manager で収集して、 UI
 [role="lead"]
 クラスタに関する情報を Unified Manager で収集して、 UI 、 MySQL データベースクエリ、 REST API からレポートを作成できます。
 
-このガイドでは、 Unified Manager の UI を使用したレポート作成とスケジュール設定について説明します。
+ここでは、Unified ManagerのUIを使用したレポート作成とスケジュール設定について説明します。
 
 Unified Manager が提供するレポート機能には、次の 3 つの方法でアクセスできます。
 
@@ -22,4 +22,4 @@ Unified Manager が提供するレポート機能には、次の 3 つの方法�
 * Unified Manager REST API を使用して確認したい情報を取得する。
 
 
-このガイドでは、 Unified Manager の UI を使用したレポート作成とスケジュール設定について説明します。
+ここでは、Unified ManagerのUIを使用したレポート作成とスケジュール設定について説明します。

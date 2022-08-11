@@ -156,4 +156,4 @@ Log in to Unified Manager in a web browser by using following details:
 
 
 
-の説明に従って、 Web UI にアクセスして umadmin ユーザのデフォルトパスワードを変更し、 Unified Manager の初期セットアップを実行します link:../config/concept_configure_unified_manager.html["『 Active IQ Unified Manager システム構成ガイド』"]。
+の説明に従って、Web UIにアクセスしてumadminユーザのデフォルトパスワードを変更し、Unified Managerの初期セットアップを実行します link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]。

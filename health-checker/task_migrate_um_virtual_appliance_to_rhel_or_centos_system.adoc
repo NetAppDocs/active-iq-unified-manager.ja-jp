@@ -23,7 +23,7 @@ Unified Manager を実行するホストオペレーティングシステムを�
 
 * Linux システム：
 +
-** インストールガイドの手順に従って、 RHEL サーバまたは CentOS サーバに Unified Manager をインストールしておく必要があります。
+** の手順に従って、LinuxサーバにUnified Managerがインストールされている必要があります link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["Linux システムへの Unified Manager のインストール"]。
 ** このサーバの Unified Manager のバージョンは、バックアップファイルを使用する仮想アプライアンスのバージョンと同じである必要があります。
 ** インストールが完了しても、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。この情報は、リストアプロセスでバックアップファイルに取り込まれます。
 ** Linux ホストの root ユーザのクレデンシャルが必要です。

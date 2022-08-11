@@ -23,10 +23,7 @@ summary: ゲートウェイ API はゲートウェイとして機能し、 ONTAP
 +
 link:concept_gateway_apis.html["プロキシアクセスを介して ONTAP API にアクセスする"]
 
-* ONTAP REST API の使用について理解しておく必要があります。ONTAP REST API の使用については、 ONTAP REST API 開発者ガイドを参照してください。
-+
-https://docs.netapp.com/us-en/ontap-automation/index.html["ONTAP REST API 開発者ガイド"]
-
+* ONTAP REST API の使用について理解しておく必要があります。ONTAP REST APIの使用については、を参照してくださいhttps://docs.netapp.com/us-en/ontap-automation/index.html["ONTAP 自動化に関するドキュメント"]。
 * あなたはアプリケーション管理者です。
 * REST API 処理を実行するクラスタは ONTAP 9.5 以降でサポートされており、クラスタは HTTPS 経由で Unified Manager に追加されます。
 

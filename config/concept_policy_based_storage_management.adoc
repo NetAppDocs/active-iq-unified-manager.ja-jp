@@ -28,6 +28,4 @@ summary: ポリシーベースのストレージ管理オプションを使用�
 
 この機能をアクティブ化したら、 Unified Manager REST API を実行して、 * メニューバー * > * ヘルプボタン * > * API ドキュメント * > * ストレージプロバイダ * カテゴリからこれらの機能の一部を実行できます。また、ホスト名または IP アドレスと URL を + https://<hostname>/docs/api/+ の形式で入力して REST API ページにアクセスすることもできます
 
-API の詳細については、 Active IQ Unified Manager API 開発者ガイドを参照してください。
-
-link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager API 開発者ガイド"]
+APIの詳細については、を参照してください link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST APIの使用を開始する"]。

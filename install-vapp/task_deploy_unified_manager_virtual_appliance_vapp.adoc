@@ -112,6 +112,4 @@ VM コンソールに Unified Manager Web UI の URL が表示されます。
 
 
 
-Web UI にアクセスして Unified Manager の初期セットアップを実行できます。手順については、 Active IQ Unified Manager システム構成ガイドを参照してください。
-
-link:../config/concept_configure_unified_manager.html["『 Active IQ Unified Manager システム構成ガイド』"]
+Web UI にアクセスして Unified Manager の初期セットアップを実行できます。手順については、を参照してください link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]。

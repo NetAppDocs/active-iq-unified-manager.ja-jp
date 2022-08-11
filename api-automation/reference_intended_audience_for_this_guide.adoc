@@ -1,21 +1,21 @@
 ---
 permalink: api-automation/reference_intended_audience_for_this_guide.html 
 sidebar: sidebar 
-keywords: audience, guide 
-summary: このガイドは、 REST API を使用して Active IQ Unified Manager ソフトウェアと連携するアプリケーションを作成する開発者を対象としています。 
+keywords: audience, api, rest 
+summary: このセクションは、REST APIを使用してActive IQ Unified Manager ソフトウェアと連携するアプリケーションを作成する開発者を対象としています。 
 ---
-= このガイドの対象読者
+= このコンテンツの対象読者
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-このガイドは、 REST API を使用して Active IQ Unified Manager ソフトウェアと連携するアプリケーションを作成する開発者を対象としています。
+ここでは、REST APIを使用してActive IQ Unified Manager ソフトウェアと連携するアプリケーションを作成する開発者を対象としています。
 
-また、 Unified Manager で提供される REST API を使用して、ネットアップストレージシステムを管理および監視するためのクライアントアプリケーションを構築する方法について、基本的な理解を得る必要のあるストレージ管理者およびストレージ設計者も対象としています。
+ストレージ管理者とストレージ設計者は、この情報を参照して、Unified Manager REST APIを使用してネットアップストレージシステムを管理および監視するためのクライアントアプリケーションを構築する方法の基本的な知識を得ることができます。
 
-ストレージプロバイダ、 ONTAP クラスタ、および管理 API を使用してストレージを管理する場合は、このガイドを参照してください。
+ストレージプロバイダ、ONTAP クラスタ、および管理APIを使用してストレージを管理する場合は、この情報を使用する必要があります。
 
 [NOTE]
 ====
