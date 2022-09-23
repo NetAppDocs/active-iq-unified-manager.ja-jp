@@ -28,7 +28,7 @@ summary: ボリュームアラートを設定するときに、ボリューム�
 . [* リソース（ * Resources ） ] をクリックし、 [* 含める * （ * Include * ） ] タブを選択します。
 +
 .. ドロップダウン・リストから * Volume * を選択し、 * Name contains * フィールドに「 vol1 」と入力して、名前に「 vol1 」が含まれているボリュームを表示します。
-.. 「 * + 」を選択します<<All Volumes whose name contains 'vol1'>>[*Available Resources*] 領域から [*Selected Resources*] 領域に移動します。
+.. 「 * + 」を選択します Volumes whose name contains 'vol1'[*Available Resources*] 領域から [*Selected Resources*] 領域に移動します。
 
 
 . [* Exclude*] タブを選択し '[* Volume*] を選択し '[* 次を含む名前 ] フィールドに *vs1_dr`*] と入力し '[*Add] をクリックします

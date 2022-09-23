@@ -50,7 +50,7 @@ summary: 関連付けられているリソース、イベント、スクリプ�
 +
 [NOTE]
 ====
-除外 (Exclude) タブは ' 特定のリソースタイプのすべてのリソース (+ など ) を選択した場合にのみ表示されます<<All Volumes>>+ または +<<All Volumes whose name contains 'xyz'>>[+]
+除外 (Exclude) タブは ' 特定のリソースタイプのすべてのリソース (+ など ) を選択した場合にのみ表示されます Volumes+ または + Volumes whose name contains 'xyz'[+]
 
 ====
 

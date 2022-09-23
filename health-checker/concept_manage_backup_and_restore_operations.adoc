@@ -29,16 +29,13 @@ Unified Manager 仮想アプライアンスの VMware スナップショット
 
 
 
- a| 
-Red Hat Enterprise Linux または CentOS Linux
- a| 
+.2+| Red Hat Enterprise Linux または CentOS Linux  a| 
 小規模
  a| 
 Unified Manager の MySQL データベースダンプ
 
 
 
- a| 
  a| 
 大規模
  a| 
@@ -46,16 +43,13 @@ Unified Manager データベースの NetApp Snapshot
 
 
 
- a| 
-Microsoft Windows の場合
- a| 
+.2+| Microsoft Windows の場合  a| 
 小規模
  a| 
 Unified Manager の MySQL データベースダンプ
 
 
 
- a| 
  a| 
 大規模
  a| 
