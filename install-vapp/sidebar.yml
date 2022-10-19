@@ -37,6 +37,8 @@ entries:
   - title: Unified Manager をアップグレードする
     url: "/install-vapp/task_upgrade_unified_manager_vapp.html"
     entries:
+    - title: Unified Managerバージョンでサポートされているアップグレードパス
+      url: "/include/upgrade-path.html"
     - title: Unified Manager のアップグレードファイルをダウンロードしています
       url: "/install-vapp/task_download_unified_manager_iso_image_vapp.html"
     - title: Unified Manager 仮想アプライアンスをアップグレードします

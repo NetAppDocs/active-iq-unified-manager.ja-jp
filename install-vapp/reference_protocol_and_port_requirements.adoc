@@ -136,6 +136,8 @@ NOTE: このポートや他のポートを使用して VMware vCenter Server ま
 NDMP
  a| 
 10000 TCP
+
+7 / TCP
  a| 
 特定の Snapshot リストア処理に使用されます。
 

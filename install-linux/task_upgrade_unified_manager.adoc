@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/task_upgrade_unified_manager.html 
 sidebar: sidebar 
-keywords: upgrade, unified manager 
-summary: Unified Manager をアップグレードするには、 Red Hat プラットフォームでインストールファイルをダウンロードして実行します。 
+keywords: upgrade, unified manager, linux 
+summary: Unified Managerをアップグレードするには、Linuxプラットフォームでインストールファイルをダウンロードして実行します。 
 ---
 = Unified Manager をアップグレードする
 :allow-uri-read: 
@@ -11,20 +11,20 @@ summary: Unified Manager をアップグレードするには、 Red Hat プラ�
 
 
 [role="lead"]
-Red HatプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。
+LinuxプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。
 
 * 必要なもの *
 
 * Unified Manager をアップグレードするシステムがシステム要件とソフトウェア要件を満たしている必要があります。
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]
+を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
 
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat および CentOS のソフトウェアとインストールの要件"]
+を参照してください link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
 
 * Unified Manager をアップグレードする前に、適切なバージョンの OpenJDK をインストールするか、または適切なバージョンにアップグレードする必要があります。
 +
-link:task_upgrade_openjdk_on_linux_ocum.html["Linux での JRE のアップグレード"]
+を参照してください link:task_upgrade_openjdk_on_linux_ocum.html["Linux での JRE のアップグレード"]。
 
 * Red Hat Enterprise Linux Subscription Manager への登録が必要です。
 * アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。また、バックアップ・ファイルを「 /opt/NetApp/data 」ディレクトリから外部の場所に移動することをお勧めします。
@@ -37,7 +37,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html["Linux での JRE のアップグ�
 . ターゲットの Red Hat Enterprise Linux サーバまたは CentOS サーバにログインします。
 . サーバに Unified Manager のバンドルをダウンロードします。
 +
-link:task_download_unified_manager.html["Red Hat または CentOS 版の Unified Manager のダウンロード"]
+を参照してください link:task_download_unified_manager.html["Linux版Unified Managerをダウンロードしています"]。
 
 . ダウンロードしたディレクトリに移動し、 Unified Manager のバンドルを展開します。
 +
@@ -53,55 +53,22 @@ ls *.rpm`
 +
 「 netapp - um <version>.x86_64.rpm 」
 
-. * オプション：インターネットに接続されていないシステム、または Red Hat Enterprise Linux リポジトリを使用していないシステムの場合、次の手順を実行して、必要なパッケージが揃っていないかどうかを確認し、それらのパッケージをダウンロードします。
-+
-.. 各パッケージについてその有無を表示します。
-+
-yum`install NetApp-um <version> .x86_64.rpm -amiteno`
-
-+
-"Installing :`" セクションの項目は現在のディレクトリにあるパッケージで、 "Installing for dependencies ： " セクションの項目はシステムにないパッケージです。
-
-.. インターネットにアクセスできる別のシステムで、次のコマンドを実行して不足しているパッケージをダウンロードします。
-+
-yum`install package_name --DownloadOnly --downloaddir=.`
-
-+
-パッケージは '--downloaddir=` として指定されたディレクトリにダウンロードされます
-
-+
-プラグイン「 yum-plugin-downloadonly 」は、 Red Hat Enterprise Linux システムで常に有効になっているとは限りません。インストールせずにパッケージをダウンロードするには、この機能を有効にする必要があります。
-
-+
-yum install yum-plugin-downloadonly を実行します
-
-.. インストールシステムに新しいディレクトリを作成し、ダウンロードしたパッケージをインターネットに接続されたシステムからコピーします。
-.. インストールシステムの新しいディレクトリにディレクトリを変更し、 MySQL Community Edition をインストールするための次のコマンドとその依存関係を実行します。
-+
-yum`install *.rpm`
-
-.. Unified Manager サーバを起動します。次のコマンドを実行します。
-+
-'ystemctl start ocie
-
-+
-'systemctl start ocieau
-
-
-
 . インストール前スクリプトを実行して、アップグレードと競合するシステム設定やインストール済みソフトウェアがないことを確認します。
 +
 'UDO./PRE_INSTALL_check.sh'
 
 +
-インストール前スクリプトは、システムに有効な Red Hat サブスクリプションがあること、および必要なソフトウェアリポジトリへのアクセス権があることを確認します。問題が検出された場合は、 Unified Manager をアップグレードする前に修正する必要があります。
+インストール前スクリプトは、システムに有効なRed Hat Enterprise Linuxサブスクリプションがあるかどうか、およびシステムが必要なソフトウェアリポジトリにアクセスできるかどうかを確認します。問題が検出された場合は、修正してアップグレードを続行する必要があります。
+
++
+不足しているパッケージが検出された場合は、に記載されている手順を実行します link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages["不足しているパッケージに対して実行する追加手順"]。足りないパッケージがない場合は、次の手順に進みます。
 
 . 次のスクリプトを使用して Unified Manager をアップグレードします。
 +
 「 upgrade.sh` 」
 
 +
-RPM モジュールが自動的に実行され、必要なサポートソフトウェアとそれらで実行されている Unified Manager モジュールがアップグレードされます。アップグレードと競合するシステム設定やインストール済みソフトウェアがないかどうかも確認されます。問題が検出された場合は、 Unified Manager をアップグレードする前に修正する必要があります。
+RPM モジュールが自動的に実行され、必要なサポートソフトウェアとそれらで実行されている Unified Manager モジュールがアップグレードされます。アップグレードと競合するシステム設定やインストール済みソフトウェアがないかどうかも確認されます。問題が検出された場合は、 Unified Manager をアップグレードする前に修正する必要があります。Unified Managerをアップグレードする前に_net-snmp_などのパッケージをインストールしていた場合は、MySQLの依存関係によってアップグレード中にパッケージがアンインストールされることがあります。引き続き使用するには、パッケージを手動で再度インストールする必要があります。
 
 . アップグレードが完了したら、メッセージを上にスクロールして、 Unified Manager Web UI の IP アドレスまたは URL 、メンテナンスユーザの名前（ umadmin ）、およびデフォルトのパスワードを確認します。
 +
@@ -119,4 +86,49 @@ https://fully_qualified_domain_name/
 ----
 
 
-サポートされている Web ブラウザに表示された IP アドレスまたは URL を入力して Unified Manager Web UI を起動し、前に設定したメンテナンスユーザの名前（ umadmin ）とパスワードを使用してログインします。
+サポートされているWebブラウザの新しいウィンドウに表示されたIPアドレスまたはURLを入力してUnified Manager Web UIを起動し、前に設定したメンテナンスユーザの名前（umadmin）とパスワードを使用してログインします。
+
+
+
+== 不足しているパッケージに対して実行する追加手順
+
+アップグレード中にサイトで不足しているパッケージが検出された場合、またはシステムがインターネットに接続されていない場合、またはRed Hat Enterprise Linuxリポジトリを使用していない場合は、次の手順を実行して、必要なパッケージが揃っているかどうかを確認し、それらのパッケージをダウンロードします。
+
+
+NOTE: これらの手順は、メイン手順 のstep_5_(ステップ5 )の後に実行する必要があります。この手順 アップグレードではUnified Managerがアップグレードされます。アップグレードのために追加の手順を実行する必要はありません。
+
+. 各パッケージについてその有無を表示します。
++
+yum`install NetApp-um <version> .x86_64.rpm -amiteno`
+
++
+"Installing :`" セクションの項目は現在のディレクトリにあるパッケージで、 "Installing for dependencies ： " セクションの項目はシステムにないパッケージです。
+
+. インターネットにアクセスできる別のシステムで、次のコマンドを実行して不足しているパッケージをダウンロードします。
++
+yum`install package_name --DownloadOnly --downloaddir=.`
+
++
+パッケージは '--downloaddir=` として指定されたディレクトリにダウンロードされます
+
++
+プラグイン「 yum-plugin-downloadonly 」は、 Red Hat Enterprise Linux システムで常に有効になっているとは限りません。インストールせずにパッケージをダウンロードするには、この機能を有効にする必要があります。
+
++
+yum install yum-plugin-downloadonly を実行します
+
+. インストールシステムでUnified Managerのバンドルを解凍したディレクトリに、ダウンロードしたパッケージをコピーします。
+. ディレクトリをそのディレクトリに変更し、次のコマンドを実行して欠落パッケージとその依存関係をインストールします。
++
+yum`install *.rpm`
+
+. Unified Manager サーバを起動します。次のコマンドを実行します。
++
+'ystemctl start ocie
+
++
+'systemctl start ocieau
+
+
+
+これでUnified Managerのアップグレードプロセスは完了です。サポートされているWebブラウザの新しいウィンドウに表示されたIPアドレスまたはURLを入力してUnified Manager Web UIを起動し、前に設定したメンテナンスユーザの名前（umadmin）とパスワードを使用してログインします。

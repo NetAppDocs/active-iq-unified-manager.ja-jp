@@ -36,6 +36,8 @@ entries:
       url: "/install-windows/task_unattended_installation_of_unified_manager.html"
   - title: JBoss パスワードを変更しています
     url: "/install-windows/task_change_jboss_password_on_windows.html"
+  - title: Unified Managerバージョンでサポートされているアップグレードパス
+    url: "/include/upgrade-path.html"
   - title: Unified Manager をアップグレードする
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
   - title: サードパーティ製品のアップグレード
