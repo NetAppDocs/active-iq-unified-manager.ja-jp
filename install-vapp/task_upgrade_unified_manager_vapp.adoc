@@ -11,13 +11,13 @@ summary: VMware vSphere 上の Unified Manager にアップグレードできま
 
 
 [role="lead"]
-Active IQ Unified Manager をリリース9.11にアップグレードできるのは、リリース9.9または9.10からのみです。
+リリース9.10または9.11からリリース9.12へのActive IQ Unified Manager のアップグレードのみが可能です。
 
 アップグレードプロセスの実行中は、 Unified Manager を使用できなくなります。実行中の処理がある場合は、 Unified Manager をアップグレードする前に完了しておいてください
 
 Unified Manager を OnCommand Workflow Automation のインスタンスとペアにして使用している環境では、両方の製品のソフトウェアで新しいバージョンを利用できる場合、 2 つの製品間の接続を解除してから各製品をアップグレードし、アップグレードの実行後に Workflow Automation の接続を新たにセットアップする必要があります。いずれかの製品のみをアップグレードする場合は、アップグレード後に Workflow Automation にログインし、 Unified Manager からデータを取得していることを確認します。
 
 .手順
-. link:task_download_unified_manager_iso_image_vapp.html["Unified Manager の ISO イメージをダウンロードします"]。
-. link:task_upgrade_unified_manager_virtual_appliance_vapp.html["Unified Manager をアップグレードします"]。
+. の手順に従います link:task_download_unified_manager_iso_image_vapp.html["Unified Manager の ISO イメージをダウンロードします"]。
+. さらに、に記載されている手順に従います link:task_upgrade_unified_manager_virtual_appliance_vapp.html["Unified Manager をアップグレードします"]。
 

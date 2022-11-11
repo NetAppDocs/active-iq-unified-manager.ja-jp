@@ -47,4 +47,4 @@ aggregate relocation start コマンドを使用して 1 つのノードから�
 
 MetroCluster 構成で 1 つのクラスタから別のクラスタにオブジェクトが移動された場合、ユーザ定義のしきい値ポリシーの設定は保持されません。それらのしきい値ポリシーが必要な場合は、パートナークラスタに移動されたボリュームおよび LUN に適用できます。オブジェクトが元のクラスタに戻ると、それらのユーザ定義のしきい値ポリシーが自動的に再適用されます。
 
-link:../storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html["スイッチオーバーおよびスイッチバックの発生時のボリュームの動作"]
+詳細については、を参照してください link:../storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html["スイッチオーバーおよびスイッチバックの発生時のボリュームの動作"]。

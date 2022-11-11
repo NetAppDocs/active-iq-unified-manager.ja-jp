@@ -27,21 +27,27 @@ Active IQ Unified Manager にクラスタを追加して監視することがで
 * HTTPS プロトコルを使用してクラスタに接続するためのポート番号を確認しておく必要があります（通常はポート 443 ）。
 * クラスタで ONTAP バージョン 9.1 以降が実行されている必要があります。
 * Unified Manager サーバに十分なスペースが必要です。スペースの使用率が 90% を超えている場合、サーバにクラスタを追加することはできません。
-* 必要な証明書を用意しておきます。次の 2 種類の証明書が必要です。
+* 必要な証明書を用意しておきます。Unified Managerでクラスタの追加時にセキュリティ証明書がインストールされます。
 +
-* サーバ証明書 * ：登録に使用します。クラスタを追加するには有効な証明書が必要です。サーバ証明書が期限切れになった場合は、再生成して Unified Manager を再起動し、サービスを自動的に再登録する必要があります。証明書の生成については、ナレッジベース（ KB ）の記事を参照してください。 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["ONTAP 9 で SSL 証明書を更新する方法"]
+*サーバ証明書*：この証明書はUnified Managerが所有しています。デフォルトの自己署名SSL（HTTPS）証明書が生成され、Unified Managerの新規インストールが実行されます。セキュリティを強化するために、CA署名証明書にアップグレードすることを推奨します。サーバ証明書の有効期限が切れた場合は、再生成してUnified Managerを再起動し、サービスに新しい証明書を組み込む必要があります。SSL証明書の再生成の詳細については、を参照してください link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS セキュリティ証明書の生成"]。
 
 +
-* クライアント証明書 * ：認証に使用します。クラスタを追加するには有効な証明書が必要です。有効期限が切れた証明書で Unified Manager にクラスタを追加することはできません。クライアント証明書の期限が切れている場合は、クラスタを追加する前に再生成する必要があります。ただし、追加済みのクラスタの証明書の有効期限が切れて Unified Manager で使用されている場合は、 EMS メッセージが期限切れの証明書を使用して引き続き機能します。クライアント証明書を再生成する必要はありません。
+*相互TLS通信証明書*：Unified ManagerとONTAP 間の相互TLS通信で使用されます。証明書ベースの認証は、ONTAP のバージョンに基づいてクラスタで有効になります。ONTAP バージョン9.5よりも前のバージョンを実行しているクラスタでは、証明書ベースの認証が有効になっていません。
 
++
+古いバージョンのUnified ManagerをUnified Manager 9.12に更新する場合、クラスタの証明書ベースの認証は自動的には有効になりません。ただし、クラスタの詳細を変更して保存することで有効にできます。証明書の有効期限が切れた場合は、再生成して新しい証明書を組み込む必要があります。証明書の表示と再生成の詳細については、を参照してください link:../storage-mgmt/task_edit_clusters.html["クラスタを編集します"]。
 
-
++
 [NOTE]
 ====
-NAT / ファイアウォールの背後にあるクラスタは、 Unified Manager の NAT IP アドレスを使用して追加できます。接続された Workflow Automation または SnapProtect システムも NAT / ファイアウォールの背後に配置する必要があり、 SnapProtect API 呼び出しでは NAT IP アドレスを使用してクラスタを識別する必要があります。
+** 証明書ベースの認証は、Web UIからクラスタを追加した場合に自動的に有効になります。メンテナンスコンソールからクラスタを追加した場合、証明書ベースの認証は有効になりません。
+** クラスタで証明書ベースの認証が有効になっている場合に、Unified Managerのバックアップをサーバから作成し、ホスト名またはIPアドレスが変更された別のUnified Managerサーバにリストアすると、クラスタの監視が失敗することがあります。エラーを回避するには、クラスタの詳細を編集して保存します。クラスタの詳細の編集の詳細については、を参照してください link:../storage-mgmt/task_edit_clusters.html["クラスタを編集します"]。
+
 
 ====
-* MetroCluster 構成では、各クラスタを個別に追加する必要があります。
++
+*クライアント証明書*：ONTAP から受信したEMSメッセージの認証時に使用されます。この証明書はONTAP が所有しており、ONTAP クラスタをUnified Managerに追加する場合に必要です。有効期限が切れた証明書で Unified Manager にクラスタを追加することはできません。クライアント証明書の期限が切れている場合は、クラスタを追加する前に再生成する必要があります。ただし、追加済みのクラスタの証明書の有効期限が切れて Unified Manager で使用されている場合は、 EMS メッセージが期限切れの証明書を使用して引き続き機能します。証明書の生成については、ナレッジベース（KB）の記事を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["System ManagerユーザインターフェイスでONTAP の自己署名証明書を更新する方法"]。
+
 * 1 つの Unified Manager インスタンスでサポートできるノードの数には上限があります。ノードの数がサポートされる最大数を超える環境を監視する必要がある場合は、 Unified Manager インスタンスを追加でインストールし、一部のクラスタを監視する必要があります。
 * クラスタに 2 つ目のクラスタ管理 LIF を設定し、 Unified Manager の各インスタンスを別々の LIF を介して接続すれば、 1 つのクラスタを Unified Manager の 2 つのインスタンスで監視できます。
 
@@ -53,7 +59,10 @@ NAT / ファイアウォールの背後にあるクラスタは、 Unified Manag
 . [ ホストの許可 ] ダイアログボックスで、 [ 証明書の表示 *] をクリックして、クラスタに関する証明書情報を表示します。
 . 「 * はい * 」をクリックします。
 +
-Unified Manager では、クラスタが最初に追加されたときにのみ証明書がチェックされます。Unified Manager では、 ONTAP に対する API 呼び出しごとには証明書がチェックされません。
+Unified Manager 9.12では、クラスタの詳細を保存したあと、クラスタの双方向TLS通信の証明書を確認できます。
+
++
+証明書ベースの認証が有効になっていない場合、Unified Managerはクラスタが最初に追加されたときにのみ証明書をチェックします。Unified Manager では、 ONTAP に対する API 呼び出しごとには証明書がチェックされません。
 
 
 
@@ -78,3 +87,5 @@ Unified Manager では、クラスタが最初に追加されたときにのみ�
 link:../config/task_add_users.html["ユーザを追加する"]
 
 link:../health-checker/task_view_cluster_list_and_details.html["クラスタリストおよび詳細の表示"]
+
+link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain["CA 署名済みで返された HTTPS 証明書をインストールする"]

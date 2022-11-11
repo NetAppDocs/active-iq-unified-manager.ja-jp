@@ -13,7 +13,7 @@ summary: Active IQ Unified Manager では、 Windows オペレーティングシ
 [role="lead"]
 Active IQ Unified Manager では、 Windows オペレーティングシステムでの NetApp Snapshot を使用したバックアップとリストアがサポートされています。 LUN では iSCSI プロトコルを使用します。
 
-Snapshot ベースのバックアップは、 UM のすべてのサービスの実行中に作成できます。データベースの整合性が取れた状態はスナップショットの一部としてキャプチャされます。バックアップによってデータベース全体にグローバルな読み取りロックが適用され、同時に書き込みを行うことができなくなります。Unified Manager システムを Windows OS 上にインストールし、 NetApp Snapshot を使用してバックアップとリストアを実行する場合は、まずメンテナンスコンソールを使用して、 Unified Manager のバックアップを Snapshot に設定します。
+Snapshotベースのバックアップは、Unified Managerのすべてのサービスの実行中に作成できます。データベースの整合性が取れた状態はスナップショットの一部としてキャプチャされます。バックアップによってデータベース全体にグローバルな読み取りロックが適用され、同時に書き込みを行うことができなくなります。Unified Manager システムを Windows OS 上にインストールし、 NetApp Snapshot を使用してバックアップとリストアを実行する場合は、まずメンテナンスコンソールを使用して、 Unified Manager のバックアップを Snapshot に設定します。
 
 Unified ManagerでSnapshotコピーを作成するように設定する前に、次の設定タスクを実行する必要があります。
 

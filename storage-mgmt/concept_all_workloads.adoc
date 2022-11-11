@@ -52,7 +52,7 @@ FlexGroup ボリュームとそのコンスティチュエントは除外され�
 
 .手順
 . ストレージ>ワークロード>すべてのワークロード>作成*をクリックします。
-. ワークロードの作成詳細については、を参照してください link:../storage-mgmt/concept_provision_and_manage_workloads.html["ワークロードのプロビジョニングと管理"]
+. ワークロードの作成詳細については、を参照してください link:../storage-mgmt/concept_provision_and_manage_workloads.html["ワークロードのプロビジョニングと管理"]。
 
 
 
@@ -69,8 +69,8 @@ All workloads （すべてのワークロード）画面では、データセン
 
 === ワークロードのパフォーマンスと容量の条件を分析します
 
-IOPS分析*ポップアップの*ワークロードの分析*ボタンをクリックすると、ワークロード分析ページが開き、期間を選択して、選択したワークロードのレイテンシ、スループット、容量のトレンドを確認できます。Workload Analyzerの詳細については、を参照してください link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Workload Analyzer を使用したワークロードのトラブルシューティング"]
+IOPS分析*ポップアップの*ワークロードの分析*ボタンをクリックすると、ワークロード分析ページが開き、期間を選択して、選択したワークロードのレイテンシ、スループット、容量のトレンドを確認できます。Workload Analyzerの詳細については、を参照してください link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Workload Analyzer を使用したワークロードのトラブルシューティング"]。
 
 パフォーマンスビュー * 列の棒グラフアイコンをクリックすると、ワークロードに関するパフォーマンス情報を表示してトラブルシューティングに役立てることができます。ワークロードの分析ページにパフォーマンスと容量のグラフを表示してオブジェクトを分析するには、 * ワークロードの分析 * ボタンをクリックします。
 
-詳細については、を参照してください link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["Workload Analyzer で表示されるデータは何ですか"]
+詳細については、を参照してください link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["Workload Analyzer で表示されるデータは何ですか"]。

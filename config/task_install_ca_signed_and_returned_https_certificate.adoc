@@ -35,7 +35,7 @@ CSR 作成の証明書の有効期間が 397 日を超える場合、証明書�
 . 表示されるダイアログボックスで、「 * ファイルを選択 ... * 」をクリックして、アップロードするファイルを探します。
 . ファイルを選択し、 * Install * をクリックしてファイルをインストールします。
 +
-link:concept_install_https_certificate_generated_using_external_tools.html["外部ツールを使用して生成された HTTPS 証明書のインストール"]
+詳細については、を参照してください link:concept_install_https_certificate_generated_using_external_tools.html["外部ツールを使用して生成された HTTPS 証明書のインストール"]。
 
 
 

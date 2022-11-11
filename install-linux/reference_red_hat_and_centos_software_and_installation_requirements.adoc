@@ -35,8 +35,8 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 
-* MySQL Community Editionバージョン8.0.28（MySQLリポジトリから入手）。
-* OpenJDKバージョン11.0.14（Red Hat Extra Enterprise Linux Serverリポジトリから入手）
+* MySQL Community Editionバージョン8.0.30（MySQLリポジトリから入手）。
+* OpenJDKバージョン11.0.17（Red Hat Extra Enterprise Linux Serverリポジトリから入手）
 * Python 3.6.x
 * p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）
 
@@ -69,14 +69,14 @@ Red Hat Subscription Manager については、 Red Hat のドキュメントを
 システムで EPEL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。
 
 +
-link:task_manually_configure_epel_repository.html["EPEL リポジトリを手動で設定します"]
+を参照してください link:task_manually_configure_epel_repository.html["EPEL リポジトリを手動で設定します"]。
 
 * 正しいバージョンの MySQL がインストールされていない場合は、システムに MySQL ソフトウェアが正しくインストールされるように MySQL リポジトリを有効にする必要があります。
 +
 システムで MySQL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。
 
 +
-link:task_manually_configure_mysql_repository.html["MySQL リポジトリを手動で設定する"]
+を参照してください link:task_manually_configure_mysql_repository.html["MySQL リポジトリを手動で設定する"]。
 
 
 

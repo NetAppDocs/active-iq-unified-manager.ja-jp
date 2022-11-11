@@ -17,19 +17,19 @@ summary: アグリゲート、ボリューム、および qtree のサイズを�
 
 グローバル健常性しきい値の設定には、左側のナビゲーションメニューの「イベントしきい値」セクションからアクセスできます。また、個々のオブジェクトのインベントリページまたは詳細ページから、そのオブジェクトのしきい値の設定を変更することもできます。
 
-* link:task_configure_global_aggregate_health_threshold_values.html["アグリゲートのグローバル健全性しきい値を設定します"]
+* 詳細については、を参照してください link:task_configure_global_aggregate_health_threshold_values.html["アグリゲートのグローバル健全性しきい値を設定します"]。
 +
 すべてのアグリゲートに対する容量、増加率、および Snapshot コピーの健全性しきい値を設定して、しきい値の違反を追跡することができます。
 
-* link:task_configure_global_volume_health_threshold_values.html["ボリュームのグローバル健全性しきい値を設定しています"]
+* 詳細については、を参照してください link:task_configure_global_volume_health_threshold_values.html["ボリュームのグローバル健全性しきい値を設定しています"]。
 +
 容量、 Snapshot コピー、 qtree クォータ、ボリューム増加率、オーバーライトリザーブスペースの健全性しきい値の設定を編集することができます。 しきい値の違反を追跡するには、すべてのボリュームの inode を使用します。
 
-* link:task_configure_global_qtree_health_threshold_values.html["qtree のグローバル健全性しきい値を設定しています"]
+* 詳細については、を参照してください link:task_configure_global_qtree_health_threshold_values.html["qtree のグローバル健全性しきい値を設定しています"]。
 +
 すべての qtree に対する容量の健全性しきい値の設定を編集して、しきい値の違反を追跡することができます。
 
-* link:task_configure_lag_threshold_settings_for_unmanaged_protection.html["管理対象外の保護関係の遅延健常性しきい値の編集"]
+* 詳細については、を参照してください link:task_configure_lag_threshold_settings_for_unmanaged_protection.html["管理対象外の保護関係の遅延健常性しきい値の編集"]。
 +
 警告やエラーの遅延時間の割合を増やしたり減らしたりすることで、イベントが生成される間隔をニーズに合わせて調整することができます。
 

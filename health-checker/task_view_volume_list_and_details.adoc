@@ -36,4 +36,9 @@ Health ： All Volumes ビューでは、ボリュームのインベントリを
 
 * 関連情報 *
 
-link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["使用可能なボリューム容量グラフを表示するレポートの作成"]
+* link:../health-checker/reference_health_volume_details_page.html["ボリューム：健全性の詳細ページ"]
+* link:../performance-checker/performance-view-all.html#performance-all-volumes-view["Performance：All Volumesビュー"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["セキュリティ：ランサムウェア対策ビュー"]
+* link:../data-protection/task_view_volume_protection_relationships.html["ボリュームの保護関係を表示しています"]
+* link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["使用可能なボリューム容量グラフを表示するレポートの作成"]
+

@@ -36,4 +36,7 @@ Health ： All aggregates ビューでは、アグリゲートのインベント
 
 * 関連情報 *
 
-link:../health-checker/reference_health_aggregate_details_page.html["アグリゲート / 健全性の詳細ページ"]
+* link:../health-checker/reference_health_aggregate_details_page.html["アグリゲート / 健全性の詳細ページ"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["パフォーマンス：すべてのアグリゲートが表示されます"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["アグリゲート容量レポートのカスタマイズ"]
+

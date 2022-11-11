@@ -31,7 +31,7 @@ Unified Manager がインストールされている Red Hat Enterprise Linux �
 +
 .. 既存の「 /opt/NetApp/data 」フォルダにあるフォルダの SE Linux タイプを取得します。
 +
-「 e_type=ls -Z /opt/NetApp/data|awk '{print$4}'|awk -F :'{print$3}'|head-1`` 」
+`se_type=`ls -Z /opt/netapp/data| awk '{print $4}'| awk -F: '{print $3}'| head -1`
 
 +
 次のような情報が返されます。

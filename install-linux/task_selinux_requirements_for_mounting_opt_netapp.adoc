@@ -39,7 +39,9 @@ NOTE: この出力では、コンテキストは「 default_t' 」です。こ�
 
 . /opt/NetApp/data のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。
 +
-.. 次のコマンドを実行して、コンテキストをmysqld_db_t`に設定します。semanage fcontext -a-t mysqld_db_t」/opt/NetApp/data「`restorecon -R -v /opt/NetApp/data`
+.. 次のコマンドを実行してコンテキストをに設定します `mysqld_db_t`：
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
+`restorecon -R -v /opt/netapp/data`
 .. /etc/fstab に /opt/NetApp/data を設定している場合は '/etc/fstab ファイルを編集する必要があります/opt/NetApp/data/' マウント・オプションの場合は 'MySQL ラベルを次のように追加します
 +
 `context=system_u:object_r:mysqld_db_t:s0`
@@ -146,7 +148,9 @@ NOTE: この出力では、コンテキストは「 default_t' 」です。こ�
 
 . /opt/netapp のマウント方法に基づいてコンテキストを設定するには、次の手順を実行します。
 +
-.. 次のコマンドを実行して、コンテキストをmysqld_db_t`に設定します。semanage fcontext -a-t mysqld_db_t」/opt/netapp「`restorecon -R -v /opt/netapp
+.. 次のコマンドを実行してコンテキストをに設定します `mysqld_db_t`：
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp"
+`restorecon -R -v /opt/netapp`
 .. /etc/fstab に /opt/netapp を設定している場合は '/etc/fstab ファイルを編集します/opt/NetApp/マウント・オプションの場合は'context=system_u:object_r:mysqld_db_t:s0'としてMySQLラベルを追加します
 .. コンテキストを有効にするために '/opt/NetApp/' をアンマウントしてから再度マウントします
 .. NFSを直接マウントしている場合は'次のコマンドを実行してコンテキストをmysqld_db_t'：mount <nfsshare>:/<mountpoint>/opt/NetApp-o context=system_u:object_r:mysqld_db_t: s0`に設定します

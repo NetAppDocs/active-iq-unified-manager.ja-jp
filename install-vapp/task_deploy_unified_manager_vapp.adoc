@@ -17,7 +17,7 @@ Unified Manager を導入するには、ソフトウェアをダウンロード�
 
 * 導入に必要なシステム要件を確認し、満たしておく必要があります。
 +
-link:concept_requirements_for_installing_unified_manager.html["システム要件"]
+を参照してください link:concept_requirements_for_installing_unified_manager.html["システム要件"]。
 
 * 次の情報があることを確認します。
 +
@@ -42,6 +42,6 @@ Unified Manager 9.8 以降では、 VMware Tools は Open VM Tools （「 open-v
 導入と初期セットアップが完了したら、クラスタを追加するかメンテナンスコンソールで追加のネットワーク設定を行ってから、 Web UI にアクセスできます。
 
 .手順
-. link:task_download_unified_manager_ova_file.html["Unified Manager をダウンロードします"]
-. link:task_deploy_unified_manager_virtual_appliance_vapp.html["Unified Manager 仮想アプライアンスを導入します"]
+. の手順に従います link:task_download_unified_manager_ova_file.html["Unified Manager をダウンロードします"]。
+. また、の手順も実行します link:task_deploy_unified_manager_virtual_appliance_vapp.html["Unified Manager 仮想アプライアンスを導入します"]。
 

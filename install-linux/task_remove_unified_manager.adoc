@@ -16,7 +16,7 @@ Unified Manager は、 1 つのコマンドで Red Hat Enterprise Linux ホス�
 * 必要なもの *
 
 * Unified Manager を削除するサーバへの root ユーザアクセスが必要です。
-* Red Hat マシンで Security-Enhanced Linux （ SELinux ）を無効にしておく必要があります。「 setenforce 0 」コマンドを使用して、 SELinux ランタイムモードを「 permissive 」に変更します。
+* LinuxシステムでSecurity-Enhanced Linux（SELinux）を無効にしておく必要があります。を使用して、SELinuxランタイムモードを「permissive」に変更します `setenforce 0` コマンドを実行します
 * ソフトウェアを削除する前に、 Unified Manager サーバからすべてのクラスタ（データソース）を削除しておく必要があります。
 
 

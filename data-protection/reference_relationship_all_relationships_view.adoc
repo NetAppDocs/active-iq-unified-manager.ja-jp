@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_relationship_all_relationships_view.html 
 sidebar: sidebar 
-keywords: volume, relationships 
+keywords: volume, relationships, metrocluster 
 summary: Relationship ： All Relationships ビューには、ストレージシステム上の保護関係に関する情報が表示されます。 
 ---
 = 関係：すべての関係ビュー
@@ -317,4 +317,11 @@ SnapMirror 関係のデスティネーションクラスタの FQDN 、短縮名
 ** SnapMirror 、整合グループ
 
 
+
+
+* 関連情報 *
+
+* Relationship：MetroCluster *ビューの詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]。
+* 「* Relationship：Last 1 Month Transfer Status *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["関係：過去 1 カ月の転送ステータス画面"]。
+* 「* Relationship：All Relationships *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["関係：過去 1 カ月の転送速度ビュー"]。
 

@@ -30,4 +30,4 @@ link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS セ�
 
 link:../config/task_enable_saml_authentication_um.html["SAML 認証の有効化"]
 
-link:..//config/concept_authentication_with_active_directory_or_openldap.html["Active Directory または OpenLDAP による認証"]
+link:../config/concept_authentication_with_active_directory_or_openldap.html["Active Directory または OpenLDAP による認証"]

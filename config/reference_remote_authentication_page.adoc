@@ -62,7 +62,7 @@ Active Directory や OpenLDAP などのディレクトリサービスプロバ�
 
 *** セキュアな接続を使用します
 +
-LDAPS 認証サーバとの通信に使用されるセキュアな LDAP を指定します。
+LDAP認証サーバとの通信にSecure LDAPを使用することを指定します。
 
 
 
@@ -111,6 +111,10 @@ LDAPS 認証サーバとの通信に使用されるセキュアな LDAP を指�
 *** グループオブジェクトクラス
 +
 リモート認証サーバ内のすべてのグループのオブジェクトクラスを指定します。
+
++
+
+NOTE: _Member_,_User Object Class_,_GroupオブジェクトClass_attributesに入力する値は、Active Directory、OpenLDAP、およびLDAPの設定に追加する値と同じである必要があります。そうしないと、認証が失敗する可能性があります。
 
 *** セキュアな接続を使用します
 +

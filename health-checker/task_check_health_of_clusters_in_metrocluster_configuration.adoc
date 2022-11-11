@@ -11,28 +11,34 @@ summary: Unified Manager を使用して、 MetroCluster 構成のクラスタ�
 
 
 [role="lead"]
-Unified Manager を使用して、 MetroCluster 構成のクラスタとそのコンポーネントの運用の健常性を確認できます。Unified Manager によって検出されたパフォーマンスイベントにクラスタが関連している場合は、健常性ステータスを確認することで、ハードウェアまたはソフトウェアの問題がイベントの一因となったかどうかを判断できます。
+Active IQ Unified Manager （Unified Manager）を使用して、MetroCluster over FCおよびMetroCluster over IP構成のクラスタとそのコンポーネントの運用の健常性を確認できます。Unified Manager によって検出されたパフォーマンスイベントにクラスタが関連している場合は、健常性ステータスを確認することで、ハードウェアまたはソフトウェアの問題がイベントの一因となったかどうかを判断できます。
 
 * 必要なもの *
 
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 * MetroCluster 構成のパフォーマンスイベントを分析し、関連するクラスタの名前を取得しておく必要があります。
-* MetroCluster 構成の両方のクラスタを Unified Manager の同じインスタンスで監視している必要があります。
+* MetroCluster 構成の両方のクラスタをFC経由で、IPアドレスがUnified Managerの同じインスタンスで監視する必要があります。
 
+
+
+
+== MetroCluster over FC構成でのクラスタの健全性を確認しています
+
+MetroCluster over FC構成でのクラスタの健常性を確認するには、次の手順を実行します。
 
 .手順
 . 左側のナビゲーションペインで、 * イベント管理 * をクリックしてイベントリストを表示します。
-. フィルタパネルで、「 * ソースタイプ * 」カテゴリの下の「すべての MetroCluster 」フィルタを選択します。
+. フィルタパネルで、「 * ソースタイプ * 」カテゴリの下の「すべての MetroCluster 」フィルタを選択します。すべてのMetroCluster 構成について、環境で生成されたすべてのイベントが表示されます。
 . MetroCluster イベントの横にあるクラスタの名前をクリックします。
-+
-Health ： All Clusters ビューにイベントに関する詳細情報が表示されます。
-
 +
 [NOTE]
 ====
-MetroCluster イベントが表示されない場合は、検索バーを使用して、パフォーマンスイベントに関連したクラスタの名前を検索できます。
+MetroCluster イベントが表示されない場合は、検索バーを使用して、MetroCluster over FCの構成に関連するイベントに関連するクラスタの名前を検索できます。
 
 ====
++
+Health ： All Clusters ビューにイベントに関する詳細情報が表示されます。
+
 . MetroCluster Connectivity * タブを選択して、選択したクラスタとそのパートナークラスタ間の接続のヘルスを表示します。
 +
 image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager の MetroCluster の接続タブ]
@@ -50,4 +56,22 @@ image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager の MetroClus
 +
 この例では、ローカルクラスタまたはパートナークラスタの NVRAM アイコンが黄色または赤の場合、 NVRAM を搭載したヘルス問題がパフォーマンスイベントの原因となった可能性があります。ページ上に赤または黄色のアイコンがない場合は、パートナークラスタ上のパフォーマンス問題がパフォーマンスイベントの原因である可能性があります。
 
+
+
+
+
+== MetroCluster over IP構成でのクラスタの健全性を確認しています
+
+MetroCluster over IP構成でクラスタの健全性を確認するには、次の手順を実行します。
+
+.手順
+. 左側のナビゲーションペインで、 * イベント管理 * をクリックしてイベントリストを表示します。
+. フィルターパネルの*ソースタイプ*カテゴリーで、を選択します `MetroCluster Relationship` フィルタ：すべてのMetroCluster 構成について、環境で生成されたすべてのイベントが表示されます。
++
+[NOTE]
+====
+レポートされたMetroCluster イベントが表示されない場合は、検索バーを使用して、MetroCluster over IPの設定に関連するイベントに関連するクラスタの名前で検索できます。
+
+====
+. 関連するMetroCluster イベントの横にあるクラスタの名前をクリックします。クラスタページが開き、そのクラスタの詳細が表示されます。正常性の問題の判別については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster over IP構成で接続の問題を監視します"]。
 

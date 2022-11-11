@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/task_upgrade_unified_manager.html 
 sidebar: sidebar 
-keywords: upgrade, unified manager, linux 
+keywords: upgrade, unified manager 
 summary: Unified Managerをアップグレードするには、Linuxプラットフォームでインストールファイルをダウンロードして実行します。 
 ---
 = Unified Manager をアップグレードする
@@ -11,7 +11,7 @@ summary: Unified Managerをアップグレードするには、Linuxプラット
 
 
 [role="lead"]
-LinuxプラットフォームでUnified Manager 9.9または9.10から9.11にアップグレードするには、インストールファイルをダウンロードして実行します。
+LinuxプラットフォームでUnified Manager 9.10または9.11から9.12にアップグレードするには、インストールファイルをダウンロードして実行します。
 
 * 必要なもの *
 
@@ -22,15 +22,15 @@ LinuxプラットフォームでUnified Manager 9.9または9.10から9.11にア
 +
 を参照してください link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
 
+* Red Hat Enterprise Linux Subscription Manager への登録が必要です。
 * Unified Manager をアップグレードする前に、適切なバージョンの OpenJDK をインストールするか、または適切なバージョンにアップグレードする必要があります。
 +
 を参照してください link:task_upgrade_openjdk_on_linux_ocum.html["Linux での JRE のアップグレード"]。
 
-* Red Hat Enterprise Linux Subscription Manager への登録が必要です。
-* アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。また、バックアップ・ファイルを「 /opt/NetApp/data 」ディレクトリから外部の場所に移動することをお勧めします。
+* アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。ネットアップでは、からバックアップファイルを移動することを推奨します `/opt/netapp/data` ディレクトリを外部の場所に移動します。
 * アップグレードの実行中に、パフォーマンスデータの保持期間について、以前のデフォルト設定である 13 カ月のままにするか 6 カ月に変更するかを確認するプロンプトが表示されることがあります。変更を確認すると、 6 カ月を過ぎた過去のパフォーマンスデータはパージされます。
 * アップグレードプロセスの実行中は Unified Manager を使用できなくなるため、実行中の処理がある場合は完了しておいてください。
-* MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.28より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが自動的に8.0.28にアップグレードされます。
+* MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.30より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが8.0.30に自動的にアップグレードされます。
 
 
 .手順

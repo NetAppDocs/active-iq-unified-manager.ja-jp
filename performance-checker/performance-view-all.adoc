@@ -1,0 +1,222 @@
+---
+permalink: performance-checker/performance-view-all.html 
+sidebar: sidebar 
+keywords: performance view 
+summary: すべてのストレージオブジェクトのパフォーマンスビュー 
+---
+= すべてのストレージオブジェクトのパフォーマンスインベントリページを表示する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+パフォーマンスインベントリページでは、クラスタ、アグリゲート、ボリュームなど、使用可能な各ストレージオブジェクトに関するパフォーマンス情報の概要を確認できます。パフォーマンスオブジェクト詳細ページへのリンクを使用して、特定のオブジェクトの詳細情報を表示できます。
+
+ビューページ内のオブジェクトは、デフォルトでは、イベントの重大度に基づいてソートされます。重大イベントが報告されたオブジェクトが最初に表示され、そのあとに警告イベントが報告されたオブジェクトが表示されます。これにより、対処が必要な問題を簡単に特定できます。
+
+これらのページのデータをカンマ区切り値 (`.csv') ファイル、 Microsoft Excel ファイル (`.xlsx') 、または (`.pdf') ドキュメントにエクスポートするには、 *Reports* ボタンを使用します。次に、エクスポートしたデータを使用してレポートを作成します。また、ページをカスタマイズしてから、定期的に作成して E メールで送信するようにレポートをスケジュール設定することもできます。その場合は、 * Scheduled Reports * ボタンを使用します。
+
+これらのページ上のすべてのフィールドは、カスタムビューとレポートで使用できます。一部のフィールドは関連ページにリンクされており、より詳細な表示が可能です。
+
+
+
+== パフォーマンス：すべてのクラスタビュー
+
+Performance：All Clustersビューには、Unified Managerのインスタンスによって監視されている各クラスタのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、クラスタのパフォーマンスを監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
+
+パフォーマンスしきい値ポリシーは、オブジェクトインベントリページの任意のオブジェクトに、*パフォーマンスしきい値ポリシーの割り当て*ボタンと*パフォーマンスしきい値ポリシーのクリア*ボタンを使用して割り当てまたはクリアできます。
+
+Performance：All Clustersビューのいくつかの重要なフィールドを次に示します。
+
+* Cluster FQDN：クラスタの完全修飾ドメイン名（FQDN）。
+* IOPS：クラスタでの1秒あたりの入出力処理数。
+* MBps：クラスタのスループット。1秒あたりのMiBで測定されます。
+* 容量のフィールド：GiB単位の空き容量と合計容量。
+* Host Name or IP Address：クラスタ管理LIFのホスト名またはIPアドレス（IPv4またはIPv6）。
+* OS Version：クラスタにインストールされているONTAP ソフトウェアのバージョン。
++
+
+NOTE: クラスタ内の各ノードに異なるバージョンのONTAP ソフトウェアがインストールされている場合は、最も低いバージョン番号が表示されます。各ノードにインストールされているONTAP のバージョンは、Performance：All Nodesビューで確認できます。
+
+* しきい値ポリシー：このストレージオブジェクトでアクティブなユーザ定義のパフォーマンスしきい値ポリシー。ポリシー名に省略記号（...）が含まれている場合、ポリシー名にカーソルを合わせると完全なポリシー名または割り当てられているポリシー名のリストが表示されます。左端のチェックボックスをクリックしてオブジェクトを選択するまで、Assign Performance Threshold PolicyボタンとClear Performance Threshold Policyボタンは無効のままです。
+
+
+
+
+== Performance：All Volumesビュー
+
+Performance：All Volumesビューには、Unified Managerのインスタンスによって監視されている各FlexVol ボリュームおよびFlexGroup ボリュームのパフォーマンスイベント、カウンタデータ、および設定情報の概要が表示されます。このページでは、ボリュームのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
+
+特定のオブジェクトのレイテンシとスループットを分析するには、その他のオプションボタンをクリックします image:icon_kabob.gif[""] そのあと* Workload *を分析すると、Workload Analysisページにパフォーマンスと容量のグラフを表示できます。System Managerの有効なクレデンシャルがあれば、System Managerで詳細を確認することができます。
+
+
+NOTE: データ保護（DP）ボリュームについては、ユーザが生成したトラフィックのカウンタ値のみが表示されます。ルートボリュームはこのページに表示されません。
+
+Performance：All Volumesビューのいくつかの重要なフィールドを次に示します。
+
+* 形式：FlexVol またはFlexGroup 。
+* Latency：FlexVol ボリュームの場合は、すべてのI/O要求のボリュームの平均応答時間で、処理あたりのミリ秒で表されます。FlexGroup ボリュームの場合は、すべてのコンスティチュエントボリュームの平均レイテンシです。
+* IOPS/TB：ワークロードで消費されている合計スペースに基づく1秒あたりの入出力処理数。テラバイト単位で表示されます。このカウンタは、特定のストレージ容量で提供可能なパフォーマンスを測定します。
+* IOPS：FlexVol ボリュームの場合、ボリュームでの1秒あたりの入出力処理数。FlexGroup ボリュームの場合は、すべてのコンスティチュエントボリュームの合計IOPS。
+* MBps：FlexVol ボリュームの場合、ボリュームのスループットです。1秒あたりのメガバイト数で測定されます。FlexGroup ボリュームの場合は、すべてのコンスティチュエントボリュームの合計MBps。
+* 容量のフィールド：GiB単位の空き容量と合計容量。
+
+
+詳細については、次のリンクを参照してください。
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+* link:../performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html["Unified Manager で監視されるワークロードのタイプ"]
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["特定のボリュームまたは LUN に適用されている QoS ポリシーグループ設定を表示する"]
+* link:../performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html["Unified Manager によるクラウドへのデータの階層化の推奨について理解していること"]
+* link:../performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html["パフォーマンスチャートを表示して、同じ QoS ポリシーグループ内のボリュームまたは LUN を比較できます"]
+
+
+
+
+== パフォーマンス：すべてのアグリゲートが表示されます
+
+Performance：All aggregatesビューには、Unified Managerのインスタンスによって監視されている各アグリゲートのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、アグリゲートのパフォーマンスを監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
+
+パフォーマンスのいくつかの重要なフィールドを次に示します。すべてのアグリゲートビュー。
+
+* type：アグリゲートのタイプ。
++
+** HDD
+** ハイブリッドHDDとSSDの組み合わせですが、Flash Poolは有効になっていません。
+** Hybrid（Flash Pool）：HDDとSSDの組み合わせで、Flash Poolが有効になっています。
+** SSD の場合
+** SSD（FabricPool ）：SSDとクラウド階層の組み合わせです
+** HDD（FabricPool ）HDDとクラウド階層の組み合わせです
+** VMDisk（SDS）：仮想マシン内の仮想ディスク
+** VMディスク（FabricPool ）：仮想ディスクとクラウド階層の組み合わせです
+** LUN（FlexArray ）
+
+
+* Inactive Data Reporting：このアグリゲートでInactive Data Reporting機能が有効になっているかどうか。有効にすると、このアグリゲートのボリュームのPerformance：All Volumesビューにコールドデータの量が表示されます。Inactive Data ReportingをサポートしていないONTAP のバージョンでは、このフィールドの値は「N/A」です。
+* しきい値ポリシー：このストレージオブジェクトでアクティブなユーザ定義のパフォーマンスしきい値ポリシー。ポリシー名に省略記号（...）が含まれている場合、ポリシー名にカーソルを合わせると完全なポリシー名または割り当てられているポリシー名のリストが表示されます。左端のチェックボックスをクリックしてオブジェクトを選択するまで、Assign Performance Threshold PolicyボタンとClear Performance Threshold Policyボタンは無効のままです。詳細については、次のリンクを参照してください。
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+
+
+
+
+== Performance：All Nodesビュー
+
+Performance：All Nodesビューには、Unified Managerのインスタンスによって監視されている各ノードのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ノードのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
+
+
+NOTE: Flash Cache読み取りでは、ノードに対する読み取り処理の割合がディスクから返されるのではなく、キャッシュで対応されます。Flash Cache のデータは、ノードに Flash Cache モジュールがインストールされている場合にのみ表示されます。
+
+レポート*メニューには、Unified Managerとその管理対象クラスタが外部ネットワークに接続されていないサイトにインストールされている場合に、*ハードウェアインベントリレポート*オプションが表示されます。このボタンを使用すると、ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含む.csvファイルが生成されます。このレポート機能は、NetApp Active IQ プラットフォームに接続されていないセキュアなサイトでの契約更新に役立ちます。パフォーマンスしきい値ポリシーは、オブジェクトインベントリページの任意のオブジェクトに、*パフォーマンスしきい値ポリシーの割り当て*ボタンと*パフォーマンスしきい値ポリシーのクリア*ボタンを使用して割り当てまたはクリアできます。
+
+詳細については、次のリンクを参照してください。
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+* link:../health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html["契約更新用のハードウェアインベントリレポートの生成"]
+
+
+
+
+== Performance：All Storage VMビュー
+
+Performance：All Storage VMビューには、Unified Managerのインスタンスによって監視されている各Storage Virtual Machine（SVM）のパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、SVMのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。このページのLatencyフィールドは、すべてのI/O要求の平均応答時間を処理あたりのミリ秒で表示します。
+
+
+NOTE: このページに表示されるSVMは、データSVMとクラスタSVMだけです。Unified Managerでは、管理SVMとノードSVMが使用されず、表示もされません。
+
+詳細については、次のリンクを参照してください。
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+
+
+
+
+== Performance：All LUNsビュー
+
+Performance：All LUNsビューには、Unified Managerのインスタンスによって監視されている各LUNのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、LUNのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
+
+特定のオブジェクトのレイテンシとスループットを分析するには、詳細アイコンをクリックします image:icon_kabob.gif[""]をクリックし、*ワークロードの分析*を実行すると、パフォーマンスと容量のグラフを*ワークロード分析*のページで確認できます。
+
+詳細については、次のリンクを参照してください。
+
+* link:../data-protection/view-lun-relationships.html["コンシステンシグループ関係の LUN を監視しています"]
+* link:../storage-mgmt/task_provision_luns.html["LUN のプロビジョニング"]
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+* link:../performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html["同じ QoS ポリシーグループ内のボリュームまたは LUN の表示"]。
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["特定のボリュームまたは LUN に適用されている QoS ポリシーグループ設定を表示する"]
+* link:../api-automation/concept_provision_luns.html["APIを使用したLUNのプロビジョニング"]
+
+
+
+
+== パフォーマンス：すべてのNVMeネームスペースビュー
+
+Performance：All NVMeネームスペースビューには、Unified Managerのインスタンスによって監視されている各NVMeネームスペースのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ネームスペースのパフォーマンスと健全性を簡単に監視し、問題やしきい値イベントをトラブルシューティングすることができます。
+
+特に、次の情報が報告されます。ネームスペースの現在の状態。*オフライン-ネームスペースへの読み取り/書き込みアクセスが許可されていません。*オンライン-ネームスペースへの読み取り/書き込みアクセスが許可されています。* NVFail - NVRAMの障害が原因でネームスペースが自動的にオフラインになっています。*スペースエラー-ネームスペースのスペースが不足しています。
+
+詳細については、次のリンクを参照してください。
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+
+
+
+
+== パフォーマンス：すべてのネットワークインターフェイスビュー
+
+Performance：All Network Interfacesビューには、Unified Managerの現在のインスタンスで監視している各ネットワークインターフェイス（LIF）のパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、インターフェイスのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。Performance：All Network Interfacesビューのいくつかの重要なフィールドを次に示します。
+
+* IOPS：1秒あたりの入出力処理数。NFS LIFとCIFS LIFにはIOPSは適用されず、これらのタイプではN/Aと表示されます。
+* Latency：すべてのI/O要求の平均応答時間。処理あたりのミリ秒数で表されます。レイテンシはNFS LIFとCIFS LIFには該当せず、これらのタイプではN/Aと表示されます。
+* ホームの場所：インターフェイスのホームの場所。ノード名とポート名をコロン（:）で区切った形式で表示されます。場所が省略記号（...）とともに表示される場合は、場所の名前にカーソルを合わせると場所全体が表示されます。
+* Current Location：インターフェイスの現在の場所。ノード名とポート名をコロン（:）で区切った形式で表示されます。場所が省略記号（...）とともに表示される場合は、場所の名前にカーソルを合わせると場所全体が表示されます。
+* ロール：インターフェイスのロール：「データ」、「クラスタ」、「ノード管理」、「クラスタ間」のいずれかです。
+
+
+
+NOTE: このページに表示されるインターフェイスには、データLIF、クラスタLIF、ノード管理LIF、クラスタ間LIFがあります。Unified ManagerではシステムLIFが使用されず、表示もされません。
+
+
+
+== Performance：All Portsビュー
+
+Performance：All Portsビューには、Unified Managerのインスタンスによって監視されている各ポートのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ポートのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。ポートロールについては、「Data」または「Cluster」のいずれかのネットワークポート機能が表示されます。FCPポートにはロールを指定できないため、「N/A」と表示されます
+
+
+NOTE: パフォーマンスカウンタの値は物理ポートについてのみ表示されます。VLANまたはインターフェイスグループのカウンタ値は表示されません。
+
+詳細については、次のリンクを参照してください。
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["ストレージオブジェクトからパフォーマンスしきい値ポリシーを削除する"]
+
+
+
+
+== Performance：QoS Policy Groupsビュー
+
+QoSポリシーグループビューには、Unified Managerが監視しているクラスタで使用可能なQoSポリシーグループが表示されます。これには、従来のQoSポリシー、アダプティブQoSポリシー、およびパフォーマンスサービスレベルを使用して割り当てられたQoSポリシーが含まれます。
+
+Performance：QoS Policy Groupsビューのいくつかの重要なフィールドを次に示します。
+
+* QoS Policy Group：QoSポリシーグループの名前。Unified Manager 9.7以降にインポートされたNetApp Service Level Manager（NSLM）1.3ポリシーの場合、ここに表示される名前には、SVM名、およびパフォーマンスサービスレベルがNSLMで定義された時点では名前に含まれていないその他の情報が含まれます。たとえば「NSLM _vs6_Performance_2_0」という名前は、SVM「vs6」に作成された、想定レイテンシが「2ミリ秒/処理」のNSLMシステム定義の「パフォーマンス」PSLポリシーであることを意味します。
+* SVM：QoSポリシーグループが属するStorage VM（SVM）。Storage VM名をクリックすると、そのStorage VMの詳細ページが表示されます。管理Storage VMにQoSポリシーが作成されている場合、このStorage VMタイプはクラスタを表すため、このフィールドは空白になります。
+* Min Throughput：ポリシーグループで提供される最小スループット（IOPS）。アダプティブポリシーの場合、ボリュームまたはLUNに割り当てられる最小想定IOPS/TBで、ストレージオブジェクトの割り当てサイズに基づきます。
+* Max Throughput：ポリシーグループの最大スループット（IOPSまたはMB/秒）。このフィールドが空白の場合、ONTAP に定義されている最大スループットは制限されていません。アダプティブポリシーの場合、ボリュームまたはLUNに割り当てられる最大（ピーク）IOPS/TBで、ストレージオブジェクトの割り当てサイズまたは使用済みサイズに基づきます。
+* 絶対最小IOPS：アダプティブポリシーの場合、想定IOPSがこの値より低い場合に上書き値として使用される絶対最小IOPS値です。
+* Block Size：QoSアダプティブポリシーに指定されているブロックサイズ。
+* 最小割り当て：最大スループット（ピーク）IOPSを決定するために「割り当てスペース」と「使用済みスペース」のどちらを使用するか。
+* 想定レイテンシ：ストレージの入出力処理の想定平均レイテンシ。
+* Shared：従来のQoSポリシーの場合、ポリシーグループに定義されたスループット値を複数のオブジェクトで共有するかどうか。
+* Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。QoSポリシーグループ名の横にある展開ボタン（）をクリックすると、そのポリシーグループに関する詳細を確認できます。
+* Allocated Capacity：QoSポリシーグループ内のオブジェクトが現在使用しているスペースの量。
+* 関連付けられているオブジェクト：QoSポリシーグループに割り当てられているワークロードの数。ボリュームとLUNに分けて表示されます。数字をクリックすると、選択したボリュームまたはLUNに関する詳細情報を表示するページに移動できます。
+
+
+詳細については、のトピックを参照してください link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html["QoS ポリシーグループ情報を使用したパフォーマンスの管理"]。

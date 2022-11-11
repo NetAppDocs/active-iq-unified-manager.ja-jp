@@ -11,38 +11,97 @@ summary: MetroCluster 構成の接続の問題を監視することができま�
 
 
 [role="lead"]
-MetroCluster 構成の接続の問題を監視することができます。クラスタ内のコンポーネントおよび接続のステータス、および MetroCluster 構成のクラスタ間の接続ステータスなどの詳細情報を確認できます。
+MetroCluster 構成の接続の問題を監視することができます。クラスタ内のコンポーネントおよび接続のステータス、および MetroCluster 構成のクラスタ間の接続ステータスなどの詳細情報を確認できます。ここでは、MetroCluster over FCおよびMetroCluster over IP構成で保護されたクラスタの接続の問題を監視する方法について説明します。
+
+MetroCluster 構成は、Active IQ Unified Manager の左ナビゲーションペインの次のビューで監視できます。
+
+* *ストレージ*>*クラスタ*>*保護：MetroCluster *ビュー
+* *保護*>*関係*>*関係：MetroCluster *ビュー
+
+
+Unified Managerでは、システムヘルスアラートを使用して、MetroCluster 構成のコンポーネントおよび接続のステータスを示します。
 
 * 必要なもの *
 
-* MetroCluster 構成のローカルクラスタとリモートクラスタの両方を Active IQ Unified Manager に追加する必要があります。
+* MetroCluster 構成のローカルクラスタとリモートクラスタの両方をActive IQ Unified Manager に追加する必要があります。
+* MetroCluster over IP構成でメディエーターがサポートされる場合は、対応するAPIでメディエーターを設定してクラスタに追加する必要があります。
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 
 
-クラスタ / 健全性の詳細ページに表示される情報を基に、接続の問題を修正できます。たとえば、クラスタ内のノードとスイッチの間の接続が停止している場合は、次のアイコンが表示されます。
 
-image::../media/node_switch_connectivity.gif[ノードスイッチの接続]
 
-アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。
+== MetroCluster over FC構成の接続の問題を監視する
 
-Unified Manager では、システムヘルスアラートを使用して、 MetroCluster 構成のコンポーネントおよび接続のステータスを監視します。
-
-MetroCluster 接続タブは、 MetroCluster 構成のクラスタに対してのみ表示されます。
+MetroCluster over FC構成のクラスタの場合は、接続グラフが* Cluster/Health * detailsページに表示されます。次の手順を実行します。
 
 .手順
 . 左側のナビゲーションペインで、 * Storage * > * Clusters * をクリックします。
 +
 監視対象であるすべてのクラスタのリストが表示されます。
 
-. [* Health: All Clusters] ビューで、 MetroCluster 構成の詳細を表示するクラスタの名前をクリックします。
-. [ * クラスタ / ヘルス * の詳細 ] ページで、 [ * MetroCluster 接続性 * ] タブをクリックします。
+. Protection：MetroCluster *ビューで、MetroCluster over FC構成の詳細を表示するクラスタの名前をクリックします。または、MetroCluster 構成のクラスタでフィルタすることもできます。
+. [ * クラスタ / ヘルス * の詳細 ] ページで、 [ * MetroCluster 接続性 * ] タブをクリックします。MetroCluster 接続*タブは、MetroCluster over FC構成でのみ使用できます。
 +
-対応するクラスタオブジェクト領域に、 MetroCluster 構成のトポロジが表示されます。
+image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager の MetroCluster の接続タブ]
+
++
+対応するクラスタオブジェクト領域に、 MetroCluster 構成のトポロジが表示されます。クラスタ / 健全性の詳細ページに表示される情報を基に、接続の問題を修正できます。たとえば、クラスタ内のノードとスイッチの間の接続が停止している場合は、次のアイコンが表示されます。
 
 
+
+image::../media/node_switch_connectivity.gif[ノードスイッチの接続]
+
+アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。
 
 MetroCluster 構成で接続の問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。
 
+クラスタの健全性の判定の詳細については、を参照してください link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["MetroCluster over FC構成でのクラスタの健全性を確認しています"]。
+
+
+
+== MetroCluster over IP構成で接続の問題を監視します
+
+MetroCluster over IP構成のクラスタの場合は、接続グラフが*クラスタ*ページに表示されます。次の手順を実行します。
+
+.手順
+. 左側のナビゲーションペインで、 * Storage * > * Clusters * をクリックします。
++
+監視対象であるすべてのクラスタのリストが表示されます。
+
+. Protection：MetroClusters *ビューで、MetroCluster over IP構成の詳細を表示するクラスタの名前をクリックします。または、MetroCluster 構成のクラスタでフィルタすることもできます。
+. キャレットをクリックして行を展開します `v` をクリックします。MetroCluster over IP構成で保護されているクラスタにのみ、キャレットアイコンが表示されます。
++
+ソースサイトとミラーサイトのトポロジ、および接続に使用されているメディエーターを表示することができます。次の情報を表示できます。
+
++
+** サイト間の接続
+** 両方のサイトに健全性と可用性の問題がある場合は、それらに問題があります
+** メディエーター関連の問題
+** レプリケーションに関連する問題。
++
+
+NOTE: ステータスは、Critical（image:sev_critical_um60.png[""]）、エラー（image:sev_error_um60.png[""]）、または標準（image:sev_normal_um60.png[""]）。同じトポロジ内のプライマリデータとミラーデータのアグリゲートデータレプリケーションステータスも確認できます。
+
++
+次の図では、ソースクラスタとデスティネーションクラスタ間のサイト間接続が利用できず、クラスタ間のメディエーターが設定されていないことを確認できます。
+
++
+image:mcc-ip-conn-status.png[""]
+
+
+
+. ステータスアイコンをクリックします。エラー定義を含むメッセージが表示されます。MetroCluster over IP構成で問題 のイベントが発生した場合は、メッセージの*イベントの表示*ボタンをクリックしてイベントの詳細を確認できます。問題 とイベントを解決すると、このトポロジのステータスアイコンは正常な状態に変わります（image:sev_normal_um60.png[""]）。
+. さらに詳しい設定情報は、クラスタ/ヘルス*の詳細ページの*構成*タブにある* MetroCluster の概要*および*保護*のセクションで確認できます。
+
+
+
+NOTE: MetroCluster over IP構成の場合にのみ、クラスタトポロジを*クラスタ*ページで表示できます。MetroCluster over FC構成のクラスタの場合、クラスタ/健常性*の詳細ページの* MetroCluster Connectivity *タブにトポロジが表示されます。
+
 * 関連情報 *
 
-link:../health-checker/reference_health_cluster_details_page.html["クラスタ / 健全性の詳細ページ"]
+* link:../health-checker/reference_health_cluster_details_page.html["クラスタ / 健全性の詳細ページ"]
+* Relationship：metrocluster *ビューの詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]。
+* 「* Relationship：Last 1 Month Transfer Status *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["関係：過去 1 カ月の転送ステータス画面"]。
+* 「* Relationship：Last 1 Month Transfer Rate *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["関係：過去 1 カ月の転送速度ビュー"]。
+* 「* Relationship：All Relationships *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_all_relationships_view.html["関係：すべての関係ビュー"]。
+

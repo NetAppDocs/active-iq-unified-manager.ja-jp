@@ -11,9 +11,9 @@ summary: MetroCluster 構成でミラーされたワークロードにパフォ�
 
 
 [role="lead"]
-MetroCluster 構成でミラーされたワークロードにパフォーマンスの問題が発生しないようにするには、 MetroCluster 構成が正しくセットアップされていることを確認します。また、構成を変更するか、ソフトウェアまたはハードウェアコンポーネントをアップグレードすることで、ワークロードのパフォーマンスを向上させることもできます。
+MetroCluster over FCおよびIP構成でミラーされたワークロードにパフォーマンスの問題が発生しないようにするには、MetroCluster 構成が正しく設定されていることを確認します。また、構成を変更するか、ソフトウェアまたはハードウェアコンポーネントをアップグレードすることで、ワークロードのパフォーマンスを向上させることもできます。
 
-を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster のドキュメント"] Fibre Channel（FC）スイッチ、ケーブル、スイッチ間リンク（ISL）など、MetroCluster 構成のクラスタのセットアップ手順について説明します。また、ローカルクラスタとリモートクラスタがミラーボリュームデータと通信できるように MetroCluster ソフトウェアを設定する際にも役立ちます。
+を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster のドキュメント"] Fibre Channel（FC）スイッチ、ケーブル、スイッチ間リンク（ISL）など、MetroCluster 構成のクラスタのセットアップ手順について説明します。また、ローカルクラスタとリモートクラスタがミラーボリュームデータと通信できるように MetroCluster ソフトウェアを設定する際にも役立ちます。MetroCluster over IPの設定に固有の情報については、を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["MetroCluster IP 構成をインストール"]。
 
 MetroCluster 構成との要件をで比較できます https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster のドキュメント"] MetroCluster 構成のコンポーネントを変更またはアップグレードすることでワークロードのパフォーマンスが向上するかどうかを判断する。この比較は、次の点について回答を行う場合に役立ちます。
 
@@ -23,4 +23,8 @@ MetroCluster 構成との要件をで比較できます https://docs.netapp.com/
 * ワークロードに SSD ストレージへの大量の書き込みスループットがある場合、そのスループットに対応するために FC-to-SAS ブリッジをアップグレードする必要があるか。
 
 
-MetroCluster コンポーネントの交換またはアップグレードについては、を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster のドキュメント"]。
+* 関連情報 *
+
+* MetroCluster コンポーネントの交換またはアップグレードについては、を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster のドキュメント"]。
+* コントローラのアップグレードについては、を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html["スイッチオーバーとスイッチバックを使用して MetroCluster FC 構成のコントローラをアップグレードする"] および https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html["スイッチオーバーとスイッチバックを使用したMetroCluster IP構成のコントローラのアップグレード"]
+

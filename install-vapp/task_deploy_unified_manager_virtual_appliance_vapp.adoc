@@ -15,11 +15,11 @@ summary: インストールファイルをダウンロードしたら、 Unified
 
 * 必要なもの *
 
-システム要件を確認しておく必要があります。Unified Manager 仮想アプライアンスを導入する前に、必要な変更を行ってください。
+システム要件を確認しておく必要があります。Unified Manager仮想アプライアンスを導入する前に、必要な変更を行ってください。
 
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["仮想インフラの要件"]
+を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["仮想インフラの要件"]。
 
-link:reference_vmware_software_and_installation_requirements.html["VMware ソフトウェアとインストールの要件"]
+を参照してください link:reference_vmware_software_and_installation_requirements.html["VMware ソフトウェアとインストールの要件"]。
 
 Dynamic Host Configuration Protocol （ DHCP ；動的ホスト構成プロトコル）を使用する場合は、 DHCP サーバが使用可能であり、 DHCP と仮想マシン（ VM ）のネットワークアダプタの設定が正しいことを確認してください。DHCP はデフォルトで設定されています。
 
@@ -52,7 +52,14 @@ Unified Manager 仮想アプライアンスでは、 VMware High Availability �
 . vSphere Client で、 * File * > * Deploy OVF Template * をクリックします。
 . Deploy OVF Template ウィザードを実行して、 Unified Manager 仮想アプライアンスを導入します。
 +
-Networking Configuration ページで、次の手順を実行します。
+[詳細の確認]ページで次の操作を行います
+
++
+** Publisherセクションの詳細を確認します。メッセージ* Entrust Code Signing - OVCS2 (Trusted certificate)*は、ダウンロードされたの整合性を確認します `OVA` ファイル。+「Entrust Code Signing - OVCS2（Invalid certificate）」というメッセージが表示された場合は、VMware vCenter Serverを7.0U3E以降のバージョンにアップグレードします。
+
+
++
+[テンプレートのカスタマイズ]ページで、次の手順を実行
 
 +
 ** DHCP と IPv4 アドレスを使用する場合は、すべてのフィールドを空白のままにします。

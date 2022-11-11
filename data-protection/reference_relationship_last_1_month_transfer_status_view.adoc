@@ -64,3 +64,10 @@ Storage Virtual Machine （ SVM ）名が表示されます。
 デスティネーションクラスタ名が表示されます。
 
 
+
+* 関連情報 *
+
+* 「* Relationship：All Relationships *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_all_relationships_view.html["関係：すべての関係ビュー"]。
+* Relationship：metrocluster *ビューの詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]。
+* 「* Relationship：All Relationships *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["関係：過去 1 カ月の転送速度ビュー"]。
+

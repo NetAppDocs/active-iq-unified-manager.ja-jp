@@ -25,7 +25,7 @@ Unified Manager には次の機能があります。
 
 
 * クラスタの検出と監視のステータスを表示します
-* MetroCluster 構成：クラスタコンポーネントの構成、 MetroCluster スイッチおよびブリッジ、問題、接続ステータスの表示と監視
+* MetroCluster over FCおよびIP構成：クラスタコンポーネントの設定、問題、接続ステータスを表示および監視します。MetroCluster over FC構成用のMetroCluster スイッチおよびブリッジ
 * アラート、イベント、およびしきい値インフラが強化されています
 * LDAP 、 LDAPS 、 SAML 認証、およびローカルユーザのサポート
 * RBAC （事前定義された一連のロール）

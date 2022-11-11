@@ -13,28 +13,42 @@ summary: データのミラーリング中に論理接続の全体的な健常�
 [role="lead"]
 データのミラーリング中に論理接続の全体的な健常性を監視して診断することができます。アグリゲート、ノード、 Storage Virtual Machine などのクラスタコンポーネントのミラーリングを中断する問題やリスクを特定することができます。
 
+Unified Manager では、システムヘルスアラートを使用して、 MetroCluster 構成のコンポーネントおよび接続のステータスを監視します。
+
 * 必要なもの *
 
 MetroCluster 構成のローカルクラスタとリモートクラスタの両方を、 Unified Manager に追加する必要があります
 
-レプリケーションの問題を修正するには、クラスタ / 健常性の詳細ページに表示される情報を使用します。
 
-アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。
 
-Unified Manager では、システムヘルスアラートを使用して、 MetroCluster 構成のコンポーネントおよび接続のステータスを監視します。
+== MetroCluster over IP構成のレプリケーションの表示
+
+MetroCluster over IP構成の場合は、左側のナビゲーションペインの次のビューから、MetroCluster over IPで保護されたクラスタのトポロジプレビュービューにデータレプリケーションステータスが表示されます。
+
+* *ストレージ*>*クラスタ*>*保護：MetroCluster *ビュー
+* *保護*>*関係*>*関係：MetroCluster *ビュー
+
+
+詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["MetroCluster over IPで接続の問題を監視します"]。
+
+
+
+== MetroCluster over FC構成のレプリケーションの表示
+
+以下の手順に従って、MetroCluster over FC構成のデータレプリケーションの問題を特定します。
 
 .手順
 . 左側のナビゲーションペインで、 * Storage * > * Clusters * をクリックします。
 +
 監視対象のクラスタのリストが表示されます。
 
-. [* Health: All Clusters] ビューで、 MetroCluster レプリケーションの詳細を表示するクラスタの名前をクリックし、 [* MetroCluster Replication*] タブをクリックします。
+. [* Health: All Clusters]ビューで、MetroCluster レプリケーションの詳細を表示するクラスタの名前をクリックします。[*クラスタ/ヘルスの詳細*]ページで、[* MetroCluster レプリケーション*]タブをクリックします。
 +
-対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。
+対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。
 
 
 
-MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。
+に表示される情報を基に、レプリケーションの問題を修正できます。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。
 
 * 関連情報 *
 

@@ -71,7 +71,7 @@ Unified Manager で問題の解決策を診断して特定できる場合、そ�
  a| 
 保護
  a| 
-SVM-DR 関係で保護されている Storage VM の数、 SnapMirror 関係で保護されているボリューム、および Snapshot で保護されているボリュームの数が表示されます。
+SVM-DR関係で保護されているStorage VMの数、SnapMirror関係で保護されているボリューム、Snapshotで保護されているボリューム、およびMetroCluster で保護されているクラスタが表示されます。
 
 
 

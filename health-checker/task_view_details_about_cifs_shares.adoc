@@ -50,3 +50,5 @@ summary: すべての SMB/CIFS 共有について、共有名、ジャンクシ�
 
 |===
 
+
+詳細については、を参照してください link:../api-automation/concept_provision_file_share.html["APIを使用したCIFSおよびNFSファイル共有のプロビジョニング"]。

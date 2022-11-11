@@ -32,3 +32,12 @@ SVM の容量、効率、構成など、 SVM の詳細を表示できます。�
 
 . 最小限の詳細ダイアログボックスで * 関連項目の表示 * をクリックすると、 SVM に関連するオブジェクトが表示されます。
 
+
+* 関連情報 *
+
+* link:../health-checker/reference_health_svm_details_page.html["Storage VM：健全性の詳細ページ"]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view["Performance：All Storage VMビュー"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["セキュリティ：ランサムウェア対策ビュー"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["クラスタとStorage VMのセキュリティステータスの表示"]
+* link:../data-protection/reference_relationship_all_relationships_view.html["関係：すべての関係ビュー"]
+

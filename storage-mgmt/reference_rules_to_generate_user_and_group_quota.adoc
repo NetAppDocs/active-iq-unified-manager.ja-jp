@@ -49,11 +49,11 @@ if （ $user_or_group=* ） then $user_or_group@$domain
 
 ルールの構文には、次のいずれかを使用する必要があります。
 
-* if (`valid variableoperator`*) then 'email ID@domain name`
+* if（ `valid variableoperator *`）をクリックします `email ID@domain name`
 +
 if はキーワードであり、小文字で記述します。演算子は = です。E メール ID には、任意の文字、有効な変数 $user_or_group 、 $user 、または $group 、あるいは任意の文字と有効な変数 $user_or_group 、 $user 、または $group の組み合わせを含めることができます。ドメイン名には、任意の文字、有効な変数 $DOMAIN 、または任意の文字と有効な変数 $DOMAIN の組み合わせを使用できます。有効な変数は大文字と小文字のどちらでもかまいませんが、両方を組み合わせることはできません。たとえば、 $domain と $domain は有効ですが、 $Domain は有効な変数ではありません。
 
-* if (`valid variableoperator 'tring'``') then 'email ID@domain name`
+* if（ `valid variableoperator `string``）をクリックします `email ID@domain name`
 +
 if はキーワードであり、小文字で記述します。operator には、 contains または == を指定できます。E メール ID には、任意の文字、有効な変数 $user_or_group 、 $user 、または $group 、あるいは任意の文字と有効な変数 $user_or_group 、 $user 、または $group の組み合わせを含めることができます。ドメイン名には、任意の文字、有効な変数 $DOMAIN 、または任意の文字と有効な変数 $DOMAIN の組み合わせを使用できます。有効な変数は大文字と小文字のどちらでもかまいませんが、両方を組み合わせることはできません。たとえば、 $domain と $domain は有効ですが、 $Domain は有効な変数ではありません。
 

@@ -21,4 +21,4 @@ Unified Manager からクラスタに ONTAP コマンドが送信され、要求
 
 一部の管理操作では、 * すべて修正 * ボタンを使用して、複数のストレージオブジェクトで同じ問題を修正できます。たとえば、「ボリュームスペースがフル」イベントが発生しているボリュームが 5 つある場合に、「ボリュームの自動拡張を有効にする」の「すべてを修正」管理操作をクリックすると解決できます。ワンクリックで、この問題を 5 つのボリュームで修正できます。
 
-自動修正を使用して管理できる ONTAP の問題と機能については、を参照してください link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager で解決可能な問題"]
+自動修正を使用して管理できる ONTAP の問題と機能については、を参照してください link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager で解決可能な問題"]。

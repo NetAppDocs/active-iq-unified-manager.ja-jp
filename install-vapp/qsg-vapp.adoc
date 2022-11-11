@@ -12,7 +12,7 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 == システム要件
 
-* オペレーティングシステム： VMware ESXi 6.5 、 6.7 、および 7.0
+* オペレーティングシステム：VMware ESXi 6.5、6.7、および7.0.x
 * RAM ： 12GB
 * CPU ：合計 9572MHz
 * 空きディスクスペース： 5GB （シンプロビジョニング）、 152GB （シックプロビジョニング）
@@ -28,9 +28,16 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 === インストーラをダウンロードします。
 
-. インストールパッケージ ActiveIQUnifiedManager-<version>.ova をダウンロードします。
+. をダウンロードします `.tar` ルート証明書を含むファイル `README` ファイル、および `OVA` ファイル。
 . vSphere Client からアクセス可能なローカルまたはネットワークのディレクトリにファイルを保存します。
+. をダウンロードしたディレクトリ `.tar` ファイルで、を入力します `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` コマンドを実行します+必要なを押します `OVA` ファイル、ルート証明書、および `README` ファイルがターゲットディレクトリに解凍されます。
 
+
+
+
+=== 整合性を検証
+
+の整合性を検証できます `OVA` で説明した手順に従ってファイルを作成します `README` ファイル。
 
 
 
@@ -38,7 +45,8 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 . vSphere Client で、 * File > Deploy OVF Template * をクリックします。
 . OVA ファイルを探し、ウィザードを使用して ESXi サーバに仮想アプライアンスを導入します。
-. [ ネットワーク構成 ] ページの [ プロパティ ] タブで、実行するインストールのタイプに応じて、必要に応じてフィールドに入力します。
+. [詳細の確認]ページの[発行元]セクションで、メッセージを確認します  `Entrust Code Signing - OVCS2 (Trusted certificate)` ダウンロードしたの整合性を確認します `OVA` ファイル。をクリックしてください `Entrust Code Signing - OVCS2 (Invalid certificate)`をクリックして、VMware vCenter Serverを7.0U3E以降のバージョンにアップグレードします。
+. [テンプレートのカスタマイズ]ページの[プロパティ]タブで、実行するインストールのタイプに応じて、必要に応じてフィールドに入力します。
 +
 ** 静的設定の場合は、すべてのフィールドに必要な情報を入力します。[* Secondary DNS* （セカンダリ DNS * ） ] フィールドへの情報の追加は不要です。
 ** IPv4 を使用する DHCP の場合、どのフィールドにも情報を追加しないでください。

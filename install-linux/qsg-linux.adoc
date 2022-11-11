@@ -27,11 +27,21 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 
 === インストーラをダウンロードします。
 
-. ActiveIQUnifiedManager-< バージョン >.zip インストールパッケージをダウンロードします。
+. をダウンロードします `ActiveIQUnifiedManager-<version>.zip` インストールパッケージとコード署名証明書 (`.pem`）およびデジタル署名 (`.sig`）。
 . インストールファイルをダウンロードしたディレクトリで、次のコマンドを実行します。
 +
 #unzip ActiveIQUnifiedManager-< バージョン >.zip
 
+
+
+
+
+=== 整合性を検証
+
+次のコマンドを実行して、インストーラパッケージの整合性を確認します。
+
+* を実行します `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` コード署名証明書から公開鍵を使用してファイルを作成するには、次の手順を実行します。
+* を実行します `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` インストーラパッケージの署名を確認します。
 
 
 

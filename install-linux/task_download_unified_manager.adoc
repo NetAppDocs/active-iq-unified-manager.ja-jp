@@ -29,8 +29,33 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-使用している Red Hat Enterprise Linux システムに対応した正しいバージョンのインストーラファイルをダウンロードしていることを確認してください。Red Hat Enterprise Linux 7 と 8 のどちらをインストールしているかに基づいて、適切なバージョンの Unified Manager 「 .zip 」ファイルをダウンロードします。
+** 使用している Red Hat Enterprise Linux システムに対応した正しいバージョンのインストーラファイルをダウンロードしていることを確認してください。Red Hat Enterprise Linux 7 と 8 のどちらをインストールしているかに基づいて、適切なバージョンの Unified Manager 「 .zip 」ファイルをダウンロードします。
+** コード署名証明書をダウンロードすることを推奨します (`.pem`）およびデジタル署名 (`.sig`）をと共に使用します `.zip` ファイル。
+
 
 ====
-. チェックサムを確認して、ソフトウェアが正しくダウンロードされたことを確認します。
+. ダウンロードしたソフトウェアのチェックサムの整合性を確認します。
+. コード署名証明書とデジタル署名をダウンロードした場合は、インストーラファイルの整合性を確認できます。インストーラファイルの整合性を確認するには、次のコマンドを使用します。
++
+** このコマンドは、コード署名証明書から公開鍵を使用してファイルを作成します。
++
+[listing]
+----
+openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>
+----
++
+*** ここで、* AIQUM -RHEL-client-inter-root.pem *は、コード署名証明書を含むファイルです。
+
+
+** このコマンドは、インストーラファイルの署名を検証します。
++
+[listing]
+----
+openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip
+----
++
+のようなメッセージが表示されます `Verified Ok` インストーラファイルが安全に使用できることを確認します。
+
+
+
 

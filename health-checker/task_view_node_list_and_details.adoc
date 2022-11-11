@@ -46,3 +46,10 @@ Health ： All Nodes ビューを使用すると、クラスタ内のノード�
 
 |===
 
+
+詳細については、を参照してください
+
+* link:../performance-checker/performance-view-all.html#performance-all-nodes-view["Performance：All Nodesビュー"]
+* link:../performance-checker/concept_view_node_and_aggregate_available_iops_values.html["ノードとアグリゲートの使用可能な IOPS の値の表示"]
+* link:../performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html["ノードとアグリゲートの使用済みパフォーマンス容量の値の表示"]
+

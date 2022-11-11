@@ -29,4 +29,9 @@ Health ： All Clusters ビューを使用すると、クラスタのインベ�
 
 * 関連情報 *
 
-link:../health-checker/reference_health_cluster_details_page.html["クラスタ / 健全性の詳細ページ"]
+* link:../health-checker/reference_health_cluster_details_page.html["クラスタ / 健全性の詳細ページ"]
+* link:../performance-checker/performance-view-all.html#performance-all-clusters-view["パフォーマンス：すべてのクラスタビュー"]
+* link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["クラスタとStorage VMのセキュリティステータスの表示"]
+* link:../health-checker/concept_what_security_criteria_is_being_evaluated.html["評価されるセキュリティ条件"]
+

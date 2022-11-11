@@ -25,7 +25,7 @@ vCenter Server を追加または表示する前に、次の点を確認して�
 詳細については、 VMware のマニュアルの「 vSphere Monitoring and Performance Guide 」の「 `D ATA Collection Levels' 」を参照してください。
 
 * レイテンシ値を正しく計算するために、 vCenter Server のレイテンシ値はマイクロ秒単位ではなくミリ秒単位で設定されている
-* vCenter Server にデータストアを追加する際には、ホストの IP アドレスまたは完全修飾ドメイン名（ FQDN ）を使用できます。FQDN を追加する場合は、 Unified Manager サーバがドメイン名を解決できることを確認してください。たとえば、 Linux のインストールの場合は、ドメイン名が「 /etc/resolv.conf 」ファイルに追加されていることを確認します。
+* vCenter Server にデータストアを追加する際には、ホストの IP アドレスまたは完全修飾ドメイン名（ FQDN ）を使用できます。FQDN を追加する場合は、 Unified Manager サーバがドメイン名を解決できることを確認してください。たとえば、Linuxのインストールの場合は、ドメイン名がに追加されていることを確認します `/etc/resolv.conf` ファイル。
 * vCenter Server の現在の時刻が vCenter Server のタイムゾーンと同期されている。
 * 検出が成功した場合は、 vCenter Server に到達できます。
 * vCenter Server を Unified Manager に追加する際に、 VMware SDK への読み取りアクセスを可能にしておきます。これは、設定のポーリングに必要です。

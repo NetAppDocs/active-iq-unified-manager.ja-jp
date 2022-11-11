@@ -13,7 +13,7 @@ summary: ゲートウェイ API を使用すると、 Active IQ Unified Manager 
 [role="lead"]
 ゲートウェイ API を使用すると、 Active IQ Unified Manager クレデンシャルを使用して ONTAP REST API を実行し、ストレージオブジェクトを管理するという利点が得られます。これらの API は、 Unified Manager Web UI から API ゲートウェイ機能を有効にすると使用できます。
 
-Unified Manager REST API では、 ONTAP クラスタである Unified Manager データソースで実行する一連の操作のみがサポートされます。その他の機能は、 ONTAP API を使用して利用できます。ゲートウェイ API を使用すると、各データセンタークラスタに個別にログインしなくても、 ONTAP クラスタですべての API 要求をトンネリングするパススルーインターフェイスに Unified Manager を使用できます。単一の管理ポイントとして機能し、 Unified Manager インスタンスで管理される ONTAP クラスタ全体で API を実行できます。API ゲートウェイ機能を使用すると、個別にログインしなくても、複数の ONTAP クラスタを一元的に管理できます。ゲートウェイ API を使用すると、 ONTAP REST API 処理を実行して Unified Manager にログインしたまま ONTAP クラスタを管理できます。
+Unified Manager REST API では、 ONTAP クラスタである Unified Manager データソースで実行する一連の操作のみがサポートされます。その他の機能は、 ONTAP API を使用して利用できます。ゲートウェイAPIを使用すると、Unified Managerをパススルーインターフェイスにして、管理対象のONTAP クラスタですべてのAPI要求をトンネリングできます。各データセンタークラスタに個別にログインする必要はありません。単一の管理ポイントとして機能し、 Unified Manager インスタンスで管理される ONTAP クラスタ全体で API を実行できます。API ゲートウェイ機能を使用すると、個別にログインしなくても、複数の ONTAP クラスタを一元的に管理できます。ゲートウェイ API を使用すると、 ONTAP REST API 処理を実行して Unified Manager にログインしたまま ONTAP クラスタを管理できます。
 
 [NOTE]
 ====
@@ -73,6 +73,9 @@ Unified Manager REST API では、 ONTAP クラスタである Unified Manager �
 == API ゲートウェイトンネリングの概要
 
 ゲートウェイ API を使用すると、 Unified Manager を介して ONTAP オブジェクトを管理できます。Unified Manager はクラスタと認証の詳細を管理し、 ONTAP REST エンドポイントに要求をリダイレクトします。ゲートウェイ API は、ヘッダーおよび応答本文内の Engine of Application State （ HATEOAS ）リンクとして、 URL および Hypermedia を API ゲートウェイベース URL で変換します。ゲートウェイ API は、 ONTAP REST URL を追加して必要な ONTAP REST エンドポイントを実行するプロキシのベース URL として機能します。
+
+
+NOTE: ONTAP APIをAPIゲートウェイ経由で正常に実行するには、APIが実行されているONTAP クラスタの同じバージョンでサポートされている必要があります。ONTAP クラスタでサポートされていないAPIを実行しても、結果は返されません。
 
 この例では、ゲートウェイ API （プロキシベース URL ）は「 +/gateways /{uuid}/+` 」です
 

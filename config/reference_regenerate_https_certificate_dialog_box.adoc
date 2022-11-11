@@ -64,3 +64,5 @@ Unified Manager のハイアベイラビリティ構成では、仮想 IP アド
 デフォルトの有効期間は 397 日です。以前のバージョンからアップグレードした場合は、以前の証明書の有効性が変更されていない可能性があります。
 
 
+
+詳細については、を参照してください link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS証明書の生成"]。

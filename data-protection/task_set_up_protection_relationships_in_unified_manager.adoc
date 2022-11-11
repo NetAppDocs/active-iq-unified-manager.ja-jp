@@ -19,8 +19,8 @@ Unified Manager と OnCommand Workflow Automation を使用してデータを保
 * 2 つのクラスタまたは 2 つの Storage Virtual Machine （ SVM ）間にピア関係を確立しておく必要があります。
 * OnCommand Workflow Automation を Unified Manager に統合する必要があります。
 +
-** link:task_configure_connection_between_workflow_automation_um.html["OnCommand Workflow Automation をセットアップする"]
-** link:task_verify_um_data_source_caching_in_workflow_automation.html["Workflow Automation での Unified Manager データソースのキャッシングの確認"]
+** link:task_configure_connection_between_workflow_automation_um.html["OnCommand Workflow Automation をセットアップする"]。
+** link:task_verify_um_data_source_caching_in_workflow_automation.html["Workflow Automation での Unified Manager データソースのキャッシングの確認"]。
 
 
 

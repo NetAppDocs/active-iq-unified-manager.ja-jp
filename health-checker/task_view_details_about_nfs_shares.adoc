@@ -45,3 +45,5 @@ summary: すべての NFS 共有について、ステータス、ボリューム
 
 |===
 
+
+詳細については、を参照してください link:../storage-mgmt/task_provision_fileshares.html["ファイル共有ボリュームのプロビジョニング"] および link:../api-automation/concept_provision_file_share.html["APIを使用したCIFSおよびNFSファイル共有のプロビジョニング"]。

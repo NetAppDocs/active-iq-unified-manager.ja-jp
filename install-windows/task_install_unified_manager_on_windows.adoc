@@ -17,10 +17,10 @@ Unified Manager をインストールすることで、データストレージ�
 
 * Unified Manager をインストールするシステムがシステムおよびソフトウェアの要件を満たしている必要があります。
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]
+を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
 
 +
-link:reference_windows_software_and_installation_requirements.html["Windows ソフトウェアとインストールの要件"]
+を参照してください link:reference_windows_software_and_installation_requirements.html["Windows ソフトウェアとインストールの要件"]。
 
 +
 [NOTE]

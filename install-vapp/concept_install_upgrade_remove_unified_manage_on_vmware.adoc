@@ -11,4 +11,4 @@ summary: VMware vSphere システムで、 Unified Manager ソフトウェアの
 
 
 [role="lead"]
-VMware vSphere システムで、 Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager 仮想アプライアンスの削除を実行できます。
+VMware vSphereシステムで、Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Manager仮想アプライアンス（vApp）の削除を実行できます。

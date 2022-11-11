@@ -95,8 +95,6 @@ entries:
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: ボリューム関係ページで保護関係を反転しています
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: ケンセンセイ / スヘテノホリユウムヒユウヲシヨウシタデータノリストア
-    url: "/data-protection/task_restore_data_use_health_volumes_page.html"
   - title: ボリューム / 健全性の詳細ページを使用したデータのリストア
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: リソースプールとは

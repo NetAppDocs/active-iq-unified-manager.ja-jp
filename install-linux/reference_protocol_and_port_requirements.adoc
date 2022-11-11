@@ -19,9 +19,6 @@ summary: このポートとプロトコルを使用して、 Unified Manager サ
 
 通常の環境では、 Unified Manager Web UI への接続に常にデフォルトのポートが使用されるため、ポート番号を指定する必要はありません。たとえば、 Unified Manager は常にデフォルトのポートで実行されるため、「 + https://<host>:443+` 」ではなく「 + https://<host>+` 」と入力できます。
 
-
-NOTE: MySQLのデフォルトポート3306は、LinuxシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この構成は変更可能であり'メンテナンス・コンソールの[Control access to MySQL port 3306]オプションを使用して'他のホストから接続できるようにすることができます
-
 Unified Manager サーバでは、次のインターフェイスにアクセスする際に特定のプロトコルを使用します。
 
 [cols="4*"]
@@ -107,11 +104,9 @@ HTTPS
 |===
 [NOTE]
 ====
-HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]。
+MySQLのデフォルトポート3306は、LinuxシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます `Control access to MySQL port 3306` メンテナンスコンソールのオプション。詳細については、を参照してください link:../config/reference_additional_menu_options.html["その他のメニューオプション"]。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください link:../config/concept_maintenance_console_menu.html["メンテナンスコンソールのメニュー"]。
 
 ====
-link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]
-
 
 
 == Unified Manager サーバからの接続
@@ -144,8 +139,6 @@ HTTPS
 NDMP
  a| 
 10000 TCP
-
-7 / TCP
  a| 
 特定の Snapshot リストア処理に使用されます。
 

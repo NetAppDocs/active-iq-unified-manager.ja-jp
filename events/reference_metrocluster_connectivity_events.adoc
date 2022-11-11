@@ -11,11 +11,74 @@ summary: 接続イベントは、クラスタのコンポーネント間の接�
 
 
 [role="lead"]
-接続イベントは、クラスタのコンポーネント間の接続および MetroCluster 構成のクラスタ間の接続に関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
+接続イベントは、クラスタのコンポーネント間の接続およびMetroCluster over FCおよびMetroCluster over IP構成のクラスタ間の接続に関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。
 
 
 
-== 影響範囲：可用性
+== 両方の構成で共通のイベント
+
+これらの接続イベントは、MetroCluster over FC構成とMetroCluster over IP構成で共通です。
+
+
+
+=== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+MetroCluster パートナー間のすべてのリンクが停止（ Document EvtMetroClusterAllLinksBetweenPartnersDown ）
+ a| 
+インシデント
+ a| 
+MetroCluster 関係
+ a| 
+重要
+
+
+
+ a| 
+ピアリングネットワーク経由で MetroCluster パートナーに到達できない（ドキュメント MetroCluster PartnersNotReachableOverPeeringNetwork ）
+ a| 
+インシデント
+ a| 
+MetroCluster 関係
+ a| 
+重要
+
+
+
+ a| 
+影響を受ける MetroCluster ディザスタリカバリ機能（文書 MetroCluster DRStatusImpacted ）
+ a| 
+リスク
+ a| 
+MetroCluster 関係
+ a| 
+重要
+
+
+
+ a| 
+MetroCluster 構成がスイッチオーバーされている（ MetroClusterDRStatusImpacted ）
+ a| 
+リスク
+ a| 
+MetroCluster 関係
+ a| 
+警告
+
+|===
+
+
+== MetroCluster over FC構成
+
+これらのイベントは、MetroCluster over FC構成に関係します。
+
+
+
+=== 影響範囲：可用性
 
 |===
 | イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
@@ -33,17 +96,6 @@ MetroCluster スイッチ間接続
 
 
  a| 
-MetroCluster パートナー間のすべてのリンクが停止（ Document EvtMetroClusterAllLinksBetweenPartnersDown ）
- a| 
-インシデント
- a| 
-MetroCluster 関係
- a| 
-重要
-
-
-
- a| 
 FC-SAS ブリッジからストレージスタックへのリンクが停止（ Document EvtBridgeSasPortDown ）
  a| 
 インシデント
@@ -55,17 +107,6 @@ MetroCluster ブリッジスタック接続
 
 
  a| 
-MetroCluster 構成がスイッチオーバーされている（ MetroClusterDRStatusImpacted ）
- a| 
-リスク
- a| 
-MetroCluster 関係
- a| 
-警告
-
-
-
- a| 
 MetroCluster 構成を部分的にスイッチオーバー（ドキュメント MetroCluster DRStatusPartiallyImpacted ）
  a| 
 リスク
@@ -73,28 +114,6 @@ MetroCluster 構成を部分的にスイッチオーバー（ドキュメント 
 MetroCluster 関係
  a| 
 エラー
-
-
-
- a| 
-影響を受ける MetroCluster ディザスタリカバリ機能（文書 MetroCluster DRStatusImpacted ）
- a| 
-リスク
- a| 
-MetroCluster 関係
- a| 
-重要
-
-
-
- a| 
-ピアリングネットワーク経由で MetroCluster パートナーに到達できない（ドキュメント MetroCluster PartnersNotReachableOverPeeringNetwork ）
- a| 
-インシデント
- a| 
-MetroCluster 関係
- a| 
-重要
 
 
 
@@ -194,5 +213,40 @@ MetroCluster スイッチのブリッジ接続
 ノードスタック接続
  a| 
 警告
+
+|===
+
+
+== MetroCluster over IP構成
+
+これらのイベントは、MetroCluster over IP構成に関係します。
+
+
+
+=== 影響範囲：可用性
+
+|===
+| イベント名（トラップ名） | 影響レベル | ソースタイプ | 重大度 
+
+
+ a| 
+MetroCluster IPサイト間接続ステータスが「停止」（mccIntersitecivityStatusDown）
+ a| 
+リスク
+ a| 
+MetroCluster 関係
+ a| 
+重要
+
+
+
+ a| 
+MetroCluster - IPノードからスイッチへの接続がオフライン（IpPortStatusOffline）
+ a| 
+リスク
+ a| 
+ノード
+ a| 
+エラー
 
 |===

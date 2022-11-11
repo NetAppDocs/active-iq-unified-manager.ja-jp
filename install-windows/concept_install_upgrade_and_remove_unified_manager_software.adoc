@@ -11,4 +11,4 @@ summary: Unified Manager ソフトウェアのインストール、新しいバ�
 
 
 [role="lead"]
-Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager アプリケーションの削除を実行できます。
+Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Managerアプリケーションの削除を実行できます。

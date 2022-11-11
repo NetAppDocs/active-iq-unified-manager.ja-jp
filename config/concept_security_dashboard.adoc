@@ -36,7 +36,7 @@ ONTAP 環境に応じて準拠監視の設定をカスタマイズするには�
 有効または無効にしたセキュリティコンプライアンスパラメータは、クラスタおよび Storage VM 画面のデフォルトのセキュリティビュー、レポート、およびスケジュールされたレポートに直接影響します。セキュリティパラメータを変更する前に、これらの画面から Excel レポートをアップロードした場合、ダウンロードした Excel レポートに問題がある可能性があります。
 
 ====
-. ONTAP クラスタのカスタム設定を有効または無効にするには、「 * Cluster * 」で必要な一般設定を選択します。クラスタコンプライアンスをカスタマイズするためのオプションについては、を参照してください link:../health-checker/reference_cluster_compliance_categories.html["クラスタコンプライアンスのカテゴリ"]
+. ONTAP クラスタのカスタム設定を有効または無効にするには、「 * Cluster * 」で必要な一般設定を選択します。クラスタコンプライアンスをカスタマイズするためのオプションについては、を参照してください link:../health-checker/reference_cluster_compliance_categories.html["クラスタコンプライアンスのカテゴリ"]。
 . Storage VM のカスタム設定を有効または無効にするには、「 Storage VM * 」で必要な一般設定を選択します。Storage VM コンプライアンスをカスタマイズするためのオプションについては、を参照してください link:../health-checker/reference_svm_compliance_categories.html["Storage VM コンプライアンスのカテゴリ"]。
 
 

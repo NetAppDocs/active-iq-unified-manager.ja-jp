@@ -47,4 +47,4 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 本製品で使用されているサードパーティの著作権およびライセンスに関する情報。
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2881957["Active IQ Unified Manager 9.11に関する注意事項"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2884717["Active IQ Unified Manager 9.12に関する注意事項"]
