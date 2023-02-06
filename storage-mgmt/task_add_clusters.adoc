@@ -46,10 +46,9 @@ Active IQ Unified Manager にクラスタを追加して監視することがで
 
 ====
 +
-*クライアント証明書*：ONTAP から受信したEMSメッセージの認証時に使用されます。この証明書はONTAP が所有しており、ONTAP クラスタをUnified Managerに追加する場合に必要です。有効期限が切れた証明書で Unified Manager にクラスタを追加することはできません。クライアント証明書の期限が切れている場合は、クラスタを追加する前に再生成する必要があります。ただし、追加済みのクラスタの証明書の有効期限が切れて Unified Manager で使用されている場合は、 EMS メッセージが期限切れの証明書を使用して引き続き機能します。証明書の生成については、ナレッジベース（KB）の記事を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["System ManagerユーザインターフェイスでONTAP の自己署名証明書を更新する方法"]。
+*クライアント証明書*：ONTAP から受信したEMSメッセージの認証時に使用されます。この証明書はONTAP が所有しており、ONTAP クラスタをUnified Managerに追加する場合に必要です。有効期限が切れた証明書で Unified Manager にクラスタを追加することはできません。クライアント証明書の期限が切れている場合は、クラスタを追加する前に再生成する必要があります。ただし、追加済みのクラスタの証明書の有効期限が切れて Unified Manager で使用されている場合は、 EMS メッセージが期限切れの証明書を使用して引き続き機能します。証明書の生成については、ナレッジベース（KB）の記事を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["System ManagerユーザインターフェイスでONTAP の自己署名証明書を更新する方法"^]。
 
-* 1 つの Unified Manager インスタンスでサポートできるノードの数には上限があります。ノードの数がサポートされる最大数を超える環境を監視する必要がある場合は、 Unified Manager インスタンスを追加でインストールし、一部のクラスタを監視する必要があります。
-* クラスタに 2 つ目のクラスタ管理 LIF を設定し、 Unified Manager の各インスタンスを別々の LIF を介して接続すれば、 1 つのクラスタを Unified Manager の 2 つのインスタンスで監視できます。
+* 1 つの Unified Manager インスタンスでサポートできるノードの数には上限があります。ノードの数がサポートされる最大数を超える環境を監視する必要がある場合は、 Unified Manager インスタンスを追加でインストールし、一部のクラスタを監視する必要があります。サポートされるノード数の一覧については、を参照してください https://www.netapp.com/media/13504-tr4621.pdf["Unified Manager ベストプラクティスガイド"^]。
 
 
 .手順

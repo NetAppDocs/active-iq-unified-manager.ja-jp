@@ -118,3 +118,5 @@ SNMP メッセージの暗号化に使用するプライバシープロトコル
 プライバシープロトコルを使用する場合のパスワードを指定します。プライバシーパスワードは、認証と暗号化を使用する SNMP バージョン 3 で使用できます。
 
 
+
+SNMPのオブジェクトとトラップの詳細については、をダウンロードしてください link:https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib["Active IQ Unified Manager MIBです"^] NetApp Support Site から。

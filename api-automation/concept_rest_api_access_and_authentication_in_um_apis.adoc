@@ -11,22 +11,15 @@ summary: Active IQ Unified Manager REST API には、問題 HTTP 要求を実行
 
 
 [role="lead"]
-Active IQ Unified Manager REST API には、問題 HTTP 要求を実行できる任意の Web ブラウザまたはプログラミングプラットフォームを使用してアクセスできます。Unified Manager は、基本的な HTTP 認証メカニズムをサポートしています。Unified Manager REST API を呼び出す前に、ユーザを認証する必要があります。
+Active IQ Unified Manager REST APIには、基本のHTTP認証メカニズムを使用して問題 HTTP要求を実行できるRESTクライアントまたはプログラミングプラットフォームを使用してアクセスできます。
 
-
-
-== REST アクセス
-
-問題 HTTP 要求を使用して Unified Manager REST API にアクセスできる Web ブラウザまたはプログラミングプラットフォームを使用できます。たとえば、 Unified Manager にログインしたあと、任意のブラウザで URL を入力して、管理ステーション名、キー、 IP アドレスなど、すべての管理ステーションの属性を取得できます。
+要求と応答の例：
 
 * * リクエスト *
 +
-取得
-
-
-
 [listing]
 ----
+Get
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 応答 *
@@ -107,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-Web ブラウザから問題 POST 、 PATCH 、および DELETE の各 HTTP 要求を実行するには、ブラウザのプラグインを使用する必要があります。cURL や Perl などのスクリプトプラットフォームを使用して、 REST API にアクセスすることもできます。
+Webブラウザから問題 HTTP要求を行うには、REST APIブラウザプラグインを使用する必要があります。cURL や Perl などのスクリプトプラットフォームを使用して、 REST API にアクセスすることもできます。
 
 
 

@@ -29,7 +29,7 @@ Unified Manager は、以下の言語で 64 ビットの Windows オペレーテ
 * 空きディスクスペース：インストールディレクトリ用に 100GB 、 MySQL データディレクトリ用に 50GB のディスクスペースが必要です
 
 
-システム要件の詳細については、を参照してください link:../install-windows/concept_requirements_for_installing_unified_manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
+システム要件の詳細については、を参照してください link:../install-windows/concept_requirements_for_installing_unified_manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"^]。
 
 
 
