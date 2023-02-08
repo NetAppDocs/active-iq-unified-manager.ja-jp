@@ -16,7 +16,7 @@ settings:
   - name: Unified Manager の略
     url: "/active-iq-unified-manager-910"
     version-number: '9.10'
-  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
   - title: Active IQ Unified Manager 9.12のドキュメント
