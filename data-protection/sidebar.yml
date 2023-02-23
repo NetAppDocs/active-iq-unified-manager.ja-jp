@@ -21,13 +21,13 @@ entries:
   - title: 保護関係のフェイルオーバーとフェイルバックを実行する
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: ボリューム / 健全性の詳細ページから SnapMirror 関係を解除します
+    - title: ボリュームの健全性の詳細ページからSnapMirror関係を解除します
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: ボリューム / 健全性の詳細ページで保護関係を反転しています
+    - title: ボリュームの健全性の詳細ページで保護関係を反転
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: ボリューム / 健全性の詳細ページから保護関係を削除しています
+    - title: ボリューム健全性の詳細ページから保護関係を削除しています
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: ボリューム / 健全性の詳細ページから保護関係を再同期しています
+    - title: ボリューム健全性の詳細ページから保護関係を再同期しています
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 保護ジョブの失敗を解決する
     url: "/data-protection/task_resolve_protection_job_failure.html"
@@ -45,13 +45,13 @@ entries:
     url: "/data-protection/task_view_volume_protection_relationships.html"
   - title: コンシステンシグループ関係の LUN を監視しています
     url: "/data-protection/view-lun-relationships.html"
-  - title: ケンセンセイ / スヘテノホリユウムヒユウカラノ SnapVault ホコカンケイノサクセイ
+  - title: All Volumes（すべてのボリューム）ビューからSnapVault 保護関係を作成します
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: ボリューム / 健全性の詳細ページから SnapVault 保護関係を作成しています
+  - title: ボリュームの健全性の詳細ページからSnapVault 保護関係を作成しています
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: ケンセンセイ / スヘテノホリユウムヒユウカラノ SnapMirror ホコカンケイノサクセイ
+  - title: All Volumes（すべてのボリューム）ビューからSnapMirror保護関係を作成します
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: ボリューム / 健全性の詳細ページから SnapMirror 保護関係を作成しています
+  - title: ボリュームの健全性の詳細ページからSnapMirror保護関係を作成しています
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
   - title: バージョンに依存しないレプリケーションを使用して SnapMirror 関係を作成する
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
@@ -65,7 +65,7 @@ entries:
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
   - title: ボリューム関係ページで保護関係を編集する
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: ボリューム / 健全性の詳細ページで保護関係を編集しています
+  - title: ボリューム健全性の詳細ページで保護関係を編集しています
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
   - title: 転送効率を最大化するために、 SnapMirror ポリシーを作成します
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
@@ -73,11 +73,11 @@ entries:
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
   - title: ボリューム関係ページからのアクティブなデータ保護転送を中止します
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: ボリューム / 健全性の詳細ページからアクティブなデータ保護転送を中止します
+  - title: ボリューム健全性の詳細ページからアクティブなデータ保護転送を中止する
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
   - title: ボリューム関係ページで保護関係を休止しています
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: ボリューム / 健全性の詳細ページで保護関係を休止しています
+  - title: ボリューム健全性の詳細ページで保護関係を休止しています
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
   - title: ボリューム関係ページから SnapMirror 関係を解除します
     url: "/data-protection/task_break_snapmirror_relationship.html"
@@ -85,17 +85,17 @@ entries:
     url: "/data-protection/task_remove_protection_relationship.html"
   - title: 休止中の関係のスケジュールされた転送をボリューム関係ページで再開しています
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 休止中の関係のスケジュールされた転送をボリューム / 健全性の詳細ページで再開します
+  - title: 休止中の関係のスケジュールされた転送をボリュームの健全性の詳細ページで再開します
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: ボリューム関係ページから保護関係を初期化または更新しています
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: ボリューム / 健全性の詳細ページから保護関係を初期化または更新しています
+  - title: 保護関係をボリュームの健全性の詳細ページから初期化または更新しています
     url: "/data-protection/task_update_protection_voldtls_page.html"
   - title: ボリューム関係ページから保護関係を再同期しています
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: ボリューム関係ページで保護関係を反転しています
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: ボリューム / 健全性の詳細ページを使用したデータのリストア
+  - title: ボリューム健全性の詳細ページを使用したデータのリストア
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: リソースプールとは
     url: "/data-protection/concept_what_resource_pools_are.html"
@@ -167,7 +167,7 @@ entries:
       url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
     - title: 関係の編集ダイアログボックス
       url: "/data-protection/reference_edit_relationship_dialog_box.html"
-    - title: Initialize/Update ダイアログボックスが表示されます
+    - title: 初期化または更新ダイアログボックス
       url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
     - title: Resynchronize タイアロクホツクス
       url: "/data-protection/reference_resynchronize_dialog_box.html"
@@ -175,9 +175,9 @@ entries:
       url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
     - title: ReverseResync タイアロクホツクス
       url: "/data-protection/reference_reverse_resync_dialog_box.html"
-    - title: 関係 / すべての関係ビュー
+    - title: "［すべての関係］表示"
       url: "/data-protection/reference_relationship_all_relationships_view.html"
-    - title: 関係 / 過去 1 カ月の転送ステータスビュー
+    - title: 過去1カ月の転送ステータスビュー
       url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
-    - title: 関係 / 過去 1 カ月の転送速度ビュー
+    - title: 過去1カ月の転送速度ビュー
       url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"

@@ -43,7 +43,7 @@ entries:
     url: "/health-checker/task_view_volume_list_and_details.html"
   - title: NFS 共有に関する詳細の表示
     url: "/health-checker/task_view_details_about_nfs_shares.html"
-  - title: SMB / CIFS 共有に関する詳細の表示
+  - title: SMB共有またはCIFS共有に関する詳細の表示
     url: "/health-checker/task_view_details_about_cifs_shares.html"
   - title: Snapshot コピーリストを表示しています
     url: "/health-checker/task_view_list_of_snapshot_copies.html"
@@ -283,11 +283,11 @@ entries:
     entries:
     - title: クラスタコンポーネントとその競合要因
       url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: ボリューム / 健全性の詳細ページ
+    - title: ボリュームの健常性の詳細
       url: "/health-checker/reference_health_volume_details_page.html"
-    - title: Storage VM / 健全性の詳細ページ
+    - title: Storage VMの健常性の詳細
       url: "/health-checker/reference_health_svm_details_page.html"
-    - title: クラスタ / 健全性の詳細ページ
+    - title: クラスタの健常性の詳細
       url: "/health-checker/reference_health_cluster_details_page.html"
-    - title: アグリゲート / 健全性の詳細ページ
+    - title: アグリゲートの健常性の詳細
       url: "/health-checker/reference_health_aggregate_details_page.html"

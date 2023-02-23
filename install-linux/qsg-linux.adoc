@@ -6,7 +6,12 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 ---
 = Linux インストールのクイックスタート手順
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+インストールパッケージをダウンロードして、Red Hat Enterprise LinuxまたはCentOSの物理プラットフォームまたは仮想プラットフォームにUnified Managerをインストールできます。
 
 
 

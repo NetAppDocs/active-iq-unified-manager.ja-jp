@@ -4,9 +4,14 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, VMWare QSG, vApp QSG, quick installation 
 summary: VMware vSphere プラットフォームの Unified Manager のクイックスタートガイドです。 
 ---
-= VMware のインストールのクイックスタート手順
+= VMwareのインストールのクイックスタート手順
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+はダウンロードできます `.tar` ルート証明書を含むファイル `README` ファイル、および `OVA` ファイルを作成し、Unified Managerを仮想アプライアンスとして導入します。
 
 
 

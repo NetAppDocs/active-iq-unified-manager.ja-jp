@@ -9052,7 +9052,6 @@
   <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">VMware vSphere PowerCLI Cmdlets Reference ： Restart-VMGuest</block>
   <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="32e5c16a2c1109e106990eafe2e5051a" category="summary">VMware vSphere プラットフォームの Unified Manager のクイックスタートガイドです。</block>
-  <block id="745f57af3dedfc4d30afa6ced1d0df52" category="doc">VMware のインストールのクイックスタート手順</block>
   <block id="781c32908473254b5a4d86a06486a7b7" category="list-text">空きディスクスペース： 5GB （シンプロビジョニング）、 152GB （シックプロビジョニング）</block>
   <block id="e695544d34f0e201929a62c9aa611da3" category="paragraph">システム要件の詳細については、を参照してください <block ref="50e046d8161c36e1c61db998f9999a09" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="f98b734b7817840b4280fbdea2b532f1" category="list-text">vSphere Client からアクセス可能なローカルまたはネットワークのディレクトリにファイルを保存します。</block>
@@ -10992,16 +10991,10 @@
   <block id="7a8adec5b77b397bb264a687d8a6c162" category="sidebar">SVM コンプライアンスのカテゴリ</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">データを保護、リストア</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">保護関係の作成とトラブルシューティング</block>
-  <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">ケンセンセイ / スヘテノホリユウムヒユウカラノ SnapVault ホコカンケイノサクセイ</block>
-  <block id="7c35d6a9594204995ca67f76b440f42c" category="sidebar">ケンセンセイ / スヘテノホリユウムヒユウカラノ SnapMirror ホコカンケイノサクセイ</block>
-  <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">関係 / すべての関係ビュー</block>
-  <block id="917d12d3945843e955409b6049824fe7" category="sidebar">関係 / 過去 1 カ月の転送ステータスビュー</block>
-  <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">関係 / 過去 1 カ月の転送速度ビュー</block>
   <block id="d74069c8854de78bc74ebbb6f3a7d046" category="sidebar">イベントとアラートの管理</block>
   <block id="6f047d4c177cc734ed65cb347cf6bd42" category="sidebar">クラスタのパフォーマンスを監視および管理する</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">Linux システムに Unified Manager をインストールします</block>
-  <block id="2c3b76077caf066bc2963e52113e2e78" category="sidebar">SELinux で NFS 共有または CIFS 共有に /opt/netapp または /opt/netapp/data をマウントする場合の要件</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">VMware vSphere システムに Unified Manager をインストールします</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">設定タスクと管理タスクを実行</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">ストレージを監視および管理する</block>
@@ -11880,4 +11873,34 @@
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">HTTPS証明書ページでは、現在のセキュリティ証明書の表示、証明書署名要求のダウンロード、新しい自己署名HTTPS証明書の生成、新しいHTTPS証明書のインストールを行うことができます。</block>
   <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">新しい自己署名HTTPS証明書を生成していない場合は、インストール時に生成された証明書がこのページに表示されます。</block>
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">現在のセキュリティ証明書に代わる新しい自己署名HTTPS証明書を生成できます。新しい証明書は、 Unified Manager を再起動すると有効になります。</block>
+  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">VMwareのインストールのクイックスタート手順</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">はダウンロードできます<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> ルート証明書を含むファイル<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> ファイル、および<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイルを作成し、Unified Managerを仮想アプライアンスとして導入します。</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">インストールパッケージをダウンロードして、Red Hat Enterprise LinuxまたはCentOSの物理プラットフォームまたは仮想プラットフォームにUnified Managerをインストールできます。</block>
+  <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">Windowsプラットフォーム向けのUnified Managerクイックスタートガイドです。</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">インストールパッケージをダウンロードしてUnified Managerをインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。</block>
+  <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">SMB共有またはCIFS共有に関する詳細の表示</block>
+  <block id="721115a56e25cbc2949dce662727ea1a" category="sidebar">ボリュームの健常性の詳細</block>
+  <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">Storage VMの健常性の詳細</block>
+  <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">クラスタの健常性の詳細</block>
+  <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">アグリゲートの健常性の詳細</block>
+  <block id="f667431c76a047fbe92c5ea4f107f5be" category="sidebar">ボリュームの健全性の詳細ページからSnapMirror関係を解除します</block>
+  <block id="825540d2e356a2301d8157e67a70b20a" category="sidebar">ボリュームの健全性の詳細ページで保護関係を反転</block>
+  <block id="9e602f9b4f36392b1a1428c981e37711" category="sidebar">ボリューム健全性の詳細ページから保護関係を削除しています</block>
+  <block id="a1b4c0ddea6f9c40fd2cd596b4f7b018" category="sidebar">ボリューム健全性の詳細ページから保護関係を再同期しています</block>
+  <block id="884392bffbe4579f85c30e1e54b015d3" category="sidebar">All Volumes（すべてのボリューム）ビューからSnapVault 保護関係を作成します</block>
+  <block id="6e05686f2b2c07b3c6c6117873668333" category="sidebar">ボリュームの健全性の詳細ページからSnapVault 保護関係を作成しています</block>
+  <block id="e9469afe9efe59fc810579b52fb8fc93" category="sidebar">All Volumes（すべてのボリューム）ビューからSnapMirror保護関係を作成します</block>
+  <block id="7b8c66535079341892aef1a493ce88c4" category="sidebar">ボリュームの健全性の詳細ページからSnapMirror保護関係を作成しています</block>
+  <block id="7e583f9e2b84b24680ccacedb923f893" category="sidebar">ボリューム健全性の詳細ページで保護関係を編集しています</block>
+  <block id="2f73e4b880758398d71cbda6956e4261" category="sidebar">ボリューム健全性の詳細ページからアクティブなデータ保護転送を中止する</block>
+  <block id="1a332e4345b7b166cc346094f426d59b" category="sidebar">ボリューム健全性の詳細ページで保護関係を休止しています</block>
+  <block id="0a7e2554ab5f606db9e7cd3f955d6876" category="sidebar">休止中の関係のスケジュールされた転送をボリュームの健全性の詳細ページで再開します</block>
+  <block id="6b8b5e644fe51ebdbf59ca41a2e0bd5d" category="sidebar">保護関係をボリュームの健全性の詳細ページから初期化または更新しています</block>
+  <block id="4854bf8d6304b20e8a8e266470ff2f5a" category="sidebar">ボリューム健全性の詳細ページを使用したデータのリストア</block>
+  <block id="54ad2ceecf79def094226d610fbf9cdf" category="sidebar">初期化または更新ダイアログボックス</block>
+  <block id="ad1e91efa1709ebf1317182df97e21ac" category="sidebar">［すべての関係］表示</block>
+  <block id="a1aa3dc0c225c91968f0c1b9e0426594" category="sidebar">過去1カ月の転送ステータスビュー</block>
+  <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">過去1カ月の転送速度ビュー</block>
+  <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">SELinuxでNFS共有またはCIFS共有を使用する必要がある</block>
+  <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">ほぼフルのアグリゲートを表示するレポートの作成</block>
 </blocks>

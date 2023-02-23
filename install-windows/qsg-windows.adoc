@@ -2,11 +2,16 @@
 permalink: install-windows/qsg-windows.html 
 sidebar: sidebar 
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
-summary: Linux プラットフォームでの Unified Manager のクイックスタートガイドです。 
+summary: Windowsプラットフォーム向けのUnified Managerクイックスタートガイドです。 
 ---
 = Windows インストールのクイックスタート手順
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+インストールパッケージをダウンロードしてUnified Managerをインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。
 
 
 

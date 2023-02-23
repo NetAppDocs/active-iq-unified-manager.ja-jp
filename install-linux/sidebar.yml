@@ -34,7 +34,7 @@ entries:
       url: "/install-linux/task_manually_configure_epel_repository.html"
     - title: MySQL リポジトリを手動で設定する
       url: "/install-linux/task_manually_configure_mysql_repository.html"
-  - title: SELinux で NFS 共有または CIFS 共有に /opt/netapp または /opt/netapp/data をマウントする場合の要件
+  - title: SELinuxでNFS共有またはCIFS共有を使用する必要がある
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Linux システムへの Unified Manager のインストール
     url: "/install-linux/concept_install_unified_manager_on_rhel_or_centos.html"
