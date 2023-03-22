@@ -97,16 +97,12 @@ Red Hat Enterprise Linux 8 システムの場合、 JDK 11-OpenJDK 、 p7zip 、
 ----
 . * オプション： * システムがインターネットに接続されておらず、インストールに必要なパッケージを手動でダウンロードする必要がある場合にのみ、手順 7 を実行する必要があります。インターネットにアクセスできるシステムで、必要なすべてのパッケージがある場合は、ステップ8に進みます。システムがインターネットに接続されていない場合やRed Hat Enterprise Linuxのリポジトリを使用していない場合は、次の手順に従って、必要なパッケージが揃っているかどうかを確認し、足りないパッケージをダウンロードします。
 +
-.. Unified Manager をインストールするシステムで、各パッケージについてその有無を表示します。
-
-
-
-
-yum`install NetApp-um <version> .x86_64.rpm -amiteno`
-
+.. Unified Managerをインストールするシステムで、使用可能なパッケージと使用できないパッケージのリストを表示します。+
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
++
 "Installing :`" セクションの項目は現在のディレクトリにあるパッケージで、 "Installing for dependencies ： " セクションの項目はシステムにないパッケージです。
 
-. インターネットにアクセスできるシステムで、不足しているパッケージをダウンロードします。
+.. インターネットにアクセスできるシステムで、不足しているパッケージをダウンロードします。
 +
 yum`install <package_name> --DownloadOnly --downloaddir=.`
 
@@ -116,9 +112,10 @@ yum`install <package_name> --DownloadOnly --downloaddir=.`
 yum-plugin-downloadonly プラグインは、 Red Hat Enterprise Linux システムで常に有効になっているとは限りません。インストールを実行せずにパッケージをダウンロードするために、「 yum install yum-plugin-downloadonly 」という機能を有効にする必要がある場合があります
 
 ====
-. インターネットに接続されたシステムから不足しているパッケージをインストールシステムにコピーします。
-+
-.. root ユーザとして、または「 sudo 」を使用して、次のコマンドを実行してソフトウェアをインストールします。
+.. インターネットに接続されたシステムから不足しているパッケージをインストールシステムにコピーします。
+
+
+. root ユーザとして、または「 sudo 」を使用して、次のコマンドを実行してソフトウェアをインストールします。
 +
 yum 'install NetApp-um <version>.x86_64.rpm
 
@@ -131,11 +128,11 @@ yum 'install NetApp-um <version>.x86_64.rpm
 他のコマンド（「 rpm -ivh 」など）を使用してインストールを試行しないでください。Unified Manager を Red Hat Enterprise Linux または CentOS のシステムに正しくインストールするには、 Unified Manager のすべてのファイルと関連ファイルを特定の順序で特定のディレクトリ構造にインストールする必要があり、そのためには「 yum install NetApp -um <version>.x86_64.rpm 」コマンドを使用する必要があります。
 
 ====
-.. インストールメッセージの直後に表示される E メール通知は無視してください。
+. インストールメッセージの直後に表示される E メール通知は無視してください。
 +
 この E メールは最初の cron ジョブの失敗を root ユーザに通知するもので、インストールには影響しません。
 
-.. インストールメッセージが最後まで表示されたら、メッセージを上にスクロールして、 Unified Manager Web UI の IP アドレスまたは URL 、メンテナンスユーザの名前（ umadmin ）、およびデフォルトのパスワードを確認します。
+. インストールメッセージが最後まで表示されたら、メッセージを上にスクロールして、 Unified Manager Web UI の IP アドレスまたは URL 、メンテナンスユーザの名前（ umadmin ）、およびデフォルトのパスワードを確認します。
 +
 次のようなメッセージが表示されます。
 
@@ -152,12 +149,10 @@ Log in to Unified Manager in a web browser by using following details:
   username: umadmin
   password: admin
 ----
-.. IP アドレスまたは URL 、割り当てられたユーザ名（ umadmin ）、および現在のパスワードをメモします。
-.. Unified Manager をインストールする前にカスタムのホームディレクトリで umadmin ユーザアカウントを作成していた場合は、 umadmin ユーザのログインシェルを指定する必要があります。
+. IP アドレスまたは URL 、割り当てられたユーザ名（ umadmin ）、および現在のパスワードをメモします。
+. Unified Manager をインストールする前にカスタムのホームディレクトリで umadmin ユーザアカウントを作成していた場合は、 umadmin ユーザのログインシェルを指定する必要があります。
 +
 「 usermod -s /bin/maintenance-user-shell.sh umadmin 」のように設定します
-
-
 
 
 
