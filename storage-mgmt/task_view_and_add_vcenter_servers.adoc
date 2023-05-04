@@ -20,6 +20,10 @@ vCenter Server を追加または表示する前に、次の点を確認して�
 * vCenter Server の名前を確認しておきます。
 * vCenter Server の IP アドレスと必要なクレデンシャルを確認しておきます。vCenter Server 管理者または vCenter Server への読み取り専用アクセス権を持つ root ユーザのクレデンシャルが必要です。
 * 追加する vCenter Server で vSphere 6.5 以降が実行されている必要があります。
++
+
+NOTE: VMware ESXiおよびvCenter Server向けのUnified Managerは、英語と日本語でサポートされます。
+
 * vCenter Server のデータ収集設定は '_Level 3_ の統計レベルに設定され ' 監視対象のすべてのオブジェクトに必要なメトリック収集レベルが確保されます間隔の長さは '_5 minutes_ で ' 保存期間は '_1 day_' である必要があります
 +
 詳細については、 VMware のマニュアルの「 vSphere Monitoring and Performance Guide 」の「 `D ATA Collection Levels' 」を参照してください。

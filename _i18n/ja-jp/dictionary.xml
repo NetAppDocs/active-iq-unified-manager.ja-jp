@@ -1379,7 +1379,6 @@
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="list-text">* 容量 *</block>
   <block id="ba65a7541af8ee1dcf8ff25780b0f133" category="paragraph">割り当てられているすべてのアグリゲートの使用済み容量と使用可能容量を示すデータ容量のグラフが表示されます。</block>
   <block id="8b15b9a2b442b2b0e772078d094ee1da" category="list-text">使用済み論理スペース</block>
-  <block id="8fc97272badac9e2495edcd073dfd4dc" category="paragraph">このクラスタのすべてのアグリゲートに格納されているデータの実際のサイズ。 ONTAP の Storage Efficiency テクノロジによる削減を適用する前のサイズです。</block>
   <block id="019d1ca7d50cc54b995f60d456435e87" category="list-text">使用済み</block>
   <block id="03f68e2b6d82ee819574137e30bd8ab8" category="paragraph">すべてのアグリゲート上のデータに使用されている物理容量。これには、パリティ、ライトサイジング、リザベーション用に使用される容量は含まれません。</block>
   <block id="78945de8de090e90045d299651a68a9b" category="list-text">利用可能</block>
@@ -2705,7 +2704,6 @@
   <block id="79aab9204d95513f4d54cf8ee70f0d78" category="section-title">物理容量と論理容量</block>
   <block id="51c8195300a59885ea8b1406a4c4ef6e" category="paragraph">Unified Manager は、 ONTAP ストレージオブジェクトに使用される物理スペースと論理スペースの概念を利用します。</block>
   <block id="054137242a7dfb8a1810cf70ea319475" category="list-text">物理容量：物理スペースは、ボリュームで使用されているストレージの物理ブロックを表します。「物理使用容量」は、通常、ストレージ効率化機能（重複排除や圧縮など）からのデータ削減のため、使用済み論理容量よりも小さくなります。</block>
-  <block id="3675831f54c6e0b606f50696db94f3ed" category="list-text">論理容量：論理スペースは、ボリューム内の使用可能なスペース（論理ブロック）を表します。論理スペースとは、重複排除や圧縮の結果を考慮せずに、理論上のスペースをどのように使用できるかを指します。「 Logical space used 」は、使用済みの物理スペースに加えて、設定済みの Storage Efficiency 機能（重複排除や圧縮など）による削減量を示します。Snapshot コピー、クローン、その他のコンポーネントが含まれ、データ圧縮やその他の物理スペースの削減が反映されていないため、この測定値は、多くの場合、物理使用容量よりも大きく表示されます。したがって、合計論理容量は、プロビジョニング済みスペースよりも多くなる可能性があります。</block>
   <block id="24b9db244a927f2094bcbf360aba33d6" category="section-title">容量の単位</block>
   <block id="d03ac28c56441db3dcb11d5e678bdbab" category="cell">Unified Manager for ONTAP 9.10.0 以前の容量ユニットが表示されます</block>
   <block id="0a50530704b05f97eea4a529425ef2f6" category="cell">Unified Manager for ONTAP 9.10.1 で表示される容量の単位</block>
@@ -8720,7 +8718,6 @@
   <block id="67c3532937b08ee6ee4886253d23ae77" category="paragraph">'systemctl stop ocie</block>
   <block id="9598c79c23eecd03d44d0bc68e248fac" category="paragraph">'systemctl stop mysqld</block>
   <block id="6b749e1d94f532680ad5ca3ff3bd464d" category="paragraph">yum`install *.rpm`</block>
-  <block id="689098dd33af80b8a480febade80a626" category="list-text">Unified Manager を次の順序で開始します。</block>
   <block id="c296640e14086f0c65597a8f86200a7f" category="paragraph">'ystemctl は mysqld' を起動します</block>
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph">'ystemctl start ocie</block>
   <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph">'systemctl start ocieau</block>
@@ -10255,7 +10252,6 @@
   <block id="526738f06e657c5895d71beb1901db1d" category="paragraph">SEP が割り当てられているストレージワークロードの数</block>
   <block id="ffe8c83daa01f4b24ce88d210fb25e26" category="section-title">カスタムのストレージ効率化ポリシーを作成する場合のガイドラインを次に示します</block>
   <block id="ba6b3391f24b8a8f0e46e7577bc26ff7" category="paragraph">既存の SEP がストレージワークロードのポリシー要件を満たしていない場合は、カスタム SEP を作成できます。ただし、ストレージワークロードにはシステム定義の SEP を使用して、必要な場合はカスタムの SEP のみを作成することを推奨します。</block>
-  <block id="4eef0a0d4244528303966d05c1b2e2ec" category="paragraph">ワークロードに割り当てられている SEP は、すべてのワークロードページおよびボリューム / 健全性の詳細ページで確認できます。ダッシュボードの容量パネルおよび容量：すべてのクラスタビューで、これらの Storage Efficiency 機能に基づいてクラスタレベルのデータ削減率を表示できます。</block>
   <block id="c1c739de54e854d37a0bbeba9f2074c0" category="summary">Unified Manager からクラスタを削除するには、クラスタセットアップページを使用します。たとえば、クラスタの検出に失敗した場合やストレージシステムを運用停止する場合に、クラスタを削除できます。</block>
   <block id="4e35c512bb8095cfcd8cee32d40b802c" category="doc">クラスタの削除</block>
   <block id="febde96caaf1e38c9f52701e8e7c1b35" category="paragraph">アプリケーション管理者またはストレージ管理者のロールが必要です。</block>
@@ -10700,9 +10696,6 @@
   <block id="f27b4e7ee3e409b917b4a5bbdad84bcc" category="list-text">単一の Unified Manager で MetroCluster 構成の両方のクラスタを監視している場合にボリュームを検索すると、その時点でアクティブなボリュームの情報が返されます。たとえば、スイッチオーバーが発生してクラスタ A で Vol3 がアクティブになっている場合、「 vol3 」を検索すると、クラスタ A の Vol3b の統計とイベントが返されます</block>
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">監視対象クラスタのリストの表示</block>
-  <block id="9dc7252bbef57ce4f0d03bcddb84711c" category="paragraph">クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
-  <block id="45ec896bf3e43c4d453f4fa4f22106ca" category="inline-link-macro">セツテイ / クラスタテエタソオスヘエシ</block>
-  <block id="01b124e9964263d377fc183d69afb2ed" category="paragraph"><block ref="01b124e9964263d377fc183d69afb2ed" category="inline-link-macro-rx"></block></block>
   <block id="03af4afceb5e7c752917f0234eb626d6" category="summary">特定のオブジェクトにすばやくアクセスするには、メニューバーの上部にある Search All Storage Objects フィールドを使用します。すべてのオブジェクトをグローバルに検索するこの方法を使用すると、特定のオブジェクトをタイプ別にすばやく見つけることができます。検索結果はストレージオブジェクトのタイプ別に表示され、ドロップダウンメニューを使用してさらにオブジェクト別に絞り込むことができます。</block>
   <block id="de010e6e50e554c3e541c863fa9a0b9c" category="paragraph">特定のオブジェクトにすばやくアクセスするには、メニューバーの上部にある「すべてのストレージオブジェクトの検索」フィールドを使用します。すべてのオブジェクトをグローバルに検索するこの方法を使用すると、特定のオブジェクトをタイプ別にすばやく見つけることができます。検索結果はストレージオブジェクトのタイプ別に表示され、ドロップダウンメニューを使用してさらにオブジェクト別に絞り込むことができます。</block>
   <block id="436903ec875ba98d74946efb3236fbfb" category="list-text">このタスクを実行するには、オペレータ、アプリケーション管理者、またはストレージ管理者のいずれかのロールが割り当てられている必要があります。</block>
@@ -10761,7 +10754,6 @@
   <block id="04a5f6e98f6a6fb512c08abc7b6e1834" category="paragraph">ほとんどのパネルには、そのカテゴリのアクティブイベントの数および過去 24 時間に追加された新しいイベントの数も表示されます。この情報から、イベントを解決するために詳細な分析が必要なクラスタを決定できます。イベントをクリックすると、上位のイベントが表示され、そのカテゴリのアクティブなイベントをフィルタリングして表示する Event Management インベントリページへのリンクが表示されます。</block>
   <block id="1fed3e7a8a0ba543e4b67922a67fbf09" category="paragraph">ダッシュボードの上部で、すべての監視対象クラスタ（「すべてのクラスタ」）の情報を表示するか、特定のクラスタの情報を表示するかを選択できます。最初にすべてのクラスタのステータスを表示してから、詳細情報を確認する場合は個々のクラスタにドリルダウンできます。</block>
   <block id="c076c04a5923aa493f5d80439c0a607e" category="inline-link-macro">ONTAP の問題を Unified Manager から直接修正</block>
-  <block id="cef503ab15e4ed36b018cb3a90d14ae4" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタの使用済み物理容量（ Storage Efficiency 削減を適用したあと）と使用可能な物理容量（ Storage Efficiency による削減量の削減量を含まない）、およびディスクがフルになるまでの予測日数が表示されます。 および ONTAP の Storage Efficiency 設定に基づくデータ削減率の割合を表示します。また、設定されているクラウド階層の使用済み容量も表示されます。棒グラフをクリックすると、そのクラスタのアグリゲートのインベントリページが表示されます。「フルまでの日数」というテキストをクリックすると容量の残り日数が最も少ないアグリゲートを示すメッセージが表示され、そのアグリゲート名をクリックすると詳細が表示されます。</block>
   <block id="1d775ead11df49b05265d255ec97ba03" category="paragraph">単一のクラスタを表示している場合、このパネルには、データアグリゲートの物理使用容量と使用可能な物理容量がローカル階層とクラウド階層のそれぞれのディスクタイプでソートされて表示されます。ディスクタイプの棒グラフをクリックすると、そのディスクタイプを使用しているボリュームのボリュームインベントリページが表示されます。</block>
   <block id="72ff6bbe84ebdc6126c97ef71a5082b1" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタのパフォーマンス容量（過去 1 時間の平均）とパフォーマンス容量が上限に達するまでの日数（日次増加率に基づく）が表示されます。棒グラフをクリックすると、そのクラスタのノードインベントリページが表示されます。ノードインベントリページには、過去 72 時間のパフォーマンス容量の平均が表示されます。フルまでの日数というテキストをクリックするとパフォーマンス容量の残り日数が最も少ないノードを示すメッセージが表示され、そのノード名をクリックすると詳細が表示されます。</block>
   <block id="d2b96729b551f106fbc157a73649ed9e" category="paragraph">単一のクラスタを表示している場合、このパネルには、そのクラスタの使用済みパフォーマンス容量の割合、合計 IOPS 、合計スループット（ MBps ）、およびこれらの 3 つの指標が上限に達するまでの想定日数が表示されます。</block>
@@ -11379,13 +11371,7 @@
   <block id="55f88063a0c3a7cf98a94375e0ff3a42" category="paragraph">Active IQ Unified Manager では、バージョンごとに特定のアップグレードパスがサポートされます。</block>
   <block id="70494063bddf48bdd98e37fe20fb89ab" category="paragraph">サポート対象よりも前のバージョンを実行している場合は、Unified Managerインスタンスをいずれかのサポート対象バージョンにアップグレードしてから、現在のバージョンにアップグレードする必要があります。</block>
   <block id="bdc6e309ce890855fc43da7b57bcc96d" category="list-title">アップグレードパスの例：</block>
-  <block id="c352389d4f5272bf4b0e95aaa632c6dd" category="list-text">OnCommand Unified Manager 9.5 -&gt; Active IQ Unified Manager 9.7をアップグレードします。</block>
-  <block id="7568484fc77cea5513a23c08df445958" category="list-text">9.7-&gt;9.9にアップグレードします。</block>
-  <block id="c78b2fb18f2fe61f95fe42e52ba53764" category="list-text">9.-&gt; 9.11にアップグレードします。</block>
   <block id="735de3cfc0c0985a1a724be6fb3d04d4" category="inline-link">ナレッジベース（KB）の記事を参照してください</block>
-  <block id="27116f436f6ec6c5447a0bc821ec8bd3" category="paragraph">すべてのバージョンのUnified Managerで、新しいバージョンへのインプレースアップグレードを実行できるわけではありません。Unified ManagerのアップグレードはN-2モデルに限定されています。つまり、アップグレードはすべてのプラットフォームの次の2つのリリースでのみ実行できます。たとえば、Unified Manager 9.10からUnified Manager 9.12へのアップグレードは、Unified Manager 9.11からのみ実行できます。</block>
-  <block id="8ded0f26242f95813229e9aeb2ef3ccd" category="paragraph">たとえば、インストールされているバージョンがOnCommand Unified Manager 9.5であり、最新のリリースActive IQ Unified Manager 9.12にアップグレードする場合は、一連のアップグレードを実行します。</block>
-  <block id="44b6cb701058b989f9c10a0b9fd08607" category="list-text">9.11 -&gt; 9.12にアップグレードします。</block>
   <block id="f9acf01a06b205cc3bc90281ea290501" category="paragraph">アップグレードパスマトリックスの詳細については、こちらを参照してください<block ref="bd9d6f7be5cc9d0d2fbf7597decadef8" category="inline-link-rx"></block>。</block>
   <block id="1e627a33b9cbe0c4e5b85149d2f8f692" category="paragraph"><block ref="69c176684d95f65dc65d1bfe9a630133" prefix="" category="inline-code"></block></block>
   <block id="48ef9298d0d595db208afed39cb81ad6" category="list-text">サポート/診断</block>
@@ -11409,20 +11395,15 @@
   <block id="480e40e982e302897cbc704e1b5db1d5" category="list-text">通知ページで、適切な設定を行います。</block>
   <block id="5074bcdc61c8c494ace5e8cf081add31" category="list-text">[*Use STARTTLS *]または[*Use SSL *]オプションを選択した場合は、[*Save]ボタンをクリックすると証明書ページが表示されます。証明書の詳細を確認し、証明書を受け入れて通知設定を保存します。</block>
   <block id="df3718f6585166cac3f4557a21eabab0" category="paragraph">証明書の詳細を表示するには、[証明書の詳細を表示*]ボタンをクリックします。既存の証明書の有効期限が切れた場合は、「* STARTTLSを使用」または「* SSLを使用」チェックボックスをオフにし、通知設定を保存してから「* STARTTLSを使用*」または「SSLを使用*」チェックボックスを再度オンにして新しい証明書を表示します。</block>
-  <block id="5eb5dddde9ebed96c7560781103cac37" category="list-text">必要な証明書を用意しておきます。Unified Managerでクラスタの追加時にセキュリティ証明書がインストールされます。</block>
-  <block id="ddc2e57ac17f63fa7064eebe97501a44" category="paragraph">*サーバ証明書*：この証明書はUnified Managerが所有しています。デフォルトの自己署名SSL（HTTPS）証明書が生成され、Unified Managerの新規インストールが実行されます。セキュリティを強化するために、CA署名証明書にアップグレードすることを推奨します。サーバ証明書の有効期限が切れた場合は、再生成してUnified Managerを再起動し、サービスに新しい証明書を組み込む必要があります。SSL証明書の再生成の詳細については、を参照してください <block ref="c522c357010776ce38058ce7ed24ee20" category="inline-link-macro-rx"></block>。</block>
   <block id="311a59e5248a2e51a6267bb49a15ab0e" category="paragraph">*相互TLS通信証明書*：Unified ManagerとONTAP 間の相互TLS通信で使用されます。証明書ベースの認証は、ONTAP のバージョンに基づいてクラスタで有効になります。ONTAP バージョン9.5よりも前のバージョンを実行しているクラスタでは、証明書ベースの認証が有効になっていません。</block>
-  <block id="2ce9200ca0372260abd7e551e468bb59" category="paragraph">古いバージョンのUnified ManagerをUnified Manager 9.12に更新する場合、クラスタの証明書ベースの認証は自動的には有効になりません。ただし、クラスタの詳細を変更して保存することで有効にできます。証明書の有効期限が切れた場合は、再生成して新しい証明書を組み込む必要があります。証明書の表示と再生成の詳細については、を参照してください <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>。</block>
   <block id="9e1d78fcecc3350c4ecf08cec0b298a1" category="list-text">証明書ベースの認証は、Web UIからクラスタを追加した場合に自動的に有効になります。メンテナンスコンソールからクラスタを追加した場合、証明書ベースの認証は有効になりません。</block>
   <block id="75d2b5faa0992c7cda340e5d43fc46b2" category="list-text">クラスタで証明書ベースの認証が有効になっている場合に、Unified Managerのバックアップをサーバから作成し、ホスト名またはIPアドレスが変更された別のUnified Managerサーバにリストアすると、クラスタの監視が失敗することがあります。エラーを回避するには、クラスタの詳細を編集して保存します。クラスタの詳細の編集の詳細については、を参照してください <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>。</block>
   <block id="222b0f66c06702de8b7c2340008972c3" category="inline-link">System ManagerユーザインターフェイスでONTAP の自己署名証明書を更新する方法</block>
-  <block id="184761bba2bfcfdc4a0906f763235f85" category="paragraph">Unified Manager 9.12では、クラスタの詳細を保存したあと、クラスタの双方向TLS通信の証明書を確認できます。</block>
   <block id="2570092c5c4918f782639770496fb209" category="paragraph">証明書ベースの認証が有効になっていない場合、Unified Managerはクラスタが最初に追加されたときにのみ証明書をチェックします。Unified Manager では、 ONTAP に対する API 呼び出しごとには証明書がチェックされません。</block>
   <block id="1b9015a348b3b3bcd576158c9c7a8b20" category="paragraph"><block ref="1b9015a348b3b3bcd576158c9c7a8b20" category="inline-link-macro-rx"></block></block>
   <block id="49d85dffd9c55bd1039f361649d7f8af" category="list-text">*バックアップの復元*</block>
   <block id="3f4708eedeac42b98df14d1193c366d6" category="paragraph">詳細については、のトピックを参照してください <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block>。</block>
   <block id="f20ad6a0dd31ae6204d0a1c1698272ac" category="list-text">* MySQLポート3306 *へのアクセスを制御します</block>
-  <block id="8d65a03e912850939c9e96e85a881977" category="paragraph">ホストからデフォルトのMySQLポート3306へのアクセスを制御します。セキュリティ上の理由から、このポート経由のアクセスは、Linux、Windows、およびVMware vSphereシステムへのUnified Managerの新規インストール時にlocalhostにのみ制限されます。このオプションを使用すると、ローカルホストとリモートホストの間でこのポートの表示/非表示を切り替えることができます。つまり、環境内のlocalhostに対してのみポートが有効になっている場合は、このポートをリモートホストでも使用できるようにすることができます。または、すべてのホストに対して有効にすると、このポートのアクセスをlocalhostのみに制限できます。アクセスがリモートホストで有効になっていた場合は、アップグレードシナリオで設定が保持されます。</block>
   <block id="3db4836f4c60c2808d0b0d20d1eb16c8" category="paragraph">LDAP認証サーバとの通信にSecure LDAPを使用することを指定します。</block>
   <block id="1191c397d2216f169d449246748b0f4e" category="admonition">_Member_,_User Object Class_,_GroupオブジェクトClass_attributesに入力する値は、Active Directory、OpenLDAP、およびLDAPの設定に追加する値と同じである必要があります。そうしないと、認証が失敗する可能性があります。</block>
   <block id="8e4f2af397c82180ecf57d4b4b15cfed" category="list-text">Active IQ Unified Manager ホストに属するサーバの秘密鍵</block>
@@ -11530,7 +11511,6 @@
   <block id="6426f3e20cba4266d97fcd97d92744b9" category="list-text">MetroCluster over FCおよびIP構成：クラスタコンポーネントの設定、問題、接続ステータスを表示および監視します。MetroCluster over FC構成用のMetroCluster スイッチおよびブリッジ</block>
   <block id="99c9b7bffea7f69dbe1a7469e4fa8265" category="paragraph"><block ref="99c9b7bffea7f69dbe1a7469e4fa8265" category="inline-link-macro-rx"></block></block>
   <block id="b818d5d8216fc350c657dc16d6881e47" category="paragraph">詳細については、を参照してください <block ref="0fcd91d6a4168294f5955b35a449a495" category="inline-link-macro-rx"></block> および <block ref="11dd59a41574fccef8c22cfc84e6364f" category="inline-link-macro-rx"></block>。</block>
-  <block id="25b57e87d22684e84e7fb8f68e35bab2" category="paragraph">たとえば、Unified Manager 9.12でバックアップを作成した場合、そのバックアップはUnified Manager 9.12システムにのみリストアできます。</block>
   <block id="58b5e0c267b5e16030e5d8eaaa8e9b98" category="paragraph">Unified Manager は、 1024 （ 2^10^ ）バイトのバイナリ単位に基づいてストレージ容量を計算します。ONTAP 9.10.0 以前では、これらの単位は KB 、 MB 、 GB 、 TB 、 PB として表示されていました。ONTAP 9.10.1 以降、 Unified Manager では KiB 、 MiB 、 GiB 、 TiB 、および PiB として表示されます。</block>
   <block id="91e7a0c8db32f26165f2b192a25c5b0d" category="admonition">スループットに使用される単位は、すべてのリリースのONTAP について、1秒あたりのキロバイト数（Kbps）、1秒あたりのメガバイト数（Mbps）、1秒あたりのギガバイト数（Gbps）、1秒あたりのテラバイト数（Tbps）などとなります。</block>
   <block id="73b0a806553de78dab50c46ee23d2d6e" category="paragraph">詳細については、を参照してください <block ref="4f6ed7f86648f318e59e4c56ac086948" category="inline-link-macro-rx"></block>。</block>
@@ -11544,8 +11524,6 @@
   <block id="5bfcf20e4085daab91a2e98e57d0e7db" category="list-text">ビューを開きます。この例では、 LIF のパフォーマンスを表示するデフォルトのネットワークビューを使用します。左側のナビゲーションペインで、* Network &gt; Network Interfaces *をクリックします。</block>
   <block id="32a4a26535f853d86ecbcf6a1d9893e2" category="list-text">[操作結果]列の上部をクリックして、ボリュームをステータスでソートします。</block>
   <block id="23807fda15fb4088e9db90dccd96a1d6" category="list-text">ディスクタイプにFabricPool が含まれています</block>
-  <block id="0b2a072936c5adb9821619f15a971014" category="summary">Active IQ Unified Manager 9.12の新機能、制限事項、および既知の問題の概要を示します。</block>
-  <block id="e0a62824452a9a4628b69006eed9e2ad" category="paragraph">詳細については、を参照してください<block ref="be2ff1f4c6d1e1215a965ae6546717cb" category="inline-link-rx"></block>。</block>
   <block id="6e20e72b50c870b4bf0884ff43d8c4fa" category="paragraph">MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> メンテナンスコンソールのオプション。詳細については、を参照してください <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください <block ref="1ea31912406b3a6cc1e16f90a586273f" category="inline-link-macro-rx"></block>。</block>
   <block id="4cc4dc3d322bbb329c62069ad877831e" category="paragraph">AutoSupport 情報の送信に使用されます。この機能を実行するには、インターネットアクセスが必要です。</block>
   <block id="a5014d3257e026e655ee770d9b9b474b" category="paragraph">VMware vSphereシステムで、Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Manager仮想アプライアンス（vApp）の削除を実行できます。</block>
@@ -11561,7 +11539,6 @@
   <block id="95a450ff74d7b4a151fbbf7f54defb55" category="list-text">をダウンロードしたディレクトリに移動します<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> ファイルを展開し、ターミナルウィンドウで次のコマンドを入力してUnified Managerのバンドルを展開します。</block>
   <block id="fc18f99ce64ce3dfaae74282dcb46139" category="paragraph">が必要です<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイル、ルート証明書、および<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> Unified Managerのファイルがターゲットディレクトリに解凍されます。</block>
   <block id="fdf927a2a6e96f49eb7d110ce2d63d0b" category="list-text">の整合性を確認します<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> で説明した手順に従ってファイルを作成します<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> ファイル。</block>
-  <block id="277eafe28a01b81fa8e1227e744b38e1" category="paragraph">Active IQ Unified Manager 仮想アプライアンスは、リリース9.10または9.11から9.12にアップグレードできます。</block>
   <block id="c9fc2754d166886233c2683bf2825545" category="paragraph">を参照してください <block ref="7de72191531aaa11cf5268653c3d2e12" category="inline-link-macro-rx"></block>。</block>
   <block id="b483325371d00bb30590dafd894d0330" category="paragraph">を参照してください <block ref="5a27b14fd609ed29e863ae853de4334d" category="inline-link-macro-rx"></block>。</block>
   <block id="bc9aaa7aae8f5b33a5613d0b03def13f" category="paragraph">サポートされているWebブラウザの新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用できます。検出プロセスが完了するのを待ってから、 UI での作業を実行する必要があります。</block>
@@ -11569,14 +11546,11 @@
   <block id="888f02aac9bcb8c6e63ecf7ecfd510f3" category="list-text">の手順に従います <block ref="4e49003bd707d086ed2473a592c4e5ad" category="inline-link-macro-rx"></block>。</block>
   <block id="5a4a0a33eb52faa90b4efd9ad5bb111c" category="list-text">また、の手順も実行します <block ref="3d325a30a3d625d98b2da43d85fdf8d6" category="inline-link-macro-rx"></block>。</block>
   <block id="dd20f685a8b2510866a126106ce9cc1f" category="paragraph">また、 1 つの Unified Manager インスタンスで監視できるノードの数には上限があり、この上限を超える場合は 2 つ目の Unified Manager インスタンスをインストールする必要があります。詳細については、を参照してください <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block>。</block>
-  <block id="8a16235d33e3c6dd1c19a47d46498f7d" category="list-text">ESXi 6.5、6.7、および7.0.x</block>
   <block id="7799421ecdfd8246db1f771c680ae1eb" category="paragraph">VMware vSphereシステム上のUnified Manager OVAは、内部でDebian OS 11（bulseye）を実行します。サポート対象のバージョンのESXiサーバでサポートされる仮想マシンハードウェアのバージョンについては、VMwareのドキュメントを参照してください。</block>
-  <block id="0298a5e25f4be4a5e03fc29d1b8eba6f" category="list-text">VMware vCenter Server 6.5、6.7、および7.0.x</block>
   <block id="b8c3cbdd8f4d15088d9f9f8a35495d56" category="paragraph">システム要件を確認しておく必要があります。Unified Manager仮想アプライアンスを導入する前に、必要な変更を行ってください。</block>
   <block id="c9e714997136f329f1dedb985dac518e" category="paragraph">[詳細の確認]ページで次の操作を行います</block>
   <block id="f81eabcd1e1176fcbcbcb0d44847ca7c" category="list-text">Publisherセクションの詳細を確認します。メッセージ* Entrust Code Signing - OVCS2 (Trusted certificate)*は、ダウンロードされたの整合性を確認します<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイル。+「Entrust Code Signing - OVCS2（Invalid certificate）」というメッセージが表示された場合は、VMware vCenter Serverを7.0U3E以降のバージョンにアップグレードします。</block>
   <block id="6a4baa2876bfdff480ba00ac2665f925" category="paragraph">[テンプレートのカスタマイズ]ページで、次の手順を実行</block>
-  <block id="d1877e3369b000d4fa826db44ba5628b" category="paragraph">リリース9.10または9.11からリリース9.12へのActive IQ Unified Manager のアップグレードのみが可能です。</block>
   <block id="d8f1f47c75e2f738043f670547d84682" category="list-text">の手順に従います <block ref="1527bfdac02a122c6f1ea8d5355cabb9" category="inline-link-macro-rx"></block>。</block>
   <block id="eb0da5e33b06f2372691dd17aed45832" category="list-text">さらに、に記載されている手順に従います <block ref="d894e497eeda3fe35b85b8235a68e493" category="inline-link-macro-rx"></block>。</block>
   <block id="6c6b4f138a4598025b51123d870717ce" category="paragraph">自動修正で解決できる問題については、を参照してください <block ref="a36182148a2e34639d03a860ec396bd2" category="inline-link-macro-rx"></block>。</block>
@@ -11752,7 +11726,6 @@
   <block id="48f17c8e7673276bc5746cd2de68a3e1" category="list-text">複数LIF構成で同じIPアドレスを使用する異なるクラスタ上のデータストアとしてボリュームまたはLUNをエクスポートすることはできません。Unified Managerでは、どのデータストアがどのクラスタに属しているかを特定できません。</block>
   <block id="511c1ea8b5268ce30deac2c392d5c3ab" category="paragraph">SVM-DR関係で保護されているStorage VMの数、SnapMirror関係で保護されているボリューム、Snapshotで保護されているボリューム、およびMetroCluster で保護されているクラスタが表示されます。</block>
   <block id="ca9cbf7c4e946ef48d8af2ea8d0f799f" category="inline-link-macro">相互TLS通信用の証明書</block>
-  <block id="8a73502c4be07d808f465c4542b4dd48" category="list-text">[ クラスタの編集（ Edit Cluster ） ] ダイアログボックスで、必要に応じて値を変更します。+ Unified Manager 9.12に追加されたクラスタの詳細を変更した場合は、ONTAP のバージョンに基づいて、相互TLS通信の証明書の詳細を表示できます。ONTAP バージョンの詳細については、を参照してください <block ref="9dbbbab565c0407ee80c1daf0485bbe4" category="inline-link-macro-rx"></block>。+[証明書の詳細]をクリックすると、証明書の詳細を表示できます。証明書の有効期限が切れている場合は、* Regenerate*ボタンをクリックして新しい証明書を組み込みます。</block>
   <block id="ca51b5eb394408fc66c7ff276f2d388f" category="paragraph">自動修正を使用して管理できる ONTAP の問題と機能については、を参照してください <block ref="69bb48d7285fcc4963176b1e083f2e69" category="inline-link-macro-rx"></block>。</block>
   <block id="81694560ce6841f5b6e22f6feb54db33" category="list-text">vCenter Server にデータストアを追加する際には、ホストの IP アドレスまたは完全修飾ドメイン名（ FQDN ）を使用できます。FQDN を追加する場合は、 Unified Manager サーバがドメイン名を解決できることを確認してください。たとえば、Linuxのインストールの場合は、ドメイン名がに追加されていることを確認します<block ref="f0b96341c66fa0d1b2202f74a027bbda" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="6563d638462424749f5ee4cc590d2849" category="doc">MetroCluster over FCのデータミラーリングのステータス定義</block>
@@ -11768,13 +11741,8 @@
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。</block>
   <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">に表示される情報を基に、レプリケーションの問題を修正できます。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
   <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Managerアプリケーションの削除を実行できます。</block>
-  <block id="37defe146ac5448d9ade9a2d83e8e0bf" category="paragraph">MySQLのデフォルトポート3306は、WindowsシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> メンテナンスコンソールのオプション。詳細については、を参照してください <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
-  <block id="114a028e9b55b97a58d37b3d704d07d2" category="paragraph">WindowsプラットフォームでUnified Manager 9.10または9.11をダウンロードして実行すると、9.12にアップグレードできます。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">を参照してください <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
-  <block id="f0e1f067c09250365312c175e69f64aa" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.30より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが8.0.30に自動的にアップグレードされます。旧バージョンのMySQLから8.0.30へのスタンドアロンアップグレードは実行しないでください。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">サポートされているWebブラウザで新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用します。</block>
-  <block id="5ff4b86dbcd6c01705ae6ea152e028ea" category="list-text">MySQL Community Editionバージョン8.0.30</block>
-  <block id="440738be01fbb5a218a51b31addb72e3" category="list-text">OpenJDKバージョン11.0.16</block>
   <block id="c25a026897caa6b556a4ed073ea3eab4" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.14からOpenJDK 11.0.16にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
   <block id="83120bcddc0b0db19b2984cc0524dcb9" category="list-text">作成されたからディレクトリとファイルをコピーします<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> ディレクトリ（例：<block ref="7b12015226b2c68810e719dd47d11964" prefix=" " category="inline-code"></block> Javaがインストールされている場所に移動します。例<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="29932be7bd13705461dc34fdd5fb130d" category="list-text"><block ref="5d201191fde87fde991d42023bfce519" category="inline-link-macro-rx"></block>。</block>
@@ -11803,25 +11771,19 @@
   <block id="a493fa4c460a4d5d4596629829568e85" category="paragraph">[*データ保護*]ページの[* MetroCluster Protection]パネルには、MetroCluster over FCまたはIP構成で保護または保護されていないクラスタの数が表示されます。このパネルの棒グラフをクリックすると、クラスタページが開き、保護されているクラスタまたは保護されていないクラスタに基づいてクラスタの詳細がフィルタリングされます。MetroCluster 設定の監視については、を参照してください <block ref="9558ec78419607c064297bda7f675f6d" category="inline-link-macro-rx"></block>。</block>
   <block id="17c228aa59531735b63ca5b1ae0f4bf5" category="list-text">次のコマンドを実行してコンテキストをに設定します<block ref="b905d1202af19e8f6c34d79877df45f5" prefix=" " category="inline-code"></block>：<block ref="125724bcf0a492170941741887e372aa" prefix=" " category="inline-code"></block></block>
   <block id="41a509531a08b77efb63f869f032ae0d" category="list-text">次のコマンドを実行してコンテキストをに設定します<block ref="b905d1202af19e8f6c34d79877df45f5" prefix=" " category="inline-code"></block>：<block ref="eb2f4fd8fb09567263b69a720c464b14" prefix=" " category="inline-code"></block></block>
-  <block id="9621653679e9854c1973df8ce1ed61a7" category="list-text">MySQL Community Editionバージョン8.0.30（MySQLリポジトリから入手）。</block>
-  <block id="4273c69f817301545fc7a2cf084a1679" category="list-text">OpenJDKバージョン11.0.17（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
   <block id="e131d783ed06e4e0e9ecff4a3b74b3bc" category="paragraph">を参照してください <block ref="1c92e6722d290b1692adfbbe5e2ec37a" category="inline-link-macro-rx"></block>。</block>
   <block id="6426459e5a98fa4d3c65adcaafc6ce25" category="paragraph">を参照してください <block ref="777cf649ce896eb0afa438e1c2e669be" category="inline-link-macro-rx"></block>。</block>
   <block id="1b69f414d436652d25ad10e85271e543" category="paragraph">MySQLのデフォルトポート3306は、LinuxシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> メンテナンスコンソールのオプション。詳細については、を参照してください <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください <block ref="1ea31912406b3a6cc1e16f90a586273f" category="inline-link-macro-rx"></block>。</block>
   <block id="de5a7a96234dc79aac999909074c2299" category="list-text">ダウンロードしたの整合性を確認しておく必要があります<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="7565099c5e9f4a08a1730a1715d7329a" category="paragraph">OpenJDKバージョン11.0.17</block>
-  <block id="dfc626ac0515591a9f76a6a8ef08788b" category="paragraph">MySQL 8.0.30 Community Editionの場合</block>
-  <block id="b574fb6f759725f1df140bc60fe94b1f" category="list-text">MySQL 8.0.30 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。</block>
   <block id="90e97a629125bdf88ff336405957019b" category="paragraph">インストール前スクリプトは、システムに有効なRed Hat Enterprise Linuxサブスクリプションがあるかどうか、およびシステムが必要なソフトウェアリポジトリにアクセスできるかどうかを確認します。問題が検出された場合は、 Unified Manager をインストールする前に修正する必要があります。</block>
   <block id="c422ac44d890c41645f67cae009b5f2a" category="list-text">* オプション： * システムがインターネットに接続されておらず、インストールに必要なパッケージを手動でダウンロードする必要がある場合にのみ、手順 7 を実行する必要があります。インターネットにアクセスできるシステムで、必要なすべてのパッケージがある場合は、ステップ8に進みます。システムがインターネットに接続されていない場合やRed Hat Enterprise Linuxのリポジトリを使用していない場合は、次の手順に従って、必要なパッケージが揃っているかどうかを確認し、足りないパッケージをダウンロードします。</block>
   <block id="c19fa085277d0020749e2ca183d8458c" category="list-text">インターネットにアクセスできるシステムで、不足しているパッケージをダウンロードします。</block>
   <block id="6832f4bc398b76292b7e5559a3b1958b" category="list-text">インターネットに接続されたシステムから不足しているパッケージをインストールシステムにコピーします。</block>
   <block id="0f1cdbdd6181cdbfe338bec6a4f98efc" category="paragraph">の説明に従って、Web UIにアクセスしてumadminユーザのデフォルトパスワードを変更し、Unified Managerの初期セットアップを実行します <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。umadminユーザのデフォルトパスワードを変更する必要があります。</block>
   <block id="db6a2ba9b6dd90580e43a04b8a24b542" category="paragraph">EPEL リポジトリは、システムにインストールする必要があるサードパーティユーティリティへのアクセスを提供します。Unified ManagerをRed Hat Enterprise LinuxとCentOSのどちらのシステムにインストールする場合もEPELリポジトリを使用します。</block>
-  <block id="e86dba2e68a0b13457b918f6b3b78fa8" category="paragraph">LinuxプラットフォームでUnified Manager 9.10または9.11から9.12にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="5775389946e13ce353e1d4d1ed29e9a7" category="list-text">アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager データベースのバックアップを作成しておく必要があります。ネットアップでは、からバックアップファイルを移動することを推奨します<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> ディレクトリを外部の場所に移動します。</block>
   <block id="0e0993ac616dc62e066f638ea90c25bc" category="list-text">アップグレードの実行中に、パフォーマンスデータの保持期間について、以前のデフォルト設定である 13 カ月のままにするか 6 カ月に変更するかを確認するプロンプトが表示されることがあります。変更を確認すると、 6 カ月を過ぎた過去のパフォーマンスデータはパージされます。</block>
-  <block id="e7f31dd207d5c756741cce58573dd8bb" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.30より前の場合は、Unified ManagerのアップグレードプロセスによってMySQLが8.0.30に自動的にアップグレードされます。</block>
   <block id="309030759c9484501fe1396ced786a0f" category="paragraph">アップグレード中にサイトで不足しているパッケージが検出された場合、またはシステムがインターネットに接続されていない場合、またはRed Hat Enterprise Linuxリポジトリを使用していない場合は、次の手順を実行して、必要なパッケージが揃っているかどうかを確認し、それらのパッケージをダウンロードします。</block>
   <block id="2d6366248fa5ef595d60279badc92c1d" category="list-text">インターネットにアクセスできる別のシステムで、次のコマンドを実行して不足しているパッケージをダウンロードします。</block>
   <block id="0dbce45650f6db4b7a7e6b92ba42d860" category="paragraph">このタスクは、システムがインターネットに接続されていないと失敗することがあります。Unified Managerをインストールするシステムがインターネットにアクセスできない場合は、MySQLのドキュメントを参照してください。</block>
@@ -11842,10 +11804,6 @@
   <block id="600a043b56ccc07c547253d749b31a16" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.14からOpenJDK 11.0.17にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
   <block id="912f1ca0a20e49d435fe3215bf809dde" category="inline-link-macro">LinuxへのUnified Managerのインストール</block>
   <block id="7cba7227c8bc6bdcbbf70e6243b2234a" category="paragraph">を参照してください <block ref="c40206cc0de29decd365e8f91e05658e" category="inline-link-macro-rx"></block>。</block>
-  <block id="d46cbd69bc42838bc4062f689297edb4" category="inline-link">Active IQ Unified Manager 9.12に関する注意事項</block>
-  <block id="08f1037423e1f7c90b21578e6a5088e0" category="paragraph"><block ref="08f1037423e1f7c90b21578e6a5088e0" category="inline-link-rx"></block></block>
-  <block id="ef4b00aa7f2b133711aca050ace6508d" category="sidebar">Active IQ Unified Manager 9.12のドキュメント</block>
-  <block id="f4a82a67b559f4b99078d99e20c3f730" category="sidebar">Active IQ Unified Manager 9.11のマニュアル</block>
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">の場合のSELinuxコンテキストの設定<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> がマウントされている</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">の場合のSELinuxコンテキストの設定<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> がマウントされています<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> は別途マウントすることもできます</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">の場合のSELinuxコンテキストの設定<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> がマウントされています<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> は別途マウントされません</block>
@@ -11854,14 +11812,12 @@
   <block id="590e5f2d8030dd7492b5a2f24f056c33" category="paragraph">Webブラウザから問題 HTTP要求を行うには、REST APIブラウザプラグインを使用する必要があります。cURL や Perl などのスクリプトプラットフォームを使用して、 REST API にアクセスすることもできます。</block>
   <block id="85a30fe886275ce866327a1e02256e74" category="inline-link-macro">Active IQ Unified Manager MIBです</block>
   <block id="9266d8a8ea54f308e2376f2d8f7bd96b" category="paragraph">SNMPのオブジェクトとトラップの詳細については、をダウンロードしてください <block ref="5372b01ca49988ef6d087d475f5f860d" category="inline-link-macro-rx"></block> NetApp Support Site から。</block>
-  <block id="04cb263b5536fd6d36e2dbdb66c90bca" category="paragraph">*クライアント証明書*：ONTAP から受信したEMSメッセージの認証時に使用されます。この証明書はONTAP が所有しており、ONTAP クラスタをUnified Managerに追加する場合に必要です。有効期限が切れた証明書で Unified Manager にクラスタを追加することはできません。クライアント証明書の期限が切れている場合は、クラスタを追加する前に再生成する必要があります。ただし、追加済みのクラスタの証明書の有効期限が切れて Unified Manager で使用されている場合は、 EMS メッセージが期限切れの証明書を使用して引き続き機能します。証明書の生成については、ナレッジベース（KB）の記事を参照してください<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>。</block>
   <block id="3a8f6d8e81e46780cae8b01ced2c6f30" category="list-text">1 つの Unified Manager インスタンスでサポートできるノードの数には上限があります。ノードの数がサポートされる最大数を超える環境を監視する必要がある場合は、 Unified Manager インスタンスを追加でインストールし、一部のクラスタを監視する必要があります。サポートされるノード数の一覧については、を参照してください<block ref="e93befa6e2a73cbce07a13aa25f57433" category="inline-link-rx"></block>。</block>
   <block id="339df2b8ee92861a4cb2e6ba77bf71ff" category="list-text">MySQLポート3306を許可またはブロックするために作成されたファイアウォールルールは手動で削除する必要があります。ファイアウォールルールは自動的には削除されません。</block>
   <block id="99f349f68754fcdb8657987c33cdde6e" category="paragraph"><block ref="99f349f68754fcdb8657987c33cdde6e" category="inline-link-rx"></block></block>
   <block id="ca7a90443f716119f581e53c33117768" category="paragraph"><block ref="ca7a90443f716119f581e53c33117768" category="inline-link-rx"></block></block>
   <block id="29c81145f8df4c302d2a5db797d28b64" category="paragraph"><block ref="29c81145f8df4c302d2a5db797d28b64" category="inline-link-rx"></block></block>
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。企業の規制により、アクティブなアンチウイルスソフトウェアがWindowsシステムにインストールされている可能性があります。インストールが失敗しないように、Unified Managerをインストールする前にウィルス対策ソフトウェアを無効にする必要があります。</block>
-  <block id="eb0ae76a28872e0cb3b4b8b29ab56e93" category="list-text">Python 3.11.1</block>
   <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">Unified Managerをインストールする前に、システムのすべてのウィルス対策ソフトウェアを無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。</block>
   <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">システム要件の詳細については、を参照してください <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> および <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>。</block>
   <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
@@ -11903,4 +11859,58 @@
   <block id="a800bc3b2ac3625f86ad24d4ae00b6c8" category="list-text">Unified Managerをインストールするシステムで、使用可能なパッケージと使用できないパッケージのリストを表示します。+<block ref="0ebef3d9c59bd558d3f360f5800cf333" prefix=" " category="inline-code"></block></block>
   <block id="d3959f6465e1edec195c856595d76545" category="paragraph">詳細については、を参照してください <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>。</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9以前のドキュメント</block>
+  <block id="aed235f8caae1a6a0a280cc1ef58a60e" category="summary">Active IQ Unified Manager 9.13の新機能、制限事項、および既知の問題の概要を示します。</block>
+  <block id="79c372660015e1225cfb718a6127e153" category="paragraph">詳細については、を参照してください<block ref="cfc179a28e4ac474bea279dee84017fe" category="inline-link-rx"></block>。</block>
+  <block id="8ddfb256eb8431a508471cded6714ecf" category="paragraph">このクラスタのすべてのアグリゲートに格納されているデータの実際のサイズ。 ONTAP の Storage Efficiency テクノロジによる削減を適用する前のサイズです。Snapshotコピーは含まれません。</block>
+  <block id="d2daed7885c81d5fcd9122e25f5a20a9" category="list-text">データ削減</block>
+  <block id="77dcd5af6b77edb26e9280a48b0c170c" category="paragraph">Snapshotコピーを含まず、有効な2桁の比率（1.8：1など）が表示されます。この比率は、ONTAP のStorage Efficiency設定に基づいて計算されます。</block>
+  <block id="14f31e529433a86f46aed481c5e34cbf" category="list-text">論理容量：論理スペースは、ボリューム内の使用可能なスペース（論理ブロック）を表します。論理スペースとは、重複排除や圧縮の結果を考慮せずに、理論上のスペースをどのように使用できるかを指します。「 Logical space used 」は、使用済みの物理スペースに加えて、設定済みの Storage Efficiency 機能（重複排除や圧縮など）による削減量を示します。この測定値は、データ圧縮などの物理スペースの削減量を反映していないため、使用済み物理容量よりも大きく表示されることがよくあります。したがって、合計論理容量は、プロビジョニング済みスペースよりも多くなる可能性があります。</block>
+  <block id="0921ca43e3529d8475da8b72f962f28f" category="paragraph">たとえば、Unified Manager 9.13で作成したバックアップは、Unified Manager 9.13のシステムにのみリストアできます。</block>
+  <block id="70d2001544dcfa21ccfc810a3ff8b411" category="paragraph">LinuxプラットフォームでUnified Manager 9.11または9.12から9.13にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
+  <block id="d6fa9d2f7f0a4b280b41dca487f62a1f" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.32より前の場合は、Unified Managerのアップグレードプロセスによって8.0.32に自動的にアップグレードされます。</block>
+  <block id="7d0057c506b9ad17db0b4a1fc02b16db" category="paragraph">MySQL 8.0.32 Community Edition</block>
+  <block id="e7728561a064d52807136080b20acb13" category="list-text">MySQL 8.0.32 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。</block>
+  <block id="57dba854945c4f6c2493e98f1c90027e" category="paragraph">インストールがGPG NOKEYエラーで失敗した場合は、を使用します<block ref="c2d160102b722accd9f40f1124d1f94b" prefix=" " category="inline-code"></block> URLからキーをインポートするには、次の手順に従います。</block>
+  <block id="a4bbe0d9f37b7122f2ff77a225c697fb" category="paragraph"><block ref="185370afde35f5963c46b7aee9beab40" prefix="" category="inline-code"></block></block>
+  <block id="35524010fccb12bad68691d499d0d145" category="list-text">MySQL Community Editionバージョン8.0.32（MySQLリポジトリから入手）。</block>
+  <block id="efce93a0629f3dcfb9346a13d5db3313" category="list-text">OpenJDKバージョン11.0.18（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
+  <block id="d2a94210021c8b039ff02205332050d6" category="list-text">Unified Managerサービスと関連するMySQLサービスを次の順序で停止します。</block>
+  <block id="bc3bdda2dda9f3fd07e80e72f7823d5c" category="list-text">MySQLサービスとUnified Managerサービスを次の順序で開始します。</block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> は、MySQLサーバの起動と停止に必要なデーモンプログラムです。</block>
+  <block id="c2362c71de5003fd362e7eb3224edc76" category="paragraph">[Connection Timeout]*の値は、設定に影響する可能性があります。設定が定義された値よりも応答に時間がかかると、接続エラーが原因で設定に失敗する可能性があります。正常な接続を確立するには、*[接続タイムアウト]*の値を増やして、設定をやり直してください。</block>
+  <block id="65208f2182de5ae3519615db59a238c0" category="list-text">Unified Managerは、オンプレミスのONTAP クラスタ、ONTAP Select 、Cloud Volumes ONTAP をサポートしています。</block>
+  <block id="7a86121751ce8ab08ea100213e2a180e" category="list-text">必要な証明書を用意しておきます。</block>
+  <block id="36f909e15dde9538534fbae2391df0e5" category="paragraph">* SSL（HTTPS）証明書*：この証明書の所有者はUnified Managerです。デフォルトの自己署名SSL（HTTPS）証明書が生成され、Unified Managerの新規インストールが実行されます。セキュリティを強化するために、CA署名証明書にアップグレードすることを推奨します。サーバ証明書の有効期限が切れた場合は、再生成してUnified Managerを再起動し、サービスに新しい証明書を組み込む必要があります。SSL証明書の再生成の詳細については、を参照してください <block ref="c522c357010776ce38058ce7ed24ee20" category="inline-link-macro-rx"></block>。</block>
+  <block id="659f8b11af3d30be2314b200c8361257" category="paragraph">* EMS証明書*：この証明書はUnified Managerが所有しています。ONTAP から受信したEMS通知の認証時に使用されます。</block>
+  <block id="64477b2bdfd80d22fc278d7ee96ecad4" category="paragraph">Unified Managerの古いバージョンを更新する場合、クラスタで証明書ベースの認証は自動的には有効になりません。ただし、クラスタの詳細を変更して保存することで有効にできます。証明書の有効期限が切れた場合は、再生成して新しい証明書を組み込む必要があります。証明書の表示と再生成の詳細については、を参照してください <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>。</block>
+  <block id="604cb85803c2049ee36ec0f56a4b4122" category="paragraph">*クラスタ証明書*：この証明書の所有者はONTAP です。証明書の有効期限が切れているクラスタをUnified Managerに追加することはできません。証明書の有効期限が切れている場合は、クラスタを追加する前に証明書を再生成する必要があります。証明書の生成については、ナレッジベース（KB）の記事を参照してください<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>。</block>
+  <block id="2baed68e35271ff9049aae0aaa17514e" category="paragraph">クラスタの詳細を保存すると、クラスタの相互TLS通信の証明書を確認できます。</block>
+  <block id="71115803a7c16035111d8a488819a5de" category="paragraph">ホストからデフォルトのMySQLポート3306へのアクセスを制御します。セキュリティ上の理由から、このポート経由のアクセスは、Linux、Windows、およびVMware vSphereシステムへのUnified Managerの新規インストール時にlocalhostにのみ制限されます。このオプションを使用すると、ローカルホストとリモートホストの間でこのポートの表示/非表示を切り替えることができます。つまり、環境内のlocalhostに対してのみポートが有効になっている場合は、このポートをリモートホストでも使用できるようにすることができます。または、すべてのホストに対して有効にすると、このポートのアクセスをlocalhostのみに制限できます。アクセスがリモートホストで有効になっていた場合は、アップグレードシナリオで設定が保持されます。ポートの可視性を切り替えたあとにWindowsシステムのファイアウォールの設定を確認し、MySQLポート3306へのアクセスを制限するように設定されている場合はファイアウォールの設定を無効にする必要があります。</block>
+  <block id="3e4aa78bd9a0d047145f83e8b44d347e" category="paragraph">Active IQ Unified Manager 仮想アプライアンスをリリース9.11または9.12から9.13にアップグレードできます。</block>
+  <block id="992457c87959064e1a1fd8702290dfc5" category="list-text">ESXi 7.0および8.0</block>
+  <block id="fb0cd9631dee3f83386725234b971c75" category="list-text">VMware vCenter Server 7.0および8.0</block>
+  <block id="3e7b964de97721901e2ed02363f27551" category="paragraph">Active IQ Unified Manager をリリース9.11または9.12からリリース9.13にアップグレードできるのは、リリース9.11または9.12からのみです。</block>
+  <block id="7f6b750f9bf81de18f268ee211e2d9f5" category="list-text">MySQL Community Editionバージョン8.0.32</block>
+  <block id="e8e8c097046d10614223032a87b5da84" category="list-text">Python 3.11.2</block>
+  <block id="03384e848f3ceac203bfa4c37258699a" category="list-text">OpenJDKバージョン11.0.18</block>
+  <block id="633bb5b6eca1c435199c472c91160f36" category="paragraph">MySQLのデフォルトポート3306は、WindowsシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。インストールが完了したら、ファイアウォールを有効にしてポートmysql（3306）へのアクセスを制限します。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> メンテナンスコンソールのオプション。詳細については、を参照してください <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
+  <block id="14f32f2b9540cb3cfbc4a3dc18d22c24" category="paragraph">WindowsプラットフォームでUnified Manager 9.11または9.12から9.13にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
+  <block id="6fe12bd8a03c8a86962f99ff4681d944" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.32より前の場合は、Unified Managerのアップグレードプロセスによって8.0.32に自動的にアップグレードされます。MySQLの旧バージョンから8.0.32へのスタンドアロンアップグレードを実行しないでください。</block>
+  <block id="597398cc5b5523b459dfe2d0d9acd2e5" category="paragraph">ボリューム効率化処理エラー（ocumEvtVolumeEfficiencyOperationError）</block>
+  <block id="c9b65dae69a03687de460e1e880443cd" category="paragraph">すべてのバージョンのUnified Managerで、新しいバージョンへのインプレースアップグレードを実行できるわけではありません。Unified ManagerのアップグレードはN-2モデルに限定されています。つまり、アップグレードはすべてのプラットフォームの次の2つのリリースでのみ実行できます。たとえば、Unified Manager 9.11および9.12からUnified Manager 9.13へのアップグレードのみを実行できます。</block>
+  <block id="71fe23ad02d21335634fd808f81abb9d" category="paragraph">たとえば、インストールされているバージョンがOnCommand Unified Manager 9.6で、最新リリースのActive IQ Unified Manager 9.13にアップグレードする場合は、一連のアップグレードを実行します。</block>
+  <block id="fb3b5c035c5ba71c2c59c445e55db80f" category="list-text">OnCommand Unified Manager 9.6 -&gt; Active IQ Unified Manager 9.8をアップグレードします</block>
+  <block id="00a5f608528a3c8f9dee567fa67fce77" category="list-text">9.8 -&gt; 9.10にアップグレードします</block>
+  <block id="466bab2e0b2db2e18df0e46fe1bed104" category="list-text">9.10 -&gt; 9.12にアップグレードします</block>
+  <block id="a7830ad2c8a207ef49179b294bb2f025" category="list-text">9.12 -&gt; 9.13にアップグレードしてください</block>
+  <block id="2b90c781f48ab27f0611fcc76595d020" category="inline-link">Active IQ Unified Manager 9.13に関する注意事項</block>
+  <block id="e6d61d37895b034d3461d5f6ae4e8c77" category="paragraph"><block ref="e6d61d37895b034d3461d5f6ae4e8c77" category="inline-link-rx"></block></block>
+  <block id="07e64bde2741cba9c996bfaa9246c42e" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタの使用済み物理容量（Storage Efficiencyによる削減効果の適用後）と使用可能な物理容量（Storage Efficiencyによる削減効果を除く）、ディスクがフルになるまでの予測日数が表示されます。 および、ONTAP のStorage Efficiency設定に基づいたデータ削減率（Snapshotコピーなし）。また、設定されているクラウド階層の使用済み容量も表示されます。棒グラフをクリックすると、そのクラスタのアグリゲートのインベントリページが表示されます。「フルまでの日数」というテキストをクリックすると容量の残り日数が最も少ないアグリゲートを示すメッセージが表示され、そのアグリゲート名をクリックすると詳細が表示されます。</block>
+  <block id="31da7a174193d0e3fa2ca76d23beaa6f" category="paragraph">ワークロードに割り当てられている SEP は、すべてのワークロードページおよびボリューム / 健全性の詳細ページで確認できます。これらのStorage Efficiencyに基づいて、ダッシュボードの[容量]パネルと[容量：すべてのクラスタ]ビューで、クラスタレベルのデータ削減率（Snapshotコピーなし）を確認できます。</block>
+  <block id="82a7176206931de918a75924be730954" category="list-text">[ クラスタの編集（ Edit Cluster ） ] ダイアログボックスで、必要に応じて値を変更します。+Unified Managerに追加したクラスタの詳細を変更した場合は、ONTAP のバージョンに基づいて相互TLS通信の証明書の詳細を表示できます。ONTAP バージョンの詳細については、を参照してください <block ref="9dbbbab565c0407ee80c1daf0485bbe4" category="inline-link-macro-rx"></block>。+[証明書の詳細]をクリックすると、証明書の詳細を表示できます。証明書の有効期限が切れている場合は、* Regenerate*ボタンをクリックして新しい証明書を組み込みます。</block>
+  <block id="9a13b3deb178bc20318d801250fae975" category="admonition">VMware ESXiおよびvCenter Server向けのUnified Managerは、英語と日本語でサポートされます。</block>
+  <block id="b0a22f4d07e712fe64b93c1374ccf739" category="paragraph">ストレージ環境内のUnified Managerで管理されているすべてのクラスタが表示されます。クラスタのリストは収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
+  <block id="21f927966fb538fc77f7b83256804bf9" category="sidebar">Active IQ Unified Manager 9.13のドキュメント</block>
+  <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">MetroCluster 設定を監視する</block>
+  <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified ManagerのAPIリファレンス</block>
 </blocks>

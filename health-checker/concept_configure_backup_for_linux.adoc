@@ -21,7 +21,7 @@ Snapshotコピーにかかる時間はごくわずかで、通常は数分です
 ====
 * Snapshotコピーは、同じバージョンのActive IQ Unified Manager にのみリストアできます。
 +
-たとえば、Unified Manager 9.12でバックアップを作成した場合、そのバックアップはUnified Manager 9.12システムにのみリストアできます。
+たとえば、Unified Manager 9.13で作成したバックアップは、Unified Manager 9.13のシステムにのみリストアできます。
 
 * Snapshot 設定に変更原因があると、 Snapshot が無効である可能性があります。
 

@@ -47,7 +47,7 @@ OpenJDKバージョン11.0.17
 
 
  a| 
-MySQL 8.0.30 Community Editionの場合
+MySQL 8.0.32 Community Edition
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
@@ -59,7 +59,7 @@ p7zip 16.02
 rpm -qa | grep p7zip
 
 |===
-. MySQL 8.0.30 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。
+. MySQL 8.0.32 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 
@@ -121,6 +121,12 @@ yum 'install NetApp-um <version>.x86_64.rpm
 
 +
 このコマンドを実行すると、 .rpm パッケージ、必要な他のすべてのサポートソフトウェア、および Unified Manager ソフトウェアがインストールされます。
+
++
+インストールがGPG NOKEYエラーで失敗した場合は、を使用します `rpm --import` URLからキーをインポートするには、次の手順に従います。
+
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
 
 +
 [NOTE]

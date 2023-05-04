@@ -104,7 +104,7 @@ OnCommand および OnCommand Workflow Automation API サービスから Unified
 |===
 [NOTE]
 ====
-MySQLのデフォルトポート3306は、WindowsシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます `Control access to MySQL port 3306` メンテナンスコンソールのオプション。詳細については、を参照してください link:../config/reference_additional_menu_options.html["その他のメニューオプション"]。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]。
+MySQLのデフォルトポート3306は、WindowsシステムにUnified Managerをインストールする際にlocalhostにのみ使用できます。インストールが完了したら、ファイアウォールを有効にしてポートmysql（3306）へのアクセスを制限します。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます `Control access to MySQL port 3306` メンテナンスコンソールのオプション。詳細については、を参照してください link:../config/reference_additional_menu_options.html["その他のメニューオプション"]。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager を設定しています"]。
 
 ====
 
