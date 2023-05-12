@@ -13,4 +13,4 @@ summary: Unified Manager では、監視しているすべてのクラスタで�
 [role="lead"]
 Unified Manager では、監視しているすべてのクラスタで使用可能な QoS ポリシーグループを表示できます。ポリシーは、 ONTAP ソフトウェア（ System Manager または ONTAP CLI ）または Unified Manager のパフォーマンスサービスレベルポリシーを使用して定義されたものです。Unified Manager には、 QoS ポリシーグループが割り当てられているボリュームと LUN も表示されます。
 
-QoS設定の調整の詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/index.html["パフォーマンス管理の概要"]
+QoS設定の調整の詳細については、を参照してください https://["パフォーマンス管理の概要"]

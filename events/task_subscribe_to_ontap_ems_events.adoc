@@ -19,7 +19,7 @@ Unified Manager にすでに自動的に追加されている EMS イベント�
 
 EMS イベントはいくつでも登録できます。登録したすべてのイベントが検証され、検証済みのイベントだけが Unified Manager で監視しているクラスタに適用されます。ONTAP 9 EMS イベントカタログ _ は、指定したバージョンの ONTAP 9 ソフトウェアのすべての EMS メッセージに関する詳細情報を提供します。該当するイベントの一覧については、 ONTAP 9 製品ドキュメントページで該当するバージョンの _EMS イベントカタログを参照してください。
 
-https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["ONTAP 9 製品ライブラリ"]
+https://["ONTAP 9 製品ライブラリ"]
 
 登録した ONTAP EMS イベントにアラートを設定したり、それらのイベントに対して実行するカスタムスクリプトを作成したりできます。
 
@@ -36,7 +36,7 @@ https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=6
 登録可能な EMS イベントの名前を表示するには、 ONTAP クラスタシェルから「 event route show 」コマンド（ ONTAP 9 より前）または「 event catalog show 」コマンド（ ONTAP 9 以降）を使用します。
 
 +
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_configure_and_receive_alerts_from_ONTAP_EMS_Event_Subscription_in_Active_IQ_Unified_Manager["Active IQ Unified Manager で ONTAP EMS イベントサブスクリプションからアラートを設定して受信する方法"]
+https://["Active IQ Unified Manager で ONTAP EMS イベントサブスクリプションからアラートを設定して受信する方法"]
 
 . [ 追加（ Add ） ] をクリックします。
 +

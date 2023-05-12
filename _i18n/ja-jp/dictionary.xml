@@ -11660,7 +11660,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">最小割り当て：最大スループット（ピーク）IOPSを決定するために「割り当てスペース」と「使用済みスペース」のどちらを使用するか。</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">想定レイテンシ：ストレージの入出力処理の想定平均レイテンシ。</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">Shared：従来のQoSポリシーの場合、ポリシーグループに定義されたスループット値を複数のオブジェクトで共有するかどうか。</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。QoSポリシーグループ名の横にある展開ボタン（）をクリックすると、そのポリシーグループに関する詳細を確認できます。</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">Allocated Capacity：QoSポリシーグループ内のオブジェクトが現在使用しているスペースの量。</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">関連付けられているオブジェクト：QoSポリシーグループに割り当てられているワークロードの数。ボリュームとLUNに分けて表示されます。数字をクリックすると、選択したボリュームまたはLUNに関する詳細情報を表示するページに移動できます。</block>
   <block id="034dcd82cded6710adb9ee975eac3378" category="paragraph">詳細については、のトピックを参照してください <block ref="d9e71bb30662a6bff1b9bdd194cdc91c" category="inline-link-macro-rx"></block>。</block>
@@ -11739,7 +11738,6 @@
   <block id="c1d47624946f3a469492d8dba1510dc8" category="paragraph">以下の手順に従って、MetroCluster over FC構成のデータレプリケーションの問題を特定します。</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">[* Health: All Clusters]ビューで、MetroCluster レプリケーションの詳細を表示するクラスタの名前をクリックします。[*クラスタ/ヘルスの詳細*]ページで、[* MetroCluster レプリケーション*]タブをクリックします。</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">に表示される情報を基に、レプリケーションの問題を修正できます。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
   <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Managerアプリケーションの削除を実行できます。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">を参照してください <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">サポートされているWebブラウザで新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用します。</block>
@@ -11913,4 +11911,7 @@
   <block id="21f927966fb538fc77f7b83256804bf9" category="sidebar">Active IQ Unified Manager 9.13のドキュメント</block>
   <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">MetroCluster 設定を監視する</block>
   <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified ManagerのAPIリファレンス</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">レプリケーションの問題を修正するには、クラスタ / 健常性の詳細ページに表示される情報を使用します。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。展開ボタン（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）をクリックし、ポリシーグループに関する詳細情報を表示します。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows管理者としてPowerShellまたはコマンドプロンプトを起動します。</block>
 </blocks>

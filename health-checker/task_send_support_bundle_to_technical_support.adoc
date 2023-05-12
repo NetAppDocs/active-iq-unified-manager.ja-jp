@@ -23,6 +23,6 @@ summary: 問題で AutoSupport メッセージよりも詳細な診断情報と�
 . ネットアップサポートサイトにログインします。
 . ファイルをアップロードします。
 +
-https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/How_to_upload_a_file_to_NetApp["ネットアップにファイルをアップロードする方法"]
+https://["ネットアップにファイルをアップロードする方法"]
 
 

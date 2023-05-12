@@ -23,13 +23,13 @@ MySQL リポジトリリポジトリリポジトリは、システムにイン�
 .手順
 . インストールに対応する MySQL リポジトリをダウンロードします。Red Hat Enterprise Linux 7 の場合は、次のサイトからダウンロードしてください。
 +
-「 + wget 」と入力します http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`[]
+「 + wget 」と入力します http://[]
 
 +
 バージョン 8 については、次のサイトからダウンロードしてください。
 
 +
-「 + wget 」と入力します http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`[]
+「 + wget 」と入力します http://[]
 
 . MySQL リポジトリを設定します。
 +

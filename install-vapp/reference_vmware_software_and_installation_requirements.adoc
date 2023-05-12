@@ -34,7 +34,7 @@ VMware vSphereシステム上のUnified Manager OVAは、内部でDebian OS 11�
 
 サポートされている ESXi のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 仮想アプライアンスが正しく動作するには、 VMware ESXi サーバの時刻が NTP サーバの時刻と同じである必要があります。VMware ESXi サーバの時刻を NTP サーバの時刻と同期すると、時刻に関する障害は発生しなくなります。
 

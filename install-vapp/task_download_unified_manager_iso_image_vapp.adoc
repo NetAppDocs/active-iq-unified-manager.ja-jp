@@ -20,7 +20,7 @@ Unified Manager をアップグレードする前に、 Unified Manager のア�
 .手順
 . ネットアップサポートサイトにログインします。
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"]
+https://["ネットアップサポートサイト"]
 
 . VMware vSphere での Unified Manager のアップグレードのダウンロードページに移動します。
 . アップグレード用の「 .iso 」イメージをダウンロードし、 vSphere Client からアクセス可能なローカルディレクトリまたはネットワークディレクトリに保存します。

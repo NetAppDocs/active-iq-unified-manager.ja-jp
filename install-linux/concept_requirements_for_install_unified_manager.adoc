@@ -17,8 +17,8 @@ summary: インストールプロセスを開始する前に、 Unified Manager 
 
 Unified Manager サーバへのセキュリティ対策の適用の詳細については、ナレッジベースの記事を参照してください。
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Data ONTAP for clustered Active IQ Unified Manager に適用されるセキュリティ対策のサポート性"]
+https://["Data ONTAP for clustered Active IQ Unified Manager に適用されるセキュリティ対策のサポート性"]
 
 * 関連情報 *
 
-https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]
+https://["NetApp Interoperability Matrix Tool で確認できます"]

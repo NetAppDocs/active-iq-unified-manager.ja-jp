@@ -15,7 +15,7 @@ Unified Manager Web UI にアクセスするには、サポートされている
 
 サポートされているブラウザとバージョンは Interoperability Matrix で確認できます。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+http://["mysupport.netapp.com/matrix"^]
 
 すべてのブラウザで、ポップアップブロックを無効にすることでソフトウェアの機能が正しく表示されます。
 

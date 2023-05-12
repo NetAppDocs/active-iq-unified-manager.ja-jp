@@ -13,4 +13,4 @@ summary: Active IQ Unified Manager 9.13の新機能、制限事項、および�
 [role="lead"]
 Active IQ Unified Manager 9.13の新機能、制限事項、および既知の問題の概要を示します。
 
-詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2885771["Active IQ Unified Manager リリースノート"]。
+詳細については、を参照してください https://["Active IQ Unified Manager リリースノート"]。

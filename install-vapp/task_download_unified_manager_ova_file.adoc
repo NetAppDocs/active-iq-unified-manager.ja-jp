@@ -22,7 +22,7 @@ Unified Manager のインストールファイルをネットアップサポー�
 .手順
 . ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"]
+https://["ネットアップサポートサイト"]
 
 . 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
 . をダウンロードして保存します `.tar` File for VMware vSphereをインストールし、vSphere Clientからアクセス可能なローカルまたはネットワークのディレクトリにインストールします。

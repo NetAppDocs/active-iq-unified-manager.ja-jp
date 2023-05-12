@@ -26,4 +26,4 @@ Active IQ Unified Manager では、バージョンごとに特定のアップグ
 . 9.12 -> 9.13にアップグレードしてください
 
 
-アップグレードパスマトリックスの詳細については、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["ナレッジベース（KB）の記事を参照してください"]。
+アップグレードパスマトリックスの詳細については、こちらを参照してください https://["ナレッジベース（KB）の記事を参照してください"]。

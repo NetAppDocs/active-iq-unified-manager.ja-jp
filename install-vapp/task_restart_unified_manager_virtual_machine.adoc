@@ -28,4 +28,4 @@ VMware * Restart Guest * オプションを使用して、 vSphere から仮想�
 
 * 関連情報 *
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI Cmdlets Reference ： Restart-VMGuest"]
+https://["VMware vSphere PowerCLI Cmdlets Reference ： Restart-VMGuest"]
