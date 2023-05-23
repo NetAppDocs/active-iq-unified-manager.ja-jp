@@ -71,7 +71,7 @@ Securityパネルには、現在のビューに応じて、すべてのクラス
 
 準拠クラスタと非準拠クラスタ、Storage VM、暗号化ボリュームと非暗号化ボリューム、およびボリュームのランサムウェア対策ステータスの棒グラフをクリックすると、該当するページに移動し、フィルタリングされたクラスタ、Storage VM、およびボリュームのセキュリティの詳細を表示できます。
 
-コンプライアンスは、に基づいています http://["『 ONTAP 9 セキュリティ設定ガイド』"]。パネル上部の右矢印をクリックして、Securityページですべてのクラスタのセキュリティの詳細を表示します。詳細については、を参照してくださいlink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["クラスタと Storage VM の詳細なセキュリティステータスの表示"]。
+コンプライアンスは、に基づいています http://www.netapp.com/us/media/tr-4569.pdf["『 ONTAP 9 セキュリティ設定ガイド』"]。パネル上部の右矢印をクリックして、Securityページですべてのクラスタのセキュリティの詳細を表示します。詳細については、を参照してくださいlink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["クラスタと Storage VM の詳細なセキュリティステータスの表示"]。
 
 
 

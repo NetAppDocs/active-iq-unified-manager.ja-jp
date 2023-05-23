@@ -17,4 +17,4 @@ Active IQ Unified Manager （旧 OnCommand Unified Manager ）を使用すると
 
 * 関連情報 *
 
-https://["NetApp Interoperability Matrix Tool で確認できます"]
+https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"]

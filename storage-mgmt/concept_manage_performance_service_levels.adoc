@@ -132,7 +132,7 @@ LUN またはファイル共有でアプリケーションが実行できる最�
 PSL が割り当てられているストレージワークロードの数。
 
 |===
-ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。https://["パフォーマンスの予算編成とは"]
+ピーク IOPS と想定 IOPS が、 ONTAP クラスタで一貫した差別化されたパフォーマンスを実現するのにどのように役立つかについては、次の技術情報アーティクルを参照してください。https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["パフォーマンスの予算編成とは"]
 
 
 

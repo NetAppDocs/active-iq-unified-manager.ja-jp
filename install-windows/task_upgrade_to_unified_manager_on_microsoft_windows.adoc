@@ -54,7 +54,7 @@ Unified Manager を OnCommand Workflow Automation のインスタンスとペア
 .手順
 . ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。
 +
-https://["ネットアップサポートサイト"^]。
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"^]。
 
 . 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
 . Unified Manager Windows インストールファイルを Windows システムのターゲットディレクトリにダウンロードします。

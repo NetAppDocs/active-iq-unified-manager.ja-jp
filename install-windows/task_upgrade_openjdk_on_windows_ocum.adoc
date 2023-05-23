@@ -23,7 +23,7 @@ OpenJDK のリリースはリリースファミリー内で更新できます。
 . Unified Manager ホストマシンに admin ユーザとしてログインします。
 . OpenJDK の適切なバージョン（ 64 ビット）をターゲットシステムにダウンロードします。
 +
-たとえば、から「 openjdk-11_windows-x64_bin.zip 」をダウンロードします http://[]。
+たとえば、から「 openjdk-11_windows-x64_bin.zip 」をダウンロードします http://jdk.java.net/11/`[]。
 
 . Windows サービスコンソールを使用して、次の Unified Manager サービスを停止します。
 +

@@ -68,4 +68,4 @@ IOPS/TB の下限（ QoS 想定）を表示する
 
 特定のボリュームまたは LUN の IOPS や MBps が非常に高く、システムリソースを圧迫している場合は、 System Manager または ONTAP CLI を使用して、それらのワークロードが他のワークロードのパフォーマンスに影響しないように QoS 設定を調整することができます。
 
-QoS設定の調整の詳細については、を参照してください http://["パフォーマンス管理の概要"]
+QoS設定の調整の詳細については、を参照してください http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["パフォーマンス管理の概要"]

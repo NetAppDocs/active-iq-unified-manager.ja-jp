@@ -33,7 +33,7 @@ Unified Manager は、以下の言語で 64 ビットの Windows オペレーテ
 
 サポートされている Windows のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
 
-http://["mysupport.netapp.com/matrix"^]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
 
 NOTE: ネットアップは、Microsoft System Center Configuration Manager（SCCM）などのサードパーティツールを使用したUnified Managerのインストールをサポートしていません。

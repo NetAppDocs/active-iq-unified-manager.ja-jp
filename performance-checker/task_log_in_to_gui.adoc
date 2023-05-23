@@ -17,7 +17,7 @@ Unified Manager の UI には、サポートされている Web ブラウザか�
 
 * Web ブラウザが最小要件を満たしている必要があります。
 +
-詳細については、 Interoperability Matrix を参照してください http://["mysupport.netapp.com/matrix"] をクリックして、サポートされているブラウザバージョンの一覧を表示します。
+詳細については、 Interoperability Matrix を参照してください http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] をクリックして、サポートされているブラウザバージョンの一覧を表示します。
 
 * Unified Manager サーバの IP アドレスまたは URL が必要です。
 

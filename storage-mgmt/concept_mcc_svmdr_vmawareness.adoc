@@ -27,7 +27,7 @@ MetroCluster 構成でデータストアを表示する前に、次の前提条�
 * HA ペアのプライマリクラスタとセカンダリクラスタ、および vCenter Server を Unified Manager で管理する必要があります。
 * ONTAP および vCenter Server で必要なセットアップを完了しておく必要があります。詳細については、 ONTAP および vCenter のドキュメントを参照してください。
 +
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
 
 
 
@@ -60,7 +60,7 @@ Storage VM ディザスタリカバリ構成でデータストアを表示する
 セットアップの詳細については、 ONTAP および vCenter Server のドキュメントを参照してください。
 
 +
-https://["ONTAP 9 ドキュメンテーション・センター"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーション・センター"]
 
 
 
