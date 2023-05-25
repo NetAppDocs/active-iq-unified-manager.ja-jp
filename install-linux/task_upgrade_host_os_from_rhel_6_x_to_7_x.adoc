@@ -11,15 +11,13 @@ summary: Unified Manager がインストールされている Red Hat Enterprise
 
 
 [role="lead"]
-Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。
+Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.7です。
 
 ここに記載する 2 つの方法の違いは、 Unified Manager のリストア処理を新しい 8.x サーバで実行する場合と同じサーバで実行する場合です。
 
 この作業では、 Red Hat Enterprise Linux 7.x システムで Unified Manager のバックアップを作成する必要があるため、 Unified Manager がオフラインになる時間が最小限になるように、アップグレードプロセス全体を実行する準備ができてからバックアップを作成します。Red Hat Enterprise Linux 7.x システムをシャットダウンしたあと、新しい Red Hat Enterprise Linux 8.x を起動するまではデータが収集されないため、その間のデータは Unified Manager UI に表示されません。
 
-バックアップとリストアのプロセスの詳細な手順については、 Active IQ Unified Manager オンラインヘルプを参照してください。
-
-* 新しいサーバを使用したホスト OS のアップグレード *
+を参照してください link:../health-checker/concept_manage_backup_and_restore_operations.html["バックアップとリストアの処理の管理"] バックアッププロセスとリストアプロセスの詳細な手順を確認する必要がある場合。
 
 Red Hat Enterprise Linux 8.x ソフトウェアをインストールできるスペアシステムがある場合は、 Red Hat Enterprise Linux 7.x システムが稼働している間にスペアシステムで Unified Manager のリストアを実行できるように、次の手順に従います。
 
