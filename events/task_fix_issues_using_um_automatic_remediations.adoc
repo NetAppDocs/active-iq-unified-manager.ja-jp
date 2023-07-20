@@ -18,7 +18,7 @@ summary: イベントによっては、 Unified Manager の詳細な診断によ
 .手順
 . * ダッシュボード * から解決できるイベントを表示するには、 * ダッシュボード * をクリックします。
 +
-image::../media/management_actions.png[管理操作]
+image::../media/management_actions.png[ダッシュボードからイベントを表示および修正する方法を示すUIのスクリーンショット。]
 
 . Unified Manager で修正可能な問題を解決するには、 * 修正 * ボタンをクリックします。複数のオブジェクトに存在する問題を修正するには、 * すべて修正 * ボタンをクリックします。
 

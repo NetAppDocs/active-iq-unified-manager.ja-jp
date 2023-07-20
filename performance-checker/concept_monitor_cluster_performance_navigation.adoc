@@ -25,4 +25,4 @@ Unified Manager で管理しているすべてのクラスタのパフォーマ�
 . エクスプローラページの右側にある比較ペインで、いずれかのカウンタチャートの * ズームビュー * をクリックすると、そのアグリゲートのパフォーマンス履歴の詳細が表示されます。
 
 
-image::../media/monitor_cluster_performance.png[クラスタのパフォーマンスを監視する]
+image::../media/monitor_cluster_performance.png[特定のアグリゲートを調査する方法を示すUIのスクリーンショット。]

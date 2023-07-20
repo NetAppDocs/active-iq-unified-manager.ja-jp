@@ -23,7 +23,7 @@ Unified Manager を使用するには、 NTP サーバ、メンテナンスユ�
 
 Active IQ Unified Manager の Getting Started ページは、最初に Web UI にアクセスしたときにのみ表示されます。次のページは、 VMware 環境の場合のものです。
 
-image::../media/first_experience_wizard.JPG[初期設定ウィザード]
+image::../media/first_experience_wizard.JPG[VMwareへのインストールからのページを示すUIのスクリーンショット。]
 
 これらのオプションをあとから変更する場合は、 Unified Manager の左側のナビゲーションペインで一般オプションから選択できます。NTP 設定は VMware 専用です。この設定はあとから Unified Manager メンテナンスコンソールを使用して変更できます。
 

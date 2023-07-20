@@ -13,6 +13,6 @@ summary: Active IQ プラットフォームのインシデントとリスクは�
 [role="lead"]
 Active IQ プラットフォームのインシデントとリスクは、次の図に示すように Unified Manager のイベントに変換されます。
 
-image::../media/aiq_and_um_event_generation.png[aiq および um イベント生成]
+image::../media/aiq_and_um_event_generation.png[Active IQプラットフォームのインシデントとリスクがUnified Managerのイベントに変換されたことを示すUIのスクリーンショット。]
 
 このように、 Active IQ プラットフォームで作成されたルールファイルが最新の状態に維持され、クラスタの AutoSupport メッセージが毎日生成され、 Unified Manager がイベントのリストを毎日更新します。

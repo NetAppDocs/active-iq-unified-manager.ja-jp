@@ -21,7 +21,7 @@ summary: 'スケジュールされたレポートは、 [ レポートスケジ�
 .手順
 . 左側のナビゲーションペインで、 * ストレージ管理 * > * レポートスケジュール * をクリックします。
 +
-image::../media/scheduled_reports_2.gif[スケジュール済みレポート 2.]
+image::../media/scheduled_reports_2.gif[スケジュールされたレポートを示すUIスクリーンショット。]
 
 +
 [NOTE]

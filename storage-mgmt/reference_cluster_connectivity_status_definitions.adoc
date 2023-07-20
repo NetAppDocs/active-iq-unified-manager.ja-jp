@@ -22,7 +22,7 @@ MetroCluster over FC構成のクラスタ間の接続のステータスは、「
  a| 
 MetroCluster 構成のクラスタ間の接続は正常な状態です。
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster接続最適化アイコン"]
 
 
 
@@ -31,7 +31,7 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 1 つ以上のエラーによってフェイルオーバー可用性のステータスが損なわれていますが、 MetroCluster 構成の両方のクラスタは稼働しています。たとえば、 ISL リンクが停止している、クラスタ間 IP リンクが停止している、パートナークラスタにアクセスできないなどの場合です。
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["MetroCluster接続に影響を与えるアイコン"]
 
 
 
@@ -42,10 +42,10 @@ image:../media/metrocluster_connectivity_impacted.gif[""]
  a| 
 スイッチオーバーでエラー：
 
-image::../media/metrocluster_connectivity_down.gif[MetroCluster 接続がダウンしています]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster接続ダウンアイコン]
 
 スイッチオーバー成功：
 
-image::../media/metrocluster_connectivity_failover.gif[MetroCluster 接続のフェイルオーバー]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster接続フェイルオーバーアイコン]
 
 |===

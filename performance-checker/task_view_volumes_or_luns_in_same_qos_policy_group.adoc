@@ -23,7 +23,7 @@ summary: 同じ QoS ポリシーグループに割り当てられているボリ
 Performance ： Traditional QoS Policy Groups ビューがデフォルトで表示されます。
 
 . 従来のポリシーグループに関心がある場合は、このページを表示したままにします。それ以外の場合は、追加の View オプションを 1 つ選択して、 Unified Manager のパフォーマンスサービスレベルによって作成されたすべてのアダプティブ QoS ポリシーグループまたはすべての QoS ポリシーグループを表示します。
-. 目的の QoS ポリシーで、展開ボタン（image:../media/chevron_down.gif[""]）をクリックしてください。image:../media/adaptive_qos_expanded.gif[""]
+. 目的の QoS ポリシーで、展開ボタン（image:../media/chevron_down.gif["展開ボタンアイコン"]）をクリックしてください。image:../media/adaptive_qos_expanded.gif["Unified Managerのパフォーマンスサービスレベルによって作成されたすべてのQoSポリシーグループを示すUIのスクリーンショット。"]
 . ボリュームまたは LUN のリンクをクリックし、この QoS ポリシーを使用しているオブジェクトを表示します。
 +
 ボリュームまたは LUN のパフォーマンスインベントリページが、 QoS ポリシーを使用しているオブジェクトのソート済みリストとともに表示されます。

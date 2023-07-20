@@ -28,4 +28,4 @@ ONTAP が提供する物理ストレージオブジェクトのことです。�
 
 次の図は、 2 ノードクラスタのストレージリソースを示しています。
 
-image::../media/storage_resource_model.gif[ストレージリソースモデル]
+image::../media/storage_resource_model.gif[2ノードクラスタのストレージリソースを示すUIのスクリーンショット。]

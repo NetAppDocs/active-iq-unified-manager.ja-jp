@@ -45,7 +45,7 @@ Unified Manager でパフォーマンスカウンタの値を監視する必要�
  a| 
 ページ上のすべてのオブジェクト
  a| 
-をクリックします image:../media/select_dropdown_65_png.gif[""] をクリックします。
+をクリックします image:../media/select_dropdown_65_png.gif["ドロップダウンアイコンを選択"] をクリックします。
 
 |===
 . パフォーマンスしきい値ポリシーのクリア * をクリックします。

@@ -24,7 +24,7 @@ summary: 合計とクラスタ化された棒グラフ形式を使用して、 E
 . 左側のナビゲーションペインで、 * Storage * > * Aggregates * をクリックします。
 . [* レポート *>] > [* Excel のダウンロード *] を選択します。
 +
-image::../media/download_excel_menu.png[Excel メニューをダウンロードします]
+image::../media/download_excel_menu.png[レポートからExcelをダウンロードする方法を示すUIスクリーンショット。]
 
 +
 ブラウザによっては、ファイルを保存するために * OK * をクリックする必要があります。
@@ -53,7 +53,7 @@ image::../media/download_excel_menu.png[Excel メニューをダウンロード�
 
 
 
-image::../media/capacitysums.png[容量]
+image::../media/capacitysums.png[現在のデータに基づく合計容量を示すデータシートのUIスクリーンショット。]
 
 . データシートで、列 [ 合計データ容量（ GB ） ] および [ コミット容量（ GB ） ] * を選択します。
 . [ * 挿入 * （ Insert * ） ] メニューから [ * 推奨チャート * （ Recommended Charts * ） ] を選択し、 [ * クラスタ化された列 * （ * Clustered Column
@@ -61,7 +61,7 @@ image::../media/capacitysums.png[容量]
 . グラフを選択したときに使用できる * デザイン * および * フォーマット * メニューを使用して、グラフの外観をカスタマイズできます。
 . 必要に応じて、ファイルに変更を保存します。ファイルの名前や場所は変更しないでください。
 +
-image::../media/cluster_column_chart_2.png[クラスタの列グラフ 2.]
+image::../media/cluster_column_chart_2.png[合計データ容量とコミット済み容量を示すグラフのUIスクリーンショット]
 
 . Unified Manager で、 * Reports * > * Upload Excel * を選択します。
 +
@@ -77,7 +77,7 @@ Excel ファイルをダウンロードしたときと同じビューに表示�
 [*Reports*>*Upload Excel*] メニュー項目の横にチェックマークが表示されます。
 
 +
-image::../media/upload_excel.png[Excel をアップロードします]
+image::../media/upload_excel.png[Excelをレポートにアップロードする方法を示すUIスクリーンショット。]
 
 . [ スケジュール済みレポート ] をクリックします。
 . [ レポートスケジュール ] ページに新しい行を追加して、新しいレポートのスケジュール特性を定義できるようにするには、 [ スケジュールの追加 ] をクリックします。

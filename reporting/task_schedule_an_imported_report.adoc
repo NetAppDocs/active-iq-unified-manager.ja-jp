@@ -24,11 +24,11 @@ Unified Manager 9.6 GA 以降にアップグレードすると、レポートス
 .手順
 . [ レポートスケジュール ] ページを開きます。インポートしたレポートがある場合は、メッセージが表示されます。
 +
-image::../media/message_non_scehduled_reports.png[メッセージレポートが傷んでいません]
+image::../media/message_non_scehduled_reports.png[インポートされたレポートがある場合は、メッセージを示すUIのスクリーンショットが表示されます。]
 
 . *View* 名をクリックして、レポートの生成に使用されている SQL クエリを表示します。
 +
-image::../media/importedreport1.png[importedreport1]
+image::../media/importedreport1.png[レポートの生成に使用されたSQLクエリを示すUIのスクリーンショット。]
 
 . [ 詳細 ] アイコンをクリックします image:../media/more_icon.gif[""]をクリックし、 * Edit * をクリックしてレポートスケジュールの詳細を定義し、レポートを保存します。
 +

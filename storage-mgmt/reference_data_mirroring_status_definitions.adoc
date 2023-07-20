@@ -22,7 +22,7 @@ MetroCluster over FC構成では、データのミラーリングが可能で、
  a| 
 MetroCluster 構成のクラスタ間のデータミラーリングが正常な状態です。
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster接続最適化アイコン"]
 
 
 
@@ -33,10 +33,10 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 スイッチオーバーでエラー：
 
-image::../media/metrocluster_connectivity_down.gif[MetroCluster 接続がダウンしています]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster接続ダウンアイコン]
 
 スイッチオーバー成功：
 
-image::../media/metrocluster_connectivity_failover.gif[MetroCluster 接続のフェイルオーバー]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster接続フェイルオーバーアイコン]
 
 |===

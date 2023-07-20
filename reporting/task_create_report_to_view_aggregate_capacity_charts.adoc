@@ -24,7 +24,7 @@ summary: ストレージの合計容量とコミット済み容量を Excel グ�
 . 左側のナビゲーションペインで、 * Storage * > * Aggregates * をクリックします。
 . [* レポート *>] > [* Excel のダウンロード *] を選択します。
 +
-image::../media/download_excel_menu.png[Excel メニューをダウンロードします]
+image::../media/download_excel_menu.png[レポートからExcelをダウンロードする方法を示すUIスクリーンショット。]
 
 +
 ブラウザによっては、ファイルを保存するために * OK * をクリックする必要があります。
@@ -33,7 +33,7 @@ image::../media/download_excel_menu.png[Excel メニューをダウンロード�
 . 必要に応じて、 * 編集を有効にする * をクリックします。
 . データシートで、 [ タイプ（ Type ） ] 列を右クリックし、 [ * 並べ替え * （ Sort * ） ]>[ * 昇順（ * Sort a to Z ） ] を選択します。
 +
-image::../media/sort_01.png[並べ替え 01]
+image::../media/sort_01.png[タイプ列でソートを選択する方法を示すUIスクリーンショット。]
 
 +
 これにより、次のようなストレージタイプ別にデータが配置されます。
@@ -51,7 +51,7 @@ image::../media/sort_01.png[並べ替え 01]
 グラフがデータシートに表示されます。
 
 +
-image::../media/3d_column_01.png[3D 列 01]
+image::../media/3d_column_01.png[3D縦棒グラフを示すUIのスクリーンショット。]
 
 . グラフを右クリックして、 * チャートの移動 * を選択します。
 . [ 新規シート * ] を選択し、シートに「 Total Storage Charts * 」という名前を付けます。
@@ -65,7 +65,7 @@ image::../media/3d_column_01.png[3D 列 01]
 . グラフを選択したときに使用できる * デザイン * および * フォーマット * メニューを使用して、グラフの外観をカスタマイズできます。
 . 必要に応じて、ファイルに変更を保存します。ファイルの名前や場所は変更しないでください。
 +
-image::../media/total_vs_available_capacity.png[合計容量と使用可能容量の比較]
+image::../media/total_vs_available_capacity.png[合計容量と使用可能容量のグラフを示すUIのスクリーンショット。]
 
 . Unified Manager で、 * Reports * > * Upload Excel * を選択します。
 +
@@ -81,7 +81,7 @@ Excel ファイルをダウンロードしたときと同じビューに表示�
 [*Reports*>*Upload Excel*] メニュー項目の横にチェックマークが表示されます。
 
 +
-image::../media/upload_excel.png[Excel をアップロードします]
+image::../media/upload_excel.png[Excelをレポートにアップロードする方法を示すUIスクリーンショット。]
 
 . [ スケジュール済みレポート ] をクリックします。
 . [ * スケジュールの追加 * ] をクリックして、新しいレポートのスケジュール特性を定義できるように、 [ レポートスケジュール * ] ページに新しい行を追加します。

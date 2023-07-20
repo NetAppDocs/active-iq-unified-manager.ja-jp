@@ -19,4 +19,4 @@ Unified Manager のアラート E メールには、イベントのタイプ、�
 
 アラート E メールの例を次に示します。
 
-image::../media/um_email_alert.gif[UM E メールアラート]
+image::../media/um_email_alert.gif[アラートEメールの例を示すUIのスクリーンショット。]

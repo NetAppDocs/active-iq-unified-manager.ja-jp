@@ -51,7 +51,7 @@ ONTAP ではこの 2 種類の QoS ポリシーを作成できますが、パフ
 |===
 次の図は、カウンタグラフでの 3 つのオプションの表示例を示したものです。
 
-image::../media/3_qos_policy_charts.gif[QoS ポリシーグラフ × 3]
+image::../media/3_qos_policy_charts.gif[カウンタチャートでの3つのオプションの表示例を示すUIのスクリーンショット。]
 
 IOPS で定義された標準の QoS ポリシーがワークロードの IOPS/TB チャートに表示される場合、 ONTAP は IOPS 値を IOPS/TB 値に変換し、 Unified Manager は IOPS/TB チャートにそのポリシーを「 QoS 、で定義」というテキストとともに表示します。
 

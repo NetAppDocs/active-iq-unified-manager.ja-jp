@@ -61,6 +61,6 @@ Unified Manager でインベントリページのデータをフィルタリン�
 
 次の図は、フィルタパネルと 3 つのフィルタを示しています。フィルタを最大 4 つまでしか使用できない場合は、「 * + フィルタを追加 * 」ボタンが表示されます。
 
-image::../media/opm_filtering_panel_draft_3.gif[OPM フィルタリングパネル、ドラフト 3]
+image::../media/opm_filtering_panel_draft_3.gif[フィルタリングパネルに3つのフィルタが表示されたUIスクリーンショット。]
 
 [ フィルタの適用（ Apply Filter ） ] をクリックすると、 [ フィルタ（ Filtering ） ] パネルが閉じ、フィルタが適用され、適用されているフィルタの数が表示されます（image:../media/opm_filters_applied.gif[""]）。

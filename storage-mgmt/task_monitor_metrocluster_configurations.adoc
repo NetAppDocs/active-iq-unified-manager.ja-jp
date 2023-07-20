@@ -49,7 +49,7 @@ image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager の MetroClu
 
 
 
-image::../media/node_switch_connectivity.gif[ノードスイッチの接続]
+image::../media/node_switch_connectivity.gif[ノードスイッチ接続アイコン]
 
 アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。
 
@@ -86,7 +86,7 @@ NOTE: ステータスは、Critical（image:sev_critical_um60.png[""]）、エ�
 次の図では、ソースクラスタとデスティネーションクラスタ間のサイト間接続が利用できず、クラスタ間のメディエーターが設定されていないことを確認できます。
 
 +
-image:mcc-ip-conn-status.png[""]
+image:mcc-ip-conn-status.png["ソースサイト、ミラーサイト、およびメディエーターのトポロジを示すUIのスクリーンショット。"]
 
 
 

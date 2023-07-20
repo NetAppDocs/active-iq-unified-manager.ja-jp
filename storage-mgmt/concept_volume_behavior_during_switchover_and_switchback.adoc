@@ -15,7 +15,7 @@ summary: スイッチオーバーまたはスイッチバックをトリガー�
 
 ボリュームが一方のクラスタからもう一方のクラスタに移動されるため、両方のクラスタを監視することを推奨します。Unified Manager では単 MetroCluster 一のインスタンスで両方のクラスタを監視できますが、監視する 2 つのクラスタ間の距離によっては、両方のクラスタを監視するために Unified Manager インスタンスが 2 つ必要になる場合があります。次の図は、 Unified Manager の単一のインスタンスを示しています。
 
-image::../media/opm_mcc_switchover.gif[OPM MCC スイッチオーバー]
+image::../media/opm_mcc_switchover.gif[Unified Managerの単一インスタンスを示すUIのスクリーンショット。]
 
 名前に「 p 」が付いているボリュームはプライマリボリュームで、「 b 」が付いているボリュームは SnapMirror で作成されたミラーバックアップボリュームです。
 
@@ -45,7 +45,7 @@ Vol3p と Vol3b は異なるクラスタにあるため、同じボリューム�
 
 クラスタ B が復旧してスイッチバックが実行されると、クラスタ B の Vol3p が再びアクティブになり、スイッチオーバー中に過去の統計と統計のギャップが生じます。別のスイッチオーバーが発生するまで、 Vol3b をクラスタ A で表示することはできません。
 
-image::../media/opm_mcc_volumes.gif[OPM の MCC ボリューム]
+image::../media/opm_mcc_volumes.gif[スイッチオーバー時のボリュームの動作を示すUIのスクリーンショット。]
 
 [NOTE]
 ====

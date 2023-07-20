@@ -32,7 +32,7 @@ summary: ハードウェア障害や災害が原因で保護関係のソース�
 反転関係は、カスケード関係に似ています。
 
 +
-image::../media/um_toplogy_reverse_resync.gif[UM トポロジの逆再同期]
+image::../media/um_toplogy_reverse_resync.gif[関係の逆方向のプロセスを示すUIのスクリーンショット。]
 
 . link:task_break_snapmirror_relationship_from_health_volume_details.html["反転する SnapMirror 関係を解除する"]。
 +

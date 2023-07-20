@@ -15,7 +15,7 @@ Active IQ プラットフォームのインシデントとリスクは、 Unifie
 
 次の図は、 Active IQ プラットフォームで生成されたイベントの解決時にユーザが実行する操作（緑）と Unified Manager で実行される操作（黒）を示しています。
 
-image::../media/aiq_and_um_event_resolution.png[aiq および um イベントの解決]
+image::../media/aiq_and_um_event_resolution.png[UIのスクリーンショット。イベントの解決時に実行する必要がある操作とUnified Managerで実行する操作が表示されます。]
 
 手動で解決する場合は、 System Manager または ONTAP コマンドラインインターフェイスにログインして問題を修正する必要があります。問題を検証できるのは、午前 0 時にクラスタで新しい AutoSupport メッセージが生成されたあとです。
 

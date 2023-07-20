@@ -28,7 +28,7 @@ summary: このレポートには、新しいワークロードをプロビジ�
 . カスタムビューに「 Available IOPS per Aggr. 」という名前を付けて保存します
 . [* レポート *>] > [* Excel のダウンロード *] を選択します。
 +
-image::../media/download_excel_menu.png[Excel メニューをダウンロードします]
+image::../media/download_excel_menu.png[レポートからExcelをダウンロードする方法を示すUIスクリーンショット。]
 
 +
 ブラウザによっては、ファイルを保存するために * OK * をクリックする必要があります。
@@ -62,7 +62,7 @@ Excel ファイルをダウンロードしたときと同じビューに表示�
 [*Reports*>*Upload Excel*] メニュー項目の横にチェックマークが表示されます。
 
 +
-image::../media/upload_excel.png[Excel をアップロードします]
+image::../media/upload_excel.png[Excelをレポートにアップロードする方法を示すUIスクリーンショット。]
 
 . [ スケジュール済みレポート ] をクリックします。
 . [ レポートスケジュール ] ページに新しい行を追加して、新しいレポートのスケジュール特性を定義できるようにするには、 [ スケジュールの追加 ] をクリックします。

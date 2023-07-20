@@ -33,7 +33,7 @@ summary: 詳細な使用済みパフォーマンス容量 - 内訳グラフに�
 パフォーマンスの詳細チャート。使用済みパフォーマンス容量 ] が表示されます。
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[ヘッドルームの詳細ズームチャート]
+image::../media/headroom_advanced_zoom_chart.gif[[Perf]の詳細グラフを示すUIのスクリーンショット使用済み容量：]
 
 . 詳細チャートにカーソルを合わせると、ポップアップウィンドウに使用されているパフォーマンス容量の情報が表示されます。
 +
