@@ -71,6 +71,8 @@ entries:
   entries:
   - title: vCenter Server を表示および追加する
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+  - title: vCenter Serverの削除
+    url: "/storage-mgmt/task_remove_vcenter_server.html"
   - title: 仮想マシンの監視
     url: "/storage-mgmt/concept_monitor_vms.html"
   - title: ディザスタリカバリの設定における仮想インフラの表示

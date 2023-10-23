@@ -66,7 +66,7 @@ MySQL がインストールされている場合は、次の点を確認して�
 * サービス名は「 `M YSQL8` 」です。
 
 
-Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 が Unified Manager にバンドルされて構成されています。
+Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3はUnified Managerにバンドルされ、設定されています。
 
 [NOTE]
 ====

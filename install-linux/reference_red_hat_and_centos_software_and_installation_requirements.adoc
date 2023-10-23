@@ -31,7 +31,7 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 == サードパーティ製ソフトウェア
 
-Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 が Unified Manager にバンドルされて構成されています。
+Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3はUnified Managerにバンドルされ、設定されています。
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 

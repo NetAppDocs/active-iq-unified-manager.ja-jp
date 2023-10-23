@@ -46,7 +46,8 @@ Unified Managerの古いバージョンを更新する場合、クラスタで�
 +
 [NOTE]
 ====
-*** 証明書ベースの認証は、Web UIからクラスタを追加した場合に自動的に有効になります。メンテナンスコンソールからクラスタを追加した場合、証明書ベースの認証は有効になりません。
+*** Web UIからクラスタを追加すると、証明書ベースの認証が自動的に有効になります。
+*** Unified ManagerのCLIを使用してクラスタを追加できますが、証明書ベースの認証はデフォルトでは有効になっていません。Unified Manager CLIを使用してクラスタを追加する場合は、Unified Manager UIを使用してクラスタを編集する必要があります。を参照してください link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Unified Manager の CLI コマンドがサポートされています"] をクリックしてください。
 *** クラスタで証明書ベースの認証が有効になっている場合に、Unified Managerのバックアップをサーバから作成し、ホスト名またはIPアドレスが変更された別のUnified Managerサーバにリストアすると、クラスタの監視が失敗することがあります。エラーを回避するには、クラスタの詳細を編集して保存します。クラスタの詳細の編集の詳細については、を参照してください link:../storage-mgmt/task_edit_clusters.html["クラスタを編集します"]。
 
 

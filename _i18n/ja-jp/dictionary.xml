@@ -4429,7 +4429,6 @@
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">デフォルトのポートを使用している。</block>
   <block id="ae6546f7996b91aa7c6e5c482b07f791" category="list-text">サンプルデータベースがインストールされていません。</block>
   <block id="a7b80eacf1b625bed035aa3b2a92bc46" category="list-text">サービス名は「 `M YSQL8` 」です。</block>
-  <block id="dcfc709b0268fc59e78dee65c4b3d005" category="paragraph">Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 が Unified Manager にバンドルされて構成されています。</block>
   <block id="f44cea6cd02b888cc6cc539426598769" category="paragraph">サードパーティ製ソフトウェアをアップグレードする前に、 Unified Manager の実行中のインスタンスをシャットダウンする必要があります。サードパーティ製ソフトウェアのインストールが完了したら、 Unified Manager を再起動できます。</block>
   <block id="086af4a1a8e18c416fda306afd129ecc" category="section-title">インストールの要件</block>
   <block id="8477864d39c6c8b50036cae20894546f" category="list-text">Microsoft .NET 4.5.2 以降がインストールされている必要があります。</block>
@@ -4716,7 +4715,6 @@
   <block id="b70d1d0a2a88ed730b8d7e854c93fdbe" category="doc">OpenJDK のアップグレード</block>
   <block id="27a27fa27099c3dd7d2e0cb3d56381f0" category="paragraph">Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。</block>
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">OpenJDK の適切なバージョン（ 64 ビット）をターゲットシステムにダウンロードします。</block>
-  <block id="db7fdcdf000c603674beba9fdd7c8075" category="paragraph">たとえば、から「 openjdk-11_windows-x64_bin.zip 」をダウンロードします<block ref="b90546eba13061ee913dc6d313e28839" category="inline-link-rx"></block>。</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">「 zip 」ファイルを展開します。</block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">Windows サービスコンソールを使用して Unified Manager サービスを開始します。</block>
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux プラットフォームでの Unified Manager のクイックスタートガイドです。</block>
@@ -11233,7 +11231,6 @@
   <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">WindowsでのSnapshotコピーのデスティネーションの指定</block>
   <block id="5a4a0cbbe603b22097ec5fceadf09c9b" category="list-text">メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します。</block>
   <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">クラスタ内のすべてのノードの使用済みパフォーマンス容量の値が比較され、いずれかのノードがしきい値の30%を超えて24時間以上経過していないかどうかが確認されます。これは警告イベントです。</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager の略</block>
   <block id="ffef03803be76fabe5b17e1b0cca3ca2" category="inline-link-macro">Active IQ Unified Manager REST APIの使用を開始する</block>
   <block id="bc284f9f2dda2417b7038eecc87d4d2c" category="paragraph">REST API は Swagger Web ページから利用できます。Unified Manager REST API ドキュメントを表示する場合、および API 呼び出しを手動で問題する場合は、 Swagger Web ページにアクセスします。Unified Manager Web UI のメニューバーで、 * ヘルプ * ボタンをクリックし、 * API ドキュメント * を選択します。Unified Manager REST APIについては、を参照してください <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>。</block>
   <block id="04e9746ec2f77de5b770208af5510f13" category="paragraph">ここでは、Unified ManagerのUIを使用したレポート作成とスケジュール設定について説明します。</block>
@@ -11315,7 +11312,6 @@
   <block id="5074bcdc61c8c494ace5e8cf081add31" category="list-text">[*Use STARTTLS *]または[*Use SSL *]オプションを選択した場合は、[*Save]ボタンをクリックすると証明書ページが表示されます。証明書の詳細を確認し、証明書を受け入れて通知設定を保存します。</block>
   <block id="df3718f6585166cac3f4557a21eabab0" category="paragraph">証明書の詳細を表示するには、[証明書の詳細を表示*]ボタンをクリックします。既存の証明書の有効期限が切れた場合は、「* STARTTLSを使用」または「* SSLを使用」チェックボックスをオフにし、通知設定を保存してから「* STARTTLSを使用*」または「SSLを使用*」チェックボックスを再度オンにして新しい証明書を表示します。</block>
   <block id="311a59e5248a2e51a6267bb49a15ab0e" category="paragraph">*相互TLS通信証明書*：Unified ManagerとONTAP 間の相互TLS通信で使用されます。証明書ベースの認証は、ONTAP のバージョンに基づいてクラスタで有効になります。ONTAP バージョン9.5よりも前のバージョンを実行しているクラスタでは、証明書ベースの認証が有効になっていません。</block>
-  <block id="9e1d78fcecc3350c4ecf08cec0b298a1" category="list-text">証明書ベースの認証は、Web UIからクラスタを追加した場合に自動的に有効になります。メンテナンスコンソールからクラスタを追加した場合、証明書ベースの認証は有効になりません。</block>
   <block id="75d2b5faa0992c7cda340e5d43fc46b2" category="list-text">クラスタで証明書ベースの認証が有効になっている場合に、Unified Managerのバックアップをサーバから作成し、ホスト名またはIPアドレスが変更された別のUnified Managerサーバにリストアすると、クラスタの監視が失敗することがあります。エラーを回避するには、クラスタの詳細を編集して保存します。クラスタの詳細の編集の詳細については、を参照してください <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>。</block>
   <block id="222b0f66c06702de8b7c2340008972c3" category="inline-link">System ManagerユーザインターフェイスでONTAP の自己署名証明書を更新する方法</block>
   <block id="2570092c5c4918f782639770496fb209" category="paragraph">証明書ベースの認証が有効になっていない場合、Unified Managerはクラスタが最初に追加されたときにのみ証明書をチェックします。Unified Manager では、 ONTAP に対する API 呼び出しごとには証明書がチェックされません。</block>
@@ -11658,8 +11654,6 @@
   <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Managerアプリケーションの削除を実行できます。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">を参照してください <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">サポートされているWebブラウザで新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用します。</block>
-  <block id="c25a026897caa6b556a4ed073ea3eab4" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.14からOpenJDK 11.0.16にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
-  <block id="83120bcddc0b0db19b2984cc0524dcb9" category="list-text">作成されたからディレクトリとファイルをコピーします<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> ディレクトリ（例：<block ref="7b12015226b2c68810e719dd47d11964" prefix=" " category="inline-code"></block> Javaがインストールされている場所に移動します。例<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="29932be7bd13705461dc34fdd5fb130d" category="list-text"><block ref="5d201191fde87fde991d42023bfce519" category="inline-link-macro-rx"></block>。</block>
   <block id="a8d95967b66bb0c22b84f4845a403b4a" category="list-text"><block ref="1622f6834655f71720b0a402a53647c6" category="inline-link-macro-rx"></block>。</block>
   <block id="3500cda8600fd41d99d99cc2ad910189" category="list-text">Relationship：MetroCluster *ビューの詳細については、を参照してください <block ref="9558ec78419607c064297bda7f675f6d" category="inline-link-macro-rx"></block>。</block>
@@ -11935,4 +11929,22 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.16からOpenJDK 11.0.18にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
+  <block id="4e6cb3b05eb2ca0baeb29eb6344e5432" category="paragraph">たとえば、をダウンロードします<block ref="3ea5e0fd12073d79066798f485ea1222" prefix=" " category="inline-code"></block>。</block>
+  <block id="e3ea195a19318267cdc1d27ad9b8642c" category="inline-link-macro">Oracleアカウントのサインイン</block>
+  <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition"> ファイルをダウンロードするにはOracleアカウントが必要です。Oracleアカウントをお持ちでない場合は、 <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> ページをクリックして作成します。</block>
+  <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">作成されたからディレクトリとファイルをコピーします<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> ディレクトリ（例：<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> Javaがインストールされている場所に移動します。例<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
+  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3はUnified Managerにバンドルされ、設定されています。</block>
+  <block id="cda5e923848265fa933cb0a9b4e6bbd4" category="summary">不要になったvCenter ServerはActive IQ Unified Managerインスタンスから削除できます。</block>
+  <block id="53155d7df50328d5a08c60b81e95d3ef" category="doc">vCenter Serverの削除</block>
+  <block id="376e03ef3aadcc01297e928d6cef623c" category="paragraph">Active IQ Unified ManagerインスタンスからvCenter Serverを削除できます。たとえば、vCenter Serverの検出が失敗した場合や不要になった場合は、vCenter Serverを削除できます。</block>
+  <block id="ea11a696566494f3e2f7f7bfc07d792d" category="paragraph">vCenter Serverを削除すると、そのvCenterでホストされているすべての仮想マシン（VM）とその設定データも削除されます。削除したvCenter Serverは、関連付けられているオブジェクトおよび履歴データとともに監視されなくなります。これらの変更は、vCenterおよび仮想マシンのインベントリページに反映されます。</block>
+  <block id="fa5dfe737cfc44ab0b5ac99d7503f49c" category="paragraph">vCenter Serverを削除する前に、次の点を確認してください。</block>
+  <block id="ac765ea92fedd534778babee969fa772" category="list-text">アプリケーション管理者またはストレージ管理者のロールが必要です。</block>
+  <block id="1e79b2ec9bdad2cd8583a73a17b2515b" category="list-text">vCenter Serverの名前とそれぞれに関連付けられているIPアドレスを確認しておく必要があります。</block>
+  <block id="98bc0bd3bb75ed59617996abbbe8aa44" category="list-text">左側のナビゲーションペインで、*[VMware]&gt;[vCenter]*をクリックします。</block>
+  <block id="4cf3a43b5cd40be9479e914697ccc1b0" category="list-text">[vCenters]ページで、削除するvCenter Serverを選択し、*[削除]*をクリックします。</block>
+  <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">[vCenterの削除]メッセージダイアログボックスで、*[OK]*をクリックして削除要求を確定します。</block>
+  <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">Web UIからクラスタを追加すると、証明書ベースの認証が自動的に有効になります。</block>
+  <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">Unified ManagerのCLIを使用してクラスタを追加できますが、証明書ベースの認証はデフォルトでは有効になっていません。Unified Manager CLIを使用してクラスタを追加する場合は、Unified Manager UIを使用してクラスタを編集する必要があります。を参照してください <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> をクリックしてください。</block>
 </blocks>
