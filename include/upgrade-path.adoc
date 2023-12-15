@@ -13,17 +13,16 @@ summary: サポートされているアップグレードパス
 [role="lead"]
 Active IQ Unified Manager では、バージョンごとに特定のアップグレードパスがサポートされます。
 
-すべてのバージョンのUnified Managerで、新しいバージョンへのインプレースアップグレードを実行できるわけではありません。Unified ManagerのアップグレードはN-2モデルに限定されています。つまり、アップグレードはすべてのプラットフォームの次の2つのリリースでのみ実行できます。たとえば、Unified Manager 9.11および9.12からUnified Manager 9.13へのアップグレードのみを実行できます。
+すべてのバージョンのUnified Managerで、新しいバージョンへのインプレースアップグレードを実行できるわけではありません。Unified ManagerのアップグレードはN-2モデルに限定されています。つまり、アップグレードはすべてのプラットフォームの次の2つのリリースでのみ実行できます。たとえば、Unified Manager 9.12および9.13からUnified Manager 9.14へのアップグレードのみを実行できます。
 
 サポート対象よりも前のバージョンを実行している場合は、Unified Managerインスタンスをいずれかのサポート対象バージョンにアップグレードしてから、現在のバージョンにアップグレードする必要があります。
 
-たとえば、インストールされているバージョンがOnCommand Unified Manager 9.6で、最新リリースのActive IQ Unified Manager 9.13にアップグレードする場合は、一連のアップグレードを実行します。
+たとえば、インストールされているバージョンがUnified Manager 9.9でUnified Manager 9.14にアップグレードする場合は、一連のアップグレードを実行します。
 
 .アップグレードパスの例：
-. OnCommand Unified Manager 9.6 -> Active IQ Unified Manager 9.8をアップグレードします
-. 9.8 -> 9.10にアップグレードします
-. 9.10 -> 9.12にアップグレードします
-. 9.12 -> 9.13にアップグレードしてください
+. 9.9から9.11へのアップグレード
+. 9.11から9.13へのアップグレード
+. 9.13-> 9.14にアップグレード
 
 
 アップグレードパスマトリックスの詳細については、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["ナレッジベース（KB）の記事を参照してください"]。

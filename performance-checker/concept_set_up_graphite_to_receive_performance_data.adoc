@@ -15,6 +15,9 @@ Graphite は、コンピュータシステムからパフォーマンスデー�
 
 ネットアップが、特定のバージョンの Graphite またはその他の他社製ツールをテストまたは検証することはありません。
 
+
+NOTE: GraphiteサーバがUnified Managerからボリュームのパフォーマンスデータを受信しません。
+
 インストール手順に従って Graphite をインストールしたら、 Unified Manager から統計データを受信できるようにするために、次の変更を加える必要があります。
 
 * /opt/Graphite /conf/carbon .conf ファイルでは、 1 分間に Graphite サーバで作成できるファイルの最大数を _200_ （ '*MAX_Create_per_minutes=200*' ）に設定する必要があります。

@@ -48,10 +48,10 @@ Unified Manager にバンドルされているサードパーティパッケー�
 
 * Microsoft Visual C&#43;&#43;2015 再頒布可能パッケージバージョン 14.26.28720.3
 * Visual Studio 2013 バージョン 12.0.40660.0 の Microsoft Visual C&#43;&#43; 再頒布可能パッケージ
-* MySQL Community Editionバージョン8.0.32
-* Python 3.11.2
-* OpenJDKバージョン11.0.18
-* p7zip バージョン 18.05 以降
+* MySQL Community Editionバージョン8.0.34
+* Python 3.11.6
+* OpenJDKバージョン11.0.20
+* p7zipバージョン23.01以降
 
 
 [NOTE]
