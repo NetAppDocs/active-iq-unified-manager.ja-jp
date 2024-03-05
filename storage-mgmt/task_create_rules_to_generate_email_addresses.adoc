@@ -19,10 +19,10 @@ summary: クラスタ、 Storage Virtual Machine （ SVM ）、ボリューム�
 * [Rules to Generate User and Group Quota Email Address] ページのガイドラインを確認しておく必要があります。
 
 
-クォータの E メールアドレスのルールを定義して、実行順にそれらを入力する必要があります。たとえば、 qtree1 でのクォータ違反に関する通知を E メールアドレス「 qtree1@xyz.com 」で受信し、それ以外の qtree については E メールアドレス「 admin@xyz.com 」を使用する場合は、次の順序でルールを指定する必要があります。
+クォータの E メールアドレスのルールを定義して、実行順にそれらを入力する必要があります。たとえば、abcのクォータ違反に関する通知をEメールアドレスabc@xyz.comで受信し、他のすべてのグループにEメールアドレスDL-$GROUP@$DOMAINを使用する場合は、ルールを次の順序で指定する必要があります。
 
-* if （ $qtree='qtree1' ） then qtree1@xyz.com
-* if （ $qtree== * ） then admin@xyz.com
+* if（$user =='abc'）then abc@xyz.com
+* if（$GROUP ==*）THEN DL-$GROUP@$DOMAIN
 
 
 指定したルールの条件がどれも満たされていない場合は、デフォルトのルールが使用されます。

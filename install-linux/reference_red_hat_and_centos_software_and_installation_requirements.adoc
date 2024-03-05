@@ -25,7 +25,9 @@ Linux システムに、次のバージョンのオペレーティングシス�
 
 サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+
+Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。会社の規制により、Qualysのような脆弱性スキャナがLinuxシステムにインストールされている可能性があります。インストールが失敗しないようにするには、Unified Managerをインストールする前に脆弱性スキャナを無効にする必要があります。
 
 
 
