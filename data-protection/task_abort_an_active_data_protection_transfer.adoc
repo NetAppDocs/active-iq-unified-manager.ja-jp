@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html 
 sidebar: sidebar 
-keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc 
+keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: 実行中の SnapMirror レプリケーションを中止する場合、アクティブなデータ保護転送を中止することができます。ベースライン転送後の以降の転送については、再開チェックポイントを消去することもできます。転送を中止する状況としては、ボリューム移動などの別の処理と競合する場合などがあります。 
 ---
 = ボリューム関係ページからのアクティブなデータ保護転送を中止します

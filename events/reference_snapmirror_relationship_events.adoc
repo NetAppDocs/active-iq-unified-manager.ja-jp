@@ -183,7 +183,7 @@ ONTAP メディエーターにクラスタからアクセスできない（Snapm
 
 
  a| 
-ONTAP メディエーターの接続が再確立され、再同期されてSMBC（snapmirrorMediatorInQuorum）用の準備が整いました。
+ONTAPメディエーターの接続が再確立され、再同期されてアクティブなSnapMirror同期の準備が完了しました（snapmirrorMediatorInQuorum）
  a| 
 イベント
  a| 

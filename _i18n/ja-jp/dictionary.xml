@@ -2586,7 +2586,6 @@
   <block id="5c370c70723397269b4ad914c34496a7" category="list-text">で保護されます</block>
   <block id="15d2dc848def03f15b9f71fac220a033" category="paragraph">選択したボリュームで使用されている保護のタイプが表示されます。たとえば、ボリュームが整合グループ関係と SnapMirror ボリューム関係で保護されている場合、このフィールドには SnapMirror と整合グループの両方が表示されます。また、このフィールドには、ユニファイド関係のステータスを表示するための [ 関係 ] ページへのリンクも表示されます。このリンクは、コンスティチュエント関係にのみ適用されます。</block>
   <block id="5f37c1cb711ed8c309b0301fb0061e23" category="list-text">整合グループ</block>
-  <block id="a2e58da0c14632bd760681821ca1dcc1" category="paragraph">SnapMirror のビジネス継続性（ SM-BC ）関係で保護されているボリュームの場合、この列にはボリュームの整合グループが表示されます。</block>
   <block id="b5626a635c1d79df6fc54d9b5833eac2" category="list-text">* ビュー *</block>
   <block id="07c17f8fe1079d9e5598e259b13b9010" category="paragraph">選択したボリュームの保護トポロジが表示されます。トポロジには、選択したボリュームに関連するすべてのボリュームが図で示されます。選択したボリュームはダークグレーの線で囲んで示され、トポロジ内のボリュームをつなぐ線は保護関係のタイプを示しています。トポロジ内の関係の方向は左から右に、各関係の左側がソースで右側がデスティネーションです。</block>
   <block id="de22a966c00bb6c3b2d618284de781eb" category="paragraph">太線の二重線は非同期ミラー関係、太線の一重線は非同期バックアップ関係、細線の二重線は非同期ミラーバックアップ関係、太線と太線でない線は同期関係です。下の表に、同期関係が StrictSync であるか Sync であるかが示されます。</block>
@@ -3296,7 +3295,6 @@
   <block id="7b019e8a912414d9c698e1da5ea979b6" category="paragraph">すべてのタスクが正常に完了すれば初期化処理または更新処理は終了です。</block>
   <block id="a6746425c25768de3f5829c152822679" category="summary">既存の関係のソースボリュームからのファンアウトまたはデスティネーションボリュームからのカスケードを作成することで、既存の関係から保護を拡張できます。この処理は、 1 つのサイトから複数のサイトにデータをコピーする必要がある場合や、バックアップをさらに作成して追加の保護を提供する必要がある場合に実行します。</block>
   <block id="eccb90afe26b65475a488e0727572002" category="doc">カスケード関係またはファンアウト関係を作成して、既存の保護関係から保護を拡張します</block>
-  <block id="01fd56d56b8b61ed28591ffda8aca61b" category="paragraph">複数のボリュームを保持するコンテナである整合グループを使用してボリュームの保護を拡張することで、すべてのボリュームを 1 つのエンティティとして管理できます。SnapMirror のビジネス継続性（ SM-BC ）整合グループと同期整合性グループの関係は、 Unified Manager の関係のページで確認できます。</block>
   <block id="fbe2671f1c071a92df1476b2d7fc9056" category="list-text">[* 保護 *&gt;] 、 [* 関係 *] の順にクリックします。または、ボリュームの詳細ページで関係を確認します。</block>
   <block id="2193e4925531a683d9994daa17151105" category="list-text">* Volume Relationships * ページで、保護の拡張元の SnapMirror 関係を選択します。</block>
   <block id="e0668805326fcf173c6ad9cc1e3beac1" category="list-text">アクションバーで、 * 保護の拡張 * をクリックします。</block>
@@ -3647,10 +3645,6 @@
   <block id="177fc6042efaa10f5da934e8c746e9ba" category="section-title">通常の同期を使用した SnapMirror 同期保護</block>
   <block id="9eb6583bd652338b8737991ca4e97e19" category="paragraph">「ル」同期を使用した SnapMirror 同期保護では、プライマリボリュームとセカンダリボリュームが常に相互の完全なコピーである必要はないため、プライマリボリュームの可用性が確保されます。セカンダリボリュームへのデータの書き込みでレプリケーションエラーが発生すると、プライマリボリュームとセカンダリボリュームが同期されていない状態のまま、プライマリボリュームに対するクライアント I/O が継続されます。</block>
   <block id="796715bf5d06ffb08971971b344b2f98" category="paragraph">同期保護関係を Health ： All Volumes ビューまたは Volume/Health Details ページから監視する場合、 Restore ボタンと Relationship 操作ボタンは使用できません。</block>
-  <block id="6456c750ab46f84e25768e136ae08a82" category="section-title">SnapMirror Synchronous によるビジネス継続性</block>
-  <block id="584350b61ad29e1e1d778af4083e84be" category="paragraph">ONTAP 9.8 以降では、 SnapMirror のビジネス継続性（ SM-BC ）機能を使用できます。また、この機能を使用して LUN でアプリケーションを保護できるため、アプリケーションのフェイルオーバーを透過的に実行し、災害発生時のビジネス継続性を確保できます。</block>
-  <block id="ae29cba1567ab4b1a3f0d7c52960df9d" category="paragraph">クラスタおよび Storage Virtual Machine で使用される Consistency Groups （ CG ；整合グループ）の同期 SnapMirror 関係を Unified Manager から検出して監視できます。SM-BC は、 AFF クラスタまたは All SAN Array （ ASA ）クラスタでサポートされます。プライマリクラスタとセカンダリクラスタは、 AFF または ASA のどちらかになります。SM-BC は、 iSCSI LUN または FCP LUN を使用してアプリケーションを保護します。</block>
-  <block id="74560fead831fee65bfebe70198203e9" category="paragraph">SM-BC 関係で保護されているボリュームと LUN を表示すると、保護関係の一元化されたビュー、ボリュームインベントリ内の整合グループ、整合グループ関係の保護トポロジの表示、 1 年以内の整合グループ関係の履歴データの表示が可能になります。レポートをダウンロードすることもできます。また、整合グループ関係の概要の表示、整合グループ関係のサポートの検索、整合グループで保護されているボリュームに関する情報の取得も可能です。</block>
   <block id="4c7cb2eaa5d8a4da948d7b43d793ef6d" category="paragraph">[ 関係 ] ページでは ' ソースストレージオブジェクトとデスティネーションストレージオブジェクト ' およびコンシステンシグループによって保護されているそれらの関係の保護をソート ' フィルタ ' および拡張することもできます</block>
   <block id="7331ad8836c59b4b432445f8fc5c99e4" category="summary">バージョンに依存しないレプリケーションとバックアップオプション機能を使用して SnapMirror 関係を作成できます。バックアップオプション機能を使用すると、 SnapMirror 保護を実装できます。また、デスティネーションの場所でバックアップコピーの複数のバージョンを保持することもできます。</block>
   <block id="e36facec58d4fd1ab5145c36e21c2862" category="doc">バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 関係の作成</block>
@@ -3805,7 +3799,6 @@
   <block id="37b62c5243b3ac0c86b34681cb1f66d3" category="paragraph">SnapMirror 関係のソースクラスタの名前が表示されます。</block>
   <block id="7f835af0acf6578c40118036c326b1fd" category="list-text">* ソースノード *</block>
   <block id="c82a77c5e0228ddadab3bd5aa89bba3e" category="paragraph">ボリュームの SnapMirror 関係のソースノード名リンクの名前が表示されます。オブジェクトが Storage VM または整合グループの場合は、 SnapMirror 関係のノード数リンクが表示されます。</block>
-  <block id="2f1951fc98d71ae4db2a6daf6cfd535b" category="paragraph">カスタムビューでノード名のリンクをクリックすると、 SM-BC 関係に属する整合グループのボリュームを含むストレージオブジェクトの保護を表示および拡張できます。</block>
   <block id="b7b60d8edfb33c514a3b2bdef700d1e7" category="paragraph">ノード数のリンクをクリックすると、該当するノードとその関係に関連付けられているノードのページが表示されます。ノード数が 0 の場合、関係に関連付けられているノードがないため、値は表示されません。</block>
   <block id="b50bbbbd2ce1ff5ad4dd7cb67add6f1d" category="list-text">* 宛先ノード *</block>
   <block id="99678ea767aff0838702576fb67a7b91" category="paragraph">ボリュームの SnapMirror 関係のデスティネーションノード名リンクの名前が表示されます。オブジェクトが Storage VM または整合グループの場合は、 SnapMirror 関係のノード数リンクが表示されます。</block>
@@ -4307,10 +4300,7 @@
   <block id="3618bf1e4e2eb1044754b05f4d5019cd" category="paragraph">ジョブが送信された時刻を表示します。</block>
   <block id="cb099ff63a3dc50de4043d486336aa11" category="paragraph">ジョブの完了までにかかった時間が表示されます。この列はデフォルトで表示されます。</block>
   <block id="dda8b65b1dd0aaf67d557b36874b313d" category="paragraph">ジョブが終了した時刻が表示されます。デフォルトでは、この列は表示されません。</block>
-  <block id="8c748cd9318ed681edc4186889ac9837" category="summary">SM-BC で保護されている LUN の統合ビュー。</block>
   <block id="1ffd4c3f18af104630b0326e8c2dc2c9" category="doc">コンシステンシグループ関係の LUN を監視しています</block>
-  <block id="90d0141ba8dfef63f3b408f5a1db3980" category="paragraph">ONTAP 環境で、 LUN を使用してアプリケーションを保護するために SnapMirror のビジネス継続性（ SM-BC ）がサポートされている場合は、 Active IQ Unified Manager でそれらの LUN を表示および監視できます。</block>
-  <block id="7beb94f6fbaef8cd847dcc4e98562c31" category="paragraph">SM-BC は、 SAN 環境でのフェイルオーバー時に Recovery Time Objective （ RTO ；目標復旧時間）をゼロにします。SM-BC をサポートする一般的な環境では、ボリューム上の LUN は整合グループ関係で保護されます。</block>
   <block id="9341b9e1536cc8f4c3652c7e91c736d7" category="paragraph">これらのプライマリ LUN とセカンダリ LUN は、複合 LUN か、同じ UUID とシリアル番号を持つレプリカ LUN ペアです。I/O 処理（読み取りと書き込みの両方）がこれらの複合 LUN 上のソースサイトとデスティネーションサイト間で多重化されるため、透明性が確保されます。</block>
   <block id="f1c21bacefc03e4bd3d91418d06734d5" category="paragraph">複数の LUN を表示する場合は、整合グループ関係の一部である LUN を含むプライマリクラスタとセカンダリクラスタの両方を Unified Manager で追加して検出する必要があります。iSCSI LUN と FCP LUN のみがサポートされます。</block>
   <block id="ad5b7872fd9aa53772e0572d135d92ac" category="paragraph">環境内のコンポジット LUN を表示するには、次の手順を実行します。</block>
@@ -10880,9 +10870,6 @@
   <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">詳細については、を参照してください<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
   <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">ONTAP REST API の自動化</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
-  <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC に関する ONTAP 9 のマニュアル</block>
-  <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous のビジネス継続性の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
-  <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">SM-BC の詳細については、を参照してください <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
@@ -11029,7 +11016,6 @@
   <block id="a6bacc83dfdb1c9689535a09836f8550" category="paragraph">ONTAP メディエーターがクラスタから到達できません（snapmirrorMediatorUnreachable）</block>
   <block id="cf7f72fb2e3e5a9df104130ba81c194e" category="paragraph">メディエーター</block>
   <block id="da953faa02ca184ebcadd69694229ca0" category="paragraph">ONTAP メディエーターにクラスタからアクセスできない（SnapmirrorMediatorMisconfigured）</block>
-  <block id="dc7d8942cdb2f367c68f30d022efa7f0" category="paragraph">ONTAP メディエーターの接続が再確立され、再同期されてSMBC（snapmirrorMediatorInQuorum）用の準備が整いました。</block>
   <block id="8002c010879d451de4416c97251e7e29" category="summary">Storage VMの関連付けページでは、ソースとデスティネーションのStorage VM間の既存のStorage VMの関連付けを表示できます。</block>
   <block id="b31a8b073692fe4fc7d0416d77032d55" category="doc">Storage VMの関連付けの概要</block>
   <block id="8210ed29bdbce4c1e73c2d1c02b5282d" category="paragraph">Storage Virtual Machine（Storage VM）の関連付けは、ソースStorage VMからデスティネーションStorage VMへのマッピングであり、リソースの選択やセカンダリボリュームのプロビジョニングのためにパートナーアプリケーションで使用されます。</block>
@@ -11053,7 +11039,6 @@
   <block id="b518d96f65df8e3a8c5bd9b294314ee7" category="paragraph">デフォルトでは、関係ページにアクセスすると、ボリュームとStorage VMの両方の最上位の保護関係が表示されます。ページの上部にあるコントロールを使用すると、特定のビューの選択、特定のオブジェクトの検索の実行、フィルタの作成および適用による表示データのリストの絞り込み、ページ上の列の追加 / 削除 / 並べ替え、ページ上のデータの .csv 、 .pdf または .xlsx ファイル。カスタマイズしたページをカスタムビューとして保存し、データのレポートを定期的に生成して E メールで送信するようにスケジュール設定できます。デフォルトでは、 [ * 関係 * ] メニューを選択すると、レポートにはデータセンター内のボリュームと Storage VM の両方の保護関係が表示されます。「 * フィルタ * 」オプションを使用すると、ボリュームのみ、または Storage VM のみなど、選択したストレージシステムのみを表示できます。ストレージページと、選択したストレージエンティティについてのみ、同じレポートが表示されます。ボリュームまたは Storage VM の関係を表示するには、 * Storage * &gt; * Volumes * &gt; * Relationship ： All Relationships * ページまたはアクセス * Protection * &gt; * Relationships * &gt; * Relationship ： すべての関係 * 。フィルタ * の * 関係オブジェクトタイプ * オプションを使用して、ボリュームまたは Storage VM のデータのみをフィルタリングします。</block>
   <block id="fcd4ecf1cf7bb8267ec59d4f89b505b1" category="list-text">*メディエーター*</block>
   <block id="496eb323c2ee5c388095071435b45af0" category="paragraph">メディエーターのステータスが表示されます。</block>
-  <block id="6b186591bdb6b54c5178194cd438daf3" category="paragraph">クラスタがSnapMirror Business Continuityをサポートしていない場合。</block>
   <block id="6470ad126b37899e643afe35ff51f8fd" category="paragraph">このオプションが設定されていない場合や設定されているがデスティネーションクラスタのみが追加されていて、ソースクラスタがUnified Managerに追加されていない場合。</block>
   <block id="26eeb2415026ecc2a99b19ae10c4e13e" category="list-text">メディエーターのIPアドレス</block>
   <block id="a5a42e7a9482f606a51f46baffc94087" category="paragraph">設定されている場合は、ソースとデスティネーションの両方のクラスタがUnified Managerに追加されます。</block>
@@ -11072,7 +11057,6 @@
   <block id="48815cc485f34516122d402c7691bcbc" category="section-title">SnapMirror関係の保護ステータスを表示します</block>
   <block id="eebf9b70421de9e6316f48de3e2cef0b" category="list-text">遅延ステータスに基づいて、目標復旧時点（RPO）の遅延が発生しているSnapMirror関係の総数。</block>
   <block id="2cd111e77d7b5983398bdaaaee149c7b" category="list-text">各タイプのSnapMirrorポリシーで保護されているボリュームの数。</block>
-  <block id="5c421974ea0511d51906133dd8756205" category="list-text">非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、StricxtSync、SnapMirror Business Continuity（SMBC）整合グループ、同期など、SnapMirror関係で保護される関係の数。</block>
   <block id="43e5aa2d7191d2fad1b5eb6a2779c47c" category="list-text">健全でない関係の数。</block>
   <block id="2fb2c7d03a760408a3f8150c23df4876" category="list-text">ボリューム関係の数を表示します。グラフはRPOの遅延時間とステータスで切り替えることができます。</block>
   <block id="63a0f94f271c2db3ea63bb2e1407963f" category="section-title">SnapMirror関係については、メモを指定します</block>
@@ -11908,4 +11892,35 @@
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">クォータの E メールアドレスのルールを定義して、実行順にそれらを入力する必要があります。たとえば、abcのクォータ違反に関する通知をEメールアドレスabc@xyz.comで受信し、他のすべてのグループにEメールアドレスDL-$GROUP@$DOMAINを使用する場合は、ルールを次の順序で指定する必要があります。</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">if（$user =='abc'）then abc@xyz.com</block>
   <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">if（$GROUP ==*）THEN DL-$GROUP@$DOMAIN</block>
+  <block id="4057b81effceded4a0d56ba83fa2bc4c" category="paragraph">AMQP QPIDブローカー</block>
+  <block id="09cc1306955a7d5b2ed367969d4e9d57" category="paragraph">TCP/IP</block>
+  <block id="3fd4f2a86b42ebe6b3b976affb0cc116" category="paragraph">56072</block>
+  <block id="a57499f599c00f53ae0461f15154ab23" category="paragraph">内部メッセージ通信に使用されます。</block>
+  <block id="b8ac2ebe76541bcac8e63005436a105a" category="paragraph">TCP経由のWebSocket</block>
+  <block id="b86f29c888784d2245f887b509b5dd32" category="paragraph">56080</block>
+  <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。</block>
+  <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443</block>
+  <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。 このポートを介した通信では、TLSまたはSSLによる暗号化がサポートされます。</block>
+  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">9 、 000</block>
+  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">このページでAMQP管理UIインターフェイスを起動するために使用します。</block>
+  <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。このポートを介した通信では、TLSまたはSSLによる暗号化がサポートされます。</block>
+  <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">脆弱性スキャナ（Qualysなど）を使用すると、内部（Unified Managerと脆弱性スキャナが同じVMにインストールされている場合）または外部で仮想マシン（VM）をスキャンする際にCPU使用率が高くなることがあります。 （Unified Managerと脆弱性スキャナが2つの異なるサーバにインストールされ、脆弱性スキャナがUnified ManagerがインストールされているVMをスキャンします）。この問題を実行すると、VMが応答しなくなり、Unified Managerサービスに影響することがよくあります。そのため、NetAppでは、Unified ManagerがインストールされているVMで脆弱性スキャナを無効にすることを推奨しています。スキャナを無効にできない場合は、営業時間外にVMをスキャンし、スキャンの完了後にサービスを再起動してください。</block>
+  <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">SnapMirrorのアクティブな同期関係で保護されているボリュームの場合、この列にはボリュームの整合性グループが表示されます。</block>
+  <block id="800a82ff69e2f8716a21195c4646947e" category="paragraph">ONTAPメディエーターの接続が再確立され、再同期されてアクティブなSnapMirror同期の準備が完了しました（snapmirrorMediatorInQuorum）</block>
+  <block id="c0b79db5f258f0c991a383cbdbf001dd" category="section-title">SnapMirrorアクティブ同期</block>
+  <block id="aa7fa8d22937f0168ab9aa9ac2f11f1e" category="paragraph">SnapMirrorのアクティブな同期機能はONTAP 9.8以降で使用できます。この機能を使用すると、LUNでアプリケーションを保護できます。これにより、アプリケーションが透過的にフェイルオーバーされ、災害発生時にビジネス継続性が確保されます。</block>
+  <block id="aa3834427e0a44621b2f97d130d97f0e" category="paragraph">クラスタおよび Storage Virtual Machine で使用される Consistency Groups （ CG ；整合グループ）の同期 SnapMirror 関係を Unified Manager から検出して監視できます。SnapMirrorアクティブ同期は、AFFクラスタまたはオールSANアレイ（ASA）クラスタでサポートされます。プライマリクラスタとセカンダリクラスタには、AFFまたはASAを使用できます。SnapMirror Active Syncは、iSCSI LUNまたはFCP LUNを使用してアプリケーションを保護します。</block>
+  <block id="43e6f02aa3159562e8d2c863b942c7ac" category="paragraph">SnapMirrorのアクティブな同期関係で保護されているボリュームとLUNを表示すると、保護関係、ボリュームインベントリ内のコンシステンシグループ、コンシステンシグループ関係の保護トポロジ、コンシステンシグループ関係の過去1年間の履歴データの表示が統一されます。レポートをダウンロードすることもできます。また、整合グループ関係の概要の表示、整合グループ関係のサポートの検索、整合グループで保護されているボリュームに関する情報の取得も可能です。</block>
+  <block id="74295afe091080605ebd13a7c5b13c16" category="inline-link-macro">SnapMirror Active Sync（旧SM-BC）に関するONTAP 9ドキュメント</block>
+  <block id="4712d933ee439a4c6393014f4dabfd66" category="paragraph">SnapMirrorアクティブ同期の詳細については、を参照してください。 <block ref="26496dd12886056779393da869786020" category="inline-link-macro-rx"></block>。</block>
+  <block id="c40044b752c941f30f770841b2eec4fe" category="list-text">SnapMirror関係タイプ（非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、StricxtSync、SnapMirrorのアクティブな同期整合性グループ、Syncなど）で保護されている関係の数。</block>
+  <block id="66d02d4b9fa89d81026beec1263c3e7c" category="paragraph">複数のボリュームを保持するコンテナである整合グループを使用してボリュームの保護を拡張することで、すべてのボリュームを 1 つのエンティティとして管理できます。Unified Managerの[関係]ページで、SnapMirrorアクティブな同期整合性グループと同期整合性グループ関係を確認できます。</block>
+  <block id="86e256d427f11c48ba32cc55c5e5ebe5" category="summary">SnapMirrorのアクティブな同期で保護されているLUNの表示を統合</block>
+  <block id="6e91d63ec0b35d3854ade90b706d6b2e" category="paragraph">ONTAP環境でSnapMirrorのアクティブな同期がサポートされている場合
+アプリケーションをLUNで保護する場合は、Active IQ Unified ManagerでそれらのLUNを表示および監視できます。</block>
+  <block id="ef72865211ff0fce6e6d962bbeb49866" category="paragraph">SnapMirrorアクティブ同期により、SAN環境でフェイルオーバー時の目標復旧時間（RTO）がゼロになります。SnapMirrorアクティブ同期をサポートする一般的な構成では、ボリューム上のLUNがコンシステンシグループ関係によって保護されます。</block>
+  <block id="daf278f1f618b542e37f15b551577ad6" category="inline-link-macro">SnapMirror Active Sync（旧SM-BC）に関するONTAP 9ドキュメント</block>
+  <block id="2e112a6ed41642ec6cb0dbac26f29548" category="paragraph">SnapMirrorアクティブ同期の詳細については、を参照してください。 <block ref="e7cb3673e0f365a4cb1a8a44c94d6d2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="fcec3d8aa2186fbec2ebbc509e88c291" category="paragraph">クラスタがSnapMirrorアクティブ同期をサポートしていない場合。</block>
+  <block id="f9c3a8b68e3ce1dccddf9f51467e0ed0" category="paragraph">カスタムビューでノード名のリンクをクリックすると、それらの整合性グループのボリュームがSnapMirrorのアクティブな同期関係に属しているストレージオブジェクトの保護を表示および拡張できます。</block>
 </blocks>

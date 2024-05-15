@@ -72,7 +72,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 * SnapMirror 関係に対して発生した個々のイベント。過去 24 時間に発生したイベントも含まれます
 * 各タイプのSnapMirrorポリシーで保護されているボリュームの数。
-* 非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、StricxtSync、SnapMirror Business Continuity（SMBC）整合グループ、同期など、SnapMirror関係で保護される関係の数。
+* SnapMirror関係タイプ（非同期ミラー、非同期バックアップ、非同期ミラーバックアップ、StricxtSync、SnapMirrorのアクティブな同期整合性グループ、Syncなど）で保護されている関係の数。
 * 健全でない関係の数。
 * ボリューム関係の数を表示します。グラフはRPOの遅延時間とステータスで切り替えることができます。
 * 管理対象外の関係の遅延しきい値。設定アイコン（image:../media/Settings.PNG["遅延しきい値の設定のアイコン"]）をクリックして、遅延しきい値を設定します。詳細については、を参照してください link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["管理対象外の保護関係の遅延しきい値を設定しています"]。

@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/view-lun-relationships.html 
 sidebar: sidebar 
-keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
-summary: SM-BC で保護されている LUN の統合ビュー。 
+keywords: LUN, SnapMirror active sync, Consistency Group, CG 
+summary: SnapMirrorのアクティブな同期で保護されているLUNの表示を統合 
 ---
 = コンシステンシグループ関係の LUN を監視しています
 :allow-uri-read: 
@@ -11,15 +11,16 @@ summary: SM-BC で保護されている LUN の統合ビュー。
 
 
 [role="lead"]
-ONTAP 環境で、 LUN を使用してアプリケーションを保護するために SnapMirror のビジネス継続性（ SM-BC ）がサポートされている場合は、 Active IQ Unified Manager でそれらの LUN を表示および監視できます。
+ONTAP環境でSnapMirrorのアクティブな同期がサポートされている場合
+アプリケーションをLUNで保護する場合は、Active IQ Unified ManagerでそれらのLUNを表示および監視できます。
 
-SM-BC は、 SAN 環境でのフェイルオーバー時に Recovery Time Objective （ RTO ；目標復旧時間）をゼロにします。SM-BC をサポートする一般的な環境では、ボリューム上の LUN は整合グループ関係で保護されます。
+SnapMirrorアクティブ同期により、SAN環境でフェイルオーバー時の目標復旧時間（RTO）がゼロになります。SnapMirrorアクティブ同期をサポートする一般的な構成では、ボリューム上のLUNがコンシステンシグループ関係によって保護されます。
 
 これらのプライマリ LUN とセカンダリ LUN は、複合 LUN か、同じ UUID とシリアル番号を持つレプリカ LUN ペアです。I/O 処理（読み取りと書き込みの両方）がこれらの複合 LUN 上のソースサイトとデスティネーションサイト間で多重化されるため、透明性が確保されます。
 
 複数の LUN を表示する場合は、整合グループ関係の一部である LUN を含むプライマリクラスタとセカンダリクラスタの両方を Unified Manager で追加して検出する必要があります。iSCSI LUN と FCP LUN のみがサポートされます。
 
-SM-BC の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC に関する ONTAP 9 のマニュアル"]。
+SnapMirrorアクティブ同期の詳細については、を参照してください。 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SnapMirror Active Sync（旧SM-BC）に関するONTAP 9ドキュメント"]。
 
 環境内のコンポジット LUN を表示するには、次の手順を実行します。
 
