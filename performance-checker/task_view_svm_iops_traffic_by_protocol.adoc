@@ -19,7 +19,7 @@ Performance/SVMExplorer ヘエシを使用すると、 SVM の詳細な IOPS 情
 * NFS
 * FCP
 * iSCSI
-* NVMe
+* NVMe-FC
 
 
 .手順
