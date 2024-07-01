@@ -44,7 +44,7 @@ hostnameectl set -hostname new_FQDN`
 
 . ネットワークサービスを再起動します。
 +
-「サービスネットワークの再起動」
+`systemctl restart NetworkManager.service`
 
 . サービスが再起動したら、新しいホスト名で ping を実行できるかどうかを確認します。
 +
