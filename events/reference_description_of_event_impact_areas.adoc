@@ -35,7 +35,7 @@ summary: イベントは、 6 つの影響領域（可用性、容量、構成�
 
 * * セキュリティ *
 +
-セキュリティイベントは、で定義されたパラメータに基づいて、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームのセキュリティがどの程度確保されるかを通知します http://www.netapp.com/us/media/tr-4569.pdf["『 ONTAP 9 セキュリティ設定ガイド』"]。
+セキュリティイベントは、で定義されたパラメータに基づいて、ONTAPクラスタ、Storage Virtual Machine（SVM）、およびボリュームがどの程度セキュアであるかを通知します https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["『 ONTAP 9 セキュリティ設定ガイド』"^]。
 
 +
 また、この領域には、 Active IQ プラットフォームから報告されるアップグレードイベントも含まれます。

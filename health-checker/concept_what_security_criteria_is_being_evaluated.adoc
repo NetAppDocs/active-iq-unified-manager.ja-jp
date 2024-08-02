@@ -21,7 +21,7 @@ summary: 一般に、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）�
 * ボリュームでソフトウェアまたはハードウェアの暗号化が有効になっているかどうか
 
 
-コンプライアンスのカテゴリおよびのトピックを参照してください http://www.netapp.com/us/media/tr-4569.pdf["『 ONTAP 9 セキュリティ設定ガイド』"] を参照してください。
+詳細については、準拠カテゴリに関するトピックおよびを参照してください https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["『 ONTAP 9 セキュリティ設定ガイド』"^] 。
 
 [NOTE]
 ====

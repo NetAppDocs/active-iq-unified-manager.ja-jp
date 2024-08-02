@@ -959,7 +959,6 @@
   <block id="aa5ea9a79b8363872969fe3e4d5ce9b3" category="paragraph">Unified Manager には、『 ONTAP 9_ NetApp Security Hardening Guide for ONTAP 』に定義されている推奨事項を基に、 クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがどの程度セキュアであるかを示すダッシュボードが用意されています。</block>
   <block id="e60416fe8f102037593aec660b785842" category="paragraph">セキュリティダッシュボードの目的は、 ONTAP クラスタがネットアップ推奨のガイドラインに従っていない領域を提示して、潜在的な問題を修正できるようにすることです。ほとんどの場合、問題は ONTAP System Manager または ONTAP CLI を使用して解決します。組織がすべての推奨事項に従うとは限らないため、場合によっては変更を加える必要がありません。</block>
   <block id="0303e15cb5131cd4b937c60c3de7bb42" category="inline-link">『 ONTAP 9 セキュリティ設定ガイド』</block>
-  <block id="60443e5478cdf6c85aba4b527880b533" category="paragraph">を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 詳細な推奨事項と解決策については、 TR-4569 を参照してください。</block>
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">Unified Manager は、セキュリティステータスを報告するだけでなく、セキュリティ違反があるクラスタまたは SVM に対してセキュリティイベントを生成します。これらの問題はイベント管理インベントリページで追跡できます。また、イベントにアラートを設定して、新たなセキュリティイベントが発生したときにストレージ管理者が通知を受け取るようにすることができます。</block>
   <block id="bac22306a2632f2464a7bc7eb26d21c6" category="summary">このワークフローでは、ストレージフェイルオーバーインターコネクトリンクの停止状態をスキャンし、評価して解決する方法の例を示します。このシナリオでは、管理者が、ノードで ONTAP バージョンのアップグレードを開始する前に Unified Manager を使用してストレージフェイルオーバーのリスクがないかをスキャンします。</block>
   <block id="66deb8126d9a4e2c908a3654f4ece414" category="doc">ストレージフェイルオーバーインターコネクトリンクの停止状態をスキャンして解決しています</block>
@@ -1760,7 +1759,6 @@
   <block id="3a215c293d531341a13e54d1b4f767d8" category="list-text">ピアクラスタの通信が暗号化されているかどうか</block>
   <block id="34c28c126e19226f9ae33dc5640078bb" category="list-text">Storage VM の監査ログが有効になっているかどうか</block>
   <block id="8083dc3f1ad1356d39b70d2189b04945" category="list-text">ボリュームでソフトウェアまたはハードウェアの暗号化が有効になっているかどうか</block>
-  <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">コンプライアンスのカテゴリおよびのトピックを参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> を参照してください。</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">Active IQ プラットフォームから報告されるアップグレードイベントもセキュリティイベントとみなされます。これらのイベントは、 ONTAP ソフトウェア、ノードファームウェア、またはオペレーティングシステムソフトウェア（セキュリティアドバイザリ用）のアップグレードが必要な問題を示します。これらのイベントは [ セキュリティ ] パネルには表示されませんが、 [ イベント管理 ] インベントリページから確認できます。</block>
   <block id="2dbe6bc08eeaacfcdd6eb2fa5758971e" category="summary">アクティブなセキュリティイベントをすべて表示し、問題を解決できるユーザに各イベントを割り当てることができます。また、受信不要なセキュリティイベントがある場合は、このリストを利用して無効にするイベントを特定できます。</block>
   <block id="64151c795a30faf693f1c208a6e66627" category="doc">アクティブなすべてのセキュリティイベントを表示します</block>
@@ -4448,7 +4446,6 @@
   <block id="56bad51d0fd70713223e857396803caa" category="paragraph">Unified Manager はメモリの少ないシステムにもインストールできますが、推奨される 12GB の RAM があれば最適なパフォーマンスが保証されるだけでなく、拡張時にクラスタやストレージオブジェクトの追加にも対応できます。Unified Manager を導入する VM にはメモリの上限などを設定しないでください。また、ソフトウェアがシステムで割り当てられているメモリを利用できなくなる機能（バルーニングなど）は有効にしないでください。</block>
   <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">また、 1 つの Unified Manager インスタンスで監視できるノードの数には上限があり、この上限を超える場合は 2 つ目の Unified Manager インスタンスをインストールする必要があります。詳細については、 _ ベストプラクティスガイド _ を参照してください。</block>
   <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">テクニカルレポート 4621 ：『 Unified Manager Best Practices Guide 』</block>
-  <block id="badef135127b32313f0e0eebe283472f" category="paragraph"><block ref="badef135127b32313f0e0eebe283472f" category="inline-link-rx"></block></block>
   <block id="ccd350b03208f21a01e8434aa29bf22c" category="paragraph">メモリページのスワッピングは、システムや管理アプリケーションのパフォーマンスに悪影響を及ぼします。CPU リソースがホスト全体で競合して使用できなくなると、パフォーマンスが低下する可能性があります。</block>
   <block id="eeedd0b411cf8b8d426d2fb1abee2797" category="section-title">専用使用の要件</block>
   <block id="c74cdaf0de603354b9d68a1b99f50e57" category="paragraph">Unified Manager をインストールする物理システムまたは仮想システムは、他のアプリケーションとは共有せず、 Unified Manager 専用にする必要があります。他のアプリケーションにシステムリソースが消費されることで、 Unified Manager のパフォーマンスが大幅に低下する可能性があります。</block>
@@ -5087,7 +5084,6 @@
   <block id="64bd5015546813c113a50d1d816a2fce" category="list-text">* パフォーマンス *</block>
   <block id="28a28996e5e10ee62864b322cf2e8851" category="paragraph">パフォーマンスイベントは、監視対象のストレージオブジェクトにおけるデータストレージの入力速度や取得速度に悪影響を及ぼす可能性がある、クラスタのリソース、設定、または処理の状況について通知するイベントです。</block>
   <block id="e28ab1dac11a8a6babec11d768ded66a" category="paragraph">保護イベントは、 SnapMirror 関係に関するインシデントやリスク、デスティネーションの容量の問題、 SnapVault 関係の問題、または保護ジョブの問題について通知するイベントです。セカンダリボリュームおよび保護関係をホストする ONTAP オブジェクト（アグリゲート、ボリューム、および SVM ）は、いずれもこの影響領域に分類されます。</block>
-  <block id="a9518f09019b40e9f9d0808f91e32925" category="paragraph">セキュリティイベントは、で定義されたパラメータに基づいて、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームのセキュリティがどの程度確保されるかを通知します<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。</block>
   <block id="26426dd05fca05471c34919c8d351e36" category="paragraph">また、この領域には、 Active IQ プラットフォームから報告されるアップグレードイベントも含まれます。</block>
   <block id="2d3a72e2a04782810d904c40473777f4" category="summary">LUN イベントは、 LUN のステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="4a581ce7eb8db08cce2f8515f02e2a0e" category="doc">LUN イベント</block>
@@ -6745,7 +6741,6 @@
   <block id="68ae53130f456bd2456bb29985dbcab8" category="paragraph">ONTAP System Manager または ONTAP コマンドを使用して、 Flash Cache がインストールされて有効になっているかを確認し、有効になっていない場合は有効にすることができます。次のコマンドは、 Flash Cache が特定のノードで有効になっているかどうかを示します。「 * cluster ： &gt; run local options flexscale.enable * 」</block>
   <block id="4226c3da2a5d50e1c8abfdfbf9bd3780" category="paragraph">Flash Cache とその使用要件については、次のテクニカルレポートを参照してください。</block>
   <block id="4d594fa378085e019a42ca73e740986c" category="inline-link">テクニカルレポート 3832 ：『 Flash Cache Best Practices Guide 』</block>
-  <block id="e9f146d71f531c29c1d0c53c51f7c325" category="paragraph"><block ref="e9f146d71f531c29c1d0c53c51f7c325" category="inline-link-rx"></block></block>
   <block id="e3877e8f3b3beac4f3e096137379bdf2" category="summary">収集された健常性とパフォーマンスのデータに表示されるタイムスタンプやイベントの検出時間に表示されるタイムスタンプは、 ONTAP クラスタの時間に基づいて、 Web ブラウザで設定されているタイムゾーンに調整されます。</block>
   <block id="83d66f6f5b43fb564601eb519bd6cd05" category="doc">収集されたデータとイベントのタイムスタンプの意味</block>
   <block id="eec6e4da1ad0ccdaee5da6fb26369a7d" category="paragraph">ネットワークタイムプロトコル（ NTP ）サーバを使用して、 Unified Manager サーバ、 ONTAP クラスタ、および Web ブラウザの時間を同期することを強く推奨します。</block>
@@ -7892,7 +7887,6 @@
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">ディスクを追加してアグリゲートレイアウトを再構築する</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">イベントの詳細ページにシステム定義のしきい値イベントが表示された場合、問題があるアグリゲートの名前がイベント概要のテキストに表示されます。このアグリゲートに対して、ディスクを追加してデータを再構築できます。</block>
   <block id="c993772a65e087ac68acfde3645c3287" category="inline-link">テクニカルレポート 3838 ：『 Storage Subsystem Configuration Guide 』</block>
-  <block id="0379ced083df169219dc62cc5068b75c" category="paragraph"><block ref="0379ced083df169219dc62cc5068b75c" category="inline-link-rx"></block></block>
   <block id="95091a57f218d6046d952565cc667676" category="list-text">[Alert Setup] ページで、 [*Add*] をクリックします。</block>
   <block id="a607037fa532ec79673821038e1bfa16" category="list-text">［ アラートの追加 ］ ダイアログボックスで、 ［ * 名前 * ］ をクリックし、アラートの名前と概要を入力します。</block>
   <block id="8fedaf4d4f425da4f507ae3ef98d37e1" category="list-text">[Event Name Contains] フィールドに「 * latency * 」と入力し、矢印をクリックして、一致するすべてのイベントを選択します。</block>
@@ -10902,7 +10896,6 @@
   <block id="38bf356bc057c1b138ed0aadbc422129" category="summary">Securityページには、すべてのクラスタとStorage VMのセキュリティステータスの概要が表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。</block>
   <block id="2dfcaeaf7d872d0b41ac1a7fad3f1bc0" category="doc">クラスタとStorage VMのセキュリティステータスの表示</block>
   <block id="363bd7c65ddeb743b3e567f3bb86d1f0" category="paragraph">Active IQ Unified Manager を使用すると、環境内のストレージオブジェクトのセキュリティステータスを、インターフェイスのさまざまなポイントから確認できます。定義されたパラメータに基づいて情報とレポートを収集および分析し、監視対象のクラスタおよびStorage VMについて、疑わしい動作や不正なシステム変更を検出できます。</block>
-  <block id="ac7c06182b625c627e480ce0c60ff4ed" category="paragraph">セキュリティに関する推奨事項については、を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block></block>
   <block id="468b211c23c8f85e2679c3384b195d38" category="section-title">セキュリティページでオブジェクトレベルのセキュリティステータスを表示します</block>
   <block id="78162355da23f5dd80cdec8e2b9e0d00" category="paragraph">システム管理者は、セキュリティ*ページを使用して、データセンターレベルとサイトレベルのONTAP クラスタとStorage VMのセキュリティ強度を可視化できます。サポートされるオブジェクトは、クラスタ、Storage VM、およびボリュームです。次の手順を実行します。</block>
   <block id="3f9660f836b3463f167780161b6ee0d0" category="list-text">セキュリティ * パネルの右矢印をクリックします。[セキュリティ]ページが表示されます。</block>
@@ -11394,7 +11387,6 @@
   <block id="1668d6113f0198a5d71e61b06adea176" category="paragraph">を参照してください <block ref="647c20854538de241d685bd97fe45f7c" category="inline-link-macro-rx"></block>。</block>
   <block id="888f02aac9bcb8c6e63ecf7ecfd510f3" category="list-text">の手順に従います <block ref="4e49003bd707d086ed2473a592c4e5ad" category="inline-link-macro-rx"></block>。</block>
   <block id="5a4a0a33eb52faa90b4efd9ad5bb111c" category="list-text">また、の手順も実行します <block ref="3d325a30a3d625d98b2da43d85fdf8d6" category="inline-link-macro-rx"></block>。</block>
-  <block id="dd20f685a8b2510866a126106ce9cc1f" category="paragraph">また、 1 つの Unified Manager インスタンスで監視できるノードの数には上限があり、この上限を超える場合は 2 つ目の Unified Manager インスタンスをインストールする必要があります。詳細については、を参照してください <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block>。</block>
   <block id="7799421ecdfd8246db1f771c680ae1eb" category="paragraph">VMware vSphereシステム上のUnified Manager OVAは、内部でDebian OS 11（bulseye）を実行します。サポート対象のバージョンのESXiサーバでサポートされる仮想マシンハードウェアのバージョンについては、VMwareのドキュメントを参照してください。</block>
   <block id="b8c3cbdd8f4d15088d9f9f8a35495d56" category="paragraph">システム要件を確認しておく必要があります。Unified Manager仮想アプライアンスを導入する前に、必要な変更を行ってください。</block>
   <block id="c9e714997136f329f1dedb985dac518e" category="paragraph">[詳細の確認]ページで次の操作を行います</block>
@@ -11531,7 +11523,6 @@
   <block id="b8abe9a6609bb3dbb02a8eb95689e52c" category="paragraph">詳細については、を参照してください <block ref="27f2a443d50f465254d755a8f399eae1" category="inline-link-macro-rx"></block>。</block>
   <block id="19d1717773a06d1e7fb84d9111f40f50" category="inline-link">Active IQ Unified Managerの「システム推奨のパフォーマンスサービスレベルの割り当て」が変数の大きいワークロードに適応していません</block>
   <block id="e17ca1782763605169c7485c671a81aa" category="paragraph">ナレッジベース（KB）の記事も参照してください<block ref="6fff8171920b702fdfb821f2d039fddc" category="inline-link-rx"></block></block>
-  <block id="6cee015afd22a22d4079e89b208d5c0c" category="paragraph">コンプライアンスは、に基づいています<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。パネル上部の右矢印をクリックして、Securityページですべてのクラスタのセキュリティの詳細を表示します。詳細については、を参照してください<block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
   <block id="ecab7fffe5d68c5da20608c5e8019c2d" category="paragraph">このパネルには、データセンター内の 1 つまたはすべてのクラスタのデータ保護の概要が表示されます。ONTAP の過去24時間に生成されたデータ保護イベント、MetroCluster イベント、およびアクティブイベントの総数が表示されます。これらの各イベントのリンクをクリックすると、 [ イベントの詳細 ] ページが表示されます。[ すべて表示 *] リンクをクリックすると、 [ イベント管理 ] インベントリページですべてのアクティブな保護イベントを表示できます。パネルに次の情報が表示され</block>
   <block id="b0fb573143bfffbf957c4316c25a0eca" category="list-text">クラスタ内のボリューム、またはSnapshotコピーで保護されているデータセンター内のすべてのクラスタのボリューム数。</block>
   <block id="cb4e1388d92e1e3da0f3f4e85217a14b" category="list-text">クラスタ内のボリューム、またはSnapMirror関係で保護されているデータセンター内のすべてのクラスタのボリューム数。SnapMirror関係では、ソースクラスタのボリューム数が考慮されます。</block>
@@ -11662,7 +11653,6 @@
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。企業の規制により、アクティブなアンチウイルスソフトウェアがWindowsシステムにインストールされている可能性があります。インストールが失敗しないように、Unified Managerをインストールする前にウィルス対策ソフトウェアを無効にする必要があります。</block>
   <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">Unified Managerをインストールする前に、システムのすべてのウィルス対策ソフトウェアを無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。</block>
   <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">システム要件の詳細については、を参照してください <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> および <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>。</block>
-  <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
   <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>。</block>
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">HTTPS証明書ページでは、現在のセキュリティ証明書の表示、証明書署名要求のダウンロード、新しい自己署名HTTPS証明書の生成、新しいHTTPS証明書のインストールを行うことができます。</block>
@@ -11972,4 +11962,13 @@
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe-FC</block>
   <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
   <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">クラスタレベルでは、Active IQインターフェイスが認証方式「cert」に対して2つの新しいユーザグループエントリを追加します。</block>
+  <block id="1af9d8b43c265c6a772871d91469520e" category="paragraph">セキュリティイベントは、で定義されたパラメータに基づいて、ONTAPクラスタ、Storage Virtual Machine（SVM）、およびボリュームがどの程度セキュアであるかを通知します<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>。</block>
+  <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">詳細な推奨事項と解決策については、（TR-4569）を参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">詳細については、準拠カテゴリに関するトピックおよびを参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">セキュリティに関する推奨事項については、を参照してください。<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
+  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
+  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">また、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールします。詳細については、を参照してください <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>。</block>
+  <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
+  <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
+  <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックすると、[セキュリティ]ページにすべてのクラスタのセキュリティの詳細が表示されます。詳細については、を参照してください <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
