@@ -123,7 +123,7 @@ Cloud AWS IAM RoleNotFound * （ドキュメント CloudAwsIamRoleNotFound ）
 
 
  a| 
-クラウド階層のクラスタ間 LIF が停止している * （ ObjstoreInterClusterLifDown ）
+クラウド階層のクラスタ間ネットワークインターフェイスが停止*（ocumObjstoreInterClusterLifDown）
  a| 
 リスク
  a| 

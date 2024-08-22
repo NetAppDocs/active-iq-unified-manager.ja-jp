@@ -24,7 +24,7 @@ Storage VM （ Storage Virtual Machine 、 SVM ）イベントは、 Storage VM 
 
 
  a| 
-SVM CIFS サービスが停止（ Document EvtVserverCifsServiceStatusDown ）
+Storage VM CIFSサービス停止（ocumEvtVserverCifsServiceStatusDown）
  a| 
 インシデント
  a| 
@@ -134,7 +134,7 @@ SVM
 
 
  a| 
-SVM NFS サービス停止（ Document EvtVserverNfsServiceStatusDown ）
+Storage VM NFSサービス停止（ocumEvtVserverNfsServiceStatusDown）
  a| 
 インシデント
  a| 
@@ -178,7 +178,7 @@ SVM
 
 
  a| 
-SVM が停止しました（ Document EvtDown ）
+Storage VM停止（ocumEvtVserverDown）
  a| 
 リスク
  a| 

@@ -196,7 +196,7 @@ objstor.host.unresolvable
 
 
  a| 
-クラウド階層のクラスタ間 LIF が停止しています
+クラウド階層のクラスタ間ネットワーク インターフェイスが停止
  a| 
 objstore.interclusterlifDown
  a| 
