@@ -11713,7 +11713,6 @@
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">レプリケーションの問題を修正するには、クラスタ / 健常性の詳細ページに表示される情報を使用します。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。展開ボタン（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）をクリックし、ポリシーグループに関する詳細情報を表示します。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows管理者としてPowerShellまたはコマンドプロンプトを起動します。</block>
-  <block id="177f4885c5bf3cc6b06090613bb7d325" category="paragraph">Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.7です。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">を参照してください <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> バックアッププロセスとリストアプロセスの詳細な手順を確認する必要がある場合。</block>
   <block id="1f627cf53c59c3dcb003a3d36f72e53e" category="image-alt">Unified Managerの単一インスタンスを示すUIのスクリーンショット。</block>
   <block id="e0ed7cd9eee5c90155f220097a342182" category="image-alt">スイッチオーバー時のボリュームの動作を示すUIのスクリーンショット。</block>
@@ -11839,10 +11838,8 @@
   <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
   <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDKバージョン11.0.20</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zipバージョン23.01以降</block>
-  <block id="9dfe805f2bba465e37c9c6757ce064ac" category="list-text">Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.8。x86_64アーキテクチャに基づいています。</block>
   <block id="9bbfe0d422adb66f304c54f3a069e88e" category="list-text">MySQL Community Editionバージョン8.0.34（MySQLリポジトリから入手）。</block>
   <block id="127ae3963ea9ca262d43af6b6d82938e" category="list-text">OpenJDKバージョン11.0.21（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
-  <block id="2bc26f2d587b7f2c75ca61793e89fbc7" category="list-text">オペレーティングシステム：Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.8、またはx86_64アーキテクチャをベースとするCentOSバージョン7.x。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストール</block>
   <block id="70f9b1502d4d74c5b86a102e5ed80559" category="paragraph">LinuxプラットフォームでUnified Manager 9.12または9.13から9.14にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.34より前の場合は、Unified Managerのアップグレードプロセスによって8.0.34に自動的にアップグレードされます。</block>
   <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDKバージョン11.0.21</block>
@@ -11971,4 +11968,11 @@
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">Storage VM停止（ocumEvtVserverDown）</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">ボリュームレイテンシの重大しきい値を超過（ocumVolumeLatencyIncident）</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">ボリュームレイテンシの警告しきい値を超過（ocumVolumeLatencyWarning）</block>
+  <block id="5ecb6b24c169667ff1a176768115659e" category="inline-link-macro">Active IQ Unified Manager</block>
+  <block id="04bf06d7ddd618e01f3388a565561c94" category="paragraph">についてActive IQ Unified Manager REST APIのその他のリソースおよび利点の詳細、を参照してください<block ref="08ef7b83d66900e05791163681900cc0" category="inline-link-macro-rx"></block>は。</block>
+  <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">オペレーティングシステム：Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.9、またはx86_64アーキテクチャをベースとするCentOSバージョン7.x。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストール</block>
+  <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.9（x86_64アーキテクチャに基づく）</block>
+  <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">Unified ManagerがインストールされているRed Hat Enterprise Linux 7.xシステムをRed Hat Enterprise Linux 8.xにアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、Red Hat Enterprise Linux 7.xでUnified Managerのバックアップを作成し、そのバックアップをRed Hat Enterprise Linux 8.xシステムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.9です。</block>
+  <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">Unified Manager管理情報ベース（MIB）</block>
+  <block id="cda417ab3ce8513849242e7fb90f668c" category="sidebar">Unified Managerデータベーススキーマ</block>
 </blocks>
