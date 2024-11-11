@@ -2,7 +2,7 @@
 permalink: config/concept_what_maintenance_user_does.html 
 sidebar: sidebar 
 keywords: what, maintenance, user does, installation, unified manager 
-summary: Unified Manager を Red Hat Enterprise Linux または CentOS システムにインストールする場合、インストール時にメンテナンスユーザが作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、 Web UI でアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。 
+summary: メンテナンスユーザは、Unified ManagerをRed Hat Enterprise Linuxシステムにインストールするときに作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、Web UIでアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。 
 ---
 = メンテナンスユーザの役割
 :allow-uri-read: 
@@ -11,6 +11,6 @@ summary: Unified Manager を Red Hat Enterprise Linux または CentOS システ
 
 
 [role="lead"]
-Unified Manager を Red Hat Enterprise Linux または CentOS システムにインストールする場合、インストール時にメンテナンスユーザが作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、 Web UI でアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。
+メンテナンスユーザは、Unified ManagerをRed Hat Enterprise Linuxシステムにインストールするときに作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、Web UIでアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。
 
 メンテナンスユーザまたは umadmin ユーザは、 Unified Manager のメンテナンスコンソールにもアクセスできます。

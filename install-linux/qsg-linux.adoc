@@ -11,13 +11,13 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 
 
 [role="lead"]
-インストールパッケージをダウンロードして、Red Hat Enterprise LinuxまたはCentOSの物理プラットフォームまたは仮想プラットフォームにUnified Managerをインストールできます。
+Unified Managerは、インストールパッケージをダウンロードして、Red Hat Enterprise Linuxの物理プラットフォームまたは仮想プラットフォームにインストールできます。
 
 
 
 == システム要件
 
-* オペレーティングシステム：Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.9、またはx86_64アーキテクチャをベースとするCentOSバージョン7.x。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストール
+* オペレーティングシステム：x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.4。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストールします。
 * RAM ： 12 GB 、 CPU ：合計 9572MHz
 * 空きディスク領域： /opt/NetApp/data ディレクトリに 100 GB のディスク領域、ルートパーティションに 50 GB 。個別にマウントされた '/opt/'/var/log' ディレクトリの場合は '/opt/'var/log' に 15 GB'/tmp に 10 GB の空き領域があることを確認してください
 
@@ -53,7 +53,7 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 
 === リポジトリの構成を確認する
 
-Red Hat Enterprise Linux リポジトリまたは CentOS リポジトリを設定する手順はサイトによって異なります。インストール・パッケージに含まれている 'pre_install_check.sh' スクリプトを使用して ' オペレーティング・システムの構成を確認できますシステムがインターネットに接続されている場合は、 Red Hat Enterprise Linux リポジトリまたは CentOS リポジトリのセットアップ手順が自動的に表示されます。
+Red Hat Enterprise Linuxリポジトリの設定手順はサイトによって異なります。インストールパッケージに含まれているスクリプトを使用して、オペレーティングシステムの設定を確認できます `pre_install_check.sh`。システムがインターネットに接続されている場合は、Red Hat Enterprise Linuxリポジトリのセットアップ手順が自動的に表示されます。
 
 #sudo ./pre_install_check.sh
 
@@ -61,7 +61,7 @@ Red Hat Enterprise Linux リポジトリまたは CentOS リポジトリを設�
 
 === Unified Manager をインストールします
 
-Unified Manager は 'yum' ユーティリティを使用してソフトウェアと依存するソフトウェアをインストールしますRed Hat Enterprise Linux または CentOS にはさまざまなイメージがインストールされるため、インストールするパッケージはイメージに含まれるソフトウェアによって異なります。yum`utility は ' インストールする依存ソフトウェアパッケージを決定します依存するソフトウェアパッケージの詳細については、を参照してください link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+Unified Managerでは、ユーティリティを使用して `yum`ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。 `yum`ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してくださいlink:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
 
 Unified Manager をインストールするには、インストールファイルを解凍したディレクトリで、次のコマンドを root ユーザとして実行するか、「 sudo 」を使用して実行します。
 

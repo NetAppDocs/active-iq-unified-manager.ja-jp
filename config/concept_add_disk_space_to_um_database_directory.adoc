@@ -20,4 +20,4 @@ Unified Manager データベースディレクトリには、 ONTAP システム
 ディレクトリの使用率が 95% に達すると、クラスタから追加のデータが収集されなくなります。
 
 ====
-データディレクトリの容量を追加する手順は、 Unified Manager を VMware ESXi サーバ、 Red Hat Linux サーバまたは CentOS Linux サーバ、 Microsoft Windows サーバのいずれで実行しているかによって異なります。
+データディレクトリの容量を追加する手順は、Unified ManagerをVMware ESXiサーバ、Red Hatサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。

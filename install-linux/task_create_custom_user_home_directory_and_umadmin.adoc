@@ -16,7 +16,7 @@ Unified Manager をインストールする前に、カスタムのホームデ�
 * 必要なもの *
 
 * に記載されたシステム要件を満たしている必要があります link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
-* Red Hat Enterprise Linux または CentOS のシステムに root ユーザとしてログインできる必要があります。
+* Red Hat Enterprise Linuxシステムにrootユーザとしてログインできる必要があります。
 
 
 Unified Manager のインストール時、デフォルト設定では次のタスクが実行されます。

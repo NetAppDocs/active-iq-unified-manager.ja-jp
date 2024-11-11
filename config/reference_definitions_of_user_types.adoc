@@ -17,7 +17,7 @@ Unified Manager には次のユーザタイプがあります。
 
 * * メンテナンスユーザー *
 +
-Unified Manager の初期設定時に作成されます。メンテナンスユーザは、別のユーザを作成してロールを割り当てます。メンテナンスコンソールにアクセスできる唯一のユーザでもあります。Unified Manager を Red Hat Enterprise Linux または CentOS システムにインストールしている場合、メンテナンスユーザのユーザ名は「 umadmin 」です。
+Unified Manager の初期設定時に作成されます。メンテナンスユーザは、追加のユーザを作成してロールを割り当てます。メンテナンスコンソールにアクセスできる唯一のユーザでもあります。Unified ManagerをRed Hat Enterprise Linuxシステムにインストールしている場合、メンテナンスユーザのユーザ名は「umadmin」になります。
 
 * * ローカルユーザー *
 +

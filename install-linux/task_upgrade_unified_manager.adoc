@@ -11,7 +11,7 @@ summary: Unified Managerをアップグレードするには、Linuxプラット
 
 
 [role="lead"]
-LinuxプラットフォームでUnified Manager 9.12または9.13から9.14にアップグレードするには、インストールファイルをダウンロードして実行します。
+LinuxプラットフォームでUnified Manager 9.13または9.14から9.16にアップグレードするには、インストールファイルをダウンロードして実行します。
 
 * 必要なもの *
 
@@ -34,7 +34,7 @@ LinuxプラットフォームでUnified Manager 9.12または9.13から9.14に�
 
 
 .手順
-. ターゲットの Red Hat Enterprise Linux サーバまたは CentOS サーバにログインします。
+. ターゲットのRed Hat Enterprise Linuxサーバにログインします。
 . サーバに Unified Manager のバンドルをダウンロードします。
 +
 を参照してください link:task_download_unified_manager.html["Linux版Unified Managerをダウンロードしています"]。

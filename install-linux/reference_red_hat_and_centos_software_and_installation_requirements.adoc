@@ -19,11 +19,10 @@ Unified Manager をインストールする Linux システムには、特定の
 
 Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。
 
-* Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.9（x86_64アーキテクチャに基づく）
-* x86_64アーキテクチャに基づくCentOSバージョン7.x。CentOS ストリームはサポートされていません。
+* Red Hat Enterprise Linuxバージョン8.xおよび9.4（x86_64アーキテクチャに基づく）
 
 
-サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。
+サポートされているRed Hat Enterprise Linuxのバージョンの最新のリストについては、Interoperability Matrixを参照してください。
 
 http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
@@ -40,8 +39,8 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3�
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 
-* MySQL Community Editionバージョン8.0.34（MySQLリポジトリから入手）。
-* OpenJDKバージョン11.0.21（Red Hat Extra Enterprise Linux Serverリポジトリから入手）
+* MySQL Community Editionバージョン8.0.37（MySQLリポジトリから入手）。
+* OpenJDKバージョン11.0.23（Red Hat Extra Enterprise Linux Serverリポジトリから入手）
 * Python 3.6.x
 * p7zip バージョン 16.02 以降（ Red Hat Extra Packages for Enterprise Linux リポジトリから入手）
 
@@ -61,10 +60,10 @@ Linux システムへの Unified Manager のインストールは、 root ユー
 
 == インストールの要件
 
-Red Hat Enterprise Linux または CentOS とその関連リポジトリをシステムにインストールする際のベストプラクティスは次のとおりです。別の方法でインストールまたは設定されたシステム、またはオフプレミス（クラウド）に導入されたシステムでは、追加の手順が必要になる場合があります。また、 Unified Manager が適切に実行されない可能性があります。
+Red Hat Enterprise Linuxと関連リポジトリをシステムにインストールする際のベストプラクティスを次に示します。別の方法でインストールまたは設定されたシステム、またはオフプレミス（クラウド）に導入されたシステムでは、追加の手順が必要になる場合があり、Unified Managerが適切に実行されない可能性があります。
 
-* Red Hat のベストプラクティスに従って Red Hat Enterprise Linux または CentOS をインストールし、次のデフォルトのオプションを選択する必要があります。デフォルトのオプションでは、「 GUI を使用するサーバ」ベース環境を選択します。
-* Red Hat Enterprise Linux または CentOS への Unified Manager のインストール中にインストールプログラムが必要なすべてのソフトウェアにアクセスしてインストールできるように、システムには該当するリポジトリへのアクセスが必要です。
+* Red Hatのベストプラクティスに従ってRed Hat Enterprise Linuxをインストールし、次のデフォルトオプションを選択する必要があります。「GUIを使用するサーバ」ベース環境を選択する必要があります。
+* Red Hat Enterprise LinuxへのUnified Managerのインストール中にインストールプログラムが必要なすべてのソフトウェアにアクセスしてインストールできるように、システムには該当するリポジトリへのアクセスが必要です。
 * yum` インストーラが Red Hat Enterprise Linux リポジトリで依存するソフトウェアを見つけるためには、 Red Hat Enterprise Linux のインストール中またはインストール後に有効な Red Hat サブスクリプションを使用してシステムを登録しておく必要があります。
 +
 Red Hat Subscription Manager については、 Red Hat のドキュメントを参照してください。
@@ -85,7 +84,7 @@ Red Hat Subscription Manager については、 Red Hat のドキュメントを
 
 
 
-システムがインターネットにアクセスできず、インターネットに接続されたシステムからリポジトリがミラーリングされていない場合は、インストール手順に従ってシステムに必要な外部ソフトウェアを確認してください。必要なソフトウェアを特定したら、インターネットに接続されたシステムにそのソフトウェアをダウンロードし、「 .rpm 」ファイルを Unified Manager をインストールするシステムにコピーします。アーティファクトとパッケージをダウンロードするには 'yum install コマンドを使用する必要があります2 つのシステムで同じバージョンのオペレーティングシステムを実行していること、および該当する Red Hat Enterprise Linux バージョンまたは CentOS バージョンのサブスクリプションライセンスがあることを確認してください。
+システムがインターネットに接続されておらず、インターネットに接続されたシステムからリポジトリがミラーリングされていない場合は、インストール手順に従って、システムに必要な外部ソフトウェアを確認してください。必要なソフトウェアをダウンロードしたら、インターネットに接続されたシステムにそのソフトウェアをダウンロードし、Unified Managerをインストールするシステムにファイルをコピーし `.rpm`ます。アーティファクトとパッケージをダウンロードするには、コマンドを使用する必要があります `yum install`。2つのシステムで同じバージョンのオペレーティングシステムを実行していること、および該当するRed Hat Enterprise Linuxのサブスクリプションライセンスがあることを確認する必要があります。
 
 [NOTE]
 ====
@@ -96,11 +95,11 @@ Red Hat Subscription Manager については、 Red Hat のドキュメントを
 
 == ポート 443 の要件
 
-Red Hat Enterprise Linux および CentOS の汎用イメージは、ポート 443 への外部アクセスをブロックする場合があります。そのため、 Unified Manager のインストール後に管理者 Web UI に接続できなくなることがあります。次のコマンドを実行すると、汎用の Red Hat Enterprise Linux または CentOS システムのすべての外部ユーザとアプリケーションがポート 443 にアクセスできるようになります。
+Red Hat Enterprise Linuxの汎用イメージでは、ポート443への外部アクセスがブロックされることがあります。そのため、Unified Managerのインストール後に管理者Web UIに接続できなくなることがあります。次のコマンドを実行すると、汎用Red Hat Enterprise Linux上のすべての外部ユーザとアプリケーションがポート443にアクセスできるようになります。
 
 `#firewall-cmd --zone=public--add-port =443/tcp--permanent; firewall-cmd --reload`
 
-Red Hat Enterprise Linux および CentOS は、「 GUI を使用するサーバ」ベース環境でインストールする必要があります。このベース環境は、 Unified Manager のインストール手順で使用されるコマンドを提供します。他のベース環境では、インストールを検証または完了するために追加のコマンドのインストールが必要になる場合があります。システムで「 firewall-cmd 」を使用できない場合は、次のコマンドを実行してこれをインストールする必要があります。
+Red Hat Enterprise Linuxは、「GUIを備えたサーバ」ベース環境でインストールする必要があります。Unified Managerのインストール手順で使用するコマンドを提供します。他のベース環境では、インストールを検証または完了するために追加のコマンドのインストールが必要になる場合があります。システムにがない場合は `firewall-cmd`、次のコマンドを実行してインストールする必要があります。
 
 #sudo yum install firewalld`
 
@@ -108,6 +107,6 @@ Red Hat Enterprise Linux および CentOS は、「 GUI を使用するサーバ
 
 [NOTE]
 ====
-CentOS および Red Hat システムでは Transparent Huge Pages （ THP ）を無効にします。有効にすると、特定のプロセスがメモリを大量に消費して終了した場合に原因 Unified Manager をシャットダウンできる場合があります。
+Red Hatシステムでは、THP（Transparent Huge Pages）を無効にする必要があります。有効にすると、特定のプロセスがメモリを大量に消費して終了したときにUnified Managerがシャットダウンすることがあります。
 
 ====

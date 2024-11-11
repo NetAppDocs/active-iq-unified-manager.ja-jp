@@ -2,7 +2,7 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
-summary: データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Red Hat Enterprise Linux または CentOS システムにもリストアできます。 
+summary: データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。 
 ---
 = Linux システムでの MySQL データベースバックアップのリストア
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: データ損失やデータ破損が発生した場合、 Unified Manag
 
 
 [role="lead"]
-データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Red Hat Enterprise Linux または CentOS システムにもリストアできます。
+データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。
 
 * 必要なもの *
 
@@ -24,7 +24,7 @@ summary: データ損失やデータ破損が発生した場合、 Unified Manag
 * バックアップファイルのタイプは「 .7z 」でなければなりません。
 
 
-リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager のバックアップは、同じバージョンの Unified Manager にのみリストアできます。Red Hat Enterprise Linux または CentOS システムにリストアできるのは、 Linux のバックアップファイルと仮想アプライアンスのバックアップファイルです。
+リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager のバックアップは、同じバージョンの Unified Manager にのみリストアできます。Red Hat Enterprise Linuxシステムにリストアできるのは、Linuxのバックアップファイルまたは仮想アプライアンスのバックアップファイルです。
 
 [TIP]
 ====

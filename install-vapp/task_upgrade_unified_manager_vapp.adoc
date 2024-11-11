@@ -11,7 +11,7 @@ summary: VMware vSphere 上の Unified Manager にアップグレードできま
 
 
 [role="lead"]
-Active IQ Unified Managerをリリース9.12または9.13からリリース9.14にアップグレードできるのは、リリース9.12または9.13からのみです。
+Active IQ Unified Managerをリリース9.12または9.13からリリース9.16にアップグレードできるのは、リリース9.12または9.13からのみです。
 
 アップグレードプロセスの実行中は、 Unified Manager を使用できなくなります。実行中の処理がある場合は、 Unified Manager をアップグレードする前に完了しておいてください
 

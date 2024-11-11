@@ -17,7 +17,7 @@ Unified Manager をインストールするには、 Unified Manager の .zip �
 
 ネットアップサポートサイトのログインクレデンシャルが必要です。
 
-ダウンロードする Unified Manager のインストールパッケージは、 Red Hat Enterprise Linux と CentOS の両方のシステムで共通です。
+Red Hat Enterprise Linuxシステム用のUnified Managerインストールパッケージをダウンロードします。
 
 .手順
 . ネットアップサポートサイトにログインし、 Unified Manager のダウンロードページに移動します。

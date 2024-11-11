@@ -45,6 +45,8 @@ entries:
     entries:
     - title: OpenJDK のアップグレード
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
+  - title: サードパーティ製品のアンインストール
+    url: "/install-windows/task_uninstall_third_party_products.html"
   - title: Unified Manager を再開しています
     url: "/install-windows/task_restart_unified_manager_win.html"
   - title: Unified Manager をアンインストールしています

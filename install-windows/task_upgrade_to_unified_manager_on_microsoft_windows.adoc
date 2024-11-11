@@ -11,7 +11,7 @@ summary: Unified Manager をアップグレードするには、 Windows プラ�
 
 
 [role="lead"]
-WindowsプラットフォームでUnified Manager 9.12または9.13から9.14にアップグレードするには、インストールファイルをダウンロードして実行します。
+WindowsプラットフォームでUnified Manager 9.13または9.14から9.16にアップグレードするには、インストールファイルをダウンロードして実行します。
 
 * 必要なもの *
 
@@ -35,6 +35,7 @@ Unified Manager 9.5 以降、 OpenJDK はインストールパッケージに含
 
 ====
 * MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.34より前の場合は、Unified Managerのアップグレードプロセスによって8.0.34に自動的にアップグレードされます。MySQLの旧バージョンから8.0.34へのスタンドアロンアップグレードを実行しないでください。
+* ASA R2システムを除くすべてのクラスタがサポートされます。
 * Windows の管理者権限が必要です。ユーザ名の先頭に感嘆符「 ! 」が付いていないことを確認してください。インストールを実行するユーザのユーザ名の 1 文字目が「！」であると、 Unified Manager のインストールが失敗することがあります。
 * ネットアップサポートサイトにログインするための有効なクレデンシャルが必要です。
 * アップグレード中に問題が使用される場合にデータが失われないようにするために、 Unified Manager マシンのバックアップを作成しておく必要があります。
@@ -57,8 +58,7 @@ Unified Manager を OnCommand Workflow Automation のインスタンスとペア
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["ネットアップサポートサイト"^]。
 
 . 必要なバージョンの Unified Manager を選択し、エンドユーザライセンス契約（ EULA ）に同意します。
-. Unified Manager Windows インストールファイルを Windows システムのターゲットディレクトリにダウンロードします。
-. Unified Manager インストーラの実行ファイル（ .exe ファイル）を右クリックし、管理者として実行します。
+. Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。必要に応じてzipファイルを展開し、インストールファイルがあるディレクトリに移動します。Unified Managerインストーラの実行可能ファイル（.exe）を右クリックし、管理者として実行します。
 +
 Unified Manager から次のメッセージが表示されます。
 

@@ -15,7 +15,7 @@ Linux ホストを最初にセットアップした時点で Unified Manager を
 
 * 必要なもの *
 
-Unified Manager がインストールされている Red Hat Enterprise Linux マシンまたは CentOS Linux マシンへの root ユーザアクセスが必要です。
+Unified ManagerがインストールされているRed Hat Enterprise Linuxマシンへのrootユーザアクセスが必要です。
 
 データディレクトリのサイズを拡張する前に Unified Manager データベースをバックアップすることを推奨します。
 

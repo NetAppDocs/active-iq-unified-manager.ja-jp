@@ -15,7 +15,7 @@ Network Configuration メニューでは、ネットワーク設定を管理で�
 
 [NOTE]
 ====
-Unified Manager が Red Hat Enterprise Linux 、 CentOS 、または Microsoft Windows にインストールされている場合は、このメニューを使用できません。
+Unified ManagerがRed Hat Enterprise LinuxまたはMicrosoft Windowsにインストールされている場合は、このメニューを使用できません。
 
 ====
 次のメニュー項目を選択できます。

@@ -2,7 +2,7 @@
 permalink: install-linux/task_remove_unified_manager.html 
 sidebar: sidebar 
 keywords: remove, unified manager 
-summary: Unified Manager は、 1 つのコマンドで Red Hat Enterprise Linux ホストまたは CentOS ホストから停止してアンインストールできます。 
+summary: Red Hat Enterprise LinuxホストからUnified Managerを停止およびアンインストールするには、1つのコマンドを使用します。 
 ---
 = Unified Manager を削除しています
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Unified Manager は、 1 つのコマンドで Red Hat Enterprise Linux
 
 
 [role="lead"]
-Unified Manager は、 1 つのコマンドで Red Hat Enterprise Linux ホストまたは CentOS ホストから停止してアンインストールできます。
+Red Hat Enterprise LinuxホストからUnified Managerを停止およびアンインストールするには、1つのコマンドを使用します。
 
 * 必要なもの *
 

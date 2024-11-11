@@ -13,4 +13,4 @@ summary: 必要に応じて、 Unified Manager をインストールしたシス
 [role="lead"]
 必要に応じて、 Unified Manager をインストールしたシステムのホスト名をあとから変更することができます。たとえば、タイプ、ワークグループ、監視対象のクラスタグループなどがわかるような名前に変更すると、 Unified Manager サーバを識別しやすくなります。
 
-ホスト名を変更する手順は、 Unified Manager を VMware ESXi サーバ、 Red Hat Linux サーバまたは CentOS Linux サーバ、 Microsoft Windows サーバのいずれで実行しているかによって異なります。
+ホスト名を変更する手順は、Unified ManagerをVMware ESXiサーバ、Red Hat Linuxサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。
