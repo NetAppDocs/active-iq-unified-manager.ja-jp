@@ -11800,15 +11800,12 @@
   <block id="f98499a614ee3e46a1d64724ab7c8d2e" category="list-text">インストールされているMySQLのバージョンがMySQL 8.0.34 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。</block>
   <block id="80bdec6524a5d6db6b1fc5272cd81192" category="paragraph">Active IQ Unified Manager仮想アプライアンスをリリース9.12または9.13から9.14にアップグレードできます。</block>
   <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">オペレーティングシステム：VMware ESXi 7.0および8.0</block>
-  <block id="6e6893b593d627add14e7a987c9dea2d" category="inline-link">Active IQ Unified Manager 9.14に関する注意事項</block>
-  <block id="4b72586187e7bd694fd5d9d2189fcc3f" category="paragraph"><block ref="4b72586187e7bd694fd5d9d2189fcc3f" category="inline-link-rx"></block></block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">たとえば、インストールされているバージョンがUnified Manager 9.9でUnified Manager 9.14にアップグレードする場合は、一連のアップグレードを実行します。</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">9.11から9.13へのアップグレード</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">9.13-&gt; 9.14にアップグレード</block>
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">GraphiteサーバがUnified Managerからボリュームのパフォーマンスデータを受信しません。</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">クラスタでONTAP 9.14.1バージョン以降が実行されている場合、ノードのルートボリュームの監視機能は使用できません。</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">クラスタでONTAP 9.14.1バージョン以降が実行されている場合、ノードのルートアグリゲートの監視機能は使用できません。</block>
-  <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">詳細については、を参照してください<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block>。</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。会社の規制により、Qualysのような脆弱性スキャナがLinuxシステムにインストールされている可能性があります。インストールが失敗しないようにするには、Unified Managerをインストールする前に脆弱性スキャナを無効にする必要があります。</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">外部で生成された証明書をActiveIQ Unified Managerでインストールできない</block>
   <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">証明書のインストールに失敗した場合は、ナレッジベース（KB）の次の記事を参照してください。
@@ -11968,7 +11965,6 @@
   <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">Unified ManagerがインストールされているRed Hat Enterprise Linuxサーバへのrootユーザアクセスが必要です。</block>
   <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">LinuxプラットフォームでUnified Manager 9.13または9.14から9.16にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">ターゲットのRed Hat Enterprise Linuxサーバにログインします。</block>
-  <block id="1af6d75cb215145d2b721ba6d31196de" category="paragraph">Active IQ Unified Managerをリリース9.12または9.13からリリース9.16にアップグレードできるのは、リリース9.12または9.13からのみです。</block>
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">ASA R2システムを除くすべてのクラスタがサポートされます。</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">必要に応じてzipファイルを展開し、インストールファイルがあるディレクトリに移動します。</block>
@@ -11989,4 +11985,8 @@
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">データディレクトリの容量を追加する手順は、Unified ManagerをVMware ESXiサーバ、Red Hat Linuxサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。</block>
   <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Active IQ Unified Manager（Unified Manager、旧OnCommand Unified Manager）を使用すると、ONTAPストレージシステムの健全性とパフォーマンスを1つのインターフェイスから監視および管理できます。このドキュメントライブラリには、バージョン9.16の情報が含まれています。</block>
   <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Active IQ Unified Manager 9.16のドキュメント</block>
+  <block id="d9f6c085dd395f22b9dc3195122f05fb" category="paragraph">Active IQ Unified Managerをリリース9.13または9.14からリリース9.16にアップグレードできるのは、リリース9.13または9.14からのみです。</block>
+  <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16の場合の注意事項</block>
+  <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
+  <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">詳細については、を参照して<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>ください。</block>
 </blocks>
