@@ -4405,7 +4405,6 @@
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">サードパーティ製ソフトウェア</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Unified Manager にバンドルされているサードパーティパッケージを次に示します。これらのサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;2015 再頒布可能パッケージバージョン 14.26.28720.3</block>
-  <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Visual Studio 2013 バージョン 12.0.40660.0 の Microsoft Visual C&amp;#43;&amp;#43; 再頒布可能パッケージ</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">Unified Manager 9.5 以降、 OpenJDK は Unified Manager のインストールパッケージに含まれており、自動的にインストールされます。Unified Manager 9.5 以降では Oracle Java はサポートされません。</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">MySQL がインストールされている場合は、次の点を確認してください。</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">デフォルトのポートを使用している。</block>
@@ -11790,9 +11789,6 @@
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">Web UIからクラスタを追加すると、証明書ベースの認証が自動的に有効になります。</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">Unified ManagerのCLIを使用してクラスタを追加できますが、証明書ベースの認証はデフォルトでは有効になっていません。Unified Manager CLIを使用してクラスタを追加する場合は、Unified Manager UIを使用してクラスタを編集する必要があります。を参照してください <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> をクリックしてください。</block>
   <block id="4d5180c5e0db12f69692d5e800ed5b61" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.34より前の場合は、Unified Managerのアップグレードプロセスによって8.0.34に自動的にアップグレードされます。MySQLの旧バージョンから8.0.34へのスタンドアロンアップグレードを実行しないでください。</block>
-  <block id="f40472cbd758b6598c019a5411b70a20" category="list-text">MySQL Community Editionバージョン8.0.34</block>
-  <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
-  <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDKバージョン11.0.20</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zipバージョン23.01以降</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition は、 Unified Manager のアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.34より前の場合は、Unified Managerのアップグレードプロセスによって8.0.34に自動的にアップグレードされます。</block>
   <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDKバージョン11.0.21</block>
@@ -11989,4 +11985,8 @@
   <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16の場合の注意事項</block>
   <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
   <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">詳細については、を参照して<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>ください。</block>
+  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Visual Studio 2015バージョン14.26.28720.3のMicrosoft Visual C&amp;#43;&amp;#4;&amp;#43;再頒布可能パッケージ</block>
+  <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Editionバージョン8.0.37</block>
+  <block id="fdbcf1b7ae01feab7a0a53d81c7205ce" category="list-text">Python 3.12x</block>
+  <block id="08759e76d989173a95ffac75dd374ef2" category="list-text">OpenJDKバージョン11.0.23</block>
 </blocks>
