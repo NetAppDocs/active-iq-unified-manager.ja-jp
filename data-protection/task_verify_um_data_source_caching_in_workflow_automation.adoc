@@ -13,8 +13,7 @@ summary: Unified Manager データソースのキャッシングが正しく機�
 [role="lead"]
 Unified Manager データソースのキャッシングが正しく機能しているかどうかを判別するには、 Workflow Automation でデータソースの取得が正常に行われているかどうかを確認します。Workflow Automation を Unified Manager に統合する際にこの操作を実行して、統合後に Workflow Automation の機能が利用可能になることを確認できます。
 
-* 必要なもの *
-
+.開始する前に
 このタスクを実行するには、 Workflow Automation で Administrator ロールまたは Architect ロールが割り当てられている必要があります。
 
 .手順

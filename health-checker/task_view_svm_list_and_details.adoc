@@ -13,8 +13,7 @@ summary: Health ： All Storage VM ビューで、 Storage Virtual Machine （ S
 [role="lead"]
 Health ： All Storage VM ビューで、 Storage Virtual Machine （ SVM ）のインベントリを監視できます。Storage VM / 健全性の詳細ページを使用して、監視対象の SVM に関する詳細情報を表示できます。
 
-* 必要なもの *
-
+.開始する前に
 オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 
 SVM の容量、効率、構成など、 SVM の詳細を表示できます。また、その SVM に関連するデバイスやアラートに関する情報も参照できます。

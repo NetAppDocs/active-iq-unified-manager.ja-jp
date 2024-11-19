@@ -13,8 +13,7 @@ summary: Unified Manager をアップグレードする前に、 Unified Manager
 [role="lead"]
 Unified Manager をアップグレードする前に、 Unified Manager のアップグレードファイルをネットアップサポートサイトからダウンロードします。
 
-* 必要なもの *
-
+.開始する前に
 ネットアップサポートサイトのログインクレデンシャルが必要です。
 
 .手順

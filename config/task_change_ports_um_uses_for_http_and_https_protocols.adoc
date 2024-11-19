@@ -13,8 +13,7 @@ summary: Unified Manager が HTTP および HTTPS プロトコルに使用する
 [role="lead"]
 Unified Manager が HTTP および HTTPS プロトコルに使用するデフォルトのポートは、セキュリティ上の理由からインストール後に変更することができます。デフォルトのポートは、 HTTP の場合は 80 、 HTTPS の場合は 443 です。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
 
 [NOTE]

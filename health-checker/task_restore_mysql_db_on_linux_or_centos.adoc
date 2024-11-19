@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
+permalink: health-checker/task_restore_mysql_db_on_linux.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
 summary: データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。 
@@ -13,8 +13,7 @@ summary: データ損失やデータ破損が発生した場合、 Unified Manag
 [role="lead"]
 データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。
 
-* 必要なもの *
-
+.開始する前に
 * Unified Manager がインストールされている Linux ホストの root ユーザのクレデンシャルが必要です。
 * Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
 * リストア処理を実行するシステムに Unified Manager のバックアップファイルとデータベースリポジトリディレクトリの内容をコピーしておく必要があります。

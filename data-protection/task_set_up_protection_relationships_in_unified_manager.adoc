@@ -13,8 +13,7 @@ summary: Unified Manager と OnCommand Workflow Automation を使用してデー
 [role="lead"]
 Unified Manager と OnCommand Workflow Automation を使用してデータを保護するための SnapMirror 関係と SnapVault 関係をセットアップするには、いくつかの手順を実行する必要があります。
 
-* 必要なもの *
-
+.開始する前に
 * アプリケーション管理者またはストレージ管理者のロールが必要です。
 * 2 つのクラスタまたは 2 つの Storage Virtual Machine （ SVM ）間にピア関係を確立しておく必要があります。
 * OnCommand Workflow Automation を Unified Manager に統合する必要があります。

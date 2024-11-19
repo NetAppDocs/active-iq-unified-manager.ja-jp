@@ -13,8 +13,7 @@ summary: データ損失やデータ破損が発生した場合、 Unified Manag
 [role="lead"]
 データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager の Snapshot データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらのオペレーティングシステムにもリストアできます。
 
-* 必要なもの *
-
+.開始する前に
 * Unified Manager がインストールされている Windows ホストマシンに対する Linux ホストの root ユーザのクレデンシャルと管理者権限が必要です。
 * Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
 

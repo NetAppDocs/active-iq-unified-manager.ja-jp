@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+permalink: install-linux/task_upgrade_host_os.html 
 sidebar: sidebar 
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。 
@@ -11,7 +11,7 @@ summary: Unified Manager がインストールされている Red Hat Enterprise
 
 
 [role="lead"]
-Unified ManagerがインストールされているRed Hat Enterprise Linux 7.xシステムをRed Hat Enterprise Linux 8.xにアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、Red Hat Enterprise Linux 7.xでUnified Managerのバックアップを作成し、そのバックアップをRed Hat Enterprise Linux 8.xシステムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.9です。
+Unified ManagerがインストールされているRed Hat Enterprise Linux 7.xシステムをRed Hat Enterprise Linux 8.xにアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、Red Hat Enterprise Linux 7.xでUnified Managerのバックアップを作成し、そのバックアップをRed Hat Enterprise Linux 8.xシステムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.10です。
 
 ここに記載する 2 つの方法の違いは、 Unified Manager のリストア処理を新しい 8.x サーバで実行する場合と同じサーバで実行する場合です。
 
@@ -23,11 +23,11 @@ Red Hat Enterprise Linux 8.x ソフトウェアをインストールできるス
 
 . 新しいサーバに Red Hat Enterprise Linux 8.x ソフトウェアをインストールして設定します。
 +
-を参照してください link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+を参照して link:reference_red_hat_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]
 
 . Red Hat Enterprise Linux 8.x システムには、既存の Red Hat Enterprise Linux 7.x システムと同じバージョンの Unified Manager ソフトウェアをインストールします。
 +
-を参照してください link:concept_install_unified_manager_on_rhel_or_centos.html["LinuxへのUnified Managerのインストール"]。
+を参照して link:concept_install_unified_manager_on_rhel.html["LinuxへのUnified Managerのインストール"]
 
 +
 インストールが完了しても、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。この情報は、リストアプロセスでバックアップファイルに取り込まれます。
@@ -52,11 +52,11 @@ Red Hat Enterprise Linux 8.x ソフトウェアをインストールできるス
 . システムから Red Hat Enterprise Linux 7.x イメージを削除し、システムを完全に消去します。
 . 同じシステムに Red Hat Enterprise Linux 8.x ソフトウェアをインストールして設定します。
 +
-を参照してください link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+を参照して link:reference_red_hat_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]
 
 . Red Hat Enterprise Linux 8.x システムには、以前の Red Hat Enterprise Linux 7.x システムと同じバージョンの Unified Manager ソフトウェアをインストールします。
 +
-を参照してください link:concept_install_unified_manager_on_rhel_or_centos.html["LinuxへのUnified Managerのインストール"]。
+を参照して link:concept_install_unified_manager_on_rhel.html["LinuxへのUnified Managerのインストール"]
 
 +
 インストールが完了しても、 UI を起動したり、クラスタ、ユーザ、または認証設定を設定したりしないでください。この情報は、リストアプロセスでバックアップファイルに取り込まれます。

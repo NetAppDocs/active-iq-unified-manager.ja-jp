@@ -13,8 +13,7 @@ summary: インストールファイルをダウンロードしたら、 Unified
 [role="lead"]
 インストールファイルをダウンロードしたら、 Unified Manager を仮想アプライアンスとして導入します。vSphere Web Client を使用して、 ESXi サーバに仮想アプライアンスを導入します。仮想アプライアンスを導入すると、仮想マシンが作成されます。
 
-* 必要なもの *
-
+.開始する前に
 システム要件を確認しておく必要があります。Unified Manager仮想アプライアンスを導入する前に、必要な変更を行ってください。
 
 を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["仮想インフラの要件"]。

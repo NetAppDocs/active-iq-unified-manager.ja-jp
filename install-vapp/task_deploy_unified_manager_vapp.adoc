@@ -13,8 +13,7 @@ summary: Unified Manager を導入するには、ソフトウェアをダウン�
 [role="lead"]
 Unified Manager を導入するには、ソフトウェアをダウンロードし、仮想アプライアンスを導入し、メンテナンスユーザを作成してユーザ名とパスワードを設定し、 Web UI で初期セットアップを行います。
 
-* 必要なもの *
-
+.開始する前に
 * 導入に必要なシステム要件を確認し、満たしておく必要があります。
 +
 を参照してください link:concept_requirements_for_installing_unified_manager.html["システム要件"]。

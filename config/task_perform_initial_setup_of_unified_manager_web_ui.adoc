@@ -13,8 +13,7 @@ summary: Unified Manager を使用するには、 NTP サーバ、メンテナ�
 [role="lead"]
 Unified Manager を使用するには、 NTP サーバ、メンテナンスユーザの E メールアドレス、 SMTP サーバのホストなどを最初に設定し、 ONTAP クラスタを追加する必要があります。
 
-* 必要なもの *
-
+.開始する前に
 次の作業を完了しておきます。
 
 * インストールの完了時に表示された URL を使用して Unified Manager Web UI を起動します

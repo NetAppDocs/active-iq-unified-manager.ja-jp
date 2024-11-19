@@ -13,8 +13,7 @@ summary: Unified Manager でリモートユーザの認証に使用するアイ�
 [role="lead"]
 Unified Manager でリモートユーザの認証に使用するアイデンティティプロバイダ（ IdP ）を変更することができます。
 
-* 必要なもの *
-
+.開始する前に
 * IdP の URL とメタデータが必要です。
 * IdP へのアクセスが必要です。
 

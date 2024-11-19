@@ -13,8 +13,7 @@ summary: Workflow Automation と Unified Manager の間の接続をサポート�
 [role="lead"]
 Workflow Automation と Unified Manager の間の接続をサポートする場合や、データベースビューにアクセスする場合は、まず Unified Manager Web UI で、 Integration Schema ロールまたは Report Schema ロールを持つデータベースユーザを作成する必要があります。
 
-* 必要なもの *
-
+.開始する前に
 アプリケーション管理者のロールが必要です。
 
 データベースユーザは、 Workflow Automation との統合およびレポート固有のデータベースビューへのアクセスを行うことができます。データベースユーザは、 Unified Manager Web UI やメンテナンスコンソールにはアクセスできず、 API 呼び出しも実行できません。

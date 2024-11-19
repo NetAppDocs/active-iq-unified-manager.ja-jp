@@ -21,8 +21,7 @@ MetroCluster 構成は、Active IQ Unified Manager の左ナビゲーション�
 
 Unified Managerでは、システムヘルスアラートを使用して、MetroCluster 構成のコンポーネントおよび接続のステータスを示します。
 
-* 必要なもの *
-
+.開始する前に
 * MetroCluster 構成のローカルクラスタとリモートクラスタの両方をActive IQ Unified Manager に追加する必要があります。
 * MetroCluster over IP構成でメディエーターがサポートされる場合は、対応するAPIでメディエーターを設定してクラスタに追加する必要があります。
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。

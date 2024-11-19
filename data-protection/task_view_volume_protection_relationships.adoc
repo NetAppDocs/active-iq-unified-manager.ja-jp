@@ -13,8 +13,7 @@ summary: Relationship ： All Relationships ビューと Volume Relationships �
 [role="lead"]
 Relationship ： All Relationships ビューと Volume Relationships ページで、既存のボリュームの SnapMirror 関係と SnapVault 関係のステータスを確認できます。転送と遅延のステータス、ソースとデスティネーションの詳細、スケジュールとポリシーの情報など、保護関係の詳細も確認できます。
 
-* 必要なもの *
-
+.開始する前に
 アプリケーション管理者またはストレージ管理者のロールが必要です。
 
 このページから、関係に関するコマンドを開始することもできます。

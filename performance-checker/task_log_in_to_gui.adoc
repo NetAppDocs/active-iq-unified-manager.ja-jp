@@ -13,8 +13,7 @@ summary: Unified Manager の UI には、サポートされている Web ブラ�
 [role="lead"]
 Unified Manager の UI には、サポートされている Web ブラウザからログインできます。
 
-* 必要なもの *
-
+.開始する前に
 * Web ブラウザが最小要件を満たしている必要があります。
 +
 詳細については、 Interoperability Matrix を参照してください http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] をクリックして、サポートされているブラウザバージョンの一覧を表示します。

@@ -13,8 +13,7 @@ summary: Red Hat Enterprise LinuxホストからUnified Managerを停止およ�
 [role="lead"]
 Red Hat Enterprise LinuxホストからUnified Managerを停止およびアンインストールするには、1つのコマンドを使用します。
 
-* 必要なもの *
-
+.開始する前に
 * Unified Manager を削除するサーバへの root ユーザアクセスが必要です。
 * LinuxシステムでSecurity-Enhanced Linux（SELinux）を無効にしておく必要があります。を使用して、SELinuxランタイムモードを「permissive」に変更します `setenforce 0` コマンドを実行します
 * ソフトウェアを削除する前に、 Unified Manager サーバからすべてのクラスタ（データソース）を削除しておく必要があります。

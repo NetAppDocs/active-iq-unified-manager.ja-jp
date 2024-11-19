@@ -148,7 +148,7 @@ entries:
       - title: データベースリストアとは何ですか
         url: "/health-checker/concept_what_database_restore_is.html"
       - title: Linux システムでの MySQL データベースバックアップのリストア
-        url: "/health-checker/task_restore_mysql_db_on_linux_or_centos.html"
+        url: "/health-checker/task_restore_mysql_db_on_linux.html"
       - title: Windows での MySQL データベースバックアップのリストア
         url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
     - title: NetApp Snapshot を使用したバックアップとリストア
@@ -183,7 +183,7 @@ entries:
     - title: Unified Manager のオンデマンドバックアップ
       url: "/health-checker/concept_on_demand_backup_for_unified_manger.html"
     - title: Linux システムへの Unified Manager 仮想アプライアンスの移行
-      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html"
+      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
   - title: スクリプトの管理
     url: "/health-checker/concept_manage_scripts.html"
     entries:

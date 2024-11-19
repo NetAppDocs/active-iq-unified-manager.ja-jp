@@ -13,8 +13,7 @@ summary: Workflow Automation が不要となった場合は、 Unified Manager �
 [role="lead"]
 Workflow Automation が不要となった場合は、 Unified Manager から OnCommand Workflow Automation のセットアップを削除できます。
 
-* 必要なもの *
-
+.開始する前に
 アプリケーション管理者またはストレージ管理者のロールが必要です。
 
 .手順

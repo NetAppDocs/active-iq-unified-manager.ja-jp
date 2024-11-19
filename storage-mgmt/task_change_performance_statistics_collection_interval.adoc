@@ -13,8 +13,7 @@ summary: パフォーマンス統計のデフォルトの収集間隔は 5 分�
 [role="lead"]
 パフォーマンス統計のデフォルトの収集間隔は 5 分です。大規模なクラスタからの収集がデフォルトの時間内に完了しない場合は、この間隔を 10 分または 15 分に変更できます。この設定は、この Unified Manager インスタンスで監視しているすべてのクラスタからの統計の収集に適用されます。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
 
 パフォーマンス統計の収集が時間内に完了しなかった場合、「 Unable to consistently collect from cluster <cluster_name> or Data collection is taking too long on cluster <cluster_name> 」というバナーメッセージが表示されます問題

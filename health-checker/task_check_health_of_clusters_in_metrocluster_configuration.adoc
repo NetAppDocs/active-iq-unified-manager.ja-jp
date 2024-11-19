@@ -13,8 +13,7 @@ summary: Unified Manager を使用して、 MetroCluster 構成のクラスタ�
 [role="lead"]
 Active IQ Unified Manager （Unified Manager）を使用して、MetroCluster over FCおよびMetroCluster over IP構成のクラスタとそのコンポーネントの運用の健常性を確認できます。Unified Manager によって検出されたパフォーマンスイベントにクラスタが関連している場合は、健常性ステータスを確認することで、ハードウェアまたはソフトウェアの問題がイベントの一因となったかどうかを判断できます。
 
-* 必要なもの *
-
+.開始する前に
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 * MetroCluster 構成のパフォーマンスイベントを分析し、関連するクラスタの名前を取得しておく必要があります。
 * MetroCluster 構成の両方のクラスタをFC経由で、IPアドレスがUnified Managerの同じインスタンスで監視する必要があります。

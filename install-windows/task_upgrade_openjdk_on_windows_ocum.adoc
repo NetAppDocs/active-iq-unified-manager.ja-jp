@@ -13,8 +13,7 @@ summary: Unified Manager がインストールされている Windows サーバ�
 [role="lead"]
 Unified Manager がインストールされている Windows サーバで OpenJDK を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。
 
 OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.16からOpenJDK 11.0.18にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。

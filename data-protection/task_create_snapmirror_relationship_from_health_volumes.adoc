@@ -13,8 +13,7 @@ summary: Health ： All Volumes ビューでは、同じ Storage VM 上にある
 [role="lead"]
 Health ： All Volumes ビューでは、同じ Storage VM 上にある複数のボリュームを選択して、複数の SnapMirror 保護関係を一度に作成できます。
 
-* 必要なもの *
-
+.開始する前に
 * アプリケーション管理者またはストレージ管理者のロールが必要です。
 * Workflow Automation のセットアップが完了している必要があります。
 

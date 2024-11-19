@@ -13,8 +13,7 @@ summary: ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラス
 [role="lead"]
 ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。
 
-* 必要なもの *
-
+.開始する前に
 クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
 
 * クラスタの要件：

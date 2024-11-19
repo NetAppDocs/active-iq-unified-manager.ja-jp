@@ -61,7 +61,7 @@ Red Hat Enterprise Linuxリポジトリの設定手順はサイトによって�
 
 === Unified Manager をインストールします
 
-Unified Managerでは、ユーティリティを使用して `yum`ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。 `yum`ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してくださいlink:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+Unified Managerでは、ユーティリティを使用して `yum`ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。 `yum`ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してくださいlink:../install-linux/reference_red_hat_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
 
 Unified Manager をインストールするには、インストールファイルを解凍したディレクトリで、次のコマンドを root ユーザとして実行するか、「 sudo 」を使用して実行します。
 

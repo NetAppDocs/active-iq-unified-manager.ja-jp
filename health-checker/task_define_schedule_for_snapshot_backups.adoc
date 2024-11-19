@@ -13,8 +13,7 @@ summary: Unified ManagerのUIを使用して、Unified Manager Snapshotコピー
 [role="lead"]
 Unified ManagerのUIを使用して、Unified Manager Snapshotコピーを作成するスケジュールを設定できます。
 
-* 必要なもの *
-
+.開始する前に
 * オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 * メンテナンスコンソールからSnapshotコピーを作成するための設定を行って、Snapshotを作成するデスティネーションを特定しておく必要があります。
 

@@ -13,8 +13,7 @@ summary: Unified Manager データベースのディスクスペースを増や�
 [role="lead"]
 Unified Manager データベースのディスクスペースを増やす必要がある場合は、 Unified Manager がインストールされている論理ドライブに容量を追加できます。
 
-* 必要なもの *
-
+.開始する前に
 Windows の管理者権限が必要です。
 
 ディスクスペースを追加する前に Unified Manager データベースをバックアップすることを推奨します。

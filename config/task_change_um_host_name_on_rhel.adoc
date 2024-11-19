@@ -1,5 +1,5 @@
 ---
-permalink: config/task_change_um_host_name_on_rhel_or_centos.html 
+permalink: config/task_change_um_host_name_on_rhel.html 
 sidebar: sidebar 
 keywords: change, unified manager, host name, linux systems 
 summary: 必要に応じて、Unified ManagerをインストールしたRed Hat Enterprise Linuxマシンのホスト名をあとから変更することができます。たとえば、タイプ、ワークグループ、監視対象のクラスタグループなどがわかるような名前に変更すると、 Linux マシンのリストで Unified Manager サーバを識別しやすくなります。 
@@ -13,8 +13,7 @@ summary: 必要に応じて、Unified ManagerをインストールしたRed Hat 
 [role="lead"]
 必要に応じて、Unified ManagerをインストールしたRed Hat Enterprise Linuxマシンのホスト名をあとから変更することができます。たとえば、タイプ、ワークグループ、監視対象のクラスタグループなどがわかるような名前に変更すると、 Linux マシンのリストで Unified Manager サーバを識別しやすくなります。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager がインストールされている Linux システムへの root ユーザアクセスが必要です。
 
 Unified Manager Web UI には、ホスト名（またはホストの IP アドレス）を使用してアクセスできます。導入時に静的 IP アドレスを使用してネットワークを設定した場合は、指定したネットワークホストの名前を使用します。DHCP を使用してネットワークを設定した場合は、 DNS サーバからホスト名を取得します。

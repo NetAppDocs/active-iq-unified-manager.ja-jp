@@ -13,8 +13,7 @@ summary: Unified Manager をインストールする前に、カスタムのホ�
 [role="lead"]
 Unified Manager をインストールする前に、カスタムのホームディレクトリを作成し、 umadmin ユーザのパスワードを独自に定義できます。このタスクはオプションですが、サイトによっては Unified Manager のデフォルトのインストール設定とは異なる設定が必要になることがあります。
 
-* 必要なもの *
-
+.開始する前に
 * に記載されたシステム要件を満たしている必要があります link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
 * Red Hat Enterprise Linuxシステムにrootユーザとしてログインできる必要があります。
 

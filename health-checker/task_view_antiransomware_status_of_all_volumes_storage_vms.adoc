@@ -13,8 +13,7 @@ summary: すべてのボリュームとStorage VM、および最新のランサ�
 [role="lead"]
 すべてのボリュームとStorage VM（SVM）およびその最新のランサムウェア対策ステータスのリストを表示して、ボリュームやSVM上のデータがランサムウェア攻撃から適切に保護されているかどうかを確認できます。
 
-* 必要なもの *
-
+.開始する前に
 オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。
 
 ランサムウェア対策のさまざまなステータスの詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP ：ランサムウェア対策を有効化"]。

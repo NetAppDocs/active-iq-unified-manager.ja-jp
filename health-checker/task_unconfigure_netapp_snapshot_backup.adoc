@@ -13,8 +13,7 @@ summary: Active IQ Unified Manager システムのバックアップタイプを
 [role="lead"]
 Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup *オプションを使用すると、MySQLベースのバックアップにフォールバックできます。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
 
 .手順

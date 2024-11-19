@@ -13,8 +13,7 @@ summary: インベントリの Storage VM ページを使用して Active IQ Uni
 [role="lead"]
 インベントリの Storage VM ページを使用して Active IQ Unified Manager 内のすべての Storage VM を表示し、保護ステータスに基づいて Storage VM をフィルタリングできます。
 
-* 必要なもの *
-
+.開始する前に
 アプリケーション管理者またはストレージ管理者のロールが必要です。
 
 Storage VM ビューに Protection Role という新しい列が追加され、 Storage VM が保護されているか保護されていないかを示す情報が表示されます。

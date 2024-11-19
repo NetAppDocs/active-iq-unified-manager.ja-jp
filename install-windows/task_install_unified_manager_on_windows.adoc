@@ -13,8 +13,7 @@ summary: Unified Manager をインストールすることで、データスト�
 [role="lead"]
 Unified Manager をインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。
 
-* 必要なもの *
-
+.開始する前に
 * Unified Manager をインストールするシステムがシステムおよびソフトウェアの要件を満たしている必要があります。
 +
 を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。

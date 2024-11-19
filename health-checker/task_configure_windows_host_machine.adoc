@@ -13,8 +13,7 @@ summary: NetApp Snapshotを使用してActive IQ Unified Manager をバックア
 [role="lead"]
 NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします
 
-* 必要なもの *
-
+.開始する前に
 ホストマシン上の以前の設定をすべてクリーンアップする必要があります。
 
 Windows の新規インストール時に iSCSI イニシエータを起動しようとすると、確認のプロンプトが表示され、確認のために [iSCSI Properties] ダイアログボックスが表示されます。既存の Windows インストールの場合は、非アクティブまたは接続しようとしているターゲットとともに iSCSI Properties （ iSCSI プロパティ）ダイアログボックスが表示されます。そのため、 Windows ホストで以前の設定をすべて削除する必要があります。

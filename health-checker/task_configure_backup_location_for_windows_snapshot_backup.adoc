@@ -13,8 +13,7 @@ summary: WindowsでのUnified Managerのバックアップ後、Snapshotコピ�
 [role="lead"]
 WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。
 
-* 必要なもの *
-
+.開始する前に
 クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
 
 * クラスタの要件：

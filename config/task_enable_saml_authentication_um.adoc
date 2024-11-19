@@ -13,8 +13,7 @@ summary: Security Assertion Markup Language （ SAML ）認証を有効にして
 [role="lead"]
 Security Assertion Markup Language （ SAML ）認証を有効にして、 Unified Manager の Web UI にアクセスするリモートユーザをセキュアなアイデンティティプロバイダ（ IdP ）で認証するように設定できます。
 
-* 必要なもの *
-
+.開始する前に
 * リモート認証を設定し、正常に実行されることを確認しておく必要があります。
 * アプリケーション管理者ロールが割り当てられたリモートユーザまたはリモートグループを少なくとも 1 つ作成しておく必要があります。
 * アイデンティティプロバイダ（ IdP ）が Unified Manager でサポートされ、設定が完了している必要があります。

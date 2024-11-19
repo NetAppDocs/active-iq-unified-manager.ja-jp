@@ -13,8 +13,7 @@ summary: Unified Manager がインストールされている Linux サーバで
 [role="lead"]
 Unified Manager がインストールされている Linux サーバで OpenJDK を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。
 
-* 必要なもの *
-
+.開始する前に
 Unified Manager がインストールされている Linux システムに対する root 権限が必要です。
 
 OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.14からOpenJDK 11.0.17にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。

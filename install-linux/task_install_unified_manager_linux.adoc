@@ -13,14 +13,13 @@ summary: Unified Managerは、Red Hat Enterprise Linuxの物理プラットフ�
 [role="lead"]
 Unified Managerは、Red Hat Enterprise Linuxの物理プラットフォームまたは仮想プラットフォームにインストールできます。
 
-* 必要なもの *
-
+.開始する前に
 * Unified Manager をインストールするシステムがシステムおよびソフトウェアの要件を満たしている必要があります。
 +
 を参照してください link:concept_virtual_infrastructure_or_hardware_system_requirements.html["ハードウェアシステムの要件"]。
 
 +
-を参照してください link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]。
+を参照して link:reference_red_hat_software_and_installation_requirements.html["Linux ソフトウェアとインストールの要件"]
 
 * Unified Manager の .zip ファイルをネットアップサポートサイトからターゲットシステムにダウンロードしておく必要があります。
 * ダウンロードしたの整合性を確認しておく必要があります `.zip` ファイル。
@@ -40,14 +39,14 @@ Red Hat Enterprise Linuxシステムには、必要なサポートソフトウ�
 
 
  a| 
-OpenJDKバージョン11.0.21
+OpenJDKバージョン11.0.23
  a| 
 「 java -version 」のように指定します
 
 
 
  a| 
-MySQL 8.0.34 Community Edition
+MySQL 8.0.37 Community Edition
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
@@ -59,7 +58,7 @@ p7zip 16.02
 rpm -qa | grep p7zip
 
 |===
-. インストールされているMySQLのバージョンがMySQL 8.0.34 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。
+. インストールされているMySQLのバージョンがMySQL 8.0.37 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 

@@ -13,8 +13,7 @@ summary: Linux ホストを最初にセットアップした時点で Unified Ma
 [role="lead"]
 Linux ホストを最初にセットアップした時点で Unified Manager をサポートするために「 /opt/netapp/data 」ディレクトリに十分なディスクスペースを割り当てていなかった場合は、インストール後に「 /opt/netapp/data 」ディレクトリのディスクスペースを増やしてディスクスペースを追加できます。
 
-* 必要なもの *
-
+.開始する前に
 Unified ManagerがインストールされているRed Hat Enterprise Linuxマシンへのrootユーザアクセスが必要です。
 
 データディレクトリのサイズを拡張する前に Unified Manager データベースをバックアップすることを推奨します。

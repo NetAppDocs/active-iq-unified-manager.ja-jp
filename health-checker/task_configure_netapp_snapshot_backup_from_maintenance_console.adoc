@@ -13,8 +13,7 @@ summary: Snapshotコピーを使用してActive IQ Unified Manager バックア�
 [role="lead"]
 Snapshotコピーを使用してActive IQ Unified Manager バックアップを作成するには、メンテナンスコンソールからいくつかの設定手順を実行する必要があります。
 
-* 必要なもの *
-
+.開始する前に
 システムに関する次の詳細を確認しておく必要があります。
 
 * クラスタの IP アドレス
