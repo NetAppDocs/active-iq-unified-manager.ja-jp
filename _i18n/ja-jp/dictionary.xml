@@ -8966,7 +8966,6 @@
   <block id="2d974e9696c074a06050862c69b83202" category="list-text">外部データプロバイダ</block>
   <block id="cd6a563edbaef3df6496fb101f4ffe09" category="list-text">パフォーマンスポーリング間隔の設定</block>
   <block id="baab3b98bf2d404c92d495462cf66f7f" category="summary">Unified Manager に非アクティブ時のタイムアウト値を指定して、一定の時間が経過したらセッションを自動的に終了するように設定できます。デフォルトでは、タイムアウトは 4 、 320 分（ 72 時間）に設定されています。</block>
-  <block id="5e01bd42f20f3a63d47605b5e7ede78e" category="doc">セッションの非アクティブ時のタイムアウト設定</block>
   <block id="9d065b6fca599ddf99bd5a9301130378" category="paragraph">この設定は、ログインしているすべてのユーザセッションに適用されます。</block>
   <block id="6778129bfdc370315a53a29729233c17" category="paragraph">Security Assertion Markup Language （ SAML ）認証を有効にしている場合は、このオプションを使用できません。</block>
   <block id="f14db7db0e625fc1745454b4360a0f03" category="list-text">[* 機能設定 * ] ページで、次のいずれかのオプションを選択して非アクティブ時のタイムアウトを指定します。</block>
@@ -11986,4 +11985,13 @@
   <block id="3c476f11a2cc5c761bb84165398bdfa1" category="paragraph">Active IQ Unified Manager仮想アプライアンスをリリース9.13または9.14から9.16にアップグレードできます。</block>
   <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
   <block id="e382152aa599731ca30f5f2ff671bc43" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.0.37より前の場合は、Unified Managerのアップグレードプロセスによって8.0.37に自動的にアップグレードされます。MySQLの旧バージョンから8.0.37へのスタンドアロンアップグレードを実行しないでください。</block>
+  <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">アクティブでないセッションのタイムアウトを設定</block>
+  <block id="5b864f90874a257a247b735985d967ca" category="paragraph">Unified Managerに非アクティブ時のタイムアウト値を指定して、一定期間非アクティブな状態が続いた場合にセッションを自動的に終了するように設定できます。デフォルトでは、タイムアウトは4、320分（72時間）に設定されています。</block>
+  <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">CLIを使用してUnified Managerの最大セッションタイムアウト値を設定し、一定期間が経過したあとにセッションを自動的に終了することができます。</block>
+  <block id="13eab81633be183184983b2327458134" category="doc">CLIを使用したセッションタイムアウトの設定</block>
+  <block id="6889dc046b9753e9d32d85f6277f0128" category="paragraph">CLIを使用してUnified Managerの最大セッションタイムアウト値を設定し、一定期間が経過したあとにセッションを自動的に終了することができます。デフォルトでは、セッションタイムアウトは最大値（4、320分（72時間））に設定されています。つまり、Unified Managerにログインしてアクティブに使用していても、72時間後にセッションは自動的に終了します。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">タスクの内容</block>
+  <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">セッションタイムアウト設定は、ログインしているすべてのユーザセッションに影響します。</block>
+  <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">コマンドを入力して、Unified Manager CLIにログインし<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block>ます。認証に有効なユーザ名とパスワードを使用してください。</block>
+  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">を入力し<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>て、セッションタイムアウト値を変更します。</block>
 </blocks>

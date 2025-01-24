@@ -32,8 +32,10 @@ entries:
       url: "/config/task_add_alerts.html"
   - title: ローカルユーザのパスワードを変更しています
     url: "/config/task_change_local_user_password.html"
-  - title: セッションの非アクティブ時のタイムアウト設定
+  - title: アクティブでないセッションのタイムアウトを設定
     url: "/config/task_set_session_inactivity_timeout.html"
+  - title: CLIを使用したセッションタイムアウトの設定
+    url: "/config/task_set_session_timeout_CLI.html"
   - title: Unified Manager のホスト名を変更しています
     url: "/config/concept_change_unified_manager_host_name.html"
     entries:

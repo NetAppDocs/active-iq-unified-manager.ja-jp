@@ -55,12 +55,9 @@ Unified Manager 仮想アプライアンスでは、 VMware High Availability �
 
 +
 ** Publisherセクションの詳細を確認します。メッセージ* Entrust Code Signing - OVCS2 (Trusted certificate)*は、ダウンロードされたの整合性を確認します `OVA` ファイル。+「Entrust Code Signing - OVCS2（Invalid certificate）」というメッセージが表示された場合は、VMware vCenter Serverを7.0U3E以降のバージョンにアップグレードします。
-
-
 +
 [テンプレートのカスタマイズ]ページで、次の手順を実行
 
-+
 ** DHCP と IPv4 アドレスを使用する場合は、すべてのフィールドを空白のままにします。
 ** DHCP と IPv6 アドレスを使用する場合は '[Enable Auto IPv6 addressing] チェックボックスをオンにし ' その他のフィールドはすべて空白のままにします
 ** 静的なネットワーク設定を使用する場合は、このページのフィールドに値を入力します。これらの設定は導入時に適用されます。IP アドレスは、導入先のホストで一意であること、使用されていないこと、および有効な DNS エントリがあることを確認してください。
