@@ -20,5 +20,5 @@ CLIを使用してUnified Managerの最大セッションタイムアウト値�
 
 .手順
 . コマンドを入力して、Unified Manager CLIにログインし `um cli login`ます。認証に有効なユーザ名とパスワードを使用してください。
-. を入力し `um option set max.session.timeout.value=<in mins>`て、セッションタイムアウト値を変更します。
+. 入力し `um option set max.session.timeout.value=<in mins>`コマンドをて、セッションタイムアウト値を変更します。
 

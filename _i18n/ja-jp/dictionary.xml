@@ -11993,5 +11993,5 @@
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">タスクの内容</block>
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">セッションタイムアウト設定は、ログインしているすべてのユーザセッションに影響します。</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">コマンドを入力して、Unified Manager CLIにログインし<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block>ます。認証に有効なユーザ名とパスワードを使用してください。</block>
-  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">を入力し<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>て、セッションタイムアウト値を変更します。</block>
+  <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">入力し<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>コマンドをて、セッションタイムアウト値を変更します。</block>
 </blocks>
