@@ -91,7 +91,7 @@ Network Time Protocol の略
  a| 
 OCSP
  a| 
-ONTAP に OCSP （ Online Certificate Status Protocol ）が設定されていないアプリケーションがないか、そのため通信が暗号化されていないかどうかを示します。非準拠のアプリケーションが一覧表示されます。
+9.14.1以降のActive IQ Unified Managerでは、オンライン証明書ステータスプロトコル（OCSP）のステータス情報がStorage Virtual Machine（SVM、旧Vserver）レベルで提供されます。つまり、SVMへのすべてのSSL/TLS接続にOCSP検証が適用され、それらの接続で使用される証明書の整合性と有効性が保証されます。
  a| 
 有効
  a| 
