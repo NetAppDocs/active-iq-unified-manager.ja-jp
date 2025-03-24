@@ -56,6 +56,8 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3�
 
 Linux システムへの Unified Manager のインストールは、 root ユーザに加え、「 sudo 」コマンドを使用すれば root 以外のユーザも実行できます。
 
+また、Unified Managerのデフォルトのインストールでは、sudoersファイルと `ocie_sudoers` `/etc/sudoers.d/`ディレクトリにumadminユーザ（デフォルトのメンテナンスユーザ）とjbossユーザが含まれます(`ocum_sudoers`。セキュリティポリシーまたはセキュリティ監視ツールが原因でこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。
+
 
 
 == インストールの要件

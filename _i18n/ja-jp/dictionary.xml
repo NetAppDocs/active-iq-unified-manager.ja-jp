@@ -11994,4 +11994,5 @@
   <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">入力し<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>コマンドをて、セッションタイムアウト値を変更します。</block>
   <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">9.14.1以降のActive IQ Unified Managerでは、オンライン証明書ステータスプロトコル（OCSP）のステータス情報がStorage Virtual Machine（SVM、旧Vserver）レベルで提供されます。つまり、SVMへのすべてのSSL/TLS接続にOCSP検証が適用され、それらの接続で使用される証明書の整合性と有効性が保証されます。</block>
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zipバージョン23.01以降</block>
+  <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">また、Unified Managerのデフォルトのインストールでは、sudoersファイルと<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block><block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block>ディレクトリにumadminユーザ（デフォルトのメンテナンスユーザ）とjbossユーザが含まれます<block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>。セキュリティポリシーまたはセキュリティ監視ツールが原因でこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。</block>
 </blocks>
