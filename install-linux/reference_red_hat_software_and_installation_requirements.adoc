@@ -84,6 +84,7 @@ Red Hat Subscription Manager については、 Red Hat のドキュメントを
 +
 を参照してください link:task_manually_configure_mysql_repository.html["MySQL リポジトリを手動で設定する"]。
 
+* Unified Managerホストにインストールする必要があるJavaのバージョンは1つだけです。インストールしないと、使用するバージョンが特定できない可能性があります。を参照してください https://kb.netapp.com/data-mgmt/AIQUM/AIQUM_Kbs/After_updating_Java_on_the_Active_IQ_Unified_Manager_host_services_will_not_start["Active IQ Unified ManagerホストでJavaを更新したあとにサービスが開始されない"]
 
 
 システムがインターネットに接続されておらず、インターネットに接続されたシステムからリポジトリがミラーリングされていない場合は、インストール手順に従って、システムに必要な外部ソフトウェアを確認してください。必要なソフトウェアをダウンロードしたら、インターネットに接続されたシステムにそのソフトウェアをダウンロードし、Unified Managerをインストールするシステムにファイルをコピーし `.rpm`ます。アーティファクトとパッケージをダウンロードするには、コマンドを使用する必要があります `yum install`。2つのシステムで同じバージョンのオペレーティングシステムを実行していること、および該当するRed Hat Enterprise Linuxのサブスクリプションライセンスがあることを確認する必要があります。

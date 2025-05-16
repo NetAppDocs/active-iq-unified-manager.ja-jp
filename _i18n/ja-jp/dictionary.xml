@@ -11994,4 +11994,7 @@
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zipバージョン23.01以降</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">また、Unified Managerのデフォルトのインストールでは、sudoersファイルと<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block><block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block>ディレクトリにumadminユーザ（デフォルトのメンテナンスユーザ）とjbossユーザが含まれます<block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>。セキュリティポリシーまたはセキュリティ監視ツールが原因でこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。</block>
   <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">証明書のインストールに失敗した場合は、ナレッジベース（KB）の次の記事を参照してください。<block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
+  <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Managerが監査ログをリモートsyslogサーバに送信するために使用します。</block>
+  <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Active IQ Unified ManagerホストでJavaを更新したあとにサービスが開始されない</block>
+  <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Unified Managerホストにインストールする必要があるJavaのバージョンは1つだけです。インストールしないと、使用するバージョンが特定できない可能性があります。を参照してください<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block></block>
 </blocks>
