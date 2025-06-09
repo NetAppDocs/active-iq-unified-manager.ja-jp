@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: Unified Managerは、Red Hat Enterprise Linuxの物理プラットフォームまたは仮想プラットフォームにインストールできます。 
 ---
-= Unified Manager をインストールしています
+= Unified Manager をインストールします
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -39,14 +39,14 @@ Red Hat Enterprise Linuxシステムには、必要なサポートソフトウ�
 
 
  a| 
-OpenJDKバージョン11.0.23
+OpenJDKバージョン11.0.25
  a| 
 「 java -version 」のように指定します
 
 
 
  a| 
-MySQL 8.0.37 Community Edition
+MySQL 8.4.4 Community Edition
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
@@ -58,7 +58,7 @@ p7zip 16.02
 rpm -qa | grep p7zip
 
 |===
-. インストールされているMySQLのバージョンがMySQL 8.0.37 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。
+. インストールされているMySQLのバージョンがMySQL 8.4.4 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 
@@ -125,7 +125,7 @@ yum 'install NetApp-um <version>.x86_64.rpm
 インストールがGPG NOKEYエラーで失敗した場合は、を使用します `rpm --import` URLからキーをインポートするには、次の手順に従います。
 
 +
-`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
+rpm --import  https://repo.mysql.com/RPM-GPG-KEY-mysql-2023[]
 
 +
 [NOTE]

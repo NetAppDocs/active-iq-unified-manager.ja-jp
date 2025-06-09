@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually configure mysql repository, mysql key, keys update 
 summary: Unified Manager をインストールするシステムが MySQL Community Edition リポジトリにアクセスできない場合、インストールが成功するためにはリポジトリを手動でダウンロードして設定する必要があります。 
 ---
-= MySQL リポジトリを手動で設定する
+= MySQLリポジトリを手動で設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -23,17 +23,17 @@ MySQL リポジトリリポジトリリポジトリは、システムにイン�
 .手順
 . インストールに対応するMySQLリポジトリをダウンロードします。バージョン8の場合は、次のサイトからダウンロードします。
 +
-`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
+`wget http://repo.mysql.com/yum/mysql-8.4-community/el/8/x86_64/mysql84-community-release-el8-1.noarch.rpm`
 
 +
 バージョン9の場合は、次のサイトからダウンロードします。
 
 +
-`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
+`wget http://repo.mysql.com/yum/mysql-8.4-community/el/9/x86_64/mysql84-community-release-el9-1.noarch.rpm`
 
 . MySQL リポジトリを設定します。
 +
-yum `install mysqld80 -community-reley-<version>.noarch.rpm`
+`yum install mysql84-community-release-.noarch.rpm`
 
 
 
@@ -54,7 +54,7 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
 
 for example:
 
-rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 ----
 * インターネットに接続されていないシステムでは'MySQLリポジトリファイルを更新し'gpgcheck=0とマークしてgpgcheckを無効にします
 

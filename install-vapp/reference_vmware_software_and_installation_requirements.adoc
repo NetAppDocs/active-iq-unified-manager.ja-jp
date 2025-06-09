@@ -24,7 +24,7 @@ Unified Manager をインストールする VMware vSphere システムには、
 
 [NOTE]
 ====
-VMware vSphereシステム上のUnified Manager OVAは、内部でDebian OS 11（bulseye）を実行します。サポート対象のバージョンのESXiサーバでサポートされる仮想マシンハードウェアのバージョンについては、VMwareのドキュメントを参照してください。
+VMware vSphere システム上の Unified Manager OVA は、内部的に Debian OS 12 (bookworm) を実行します。サポートされているバージョンの ESXi サーバーがサポートできる仮想マシンハードウェアのバージョンについては、VMware のドキュメントを参照してください。
 
 ====
 サポートされる vSphere のバージョンは次のとおりです。

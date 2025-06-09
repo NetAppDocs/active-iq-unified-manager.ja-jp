@@ -47,9 +47,9 @@ Unified Manager のみを実行する専用のサーバを用意する必要が�
 Unified Manager にバンドルされているサードパーティパッケージを次に示します。これらのサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。
 
 * Visual Studio 2015バージョン14.26.28720.3のMicrosoft Visual C&#43;&#4;&#43;再頒布可能パッケージ
-* MySQL Community Editionバージョン8.0.37
+* MySQL Community Editionバージョン8.4.4
 * Python 3.12.4
-* OpenJDKバージョン11.0.23
+* OpenJDKバージョン11.0.25
 * 7-zipバージョン23.01以降
 
 

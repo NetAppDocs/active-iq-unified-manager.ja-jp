@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/task_resolve_windows_log_rotation_issue.html 
+sidebar: sidebar 
+keywords: windows, log rotation issue, Netapp Manageability SDK 
+summary: 'トラブルシューティング: ログローテーションの問題を解決するには、次の手順に従ってください。' 
+---
+= Windows システムにおける NetApp Manageability SDK のログローテーションの問題
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Windowsオペレーティングシステム上のUnified ManagerにONTAPI APIベースのクラスタを追加した後、  `nmsdk.log`ファイル サイズが増加し、10 MB のサイズ制限を超えます。
+
+* 原因 *
+
+この問題は、ログのローテーションが行われない場合に発生する可能性があります。
+
+* 是正措置 *
+
+. Unified Manager を停止します。
+. Windows に Unified Manager をインストールする場合は、Logrotate バージョン 0.0.0.18 をインストールしてください。詳細については、を参照してlink:https://www.netapp.com/pdf.html?item=/media/78941-tr-4945.pdf["NetApp Manageability SDK テクニカル レポートのセキュリティ強化ガイド"^]ください。
+. Unified Manager を起動します。
+

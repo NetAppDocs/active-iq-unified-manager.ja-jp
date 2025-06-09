@@ -165,3 +165,5 @@ entries:
     url: "/storage-mgmt/reference_user_not_found.html"
   - title: 問題で他の認証サービスを使用して LDAP を追加
     url: "/storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html"
+  - title: Windows システムにおける NetApp Manageability SDK のログローテーションの問題
+    url: "/storage-mgmt/task_resolve_windows_log_rotation_issue.html"
