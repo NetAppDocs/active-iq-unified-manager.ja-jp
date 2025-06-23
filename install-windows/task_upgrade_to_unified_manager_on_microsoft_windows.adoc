@@ -67,7 +67,7 @@ Unified Manager から次のメッセージが表示されます。
 This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . [ はい ] をクリックし、 [ 次へ ] をクリックします。
-. インストール時に設定した MySQL8 root パスワードを入力し、 * Next * をクリックします。
+. インストール時に設定した MySQL84 root パスワードを入力し、 * Next * をクリックします。
 . サポートされているWebブラウザで新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用します。
 . Windowsシステムにアクティブなアンチウイルスソフトウェアがインストールされている場合は、アップグレードの完了後に、アンチウイルススキャンから次のパスを手動で除外してください。
 +

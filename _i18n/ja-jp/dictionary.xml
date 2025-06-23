@@ -4404,7 +4404,6 @@
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">MySQL がインストールされている場合は、次の点を確認してください。</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">デフォルトのポートを使用している。</block>
   <block id="ae6546f7996b91aa7c6e5c482b07f791" category="list-text">サンプルデータベースがインストールされていません。</block>
-  <block id="a7b80eacf1b625bed035aa3b2a92bc46" category="list-text">サービス名は「 `M YSQL8` 」です。</block>
   <block id="f44cea6cd02b888cc6cc539426598769" category="paragraph">サードパーティ製ソフトウェアをアップグレードする前に、 Unified Manager の実行中のインスタンスをシャットダウンする必要があります。サードパーティ製ソフトウェアのインストールが完了したら、 Unified Manager を再起動できます。</block>
   <block id="086af4a1a8e18c416fda306afd129ecc" category="section-title">インストールの要件</block>
   <block id="8477864d39c6c8b50036cae20894546f" category="list-text">Microsoft .NET 4.5.2 以降がインストールされている必要があります。</block>
@@ -4613,7 +4612,6 @@
   <block id="d3073d42c27439b83dbf63233da2ea6f" category="list-text">Unified Manager インストーラの実行ファイル（ .exe ファイル）を右クリックし、管理者として実行します。</block>
   <block id="4efb5660712f35a71f61f3b4e61e725a" category="paragraph">Unified Manager から次のメッセージが表示されます。</block>
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">[ はい ] をクリックし、 [ 次へ ] をクリックします。</block>
-  <block id="e4ef4ba9b55c3985f475fd7b3b042458" category="list-text">インストール時に設定した MySQL8 root パスワードを入力し、 * Next * をクリックします。</block>
   <block id="ed656b4cd67ab83186099ee9d974a826" category="paragraph">Unified Manager のサイレントアップグレードを実行するには、次のコマンドを実行します。 "ActiveIQUnifiedManager-&lt;version\&gt;.exe /s /v"/qn /Li "mysql_password=&lt;password&gt;/l * v &lt;system_drive&gt; ： \install.log</block>
   <block id="635dbe5a53fa671dc53b3dfff7d6f296" category="summary">Unified Manager をインストールすることで、データストレージの容量、可用性、パフォーマンス、保護の問題を監視してトラブルシューティングすることができます。</block>
   <block id="d12e3362333ac1183375a383fbb2cc9e" category="doc">Unified Manager をインストールしています</block>
@@ -12007,4 +12005,6 @@
   <block id="a0e6619df3d203259475fb9e2836a790" category="inline-link-macro">NetApp Manageability SDK テクニカル レポートのセキュリティ強化ガイド</block>
   <block id="e7f66239d2584f7db44917f4b82c3d75" category="list-text">Windows に Unified Manager をインストールする場合は、Logrotate バージョン 0.0.0.18 をインストールしてください。詳細については、を参照して<block ref="613e5c3b9e425f3372aa73a0b93d00d2" category="inline-link-macro-rx"></block>ください。</block>
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">Unified Manager を起動します。</block>
+  <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">サービス名は「`MYSQL84`」です。</block>
+  <block id="c954aa3da908a18730111db3143d3c49" category="list-text">インストール時に設定した MySQL84 root パスワードを入力し、 * Next * をクリックします。</block>
 </blocks>
