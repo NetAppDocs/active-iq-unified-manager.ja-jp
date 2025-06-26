@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups 
 summary: 不要になったグループは、 Unified Manager から削除できます。 
 ---
-= グループの削除
+= グループを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

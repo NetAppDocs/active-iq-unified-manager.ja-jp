@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, rest, apis 
 summary: Active IQ Unified Manager には、ストレージ環境の監視と管理に関する情報を表示するための REST API が用意されています。また、ポリシーに基づいてストレージオブジェクトをプロビジョニングおよび管理できる API もあります。 
 ---
-= Unified Manager REST API の使用
+= Unified Manager REST APIを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

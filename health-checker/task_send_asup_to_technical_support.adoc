@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: サポートバンドルの送信が必要となるのは、問題メッセージよりも詳しい診断とトラブルシューティングが必要な AutoSupport です。Unified Manager Web UI およびメンテナンスコンソールを使用して、サポートバンドルをテクニカルサポートに送信できます。 
 ---
-= Web UI およびメンテナンスコンソールからのサポートバンドルの送信
+= Web UI とメンテナンス コンソールからサポート バンドルを送信する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

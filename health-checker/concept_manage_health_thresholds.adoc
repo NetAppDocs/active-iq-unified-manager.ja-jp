@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: すべてのアグリゲート、ボリューム、および qtree に適用されるグローバル健常性しきい値を設定して、健常性しきい値の違反を追跡することができます。 
 ---
-= 健常性しきい値の管理
+= 健康閾値を管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

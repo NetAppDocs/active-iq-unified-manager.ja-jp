@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
 summary: Unified ManagerのUIを使用して、Unified Manager Snapshotコピーを作成するスケジュールを設定できます。 
 ---
-= Linux と Windows のバックアップスケジュールの定義
+= LinuxとWindowsのバックアップスケジュールを定義する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page 
 summary: 関係を休止してスケジュールされた転送の実行を停止したあと、ボリューム / 健全性の詳細ページで再開を使用してスケジュールされた転送を再び有効にし、ソースボリュームまたはプライマリボリュームのデータを保護します。スケジュールされた次回の転送時に、チェックポイントが存在する場合は、チェックポイントから転送が再開されます。 
 ---
-= 休止中の関係のスケジュールされた転送をボリューム / 健全性の詳細ページで再開します
+= ボリューム/ヘルスの詳細ページから、休止関係でのスケジュールされた転送を再開します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

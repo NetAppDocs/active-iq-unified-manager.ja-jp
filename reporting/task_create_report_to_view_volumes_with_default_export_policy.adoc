@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: デフォルトのエクスポートポリシーを使用しているボリュームを検出するレポートを作成できます。 
 ---
-= デフォルトのエクスポートポリシーを使用しているボリュームを表示するレポートの作成
+= デフォルトのエクスポート ポリシーを使用しているボリュームを表示するレポートを作成します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

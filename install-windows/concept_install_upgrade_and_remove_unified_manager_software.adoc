@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, upgrade, remove, unified manager, software 
 summary: Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager アプリケーションの削除を実行できます。 
 ---
-= Unified Manager ソフトウェアのインストール、アップグレード、削除を行います
+= Unified Manager ソフトウェアのインストール、アップグレード、および削除
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

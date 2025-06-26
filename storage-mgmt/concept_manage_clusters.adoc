@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, clusters 
 summary: Unified Manager を使用してクラスタを監視、追加、編集、削除することで、 ONTAP クラスタを管理できます。 
 ---
-= クラスタの管理
+= クラスターを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, day 
 summary: ボリューム転送を日付別に表示するレポートを作成できます。 
 ---
-= ボリューム転送を日付別に表示するレポートの作成
+= 日別にグループ化されたボリューム転送を表示するレポートを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

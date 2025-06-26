@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces 
 summary: ネットワークトラフィックを分離する必要がある場合は、新しいネットワークインターフェイスを追加できます。 
 ---
-= ネットワークインターフェイスの追加
+= ネットワークインターフェースを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions 
 summary: 不要になったグループ操作は、 Unified Manager から削除できます。 
 ---
-= グループ操作を削除しています
+= グループアクションを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

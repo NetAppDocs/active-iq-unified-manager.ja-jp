@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, annotation rules 
 summary: Unified Manager がボリューム、クラスタ、 Storage Virtual Machine （ SVM ）などのストレージオブジェクトを動的にアノテートするために使用するアノテーションルールを作成できます。 
 ---
-= アノテーションルールの作成
+= 注釈ルールを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

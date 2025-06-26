@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: Active IQ Unified Manager に非アクティブ時のタイムアウト値を指定できます。非アクティブな状態が指定した時間を経過すると、アプリケーションは自動的にログアウトされます。このオプションはデフォルトで有効になっています。 
 ---
-= 非アクティブ時のタイムアウトの指定
+= 非アクティブタイムアウトを指定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

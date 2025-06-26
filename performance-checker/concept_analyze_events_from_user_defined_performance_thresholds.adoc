@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds 
 summary: ユーザ定義のしきい値で生成されたイベントは、アグリゲートやボリュームなどの特定のストレージオブジェクトのパフォーマンスカウンタがポリシーで定義されたしきい値を超えたことを示しています。これは、クラスタオブジェクトでパフォーマンス問題が発生していることを示しています。 
 ---
-= ユーザ定義のパフォーマンスしきい値で生成されたイベントを分析します
+= ユーザー定義のパフォーマンスしきい値からイベントを分析する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

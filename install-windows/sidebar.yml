@@ -20,34 +20,34 @@ entries:
     url: "/install-windows/concept_browser_and_platform_requirements.html"
   - title: プロトコルとポートの要件
     url: "/install-windows/reference_protocol_and_port_requirements.html"
-  - title: ワークシートへの記入
+  - title: ワークシートを完成させる
     url: "/install-windows/reference_complete_worksheet_um.html"
-- title: Unified Manager ソフトウェアのインストール、アップグレード、削除を行います
+- title: Unified Manager ソフトウェアのインストール、アップグレード、および削除
   url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: インストールプロセスの概要
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
-  - title: Windows への Unified Manager のインストール
+  - title: WindowsにUnified Managerをインストールする
     url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
-    - title: Unified Manager をインストールしています
+    - title: Unified Manager をインストールします
       url: "/install-windows/task_install_unified_manager_on_windows.html"
-    - title: Unified Manager の無人インストールを実行する
+    - title: Unified Managerの無人インストールを実行する
       url: "/install-windows/task_unattended_installation_of_unified_manager.html"
-  - title: JBoss パスワードを変更しています
+  - title: JBossのパスワードを変更する
     url: "/install-windows/task_change_jboss_password_on_windows.html"
   - title: Unified Managerバージョンでサポートされているアップグレードパス
     url: "/include/upgrade-path.html"
-  - title: Unified Manager をアップグレードする
+  - title: Unified Manager をアップグレードします
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
   - title: サードパーティ製品のアップグレード
     url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
-    - title: OpenJDK のアップグレード
+    - title: OpenJDK をアップグレードします
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
-  - title: サードパーティ製品のアンインストール
+  - title: サードパーティ製品をアンインストールする
     url: "/install-windows/task_uninstall_third_party_products.html"
-  - title: Unified Manager を再開しています
+  - title: 統合マネージャを再起動します
     url: "/install-windows/task_restart_unified_manager_win.html"
-  - title: Unified Manager をアンインストールしています
+  - title: Unified Manager をアンインストールする
     url: "/install-windows/task_uninstall_unified_manager_win.html"

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: Unified Manager を使用して、ノードのルートボリュームを監視できます。ノードの停止を防ぐための十分な容量をノードのルートボリュームに確保しておくことを推奨します。 
 ---
-= ノードルートボリュームの概要
+= ノードルートボリュームを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: ファイル共有または LUN をプロビジョニングする前に、クラスタに Storage Virtual Machine （ SVM ）が作成されているかどうかを確認する必要があります。 
 ---
-= APIを使用したクラスタのSVMの確認
+= API を使用してクラスタ上の SVM を検証する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

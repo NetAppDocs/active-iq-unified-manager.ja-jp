@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: パフォーマンスエクスプローラのグラフで、ボリュームまたは LUN に対する ONTAP 定義のサービス品質（ QoS ）ポリシーの設定を確認できます。最大スループット設定は、競合するワークロードによるシステムリソースへの影響を抑制するために使用されます。最小スループット設定は、競合するワークロードによる要求に関係なく、重要なワークロードに最小限のスループットを確保するために使用されます。 
 ---
-= パフォーマンスエクスプローラでワークロードの QoS の下限と上限の設定を確認します
+= パフォーマンス エクスプローラーでワークロード QoS の最小および最大設定を表示します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

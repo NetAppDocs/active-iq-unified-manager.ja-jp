@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: script upload, enable, disable 
 summary: スクリプトを Unified Manager にアップロードして実行する機能は、デフォルトで有効になっています。セキュリティ上の理由からこのアクティビティを許可しない場合は、この機能を無効にできます。 
 ---
-= スクリプトアップロードの有効化 / 無効化
+= スクリプトのアップロードを有効または無効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

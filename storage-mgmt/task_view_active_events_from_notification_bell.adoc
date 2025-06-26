@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: メニューバーの通知ベルを使用すると、 Unified Manager が追跡している最も重要なアクティブイベントを簡単に確認できます。 
 ---
-= 通知ベルからのアクティブイベントの表示
+= 通知ベルからアクティブなイベントを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

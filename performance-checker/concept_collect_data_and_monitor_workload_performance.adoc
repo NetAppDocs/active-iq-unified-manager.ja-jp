@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: collect, data, monitor, workload, performance 
 summary: Unified Manager では、ワークロードアクティビティを 5 分間隔で収集および分析してパフォーマンスイベントを特定するほか、構成の変更を 15 分間隔で検出します。5 分ごとのパフォーマンスとイベントの履歴データが最大 30 日分保持され、そのデータを使用して監視対象のすべてのワークロードの想定レイテンシ範囲が予測されます。 
 ---
-= データを収集してワークロードのパフォーマンスを監視
+= データを収集し、ワークロードのパフォーマンスを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

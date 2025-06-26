@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: グラフの選択ドロップダウンリストでは、カウンタグラフペインに表示するパフォーマンスカウンタグラフのタイプを選択できます。これにより、パフォーマンス要件に基づいて特定のデータとカウンタを表示できます。 
 ---
-= 表示するパフォーマンスチャートを選択しています
+= 表示するパフォーマンスチャートを選択
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

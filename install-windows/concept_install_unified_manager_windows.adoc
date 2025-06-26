@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, windows 
 summary: Windows で Unified Manager をダウンロードしてインストールする一連の手順を理解することが重要です。 
 ---
-= Windows への Unified Manager のインストール
+= WindowsにUnified Managerをインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

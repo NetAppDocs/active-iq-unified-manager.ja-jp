@@ -7,120 +7,120 @@ entries:
   entries:
   - title: SnapMirror 保護のタイプ
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
-  - title: Unified Manager で保護関係をセットアップする
+  - title: Unified Managerで保護関係を設定する
     url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
-    - title: Workflow Automation と Unified Manager の間の接続の設定
+    - title: ワークフロー自動化とUnified Manager間の接続を構成する
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
-    - title: Workflow Automation での Unified Manager データソースのキャッシングの確認
+    - title: ワークフロー自動化におけるUnified Managerデータソースのキャッシュを確認する
       url: "/data-protection/task_verify_um_data_source_caching_in_workflow_automation.html"
     - title: OnCommand Workflow Automation を再インストールまたはアップグレードするとどうなりますか
       url: "/data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html"
-    - title: OnCommand Workflow Automation セットアップを Unified Manager から削除しています
+    - title: Unified Manager から OnCommand Workflow Automation セットアップを削除します。
       url: "/data-protection/task_remove_workflow_automation.html"
   - title: 保護関係のフェイルオーバーとフェイルバックを実行する
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: ボリュームの健全性の詳細ページからSnapMirror関係を解除します
+    - title: ボリュームの健全性詳細ページからSnapMirror関係を解除する
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: ボリュームの健全性の詳細ページで保護関係を反転
+    - title: ボリュームの健全性の詳細ページから保護関係を逆転させる
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: ボリューム健全性の詳細ページから保護関係を削除しています
+    - title: ボリュームの健全性の詳細ページから保護関係を削除します
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: ボリューム健全性の詳細ページから保護関係を再同期しています
+    - title: ボリュームの健全性の詳細ページから保護関係を再同期します
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 保護ジョブの失敗を解決する
     url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
-    - title: 保護ジョブが失敗した場合の問題の特定と対処策の実施
+    - title: 問題を特定し、失敗した保護ジョブに対する修正アクションを実行する
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
-  - title: 遅延の問題を解決する
+  - title: ラグの問題を解決する
     url: "/data-protection/task_resolve_lag_issues.html"
-- title: 保護関係を管理および監視する
+- title: 保護関係の管理と監視
   url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
-  - title: ボリュームの保護ステータスを表示しています
+  - title: ボリューム保護ステータスの表示
     url: "/data-protection/view-protection-status.html"
-  - title: ボリュームの保護関係を表示しています
+  - title: ボリューム保護関係の表示
     url: "/data-protection/task_view_volume_protection_relationships.html"
-  - title: コンシステンシグループ関係の LUN を監視しています
+  - title: 一貫性グループ関係のLUNを監視する
     url: "/data-protection/view-lun-relationships.html"
-  - title: All Volumes（すべてのボリューム）ビューからSnapVault 保護関係を作成します
+  - title: すべてのボリュームビューからSnapVault保護関係を作成する
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: ボリュームの健全性の詳細ページからSnapVault 保護関係を作成しています
+  - title: ボリュームの健全性詳細ページからSnapVault保護関係を作成します
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: All Volumes（すべてのボリューム）ビューからSnapMirror保護関係を作成します
+  - title: すべてのボリュームビューからSnapMirror保護関係を作成します
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: ボリュームの健全性の詳細ページからSnapMirror保護関係を作成しています
+  - title: ボリュームの健全性詳細ページからSnapMirror保護関係を作成します。
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
-  - title: バージョンに依存しないレプリケーションを使用して SnapMirror 関係を作成する
+  - title: バージョンに柔軟性のあるレプリケーションでSnapMirror関係を作成する
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
-  - title: バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 関係の作成
+  - title: バックアップ オプションを備えたバージョンに柔軟なレプリケーションで SnapMirror 関係を作成する
     url: "/data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html"
-  - title: デスティネーションの効率化設定を行います
+  - title: 宛先効率設定を構成する
     url: "/data-protection/task_configure_protection_destination_settings.html"
-  - title: SnapMirror スケジュールと SnapVault スケジュールを作成
+  - title: SnapMirrorとSnapVaultのスケジュールを作成する
     url: "/data-protection/task_create_snapmirror_and_snapvault_schedules.html"
-  - title: カスケード関係またはファンアウト関係を作成して、既存の保護関係から保護を拡張します
+  - title: 既存の保護関係から保護を拡張するためにカスケードまたはファンアウト関係を作成します
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
-  - title: ボリューム関係ページで保護関係を編集する
+  - title: ボリューム関係ページから保護関係を編集します
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: ボリューム健全性の詳細ページで保護関係を編集しています
+  - title: ボリュームの健全性の詳細ページから保護関係を編集する
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
-  - title: 転送効率を最大化するために、 SnapMirror ポリシーを作成します
+  - title: 転送効率を最大化するためにSnapMirrorポリシーを作成する
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
-  - title: 転送効率を最大化するための SnapVault ポリシーを作成する
+  - title: 転送効率を最大化するためのSnapVaultポリシーを作成する
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
-  - title: ボリューム関係ページからのアクティブなデータ保護転送を中止します
+  - title: ボリューム関係ページからアクティブなデータ保護転送を中止する
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: ボリューム健全性の詳細ページからアクティブなデータ保護転送を中止する
+  - title: ボリュームの健全性の詳細ページからアクティブなデータ保護転送を中止します
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
-  - title: ボリューム関係ページで保護関係を休止しています
+  - title: ボリューム関係ページから保護関係を静止する
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: ボリューム健全性の詳細ページで保護関係を休止しています
+  - title: ボリュームの健全性の詳細ページから保護関係を休止する
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
-  - title: ボリューム関係ページから SnapMirror 関係を解除します
+  - title: ボリューム関係ページからSnapMirror関係を解除する
     url: "/data-protection/task_break_snapmirror_relationship.html"
   - title: ボリューム関係ページから保護関係を削除します
     url: "/data-protection/task_remove_protection_relationship.html"
-  - title: 休止中の関係のスケジュールされた転送をボリューム関係ページで再開しています
+  - title: ボリューム関係ページから、休止関係でのスケジュールされた転送を再開します。
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 休止中の関係のスケジュールされた転送をボリュームの健全性の詳細ページで再開します
+  - title: ボリュームの健全性詳細ページから、休止関係でのスケジュールされた転送を再開します。
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: ボリューム関係ページから保護関係を初期化または更新しています
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: 保護関係をボリュームの健全性の詳細ページから初期化または更新しています
+  - title: ボリュームの健全性の詳細ページから保護関係を初期化または更新する
     url: "/data-protection/task_update_protection_voldtls_page.html"
-  - title: ボリューム関係ページから保護関係を再同期しています
+  - title: ボリューム関係ページから保護関係を再同期します
     url: "/data-protection/task_resynchronize_protection_relationships.html"
-  - title: ボリューム関係ページで保護関係を反転しています
+  - title: ボリューム関係ページから保護関係を反転する
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: ボリューム健全性の詳細ページを使用したデータのリストア
+  - title: ボリュームの健全性詳細ページを使用してデータを復元する
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: リソースプールとは
     url: "/data-protection/concept_what_resource_pools_are.html"
-  - title: リソースプールを作成しています
+  - title: リソースプールを作成する
     url: "/data-protection/task_create_resource_pools.html"
-  - title: リソースプールを編集しています
+  - title: リソースプールを編集する
     url: "/data-protection/task_edit_resource_pools.html"
-  - title: リソースプールインベントリの表示
+  - title: リソースプールのインベントリを表示する
     url: "/data-protection/task_view_resource_pool_inventory.html"
-  - title: リソースプールのメンバーを追加しています
+  - title: リソースプールのメンバーを追加する
     url: "/data-protection/task_add_resource_pool_members.html"
-  - title: リソースプールからアグリゲートを削除しています
+  - title: リソースプールから集約を削除する
     url: "/data-protection/task_remove_aggregates_from_resource_pools.html"
-  - title: リソースプールを削除しています
+  - title: リソースプールを削除する
     url: "/data-protection/task_delete_resource_pools.html"
-  - title: Storage VM ディザスタリカバリ保護関係を監視しています
+  - title: ストレージ VM 災害復旧保護関係の監視
     url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
-    - title: カンケイヘエシヲシヨウシタ Storage VM ノカンシ
+    - title: 関係ページを使用してストレージ VM を監視する
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
-    - title: Storage VM ページで保護関係を表示します
+    - title: ストレージVMページから保護関係を表示する
       url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
-    - title: 保護ステータスに基づいた Storage VM の表示
+    - title: 保護ステータスに基づいてストレージ VM を表示する
       url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
-  - title: Storage VMの関連付けの概要
+  - title: ストレージVMの関連付けを理解する
     url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
   - title: ストレージサービスをサポートするための SVM とリソースプールの要件
     url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
@@ -130,9 +130,9 @@ entries:
     url: "/data-protection/task_monitor_jobs.html"
   - title: ジョブの詳細を表示します
     url: "/data-protection/task_view_job_details.html"
-  - title: ジョブを中止しています
+  - title: ジョブを中止する
     url: "/data-protection/task_abort_jobs.html"
-  - title: 失敗した保護ジョブを再試行します
+  - title: 失敗した保護ジョブを再試行する
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: 保護関係の概要のウィンドウとダイアログボックス
     url: "/data-protection/reference_description_of_protection_relationships_window.html"

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: login banner, feature settings 
 summary: この機能を使用すると、システムへのアクセスを許可されているユーザ、ログインおよびログアウト時の使用条件などの情報を組織で表示できます。 
 ---
-= ログインバナーを追加しています
+= ログインバナーを追加
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

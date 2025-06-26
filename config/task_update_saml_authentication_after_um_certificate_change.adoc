@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: update, saml, authentication, settings, unified manager, security, certificate, change 
 summary: Unified Manager サーバにインストールされている HTTPS セキュリティ証明書が変更されたときは、 SAML 認証の設定を更新する必要があります。証明書は、ホストシステムの名前を変更したり、ホストシステムに新しい IP アドレスを割り当てたり、システムのセキュリティ証明書を手動で変更したりすると更新されます。 
 ---
-= Unified Manager セキュリティ証明書変更後に SAML 認証設定を更新しています
+= Unified Manager のセキュリティ証明書の変更後に SAML 認証設定を更新する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

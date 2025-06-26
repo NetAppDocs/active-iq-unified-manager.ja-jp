@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページで編集できます。' 
 ---
-= スケジュール済みレポートの編集
+= スケジュールされたレポートを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

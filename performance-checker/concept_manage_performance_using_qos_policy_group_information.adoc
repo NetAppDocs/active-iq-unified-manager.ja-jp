@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, qos, policy, group, information 
 summary: Unified Manager では、監視しているすべてのクラスタで使用可能な QoS ポリシーグループを表示できます。ポリシーは、 ONTAP ソフトウェア（ System Manager または ONTAP CLI ）または Unified Manager のパフォーマンスサービスレベルポリシーを使用して定義されたものです。Unified Manager には、 QoS ポリシーグループが割り当てられているボリュームと LUN も表示されます。 
 ---
-= QoS ポリシーグループ情報を使用したパフォーマンスの管理
+= QoSポリシーグループ情報を使用してパフォーマンスを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

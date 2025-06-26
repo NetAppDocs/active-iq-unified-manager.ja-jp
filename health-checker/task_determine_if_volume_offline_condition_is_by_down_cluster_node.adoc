@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node 
 summary: Unified Manager Web UI を使用して、ボリュームがオフラインになっている原因が、ボリュームのホストノードの停止およびその HA ペアパートナーへのストレージフェイルオーバーの失敗であるかどうかを確認することができます。 
 ---
-= ボリュームのオフライン状態の原因がホストノードの停止であるかどうかを判別します
+= ホストノードがダウンしているためにボリュームがオフラインになっているかどうかを判別します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

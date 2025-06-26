@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: このワークフローでは、遅延問題を解決する方法の例を示します。このシナリオでは、管理者またはオペレータが、 Unified Manager のダッシュボードページにアクセスして保護関係に問題がないかどうかを確認し、問題がある場合は解決策を探します。 
 ---
-= 遅延の問題を解決する
+= ラグの問題を解決する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

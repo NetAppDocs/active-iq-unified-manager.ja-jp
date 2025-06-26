@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: パフォーマンスカウンタの値がポリシーの設定を超えたときに Unified Manager からイベントが報告されるように、ストレージオブジェクトにユーザ定義のパフォーマンスしきい値ポリシーを割り当てます。 
 ---
-= ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てます
+= ストレージオブジェクトにパフォーマンスしきい値ポリシーを割り当てる
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

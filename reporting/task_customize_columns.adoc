@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: '[ 表示 / 非表示 ] を使用して、レポートで使用する列を選択します。インベントリページで列をドラッグして並べ替えることができます。' 
 ---
-= 列のカスタマイズ
+= 列をカスタマイズする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

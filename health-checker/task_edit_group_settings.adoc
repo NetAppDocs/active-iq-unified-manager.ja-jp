@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, groups 
 summary: Unified Manager で作成したグループの名前と概要を編集できます。 
 ---
-= グループの編集
+= グループを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, all san array, health and capacity, clusters 
 summary: クラスタインベントリページでは、オール SAN アレイクラスタの健全性と容量のステータスを表示できます。 
 ---
-= オール SAN アレイクラスタの健全性と容量のステータスの表示
+= すべてのSANアレイクラスタの健全性と容量ステータスを表示します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, monitor, troubleshoot, protection, relationships 
 summary: Unified Manager では、保護関係の作成、管理対象クラスタに保存されているデータのミラー保護とバックアップ保護の監視とトラブルシューティング、および上書きされたデータや失われたデータのリストアを実行できます。 
 ---
-= 保護関係の作成、監視、およびトラブルシューティング
+= 保護関係の作成、監視、トラブルシューティング
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

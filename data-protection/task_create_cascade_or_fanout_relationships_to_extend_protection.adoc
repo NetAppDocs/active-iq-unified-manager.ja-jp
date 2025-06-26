@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
 summary: 既存の関係のソースボリュームからのファンアウトまたはデスティネーションボリュームからのカスケードを作成することで、既存の関係から保護を拡張できます。この処理は、 1 つのサイトから複数のサイトにデータをコピーする必要がある場合や、バックアップをさらに作成して追加の保護を提供する必要がある場合に実行します。 
 ---
-= カスケード関係またはファンアウト関係を作成して、既存の保護関係から保護を拡張します
+= 既存の保護関係から保護を拡張するためにカスケードまたはファンアウト関係を作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

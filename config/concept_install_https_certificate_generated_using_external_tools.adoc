@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, HTTPS, certificate, generated from external tools 
 summary: 自己署名または CA 署名の証明書をインストールできます。証明書は、 OpenSSL 、 BoringSSL 、 LetsEncrypt などの外部ツールを使用して生成されます。 
 ---
-= 外部ツールを使用して生成された HTTPS 証明書のインストール
+= 外部ツールを使用して生成されたHTTPS証明書をインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

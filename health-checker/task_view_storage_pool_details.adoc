@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: ストレージプールの詳細を表示して、ストレージプールの健常性、合計キャッシュと使用可能なキャッシュ、使用済みの割り当てと使用可能な割り当てを監視できます。 
 ---
-= ストレージプールの詳細を表示しています
+= ストレージプールの詳細を表示します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

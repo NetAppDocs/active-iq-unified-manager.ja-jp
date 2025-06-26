@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uninstall, unified manager 
 summary: Unified Manager をアンインストールするには、プログラムと機能ウィザードを使用するか、コマンドラインインターフェイスから無人アンインストールを実行します。 
 ---
-= Unified Manager をアンインストールしています
+= Unified Manager をアンインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report 
 summary: ビューを保存したら、 Excel ワークブック形式（ .xlsx ）でダウンロードできます。Excel ファイルを開くと、 Excel の高度な機能を使用してレポートをカスタマイズできます。 
 ---
-= Excel を使用してレポートをカスタマイズする
+= Excelを使用してレポートをカスタマイズする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

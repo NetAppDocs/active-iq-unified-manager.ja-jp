@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: moving, workloads, aggregate, different, node 
 summary: ワークロードが現在実行されているノードよりも負荷の低い別のノード上のアグリゲートを Unified Manager で特定し、選択したボリュームをそのアグリゲートに移動できます。負荷の低いノード上のアグリゲートに負荷の高いワークロードを移動すれば、両ノードでのワークロードの効率が向上します。 
 ---
-= 別のノード上のアグリゲートへのワークロードの移動
+= ワークロードを別のノードのアグリゲートに移動する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

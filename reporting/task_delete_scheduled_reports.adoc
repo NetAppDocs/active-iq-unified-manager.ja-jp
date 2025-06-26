@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports 
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページから削除できます。' 
 ---
-= スケジュール済みレポートの削除
+= スケジュールされたレポートを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

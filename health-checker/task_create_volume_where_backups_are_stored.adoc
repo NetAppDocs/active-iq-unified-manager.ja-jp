@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, snapshot copy, copies location 
 summary: ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。 
 ---
-= Snapshotコピーの場所を設定しています
+= スナップショットコピーの場所を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

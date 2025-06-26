@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, scripts 
 summary: 不要または無効になったスクリプトは、 Unified Manager から削除できます。 
 ---
-= スクリプトの削除
+= スクリプトを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

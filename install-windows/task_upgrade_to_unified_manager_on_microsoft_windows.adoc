@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Unified Manager をアップグレードするには、 Windows プラットフォームでインストールファイルをダウンロードして実行します。 
 ---
-= Unified Manager をアップグレードする
+= Unified Manager をアップグレードします
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

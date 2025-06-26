@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings 
 summary: イベントが自動的に削除されるまでに Unified Manager サーバでイベントを保持する月数を指定できます。 
 ---
-= イベント保持を設定しています
+= イベントの保持設定を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: アグリゲート、ボリューム、および qtree のサイズを効果的に監視できるように、容量、増加率、 Snapshot リザーブ、クォータ、および inode について、グローバル健常性しきい値の条件を設定することができます。また、遅延しきい値を超えた場合にイベントを生成する設定を編集することもできます。 
 ---
-= グローバル健全性しきい値を設定します
+= グローバルヘルスしきい値設定を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

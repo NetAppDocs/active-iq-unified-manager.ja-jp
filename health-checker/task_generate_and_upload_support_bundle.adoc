@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle 
 summary: 診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。 
 ---
-= サポートバンドルの生成とアップロード
+= サポートバンドルを生成してアップロードする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

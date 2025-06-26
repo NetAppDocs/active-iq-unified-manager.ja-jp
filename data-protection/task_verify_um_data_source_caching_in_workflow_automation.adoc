@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, unified manager, data source, cache, workflow automation 
 summary: Unified Manager データソースのキャッシングが正しく機能しているかどうかを判別するには、 Workflow Automation でデータソースの取得が正常に行われているかどうかを確認します。Workflow Automation を Unified Manager に統合する際にこの操作を実行して、統合後に Workflow Automation の機能が利用可能になることを確認できます。 
 ---
-= Workflow Automation での Unified Manager データソースのキャッシングの確認
+= ワークフロー自動化におけるUnified Managerデータソースのキャッシュを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

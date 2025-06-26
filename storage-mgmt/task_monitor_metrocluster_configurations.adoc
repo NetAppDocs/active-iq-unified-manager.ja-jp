@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: MetroCluster 構成の接続の問題を監視することができます。クラスタ内のコンポーネントおよび接続のステータス、および MetroCluster 構成のクラスタ間の接続ステータスなどの詳細情報を確認できます。 
 ---
-= MetroCluster 構成を監視しています
+= MetroCluster 設定を監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,7 +54,7 @@ image::../media/node_switch_connectivity.gif[ノードスイッチ接続アイ�
 
 MetroCluster 構成で接続の問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。
 
-クラスタの健全性の判定の詳細については、を参照してください link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["MetroCluster over FC構成でのクラスタの健全性を確認しています"]。
+クラスタの健全性の判断の詳細については、を参照してくださいlink:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["MetroCluster over FC構成でクラスタの健全性を確認する"]。
 
 
 
@@ -99,7 +99,7 @@ NOTE: MetroCluster over IP構成の場合にのみ、クラスタトポロジを
 * 関連情報 *
 
 * link:../health-checker/reference_health_cluster_details_page.html["クラスタ / 健全性の詳細ページ"]
-* Relationship：metrocluster *ビューの詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]。
+* 関係：MetroCluster *ビューの詳細については、を参照してくださいlink:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 設定を監視する"]。
 * 「* Relationship：Last 1 Month Transfer Status *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["関係：過去 1 カ月の転送ステータス画面"]。
 * 「* Relationship：Last 1 Month Transfer Rate *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["関係：過去 1 カ月の転送速度ビュー"]。
 * 「* Relationship：All Relationships *」ビューの詳細については、を参照してください link:../data-protection/reference_relationship_all_relationships_view.html["関係：すべての関係ビュー"]。

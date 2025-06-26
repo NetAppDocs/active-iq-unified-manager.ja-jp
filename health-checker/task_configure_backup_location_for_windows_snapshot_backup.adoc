@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies 
 summary: WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。 
 ---
-= Windows のバックアップの場所を設定しています
+= Windowsのバックアップ場所を設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

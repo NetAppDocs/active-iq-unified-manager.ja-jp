@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters 
 summary: クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。 
 ---
-= 監視対象クラスタのリストの表示
+= 監視対象クラスターのリストを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

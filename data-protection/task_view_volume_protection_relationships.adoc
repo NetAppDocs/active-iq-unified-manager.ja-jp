@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, protection relationships 
 summary: Relationship ： All Relationships ビューと Volume Relationships ページで、既存のボリュームの SnapMirror 関係と SnapVault 関係のステータスを確認できます。転送と遅延のステータス、ソースとデスティネーションの詳細、スケジュールとポリシーの情報など、保護関係の詳細も確認できます。 
 ---
-= ボリュームの保護関係を表示しています
+= ボリューム保護関係の表示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

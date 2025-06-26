@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, annotation rules 
 summary: アノテーションルールを編集して条件グループおよび条件グループに含まれる条件を変更することで、ストレージオブジェクトに対してアノテーションを追加または削除できます。 
 ---
-= アノテーションルールの編集
+= 注釈ルールを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

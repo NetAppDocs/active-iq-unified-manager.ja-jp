@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, add, vcenter, server 
 summary: 仮想マシン（ VM ）のパフォーマンスの表示とトラブルシューティングを行うには、関連する vCenter Server を Active IQ Unified Manager インスタンスに追加する必要があります。 
 ---
-= vCenter Server を表示および追加する
+= vCenter Server の表示と追加
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

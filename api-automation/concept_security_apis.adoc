@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user 
 summary: セキュリティカテゴリの API を使用して、 Active IQ Unified Manager 内の選択したクラスタオブジェクトへのユーザアクセスを制御できます。ローカルユーザまたはデータベースユーザを追加できます。また、認証サーバに属するリモートユーザやリモートグループを追加することもできます。ユーザに割り当てたロールの権限に基づいて、ストレージオブジェクトを管理したり、 Unified Manager でデータを表示したりできます。 
 ---
-= APIを使用したユーザの管理
+= APIを使用してユーザーを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

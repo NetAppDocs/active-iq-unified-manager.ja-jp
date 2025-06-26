@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues 
 summary: このワークフローでは、 Unified Manager のイベント管理インベントリページに表示されるボリュームオフラインイベントを評価して解決する方法の例を示します。このシナリオでは、管理者が Unified Manager を使用してボリュームオフラインイベントをトラブルシューティングします。 
 ---
-= ボリュームのオフライン状態の問題を解決する
+= ボリュームのオフライン問題を解決する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

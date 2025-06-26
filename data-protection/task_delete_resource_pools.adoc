@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, resource, pools 
 summary: 不要になったリソースプールを削除できます。たとえば、 1 つのリソースプールから他の複数のリソースプールにメンバーアグリゲートを再配分したあと、元のリソースプールを廃止状態にすることができます。 
 ---
-= リソースプールを削除しています
+= リソースプールを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

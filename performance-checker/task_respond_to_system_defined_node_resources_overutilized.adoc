@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, resources, overutilized, performance, events 
 summary: 1 つのノードが運用効率の上限を超えて稼働していて、ワークロードのレイテンシに影響を及ぼしている可能性がある場合、 Unified Manager でノードリソース過剰使用警告イベントが生成されます。これらのシステム定義のイベントにより、多くのワークロードにレイテンシの影響が及ぶ前に潜在的なパフォーマンスの問題を修正することができます。 
 ---
-= ノードリソース過剰使用パフォーマンスイベントへの対処
+= ノードリソースの過剰使用パフォーマンスイベントに応答する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: ノードしきい値ポリシーを作成して、フェイルオーバーが発生する可能性があるとテイクオーバーノードのパフォーマンスが許容できないレベルまで低下する場合に、 Performance/NodeFailover Planning ページで通知されるようにすることができます。 
 ---
-= Node Failover Planning ページでしきい値ポリシーを使用します
+= ノードフェイルオーバー計画ページでしきい値ポリシーを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

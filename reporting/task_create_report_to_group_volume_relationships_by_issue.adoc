@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, issue 
 summary: ボリューム関係を問題別にグループ化するレポートを作成できます。 
 ---
-= ボリューム関係を問題別にグループ化するレポートの作成
+= 問題別にボリューム関係をグループ化するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

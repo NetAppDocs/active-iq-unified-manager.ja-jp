@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, counter charts, zoom, view 
 summary: カウンタグラフズームビューを使用すると、選択したカウンタグラフとそれに関連付けられたタイムラインの詳細がさらに細かく表示されます。カウンタグラフのデータが拡大して表示され、パフォーマンスイベントやその原因を詳しく調べることができます。 
 ---
-= カウンタグラフズームビューの表示
+= カウンターチャートのズームビューを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

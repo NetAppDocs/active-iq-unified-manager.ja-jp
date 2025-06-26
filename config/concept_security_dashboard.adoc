@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: Unified Manager でセキュリティパラメータを有効または無効にして準拠の監視を行うことができます。 
 ---
-= 準拠のためのセキュリティ設定の有効化と無効化
+= コンプライアンスのためのセキュリティ設定を有効または無効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -24,7 +24,7 @@ ONTAP クラスタ、 Storage VM 、およびボリュームのセキュリテ�
 
 
 
-== セキュリティ設定のカスタマイズ
+== セキュリティ設定をカスタマイズする
 
 ONTAP 環境に応じて準拠監視の設定をカスタマイズするには、次の手順を実行します。
 
@@ -42,7 +42,7 @@ ONTAP 環境に応じて準拠監視の設定をカスタマイズするには�
 
 
 
-== AutoSupport および認証設定のカスタマイズ
+== AutoSupportと認証設定をカスタマイズする
 
 AutoSupport 設定 * セクションでは、 AutoSupport からの ONTAP メッセージの送信に HTTPS 転送を使用するかどうかを指定できます。
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: 失敗した保護ジョブを修正するための対策を行ったら、再試行を使用してジョブを再実行できます。ジョブを再試行すると、元のジョブ ID を使用して新しいジョブが作成されます。 
 ---
-= 失敗した保護ジョブを再試行します
+= 失敗した保護ジョブを再試行する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

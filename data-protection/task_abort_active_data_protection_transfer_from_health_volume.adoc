@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active, data protection, transfer, volume health details page 
 summary: 実行中の SnapMirror レプリケーションを中止する場合、アクティブなデータ保護転送を中止することができます。ベースライン転送以外の転送の再開チェックポイントを消去することもできます。転送を中止する状況としては、ボリューム移動などの別の処理と競合する場合などがあります。 
 ---
-= ボリューム / 健全性の詳細ページからアクティブなデータ保護転送を中止します
+= ボリューム/ヘルス詳細ページからアクティブなデータ保護転送を中止します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

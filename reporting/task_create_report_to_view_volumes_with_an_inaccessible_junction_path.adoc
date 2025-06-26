@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: マウントパスにアクセスできないボリュームを特定するレポートを作成できます。 
 ---
-= マウントパスにアクセスできないボリュームを表示するレポートの作成
+= アクセスできないマウントパスを持つボリュームを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, lun, latency, charts, verify, performance, guarantee 
 summary: 「パフォーマンス保証」プログラムに登録したボリュームと LUN を表示して、レイテンシが保証されたレベルを超えていないことを確認できます。 
 ---
-= ボリュームおよび LUN のレイテンシグラフでパフォーマンス保証を確認
+= ボリュームとLUNのレイテンシチャートを表示してパフォーマンス保証を確認します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

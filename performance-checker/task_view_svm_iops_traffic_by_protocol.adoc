@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, svm, iops, traffic, protocol 
 summary: Performance/SVMExplorer ヘエシを使用すると、 SVM の詳細な IOPS 情報を表示できます。IOPS の合計カウンタグラフは SVM の合計 IOPS 使用量を示し、 IOPS - 内訳カウンタグラフは、 SVM に対する読み取り、書き込み、およびその他の IOPS の影響を特定する際に役立ちます。 
 ---
-= プロトコル別の SVM の IOPS トラフィックの表示
+= プロトコル別にSVM IOPSトラフィックを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

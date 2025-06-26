@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: ゲートウェイ API を使用すると、 Active IQ Unified Manager クレデンシャルを使用して ONTAP REST API を実行し、ストレージオブジェクトを管理するという利点が得られます。これらの API は、 Unified Manager Web UI から API ゲートウェイ機能を有効にすると使用できます。 
 ---
-= プロキシアクセスを介して ONTAP API にアクセスする
+= プロキシアクセスを介してONTAP APIにアクセスする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ Unified Manager REST API では、 ONTAP クラスタである Unified Manager �
 |===
 
 
-== API ゲートウェイトンネリングの概要
+== APIゲートウェイトンネリングを理解する
 
 ゲートウェイ API を使用すると、 Unified Manager を介して ONTAP オブジェクトを管理できます。Unified Manager はクラスタと認証の詳細を管理し、 ONTAP REST エンドポイントに要求をリダイレクトします。ゲートウェイ API は、ヘッダーおよび応答本文内の Engine of Application State （ HATEOAS ）リンクとして、 URL および Hypermedia を API ゲートウェイベース URL で変換します。ゲートウェイ API は、 ONTAP REST URL を追加して必要な ONTAP REST エンドポイントを実行するプロキシのベース URL として機能します。
 
@@ -102,7 +102,7 @@ API は、クラスタ内のストレージボリュームのリストを返し�
 
 
 
-== API スコープを設定します
+== APIスコープを設定する
 
 すべての API には、クラスタのスコープ内にコンテキストセットがあります。Storage VM ベースで動作する API のスコープはクラスタでもあります。つまり、 API 処理は管理対象クラスタ内の特定の Storage VM に対して実行されます。「 /gateways /\{uuid}/\{path}` API 」を実行するときは、処理を実行するクラスタのクラスタ UUID （ Unified Manager データソース UUID ）を入力するようにしてください。そのクラスタ内の特定の Storage VM にコンテキストを設定する場合は、その Storage VM キーを X-Dot -svm-UUID パラメータとして指定するか、 Storage VM の名前を X-Dot -SVM-name パラメータとして入力します。パラメータが文字列ヘッダーのフィルタとして追加され、そのクラスタ内の Storage VM の範囲内で処理が実行されます。
 

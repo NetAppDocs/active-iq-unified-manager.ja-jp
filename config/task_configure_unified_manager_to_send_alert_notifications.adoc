@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, send, alert, notifications 
 summary: Unified Manager では、環境内のイベントについて警告する通知を送信するように設定することができます。通知を送信するには、 Unified Manager のその他いくつかのオプションを設定する必要があります。 
 ---
-= Unified Manager でアラート通知を送信するための設定
+= アラート通知を送信するようにUnified Managerを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

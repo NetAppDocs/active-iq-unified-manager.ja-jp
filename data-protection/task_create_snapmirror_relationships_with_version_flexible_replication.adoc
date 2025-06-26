@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationships, version-flexible, replication, backup, option 
 summary: バージョンに依存しないレプリケーションとバックアップオプション機能を使用して SnapMirror 関係を作成できます。バックアップオプション機能を使用すると、 SnapMirror 保護を実装できます。また、デスティネーションの場所でバックアップコピーの複数のバージョンを保持することもできます。 
 ---
-= バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 関係の作成
+= バックアップ オプションを備えたバージョンに柔軟なレプリケーションで SnapMirror 関係を作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

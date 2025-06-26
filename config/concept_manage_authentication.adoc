@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, authentication 
 summary: Unified Manager サーバで LDAP または Active Directory のいずれかを使用して認証を有効にし、サーバと連携してリモートユーザを認証するように設定することができます。 
 ---
-= 認証の管理
+= 認証を管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

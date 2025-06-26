@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings 
 summary: 1 つ以上の qtree の容量についての健全性しきい値の設定を編集することができます。しきい値を超えるとアラートが生成され、通知が送信されます。これらの通知は、生成されたイベントに基づいて予防策を講じるのに役立ちます。 
 ---
-= 個々の qtree の健全性しきい値の設定を編集する
+= 個々のqtreeの健全性しきい値設定を編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

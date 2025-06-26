@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: Health ： All Clusters ビューを使用すると、クラスタのインベントリを表示できます。Capacity ： All Clusters ビューでは、すべてのクラスタのストレージ容量と使用状況についてまとめた情報を表示できます。 
 ---
-= クラスタリストおよび詳細の表示
+= クラスターのリストと詳細を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

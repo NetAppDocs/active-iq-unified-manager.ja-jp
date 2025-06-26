@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster authentication status, user authentication, manage, clusters 
 summary: Security ページには、各クラスタでユーザの認証に使用されている認証の種類と、各タイプを使用してクラスタにアクセスしているユーザの数が表示されます。これにより、ユーザ認証が組織の定義に従って安全に実行されていることを確認できます。 
 ---
-= すべてのクラスタでのユーザ認証の管理状況の表示
+= すべてのクラスタでユーザー認証がどのように管理されているかを表示します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: ビューとインベントリページは、ダウンロードまたはスケジュール設定したレポートになります。 
 ---
-= ビューとレポートの関係を理解している必要があります
+= ビューとレポートの関係を理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

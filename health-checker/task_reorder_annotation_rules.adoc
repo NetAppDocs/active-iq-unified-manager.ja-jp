@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, annotation rules 
 summary: Unified Manager で、アノテーションルールをストレージオブジェクトに適用する順序を変更することができます。アノテーションルールは、ランクに基づいてストレージオブジェクトに順番に適用されます。アノテーションルールには、設定した時点では最も低いランクが割り当てられます。ただし、要件に応じてアノテーションルールのランクを変更することができます。 
 ---
-= アノテーションルールの順序を変更する
+= 注釈ルールの並べ替え
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

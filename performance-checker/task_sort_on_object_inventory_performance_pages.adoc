@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: オブジェクトインベントリパフォーマンスページのすべてのデータを任意の列で昇順または降順でソートできます。オブジェクトインベントリデータをすばやく特定できるため、パフォーマンスの調査時やトラブルシューティングの開始時に役立ちます。 
 ---
-= オブジェクトインベントリのパフォーマンスページでソートします
+= オブジェクトインベントリパフォーマンスページで並べ替える
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

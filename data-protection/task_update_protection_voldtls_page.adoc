@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: 新しい保護関係で最初のベースライン転送を実行できます。また、すでに初期化された関係でスケジュールされていない増分更新を手動で実行してデータをただちに転送する場合は、関係を更新できます。 
 ---
-= ボリューム / 健全性の詳細ページから保護関係を初期化または更新しています
+= ボリューム/ヘルスの詳細ページから保護関係を初期化または更新します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, transfer size 
 summary: ボリューム転送を転送サイズに基づいて表示するレポートを作成できます。 
 ---
-= ボリューム転送を転送サイズに基づいて表示するレポートの作成
+= 転送サイズに基づいてボリューム転送を表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

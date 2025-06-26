@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, installation, file 
 summary: Unified Manager のインストールファイルをネットアップサポートサイトからダウンロードして、 Unified Manager を仮想アプライアンスとして導入します。 
 ---
-= Unified Manager インストールファイルをダウンロードします
+= Unified Managerのインストールファイルをダウンロードする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

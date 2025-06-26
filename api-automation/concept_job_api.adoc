@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: management-server カテゴリのジョブ API を使用すると、非同期処理の実行の詳細を表示できます。 
 ---
-= ジョブおよびシステムの詳細を表示しています
+= ジョブとシステムの詳細を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: management-server カテゴリのジョブ API を使用すると、非
 
 
 
-== ジョブの表示
+== ジョブを表示
 
 Active IQ Unified Manager では、リソースの追加や変更などの処理は、同期および非同期の API 呼び出しによって実行されます。非同期で実行されるようにスケジュールされている呼び出しは、その呼び出しに対して作成されたジョブオブジェクトによって追跡できます。各ジョブオブジェクトには、識別用の一意のキーがあります。各ジョブオブジェクトはジョブオブジェクト URI を返し、ジョブの進捗状況を確認および追跡できます。この API を使用して、各実行の詳細を取得できます。
 
@@ -51,7 +51,7 @@ management-server
 |===
 
 
-== システムの詳細の表示
+== システムの詳細を表示します
 
 「 /management-server / system 」 API を使用すると、インスタンス固有の Unified Manager 環境の詳細を照会できます。API から返される製品とサービスに関する情報には、システムにインストールされている Unified Manager のバージョン、 UUID 、ベンダー名、ホスト OS 、名前、 概要、および Unified Manager インスタンスで実行されているサービスのステータス。
 

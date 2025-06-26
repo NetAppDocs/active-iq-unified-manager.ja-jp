@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: ポリシーベースのストレージ管理オプションを使用すると、サービスレベル目標（ SLO ）に基づいてストレージを管理できます。このオプションはデフォルトで有効になっています。 
 ---
-= ポリシーベースのストレージ管理の有効化
+= ポリシーベースのストレージ管理を有効化
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

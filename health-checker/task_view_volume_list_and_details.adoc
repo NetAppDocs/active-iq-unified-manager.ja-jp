@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details 
 summary: Health ： All Volumes ビューでは、ボリュームのインベントリを監視できます。Capacity ： All Volumes ビューでは、クラスタ内のボリュームの容量と使用状況に関する情報を表示できます。 
 ---
-= ボリュームリストおよび詳細を表示します
+= ボリュームリストと詳細を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

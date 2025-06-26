@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, storage VMs, volume, limit 
 summary: ボリューム数が上限に達している SVM を検出するレポートを作成できます。 
 ---
-= ボリューム数が上限に達している Storage VM を表示するレポートの作成
+= 最大ボリューム制限に達したストレージVMを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: Unified Manager では、競合しているクラスタコンポーネントを集中的に使用しているワークロードを特定できます。このようなワークロードを特定すると、クラスタ上の特定のボリュームの応答時間（レイテンシ）が長くなっている理由を把握できます。 
 ---
-= 動的なパフォーマンスイベントに関連した Bully ワークロードの特定
+= 動的パフォーマンスイベントに関係するワークロードを特定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

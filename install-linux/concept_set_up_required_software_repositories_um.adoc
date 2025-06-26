@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。 
 ---
-= 必要なソフトウェアリポジトリをセットアップする
+= 必要なソフトウェアリポジトリを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

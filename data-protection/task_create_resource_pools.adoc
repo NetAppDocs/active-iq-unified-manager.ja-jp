@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools 
 summary: '[Create Resource Pool] ダイアログボックスを使用すると、プロビジョニングのためにアグリゲートをグループ化できます。' 
 ---
-= リソースプールを作成しています
+= リソースプールを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

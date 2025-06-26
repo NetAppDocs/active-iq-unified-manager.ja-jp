@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds 
 summary: パフォーマンスしきい値ポリシーを使用して、 Unified Manager がイベントを生成し、ワークロードパフォーマンスに影響している可能性のある問題についてシステム管理者に通知するレベルを決定できます。このしきい値ポリシーはユーザ定義のパフォーマンスしきい値と呼ばれます。 
 ---
-= パフォーマンスしきい値の管理
+= パフォーマンスしきい値を管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts 
 summary: カウンタグラフペインのグラフでは、ルートオブジェクトのパフォーマンスデータと、関連オブジェクトグリッドから追加したオブジェクトのパフォーマンスデータを表示および比較できます。これは、パフォーマンスの傾向を把握して、パフォーマンスの問題を特定および解決するのに役立ちます。 
 ---
-= カウンタグラフの概要
+= カウンターチャートを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

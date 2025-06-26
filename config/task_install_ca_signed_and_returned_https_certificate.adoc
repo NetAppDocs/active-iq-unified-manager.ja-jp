@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate 
 summary: 認証局から署名を受けて返されたセキュリティ証明書を、アップロードしてインストールすることができます。アップロードしてインストールするファイルは、既存の自己署名証明書の署名済みバージョンである必要があります。CA 署名証明書は、中間者攻撃を阻止するのに役立ち、自己署名証明書よりも強力なセキュリティ保護を実現します。 
 ---
-= CA 署名済みで返された HTTPS 証明書をインストールする
+= CA署名され返されたHTTPS証明書をインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

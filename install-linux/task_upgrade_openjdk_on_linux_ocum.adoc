@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade 
 summary: Unified Manager がインストールされている Linux サーバで OpenJDK を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。 
 ---
-= Linux での OpenJDK のアップグレード
+= Linux で OpenJDK をアップグレードする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: '[ ヘルプのお気に入り ] タブでは、頻繁に使用するヘルプトピックをブックマークできます。ブックマークに登録すると、お気に入りのトピックにすばやくアクセスできます。' 
 ---
-= よく見るヘルプトピックのブックマーク登録
+= お気に入りのヘルプトピックをブックマークする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

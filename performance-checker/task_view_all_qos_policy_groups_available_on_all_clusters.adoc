@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: viewing, qos, policy, groups, available, clusters 
 summary: Unified Manager が監視しているクラスタで使用可能なすべての QoS ポリシーグループのリストを表示できます。これには、従来の QoS ポリシー、アダプティブ QoS ポリシー、および Unified Manager のパフォーマンスサービスレベルポリシーで管理される QoS ポリシーが含まれます。 
 ---
-= すべてのクラスタで使用可能なすべての QoS ポリシーグループを表示する
+= すべてのクラスタで利用可能なすべての QoS ポリシー グループを表示します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

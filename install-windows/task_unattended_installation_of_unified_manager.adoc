@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager 
 summary: コマンドラインインターフェイスを使用して、手動操作なしで Unified Manager をインストールできます。無人インストールを実行するには、キーと値のペアの形式でパラメータを渡します。 
 ---
-= Unified Manager の無人インストールを実行する
+= Unified Managerの無人インストールを実行する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

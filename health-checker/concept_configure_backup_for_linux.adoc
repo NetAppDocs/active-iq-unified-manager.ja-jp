@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, linux, operate, system, configure, backup 
 summary: Active IQ Unified Manager が Linux マシンにインストールされている場合は、 NetApp Snapshot を使用してバックアップとリストアを設定できます。 
 ---
-= Linux でバックアップを設定しています
+= Linuxでバックアップを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

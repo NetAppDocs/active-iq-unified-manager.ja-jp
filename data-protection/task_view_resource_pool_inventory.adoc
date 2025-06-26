@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, resource pools, inventory 
 summary: リソースプールページを使用して、リソースプールのインベントリを表示したり、各リソースプールの残りの容量を監視したりできます。 
 ---
-= リソースプールインベントリの表示
+= リソースプールのインベントリを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

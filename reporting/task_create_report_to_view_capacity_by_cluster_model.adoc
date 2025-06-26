@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model 
 summary: クラスタのストレージ容量と使用状況をストレージシステムモデルに基づいて分析するためのレポートを作成できます。 
 ---
-= 容量をクラスタモデル別に表示するレポートの作成
+= クラスター モデル別に容量を表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

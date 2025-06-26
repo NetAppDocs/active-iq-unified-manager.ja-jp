@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: リモート認証を有効にしている場合、ネストされたグループの認証を無効にすることで、リモートからの Unified Manager への認証を個々のユーザにのみ許可し、グループのメンバーは認証されないようにすることができます。ネストされたグループを無効にすると、 Active Directory 認証の応答時間を短縮できます。 
 ---
-= リモート認証でのネストされたグループの無効化
+= リモート認証からネストされたグループを無効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

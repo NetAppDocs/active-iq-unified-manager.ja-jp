@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, Snapshot copies 
 summary: 選択したボリュームの Snapshot コピーのリストを表示できます。Snapshot コピーのリストを使用すると、 1 つ以上の Snapshot コピーが削除された場合に再利用可能なディスクスペースの量を計算できます。また、必要に応じて Snapshot コピーを削除できます。 
 ---
-= Snapshot コピーリストを表示しています
+= スナップショットコピーのリストを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

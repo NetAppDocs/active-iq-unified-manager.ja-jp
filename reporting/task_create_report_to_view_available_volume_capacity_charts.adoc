@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, available, volume, capacity, charts 
 summary: Excel グラフで使用可能なボリューム容量を分析するためのレポートを作成できます。 
 ---
-= 使用可能なボリューム容量グラフを表示するレポートの作成
+= 利用可能なボリューム容量チャートを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

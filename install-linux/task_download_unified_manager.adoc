@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, Unified Manager 
 summary: Unified Manager をインストールするには、 Unified Manager の .zip ファイルをネットアップサポートサイトからダウンロードする必要があります。 
 ---
-= Unified Manager をダウンロードしています
+= Unified Manager をダウンロードします
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

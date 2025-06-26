@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, protection, relationships, unified manager 
 summary: Unified Manager と OnCommand Workflow Automation を使用してデータを保護するための SnapMirror 関係と SnapVault 関係をセットアップするには、いくつかの手順を実行する必要があります。 
 ---
-= Unified Manager で保護関係をセットアップする
+= Unified Managerで保護関係を設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

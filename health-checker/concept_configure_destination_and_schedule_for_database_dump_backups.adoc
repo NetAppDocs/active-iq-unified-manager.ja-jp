@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Unified Manager のデータベースダンプバックアップ設定で、データベースのバックアップパス、保持数、およびバックアップスケジュールを設定できます。日単位または週単位のスケジュールされたバックアップを有効にすることができますデフォルトでは、スケジュールされたバックアップは無効になっていますが、バックアップスケジュールを設定する必要があります。 
 ---
-= データベースダンプバックアップのデスティネーションの設定とスケジュール設定
+= データベースダンプバックアップの保存先とスケジュールを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

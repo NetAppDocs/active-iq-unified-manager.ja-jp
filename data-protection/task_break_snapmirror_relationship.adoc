@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: break, snapmirror, relationship, volume, relationship page 
 summary: 保護関係を解除して、 SnapMirror 関係にあるソースボリュームとデスティネーションボリュームの間のデータ転送を停止することができます。関係の解除は、データを移行する場合、ディザスタリカバリやアプリケーションのテストなどの目的で行うことがあります。デスティネーションボリュームは読み書き可能ボリュームに変わります。SnapVault 関係を解除することはできません。 
 ---
-= ボリューム関係ページから SnapMirror 関係を解除します
+= ボリューム関係ページからSnapMirror関係を解除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface 
 summary: Unified Manager のユーザインターフェイスの主な構成要素は、監視対象のオブジェクトを一目で把握できるダッシュボードです。また、ユーザインターフェイスを使用して、すべてのクラスタオブジェクトを表示できます。 
 ---
-= ユーザインターフェイスの概要
+= ユーザーインターフェースを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

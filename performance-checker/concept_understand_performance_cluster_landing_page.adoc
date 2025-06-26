@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page 
 summary: 'パフォーマンスクラスタのランディングページでは、選択したクラスタのパフォーマンスの概要が、クラスタ内の上位 10 個のオブジェクトのパフォーマンスステータスとともに表示されます。パフォーマンスの問題は、ページの上部の [ このクラスタのすべてのイベント ] パネルに表示されます。' 
 ---
-= パフォーマンスクラスタランディングページについて
+= パフォーマンス クラスターのランディング ページを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

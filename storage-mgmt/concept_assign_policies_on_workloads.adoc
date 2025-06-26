@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 各種のナビゲーションオプションを使用して、ストレージ効率化ポリシー（ SEP ）とパフォーマンスサービスレベル（ PSL ）をすべてのワークロードページからストレージワークロードに割り当てることができます。 
 ---
-= ワークロードにポリシーを割り当てます
+= ワークロードにポリシーを割り当てる
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -53,7 +53,7 @@ summary: 各種のナビゲーションオプションを使用して、スト�
 
 
 
-== システム推奨の PSL をワークロードに割り当て中です
+== システム推奨のPSLをワークロードに割り当てる
 
 PSL が割り当てられていないデータセンター内のストレージワークロードに、システム推奨の PSL を割り当てることができます。または、割り当てられた PSL がシステム推奨の対象と一致しません。この機能を使用するには、 * Assign System Recommended PSL * ボタンをクリックします。特定のワークロードを選択する必要はありません。
 

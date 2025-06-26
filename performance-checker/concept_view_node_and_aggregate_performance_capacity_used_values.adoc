@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用済みパフォーマンス容量の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
-= ノードとアグリゲートの使用済みパフォーマンス容量の値の表示
+= ノードと集計パフォーマンス容量の使用値を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ summary: クラスタ内のすべてのノードまたはアグリゲートの�
 
 image::../media/node_inventory_used_headroom.gif[[Performance：All Aggregates]ページのUIスクリーンショット]
 
-使用済みパフォーマンス容量のカウンタを監視すると、次の項目を特定できます。
+パフォーマンス使用容量カウンタを監視すると、次のことを識別できます。
 
 * クラスタ上に使用済みパフォーマンス容量の値が大きいノードまたはアグリゲートがないかどうか
 * クラスタ上にアクティブな使用済みパフォーマンス容量のイベントが発生しているノードまたはアグリゲートがないかどうか

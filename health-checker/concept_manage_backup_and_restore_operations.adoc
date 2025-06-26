@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, types, manage, restore, operations 
 summary: Active IQ Unified Manager のバックアップを作成し、リストア機能を使用して、システム障害やデータ損失が発生した場合に、同じ（ローカル）システムまたは新しい（リモート）システムにバックアップをリストアできます。 
 ---
-= バックアップとリストアの処理の管理
+= バックアップと復元操作を管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
 summary: WindowsシステムでSnapshotコピーを使用してActive IQ Unified Manager をバックアップおよびリストアするには、ONTAP クラスタでいくつかの事前設定手順を実行する必要があります。 
 ---
-= ONTAP クラスタを設定しています
+= ONTAP クラスタを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

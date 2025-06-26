@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
 summary: 同じ QoS ポリシーグループ内のボリュームと LUN を表示して、単一の IOPS 、 MBps 、または IOPS/TB チャートでパフォーマンスを比較し、問題がないかどうかを確認できます。 
 ---
-= パフォーマンスチャートを表示して、同じ QoS ポリシーグループ内のボリュームまたは LUN を比較できます
+= パフォーマンス チャートを表示して、同じ QoS ポリシー グループ内のボリュームまたは LUN を比較します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: Active IQ Unified Manager に付属のプロビジョニング API を使用して、 Storage Virtual Machine （ SVM ）に CIFS 共有と NFS ファイル共有をプロビジョニングできます。このプロビジョニングワークフローでは、ファイル共有を作成する前に SVM 、パフォーマンスサービスレベル、およびストレージ効率化ポリシーのキーを取得する手順について詳しく説明します。 
 ---
-= APIを使用したCIFSおよびNFSファイル共有のプロビジョニング
+= API を使用して CIFS および NFS ファイル共有をプロビジョニングする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

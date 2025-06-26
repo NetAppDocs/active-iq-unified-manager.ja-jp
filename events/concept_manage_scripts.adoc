@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, scripts 
 summary: Unified Manager で複数のストレージオブジェクトを自動的に変更または更新するスクリプトを作成することができます。スクリプトはアラートに関連付けられます。イベントによってアラートがトリガーされるとスクリプトが実行されます。カスタムスクリプトをアップロードし、アラートが生成されたときの動作をテストすることができます。 
 ---
-= スクリプトの管理
+= スクリプトを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

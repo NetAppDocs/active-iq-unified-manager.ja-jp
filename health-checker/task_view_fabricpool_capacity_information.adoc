@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, fabricPool, cloud tier, mirror tier, capacity, information 
 summary: クラスタ、アグリゲート、およびボリュームの FabricPool 容量情報は、容量とパフォーマンスのインベントリページおよびこれらのオブジェクトの詳細ページで確認できます。これらのページには、ミラー階層が構成されている場合の FabricPool ミラー情報も表示されます。 
 ---
-= FabricPool の容量情報を表示しています
+= FabricPool の容量情報を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -16,7 +16,7 @@ Active IQ Unified Manager API を使用して、環境内のストレージオ�
 
 
 
-== REST API に直接アクセスするための URL の作成
+== REST APIに直接アクセスするためのURLを構築する
 
 REST API には、 Python 、 C# 、 C ｛ pp ｝ 、 JavaScript などのプログラミング言語を使用して直接アクセスできます。 など。以下の形式でホスト名または IP アドレスと URL を入力して、 REST API にアクセスします
 
@@ -29,7 +29,7 @@ REST API には、 Python 、 C# 、 C ｛ pp ｝ 、 JavaScript などのプロ
 ====
 
 
-== オンラインの API ドキュメントページにアクセスする
+== オンラインAPIドキュメントページにアクセスする
 
 製品に付属の _API Documentation_reference コンテンツページにアクセスして API ドキュメントを表示することも、（ Swagger などのインターフェイス上の） API 呼び出しを手動で問題することもできます。このドキュメントにアクセスするには、 * メニューバー * > * ヘルプボタン * > * API ドキュメント * をクリックします
 

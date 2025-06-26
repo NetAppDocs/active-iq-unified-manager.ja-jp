@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, health details page 
 summary: 保護関係を休止してデータ転送を一時的に停止できます。関係の休止は、データベースを含む SnapMirror デスティネーションボリュームの Snapshot コピーを作成する場合に、 Snapshot コピーの実行中にデータベースコンテンツの安定を確保する目的で行うことがあります。 
 ---
-= ボリューム / 健全性の詳細ページで保護関係を休止しています
+= ボリューム/ヘルスの詳細ページから保護関係を休止する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

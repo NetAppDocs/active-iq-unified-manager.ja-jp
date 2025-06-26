@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, dynamic, performance, thresholds 
 summary: 動的なしきい値で生成されたイベントは、ワークロードの実際の応答時間（レイテンシ）が想定範囲と比較して高すぎたり低すぎたりしたことを示します。イベントの詳細ページを使用してパフォーマンスイベントを分析し、必要に応じてイベントに対処してパフォーマンスを正常な状態に戻します。 
 ---
-= 動的なパフォーマンスしきい値で生成されたイベントを分析する
+= 動的パフォーマンスしきい値からイベントを分析する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

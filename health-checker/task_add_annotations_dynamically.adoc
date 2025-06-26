@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, dynamically 
 summary: Unified Manager でカスタムアノテーションを作成すると、クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがルールに基づいてアノテーションに動的に関連付けられます。ルールにより、ストレージオブジェクトにアノテーションが自動的に割り当てられます。 
 ---
-= アノテーションの動的な追加
+= 動的に注釈を追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

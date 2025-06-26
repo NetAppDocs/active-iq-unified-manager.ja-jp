@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group rules 
 summary: 不要になったグループルールは Active IQ Unified Manager から削除できます。 
 ---
-= グループルールを削除しています
+= グループルールを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

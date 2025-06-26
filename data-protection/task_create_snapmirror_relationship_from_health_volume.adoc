@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship,  volume, health details page 
 summary: データレプリケーションを有効にしてデータを保護するために、ボリューム / 健全性の詳細ページを使用して SnapMirror 関係を作成することができます。SnapMirror レプリケーションを使用すると、ソースでデータ損失が発生した場合にデスティネーションボリュームからデータをリストアできます。 
 ---
-= ボリューム / 健全性の詳細ページから SnapMirror 保護関係を作成しています
+= ボリューム/ヘルスの詳細ページからSnapMirror保護関係を作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, unified manager 
 summary: Red Hat Enterprise LinuxホストからUnified Managerを停止およびアンインストールするには、1つのコマンドを使用します。 
 ---
-= Unified Manager を削除しています
+= 統合マネージャーを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

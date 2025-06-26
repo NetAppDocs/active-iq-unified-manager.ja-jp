@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, length, time, unified manager, retains, event, performance, data 
 summary: Unified Manager には、すべての監視対象クラスタのイベントデータとパフォーマンスデータが 6 カ月間、デフォルトで格納されます。この期間を過ぎると、新しいデータ用のスペースを確保するために古いデータが自動的に削除されます。このデフォルトの期間はほとんどの構成に対して有効ですが、多数のクラスタとノードを含む非常に大規模な構成では、 Unified Manager が最適に動作するように保持期間を短縮しなければならない場合があります。 
 ---
-= Unified Manager でイベントデータおよびパフォーマンスデータを保持する期間の変更
+= Unified Manager がイベントとパフォーマンスデータを保持する期間を変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

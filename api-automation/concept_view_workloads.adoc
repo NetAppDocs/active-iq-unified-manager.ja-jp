@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage, workloads 
 summary: ここに記載されている API を使用すると、データセンター内のすべての ONTAP クラスタのストレージワークロードをまとめて表示できます。また、 Active IQ Unified Manager 環境でプロビジョニングされているストレージワークロードの数と、その容量とパフォーマンス（ IOPS ）の統計情報も表示されます。 
 ---
-= APIを使用したストレージワークロードの表示
+= API を使用してストレージ ワークロードを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

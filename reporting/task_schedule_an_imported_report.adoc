@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: 以前のリリースの Unified Manager で作成およびインポートした既存のレポートをスケジュールできます。 
 ---
-= インポートした .rptdesign レポートのスケジュール設定
+= インポートした.rptdesignレポートのスケジュール
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

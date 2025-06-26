@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, oncommand, workflow, automation, setup, unified manager 
 summary: Workflow Automation が不要となった場合は、 Unified Manager から OnCommand Workflow Automation のセットアップを削除できます。 
 ---
-= OnCommand Workflow Automation セットアップを Unified Manager から削除しています
+= Unified Manager から OnCommand Workflow Automation セットアップを削除します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

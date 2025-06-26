@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations 
 summary: アノテーションに値を追加し、アノテーションの名前と値の特定のペアにストレージオブジェクトを関連付けることができます。アノテーションに値を追加することで、より効率的にストレージオブジェクトを管理できるようになります。 
 ---
-= アノテーションへの値の追加
+= 注釈に値を追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

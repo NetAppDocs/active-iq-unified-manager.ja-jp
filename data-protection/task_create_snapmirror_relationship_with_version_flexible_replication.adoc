@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication 
 summary: バージョンに依存しないレプリケーションを使用して SnapMirror 関係を作成できます。バージョンに依存しないレプリケーションを使用すると、ソースボリュームとデスティネーションボリュームが異なるバージョンの ONTAP で実行されている場合でも、 SnapMirror 保護を実装できます。 
 ---
-= バージョンに依存しないレプリケーションを使用して SnapMirror 関係を作成する
+= バージョンに柔軟性のあるレプリケーションでSnapMirror関係を作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

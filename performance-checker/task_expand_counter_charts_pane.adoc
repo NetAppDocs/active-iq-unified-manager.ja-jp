@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: カウンタグラフペインを展開すると、グラフをより大きくて読みやすくすることができます。 
 ---
-= カウンタグラフペインを展開します
+= カウンターチャートペインを展開する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

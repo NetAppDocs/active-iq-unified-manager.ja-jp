@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alerts 
 summary: 関連付けられているリソース、イベント、受信者、通知オプション、通知頻度など、アラートのプロパティを編集することができます。 および関連するスクリプト。 
 ---
-= アラートの編集
+= アラートを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

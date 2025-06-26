@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: 停止しているすべての SVM のリストを表示するレポートを作成できます。 
 ---
-= 停止している Storage VM を表示するレポートの作成
+= 停止したストレージVMを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

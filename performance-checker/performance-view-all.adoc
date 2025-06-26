@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: すべてのストレージオブジェクトのパフォーマンスビュー 
 ---
-= すべてのストレージオブジェクトのパフォーマンスインベントリページを表示する
+= すべてのストレージ オブジェクトのパフォーマンス インベントリ ページを表示します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

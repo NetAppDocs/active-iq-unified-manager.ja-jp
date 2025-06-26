@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand 
 summary: 仮想マシン（ VM ）のアプリケーションでレイテンシ問題が発生した場合、原因の分析とトラブルシューティングのために VM の監視が必要になることがあります。VM を使用できるのは、 vCenter Server と、 VM ストレージをホストする ONTAP クラスタを Unified Manager に追加したときです。 
 ---
-= 仮想マシンの監視
+= 仮想マシンを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -26,7 +26,7 @@ I/O パスとコンポーネントレベルのレイテンシをトポロジの�
 
 
 
-== トポロジのサマリビューの表示
+== 概要トポロジを表示
 
 トポロジのサマリビューで VM を表示してパフォーマンスの問題を特定するには、次の手順を実行します。
 
@@ -53,7 +53,7 @@ vCenter Server で使用できる特殊文字（ % 、 & 、 * 、 $ 、 # 、 @
 
 
 
-== トポロジの展開ビューの表示
+== 拡張トポロジを表示
 
 VM のトポロジの展開ビューでは、各コンポーネントにドリルダウンして個別に確認することができます。
 

@@ -20,52 +20,52 @@ entries:
     url: "/install-linux/concept_browser_and_platform_requirements.html"
   - title: プロトコルとポートの要件
     url: "/install-linux/reference_protocol_and_port_requirements.html"
-  - title: ワークシートへの記入
+  - title: ワークシートを完成させる
     url: "/install-linux/reference_complete_worksheet_um.html"
-- title: Unified Manager ソフトウェアのインストール、アップグレード、削除を行います
+- title: Unified Manager ソフトウェアのインストール、アップグレード、および削除
   url: "/install-linux/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: インストールプロセスの概要
     url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
-  - title: 必要なソフトウェアリポジトリをセットアップする
+  - title: 必要なソフトウェアリポジトリを設定する
     url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
-    - title: EPEL リポジトリを手動で設定します
+    - title: EPELリポジトリを手動で設定する
       url: "/install-linux/task_manually_configure_epel_repository.html"
-    - title: MySQL リポジトリを手動で設定する
+    - title: MySQLリポジトリを手動で設定する
       url: "/install-linux/task_manually_configure_mysql_repository.html"
   - title: SELinuxでNFS共有またはCIFS共有を使用する必要がある
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
-  - title: Linux システムへの Unified Manager のインストール
+  - title: Linux システムに Unified Manager をインストールします
     url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
-    - title: カスタムユーザのホームディレクトリと umadmin のパスワードを作成しています
+    - title: インストール前にカスタムユーザーホームディレクトリとumadminパスワードを作成します
       url: "/install-linux/task_create_custom_user_home_directory_and_umadmin.html"
-    - title: Unified Manager をダウンロードしています
+    - title: Unified Manager をダウンロードします
       url: "/install-linux/task_download_unified_manager.html"
-    - title: Unified Manager をインストールしています
+    - title: Unified Manager をインストールします
       url: "/install-linux/task_install_unified_manager_linux.html"
     - title: Unified Manager のインストール時に作成されるユーザ
       url: "/install-linux/reference_users_created_in_unified_manager.html"
-    - title: JBoss パスワードを変更しています
+    - title: JBossのパスワードを変更する
       url: "/install-linux/task_change_jboss_password.html"
-  - title: Red Hat Enterprise LinuxでのUnified Managerのアップグレード
+  - title: Red Hat Enterprise Linux 上の Unified Manager のアップグレード
     url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
     - title: Unified Managerバージョンでサポートされているアップグレードパス
       url: "/include/upgrade-path.html"
-    - title: Unified Manager をアップグレードする
+    - title: Unified Manager をアップグレードします
       url: "/install-linux/task_upgrade_unified_manager.html"
-    - title: Red Hat Enterprise Linux 7.x から 8.x へのホスト OS のアップグレード
+    - title: ホスト OS を Red Hat Enterprise Linux 7.x から 8.x にアップグレードします。
       url: "/install-linux/task_upgrade_host_os.html"
   - title: Unified Manager のインストール後にサードパーティ製品をアップグレードする
     url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     entries:
-    - title: Linux での OpenJDK のアップグレード
+    - title: Linux で OpenJDK をアップグレードする
       url: "/install-linux/task_upgrade_openjdk_on_linux_ocum.html"
-  - title: Unified Manager を再開しています
+  - title: 統合マネージャを再起動します
     url: "/install-linux/task_restart_unified_manager.html"
-  - title: Unified Manager を削除しています
+  - title: 統合マネージャーを削除する
     url: "/install-linux/task_remove_unified_manager.html"
-  - title: カスタムの umadmin ユーザと maintenance グループを削除します
+  - title: カスタム umadmin ユーザーとメンテナンス グループを削除します
     url: "/install-linux/task_remove_custom_umadmin_user_and_maintenance_group.html"

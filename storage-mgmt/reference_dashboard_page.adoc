@@ -26,7 +26,7 @@ summary: Dashboard ページには、監視しているクラスタの容量、�
 
 == [管理操作]パネル
 
-問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、このパネルに * Fix it * または * Fix All * ボタンで表示されます。このような問題は Unified Manager から直接解決できます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。すべての問題を表示するには、「参照」をクリックします link:concept_fix_ontap_issues_directly_from_unified_manager.html["ONTAP の問題を Unified Manager から直接修正"] を参照してください。
+Unified Manager が徹底的に診断し、単一の解決策を提供できる問題がいくつかあります。解決策がある場合は、このパネルに * Fix it * または * Fix All * ボタンで表示されます。これらの問題はUnified Managerからすぐに解決できます。ONTAP System ManagerやONTAP CLIを使用する必要はありません。すべての問題を表示するには、[参照]をクリックして詳細を確認link:concept_fix_ontap_issues_directly_from_unified_manager.html["ONTAPの問題をUnified Managerから直接修正"]してください。
 
 
 
@@ -118,8 +118,8 @@ link:../events/reference_description_of_event_severity_types.html["概要のイ�
 
 link:../performance-checker/concept_sources_of_performance_events.html["パフォーマンスイベントのソース"]
 
-link:../health-checker/concept_manage_cluster_security_objectives.html["クラスタのセキュリティ目標の管理"]
+link:../health-checker/concept_manage_cluster_security_objectives.html["クラスターのセキュリティ目標を管理する"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["パフォーマンスクラスタランディングページからのクラスタパフォーマンスの監視"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["パフォーマンス クラスター ランディング ページからクラスターのパフォーマンスを監視します。"]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html["パフォーマンスインベントリページを使用したパフォーマンスの監視"]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html["パフォーマンスインベントリページを使用してパフォーマンスを監視する"]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: 合計とクラスタ化された棒グラフ形式を使用して、 Excel ファイルの容量を分析するレポートを作成できます。 
 ---
-= アグリゲートの容量の表とグラフを表示するレポートの作成
+= 総容量表とグラフを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: MetroCluster 構成または Storage Virtual Machine （ Storage VM ）ディザスタリカバリ（ SVM DR ）セットアップでホストされているデータストアの設定とパフォーマンスの指標を表示できます。 
 ---
-= ディザスタリカバリの設定における仮想インフラの表示
+= 災害復旧セットアップにおける仮想インフラストラクチャの表示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,7 +19,7 @@ vCenter Server のデータストアにマッピングされている Storage VM
 
 
 
-== MetroCluster 構成のデータストアの表示
+== MetroCluster構成のデータストアを表示する
 
 MetroCluster 構成でデータストアを表示する前に、次の前提条件に注意してください。
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーショ�
 
 
 
-== Storage VM ディザスタリカバリ設定のデータストアの表示
+== ストレージ VM の災害復旧構成内のデータストアを表示する
 
 Storage VM ディザスタリカバリ構成でデータストアを表示する前に、次の前提条件に注意してください。
 

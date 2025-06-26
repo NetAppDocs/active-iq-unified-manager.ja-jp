@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, notification, settings 
 summary: Unified Manager では、イベントが生成されたときやユーザに割り当てられたときにアラート通知を送信するように設定することができます。アラートの送信に使用する SMTP サーバを設定したり、さまざまな通知メカニズムを設定したりできます。たとえば、アラート通知を E メールや SNMP トラップとして送信できます。 
 ---
-= イベント通知を設定しています
+= イベント通知を設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

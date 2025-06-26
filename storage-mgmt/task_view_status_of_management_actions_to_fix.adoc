@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, status, management, actions, chosen, fix 
 summary: 修正対象として選択したすべての管理アクションのステータスは、管理アクションページで確認できます。ほとんどの操作は、 Unified Manager からクラスタに ONTAP コマンドが送信されるとごく短時間で完了したと表示されます。ただし、ボリュームの移動などの一部の処理には時間がかかることがあります。 
 ---
-= 修正するように選択した管理アクションのステータスの表示
+= 修正するために選択した管理アクションのステータスを表示します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

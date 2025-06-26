@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group rules 
 summary: グループのグループルールを作成して、ボリューム、クラスタ、 Storage Virtual Machine （ SVM ）などのストレージオブジェクトを動的にグループに追加できます。グループルールを作成するには、少なくとも 1 つの条件を含む条件グループを少なくとも 1 つ設定する必要があります。 
 ---
-= グループルールを追加しています
+= グループルールを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

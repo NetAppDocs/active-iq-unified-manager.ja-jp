@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, performance, events 
 summary: パフォーマンスイベントを分析して、イベントが検出されたタイミング、アクティブなイベント（新規または確認済みのイベント）か廃止されたイベントか、関連するワークロードとクラスタコンポーネント、およびイベントを解決するためのオプションを特定できます。 
 ---
-= パフォーマンスイベントを分析しています
+= パフォーマンスイベントを分析する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: API ゲートウェイ機能を使用すると、 ONTAP を個別にログインせずに、複数の Active IQ Unified Manager クラスタを一元的に管理できます。 
 ---
-= API ゲートウェイを有効にしてい
+= API ゲートウェイを有効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

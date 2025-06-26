@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping 
 summary: ここに記載された API を使用して、 SVM 上の CIFS 共有のプロビジョニングに必要な SVM の Active Directory マッピングを管理できます。ONTAP を備えた SVM をマッピングするには、 Active Directory マッピングを設定する必要があります。 
 ---
-= APIを使用したActive Directoryマッピングの管理
+= API を使用して Active Directory マッピングを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

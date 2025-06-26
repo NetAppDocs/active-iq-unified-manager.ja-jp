@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name 
 summary: ネットワークホストの名前は、 Unified Manager 仮想アプライアンスの導入時に割り当てられます。このホスト名は導入後に変更することができます。ホスト名を変更する場合は、 HTTPS 証明書も再生成する必要があります。 
 ---
-= Unified Manager 仮想アプライアンスのホスト名を変更する
+= Unified Manager仮想アプライアンスのホスト名を変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

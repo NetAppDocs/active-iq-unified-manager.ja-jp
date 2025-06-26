@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, group, performance, events 
 summary: ワークロードのスループット（ IOPS 、 IOPS/TB 、または MBps ）が定義されている ONTAP QoS ポリシーの設定を超え、ワークロードのレイテンシに影響を及ぼしている場合、 Unified Manager で QoS ポリシー警告イベントが生成されます。これらのシステム定義のイベントにより、多くのワークロードにレイテンシの影響が及ぶ前に潜在的なパフォーマンスの問題を修正することができます。 
 ---
-= QoS ポリシーグループパフォーマンスイベントへの対処
+= QoSポリシーグループのパフォーマンスイベントに応答する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

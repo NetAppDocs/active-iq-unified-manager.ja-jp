@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, encryption status, volumes 
 summary: すべてのボリュームとその現在の暗号化ステータスのリストを表示して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを確認できます。 
 ---
-= すべてのボリュームの暗号化ステータスを表示します
+= すべてのボリュームの暗号化ステータスを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

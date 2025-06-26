@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager 
 summary: Securityページには、すべてのクラスタとStorage VMのセキュリティステータスの概要が表示されます。詳細なクラスタステータスには、クラスタコンプライアンス、 SVM コンプライアンス、ボリューム暗号化コンプライアンスが含まれます。 
 ---
-= クラスタとStorage VMのセキュリティステータスの表示
+= クラスタとストレージVMのセキュリティステータスを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

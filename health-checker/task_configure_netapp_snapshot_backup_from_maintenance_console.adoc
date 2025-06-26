@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, snapshot copy, copies maintenance console 
 summary: Snapshotコピーを使用してActive IQ Unified Manager バックアップを作成するには、メンテナンスコンソールからいくつかの設定手順を実行する必要があります。 
 ---
-= メンテナンスコンソールからSnapshotコピーを使用してバックアップを設定する
+= メンテナンスコンソールからスナップショットコピーによるバックアップを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

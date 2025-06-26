@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, upgrade file 
 summary: Unified Manager をアップグレードする前に、 Unified Manager のアップグレードファイルをネットアップサポートサイトからダウンロードします。 
 ---
-= Unified Manager のアップグレードファイルをダウンロードしています
+= Unified Manager アップグレード ファイルをダウンロードする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

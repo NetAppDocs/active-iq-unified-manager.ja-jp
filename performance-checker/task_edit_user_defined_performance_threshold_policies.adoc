@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies 
 summary: 既存のパフォーマンスしきい値ポリシーのしきい値の設定を編集することができます。これは、特定のしきい値条件に対するアラートが多すぎたり少なすぎたりする場合に便利です。 
 ---
-= ユーザ定義のパフォーマンスしきい値ポリシーを編集する
+= ユーザー定義のパフォーマンスしきい値ポリシーを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

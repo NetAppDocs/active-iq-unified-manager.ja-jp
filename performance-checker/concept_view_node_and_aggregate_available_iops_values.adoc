@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用可能な IOPS の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
-= ノードとアグリゲートの使用可能な IOPS の値の表示
+= ノードと集計の利用可能な IOPS 値を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ summary: クラスタ内のすべてのノードまたはアグリゲートの�
 
 image::../media/available_iops_zoom.gif[[Node/Performance Explorer]ページにノードが表示され、リストから[Available IOPS]を選択する方法を示すUIのスクリーンショット。]
 
-使用可能な IOPS カウンタを監視することで、次の項目を特定できます。
+利用可能な IOPS カウンターを監視すると、次のことを識別できます。
 
 * 使用可能な IOPS の値が最も大きいノードまたはアグリゲート。今後ワークロードを導入可能な場所を判断します。
 * 使用可能な IOPS の値が最も小さいノードまたはアグリゲート。今後発生する可能性のあるパフォーマンスの問題について監視が必要なリソースを特定します。

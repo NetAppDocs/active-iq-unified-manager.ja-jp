@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfer, trends, specific, time intervals 
 summary: 特定の期間のボリューム転送の傾向を表示するレポートを作成できます。 
 ---
-= 特定の期間のボリューム転送の傾向を表示するレポートの作成
+= 特定の時間間隔でのボリューム転送の傾向を表示するレポートを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

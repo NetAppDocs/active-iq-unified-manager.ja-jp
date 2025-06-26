@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: ボリュームの容量、 Snapshot コピー、 qtree クォータ、増加率、および inode について、グループレベルで健全性しきい値を設定することができます。 
 ---
-= グループに対するボリューム健常性しきい値を設定する
+= グループのボリューム健全性しきい値を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

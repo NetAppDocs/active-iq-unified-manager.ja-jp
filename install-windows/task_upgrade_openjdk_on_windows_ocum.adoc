@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, upgrade 
 summary: Unified Manager がインストールされている Windows サーバで OpenJDK を新しいバージョンにアップグレードすることで、セキュリティの脆弱性に対する修正を入手できます。 
 ---
-= OpenJDK のアップグレード
+= OpenJDK をアップグレードします
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

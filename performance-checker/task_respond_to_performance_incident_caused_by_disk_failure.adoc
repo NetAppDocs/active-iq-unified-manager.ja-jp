@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure 
 summary: Unified Manager を使用して、アグリゲートを過剰に消費しているワークロードが原因のパフォーマンスイベントを調査できます。また、 Unified Manager を使用してアグリゲートの健常性を確認し、アグリゲートで検出された最近の健常性イベントがパフォーマンスイベントに関与しているかどうかを判断できます。 
 ---
-= ディスク障害が原因の動的なパフォーマンスイベントへの対処
+= ディスク障害によって発生する動的なパフォーマンスイベントに対応する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, suggested, remedial actions, volume 
 summary: 「ボリュームスペースがフル」エラーイベントを受け取ったら、イベントの詳細ページで推奨される修正策を確認し、推奨されるいずれかの操作を実行します。 
 ---
-= ボリュームがフルになった場合の推奨修正策の実施
+= ボリューム全体に対して推奨される修復アクションを実行する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

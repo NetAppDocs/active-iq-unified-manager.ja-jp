@@ -31,57 +31,57 @@ entries:
 - title: Unified Manager REST API
   url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
-  - title: データセンター内のストレージオブジェクトの管理
+  - title: データセンター内のストレージオブジェクトを管理する
     url: "/api-automation/concept_data_center_apis.html"
-  - title: プロキシアクセスを介して ONTAP API にアクセスする
+  - title: プロキシアクセスを介してONTAP APIにアクセスする
     url: "/api-automation/concept_gateway_apis.html"
-  - title: 管理タスクの実行
+  - title: 管理タスクを実行
     url: "/api-automation/concept_administration_apis.html"
-  - title: ユーザの管理
+  - title: ユーザを管理します
     url: "/api-automation/concept_security_apis.html"
   - title: パフォーマンス指標の表示
     url: "/api-automation/concept_metrics_apis.html"
-  - title: ジョブおよびシステムの詳細を表示しています
+  - title: ジョブとシステムの詳細を表示する
     url: "/api-automation/concept_job_api.html"
   - title: イベントとアラートの管理
     url: "/api-automation/concept_events_api.html"
   - title: ワークロードの管理
     url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
-    - title: ストレージワークロードの表示
+    - title: ストレージワークロードを表示します
       url: "/api-automation/concept_view_workloads.html"
-    - title: アクセスエンドポイントの管理
+    - title: アクセスエンドポイントを管理する
       url: "/api-automation/concept_manage_access_endpoint.html"
-    - title: Active Directory マッピングの管理
+    - title: Active Directory マッピングを管理する
       url: "/api-automation/concept_manage_active_directory.html"
-    - title: ファイル共有の管理
+    - title: ファイル共有を管理する
       url: "/api-automation/concept_manage_fileshares_api.html"
-    - title: LUN の管理
+    - title: LUNを管理する
       url: "/api-automation/concept_manage_lun.html"
     - title: パフォーマンスサービスレベルの管理
       url: "/api-automation/concept_manage_psl.html"
-    - title: ストレージ効率化ポリシーの管理
+    - title: ストレージ効率ポリシーの管理
       url: "/api-automation/concept_manage_sep.html"
 - title: ストレージ管理の一般的なワークフロー
   url: "/api-automation/concept_workflow_intro.html"
   entries:
-  - title: アグリゲートのスペースの問題を特定しています
+  - title: 集合体のスペース問題を特定する
     url: "/api-automation/concept_workflow_space_issue.html"
   - title: イベントを使用してストレージオブジェクトの問題を特定する
     url: "/api-automation/concept_events_workflows.html"
-  - title: ゲートウェイ API を使用した ONTAP ボリュームのトラブルシューティング
+  - title: ゲートウェイ API を使用して ONTAP ボリュームのトラブルシューティングを行う
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: ワークロード管理のワークフロー
     url: "/api-automation/concept_provision_workflow.html"
     entries:
-    - title: クラスタの SVM の確認
+    - title: クラスタ上のSVMを検証する
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: CIFS および NFS ファイル共有のプロビジョニング
       url: "/api-automation/concept_provision_file_share.html"
     - title: LUN のプロビジョニング
       url: "/api-automation/concept_provision_luns.html"
-    - title: ストレージワークロードの変更
+    - title: ストレージワークロードを変更する
       url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
-      - title: CIFS をサポートするための NFS ファイル共有の変更
+      - title: NFS ファイル共有を変更して CIFS をサポートする
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

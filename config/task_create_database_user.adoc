@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, database, user 
 summary: Workflow Automation と Unified Manager の間の接続をサポートする場合や、データベースビューにアクセスする場合は、まず Unified Manager Web UI で、 Integration Schema ロールまたは Report Schema ロールを持つデータベースユーザを作成する必要があります。 
 ---
-= データベースユーザを作成しています
+= データベースユーザーを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

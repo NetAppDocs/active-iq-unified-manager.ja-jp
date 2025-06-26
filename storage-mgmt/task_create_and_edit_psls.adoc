@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, performance, service, Levels 
 summary: システム定義のパフォーマンスサービスレベルがワークロードの要件に合わない場合は、ワークロードに最適化された独自のパフォーマンスサービスレベルを作成できます。 
 ---
-= パフォーマンスサービスレベルの作成と編集
+= パフォーマンス サービス レベルの作成と編集
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

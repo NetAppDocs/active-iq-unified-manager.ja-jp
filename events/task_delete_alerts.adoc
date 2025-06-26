@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, alerts 
 summary: 不要になったアラートを削除できます。たとえば、特定のリソースが Unified Manager の監視対象でなくなった場合、そのリソースに対して作成されたアラートを削除できます。 
 ---
-= アラートの削除
+= アラートを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

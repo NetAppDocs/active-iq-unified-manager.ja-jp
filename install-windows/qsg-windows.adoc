@@ -38,7 +38,7 @@ Unified Manager は、以下の言語で 64 ビットの Windows オペレーテ
 
 
 
-== Active IQ Unified Manager をインストールしています
+== Active IQ Unified Managerのインストール
 
 
 

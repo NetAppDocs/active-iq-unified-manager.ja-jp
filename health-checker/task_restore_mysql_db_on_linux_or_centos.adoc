@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup 
 summary: データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。 
 ---
-= Linux システムでの MySQL データベースバックアップのリストア
+= LinuxシステムでMySQLデータベースのバックアップを復元する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

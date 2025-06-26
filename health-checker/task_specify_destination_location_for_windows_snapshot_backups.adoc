@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, windows, snapshot copy, copies 
 summary: いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。 
 ---
-= WindowsでのSnapshotコピーのデスティネーションの指定
+= Windows でスナップショットコピーの保存先を指定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

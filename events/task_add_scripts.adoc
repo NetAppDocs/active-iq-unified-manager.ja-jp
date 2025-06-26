@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, scripts 
 summary: Unified Manager でスクリプトを追加し、アラートに関連付けることができます。アラートが生成されるとこれらのスクリプトが自動的に実行されるため、イベントが生成されたストレージオブジェクトに関する情報を取得できます。 
 ---
-= スクリプトの追加
+= スクリプトを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

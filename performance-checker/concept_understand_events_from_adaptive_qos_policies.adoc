@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size 
 summary: アダプティブ QoS ポリシーグループでは、ボリュームサイズに基づいてスループットの上限と下限が自動的に調整され、 TB または GB あたりの IOPS が一定に維持されます。ONTAP 9.5 以降では、 QoS ポリシーにブロックサイズを指定することで MB/s のしきい値も同時に適用できます。 
 ---
-= ブロックサイズの定義を含むアダプティブ QoS ポリシーによるイベントの概要
+= 定義されたブロックサイズを持つ適応型QoSポリシーからのイベントを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -26,7 +26,7 @@ Unified Managerは、インストールパッケージをダウンロードし�
 
 
 
-== Active IQ Unified Manager をインストールしています
+== Active IQ Unified Managerのインストール
 
 
 

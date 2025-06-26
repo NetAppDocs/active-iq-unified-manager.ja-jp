@@ -2,7 +2,7 @@
 section: events
 title: イベントとアラートの管理
 entries:
-- title: イベントの管理
+- title: イベントを管理する
   url: "/events/concept_manage_events.html"
   entries:
   - title: Active IQ プラットフォームイベントとは
@@ -18,38 +18,38 @@ entries:
     url: "/events/concept_what_happens_when_an_event_is_received.html"
   - title: イベントとイベントの詳細を表示する
     url: "/events/task_view_event_details.html"
-  - title: 未割り当てのイベントを表示する
+  - title: 割り当てられていないイベントを表示する
     url: "/events/task_view_unassigned_events.html"
-  - title: イベントを確認して解決します
+  - title: イベントを認識して解決する
     url: "/events/task_acknowledge_and_resolve_events.html"
-  - title: 特定のユーザにイベントを割り当てます
+  - title: 特定のユーザーにイベントを割り当てる
     url: "/events/task_assign_events_to_specific_users.html"
-  - title: 不要なイベントを無効にします
+  - title: 不要なイベントを無効にする
     url: "/events/task_disable_unwanted_events.html"
-  - title: Unified Manager の自動修正措置を使用した問題の修正
+  - title: Unified Manager の自動修復を使用して問題を修正する
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
-  - title: Active IQ イベントレポートの有効化と無効化
+  - title: Active IQイベントレポートの有効化と無効化
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: 新しい Active IQ ルールファイルをアップロードしています
+  - title: 新しいActive IQルールファイルをアップロードする
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: Active IQ プラットフォームイベントの生成方法
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-  - title: Active IQ プラットフォームイベントを解決しています
+  - title: Active IQプラットフォームイベントを解決する
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: イベント保持を設定しています
+  - title: イベントの保持設定を構成する
     url: "/events/task_configure_event_retention_settings.html"
   - title: Unified Manager のメンテナンス時間とは
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: メンテナンス時間のスケジュールによるクラスタイベント通知の無効化
+    - title: メンテナンスウィンドウをスケジュールして、クラスターイベント通知を無効にする
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: スケジュールされたメンテナンス時間を変更またはキャンセルする
+    - title: 予定されているメンテナンス期間を変更またはキャンセルする
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: メンテナンス時間中に発生したイベントの表示
+    - title: メンテナンス期間中に発生したイベントを表示する
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
-  - title: ホストシステムリソースイベントの管理
+  - title: ホストシステムのリソースイベントを管理する
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: イベントに関する詳細情報
+  - title: イベントについてもっと理解する
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: イベントの状態の定義
@@ -160,24 +160,24 @@ entries:
     url: "/events/concept_what_alerts_are.html"
   - title: アラート E メールに含まれる情報
     url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
-  - title: アラートの追加
+  - title: アラートを追加します
     url: "/events/task_add_alerts.html"
     entries:
     - title: アラートの追加に関するガイドライン
       url: "/events/concept_guidelines_for_adding_alerts.html"
-  - title: パフォーマンスイベントのアラートを追加しています
+  - title: パフォーマンスイベントのアラートを追加する
     url: "/events/task_add_alerts_for_performance_events.html"
-  - title: アラートのテスト
+  - title: テストアラート
     url: "/events/task_test_alerts.html"
-  - title: 解決済み / 廃止状態のイベントに対するアラートの有効化 / 無効化
+  - title: 解決済みおよび廃止されたイベントのアラートを有効または無効にする
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: ディザスタリカバリのデスティネーションボリュームをアラート生成対象から除外します
+  - title: 災害復旧の宛先ボリュームをアラート生成から除外する
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
-  - title: アラートの表示
+  - title: アラートを表示します
     url: "/events/task_view_alerts.html"
-  - title: アラートの編集
+  - title: アラートを編集する
     url: "/events/task_edit_alerts.html"
-  - title: アラートの削除
+  - title: アラートを削除する
     url: "/events/task_delete_alerts.html"
   - title: 概要のアラートウィンドウとダイアログボックス
     url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
@@ -188,16 +188,16 @@ entries:
       url: "/events/reference_add_alert_dialog_box.html"
     - title: EditAlert タイアロクホツクス
       url: "/events/reference_edit_alert_dialog_box.html"
-- title: スクリプトの管理
+- title: スクリプトを管理する
   url: "/events/concept_manage_scripts.html"
   entries:
   - title: スクリプトとアラートの連携方法
     url: "/events/concept_how_scripts_work_with_alerts.html"
-  - title: スクリプトの追加
+  - title: スクリプトを追加する
     url: "/events/task_add_scripts.html"
-  - title: スクリプトの削除
+  - title: スクリプトを削除する
     url: "/events/task_delete_scripts.html"
-  - title: スクリプトの実行テスト
+  - title: テストスクリプトの実行
     url: "/events/task_test_script_execution.html"
   - title: Unified Manager の CLI コマンドがサポートされています
     url: "/events/reference_supported_unified_manager_cli_commands.html"

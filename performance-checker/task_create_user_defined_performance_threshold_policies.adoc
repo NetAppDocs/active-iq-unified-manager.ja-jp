@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: ストレージオブジェクトに対するパフォーマンスしきい値ポリシーを作成して、パフォーマンスカウンタが特定の値を超えたときに通知が送信されるように設定します。イベント通知により、クラスタでパフォーマンス問題が発生していることを確認できます。 
 ---
-= ユーザ定義のパフォーマンスしきい値ポリシーを作成する
+= ユーザー定義のパフォーマンスしきい値ポリシーを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

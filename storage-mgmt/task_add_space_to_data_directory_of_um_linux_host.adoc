@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, data directory, linux host 
 summary: Linux ホストを最初にセットアップした時点で Unified Manager をサポートするために「 /opt/netapp/data 」ディレクトリに十分なディスクスペースを割り当てていなかった場合は、インストール後に「 /opt/netapp/data 」ディレクトリのディスクスペースを増やしてディスクスペースを追加できます。 
 ---
-= Linux ホストのデータディレクトリにスペースを追加しています
+= Linuxホストのデータディレクトリにスペースを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

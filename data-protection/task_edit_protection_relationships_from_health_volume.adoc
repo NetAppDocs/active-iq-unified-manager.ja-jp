@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, health details page 
 summary: 既存の保護関係を編集して、現在の最大転送速度、保護ポリシー、保護スケジュールを変更することができます。関係の編集は、転送に使用する帯域幅を制限したり、データが頻繁に変更されるためにスケジュールされた転送の実行頻度を増やす場合などに行います。 
 ---
-= ボリューム / 健全性の詳細ページで保護関係を編集しています
+= ボリューム/健全性の詳細ページから保護関係を編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: データのミラーリング中に論理接続の全体的な健常性を監視して診断することができます。アグリゲート、ノード、 Storage Virtual Machine などのクラスタコンポーネントのミラーリングを中断する問題やリスクを特定することができます。 
 ---
-= MetroCluster レプリケーションを監視しています
+= MetroClusterレプリケーションを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ MetroCluster 構成のローカルクラスタとリモートクラスタの両�
 
 
 
-== MetroCluster over IP構成のレプリケーションの表示
+== MetroCluster over IP構成のレプリケーションを表示する
 
 MetroCluster over IP構成の場合は、左側のナビゲーションペインの次のビューから、MetroCluster over IPで保護されたクラスタのトポロジプレビュービューにデータレプリケーションステータスが表示されます。
 
@@ -28,11 +28,11 @@ MetroCluster over IP構成の場合は、左側のナビゲーションペイン
 * *保護*>*関係*>*関係：MetroCluster *ビュー
 
 
-詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["MetroCluster over IPで接続の問題を監視します"]。
+詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["MetroCluster over IPで接続の問題を監視します"]。
 
 
 
-== MetroCluster over FC構成のレプリケーションの表示
+== FC構成上のMetroClusterのレプリケーションを表示する
 
 以下の手順に従って、MetroCluster over FC構成のデータレプリケーションの問題を特定します。
 

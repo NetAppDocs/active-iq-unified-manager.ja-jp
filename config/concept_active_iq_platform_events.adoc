@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: feature settings, active iq, portal, events 
 summary: Active IQ ポータルイベントを有効にするか無効にするかを指定できます。この設定を有効にすると、 Active IQ ポータルでシステム構成やケーブル配線などに関する追加のイベントが検出されて表示されます。このオプションはデフォルトで有効になっています。 
 ---
-= Active IQ ポータルイベントの有効化
+= Active IQ ポータル イベントを有効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

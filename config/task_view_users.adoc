@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, users 
 summary: ユーザページを使用して、 Unified Manager を使用してストレージオブジェクトとデータを管理するユーザのリストを表示できます。ユーザの詳細を表示できます。これには、ユーザ名、ユーザのタイプ、 E メールアドレス、ユーザに割り当てられているロールなどの情報が含まれます。 
 ---
-= ユーザの表示
+= ユーザーを表示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

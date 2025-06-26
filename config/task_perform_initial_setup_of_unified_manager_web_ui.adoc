@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui 
 summary: Unified Manager を使用するには、 NTP サーバ、メンテナンスユーザの E メールアドレス、 SMTP サーバのホストなどを最初に設定し、 ONTAP クラスタを追加する必要があります。 
 ---
-= Unified Manager Web UI の初期セットアップを実行する
+= Unified Manager Web UIの初期セットアップを実行します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

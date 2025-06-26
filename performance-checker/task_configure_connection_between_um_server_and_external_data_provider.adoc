@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring, connection, unified manager, server, external, data, provider 
 summary: Unified Manager から外部サーバにクラスタのパフォーマンスデータを送信できます。送信する統計データの種類およびデータの送信間隔を指定できます。 
 ---
-= Unified Manager サーバから外部データプロバイダへの接続の設定
+= Unified Manager サーバから外部データ プロバイダへの接続を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

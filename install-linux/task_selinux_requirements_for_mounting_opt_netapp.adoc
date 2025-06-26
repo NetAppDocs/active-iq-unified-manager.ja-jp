@@ -17,7 +17,7 @@ SELinux を有効にしている環境で、ルートファイルシステム以
 
 
 
-== の場合のSELinuxコンテキストの設定 `/opt/netapp/data` がマウントされている
+== SELinuxコンテキストを設定する場合 `/opt/netapp/data`搭載されている
 
 システムに「 /opt/NetApp/data 」をマウントし、 SELinux が「 forcing 」に設定されている場合は、「 /opt/NetApp/data 」の SELinux コンテキストタイプが「 `m ysqld_db_t' 」に設定されていることを確認します。これは、データベースファイルの場所に対応するデフォルトのコンテキスト要素です。
 
@@ -66,7 +66,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
 ----
 
 
-== の場合のSELinuxコンテキストの設定 `/opt/netapp` がマウントされています `/opt/netapp/data/` は別途マウントすることもできます
+== SELinuxコンテキストを設定する場合 `/opt/netapp`搭載されており、  `/opt/netapp/data/`別途マウントされる
 
 このシナリオでは、最初に前のセクションで説明したように、「 /opt/NetApp/data/ 」のコンテキストを設定する必要があります。「 /opt/NetApp/data/ 」のコンテキストを正しく設定したら、親ディレクトリ「 /opt/netapp 」に SELinux コンテキストが「 file-t 」に設定されていないことを確認します。
 
@@ -125,7 +125,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
 ----
 
 
-== の場合のSELinuxコンテキストの設定 `/opt/netapp` がマウントされています `/opt/netapp/data/` は別途マウントされません
+== SELinuxコンテキストを設定する場合 `/opt/netapp`搭載されており、  `/opt/netapp/data/`別途マウントされていない
 
 システムに「 /opt/netapp 」をマウントして、 SELinux が「 Enforcing 」に設定されている場合は、「 /opt/netapp 」の SELinux コンテキストタイプが「 m ysqld_db_t' 」に設定されていることを確認します。これは、データベースファイルの場所に対応するデフォルトのコンテキスト要素です。
 

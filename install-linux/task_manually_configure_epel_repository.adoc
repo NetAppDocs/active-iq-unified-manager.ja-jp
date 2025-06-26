@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, epel repository 
 summary: Unified Manager をインストールするシステムが Extra Packages for Enterprise Linux （ EPEL ）リポジトリにアクセスできない場合、インストールが成功するためにはリポジトリを手動でダウンロードして設定する必要があります。 
 ---
-= EPEL リポジトリを手動で設定します
+= EPELリポジトリを手動で設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

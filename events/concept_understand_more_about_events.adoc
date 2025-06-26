@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, events 
 summary: イベントに関する概念を理解しておくと、クラスタおよびクラスタオブジェクトを効率的に管理し、アラートを適切に定義できるようになります。 
 ---
-= イベントに関する詳細情報
+= イベントについてもっと理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: ゲートウェイ API はゲートウェイとして機能し、 ONTAP API を呼び出して ONTAP ストレージオブジェクトに関する情報を照会し、報告された問題に対処するための修復方法を実行します。 
 ---
-= ゲートウェイ API を使用した ONTAP ボリュームのトラブルシューティング
+= ゲートウェイ API を使用して ONTAP ボリュームのトラブルシューティングを行う
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, vcenter, server 
 summary: 不要になったvCenter ServerはActive IQ Unified Managerインスタンスから削除できます。 
 ---
-= vCenter Serverの削除
+= vCenter Server を削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

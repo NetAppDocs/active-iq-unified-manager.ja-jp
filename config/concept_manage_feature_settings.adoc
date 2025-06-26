@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
 summary: '[ 機能設定 ] ページでは、 Active IQ Unified Manager の特定の機能を有効または無効にできます。ポリシーに基づいたストレージオブジェクトの作成と管理、 API ゲートウェイの有効化、アラート管理用スクリプトのアップロード、非アクティブ時間に基づく Web UI セッションのタイムアウト、 Active IQ プラットフォームイベントの受信停止などが含まれます。' 
 ---
-= 機能設定の管理
+= 機能設定を管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

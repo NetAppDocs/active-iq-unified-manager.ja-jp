@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule 
 summary: 定期的に生成および配布するようにスケジュールするビューまたは Excel ファイルがある場合は、レポートのスケジュールを設定できます。 
 ---
-= レポートのスケジュール設定
+= レポートをスケジュールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

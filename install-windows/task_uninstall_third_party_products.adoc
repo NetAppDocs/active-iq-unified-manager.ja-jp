@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
 summary: PythonやMicrosoft Visual C++などのサードパーティ製品をアンインストールする方法。 
 ---
-= サードパーティ製品のアンインストール
+= サードパーティ製品をアンインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Unified Managerをアップグレードしたあと、PythonやMicrosoft Visual 
 
 
 
-== Pythonのアンインストール
+== Pythonをアンインストールする
 
 .手順
 . [コントロールパネル]*で、*[プログラム]*>*[プログラムと機能]*を選択します。
@@ -25,7 +25,7 @@ Unified Managerをアップグレードしたあと、PythonやMicrosoft Visual 
 
 
 
-== Microsoft Visual C++ 2013のアンインストール
+== Microsoft Visual C++ 2013 をアンインストールする
 
 .手順
 . [コントロールパネル]*で、*[プログラム]*>*[プログラムと機能]*を選択します。

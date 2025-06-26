@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP 
 summary: すべてのクラスタノードにインストールされている ONTAP ソフトウェアのバージョンを表示するレポートを作成して、アップグレードが必要なノードを確認できます。 
 ---
-= 古いバージョンの ONTAP を実行しているノードを表示するレポートの作成
+= 古いバージョンのONTAPを実行しているノードを表示するレポートを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

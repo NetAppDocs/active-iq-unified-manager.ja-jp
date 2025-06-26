@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: Storage VMの関連付けページでは、ソースとデスティネーションのStorage VM間の既存のStorage VMの関連付けを表示できます。 
 ---
-= Storage VMの関連付けの概要
+= ストレージVMの関連付けを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

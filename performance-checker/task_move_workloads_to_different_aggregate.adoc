@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: ワークロードが現在配置されているアグリゲートよりも負荷の低いアグリゲートを Unified Manager で特定し、選択したボリュームまたは LUN をそのアグリゲートに移動できます。負荷の高いワークロードを負荷の低いアグリゲートまたはフラッシュストレージが有効なアグリゲートに移動すると、ワークロードの効率が向上します。 
 ---
-= ワークロードを別のアグリゲートに移動しています
+= ワークロードを別のアグリゲートに移動する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

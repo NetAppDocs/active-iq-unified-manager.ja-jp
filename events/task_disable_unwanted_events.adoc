@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events 
 summary: デフォルトでは、すべてのイベントが有効になっています。環境で重要でないイベントについては、グローバルに無効にして通知が生成されないようにすることができます。無効にしたイベントの通知を再開するときは、該当するイベントを有効にすることができます。 
 ---
-= 不要なイベントを無効にします
+= 不要なイベントを無効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: Unified Manager データベースディレクトリには、 ONTAP システムから収集された健常性とパフォーマンスのデータがすべて含まれています。状況によっては、データベースディレクトリのサイズの拡張が必要になることがあります。 
 ---
-= Unified Manager データベースディレクトリにディスクスペースを追加しています
+= Unified Managerデータベースディレクトリにディスクスペースを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

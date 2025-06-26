@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events 
 summary: パフォーマンスイベントのアラートは、 Unified Manager で受信する他のイベントと同様に、イベントごとに個別に設定することができます。また、すべてのパフォーマンスイベントを同じように扱い、同じユーザに E メールを送信する場合は、重大または警告のパフォーマンスイベントがトリガーされたときに通知する共通のアラートを作成することもできます。 
 ---
-= パフォーマンスイベントのアラートを追加しています
+= パフォーマンスイベントのアラートを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

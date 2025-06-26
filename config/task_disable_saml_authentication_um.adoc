@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication 
 summary: Unified Manager Web UI にログインするリモートユーザのセキュアなアイデンティティプロバイダ（ IdP ）による認証を中止する場合は、 SAML 認証を無効にします。SAML 認証が無効な場合は、 Active Directory や LDAP などの設定済みのディレクトリサービスプロバイダがサインオン認証を実行します。 
 ---
-= SAML 認証を無効にします
+= SAML 認証を無効にする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

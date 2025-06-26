@@ -33,7 +33,7 @@ Unified Managerには、データベースアプリケーションのパフォ�
 ** データベースデータ用の Extreme
 
 
-* *ユーザ定義*：事前定義されたパフォーマンスサービスレベルが要件に合わない場合は、PSLを新たに作成してニーズに対応できます。詳細については、を参照してください link:../storage-mgmt/task_create_and_edit_psls.html["パフォーマンスサービスレベルの作成と編集"]。
+* *ユーザ定義*：事前定義されたパフォーマンスサービスレベルが要件に合わない場合は、PSLを新たに作成してニーズに対応できます。詳細については、を参照してください link:../storage-mgmt/task_create_and_edit_psls.html["パフォーマンス サービス レベルの作成と編集"]。
 * * Extremeを超える場合*：PSLが最高レベルを超えると、PSLがシステム推奨となります。PSLを超えるワークロードには、Extremeよりも高いIOPSが必要です。ワークロードの内部分析はIOPS、容量、レイテンシに基づいて行われ、ストレージ>ワークロード>すべてのワークロード*画面で、これらのワークロードそれぞれについてPSLを超えることが推奨されます。PSLをワークロードに適用することで最適なパフォーマンスを確保できます。
 +
 ワークロードのIOPSパラメータは、ワークロードの動作に応じて動的に生成され、「Beyond Extreme」PSLの名前に「Beyond Extreme」という形式で追加されます。<number -（peak IOPS/TB）><number（expected IOPS/TB）>。たとえば、ピーク時のIOPSと予測されるIOPSがそれぞれ「106345」と「37929」であるとシステムが判断した場合、ワークロードに対して生成される「Beyond Extreme PSL」は「Exterond Extreme 106345 37929」と名付けられます。これらのPSLはシステムによって推奨されますが、これらのPSLをワークロードに割り当てると、PSLはタイプに「User-defined」とラベルされます。
@@ -42,11 +42,11 @@ Unified Managerには、データベースアプリケーションのパフォ�
 
 
 
-== PSLを割り当ててワークロードを管理しています
+== PSLを割り当ててワークロードを管理する
 
 PSLには、「* Policies *>* Performance Service Levels *」ページからアクセスできます。また、ストレージプロバイダAPIを使用してアクセスできます。PSL を割り当ててストレージワークロードを管理すると、ストレージワークロードを個別に管理する必要がなくなるため便利です。変更については、個別に管理するのではなく、別の PSL を再割り当てして管理することもできます。Unified Managerでは、内部の評価と推奨事項に基づいてワークロードにPSLを割り当てることができます。
 
-システム推奨のPSLをワークロードに割り当てる方法については、を参照してください link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["システム推奨の PSL をワークロードに割り当て中です"]
+システム推奨のPSLをワークロードに割り当てる方法については、を参照してください。link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assign-system-recommended-psls-to-workloads["システム推奨のPSLをワークロードに割り当てる"]
 
 パフォーマンスサービスレベルページには、使用可能な PSL ポリシーが表示されます。このページで、ポリシーを追加、編集、削除することができます。
 

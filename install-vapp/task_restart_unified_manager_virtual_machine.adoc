@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine 
 summary: Unified Manager 仮想マシン（ VM ）をメンテナンスコンソールから再起動することができます。新しいセキュリティ証明書を生成した場合や VM で問題が発生した場合、 VM を再起動する必要があります。 
 ---
-= Unified Manager 仮想マシンを再起動しています
+= Unified Manager 仮想マシンを再起動します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

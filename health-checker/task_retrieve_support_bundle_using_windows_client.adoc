@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, windows client 
 summary: Windows を使用している場合は、ツールをダウンロードしてインストールすることにより、 Unified Manager サーバからサポートバンドルを取得することができます。サポートバンドルをテクニカルサポートに送信して、問題の詳しい診断を受けることができます。使用できるツールには、 Filezilla や WinSCP などがあります。 
 ---
-= Windows クライアントを使用したサポートバンドルの取得
+= Windows クライアントを使用してサポート バンドルを取得する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

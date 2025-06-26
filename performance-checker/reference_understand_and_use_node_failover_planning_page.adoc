@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 'ノードのハイアベイラビリティ（ HA ）パートナーノードに障害が発生した場合のノードのパフォーマンスへの影響は、 [Performance/NodeFailover Planning] ページで推定されます。Unified Manager は、 HA ペアの各ノードのパフォーマンス履歴に基づいて見積もりを行います。' 
 ---
-= ノードフェイルオーバープランの概要と使用方法ページ
+= ノードフェイルオーバー計画ページを理解して使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

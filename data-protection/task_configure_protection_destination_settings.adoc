@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings 
 summary: デスティネーションの詳細設定ダイアログボックスを使用して、保護デスティネーションの重複排除、圧縮、自動拡張、スペースギャランティなどの効率化設定を行うことができます。デスティネーションまたはセカンダリボリュームでスペースの利用率を最大限に高める場合にこれらの設定を使用します。 
 ---
-= デスティネーションの効率化設定を行います
+= 宛先効率設定を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

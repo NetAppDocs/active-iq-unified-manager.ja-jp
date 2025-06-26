@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, protection, relationships 
 summary: Active IQ Unified Manager では、保護関係の作成、管理対象クラスタでの SnapMirror 関係と SnapVault 関係の監視とトラブルシューティング、および上書きされたデータや失われたデータのリストアを実行できます。 
 ---
-= 保護関係を管理および監視する
+= 保護関係の管理と監視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

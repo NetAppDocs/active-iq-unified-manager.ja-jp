@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, volume, health, threshold, settings 
 summary: 1 つ以上のボリュームの容量、増加率、クォータ、およびスペースリザベーションについての健全性しきい値の設定を編集することができます。しきい値を超えるとアラートが生成され、通知が送信されます。これらの通知は、生成されたイベントに基づいて予防策を講じるのに役立ちます。 
 ---
-= 個々のボリュームの健全性しきい値の設定を編集し
+= 個々のボリュームの健全性しきい値設定を編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

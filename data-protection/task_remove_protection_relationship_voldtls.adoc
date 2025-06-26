@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, protection, relationship,  volume, health details page 
 summary: 保護関係を削除すると、選択したソースとデスティネーションの間の既存の関係を完全に削除することができます。これは、たとえば別のデスティネーションを使用して関係を作成する場合などに行います。この処理ではすべてのメタデータが削除され、元に戻すことはできません。 
 ---
-= ボリューム / 健全性の詳細ページから保護関係を削除しています
+= ボリューム/健全性の詳細ページから保護関係を削除します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects 
 summary: アノテーションルールを使用せずに、選択したボリューム、クラスタ、 SVMs を手動でアノテートできます。単一のストレージオブジェクトまたは複数のストレージオブジェクトをアノテートし、必要なアノテーションの名前と値のペアを指定できます。 
 ---
-= 個々のストレージオブジェクトへの手動でのアノテーションの追加
+= 個々のストレージオブジェクトに手動で注釈を追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

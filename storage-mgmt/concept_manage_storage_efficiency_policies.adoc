@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: Storage Efficiency ポリシー（ SEP ）を使用して、ワークロードのストレージ効率化特性を定義することができます。ワークロードを最初に作成するとき、またはワークロードを編集して、ワークロードに SEP を割り当てることができます。 
 ---
-= ストレージ効率化ポリシーの管理
+= ストレージ効率ポリシーの管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

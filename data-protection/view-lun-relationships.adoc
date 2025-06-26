@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: SnapMirrorのアクティブな同期で保護されているLUNの表示を統合 
 ---
-= コンシステンシグループ関係の LUN を監視しています
+= 一貫性グループ関係のLUNを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

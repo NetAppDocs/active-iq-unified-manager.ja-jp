@@ -27,7 +27,7 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 
 
-== Active IQ Unified Manager をインストールしています
+== Active IQ Unified Managerのインストール
 
 
 

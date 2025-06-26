@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard 
 summary: Unified Manager のダッシュボードには、環境内の監視対象のすべてのクラスタのパフォーマンスステータスの概要が、複数のパネルに分けて表示されます。すべてのクラスタまたは個々のクラスタのステータスを表示できます。 
 ---
-= ダッシュボードのパフォーマンスパネルについて
+= ダッシュボードのパフォーマンスパネルを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
