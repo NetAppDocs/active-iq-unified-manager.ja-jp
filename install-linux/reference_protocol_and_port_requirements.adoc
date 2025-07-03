@@ -101,6 +101,50 @@ HTTPS
  a| 
 認証された ONTAP システムからの REST API ベースのリアルタイムの EMS イベントにアクセスする際に使用されます。
 
+
+
+ a| 
+MySQL データベース
+ a| 
+MySQL
+ a| 
+3306
+ a| 
+OnCommand および OnCommand Workflow Automation API サービスから Unified Manager へのアクセスに使用されます。
+
+
+
+ a| 
+AMQP QPIDブローカー
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+内部メッセージ通信に使用されます。
+
+
+
+ a| 
+AMQP QPIDブローカー
+ a| 
+TCP経由のWebSocket
+ a| 
+56080
+ a| 
+ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。
+
+
+
+ a| 
+AMQP QPIDブローカー
+ a| 
+TCP経由のWebSocket
+ a| 
+56443
+ a| 
+ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。このポートを介した通信は、TLSまたはSSLによる暗号化をサポートします。
+
 |===
 [NOTE]
 ====
