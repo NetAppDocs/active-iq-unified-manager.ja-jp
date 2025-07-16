@@ -12066,4 +12066,5 @@
   <block id="3ffec53aa0a5fd71bd60b00ba2df8977" category="sidebar">ほぼ満杯の集計を表示するレポートを作成する</block>
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">ONTAP の問題を Unified Manager から直接修正または管理します</block>
   <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">ONTAP（クラウドエージェント）から受信したメッセージをこのポートでリッスンするために使用されます。このポートを介した通信は、TLSまたはSSLによる暗号化をサポートします。</block>
+  <block id="de7079b453dbd6e52c0ba80b1c38eae2" category="list-text">9.13 から 9.16 へのアップグレード</block>
 </blocks>
