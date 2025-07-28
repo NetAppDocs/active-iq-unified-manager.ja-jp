@@ -17,7 +17,7 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 == システム要件
 
-* オペレーティングシステム：VMware ESXi 7.0および8.0
+* オペレーティング システム: VMware ESXi 8.0
 * RAM ： 12GB
 * CPU ：合計 9572MHz
 * 空きディスクスペース： 5GB （シンプロビジョニング）、 152GB （シックプロビジョニング）
