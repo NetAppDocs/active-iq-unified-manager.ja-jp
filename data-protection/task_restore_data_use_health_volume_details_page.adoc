@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volume_details_page.html 
 sidebar: sidebar 
-keywords: restore, data, volume, health details page 
+keywords: restore, data, volume, health details page, console 
 summary: ボリューム / 健全性の詳細ページのリストア機能を使用して、上書きまたは削除したファイルやディレクトリ、またはボリューム全体を Snapshot コピーからリストアできます。 
 ---
 = ボリュームとボリューム/ヘルスの詳細ページを使用してデータを復元します
@@ -57,7 +57,7 @@ NOTE: 次の点に注意してください。
 +
 [NOTE]
 ====
-Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は、BlueXPを使用して実行します。
+Cloud Volumes ONTAPのHAクラスタ間のリストア処理がNDMPのエラーで失敗する場合は、ソース システムのクラスタ管理LIFと通信できるように、デスティネーション クラスタで明示的なAWSのルートを追加しなければならないことがあります。この構成手順は、 NetAppコンソールを使用して実行します。
 
 ====
 

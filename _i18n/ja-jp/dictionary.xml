@@ -11049,7 +11049,6 @@
   <block id="c4f485c20e1538622ae57f3054175ddf" category="list-text">名前(Name)テーブルで'リストアする必要のあるディレクトリ名を選択します</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">リストアプロセスが開始されます。リストアプロセスを完了するためにバックエンドでジョブが作成されます。</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">ジョブの進捗状況を表示するには、左側のナビゲーションペインで* Protection &gt; Jobs *と進み、リストア・ジョブのステータスをジョブのリストから確認します。</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は、BlueXPを使用して実行します。</block>
   <block id="ea6c1f22d406198faaad800a7f159a1f" category="list-text">データ保護パネルの上部にある右矢印をクリックします。[*データ保護*]ページが表示されます。</block>
   <block id="fd9449f2b2bbd42c1f63613e3c929241" category="paragraph">データセンターで1つまたはすべてのクラスタを選択した場合は、SnapshotコピーまたはSnapMirrorポリシーで保護されているボリュームのデータ保護ステータスと、保護されていないボリュームの数が表示されます。</block>
   <block id="5bad65f01f0a45625a80fce1fa855fa4" category="paragraph">個々のクラスタリストからクラスタを選択すると、そのクラスタ内で保護されているボリュームのSnapshot保護とSnapMirror関係のステータスが表示されます。</block>
@@ -12066,4 +12065,5 @@
   <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">クラスタでONTAPバージョン9.9以降が実行されている必要があります。</block>
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15 日間のパフォーマンス データの収集には CPU 負荷がかかります。 NetApp、データ継続性収集ポーリングが同時に多くのクラスターで実行されないように、新しいクラスターの追加を段階的に行うことを推奨しています。さらに、データ継続性収集期間中に Unified Manager を再起動すると、収集が停止し、欠落した期間のパフォーマンス チャートにギャップが表示されます。</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">バージョン 9.14.1 以降のONTAPクラスターを追加すると、クラウド エージェント機能を通じて通信が行われます。  ONTAP は、読み取り専用権限を持つ内部サービス アカウント ユーザー (clus-agent-xxxx など) を自動的に作成します。  Unified Managerは、以下の場合、これらのクラスタからのデータ収集を停止します。<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block>ユーザーは削除されます。</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">Cloud Volumes ONTAPのHAクラスタ間のリストア処理がNDMPのエラーで失敗する場合は、ソース システムのクラスタ管理LIFと通信できるように、デスティネーション クラスタで明示的なAWSのルートを追加しなければならないことがあります。この構成手順は、 NetAppコンソールを使用して実行します。</block>
 </blocks>
