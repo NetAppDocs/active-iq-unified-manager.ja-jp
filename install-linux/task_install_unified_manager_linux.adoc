@@ -39,7 +39,7 @@ Red Hat Enterprise Linuxシステムには、必要なサポートソフトウ�
 
 
  a| 
-OpenJDKバージョン11.0.25
+OpenJDK バージョン 17.0.14+6
  a| 
 「 java -version 」のように指定します
 
@@ -87,7 +87,7 @@ ls *.rpm`
 インストール前スクリプトは、システムに有効なRed Hat Enterprise Linuxサブスクリプションがあるかどうか、およびシステムが必要なソフトウェアリポジトリにアクセスできるかどうかを確認します。問題が検出された場合は、 Unified Manager をインストールする前に修正する必要があります。
 
 +
-Red Hat Enterprise Linux 8 システムの場合、 JDK 11-OpenJDK 、 p7zip 、その他の AppStream リポジトリが提供するソフトウェアパッケージを使用した内部リポジトリがある場合、 AppStream リポジトリを無効にして MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
+Red Hat Enterprise Linux 8 システムの場合、JDK 17 - OpenJDK、p7zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
 
 +
 [listing]

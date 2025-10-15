@@ -48,9 +48,9 @@ Unified Manager にバンドルされているサードパーティパッケー�
 
 * Visual Studio 2015バージョン14.26.28720.3のMicrosoft Visual C&#43;&#4;&#43;再頒布可能パッケージ
 * MySQL Community Editionバージョン8.4.4
-* Python 3.12.4
-* OpenJDKバージョン11.0.25
-* 7-zipバージョン23.01以降
+* Python 3.13.3
+* OpenJDK バージョン 17.0.14+6
+* 7-zip バージョン 24.09 以降
 
 
 [NOTE]

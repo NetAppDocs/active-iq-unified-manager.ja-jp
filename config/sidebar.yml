@@ -101,6 +101,8 @@ entries:
     url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
   - title: ネットワークインターフェースを追加する
     url: "/config/task_add_additional_network_interfaces.html"
+  - title: クライアント証明書を再生成する
+    url: "/config/task_regenerate_client_certificate.html"
   - title: Unified Managerデータベースディレクトリにディスクスペースを追加する
     url: "/config/concept_add_disk_space_to_um_database_directory.html"
     entries:

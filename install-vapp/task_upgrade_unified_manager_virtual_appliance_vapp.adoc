@@ -11,7 +11,7 @@ summary: Unified Manager 仮想アプライアンスはアップグレードで�
 
 
 [role="lead"]
-Active IQ Unified Manager仮想アプライアンスをリリース9.13または9.14から9.16にアップグレードできます。
+Active IQ Unified Manager仮想アプライアンスは、リリース9.14または9.16から9.18にアップグレードできます。
 
 .開始する前に
 次の点を確認します。

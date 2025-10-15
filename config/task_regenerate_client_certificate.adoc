@@ -1,0 +1,23 @@
+---
+permalink: config/task_regenerate_client_certificate.html 
+sidebar: sidebar 
+keywords: client certificate, regenerate, validity, maintenance console 
+summary: メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。 
+---
+= クライアント証明書を再生成する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。証明書の有効期間は 5 年に延長されます。
+
+.手順
+. メンテナンス ユーザとしてログインします。
+. *クライアント証明書の再生成*を選択し、*Enter*を押します。
+. システムから認証を求められた場合は、必要な資格情報を入力します。
+. *再生の確認*を選択し、*Enter*を押します。
+. 証明書が再生成されたら、Unified Manager サービスを再起動して変更を適用します。
+. 更新された証明書を確認するには、 ONTAPにログインします。クライアント証明書のステータスと有効性ステータスを表示します。
+

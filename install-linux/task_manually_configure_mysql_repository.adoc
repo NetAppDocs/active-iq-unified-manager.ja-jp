@@ -37,7 +37,7 @@ MySQL リポジトリリポジトリリポジトリは、システムにイン�
 
 
 
-Red Hat Enterprise Linux 8 システムの場合、 AppStream リポジトリから提供される Java -11 openjdk 、 p7zip 、およびその他のソフトウェアパッケージを含む内部リポジトリがある場合、 AppStream リポジトリを無効にして MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
+Red Hat Enterprise Linux 8 システムの場合、java-17-openjdk、p7zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
 
 [listing]
 ----

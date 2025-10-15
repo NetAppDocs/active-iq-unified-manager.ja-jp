@@ -8367,7 +8367,6 @@
   <block id="1cbec06643adcf9e636d9dd4c1779bef" category="paragraph">「 netapp - um &lt;version&gt;.x86_64.rpm 」</block>
   <block id="afa28e6a1fe57dc1c2835b52e288f174" category="list-text">インストール前スクリプトを実行して、 Unified Manager のインストールと競合するシステム設定やインストール済みソフトウェアがないことを確認します。</block>
   <block id="ae44be51882e1847db9f99864953710d" category="paragraph">'UDO./PRE_INSTALL_check.sh'</block>
-  <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、 JDK 11-OpenJDK 、 p7zip 、その他の AppStream リポジトリが提供するソフトウェアパッケージを使用した内部リポジトリがある場合、 AppStream リポジトリを無効にして MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">"Installing :`" セクションの項目は現在のディレクトリにあるパッケージで、 "Installing for dependencies ： " セクションの項目はシステムにないパッケージです。</block>
   <block id="92885fbdd9d6d32bed53f8efe8b5c8fb" category="paragraph">yum`install &lt;package_name&gt; --DownloadOnly --downloaddir=.`</block>
   <block id="201a76df4d6c4b9b140e52f85c4342de" category="paragraph">yum-plugin-downloadonly プラグインは、 Red Hat Enterprise Linux システムで常に有効になっているとは限りません。インストールを実行せずにパッケージをダウンロードするために、「 yum install yum-plugin-downloadonly 」という機能を有効にする必要がある場合があります</block>
@@ -8442,7 +8441,6 @@
   <block id="91620c9192c298e8ee9b2d03e913b8e1" category="summary">Unified Manager をインストールするシステムが MySQL Community Edition リポジトリにアクセスできない場合、インストールが成功するためにはリポジトリを手動でダウンロードして設定する必要があります。</block>
   <block id="1280efb9a67a71e035f91cd7b1662539" category="paragraph">MySQL リポジトリリポジトリリポジトリは、システムにインストールする必要がある MySQL ソフトウェアへのアクセスを提供します。</block>
   <block id="8a8d5bafdb90b3cda57938d0d26c03a1" category="list-text">MySQL リポジトリを設定します。</block>
-  <block id="ced6d1a53e1edd338f03b11a9bc5603d" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、 AppStream リポジトリから提供される Java -11 openjdk 、 p7zip 、およびその他のソフトウェアパッケージを含む内部リポジトリがある場合、 AppStream リポジトリを無効にして MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
   <block id="4b9d5e4986edb2a9d0749936a3c5a16a" category="summary">インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux インストールのクイックスタート手順</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM ： 12 GB 、 CPU ：合計 9572MHz</block>
@@ -11253,7 +11251,6 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.16からOpenJDK 11.0.18にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
-  <block id="4e6cb3b05eb2ca0baeb29eb6344e5432" category="paragraph">たとえば、をダウンロードします<block ref="3ea5e0fd12073d79066798f485ea1222" prefix=" " category="inline-code"></block>。</block>
   <block id="e3ea195a19318267cdc1d27ad9b8642c" category="inline-link-macro">Oracleアカウントのサインイン</block>
   <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition"> ファイルをダウンロードするにはOracleアカウントが必要です。Oracleアカウントをお持ちでない場合は、 <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> ページをクリックして作成します。</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">作成されたからディレクトリとファイルをコピーします<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> ディレクトリ（例：<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> Javaがインストールされている場所に移動します。例<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
@@ -11391,20 +11388,16 @@
   <block id="68b83dc3865ac50b91b1f285515dacac" category="list-text">Unified ManagerがRed Hat Enterprise Linuxシステムにインストールされている必要があります。</block>
   <block id="dd03a1649bb05c7360d98948f44cfefb" category="list-text">Red Hatシステムの場合は、umadminユーザのパスワードをデフォルトの「admin」から独自のパスワードに変更します。</block>
   <block id="61708433127f9669b4c4dcd885e32bd1" category="paragraph">MySQLデータベースダンプは、Unified ManagerがLinuxサーバおよびWindowsサーバにインストールされている場合のデフォルトのバックアップメカニズムです。ただし、Unified Managerで多数のクラスタとノードを管理している場合や、MySQLのバックアップに数時間かかっている場合は、Snapshotコピーを使用してバックアップを実行できます。この機能は、Red Hat Enterprise LinuxおよびWindowsで使用できます。</block>
-  <block id="e113df7a73739f539d99696d9ba17b0f" category="paragraph">たとえば、Unified Manager 9.16で作成したバックアップは、Unified Manager 9.16のシステムにのみリストアできます。</block>
   <block id="c73bbd3786350b0a8d3577d82afdf489" category="cell">Red Hat Enterprise Linux</block>
   <block id="5cdc7fbfe47ee53567173e2347002931" category="summary">Unified Managerを実行するホストオペレーティングシステムを変更する場合は、Unified Manager MySQLデータベースダンプバックアップを仮想アプライアンスからRed Hat Enterprise Linuxシステムにリストアすることができます。</block>
   <block id="80c0e5954f43a003732f627aa714d0ba" category="paragraph">以下の手順では、仮想アプライアンスにバックアップファイルを作成し、そのバックアップファイルをRed Hat Enterprise Linuxにコピーして、新しいシステムにデータベースバックアップをリストアする方法について説明します。</block>
   <block id="edcc27dfa2babd51a3fff403b7a9648f" category="summary">データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Managerデータベースは、Unified Managerメンテナンスコンソールを使用してローカルとリモートのどちらのRed Hat Enterprise Linuxシステムにもリストアできます。</block>
   <block id="d4a1f040c6ae8fc8055406e6c1088dc3" category="paragraph">リストア機能は、プラットフォームおよびバージョンに固有の機能です。Unified Manager のバックアップは、同じバージョンの Unified Manager にのみリストアできます。Red Hat Enterprise Linuxシステムにリストアできるのは、Linuxのバックアップファイルまたは仮想アプライアンスのバックアップファイルです。</block>
-  <block id="7878363566bdf1e42ef29b508e7efd0a" category="paragraph">Unified Managerの新しいバージョンへのインプレースアップグレードを実行できるわけではありません。Unified ManagerのアップグレードはN-2モデルに制限されているため、アップグレードはすべてのプラットフォームで次の2リリースまで実行できません。たとえば、Unified Manager 9.13および9.14からUnified Manager 9.16へのアップグレードのみを実行できます。</block>
-  <block id="7cba1889e91d112690c9b0bb331921f3" category="list-text">9.14から9.16へのアップグレード</block>
   <block id="e754eaee627c4c495a8f9e875a6aa369" category="paragraph">Unified ManagerはRed Hat Enterprise Linuxサーバにインストールできます。Unified Manager をインストールする Linux サーバは、物理マシンでも仮想マシンでもかまいません。仮想マシンの場合は、 VMware ESXi 、 Microsoft Hyper-V 、または Citrix XenServer で実行されているマシンを使用できます。</block>
   <block id="18629771c969f7f42368dc78392ae8e3" category="paragraph">Unified Managerは、インストールパッケージをダウンロードして、Red Hat Enterprise Linuxの物理プラットフォームまたは仮想プラットフォームにインストールできます。</block>
   <block id="3453ffbc5ea5b3c365c529d068354752" category="list-text">オペレーティングシステム：x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.4。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストールします。</block>
   <block id="0eb53ffb9a066b094d63bdc9faca6299" category="paragraph">Red Hat Enterprise Linuxリポジトリの設定手順はサイトによって異なります。インストールパッケージに含まれているスクリプトを使用して、オペレーティングシステムの設定を確認できます<block ref="f8d0fa0cfc0621d2f0aed1c9cff6dbd7" prefix=" " category="inline-code"></block>。システムがインターネットに接続されている場合は、Red Hat Enterprise Linuxリポジトリのセットアップ手順が自動的に表示されます。</block>
   <block id="23cfeac52480309971264aa09fff1e5c" category="paragraph">Red Hat Enterprise Linuxコマンドラインにアクセスしてサポートバンドルを取得するために使用されます。</block>
-  <block id="8ecbdb958fb5010c6b8554b89ef94c91" category="list-text">Red Hat Enterprise Linuxバージョン8.xおよび9.4（x86_64アーキテクチャに基づく）</block>
   <block id="8116d13be18a3c1985b5ec2bcca6e6b8" category="paragraph">サポートされているRed Hat Enterprise Linuxのバージョンの最新のリストについては、Interoperability Matrixを参照してください。</block>
   <block id="c9d7b9477eeb41734247c3ab76f43612" category="paragraph">Red Hat Enterprise Linuxと関連リポジトリをシステムにインストールする際のベストプラクティスを次に示します。別の方法でインストールまたは設定されたシステム、またはオフプレミス（クラウド）に導入されたシステムでは、追加の手順が必要になる場合があり、Unified Managerが適切に実行されない可能性があります。</block>
   <block id="144af2f694100b11aacfba86176c84c6" category="list-text">Red Hatのベストプラクティスに従ってRed Hat Enterprise Linuxをインストールし、次のデフォルトオプションを選択する必要があります。「GUIを使用するサーバ」ベース環境を選択する必要があります。</block>
@@ -11423,7 +11416,6 @@
   <block id="364d69b10c65b299e072da4d954b11dc" category="paragraph">EPELリポジトリは、システムにインストールする必要があるサードパーティユーティリティへのアクセスを提供します。EPELリポジトリを使用して、Unified ManagerをRed Hat Enterprise Linuxシステムにインストールします。</block>
   <block id="25a260fdf4775a6114809137dcfe69b2" category="summary">Red Hat Enterprise LinuxホストからUnified Managerを停止およびアンインストールするには、1つのコマンドを使用します。</block>
   <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">Unified ManagerがインストールされているRed Hat Enterprise Linuxサーバへのrootユーザアクセスが必要です。</block>
-  <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">LinuxプラットフォームでUnified Manager 9.13または9.14から9.16にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">ターゲットのRed Hat Enterprise Linuxサーバにログインします。</block>
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">ASA R2システムを除くすべてのクラスタがサポートされます。</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。</block>
@@ -11432,20 +11424,11 @@
   <block id="6e0f8dcf3bf0d57785709c49aa46d41b" category="paragraph">Unified Managerをアップグレードしたあと、PythonやMicrosoft Visual C++ 2013などのサードパーティ製品をアンインストールできます。これはオプションです。</block>
   <block id="a49f65adc5b5fb777c87058a91fd08a1" category="list-text">[コントロールパネル]*で、*[プログラム]*&gt;*[プログラムと機能]*を選択します。</block>
   <block id="2135c569ee3f102b46d835b22fa7351c" category="list-text">プログラムのリストからPythonを選択します。</block>
-  <block id="dbdaaa2bb8fb20e1cd91063d5a37652a" category="list-text">[このプログラムをアンインストールする]*を選択します。3.12以外のPythonのすべてのバージョンをアンインストールします。Pythonバージョン3.12を保持していることを確認します。</block>
   <block id="caeb2469208a808a920eeda5088dcda6" category="list-text">プログラムのリストから* Microsoft Visual C++ 2013 *を選択します。</block>
   <block id="71b577a72b6f73fe9a806351ed8340da" category="list-text">[このプログラムをアンインストールする]*を選択します。</block>
-  <block id="f4634a4383997d2f0c9717b87d18ca7d" category="paragraph">WindowsプラットフォームでUnified Manager 9.13または9.14から9.16にアップグレードするには、インストールファイルをダウンロードして実行します。</block>
   <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">ASA R2システムを除くすべてのクラスタがサポートされます。</block>
   <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。必要に応じてzipファイルを展開し、インストールファイルがあるディレクトリに移動します。Unified Managerインストーラの実行可能ファイル（.exe）を右クリックし、管理者として実行します。</block>
-  <block id="c20b138346f9f2fa4fceb29550ec83e2" category="summary">Active IQ Unified Manager 9.16の新機能、制限事項、および既知の問題の概要を示します。</block>
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">データディレクトリの容量を追加する手順は、Unified ManagerをVMware ESXiサーバ、Red Hat Linuxサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。</block>
-  <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Active IQ Unified Manager（Unified Manager、旧OnCommand Unified Manager）を使用すると、ONTAPストレージシステムの健全性とパフォーマンスを1つのインターフェイスから監視および管理できます。このドキュメントライブラリには、バージョン9.16の情報が含まれています。</block>
-  <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Active IQ Unified Manager 9.16のドキュメント</block>
-  <block id="d9f6c085dd395f22b9dc3195122f05fb" category="paragraph">Active IQ Unified Managerをリリース9.13または9.14からリリース9.16にアップグレードできるのは、リリース9.13または9.14からのみです。</block>
-  <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16の場合の注意事項</block>
-  <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
-  <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">詳細については、を参照して<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>ください。</block>
   <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Visual Studio 2015バージョン14.26.28720.3のMicrosoft Visual C&amp;#43;&amp;#4;&amp;#43;再頒布可能パッケージ</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始する前に</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*何。始める前に</block>
@@ -11453,7 +11436,6 @@
   <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">WFA 5.1.1P6には「WFA pack for managing Clustered Data ONTAP」が含まれているため、以前のようにこのパックをNetAppStorage Automation StoreからダウンロードしてWFAサーバに個別にインストールする必要はありません。<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">の手順に従って、LinuxサーバにUnified Managerをインストールしておく必要があります<block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Managerでは、ユーティリティを使用して<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してください<block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>。</block>
-  <block id="42d484bbae102dea7d1c196c19650d97" category="list-text">Python 3.9.x（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">お使いのRed Hat Enterprise Linuxシステムに対応した正しいバージョンのインストーラファイルをダウンロードしてください。インストールされているRed Hat Enterprise Linux 8または9に基づいて、適切なバージョンのUnified Managerファイルをダウンロードして<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>ください。</block>
   <block id="19c4a5941b195c20d40b06f049672572" category="paragraph">を参照して <block ref="cf70fd654b04a0c92e5d4b7fed50b3d9" category="inline-link-macro-rx"></block></block>
   <block id="7da05941ded0fa57ef6c010185beac49" category="list-text">インストールに対応するEPELリポジトリをダウンロードします。バージョン8の場合は、次のサイトからダウンロードします。</block>
@@ -11462,8 +11444,6 @@
   <block id="3717278eaf7b770b8c5c946fe5b23f12" category="list-text">インストールに対応するMySQLリポジトリをダウンロードします。バージョン8の場合は、次のサイトからダウンロードします。</block>
   <block id="5c17ea3e79e1636d2840d1f9fab25337" category="paragraph">Unified ManagerがインストールされているRed Hat Enterprise Linux 7.xシステムをRed Hat Enterprise Linux 8.xにアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、Red Hat Enterprise Linux 7.xでUnified Managerのバックアップを作成し、そのバックアップをRed Hat Enterprise Linux 8.xシステムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.10です。</block>
   <block id="c6e74cf56812c87ccc3bc2f6640b0b6f" category="paragraph">を参照して <block ref="f09744d7bd837929fda35b3531c47312" category="inline-link-macro-rx"></block></block>
-  <block id="3c476f11a2cc5c761bb84165398bdfa1" category="paragraph">Active IQ Unified Manager仮想アプライアンスをリリース9.13または9.14から9.16にアップグレードできます。</block>
-  <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
   <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">アクティブでないセッションのタイムアウトを設定</block>
   <block id="5b864f90874a257a247b735985d967ca" category="paragraph">Unified Managerに非アクティブ時のタイムアウト値を指定して、一定期間非アクティブな状態が続いた場合にセッションを自動的に終了するように設定できます。デフォルトでは、タイムアウトは4、320分（72時間）に設定されています。</block>
   <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">CLIを使用してUnified Managerの最大セッションタイムアウト値を設定し、一定期間が経過したあとにセッションを自動的に終了することができます。</block>
@@ -11474,16 +11454,13 @@
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">コマンドを入力して、Unified Manager CLIにログインし<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block>ます。認証に有効なユーザ名とパスワードを使用してください。</block>
   <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">入力し<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>コマンドをて、セッションタイムアウト値を変更します。</block>
   <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">9.14.1以降のActive IQ Unified Managerでは、オンライン証明書ステータスプロトコル（OCSP）のステータス情報がStorage Virtual Machine（SVM、旧Vserver）レベルで提供されます。つまり、SVMへのすべてのSSL/TLS接続にOCSP検証が適用され、それらの接続で使用される証明書の整合性と有効性が保証されます。</block>
-  <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zipバージョン23.01以降</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">また、Unified Managerのデフォルトのインストールでは、sudoersファイルと<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block><block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block>ディレクトリにumadminユーザ（デフォルトのメンテナンスユーザ）とjbossユーザが含まれます<block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>。セキュリティポリシーまたはセキュリティ監視ツールが原因でこのコンテンツを環境から削除した場合は、再度追加する必要があります。Unified Manager の一部の処理では sudo 権限が必要なため、 sudoers の設定を維持する必要があります。</block>
   <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">証明書のインストールに失敗した場合は、ナレッジベース（KB）の次の記事を参照してください。<block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Managerが監査ログをリモートsyslogサーバに送信するために使用します。</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Active IQ Unified ManagerホストでJavaを更新したあとにサービスが開始されない</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Unified Managerホストにインストールする必要があるJavaのバージョンは1つだけです。インストールしないと、使用するバージョンが特定できない可能性があります。を参照してください<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block></block>
   <block id="3e0906413eedf8b016028a08671c72cf" category="list-text">MySQL Community Edition バージョン 8.4.4 (MySQL リポジトリから)</block>
-  <block id="a2e936af545ecbea6c8eee227afddcd6" category="list-text">OpenJDKバージョン11.0.25（Red Hat Extra Enterprise Linux Serverリポジトリから入手）</block>
   <block id="c6e03671790b21aa5876d21988481dc1" category="doc">JBossのパスワードを変更する</block>
-  <block id="78905ac5717ae4dcc36e0ec4b4ac810f" category="paragraph">OpenJDKバージョン11.0.25</block>
   <block id="bd4a61bec4ddf1fbfa9ff823fe338a7f" category="paragraph">MySQL 8.4.4 Community Edition</block>
   <block id="e0b87bd877fb05ad9598493d9e9618f7" category="list-text">インストールされているMySQLのバージョンがMySQL 8.4.4 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。</block>
   <block id="892bed2d06f89704c4604de031dae65b" category="paragraph">rpm --import <block ref="0f882f512220ee48fb3a2d37bf184d7b" category="inline-link-rx"></block></block>
@@ -12066,4 +12043,38 @@
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15 日間のパフォーマンス データの収集には CPU 負荷がかかります。 NetApp、データ継続性収集ポーリングが同時に多くのクラスターで実行されないように、新しいクラスターの追加を段階的に行うことを推奨しています。さらに、データ継続性収集期間中に Unified Manager を再起動すると、収集が停止し、欠落した期間のパフォーマンス チャートにギャップが表示されます。</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">バージョン 9.14.1 以降のONTAPクラスターを追加すると、クラウド エージェント機能を通じて通信が行われます。  ONTAP は、読み取り専用権限を持つ内部サービス アカウント ユーザー (clus-agent-xxxx など) を自動的に作成します。  Unified Managerは、以下の場合、これらのクラスタからのデータ収集を停止します。<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block>ユーザーは削除されます。</block>
   <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">Cloud Volumes ONTAPのHAクラスタ間のリストア処理がNDMPのエラーで失敗する場合は、ソース システムのクラスタ管理LIFと通信できるように、デスティネーション クラスタで明示的なAWSのルートを追加しなければならないことがあります。この構成手順は、 NetAppコンソールを使用して実行します。</block>
+  <block id="ce7b9d23e7c86b35c9afc4354ee05310" category="list-text">クライアント証明書の再生成</block>
+  <block id="8fbb081a65433e2b5dbe84367153e1ed" category="summary">メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。</block>
+  <block id="e420c1a2e49679b96d76647c0b4eab16" category="doc">クライアント証明書を再生成する</block>
+  <block id="72d48b52ad3dbb506f6ccf14c5a48cb4" category="paragraph">メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。証明書の有効期間は 5 年に延長されます。</block>
+  <block id="8ad5a937567108f86af9e88f7518216d" category="list-text">メンテナンス ユーザとしてログインします。</block>
+  <block id="214250fe633f7c0f74e19ccc38ceedec" category="list-text">*クライアント証明書の再生成*を選択し、*Enter*を押します。</block>
+  <block id="b82a50d6970d26d16f72ee5266d4e3a7" category="list-text">システムから認証を求められた場合は、必要な資格情報を入力します。</block>
+  <block id="5d31aa471ea579e2bbd7ad4e5c3d516a" category="list-text">*再生の確認*を選択し、*Enter*を押します。</block>
+  <block id="fa129a7f7d7975d2bfc425d5c394ef0a" category="list-text">証明書が再生成されたら、Unified Manager サービスを再起動して変更を適用します。</block>
+  <block id="a7679658e2b5a1a7752c0cfa4fcebc38" category="list-text">更新された証明書を確認するには、 ONTAPにログインします。クライアント証明書のステータスと有効性ステータスを表示します。</block>
+  <block id="d940b6d335f7a34f0e4b4bc38551cbb7" category="paragraph">たとえば、Unified Manager 9.18で作成したバックアップは、Unified Manager 9.18のシステムにのみリストアできます。</block>
+  <block id="8961a4d8d4d7912111f44031511afc59" category="paragraph">すべてのバージョンのUnified Managerで、新しいバージョンへのインプレース アップグレードを実行できるわけではありません。Unified Manager のアップグレードは N-2 モデルに制限されます。つまり、すべてのプラットフォームで次の 2 つのリリースへのアップグレードのみ実行できます。たとえば、Unified Manager 9.18へのアップグレードはUnified Manager 9.14と9.16からのみ実行できます。</block>
+  <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">9.14 または 9.16 から 9.18 へのアップグレード</block>
+  <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.6。</block>
+  <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK バージョン 17.0.14+6 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
+  <block id="948c8178d91f242a451ca7273fc88d8c" category="list-text">Python 3.12 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
+  <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK バージョン 17.0.14+6</block>
+  <block id="8256b84d74aa30fc3663195b5024bed9" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、JDK 17 - OpenJDK、p7zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
+  <block id="5c9461ab22e592eab1219f858610847e" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、java-17-openjdk、p7zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
+  <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">LinuxプラットフォームでUnified Manager 9.14または9.16から9.18にアップグレードするには、インストール ファイルをダウンロードして実行します。</block>
+  <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Active IQ Unified Managerリリース9.14または9.16からリリース9.18へのアップグレードのみ可能です。</block>
+  <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Active IQ Unified Manager仮想アプライアンスは、リリース9.14または9.16から9.18にアップグレードできます。</block>
+  <block id="8cd86d5cc1d7f96f096a4fd291bb6b49" category="list-text">Python 3.13.3</block>
+  <block id="bf5c4735a7e8e52a987541b7e8480ae8" category="list-text">7-zip バージョン 24.09 以降</block>
+  <block id="9326ef08a2cce5f24e4147815b8da2ec" category="list-text">*このプログラムをアンインストール*を選択します。  3.13.3 以外のすべてのバージョンの Python をアンインストールします。  Python バージョン 3.13.3 が保持されていることを確認してください。</block>
+  <block id="b81c3af237acc4744b6e92fee57771e0" category="inline-link-macro">Oracle Java SE 17 アーカイブ ダウンロード ページ</block>
+  <block id="885b083e37169e9e86b9244a1e9616e4" category="paragraph">たとえば、<block ref="e8f39d9e2a4ab6624a21e71fb252a9a9" prefix=" " category="inline-code"></block>ファイルから<block ref="d88dbe6bf412b9681e16c6a0a4b735ac" category="inline-link-macro-rx"></block>。</block>
+  <block id="41d63fd6b4311ba1589a4d13b0ea2b00" category="paragraph">WindowsプラットフォームでUnified Manager 9.14または9.16から9.18にアップグレードするには、インストール ファイルをダウンロードして実行します。</block>
+  <block id="01802a7668268b4480a3cc0a98205a98" category="inline-link">Active IQ Unified Manager 9.18 に関するお知らせ</block>
+  <block id="71e485a61c0965ad1db78c46b5302726" category="paragraph"><block ref="71e485a61c0965ad1db78c46b5302726" category="inline-link-rx"></block></block>
+  <block id="c220d8b999a7db490f827087ef2c219a" category="summary">Active IQ Unified Manager 9.18 の新機能、制限事項、既知の問題の概要を示します。</block>
+  <block id="cab005a3a8fcca5d1016f0afd9a771d8" category="paragraph">詳細については、<block ref="da4f101b8c06e4396ddd68eddc14d3e5" category="inline-link-rx"></block> 。</block>
+  <block id="96e464bda0daed17138b41cdc463c582" category="sidebar">Active IQ Unified Manager （Unified Managerおよび旧OnCommand Unified Manager）を使用すると、ONTAP ストレージシステムの健常性とパフォーマンスを一元的に監視および管理することができます。このドキュメント ライブラリにはバージョン9.18の情報が含まれています。</block>
+  <block id="87d04c66d3151ccf32f27e7b5929e83f" category="sidebar">Active IQ Unified Manager 9.18のドキュメント</block>
 </blocks>

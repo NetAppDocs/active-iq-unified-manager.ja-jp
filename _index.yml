@@ -4,7 +4,8 @@ indexpage:
   summary: Active IQ Unified Managerのドキュメント
   keywords: aiqum docs, um docs, unified manager, active iq, oncommand, storage, windows,
     linux,  vmware vsphere, vapp, configure
-  lead: Active IQ Unified Manager（Unified Manager、旧OnCommand Unified Manager）を使用すると、ONTAPストレージシステムの健全性とパフォーマンスを1つのインターフェイスから監視および管理できます。このドキュメントライブラリには、バージョン9.16の情報が含まれています。
+  lead: Active IQ Unified Manager （Unified Managerおよび旧OnCommand Unified Manager）を使用すると、ONTAP
+    ストレージシステムの健常性とパフォーマンスを一元的に監視および管理することができます。このドキュメント ライブラリにはバージョン9.18の情報が含まれています。
   tiles:
   - title: はじめに
     links:
