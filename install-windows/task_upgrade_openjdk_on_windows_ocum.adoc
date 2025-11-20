@@ -26,7 +26,7 @@ OpenJDK のリリースはリリースファミリー内で更新できます。
 
 +
 
-NOTE:  ファイルをダウンロードするにはOracleアカウントが必要です。Oracleアカウントをお持ちでない場合は、 link:https://login.oracle.com/mysso/signon.jsp?request_id=007["Oracleアカウントのサインイン"] ページをクリックして作成します。
+NOTE: ファイルをダウンロードするにはOracleアカウントが必要です。Oracleアカウントをお持ちでない場合は、 link:https://signon.oracle.com/signin["Oracleアカウントのサインインページ"] 作成します。
 
 . Windows サービスコンソールを使用して、次の Unified Manager サービスを停止します。
 +
