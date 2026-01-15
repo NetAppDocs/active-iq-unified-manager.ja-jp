@@ -13,4 +13,4 @@ summary: 以下は、 Unified Manager を使用する前に必要なインスト
 [role="lead"]
 以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。
 
-image::../media/install_flow_on_rhel.gif[RHEL にフローをインストールします]
+image::../media/install_flow_on_rhel_2026.png[RHEL 2026へのインストールフロー]

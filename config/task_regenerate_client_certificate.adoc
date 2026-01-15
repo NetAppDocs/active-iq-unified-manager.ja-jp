@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。 
 ---
-= クライアント証明書を再生成する
+= Unified Managerクライアント証明書を再生成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,3 +21,5 @@ summary: メンテナンス コンソールを使用して、Unified Manager ク
 . 証明書が再生成されたら、Unified Manager サービスを再起動して変更を適用します。
 . 更新された証明書を確認するには、 ONTAPにログインします。クライアント証明書のステータスと有効性ステータスを表示します。
 
+
+*関連情報*  https://docs.netapp.com/us-en/ontap/authentication/manage-certificates-sm-task.html["System ManagerでONTAP証明書を管理する"^]

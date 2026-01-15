@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: Unified Manager に非アクティブ時のタイムアウト値を指定して、一定の時間が経過したらセッションを自動的に終了するように設定できます。デフォルトでは、タイムアウトは 4 、 320 分（ 72 時間）に設定されています。 
 ---
-= アクティブでないセッションのタイムアウトを設定
+= Unified Managerセッションの非アクティブタイムアウトを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

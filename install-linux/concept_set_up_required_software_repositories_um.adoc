@@ -2,13 +2,13 @@
 permalink: install-linux/concept_set_up_required_software_repositories_um.html 
 sidebar: sidebar 
 keywords: set up, required, software, repositories 
-summary: インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。 
+summary: インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。 
 ---
-= 必要なソフトウェアリポジトリを設定する
+= Unified Managerに必要なソフトウェアをセットアップする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-インストールプログラムが必要なすべてのソフトウェアをインストールできるように、特定のリポジトリへのアクセスが必要になります。
+インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。

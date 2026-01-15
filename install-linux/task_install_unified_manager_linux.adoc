@@ -46,19 +46,19 @@ OpenJDK バージョン 17.0.14+6
 
 
  a| 
-MySQL 8.4.4 Community Edition
+MySQL 8.4.7 Community Edition
  a| 
 「 rpm -qa | grep -i mysql 」と入力します
 
 
 
  a| 
-p7zip 16.02
+7-ジップ
  a| 
-rpm -qa | grep p7zip
+`7zz -version`
 
 |===
-. インストールされているMySQLのバージョンがMySQL 8.4.4 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。
+. MySQL 8.4.7 Community Editionより前のMySQLバージョンがインストールされている場合、次のコマンドを入力してアンインストールします。
 +
 `rpm -e <mysql_package_name>`
 
@@ -87,7 +87,7 @@ ls *.rpm`
 インストール前スクリプトは、システムに有効なRed Hat Enterprise Linuxサブスクリプションがあるかどうか、およびシステムが必要なソフトウェアリポジトリにアクセスできるかどうかを確認します。問題が検出された場合は、 Unified Manager をインストールする前に修正する必要があります。
 
 +
-Red Hat Enterprise Linux 8 システムの場合、JDK 17 - OpenJDK、p7zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
+Red Hat Enterprise Linux 8 システムの場合、JDK 17 - OpenJDK、7-zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。
 
 +
 [listing]
