@@ -10906,7 +10906,6 @@
   <block id="a595de73dca9609245772790e84df92f" category="list-text">HDD（FabricPool ）HDDとクラウド階層の組み合わせです</block>
   <block id="4b9cb70f77d5d1b7f1db6298a0112b46" category="list-text">VMDisk（SDS）：仮想マシン内の仮想ディスク</block>
   <block id="7a4441b84bc5cd489153019c009f24c4" category="list-text">VMディスク（FabricPool ）：仮想ディスクとクラウド階層の組み合わせです</block>
-  <block id="e984493a6bcd860596d8423104637e9e" category="list-text">LUN（FlexArray ）</block>
   <block id="4b791e706882987148eb5eaf50446cdc" category="list-text">Inactive Data Reporting：このアグリゲートでInactive Data Reporting機能が有効になっているかどうか。有効にすると、このアグリゲートのボリュームのPerformance：All Volumesビューにコールドデータの量が表示されます。Inactive Data ReportingをサポートしていないONTAP のバージョンでは、このフィールドの値は「N/A」です。</block>
   <block id="2523d9be01c5cc6e2c30bd2d090e5068" category="list-text">しきい値ポリシー：このストレージオブジェクトでアクティブなユーザ定義のパフォーマンスしきい値ポリシー。ポリシー名に省略記号（...）が含まれている場合、ポリシー名にカーソルを合わせると完全なポリシー名または割り当てられているポリシー名のリストが表示されます。左端のチェックボックスをクリックしてオブジェクトを選択するまで、Assign Performance Threshold PolicyボタンとClear Performance Threshold Policyボタンは無効のままです。詳細については、次のリンクを参照してください。</block>
   <block id="b9977255ef888a78b8d6854585d54fad" category="paragraph">Performance：All Nodesビューには、Unified Managerのインスタンスによって監視されている各ノードのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ノードのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。</block>
@@ -12114,4 +12113,5 @@
   <block id="2aa02eda0e86d78eb7e7937d93415606" category="inline-link">「SVM-scope」モードでNDMP認証を設定する方法</block>
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">詳細については、ナレッジベースの記事をご覧ください<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>。</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">NTFS ファイルストリームを復元することはできません。</block>
+  <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">アラートを送信するように設定したすべてのイベントについて、それらのイベントが「新規」、「解決済み」、「廃止済み」というすべての状態を遷移したときにアラートメッセージが送信されます。イベントが解決済みまたは廃止済み状態に移行した際にアラートを受信したくない場合は、グローバル設定を構成してこれらのアラートを抑制することができます。</block>
 </blocks>
