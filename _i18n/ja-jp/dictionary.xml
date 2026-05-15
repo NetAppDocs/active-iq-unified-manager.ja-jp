@@ -1768,9 +1768,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">ストレージオブジェクトのアノテーション</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">物理容量と論理容量、利用率、スペース削減率、パフォーマンス、関連イベントなど、ストレージオブジェクトの情報の作成と管理に関するレポート</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">OnCommand Workflow Automation と統合してワークフローを実行</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">Storage Automation Store で、 OnCommand Workflow Automation （ WFA ）用に開発されたネットアップ認定のストレージワークフロー自動化パックを提供しています。パックをダウンロードし、 WFA にインポートして実行できます。自動化されたワークフローは、次の場所で入手でき</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Storage Automation Store の略</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="ade70c1ebef812981d41d7af23f9e34e" category="summary">グループルールとは、ストレージオブジェクト（ボリューム、クラスタ、または SVM ）を特定のグループに追加する基準を定義したものです。グループのグループルールは、条件グループまたは条件を使用して定義できます。</block>
   <block id="63c5a152b470e79439767f7868891853" category="doc">グループでのグループルールの仕組み</block>
   <block id="d25492b6e73581dd8829ad2e63befc49" category="list-text">グループにはグループルールを関連付ける必要があります。</block>
@@ -3990,7 +3987,6 @@
   <block id="28d59a31e0c455868121ba1f0071cbca" category="summary">リソースプール、 SVM の関連付け、保護ジョブなど、保護に関連する詳細を表示および管理できます。適切な健常性しきい値ページを使用して、アグリゲート、ボリューム、および関係のグローバルな健常性しきい値を設定できます。</block>
   <block id="0dfcebea8fa1e701a2e1e7629f57777b" category="doc">保護関係の概要のウィンドウとダイアログボックス</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">OnCommand Workflow Automation （ WFA ）と Unified Manager の間にセキュアな接続を確立することができます。Workflow Automation に接続することで、 SnapMirror や SnapVault の設定ワークフロー、 SnapMirror 関係の管理用コマンドなどの保護機能を使用できるようになります。</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">ONTAP を管理するための WFA パック</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">WFA と Unified Manager の接続をサポートするために Unified Manager で作成したデータベースユーザの名前を確認しておく必要があります。</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">このデータベースユーザには、統合スキーマユーザロールが割り当てられている必要があります。</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">Workflow Automation で Administrator ロールまたは Architect のロールが割り当てられている必要があります。</block>
@@ -9020,14 +9016,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">物理サーバで、 Unified Manager server がインストールされている論理ドライブに容量を追加する。</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">Microsoft の次のトピックの手順に従います。</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">基本ボリュームを拡張します</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">物理サーバで、ハードディスクドライブを追加します。</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">ハードディスクドライブの追加</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">仮想マシンで、ディスクパーティションのサイズを拡張します。</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">VMware の次のトピックの手順に従います。</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">ディスクパーティションのサイズを拡張する</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="628c1a5391680603c9af1fbfbeb2ea58" category="summary">次に示すメニューオプションでは、 Unified Manager サーバでさまざまな管理タスクを実行することができます。</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="doc">その他のメニューオプション</block>
   <block id="e73c3ad56e71109b48a967de6d9401db" category="paragraph">次のメニュー項目を選択できます。</block>
@@ -11417,7 +11410,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始する前に</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*何。始める前に</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">Workflow Automationのバージョンが5.1.1P6以降である必要があります。</block>
-  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">WFA 5.1.1P6には「WFA pack for managing Clustered Data ONTAP」が含まれているため、以前のようにこのパックをNetAppStorage Automation StoreからダウンロードしてWFAサーバに個別にインストールする必要はありません。<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">の手順に従って、LinuxサーバにUnified Managerをインストールしておく必要があります<block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Managerでは、ユーティリティを使用して<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してください<block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>。</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">お使いのRed Hat Enterprise Linuxシステムに対応した正しいバージョンのインストーラファイルをダウンロードしてください。インストールされているRed Hat Enterprise Linux 8または9に基づいて、適切なバージョンのUnified Managerファイルをダウンロードして<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>ください。</block>
@@ -12114,4 +12106,10 @@
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">詳細については、ナレッジベースの記事をご覧ください<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>。</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">NTFS ファイルストリームを復元することはできません。</block>
   <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">アラートを送信するように設定したすべてのイベントについて、それらのイベントが「新規」、「解決済み」、「廃止済み」というすべての状態を遷移したときにアラートメッセージが送信されます。イベントが解決済みまたは廃止済み状態に移行した際にアラートを受信したくない場合は、グローバル設定を構成してこれらのアラートを抑制することができます。</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">WFAダウンロード</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">「`WFA pack for managing Clustered Data ONTAP`」は WFA 5.1.1P6 に含まれているため、以前のように NetAppStorage Automation Store からこのパックをダウンロードして WFA サーバーに個別にインストールする必要はありません。<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
 </blocks>
