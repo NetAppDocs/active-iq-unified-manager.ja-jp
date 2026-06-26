@@ -17,6 +17,11 @@ Active IQ Unified Managerリリース9.14または9.16からリリース9.18へ�
 
 Unified Manager を OnCommand Workflow Automation のインスタンスとペアにして使用している環境では、両方の製品のソフトウェアで新しいバージョンを利用できる場合、 2 つの製品間の接続を解除してから各製品をアップグレードし、アップグレードの実行後に Workflow Automation の接続を新たにセットアップする必要があります。いずれかの製品のみをアップグレードする場合は、アップグレード後に Workflow Automation にログインし、 Unified Manager からデータを取得していることを確認します。
 
+[NOTE]
+====
+お使いのシステムがUnified Manager 9.7からアップグレードされている場合、Debianバージョンのファイルシステムの変更により、9.14から9.18へ直接アップグレードすることはできません。代わりに、推奨されるアップグレードパスに従ってください：9.14 -> 9.16P2 -> 9.18。
+
+====
 .手順
 . の手順に従います link:task_download_unified_manager_iso_image_vapp.html["Unified Manager の ISO イメージをダウンロードします"]。
 . さらに、に記載されている手順に従います link:task_upgrade_unified_manager_virtual_appliance_vapp.html["Unified Manager をアップグレードします"]。
