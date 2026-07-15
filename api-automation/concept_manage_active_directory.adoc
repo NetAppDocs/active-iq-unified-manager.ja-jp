@@ -15,6 +15,7 @@ summary: ここに記載された API を使用して、 SVM 上の CIFS 共有�
 
 
 
+[[view-active-directory-mappings]]
 == Active Directory マッピングを表示します
 
 SVM の Active Directory マッピングの設定の詳細を表示するには、次のメソッドを使用します。SVM の Active Directory マッピングを表示するには、 SVM キーを入力する必要があります。特定のマッピングの詳細を照会するには、マッピングキーを入力する必要があります。
@@ -36,6 +37,7 @@ SVM の Active Directory マッピングの設定の詳細を表示するには�
 |===
 
 
+[[add-active-directory-mapping]]
 == Active Directory マッピングを追加します
 
 SVM に Active Directory マッピングを作成するには、次のメソッドを使用します。マッピングの詳細を入力パラメータとして指定する必要があります。

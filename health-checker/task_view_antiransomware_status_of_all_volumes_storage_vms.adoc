@@ -20,6 +20,7 @@ summary: すべてのボリュームとStorage VM、および最新のランサ�
 
 
 
+[[view-security-details-of-all-volumes-with-anti-ransomware-detection]]
 == ランサムウェア対策の検出機能で、すべてのボリュームのセキュリティの詳細を表示できます
 
 .手順
@@ -33,6 +34,7 @@ NOTE: ランサムウェア対策は、オフラインボリューム、制限�
 
 
 
+[[view-security-details-of-all-storage-vms-with-anti-ransomware-detection]]
 == ランサムウェア対策検出で、すべてのStorage VMのセキュリティの詳細を確認できます
 
 .手順

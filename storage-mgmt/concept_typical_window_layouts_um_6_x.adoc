@@ -17,12 +17,14 @@ summary: 一般的なウィンドウレイアウトを理解しておくと、 A
 
 
 
+[[object-list-window-layout]]
 == オブジェクトリストウィンドウのレイアウト
 
 image::../media/object_list.png[オブジェクトリスト]
 
 
 
+[[object-details-window-layout]]
 == オブジェクト詳細ウィンドウのレイアウト
 
 image::../media/object_details.gif[オブジェクトの詳細]

@@ -15,6 +15,7 @@ Unified Manager をインストールする VMware vSphere システムには、
 
 
 
+[[operating-system-software]]
 == オペレーティングシステムソフトウェア
 
 サポートされているオペレーティング システムは VMware ESXi 8.0 です。
@@ -37,6 +38,7 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 
 
+[[installation-requirements]]
 == インストールの要件
 
 Unified Manager 仮想アプライアンスでは、 VMware High Availability がサポートされます。

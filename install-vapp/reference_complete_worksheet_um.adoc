@@ -15,6 +15,7 @@ Unified Manager をインストールして設定する前に、環境に関す�
 
 
 
+[[unified-manager-installation-information]]
 == Unified Manager のインストール情報
 
 Unified Manager をインストールする際に必要な情報を記入します。
@@ -85,6 +86,7 @@ ESXi サーバの IP アドレス
 |===
 
 
+[[unified-manager-configuration-information]]
 == Unified Manager の設定情報
 
 インストール後に Unified Manager を設定するための情報を記入します。設定によっては省略可能な値もあります。
@@ -186,6 +188,7 @@ SNMP ポート
 |===
 
 
+[[cluster-information]]
 == クラスタ情報
 
 Unified Manager を使用して管理するストレージシステムの情報を記入します。

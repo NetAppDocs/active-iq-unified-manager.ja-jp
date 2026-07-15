@@ -15,6 +15,7 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 
 
+[[system-requirements]]
 == システム要件
 
 * オペレーティング システム: VMware ESXi 8.0
@@ -27,10 +28,12 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 
 
+[[install-active-iq-unified-manager]]
 == Active IQ Unified Managerのインストール
 
 
 
+[[download-the-installer]]
 === インストーラをダウンロードします。
 
 . をダウンロードします `.tar` ルート証明書を含むファイル `README` ファイル、および `OVA` ファイル。
@@ -40,12 +43,14 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 
 
+[[verify-integrity]]
 === 整合性を検証
 
 の整合性を検証できます `OVA` で説明した手順に従ってファイルを作成します `README` ファイル。
 
 
 
+[[install-unified-manager]]
 === Unified Manager をインストールします
 
 . vSphere Client で、 * File > Deploy OVF Template * をクリックします。

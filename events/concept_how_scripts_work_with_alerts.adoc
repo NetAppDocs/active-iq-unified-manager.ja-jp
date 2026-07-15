@@ -36,6 +36,7 @@ Unified Manager でイベントに対するアラートが生成されると、�
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == スクリプトから引数を取得する例
 
 [listing]

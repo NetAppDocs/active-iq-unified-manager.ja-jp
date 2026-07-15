@@ -17,6 +17,7 @@ NVMe ネームスペースイベントは、ネームスペースのステータ
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===
@@ -68,6 +69,7 @@ NVMe ネームスペースの破棄 * （ nvmespaceDestroy ）
 |===
 
 
+[[impact-area-performance]]
 == 影響範囲：パフォーマンス
 
 |===

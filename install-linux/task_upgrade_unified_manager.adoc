@@ -90,6 +90,7 @@ https://fully_qualified_domain_name/
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == 不足しているパッケージに対して実行する追加手順
 
 アップグレード中にサイトで不足しているパッケージが検出された場合、またはシステムがインターネットに接続されていない場合、またはRed Hat Enterprise Linuxリポジトリを使用していない場合は、次の手順を実行して、必要なパッケージが揃っているかどうかを確認し、それらのパッケージをダウンロードします。

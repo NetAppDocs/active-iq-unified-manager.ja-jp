@@ -28,6 +28,7 @@ cURL コマンド、例、要求、および API への応答は、 Swagger API 
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == データセンター内のストレージオブジェクト用の API
 
 [cols="3*"]
@@ -203,6 +204,7 @@ NOTE: 注意事項：
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == データセンター内のネットワーク要素用の API
 
 データセンターカテゴリの次の API は、環境内のポートとネットワークインターフェイス、特に FC ポート、 FC インターフェイス、イーサネットポート、および IP インターフェイスに関する情報を取得します。

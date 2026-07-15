@@ -15,6 +15,7 @@ SnapVault 関係イベントは、 SnapVault 関係のステータス情報を�
 
 
 
+[[impact-area-protection]]
 == 影響範囲：保護
 
 |===

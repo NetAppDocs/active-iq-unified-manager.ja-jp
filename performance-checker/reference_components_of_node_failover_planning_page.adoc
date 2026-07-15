@@ -15,6 +15,7 @@ Performance / Node Failover Planning ページのコンポーネントが、グ�
 
 
 
+[[performance-statistics-grid]]
 == パフォーマンス統計グリッド
 
 Performance/NodeFailover Planning ヘエシには、レイテンシ、 IOPS 、利用率、使用済みパフォーマンス容量の統計を含むグリッドが表示されます。
@@ -49,6 +50,7 @@ HA パートナーで障害が発生した場合にパートナーをテイク�
 
 
 
+[[comparing-pane]]
 == 比較ペイン
 
 デフォルトでは ' 比較ペインに表示される構成部品は次のとおりです

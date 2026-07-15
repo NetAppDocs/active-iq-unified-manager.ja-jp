@@ -57,6 +57,7 @@ Unified Manager がボリューム、クラスタ、 Storage Virtual Machine （
 
 
 
+[[example-of-creating-an-annotation-rule]]
 == アノテーションルールの作成例
 
 アノテーションルールを作成し、条件の設定と条件グループの追加を行うには、アノテーションルールの追加ダイアログで次の手順を実行します。

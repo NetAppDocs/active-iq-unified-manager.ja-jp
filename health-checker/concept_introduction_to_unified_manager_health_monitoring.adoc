@@ -23,6 +23,7 @@ Unified Manager では、アノテーションを関連付けることで環境�
 
 
 
+[[physical-and-logical-capacity]]
 == 物理容量と論理容量
 
 Unified Manager は、 ONTAP ストレージオブジェクトに使用される物理スペースと論理スペースの概念を利用します。
@@ -33,6 +34,7 @@ Unified Manager は、 ONTAP ストレージオブジェクトに使用される
 
 
 
+[[capacity-measurement-units]]
 == 容量の単位
 
 Unified Manager は、 1024 （ 2^10^ ）バイトのバイナリ単位に基づいてストレージ容量を計算します。ONTAP 9.10.0 以前では、これらの単位は KB 、 MB 、 GB 、 TB 、 PB として表示されていました。ONTAP 9.10.1 以降、 Unified Manager では KiB 、 MiB 、 GiB 、 TiB 、および PiB として表示されます。

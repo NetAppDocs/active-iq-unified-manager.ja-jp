@@ -24,6 +24,7 @@ ONTAP クラスタ、 Storage VM 、およびボリュームのセキュリテ�
 
 
 
+[[customize-security-settings]]
 == セキュリティ設定をカスタマイズする
 
 ONTAP 環境に応じて準拠監視の設定をカスタマイズするには、次の手順を実行します。
@@ -42,6 +43,7 @@ ONTAP 環境に応じて準拠監視の設定をカスタマイズするには�
 
 
 
+[[customize-autosupport-and-authentication-settings]]
 == AutoSupportと認証設定をカスタマイズする
 
 AutoSupport 設定 * セクションでは、 AutoSupport からの ONTAP メッセージの送信に HTTPS 転送を使用するかどうかを指定できます。

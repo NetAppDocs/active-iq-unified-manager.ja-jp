@@ -89,6 +89,7 @@ Active IQ Unified Manager では '/datacenter カテゴリの下に一連の API
 |===
 
 
+[[output-sample-for-metrics-apis]]
 == 指標APIの出力例
 
 たとえば'/datacenter /cluster/nodes/\{ key }/metrics APIは'ノードの次の詳細(その他の詳細)を取得します
@@ -166,6 +167,7 @@ NOTE: サマリ値の 95 パーセンタイルは、期間について収集さ�
 ----
 
 
+[[output-sample-for-analytics-apis]]
 == 分析APIの出力例を示します
 
 たとえば '/datacenter /cluster/nodes /analytics API は ' すべてのノードについて次の値 ( その他の値 ) を取得します
@@ -208,6 +210,7 @@ NOTE: サマリ値の 95 パーセンタイルは、期間について収集さ�
 ----
 
 
+[[list-of-the-available-apis]]
 == 使用可能なAPIのリスト
 
 次の表は '/metrics および '/analytics API の詳細を示しています

@@ -15,6 +15,7 @@ MetroCluster over FC構成のMetroCluster スイッチイベントは、MetroClu
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

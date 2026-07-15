@@ -134,6 +134,7 @@ NOTE: _Member_,_User Object Class_,_GroupオブジェクトClass_attributesに�
 
 
 
+[[authentication-servers-area]]
 == Authentication Servers 領域
 
 Authentication Servers 領域には、管理サーバがリモートユーザの検索および認証のために通信する認証サーバが表示されます。リモートのユーザまたはグループのクレデンシャルは、認証サーバで管理されます。

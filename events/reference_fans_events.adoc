@@ -15,6 +15,7 @@ summary: ファンのイベントは、データセンター内のノードの�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

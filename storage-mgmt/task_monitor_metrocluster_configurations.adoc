@@ -29,6 +29,7 @@ Unified Managerでは、システムヘルスアラートを使用して、Metro
 
 
 
+[[monitor-connectivity-issues-in-metrocluster-over-fc-configuration]]
 == MetroCluster over FC構成の接続の問題を監視する
 
 MetroCluster over FC構成のクラスタの場合は、接続グラフが* Cluster/Health * detailsページに表示されます。次の手順を実行します。
@@ -58,6 +59,7 @@ MetroCluster 構成で接続の問題が見つかった場合は、 System Manag
 
 
 
+[[monitor-connectivity-issues-in-metrocluster-over-ip-configuration]]
 == MetroCluster over IP構成で接続の問題を監視します
 
 MetroCluster over IP構成のクラスタの場合は、接続グラフが*クラスタ*ページに表示されます。次の手順を実行します。

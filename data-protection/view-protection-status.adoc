@@ -31,6 +31,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == Snapshotコピーで保護されているボリュームの保護ステータスを表示します
 
 * Snapshotコピーの概要*：次のような、Snapshotコピーで保護されているボリュームの概要
@@ -49,6 +50,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Snapshotコピーについてはメモを指定します
 
 * Snapshotコピーで保護されているボリュームの数をカウントする場合、ソースボリュームとデスティネーションボリュームの両方が考慮されます。
@@ -60,6 +62,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == SnapMirror関係の保護ステータスを表示します
 
 * SnapMirror の概要 * ：次のような、 SnapMirror ポリシーで保護されているボリュームの概要。
@@ -80,6 +83,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === SnapMirror関係については、メモを指定します
 
 * SnapMirror関係のカウントでは、読み取りと書き込みが有効なソースボリュームがカウントされます。デスティネーションボリュームとルートボリュームは考慮されません。
@@ -92,6 +96,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[view-clusters-protected-by-metrocluster-configuration]]
 == MetroCluster 構成で保護されているクラスタを表示します
 
 [*データ保護*]ページの[* MetroCluster Protection]パネルには、MetroCluster over FCまたはIP構成で保護または保護されていないクラスタの数が表示されます。このパネルの棒グラフをクリックすると、クラスタページが開き、保護されているクラスタまたは保護されていないクラスタに基づいてクラスタの詳細がフィルタリングされます。MetroCluster 設定の監視については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 構成を監視しています"]。

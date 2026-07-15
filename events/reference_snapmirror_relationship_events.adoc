@@ -15,6 +15,7 @@ SnapMirror 関係イベントは、非同期 SnapMirror 関係と同期 SnapMirr
 
 
 
+[[impact-area-protection]]
 == 影響範囲：保護
 
 アスタリスク（ * ）は、 Unified Manager イベントに変換された EMS イベントを示します。

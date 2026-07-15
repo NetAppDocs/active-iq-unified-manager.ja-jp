@@ -16,6 +16,7 @@ Unified Manager を Windows に正しくインストールするには、 Unifie
 
 
 
+[[operating-system-software]]
 == オペレーティングシステムソフトウェア
 
 Unified Managerは次のエディションのWindowsにインストールできます。
@@ -42,6 +43,7 @@ Unified Manager のみを実行する専用のサーバを用意する必要が�
 
 
 
+[[third-party-software]]
 == サードパーティ製ソフトウェア
 
 Unified Manager にバンドルされているサードパーティパッケージを次に示します。これらのサードパーティパッケージがシステムにインストールされていない場合、 Unified Manager のインストール時にインストールされます。
@@ -74,6 +76,7 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3�
 ====
 
 
+[[installation-requirements]]
 == インストールの要件
 
 * Microsoft .NET 4.5.2 以降がインストールされている必要があります。

@@ -26,6 +26,7 @@ SVMを関連付ける方法は3つあります。
 
 
 
+[[create-storage-vm-associations]]
 == Storage VMの関連付けを作成します
 
 Create Storage Virtual Machine Associationsウィザードでは、パートナーの保護アプリケーションを使用して、ソースStorage VMをデスティネーションStorage VMに関連付けて、SnapMirror関係とSnapVault 関係で使用することができます。パートナーアプリケーションでは、デスティネーションボリュームの最初のプロビジョニングの際にこれらの関連付けを使用して、.ddを選択するリソースを特定します
@@ -74,6 +75,7 @@ Create Storage Virtual Machine Associations *ウィザードが起動します�
 
 
 
+[[delete-storage-vm-associations]]
 == Storage VMの関連付けを削除します
 
 パートナーアプリケーションに対するStorage VMの関連付けを削除して、ソースとデスティネーションのStorage VM間のセカンダリプロビジョニング関係を削除することができます。この処理は、たとえば、デスティネーションStorage VMがいっぱいになり、Storage VMの保護の関連付けを新たに作成する場合などに行います。

@@ -15,6 +15,7 @@ summary: ネットワークインターフェイスイベントは、ネット�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===
@@ -66,6 +67,7 @@ FC / FCoE ネットワークインターフェイスのステータスが停止�
 |===
 
 
+[[impact-area-configuration]]
 == 影響範囲：構成
 
 |===
@@ -84,6 +86,7 @@ FC / FCoE ネットワークインターフェイスのステータスが停止�
 |===
 
 
+[[impact-area-performance]]
 == 影響範囲：パフォーマンス
 
 |===

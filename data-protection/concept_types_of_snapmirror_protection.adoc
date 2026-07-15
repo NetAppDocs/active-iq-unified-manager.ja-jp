@@ -15,6 +15,7 @@ summary: 導入するデータストレージのトポロジに応じて、複�
 
 
 
+[[traditional-snapmirror-asynchronous-protection-relationships]]
 == 従来型の SnapMirror 非同期保護関係
 
 従来型の SnapMirror 非同期保護では、ソースボリュームとデスティネーションボリューム間のブロックレプリケーションによるミラー保護が提供されます。
@@ -23,6 +24,7 @@ summary: 導入するデータストレージのトポロジに応じて、複�
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication]]
 == バージョンに依存しないレプリケーションを使用した SnapMirror 非同期保護
 
 バージョンに依存しないレプリケーションを使用した SnapMirror 非同期保護では、ソースボリュームとデスティネーションボリューム間の論理レプリケーションによるミラー保護が提供されます。ボリュームで異なるバージョンの ONTAP 8.3 以降のソフトウェアを実行している場合でも同様です（バージョン 8.3 から 8.3.1 、 8.3 から 9.1 、 9.2 から 9.2.2 など）。
@@ -39,6 +41,7 @@ summary: 導入するデータストレージのトポロジに応じて、複�
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication-and-backup-option]]
 == バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 非同期保護
 
 バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 非同期保護では、ソースボリュームとデスティネーションボリューム間のミラー保護およびミラーデータの複数のコピーをデスティネーションに格納する機能が提供されます。
@@ -49,18 +52,21 @@ summary: 導入するデータストレージのトポロジに応じて、複�
 
 
 
+[[snapmirror-unified-replication-mirror-and-vault]]
 == SnapMirror ユニファイドレプリケーション（ミラーバックアップ）
 
 SnapMirror ユニファイドレプリケーションを使用すると、同じデスティネーションボリュームでディザスタリカバリとアーカイブを設定できます。SnapMirror と同様に、一元化されたデータ保護機能の初回起動時に、ベースライン転送が実行されます。デフォルトの一元化されたデータ保護ポリシー「 MirrorAllSnapshots 」に基づくベースライン転送では、ソースボリュームの Snapshot コピーが作成され、そのコピーおよびコピーが参照するデータブロックがデスティネーションボリュームに転送されます。SnapVault と同様に、一元化されたデータ保護にはベースラインの古い Snapshot コピーは含まれません。
 
 
 
+[[snapmirror-synchronous-protection-with-strict-synchronization]]
 == 厳密な同期を使用した SnapMirror 同期保護
 
 「 stict 」同期を使用した SnapMirror 同期保護では、プライマリボリュームとセカンダリボリュームが常に相互の完全なコピーになります。セカンダリボリュームへのデータの書き込みでレプリケーションエラーが発生すると、プライマリボリュームに対するクライアント I/O が中断されます。
 
 
 
+[[snapmirror-synchronous-protection-with-regular-synchronization]]
 == 通常の同期を使用した SnapMirror 同期保護
 
 「ル」同期を使用した SnapMirror 同期保護では、プライマリボリュームとセカンダリボリュームが常に相互の完全なコピーである必要はないため、プライマリボリュームの可用性が確保されます。セカンダリボリュームへのデータの書き込みでレプリケーションエラーが発生すると、プライマリボリュームとセカンダリボリュームが同期されていない状態のまま、プライマリボリュームに対するクライアント I/O が継続されます。
@@ -72,6 +78,7 @@ SnapMirror ユニファイドレプリケーションを使用すると、同じ
 ====
 
 
+[[snapmirror-active-sync]]
 == SnapMirrorアクティブ同期
 
 SnapMirrorのアクティブな同期機能はONTAP 9.8以降で使用できます。この機能を使用すると、LUNでアプリケーションを保護できます。これにより、アプリケーションが透過的にフェイルオーバーされ、災害発生時にビジネス継続性が確保されます。

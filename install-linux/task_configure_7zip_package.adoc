@@ -20,12 +20,14 @@ Unified Manager が 7-zip ソフトウェア パッケージを自動的にダ�
 
 
 
+[[pre-install-the-7-zip-package]]
 == 7-zipパッケージを事前にインストールする
 
 7-zip を手動でダウンロードするか、バンドルされたスクリプトを使用して事前にインストールできます。次の 2 つの方法のいずれかを選択します。
 
 
 
+[[download-using-a-bundled-script]]
 === バンドルされたスクリプトを使用してダウンロードする
 
 .ステップ
@@ -34,6 +36,7 @@ Unified Manager が 7-zip ソフトウェア パッケージを自動的にダ�
 
 
 
+[[download-manually]]
 === 手動でダウンロード
 
 7-zip パッケージは必ず公式 Web サイトからのみダウンロードしてください。
@@ -71,6 +74,7 @@ sudo chmod 755 /usr/bin/7zz
 
 
 
+[[verify-the-installation]]
 == インストールを確認する
 
 7-zip パッケージがシステムに正常にインストールされていることを確認します。

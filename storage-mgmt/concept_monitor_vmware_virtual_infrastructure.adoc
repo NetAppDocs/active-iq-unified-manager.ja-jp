@@ -43,6 +43,7 @@ image::../media/vm_workflow.gif[VM ワークフロー]
 
 
 
+[[what-is-not-supported]]
 == サポートされない機能：
 
 * vCenter Server インスタンスにマッピングされている ONTAP 外部のデータストアは、 Unified Manager ではサポートされません。これらのデータストアに仮想ディスクがある VM もサポートされません。

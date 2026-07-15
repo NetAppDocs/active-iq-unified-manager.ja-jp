@@ -15,6 +15,7 @@ summary: ストレージフェイルオーバー（ SFO ）の設定のイベン
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

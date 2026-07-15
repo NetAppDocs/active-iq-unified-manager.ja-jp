@@ -17,6 +17,7 @@ Active IQ Unified Manager を使用すると、環境内のストレージオブ
 
 
 
+[[view-object-level-security-status-on-security-page]]
 == セキュリティページでオブジェクトレベルのセキュリティステータスを表示します
 
 システム管理者は、セキュリティ*ページを使用して、データセンターレベルとサイトレベルのONTAP クラスタとStorage VMのセキュリティ強度を可視化できます。サポートされるオブジェクトは、クラスタ、Storage VM、およびボリュームです。次の手順を実行します。
@@ -40,6 +41,7 @@ Active IQ Unified Manager を使用すると、環境内のストレージオブ
 
 
 
+[[view-security-details-of-all-clusters-on-the-clusters-page]]
 == クラスタページで、すべてのクラスタのセキュリティの詳細を表示します
 
 [*クラスタ/セキュリティ*の詳細]ページでは、セキュリティコンプライアンスのステータスをクラスタレベルで表示できます。
@@ -58,6 +60,7 @@ NOTE: クラスタに有効期限が切れた証明書がある場合は、「*�
 
 
 
+[[view-security-details-of-all-clusters-from-the-storage-vms-page]]
 == すべてのクラスタのセキュリティの詳細をStorage VMページで表示する
 
 Storage VMs/Security *の詳細ページでは、Storage VMレベルでセキュリティ準拠ステータスを確認できます。

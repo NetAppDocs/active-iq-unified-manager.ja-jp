@@ -17,6 +17,7 @@ Scripts ページを使用して、 Unified Manager に対してスクリプト�
 
 
 
+[[command-buttons]]
 == コマンドボタン
 
 * * 追加 * 。
@@ -31,6 +32,7 @@ Scripts ページを使用して、 Unified Manager に対してスクリプト�
 
 
 
+[[list-view]]
 == リストビュー
 
 リストビューには、 Unified Manager に追加したスクリプトが表形式で表示されます。

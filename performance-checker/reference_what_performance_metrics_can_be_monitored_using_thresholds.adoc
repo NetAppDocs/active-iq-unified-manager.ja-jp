@@ -15,6 +15,7 @@ IOPS や MBps など、一部の共通のパフォーマンスカウンタでは
 
 
 
+[[available-performance-counters]]
 == 使用可能なパフォーマンスカウンタ
 
 |===

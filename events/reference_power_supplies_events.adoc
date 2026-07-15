@@ -15,6 +15,7 @@ summary: 電源装置イベントは、ハードウェアのステータス情�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

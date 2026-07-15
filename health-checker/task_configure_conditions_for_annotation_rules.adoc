@@ -27,6 +27,7 @@ summary: 1 つ以上の条件を設定して、 Unified Manager がストレー�
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == アノテーションルールの条件の設定例
 
 オブジェクトタイプが SVM で、オブジェクト名に「 'vm_data' 」が含まれている場合は、条件を考慮します。

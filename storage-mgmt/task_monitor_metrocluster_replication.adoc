@@ -20,6 +20,7 @@ MetroCluster 構成のローカルクラスタとリモートクラスタの両�
 
 
 
+[[view-replication-for-metrocluster-over-ip-configurations]]
 == MetroCluster over IP構成のレプリケーションを表示する
 
 MetroCluster over IP構成の場合は、左側のナビゲーションペインの次のビューから、MetroCluster over IPで保護されたクラスタのトポロジプレビュービューにデータレプリケーションステータスが表示されます。
@@ -32,6 +33,7 @@ MetroCluster over IP構成の場合は、左側のナビゲーションペイン
 
 
 
+[[view-replication-for-metrocluster-over-fc-configurations]]
 == FC構成上のMetroClusterのレプリケーションを表示する
 
 以下の手順に従って、MetroCluster over FC構成のデータレプリケーションの問題を特定します。

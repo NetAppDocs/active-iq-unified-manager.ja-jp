@@ -19,6 +19,7 @@ vCenter Server のデータストアにマッピングされている Storage VM
 
 
 
+[[view-datastores-in-metrocluster-configuration]]
 == MetroCluster構成のデータストアを表示する
 
 MetroCluster 構成でデータストアを表示する前に、次の前提条件に注意してください。
@@ -40,6 +41,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーショ�
 
 
 
+[[view-datastores-in-storage-vm-disaster-recovery-configuration]]
 == ストレージ VM の災害復旧構成内のデータストアを表示する
 
 Storage VM ディザスタリカバリ構成でデータストアを表示する前に、次の前提条件に注意してください。
@@ -75,6 +77,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 ドキュメンテーショ�
 
 
 
+[[unsupported-scenarios]]
 == サポート対象外のシナリオです
 
 * MetroCluster 構成では、次の制限事項に注意してください。

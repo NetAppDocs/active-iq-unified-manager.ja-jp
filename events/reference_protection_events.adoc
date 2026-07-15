@@ -15,6 +15,7 @@ summary: 保護イベントは、ジョブの失敗や中止を通知して、�
 
 
 
+[[impact-area-protection]]
 == 影響範囲：保護
 
 |===

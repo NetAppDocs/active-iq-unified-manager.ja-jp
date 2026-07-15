@@ -15,6 +15,7 @@ summary: フラッシュカードのイベントは、データセンター内�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

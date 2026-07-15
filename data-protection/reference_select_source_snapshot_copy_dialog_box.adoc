@@ -15,6 +15,7 @@ summary: ソース Snapshot コピーの選択ダイアログボックスを使�
 
 
 
+[[default]]
 == デフォルト
 
 SnapVault 関係および SnapMirror 関係の初期化、更新、転送の再同期に使用される Snapshot コピーを決定する際のデフォルトの動作を選択できます。
@@ -87,6 +88,7 @@ SnapMirror 転送を実行する場合、各処理のデフォルトの動作は
 |===
 
 
+[[existing-snapshot-copy]]
 == 既存の Snapshot コピー
 
 リストから既存の Snapshot コピーを選択できます（その処理で Snapshot コピーを選択できる場合）。
@@ -169,6 +171,7 @@ SnapMirror 転送の実行時に、ソースからデスティネーションに
 |===
 
 
+[[command-buttons]]
 == コマンドボタン
 
 各コマンドボタンを使用して次のタスクを実行できます。

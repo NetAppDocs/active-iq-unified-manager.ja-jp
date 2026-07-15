@@ -5923,7 +5923,6 @@
   <block id="c9ff37030a40a51615a055f7a8a42953" category="paragraph">これらの Active IQ イベントは既存の Unified Manager イベントと重複しないため、システム構成、ケーブル配線、ベストプラクティス、可用性の問題に関するインシデントやリスクを特定します。</block>
   <block id="52d175339f334b6fa22a9953121dc9a5" category="inline-link-macro">Active IQ ポータルイベントの有効化</block>
   <block id="9b2dd5f36ee111b85cbdd29e104e3e55" category="inline-link">NetApp Active IQ の略</block>
-  <block id="9d704a09e3781ec3b4883efbf66a03bc" category="paragraph">NetApp Active IQ は、ネットアップのハイブリッドクラウド全体にわたってストレージシステムの運用を最適化するのに役立つ、予測分析とプロアクティブなサポートを提供するクラウドベースのサービスです。を参照してください<block ref="598c2869fc03de80441fdb1c505b1b08" category="inline-link-rx"></block> を参照してください。</block>
   <block id="8bf4b15f13b20705180421db77e00c03" category="summary">必要に応じて、すべてのストレージオブジェクトについて Unified Manager のメンテナンス時間中に生成されたイベントを確認することができます。ほとんどのイベントは、メンテナンス時間が終了し、すべてのシステムリソースが再び稼働すると、「廃止」の状態になります。</block>
   <block id="5c51479d41450d52df396b2985d17bf6" category="paragraph">少なくとも 1 回はメンテナンス時間が完了している必要があります。</block>
   <block id="d4f82e4af56e463818b4857a4c878f4e" category="paragraph">メンテナンス時間中に発生したイベントは、デフォルトではイベント管理インベントリページに表示されません。</block>
@@ -12043,10 +12042,7 @@
   <block id="76851a5fa412a2e834b5c4b3b3fd04c5" category="inline-link-macro">Oracleアカウントのサインインページ</block>
   <block id="85f96417c9ffad8261e8a1065c0612b0" category="admonition">ファイルをダウンロードするにはOracleアカウントが必要です。Oracleアカウントをお持ちでない場合は、 <block ref="8a9d737434e1792055aa606e96405bae" category="inline-link-macro-rx"></block> 作成します。</block>
   <block id="469228004487fcc667bf369582833cc1" category="paragraph">12 GB</block>
-  <block id="1ddb0349940e2d0ed836e2e7c09c0d8a" category="paragraph">さらに、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールします。ノード制限、CPU、メモリの推奨事項については、<block ref="45d0c11c521f01e1d7ecf7777aba0774" category="inline-link-rx"></block>。</block>
   <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">Unified Managerベストプラクティスガイド</block>
-  <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">さらに、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールします。ノード制限、CPU、メモリの推奨事項については、以下を参照してください。 <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>。</block>
-  <block id="72473e7783768c475b1bae8307882647" category="paragraph">さらに、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールします。ノード制限、CPU、メモリの推奨事項については、以下を参照してください。<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>。</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">アラートのリソースにストレージ仮想マシン (SVM) またはクラスターを追加した場合、子オブジェクトは自動的に追加されないことに注意してください。たとえば、アラートのリソースにクラスターを追加しても、アラートによってノードまたは LUN が自動的に追加されることはありません。</block>
   <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">Unified Manager監査ログを構成する</block>
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">リモート ログを有効にするには、[*リモート ログを有効にする*] を選択します。</block>
@@ -12113,4 +12109,8 @@
   <block id="59c721a4f6c44ca8cb60ecf288219ca8" category="paragraph">このアカウントには、アプリケーションアクセスが _ontapi_、_amqp_、_console_、および _http_ に設定された _admin_ ロールが必要です。</block>
   <block id="42448273f40a0cdbd38a68c84477f81c" category="paragraph">VMware vSphere システム上の Unified Manager OVA は、内部で Debian OS 13（Trixie）を実行します。サポートされている ESXi サーバーのバージョンがサポートできる仮想マシンハードウェアのバージョンについては、VMware のドキュメントを参照してください。</block>
   <block id="a8b83d2538456b0b759bed68390111d7" category="paragraph">お使いのシステムがUnified Manager 9.7からアップグレードされている場合、Debianバージョンのファイルシステムの変更により、9.14から9.18へ直接アップグレードすることはできません。代わりに、推奨されるアップグレードパスに従ってください：9.14 -&gt; 9.16P2 -&gt; 9.18。</block>
+  <block id="2adbe8bdce2f61c208adbcdcc37e0d1e" category="paragraph">NetApp Active IQは、NetAppハイブリッドクラウド全体のストレージシステム運用を最適化するために、予測分析とプロアクティブなサポートを提供するクラウドベースのサービスです。詳細については、<block ref="0e9077c60daec97818e84f64654ad149" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>

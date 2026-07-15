@@ -17,6 +17,7 @@ Unified Manager の保護機能を使用する場合は、 OnCommand Workflow Au
 
 
 
+[[unified-manager-web-ui]]
 == Unified Manager Web UI
 
 Unified Manager Web UI では、管理者がデータストレージの容量、可用性、保護に関連するクラスタの問題を監視してトラブルシューティングすることができます。
@@ -25,6 +26,7 @@ Unified Manager Web UI では、管理者がデータストレージの容量、
 
 
 
+[[maintenance-console]]
 == メンテナンスコンソール
 
 Unified Manager のメンテナンスコンソールでは、管理者が Unified Manager サーバ自体に関連するオペレーティングシステムの問題、バージョンアップグレードの問題、ユーザアクセスの問題、およびネットワークの問題を監視し、診断し、対処することができます。Unified Manager Web UI を使用できない場合は、メンテナンスコンソールが Unified Manager にアクセスする唯一の手段となります。

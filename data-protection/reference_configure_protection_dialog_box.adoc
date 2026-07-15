@@ -15,6 +15,7 @@ summary: 保護の設定ダイアログボックスを使用して、クラス�
 
 
 
+[[source-tab]]
 == [ ソース ] タブ
 
 * * トポロジビュー *
@@ -65,6 +66,7 @@ summary: 保護の設定ダイアログボックスを使用して、クラス�
 
 
 
+[[snapmirror-tab]]
 == SnapMirror タブ
 
 保護関係のデスティネーションクラスタ、 Storage Virtual Machine （ SVM ）、アグリゲート、および SnapMirror 関係を作成する際のデスティネーションの命名規則を指定できます。SnapMirror ポリシーとスケジュールを指定することもできます。
@@ -157,6 +159,7 @@ SnapMirror ポリシーの作成ダイアログボックスが開きます。こ
 
 
 
+[[snapvault-tab]]
 == SnapVault タブ
 
 保護関係のセカンダリクラスタ、 SVM 、アグリゲート、および SnapVault 関係を作成する際のセカンダリボリュームの命名規則を指定できます。SnapVault ポリシーとスケジュールを指定することもできます。
@@ -249,6 +252,7 @@ Create SnapVault Policy ダイアログボックスが開きます。このダ�
 
 
 
+[[command-buttons]]
 == コマンドボタン
 
 各コマンドボタンを使用して次のタスクを実行できます。

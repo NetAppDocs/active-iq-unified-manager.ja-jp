@@ -15,6 +15,7 @@ Initialize/Update ダイアログボックスでは、新しい保護関係で�
 
 
 
+[[transfer-options-tab]]
 == [ 転送オプション ] タブ
 
 [ 転送オプション ] タブでは、転送の初期設定の優先順位を変更したり、転送中に使用される帯域幅を変更したりできます。
@@ -46,6 +47,7 @@ Initialize/Update ダイアログボックスでは、新しい保護関係で�
 
 
 
+[[source-snapshot-copies-tab]]
 == ソース Snapshot コピータブ
 
 ソース Snapshot コピータブには、ベースライン転送に使用されるソース Snapshot コピーに関する次の情報が表示されます。
@@ -70,6 +72,7 @@ Initialize/Update ダイアログボックスでは、新しい保護関係で�
 
 
 
+[[command-buttons]]
 == コマンドボタン
 
 各コマンドボタンを使用して次のタスクを実行できます。

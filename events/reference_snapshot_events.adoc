@@ -15,6 +15,7 @@ Snapshot イベントは、 Snapshot のステータス情報を提供します�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===

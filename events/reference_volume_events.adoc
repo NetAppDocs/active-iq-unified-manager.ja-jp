@@ -17,6 +17,7 @@ summary: ボリュームイベントは、ボリュームのステータスに�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===
@@ -145,6 +146,7 @@ summary: ボリュームイベントは、ボリュームのステータスに�
 |===
 
 
+[[impact-area-capacity]]
 == 影響範囲：容量
 
 |===
@@ -460,6 +462,7 @@ FlexGroup ボリュームの使用率が 90% を超えています *
 |===
 
 
+[[impact-area-configuration]]
 == 影響範囲：構成
 
 |===
@@ -500,6 +503,7 @@ FlexGroup ボリュームの使用率が 90% を超えています *
 |===
 
 
+[[impact-area-performance]]
 == 影響範囲：パフォーマンス
 
 |===
@@ -793,6 +797,7 @@ QoS ボリューム最大 IOPS/TB の警告しきい値を超過（ドキュメ�
 |===
 
 
+[[impact-area-security]]
 == 影響範囲：セキュリティ
 
 |===
@@ -910,6 +915,7 @@ QoS ボリューム最大 IOPS/TB の警告しきい値を超過（ドキュメ�
 |===
 
 
+[[impact-area-data-protection]]
 == 影響範囲：データ保護
 
 |===

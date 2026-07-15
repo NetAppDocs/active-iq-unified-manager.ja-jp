@@ -15,12 +15,14 @@ summary: 接続イベントは、クラスタのコンポーネント間の接�
 
 
 
+[[events-common-in-both-configurations]]
 == 両方の構成で共通のイベント
 
 これらの接続イベントは、MetroCluster over FC構成とMetroCluster over IP構成で共通です。
 
 
 
+[[impact-area-availability]]
 === 影響範囲：可用性
 
 |===
@@ -72,12 +74,14 @@ MetroCluster 関係
 |===
 
 
+[[metrocluster-over-fc-configuration]]
 == MetroCluster over FC構成
 
 これらのイベントは、MetroCluster over FC構成に関係します。
 
 
 
+[[impact-area-availability]]
 === 影響範囲：可用性
 
 |===
@@ -217,12 +221,14 @@ MetroCluster スイッチのブリッジ接続
 |===
 
 
+[[metrocluster-over-ip-configuration]]
 == MetroCluster over IP構成
 
 これらのイベントは、MetroCluster over IP構成に関係します。
 
 
 
+[[impact-area-availability]]
 === 影響範囲：可用性
 
 |===

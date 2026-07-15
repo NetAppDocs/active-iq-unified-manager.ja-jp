@@ -15,6 +15,7 @@ summary: クラスタイベントは、クラスタのステータスに関す�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 アスタリスク（ * ）は、 Unified Manager イベントに変換された EMS イベントを示します。
@@ -156,6 +157,7 @@ MetroCluster の自動計画外スイッチオーバーが無効（ Document Evt
 |===
 
 
+[[impact-area-capacity]]
 == 影響範囲：容量
 
 |===
@@ -207,6 +209,7 @@ FabricPool スペースがほぼフル * （ fabricpoolNearlyFull ）
 |===
 
 
+[[impact-area-configuration]]
 == 影響範囲：構成
 
 |===
@@ -395,6 +398,7 @@ ONTAP EMS イベントは、 Unified Manager イベントの 3 つの重大度�
 |===
 
 
+[[impact-area-performance]]
 == 影響範囲：パフォーマンス
 
 |===
@@ -468,6 +472,7 @@ ONTAP EMS イベントは、 Unified Manager イベントの 3 つの重大度�
 |===
 
 
+[[impact-area-security]]
 == 影響範囲：セキュリティ
 
 |===

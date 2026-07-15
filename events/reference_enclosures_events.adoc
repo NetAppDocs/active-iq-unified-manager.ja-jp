@@ -15,6 +15,7 @@ summary: エンクロージャのイベントは、データセンター内の�
 
 
 
+[[impact-area-availability]]
 == 影響範囲：可用性
 
 |===
@@ -72,6 +73,7 @@ summary: エンクロージャのイベントは、データセンター内の�
 |===
 
 
+[[impact-area-configuration]]
 == 影響範囲：構成
 
 |===

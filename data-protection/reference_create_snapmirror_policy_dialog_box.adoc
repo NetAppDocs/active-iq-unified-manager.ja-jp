@@ -52,6 +52,7 @@ Configure Protection （保護の設定）ダイアログボックスの SnapMir
 
 
 
+[[command-buttons]]
 == コマンドボタン
 
 各コマンドボタンを使用して次のタスクを実行できます。

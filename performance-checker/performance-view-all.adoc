@@ -21,6 +21,7 @@ summary: すべてのストレージオブジェクトのパフォーマンス�
 
 
 
+[[performance-all-clusters-view]]
 == パフォーマンス：すべてのクラスタビュー
 
 Performance：All Clustersビューには、Unified Managerのインスタンスによって監視されている各クラスタのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、クラスタのパフォーマンスを監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
@@ -44,6 +45,7 @@ NOTE: クラスタ内の各ノードに異なるバージョンのONTAP ソフ�
 
 
 
+[[performance-all-volumes-view]]
 == Performance：All Volumesビュー
 
 Performance：All Volumesビューには、Unified Managerのインスタンスによって監視されている各FlexVol ボリュームおよびFlexGroup ボリュームのパフォーマンスイベント、カウンタデータ、および設定情報の概要が表示されます。このページでは、ボリュームのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
@@ -75,6 +77,7 @@ Performance：All Volumesビューのいくつかの重要なフィールドを�
 
 
 
+[[performance-all-aggregates-view]]
 == パフォーマンス：すべてのアグリゲートが表示されます
 
 Performance：All aggregatesビューには、Unified Managerのインスタンスによって監視されている各アグリゲートのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、アグリゲートのパフォーマンスを監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
@@ -102,6 +105,7 @@ Performance：All aggregatesビューには、Unified Managerのインスタン�
 
 
 
+[[performance-all-nodes-view]]
 == Performance：All Nodesビュー
 
 Performance：All Nodesビューには、Unified Managerのインスタンスによって監視されている各ノードのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ノードのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
@@ -120,6 +124,7 @@ NOTE: Flash Cache読み取りでは、ノードに対する読み取り処理の
 
 
 
+[[performance-all-storage-vms-view]]
 == Performance：All Storage VMビュー
 
 Performance：All Storage VMビューには、Unified Managerのインスタンスによって監視されている各Storage Virtual Machine（SVM）のパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、SVMのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。このページのLatencyフィールドは、すべてのI/O要求の平均応答時間を処理あたりのミリ秒で表示します。
@@ -135,6 +140,7 @@ NOTE: このページに表示されるSVMは、データSVMとクラスタSVM�
 
 
 
+[[performance-all-luns-view]]
 == Performance：All LUNsビュー
 
 Performance：All LUNsビューには、Unified Managerのインスタンスによって監視されている各LUNのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、LUNのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。
@@ -154,6 +160,7 @@ Performance：All LUNsビューには、Unified Managerのインスタンスに�
 
 
 
+[[performance-all-nvme-namespaces-view]]
 == パフォーマンス：すべてのNVMeネームスペースビュー
 
 Performance：All NVMeネームスペースビューには、Unified Managerのインスタンスによって監視されている各NVMeネームスペースのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ネームスペースのパフォーマンスと健全性を簡単に監視し、問題やしきい値イベントをトラブルシューティングすることができます。
@@ -168,6 +175,7 @@ Performance：All NVMeネームスペースビューには、Unified Managerの�
 
 
 
+[[performance-all-network-interfaces-view]]
 == パフォーマンス：すべてのネットワークインターフェイスビュー
 
 Performance：All Network Interfacesビューには、Unified Managerの現在のインスタンスで監視している各ネットワークインターフェイス（LIF）のパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、インターフェイスのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。Performance：All Network Interfacesビューのいくつかの重要なフィールドを次に示します。
@@ -184,6 +192,7 @@ NOTE: このページに表示されるインターフェイスには、デー�
 
 
 
+[[performance-all-ports-view]]
 == Performance：All Portsビュー
 
 Performance：All Portsビューには、Unified Managerのインスタンスによって監視されている各ポートのパフォーマンスイベント、データ、および設定情報の概要が表示されます。このページでは、ポートのパフォーマンスを簡単に監視し、パフォーマンスの問題やしきい値イベントをトラブルシューティングすることができます。ポートロールについては、「Data」または「Cluster」のいずれかのネットワークポート機能が表示されます。FCPポートにはロールを指定できないため、「N/A」と表示されます
@@ -199,6 +208,7 @@ NOTE: パフォーマンスカウンタの値は物理ポートについての�
 
 
 
+[[performance-qos-policy-groups-view]]
 == Performance：QoS Policy Groupsビュー
 
 QoSポリシーグループビューには、Unified Managerが監視しているクラスタで使用可能なQoSポリシーグループが表示されます。これには、従来のQoSポリシー、アダプティブQoSポリシー、およびパフォーマンスサービスレベルを使用して割り当てられたQoSポリシーが含まれます。
