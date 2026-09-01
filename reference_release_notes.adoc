@@ -7,7 +7,7 @@ summary: Active IQ Unified Manager 9.18 の新機能、制限事項、既知の�
 = リリースノート
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

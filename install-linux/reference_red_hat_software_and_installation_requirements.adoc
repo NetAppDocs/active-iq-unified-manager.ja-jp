@@ -37,11 +37,11 @@ NOTE: 脆弱性スキャナ（Qualysなど）を使用すると、内部（Unifi
 [[third-party-software]]
 == サードパーティ製ソフトウェア
 
-Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3はUnified Managerにバンドルされ、設定されています。
+Unified Manager は、WildFly ウェブサーバーにデプロイされます。WildFly 27.0.1.Final は Unified Manager にバンドルされ、設定されています。
 
 次のサードパーティパッケージが必要ですが、 Unified Manager には含まれていません。これらのパッケージは ' インストール中に 'yum' インストーラによって自動的にインストールされますただし ' 次のセクションで説明するようにリポジトリを設定している必要があります
 
-* MySQL Community Edition バージョン 8.4.7 (MySQL リポジトリから)
+* MySQL Community Edition バージョン 8.4.10 （MySQL リポジトリより）
 * OpenJDK バージョン 17.0.14+6 (Red Hat Extra Enterprise Linux Server リポジトリから)
 * Python 3.13.3 (Red Hat Extra Enterprise Linux Server リポジトリから)
 * 7zip バージョン 7z2301-linux-x64。詳細については、 link:task_configure_7zip_package.html["7-zipソフトウェアパッケージを構成する"]。

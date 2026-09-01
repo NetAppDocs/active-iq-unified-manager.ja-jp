@@ -11231,7 +11231,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">OpenJDK のリリースはリリースファミリー内で更新できます。たとえば、OpenJDK 11.0.16からOpenJDK 11.0.18にアップグレードできますが、OpenJDK 11からOpenJDK 12に直接更新することはできません。</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">作成されたからディレクトリとファイルをコピーします<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> ディレクトリ（例：<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> Javaがインストールされている場所に移動します。例<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
-  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager は WildFly Web サーバに導入されます。WildFly 26.1.3はUnified Managerにバンドルされ、設定されています。</block>
   <block id="cda5e923848265fa933cb0a9b4e6bbd4" category="summary">不要になったvCenter ServerはActive IQ Unified Managerインスタンスから削除できます。</block>
   <block id="376e03ef3aadcc01297e928d6cef623c" category="paragraph">Active IQ Unified ManagerインスタンスからvCenter Serverを削除できます。たとえば、vCenter Serverの検出が失敗した場合や不要になった場合は、vCenter Serverを削除できます。</block>
   <block id="ea11a696566494f3e2f7f7bfc07d792d" category="paragraph">vCenter Serverを削除すると、そのvCenterでホストされているすべての仮想マシン（VM）とその設定データも削除されます。削除したvCenter Serverは、関連付けられているオブジェクトおよび履歴データとともに監視されなくなります。これらの変更は、vCenterおよび仮想マシンのインベントリページに反映されます。</block>
@@ -11404,7 +11403,6 @@
   <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">ASA R2システムを除くすべてのクラスタがサポートされます。</block>
   <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。必要に応じてzipファイルを展開し、インストールファイルがあるディレクトリに移動します。Unified Managerインストーラの実行可能ファイル（.exe）を右クリックし、管理者として実行します。</block>
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">データディレクトリの容量を追加する手順は、Unified ManagerをVMware ESXiサーバ、Red Hat Linuxサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。</block>
-  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Visual Studio 2015バージョン14.26.28720.3のMicrosoft Visual C&amp;#43;&amp;#4;&amp;#43;再頒布可能パッケージ</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始する前に</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*何。始める前に</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">Workflow Automationのバージョンが5.1.1P6以降である必要があります。</block>
@@ -12028,7 +12026,6 @@
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Active IQ Unified Managerリリース9.14または9.16からリリース9.18へのアップグレードのみ可能です。</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Active IQ Unified Manager仮想アプライアンスは、リリース9.14または9.16から9.18にアップグレードできます。</block>
   <block id="8cd86d5cc1d7f96f096a4fd291bb6b49" category="list-text">Python 3.13.3</block>
-  <block id="bf5c4735a7e8e52a987541b7e8480ae8" category="list-text">7-zip バージョン 24.09 以降</block>
   <block id="9326ef08a2cce5f24e4147815b8da2ec" category="list-text">*このプログラムをアンインストール*を選択します。  3.13.3 以外のすべてのバージョンの Python をアンインストールします。  Python バージョン 3.13.3 が保持されていることを確認してください。</block>
   <block id="b81c3af237acc4744b6e92fee57771e0" category="inline-link-macro">Oracle Java SE 17 アーカイブ ダウンロード ページ</block>
   <block id="885b083e37169e9e86b9244a1e9616e4" category="paragraph">たとえば、<block ref="e8f39d9e2a4ab6624a21e71fb252a9a9" prefix=" " category="inline-code"></block>ファイルから<block ref="d88dbe6bf412b9681e16c6a0a4b735ac" category="inline-link-macro-rx"></block>。</block>
@@ -12053,7 +12050,6 @@
   <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">RHEL 2026へのインストールフロー</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Managerに必要なソフトウェアをセットアップする</block>
-  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition バージョン 8.4.7 (MySQL リポジトリから)</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">7-zipソフトウェアパッケージを構成する</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip バージョン 7z2301-linux-x64。詳細については、 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
@@ -12076,19 +12072,14 @@
   <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">実行権限を設定します。</block>
   <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">インストールを確認する</block>
   <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">7-zip パッケージがシステムに正常にインストールされていることを確認します。</block>
-  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 Community Edition</block>
   <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7-ジップ</block>
   <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
-  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">MySQL 8.4.7 Community Editionより前のMySQLバージョンがインストールされている場合、次のコマンドを入力してアンインストールします。</block>
   <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、JDK 17 - OpenJDK、7-zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
   <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Red Hat Enterprise Linux 8 システムの場合、java-17-openjdk、7-zip、および AppStream リポジトリによって提供されるその他のソフトウェア パッケージを含む内部リポジトリがある場合は、AppStream リポジトリを無効にして、MySQL Community Server をインストールする必要があります。次のコマンドを実行します。</block>
   <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">この手順では、関連付けられているすべてのNetApp RPM パッケージが削除されます。Java、MySQL、7zip などの前提条件となるソフトウェア モジュールは削除されません。</block>
   <block id="95570f21954a110ac5842214143555f2" category="list-text">*オプション:* 必要に応じて、Java、MySQL、7zip などのサポート ソフトウェア モジュールを削除します。</block>
   <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
   <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Unified Manager をアップグレードする前に、7-zip の正しいバージョンをインストールするか、正しいバージョンにアップグレードする必要があります。見る <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
-  <block id="7efa98bf218af7d91336f05884607943" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.4.7より前の場合は、Unified Managerのアップグレード プロセスによって8.4.7に自動的にアップグレードされます。</block>
-  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL Community Editionバージョン8.4.7</block>
-  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.4.7より前の場合は、Unified Managerのアップグレード プロセスによって8.4.7に自動的にアップグレードされます。MySQLを単体で旧バージョンから8.4.7へアップグレードしないでください。</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">必要なソフトウェアをセットアップする</block>
   <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">次のいずれかのシナリオでは、スナップショットからディレクトリまたはボリュームを復元することはできません：</block>
   <block id="1682df86d53dde8a42b648d552487863" category="list-text">*はい、すべてのスナップショットのコピーを保存します*オプションが選択されています。</block>
@@ -12113,4 +12104,14 @@
   <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>を参照してください。</block>
   <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。ノード制限、CPU、メモリの推奨事項については、<block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="18fbc72e34f6db6cc2a91021a22f6685" category="paragraph">Unified Manager は、WildFly ウェブサーバーにデプロイされます。WildFly 27.0.1.Final は Unified Manager にバンドルされ、設定されています。</block>
+  <block id="b4f0bab6ced5839d1e92ed79131b11a2" category="list-text">MySQL Community Edition バージョン 8.4.10 （MySQL リポジトリより）</block>
+  <block id="b615c4e0b0d7c85d2dee3a6fd975b521" category="paragraph">MySQL 8.4.10 Community Edition</block>
+  <block id="97393a61ddf5f5207980a27b12ed3e8a" category="list-text">MySQL 8.4.10 Community Editionより前のMySQLバージョンがインストールされている場合、次のコマンドを入力してアンインストールします。</block>
+  <block id="bcdcfd5bc4aef222651ee23de0c085ab" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.4.10より前の場合は、Unified Managerのアップグレード プロセスによって8.4.10に自動的にアップグレードされます。</block>
+  <block id="c76f3bc063be89828b42e514a84a8002" category="list-text">Microsoft Visual C++ Redistributable Packages for Visual Studio 2015 version 14.29.30133.0</block>
+  <block id="1e908f9a2431bb5d3c2c424f38255dfb" category="list-text">MySQL Community Editionバージョン8.4.10</block>
+  <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK バージョン 17.0.15+6</block>
+  <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip バージョン 25.01 以降</block>
+  <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.4.10より前の場合は、Unified Managerのアップグレード プロセスによって8.4.10に自動的にアップグレードされます。MySQLを単体で旧バージョンから8.4.10へアップグレードしないでください。</block>
 </blocks>
