@@ -111,7 +111,6 @@
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">あなたはアプリケーション管理者です。</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">REST API 処理を実行するクラスタは ONTAP 9.5 以降でサポートされており、クラスタは HTTPS 経由で Unified Manager に追加されます。</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">次の図は、 ONTAP of 問題ボリュームの容量使用に関するトラブルシューティングワークフローの各手順を示しています。</block>
-  <block id="3a4d571f6dbcd3bcf57d5650a8d35570" category="image-alt">API ゲートウェイの ONTAP ワークフロー</block>
   <block id="76b26371e1f301a312db4d2d46c9befe" category="paragraph">このワークフローでは、 Unified Manager と ONTAP REST API の呼び出しポイントを取り上げます。</block>
   <block id="015fada14012e66a3870b9ed0e2d6370" category="list-text">ボリュームの容量利用率を通知するイベントからボリューム名をメモします。</block>
   <block id="2217533b12d59ed2edfb6646b767c321" category="list-text">name パラメータにボリューム名を指定し、次の Unified Manager API を実行してボリュームを照会します。</block>
@@ -219,7 +218,6 @@
   <block id="3e0d371dd6a28821e66400a80ae3293e" category="paragraph">アグリゲート用のデータセンター API は、使用可能スペースと使用済みスペース、およびスペース削減の効率化設定に関する関連情報を取得します。また、指定した属性に基づいて取得した情報をフィルタすることもできます。</block>
   <block id="b9264bc886fe551515446d6838f25b9a" category="paragraph">アグリゲートにスペースが不足しているかどうかを確認する方法の 1 つは、オートサイズモードを有効にした環境内にボリュームがあるかどうかを確認することです。次に、過剰に利用されているボリュームを特定し、対処を行う必要があります。</block>
   <block id="cc41b5742653a83710790622472b075b" category="paragraph">次のフローチャートは、オートサイズモードが有効になっているボリュームに関する情報を取得するプロセスを示しています。</block>
-  <block id="ad39018ca13824e28f2f9a2cce72cc67" category="image-alt">スペース使用量</block>
   <block id="4813b0ff95088b1a2c693a9318f0938d" category="paragraph">このフローは、クラスタがすでに ONTAP に作成され、 Unified Manager に追加されていることを前提としています。</block>
   <block id="fc534cd4a3c07959344fdc4231e736c7" category="list-text">値がわからないかぎりクラスタキーを取得します。</block>
   <block id="ae5c880b0329ee8b59031ec6a7a9e6af" category="paragraph">「 /datacenter /cluster/clusters 」です</block>
@@ -406,7 +404,6 @@
   <block id="a724824e30a799c8ab8ad6d07591372f" category="summary">Active IQ Unified Manager に付属のプロビジョニング API を使用して、 Storage Virtual Machine （ SVM ）に CIFS 共有と NFS ファイル共有をプロビジョニングできます。このプロビジョニングワークフローでは、ファイル共有を作成する前に SVM 、パフォーマンスサービスレベル、およびストレージ効率化ポリシーのキーを取得する手順について詳しく説明します。</block>
   <block id="f2ccc9d1761d3b100ebf0fcbd617c176" category="doc">CIFS および NFS ファイル共有のプロビジョニング</block>
   <block id="3e1dc833276a15580a0b71db58bdd106" category="paragraph">次の図は、ファイル共有のプロビジョニングワークフローの各手順を示しています。ワークフローには、 CIFS 共有と NFS ファイル共有の両方のプロビジョニングが含まれています。</block>
-  <block id="a05f62bb5424e0dbdce8b06a07661d97" category="image-alt">ファイル共有を作成します</block>
   <block id="a3ba5a3fd33b03f148e52fd833cda7c3" category="paragraph">次の点を確認します。</block>
   <block id="0ee7a846dbd3fbb321e0498c8fec35e0" category="list-text">ONTAP クラスタが Unified Manager に追加され、クラスタキーが取得されている必要があります。</block>
   <block id="8e7dd4aa06ca40063b5d0e3de192e4d5" category="list-text">クラスタに SVM が作成されている必要があります。</block>
@@ -443,7 +440,6 @@
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">データセンターのストレージオブジェクトがしきい値を超えると、そのイベントに関する通知が表示されます。この通知を使用すると、問題を分析し、イベント API を使用して対処することができます。</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">データセンターのストレージオブジェクトがしきい値を超えると、そのイベントに関する通知が表示されます。この通知を使用すると、問題を分析し、「 events 」 API を使用して修正措置をとることができます。</block>
   <block id="97018b0a09f5dff8883bbaab1edaacde" category="paragraph">このワークフローでは、リソースオブジェクトとしてボリュームの例を使用します。「 events 」 API を使用すると、ボリュームに関連するイベントのリストを取得し、そのボリュームの重要な問題を分析してから、問題を修正するための修正措置を講じることができます。</block>
-  <block id="48d9352b608ff2804faa4c081f2c725c" category="image-alt">ストレージオブジェクトフローチャートのイベント関連の問題への対処</block>
   <block id="730bf6325271b1c0c231fa74b6b0fe8a" category="paragraph">修復手順を実行する前に、次の手順に従ってボリュームの問題を特定します。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="ba7662ee18a758af81108e87e6f415fd" category="list-text">データセンター内のボリュームに関する重要な Active IQ Unified Manager イベント通知を分析できます。</block>
@@ -461,7 +457,6 @@
   <block id="c20a54ace8febd13915bab7ed9c22b2b" category="summary">Active IQ Unified Manager に付属のプロビジョニング API を使用して、 Storage Virtual Machine （ SVM ）に LUN をプロビジョニングできます。このプロビジョニングワークフローでは、 LUN を作成する前に SVM 、パフォーマンスサービスレベル、およびストレージ効率化ポリシーのキーを取得する手順について詳しく説明します。</block>
   <block id="9da912bee7145f0b3f8cdfc8f064d2b7" category="doc">LUN のプロビジョニング</block>
   <block id="95ce53c30b31cee49bc8d6de45470e16" category="paragraph">次の図は、 LUN のプロビジョニングワークフローの手順を示しています。</block>
-  <block id="eb6c9e70579153da1799b8b5852bc08a" category="image-alt">LUNs を作成します</block>
   <block id="ef1400db90d4de5f78f6366f581fba2a" category="paragraph">このワークフローは、 ONTAP クラスタが Unified Manager に追加され、クラスタキーが取得されていることを前提としています。また、 SVM がすでにクラスタに作成されていることも前提としています。</block>
   <block id="f51de5616e6ee7f9e60c306178f36de1" category="list-text">LUN を作成する SVM の SVM キーを取得します。詳細については、「クラスタテノ SVM ノサクシヨ _ ワークフロー」のトピックを参照してください。</block>
   <block id="e5aab0148907d8f1db63d8d841d558c0" category="list-text">必要に応じて、次の API を実行し、応答から LUN に適用するストレージ効率化ポリシーのキーを取得します。</block>
@@ -2630,7 +2625,6 @@
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">MySQL データベースダンプを使用したバックアップとリストア</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">データベースダンプバックアップは、バックアップディレクトリ内の 1 つのファイルとデータベースリポジトリディレクトリ内の 1 つ以上のファイルで構成されます。バックアップディレクトリ内のファイルは非常に小さく、バックアップを再作成するために必要なデータベースリポジトリディレクトリ内のファイルへのポインタのみが含まれます。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">データベースバックアップの初回生成時は、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルがデータベースリポジトリディレクトリに作成されます。次にバックアップを生成するときは、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルとの差分を含む増分バックアップファイルがデータベースリポジトリディレクトリに作成されます。追加のバックアップを作成すると、次の図に示すように、最大保持設定までこのプロセスが繰り返されます。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">データベースのバックアップ</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">これらの 2 つのディレクトリ内のバックアップファイルは、名前を変更したり削除したりしないでください。それらの処理を行うと、以降のリストア処理が失敗します。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">バックアップファイルをローカルシステムに書き込む場合、完全なリストアを必要とするシステム問題があるときに使用できるように、バックアップファイルをリモートの場所にコピーするプロセスを開始する必要があります。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">バックアップ処理を開始する前に、 Active IQ Unified Manager で整合性チェックが実行され、必要なすべてのバックアップファイルとバックアップディレクトリが存在し、書き込み可能であることが確認されます。また、バックアップファイルを作成できるだけの十分なスペースがシステムにあるかどうかも確認されます。</block>
@@ -4313,7 +4307,6 @@
   <block id="0e8433f9a404f1f3ba601c14b026d321" category="paragraph">HTTPS</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">インストール手順の概要</block>
-  <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">全体的な um インストールフロー</block>
   <block id="19f37b6c4f24bb13df7dd127a8bef89e" category="summary">JRE などのサードパーティ製品が Windows システムにインストールされている場合は、 Unified Manager でそれらの製品をアップグレードできます。</block>
   <block id="88f52a8d98ed293c3b3467272c571594" category="paragraph">これらのサードパーティ製品を開発する企業は、定期的にセキュリティの脆弱性を報告しています。このソフトウェアの新しいバージョンには、独自のスケジュールでアップグレードできます。</block>
   <block id="f4d5e78b085b0eab90a0158473fd3527" category="summary">コマンドラインインターフェイスを使用して、手動操作なしで Unified Manager をインストールできます。無人インストールを実行するには、キーと値のペアの形式でパラメータを渡します。</block>
@@ -4461,7 +4454,6 @@
   <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">NetApp Interoperability Matrix Tool で確認できます</block>
   <block id="687d97208bee730c33801be1d460abf6" category="paragraph"><block ref="687d97208bee730c33801be1d460abf6" category="inline-link-rx"></block></block>
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">インストールプロセスの概要</block>
-  <block id="3c5dd4e02fb7c5614c57b78a81e01819" category="image-alt">Windows にフローをインストールします</block>
   <block id="688dd421579f9ca49f8068cf7c5fc387" category="summary">設定を変更した場合、 Unified Manager の再起動が必要になることがあります。</block>
   <block id="f5f16fbe929ef4fb3a1beb89092f1fcf" category="list-text">Unified Manager のサービスを停止します。</block>
   <block id="8b9799c93c16edd687abfdb1ffc25984" category="cell">方法</block>
@@ -4816,7 +4808,6 @@
   <block id="cdf293ee43f03915a3f7f1de53213e71" category="list-text">SNMP トラップをトラップレシーバに送信できます。</block>
   <block id="2c19ee2f43897bbfea72b8dc73f92e0c" category="list-text">アクションを実行するカスタムスクリプトを実行できます。</block>
   <block id="330d4432442808d2f6e07aef3daa80da" category="paragraph">このワークフローを次の図に示します。</block>
-  <block id="bc4368d495f9c35aae14c797a81d5c9e" category="image-alt">UM パフォーマンスしきい値イベントのフロー</block>
   <block id="7d35cfe4e8314aac138a164bde8b6177" category="summary">サービスプロセッサイベントは、プロセッサのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="26792051b641e1103047c6002dcb59b1" category="doc">サービスプロセッサイベント</block>
   <block id="bdc918b5845232c51c59e7d6736fa1f7" category="paragraph">サービスプロセッサが設定されていません（ Document EvtServiceProcessorNotConfigured ）</block>
@@ -8064,7 +8055,6 @@
   <block id="57c10d759e86cc8b9d09f0bca8a5408a" category="paragraph">レポートに表示された結果を基に、ネットワーク全体で使用可能な容量を最大限に活用する方法を調査できます。</block>
   <block id="ed48b981e2bb947abc52be3e3b172706" category="summary">レポートのワークフローを説明するデシジョンツリー。</block>
   <block id="784fca41cf2612fc0bc6eb124a244bd2" category="doc">レポートワークフロー</block>
-  <block id="78c9a95829a3975e642126c077b652b2" category="image-alt">レポートビューのワークフロー</block>
   <block id="cf34db983c807f1b3f9a4ea61d46d60a" category="summary">REST API を使用すると、 Unified Manager で収集された健全性、容量、パフォーマンス、セキュリティの情報を確認することができ、クラスタの管理に便利です。</block>
   <block id="d4ebc5d6d732b6ec32a446521b4a3d9a" category="doc">レポート作成に使用できる Unified Manager REST API</block>
   <block id="e562c08e75037d1102362250b8921681" category="paragraph">REST API にアクセスするには、オペレータ、ストレージ管理者、またはアプリケーション管理者のロールが必要です。</block>
@@ -8572,7 +8562,6 @@
   <block id="1af81fdbc1ff6d07a3324897a2fe46cc" category="list-text">チェックサムを確認して、ソフトウェアが正しくダウンロードされたことを確認します。</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">以下は、 Unified Manager を使用する前に必要な導入作業のワークフローです。</block>
   <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">導入プロセスの概要</block>
-  <block id="726763bf5aecf665420de6eeab308805" category="image-alt">展開シーケンス OC 6 0</block>
   <block id="186ee8f743cf6f79dae8d8b6579d0b17" category="summary">Unified Manager 仮想アプライアンスはアップグレードできます</block>
   <block id="d9a8a070a49436c3c76ab9b3ca5a89ff" category="list-text">ネットアップサポートサイトから ISO イメージのアップグレードファイルをダウンロードしておきます。</block>
   <block id="d24355e99c12f5ea949a960382388c4a" category="list-text">Unified Manager をアップグレードするシステムがシステム要件とソフトウェア要件を満たしている必要があります。</block>
@@ -8942,7 +8931,6 @@
   <block id="e01f0446244e0c1d2861e95f0b27e3eb" category="paragraph">ネットワークインターフェイスを追加するには、変更をコミットする必要があります。</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">以下は、 Unified Manager を使用する前に必要な設定作業のワークフローです。</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">設定手順の概要</block>
-  <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">インストール後のフロー</block>
   <block id="fa53c7cb4994714cce10ec00d5090ab4" category="summary">仮想マシンは、 Unified Manager のメンテナンスコンソールから再起動できます。新しいセキュリティ証明書を生成した場合や仮想マシンで問題が発生した場合、仮想マシンの再起動が必要になります。</block>
   <block id="ee688959ddb26212958a9d3a5141612d" category="paragraph">仮想アプライアンスの電源をオンにします。</block>
   <block id="1385afee2808fd6573c97f85634386be" category="paragraph">メンテナンスコンソールにメンテナンスユーザとしてログインします。</block>
@@ -9562,9 +9550,7 @@
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">一般的なウィンドウレイアウト</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">次の図のすべての要素がすべてのウィンドウに含まれているわけではありません。</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">オブジェクトリストウィンドウのレイアウト</block>
-  <block id="6eaa6c9903ef182946f5bf66eee73304" category="image-alt">オブジェクトリスト</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">オブジェクト詳細ウィンドウのレイアウト</block>
-  <block id="7ce88d49c4ef0cb2d159967d47029a6e" category="image-alt">オブジェクトの詳細</block>
   <block id="3f3b34b0136f671163c63d1caeb6ab5c" category="paragraph">パフォーマンス統計の収集が時間内に完了しなかった場合、「 Unable to consistently collect from cluster &lt;cluster_name&gt; or Data collection is taking too long on cluster &lt;cluster_name&gt; 」というバナーメッセージが表示されます問題</block>
   <block id="26d330db3319c353dc85634ecb6ffc76" category="paragraph">Unified Manager の導入で、「ハードディスク 3 」ではなく「ハードディスク 2 」が使用されることがあります。これが導入環境で発生した場合は、ディスクのサイズを大きくします。データディスクには、常に他のディスクよりも多くの容量があります。</block>
   <block id="78c910be2d02be149eda5b48c822894e" category="list-text">* メインメニュー * で、 * システム構成 * オプションの番号を入力します。</block>
@@ -10124,10 +10110,8 @@
   <block id="c513bb45e58fc45e3ec83dab5da7da36" category="list-text">VMDK ：仮想ディスク用のストレージスペースを提供するデータストア上の仮想マシンディスクです。仮想ディスクごとに対応する VMDK があります。</block>
   <block id="56ebd08e1cbf3f9df816c1f70ba60dff" category="paragraph">これらのオブジェクトは VM トポロジビューに表示されます。</block>
   <block id="8a07986e324a4a34c7cfeb47a2736741" category="paragraph">* ONTAP での VMware 仮想化 *</block>
-  <block id="e8509cc177acaa157f47a7b0164d3a1f" category="image-alt">VM の導入</block>
   <block id="375aae8872c43ab2f8538114dccc92c7" category="paragraph">* ユーザーワークフロー *</block>
   <block id="f85ada8d3fc041341df44b187b48d4f1" category="paragraph">次の図は、 VM トポロジビューを使用する一般的なユースケースを示しています。</block>
-  <block id="33e759e1731579239486744935dbb489" category="image-alt">VM ワークフロー</block>
   <block id="ab54009fea66778938a808305a2f0e4d" category="section-title">サポートされない機能：</block>
   <block id="71ea79c55d09192e3c60b68484e514d5" category="list-text">vCenter Server インスタンスにマッピングされている ONTAP 外部のデータストアは、 Unified Manager ではサポートされません。これらのデータストアに仮想ディスクがある VM もサポートされません。</block>
   <block id="56036578c66036279dbd8f75e9437dc3" category="list-text">複数の LUN にまたがるデータストアはサポートされません。</block>
@@ -12047,7 +12031,6 @@
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">System ManagerでONTAP証明書を管理する</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*関連情報* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
   <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Unified Managerセッションの非アクティブタイムアウトを設定する</block>
-  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">RHEL 2026へのインストールフロー</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Managerに必要なソフトウェアをセットアップする</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
@@ -12114,4 +12097,21 @@
   <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK バージョン 17.0.15+6</block>
   <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip バージョン 25.01 以降</block>
   <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Editionは、Unified Managerのアップグレード時に自動的にアップグレードされます。システムにインストールされているMySQLのバージョンが8.4.10より前の場合は、Unified Managerのアップグレード プロセスによって8.4.10に自動的にアップグレードされます。MySQLを単体で旧バージョンから8.4.10へアップグレードしないでください。</block>
+  <block id="1cc30bff2b84e7dbb26c93008946368f" category="image-alt">イベント一覧表示から是正措置、終了までのボリュームイベント分析を示すフローチャート</block>
+  <block id="d98ce8622bc7c722fcaa50d67a9cc960" category="image-alt">Unified Manager と ONTAP API のボリューム容量アラートのトラブルシューティング手順を示す図</block>
+  <block id="7ac0c5f50fb7cdf3dbaf55523a74903e" category="image-alt">SVMの設定から共有の作成まで、CIFSおよびNFSファイル共有のプロビジョニングワークフローを示す図</block>
+  <block id="b9754edcea8e7458a4fc4b43059bdbef" category="image-alt">ストレージVM、サービスレベル、igroupの手順を含む、LUN作成のワークフローを示す図</block>
+  <block id="f62942f0e6b5f47ad12ab0f0a5f5a152" category="image-alt">クラスタアグリゲート内で過剰利用されている自動サイズモード有効ボリュームを特定するためのフローチャート</block>
+  <block id="94d1891c253fd9543379f72f98b66db2" category="image-alt">Unified Managerの初期構成ワークフローと管理設定タスクを示す図</block>
+  <block id="164f08e4aee5d801ac4725f2a6956d02" category="image-alt">カウンター収集からメール通知までのしきい値イベント処理を示す図</block>
+  <block id="2300be0d474b8db24490f2217835c7d6" category="image-alt">データベースリポジトリ内のフルバックアップファイルと増分バックアップファイルを指す3つのバックアップディレクトリファイルを示す図</block>
+  <block id="124e47082818e619d401d9bdfe8d24ff" category="image-alt">Red Hat Linux 上での前提条件、Unified Manager のインストール、および初期構成のワークフローを示す図</block>
+  <block id="ef63b242e03a7363693688e53654ba1a" category="image-alt">Unified Managerのインストール、初期設定、および管理設定のワークフローを示す図</block>
+  <block id="9e937dd680d7be51e4bfb7fcebb49a52" category="image-alt">Unified Managerの展開前提条件、アプライアンスの展開、および初期構成手順を示す図</block>
+  <block id="611e3261f759280b352d61fb660a297c" category="image-alt">前提条件、Unified Manager のインストール、および初期構成のワークフロー手順を示す図</block>
+  <block id="a4f4483ccd93f8d27cc242331a618d06" category="image-alt">レポートの表示、カスタマイズ、アップロード、ダウンロードに関する意思決定ツリーワークフローを示す図</block>
+  <block id="76bf2fdea1570becb5b97b7df5f76c5a" category="image-alt">VMwareホスト、VM、データストア、VMDK、IPネットワーク、およびストレージ接続を示す図</block>
+  <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">コンピューティング、ネットワーク、ストレージの各レイヤーにわたるVMアプリケーションのレイテンシを特定するためのワークフローを示す図</block>
+  <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">ナビゲーション、検索、フィルター、レポートコントロールにラベルが付いたActive IQ Unified Managerオブジェクトリストウィンドウのスクリーンショット</block>
+  <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">タブ、容量詳細、関連オブジェクト、履歴、およびイベントを含む Active IQ Unified Manager のボリューム詳細ウィンドウを示すスクリーンショット</block>
 </blocks>

@@ -15,7 +15,7 @@ Active IQ Unified Manager に付属のプロビジョニング API を使用し�
 
 次の図は、ファイル共有のプロビジョニングワークフローの各手順を示しています。ワークフローには、 CIFS 共有と NFS ファイル共有の両方のプロビジョニングが含まれています。
 
-image::../media/create_fileshares.gif[ファイル共有を作成します]
+image::../media/create_fileshares.gif[SVMの設定から共有の作成まで、CIFSおよびNFSファイル共有のプロビジョニングワークフローを示す図]
 
 [NOTE]
 ====

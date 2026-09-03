@@ -20,11 +20,11 @@ summary: 一般的なウィンドウレイアウトを理解しておくと、 A
 [[object-list-window-layout]]
 == オブジェクトリストウィンドウのレイアウト
 
-image::../media/object_list.png[オブジェクトリスト]
+image::../media/object_list.png[ナビゲーション、検索、フィルター、レポートコントロールにラベルが付いたActive IQ Unified Managerオブジェクトリストウィンドウのスクリーンショット]
 
 
 
 [[object-details-window-layout]]
 == オブジェクト詳細ウィンドウのレイアウト
 
-image::../media/object_details.gif[オブジェクトの詳細]
+image::../media/object_details.gif[タブ、容量詳細、関連オブジェクト、履歴、およびイベントを含む Active IQ Unified Manager のボリューム詳細ウィンドウを示すスクリーンショット]

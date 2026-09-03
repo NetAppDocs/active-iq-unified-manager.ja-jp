@@ -28,7 +28,7 @@ summary: ゲートウェイ API はゲートウェイとして機能し、 ONTAP
 ====
 次の図は、 ONTAP of 問題ボリュームの容量使用に関するトラブルシューティングワークフローの各手順を示しています。
 
-image::../media/api_gateway_ontap_workflow.gif[API ゲートウェイの ONTAP ワークフロー]
+image::../media/api_gateway_ontap_workflow.gif[Unified Manager と ONTAP API のボリューム容量アラートのトラブルシューティング手順を示す図]
 
 このワークフローでは、 Unified Manager と ONTAP REST API の呼び出しポイントを取り上げます。
 

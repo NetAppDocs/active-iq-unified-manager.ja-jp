@@ -25,4 +25,4 @@ Alert Setup ページでの設定に応じて、これらのイベントにつ�
 
 このワークフローを次の図に示します。
 
-image::../media/um_perf_threshold_event_flow.gif[UM パフォーマンスしきい値イベントのフロー]
+image::../media/um_perf_threshold_event_flow.gif[カウンター収集からメール通知までのしきい値イベント処理を示す図]

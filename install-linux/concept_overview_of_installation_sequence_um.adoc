@@ -15,4 +15,4 @@ summary: 以下は、 Unified Manager を使用する前に必要なインスト
 
 ここでは、次のワークフローに示されている各項目について説明します。
 
-image::../media/overall_um_install_flow.png[全体的な um インストールフロー]
+image::../media/overall_um_install_flow.png[Unified Managerのインストール、初期設定、および管理設定のワークフローを示す図]

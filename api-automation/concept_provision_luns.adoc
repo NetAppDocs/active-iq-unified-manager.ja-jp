@@ -15,7 +15,7 @@ Active IQ Unified Manager に付属のプロビジョニング API を使用し�
 
 次の図は、 LUN のプロビジョニングワークフローの手順を示しています。
 
-image::../media/create_luns.gif[LUNs を作成します]
+image::../media/create_luns.gif[ストレージVM、サービスレベル、igroupの手順を含む、LUN作成のワークフローを示す図]
 
 [NOTE]
 ====

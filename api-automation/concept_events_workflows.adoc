@@ -15,7 +15,7 @@ summary: データセンターのストレージオブジェクトがしきい�
 
 このワークフローでは、リソースオブジェクトとしてボリュームの例を使用します。「 events 」 API を使用すると、ボリュームに関連するイベントのリストを取得し、そのボリュームの重要な問題を分析してから、問題を修正するための修正措置を講じることができます。
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[ストレージオブジェクトフローチャートのイベント関連の問題への対処]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[イベント一覧表示から是正措置、終了までのボリュームイベント分析を示すフローチャート]
 
 修復手順を実行する前に、次の手順に従ってボリュームの問題を特定します。
 

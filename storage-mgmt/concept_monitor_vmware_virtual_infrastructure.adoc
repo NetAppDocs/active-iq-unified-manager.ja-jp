@@ -33,13 +33,13 @@ ONTAP ストレージ上に導入される仮想インフラには、次のオ�
 
 * ONTAP での VMware 仮想化 *
 
-image::../media/vm_deployment.gif[VM の導入]
+image::../media/vm_deployment.gif[VMwareホスト、VM、データストア、VMDK、IPネットワーク、およびストレージ接続を示す図]
 
 * ユーザーワークフロー *
 
 次の図は、 VM トポロジビューを使用する一般的なユースケースを示しています。
 
-image::../media/vm_workflow.gif[VM ワークフロー]
+image::../media/vm_workflow.gif[コンピューティング、ネットワーク、ストレージの各レイヤーにわたるVMアプリケーションのレイテンシを特定するためのワークフローを示す図]
 
 
 

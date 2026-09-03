@@ -13,4 +13,4 @@ summary: 以下は、 Unified Manager を使用する前に必要なインスト
 [role="lead"]
 以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。
 
-image::../media/install_flow_on_windows.gif[Windows にフローをインストールします]
+image::../media/install_flow_on_windows.gif[前提条件、Unified Manager のインストール、および初期構成のワークフロー手順を示す図]

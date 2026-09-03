@@ -13,4 +13,4 @@ summary: レポートのワークフローを説明するデシジョンツリ�
 [role="lead"]
 レポートのワークフローを説明するデシジョンツリー。
 
-image::../media/reports_view_workflow.png[レポートビューのワークフロー]
+image::../media/reports_view_workflow.png[レポートの表示、カスタマイズ、アップロード、ダウンロードに関する意思決定ツリーワークフローを示す図]
