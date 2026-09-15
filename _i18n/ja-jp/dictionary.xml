@@ -12114,4 +12114,5 @@
   <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">コンピューティング、ネットワーク、ストレージの各レイヤーにわたるVMアプリケーションのレイテンシを特定するためのワークフローを示す図</block>
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">ナビゲーション、検索、フィルター、レポートコントロールにラベルが付いたActive IQ Unified Managerオブジェクトリストウィンドウのスクリーンショット</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">タブ、容量詳細、関連オブジェクト、履歴、およびイベントを含む Active IQ Unified Manager のボリューム詳細ウィンドウを示すスクリーンショット</block>
+  <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">クラスターを廃止する前に、Unified Managerからクラスターを削除する必要があります。クラスターを削除しようとした時点で、クラスターが既にオフライン状態であるか、アクセス不能な状態である場合、Unified Manager はクラスターと通信してアプリケーションレコードや構成済みのイベント管理システム （EMS） サブスクリプションを削除できません。これにより、削除処理が完了する前に失敗するか、応答しなくなる可能性があります。</block>
 </blocks>
