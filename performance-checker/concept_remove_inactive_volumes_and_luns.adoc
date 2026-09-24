@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, inactive, volumes, luns 
 summary: アグリゲートの空きスペースが問題として識別されている場合は、使用されていないボリュームと LUN を検索してアグリゲートから削除できます。これにより、ディスクスペース不足の問題を軽減できます。 
 ---
-= 非アクティブなボリュームと LUN を削除します
+= Active IQ Unified Manager で非アクティブなボリュームと LUN を削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

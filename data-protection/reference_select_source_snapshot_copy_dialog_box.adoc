@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box 
 summary: ソース Snapshot コピーの選択ダイアログボックスを使用して、保護関係間でデータを転送する特定の Snapshot コピーを選択するか、デフォルトの動作を選択します。選択するオプションは、関係を初期化、更新、再同期するかどうか、および関係が SnapMirror と SnapVault のどちらであるかによって異なります。 
 ---
-= SelectSourceSnapshotCopy タイアロクホツクス
+= Active IQ Unified Manager の「ソーススナップショットコピーの選択」ダイアログボックスを使用します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

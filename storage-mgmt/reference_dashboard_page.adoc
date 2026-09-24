@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: Dashboard ページには、監視しているクラスタの容量、パフォーマンス、およびセキュリティの健全性の概要を示すパネルがあります。このページの管理操作パネルには、 Unified Manager が特定のイベントを解決するために実行できる修正が表示されます。 
 ---
-= ダッシュボードページ
+= Active IQ Unified Manager ダッシュボードページについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

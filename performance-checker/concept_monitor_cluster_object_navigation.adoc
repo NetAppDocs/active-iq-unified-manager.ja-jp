@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, object, navigation 
 summary: Unified Manager で管理しているクラスタ内のすべてのオブジェクトのパフォーマンスを監視できます。ストレージオブジェクトの監視では、クラスタとオブジェクトのパフォーマンスの概要を確認し、パフォーマンスイベントを監視します。パフォーマンスとイベントの総合的な情報を表示することも、オブジェクトのパフォーマンスとパフォーマンスイベントの詳しいデータを表示して調査することもできます。 
 ---
-= クラスタオブジェクト監視時の操作
+= Active IQ Unified Manager でクラスターオブジェクトのナビゲーションを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

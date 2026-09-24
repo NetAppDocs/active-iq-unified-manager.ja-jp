@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: ゲートウェイ API を使用すると、 Active IQ Unified Manager クレデンシャルを使用して ONTAP REST API を実行し、ストレージオブジェクトを管理するという利点が得られます。これらの API は、 Unified Manager Web UI から API ゲートウェイ機能を有効にすると使用できます。 
 ---
-= プロキシアクセスを介してONTAP APIにアクセスする
+= Active IQ Unified Manager のプロキシアクセスを使用して ONTAP API にアクセスする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

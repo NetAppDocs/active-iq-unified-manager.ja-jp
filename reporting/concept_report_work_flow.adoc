@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, workflow 
 summary: レポートのワークフローを説明するデシジョンツリー。 
 ---
-= レポートワークフロー
+= Active IQ Unified Manager のレポートワークフローを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

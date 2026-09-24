@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: Unified Managerは、Red Hat Enterprise Linuxの物理プラットフォームまたは仮想プラットフォームにインストールできます。 
 ---
-= Unified Manager をインストールします
+= Red Hat Enterprise Linux への Active IQ Unified Manager のインストール
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

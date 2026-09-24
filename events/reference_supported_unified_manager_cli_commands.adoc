@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
 summary: ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ： 
 ---
-= Unified Manager の CLI コマンドがサポートされています
+= サポートされている Active IQ Unified Manager CLI コマンドについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

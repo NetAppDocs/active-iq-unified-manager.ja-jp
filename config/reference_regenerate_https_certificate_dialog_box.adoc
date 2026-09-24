@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: regenerate, https certificate, dialog, box 
 summary: HTTPS 証明書の再生成ダイアログボックスでは、セキュリティ情報をカスタマイズし、その情報を使用して新しい HTTPS 証明書を生成できます。 
 ---
-= HTTPS 証明書の再生成ダイアログボックス
+= Active IQ Unified Manager の「HTTPS証明書の再生成」ダイアログボックス
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

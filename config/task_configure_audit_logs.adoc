@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: 監査ログセクションの設定ボタンを使用して、監査ログファイルのローリングポリシーを設定したり、監査ログのリモートロギングを有効にしたりできます。 
 ---
-= Unified Manager監査ログを構成する
+= Active IQ Unified Manager 監査ログの設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

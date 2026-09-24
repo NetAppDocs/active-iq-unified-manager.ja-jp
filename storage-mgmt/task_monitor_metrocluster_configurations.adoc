@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: MetroCluster 構成の接続の問題を監視することができます。クラスタ内のコンポーネントおよび接続のステータス、および MetroCluster 構成のクラスタ間の接続ステータスなどの詳細情報を確認できます。 
 ---
-= MetroCluster 設定を監視する
+= Active IQ Unified Manager での MetroCluster 構成の監視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: ファイル共有または LUN をプロビジョニングする前に、クラスタに Storage Virtual Machine （ SVM ）が作成されているかどうかを確認する必要があります。 
 ---
-= API を使用してクラスタ上の SVM を検証する
+= Active IQ Unified Manager API を使用して ONTAP クラスター上の SVM を確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

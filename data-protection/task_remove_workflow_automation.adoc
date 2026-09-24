@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, oncommand, workflow, automation, setup, unified manager 
 summary: Workflow Automation が不要となった場合は、 Unified Manager から OnCommand Workflow Automation のセットアップを削除できます。 
 ---
-= Unified Manager から OnCommand Workflow Automation セットアップを削除します。
+= Active IQ Unified Manager から OnCommand Workflow Automation の設定を削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

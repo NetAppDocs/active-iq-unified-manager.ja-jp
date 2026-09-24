@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, database, restore 
 summary: MySQL データベースのリストアとは、既存の Unified Manager バックアップファイルを同じまたは別の Unified Manager サーバにリストアする処理です。リストア処理は Unified Manager メンテナンスコンソールから実行します。 
 ---
-= データベースリストアとは何ですか
+= Active IQ Unified Manager でのデータベースのリストアについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

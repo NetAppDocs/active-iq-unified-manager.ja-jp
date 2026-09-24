@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, groups 
 summary: クラスタ、ボリューム、および Storage Virtual Machine （ SVM ）を管理しやすいように、グループを作成して 1 つにまとめることができます。 
 ---
-= グループを追加する
+= Active IQ Unified Manager でグループを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

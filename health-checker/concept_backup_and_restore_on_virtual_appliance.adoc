@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies 
 summary: 仮想アプライアンスにインストールされた Unified Manager のバックアップとリストアのモデルでは、仮想アプリケーション全体のイメージをキャプチャしてリストアします。 
 ---
-= 仮想アプライアンスでの Unified Manager のバックアップとリストア
+= 仮想アプライアンス上の Active IQ Unified Manager のバックアップとリストア
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

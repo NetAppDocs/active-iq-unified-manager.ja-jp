@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, management, inventory, page, filter, components, xommand buttons, list 
 summary: Event Management インベントリページでは、現在のイベントとそのプロパティのリストを表示できます。イベントについて、確認、解決、割り当てなどのタスクを実行することができます。特定のイベントに対するアラートを追加することもできます。 
 ---
-= Event Management のインベントリページ
+= Active IQ Unified Manager のイベント管理インベントリページについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

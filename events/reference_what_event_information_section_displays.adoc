@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, information, section, displays 
 summary: イベントの詳細ページのイベント情報セクションでは、選択したイベントについて、イベントの重大度、影響レベル、影響領域、イベントソースなどの詳細を確認できます。 
 ---
-= [Event Information] セクションに表示される内容
+= Active IQ Unified Manager のイベント情報セクションについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

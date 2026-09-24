@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, groups 
 summary: Unified Manager でグループを作成してストレージオブジェクトを管理できます。 
 ---
-= グループの管理と監視
+= Active IQ Unified Manager でグループを管理および監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

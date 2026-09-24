@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support and diagnostics, menu 
 summary: Support and Diagnostics メニューでは、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信できるサポートバンドルを生成することができます。 
 ---
-= Support and Diagnostics （サポートと診断）メニュー
+= Active IQ Unified Manager のサポートと診断メニューを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

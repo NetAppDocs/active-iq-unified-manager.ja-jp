@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, maintenance, console 
 summary: メンテナンスコンソールでは、ネットワークの設定、 Unified Manager がインストールされているシステムの設定と管理、潜在的な問題の防止とトラブルシューティングに役立つその他のメンテナンスタスクを実行することができます。 
 ---
-= メンテナンスコンソールを使用する
+= Active IQ Unified Manager メンテナンスコンソールの使用
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

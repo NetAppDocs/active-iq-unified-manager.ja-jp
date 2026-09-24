@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation 
 summary: Unified Manager をインストールする前に、カスタムのホームディレクトリを作成し、 umadmin ユーザのパスワードを独自に定義できます。このタスクはオプションですが、サイトによっては Unified Manager のデフォルトのインストール設定とは異なる設定が必要になることがあります。 
 ---
-= インストール前にカスタムユーザーホームディレクトリとumadminパスワードを作成します
+= Active IQ Unified Manager をインストールする前に、カスタムユーザーホームディレクトリと umadmin パスワードを作成してください
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

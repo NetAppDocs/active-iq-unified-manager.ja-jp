@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: saml authentication page 
 summary: SAML 認証ページを使用して、 Unified Manager の Web UI にログインするリモートユーザを SAML を使用してセキュアなアイデンティティプロバイダ（ IdP ）で認証するように Unified Manager を設定できます。 
 ---
-= SAML Authentication ページ
+= Active IQ Unified Manager の SAML 認証ページを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

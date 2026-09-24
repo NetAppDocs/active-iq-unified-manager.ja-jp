@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: Health ： All aggregates ビューでは、アグリゲートのインベントリを監視できます。Capacity ： All Aggregates ビューでは、すべてのクラスタのアグリゲートの容量と使用状況に関する情報を確認できます。 
 ---
-= 集計リストと詳細を表示する
+= Active IQ Unified Manager でアグリゲートのリストと詳細を確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

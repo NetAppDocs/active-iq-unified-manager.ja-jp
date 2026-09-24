@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: tasks, information, workflows 
 summary: Unified Manager の多くのワークフローに、共通のタスク、およびワークフローの理解と実行に役立つ参照情報があります。たとえば、イベントに関するメモの追加と確認、イベントの割り当て、イベントへの応答と解決、ボリューム、 Storage Virtual Machine （ SVM ）、アグリゲートに関する詳細情報、 など。 
 ---
-= 複数のワークフローに関連するタスクと情報
+= Active IQ Unified Manager ワークフローに共通する情報を理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

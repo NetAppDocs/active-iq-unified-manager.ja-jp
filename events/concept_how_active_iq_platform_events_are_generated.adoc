@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active IQ, platform, events, generated 
 summary: Active IQ プラットフォームのインシデントとリスクは、次の図に示すように Unified Manager のイベントに変換されます。 
 ---
-= Active IQ プラットフォームイベントの生成方法
+= Active IQ Unified Manager が Active IQ プラットフォームイベントを生成する仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

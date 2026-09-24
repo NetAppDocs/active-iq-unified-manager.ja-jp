@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: ストレージの合計容量とコミット済み容量を Excel グラフ形式で分析するレポートを作成できます。 
 ---
-= 総計と利用可能な容量のグラフを表示するレポートを作成します
+= Active IQ Unified Manager でアグリゲートの合計容量と使用可能な容量のグラフを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

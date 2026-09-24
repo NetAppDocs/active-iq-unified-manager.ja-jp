@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box 
 summary: アグリゲートダイアログボックスを使用して、リソースプールに追加するアグリゲートを選択できます。 
 ---
-= Aggregates タイアロクホツクス
+= Active IQ Unified Manager のアグリゲートダイアログボックスを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

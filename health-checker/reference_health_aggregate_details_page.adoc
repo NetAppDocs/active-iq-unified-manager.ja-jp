@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, aggregate, health details page 
 summary: アグリゲート / 健全性の詳細ページでは、選択したアグリゲートについて、容量、ディスク情報、設定の詳細、生成されたイベントなどの詳細情報を確認できます。また、そのアグリゲートに関連するオブジェクトやアラートに関する情報も参照できます。 
 ---
-= アグリゲート / 健全性の詳細ページ
+= Active IQ Unified Manager でアグリゲート／健全性の詳細ページを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

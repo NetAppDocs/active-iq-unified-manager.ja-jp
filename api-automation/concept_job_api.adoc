@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: management-server カテゴリのジョブ API を使用すると、非同期処理の実行の詳細を表示できます。 
 ---
-= ジョブとシステムの詳細を表示する
+= Active IQ Unified Manager でAPIを使用してジョブとシステムの詳細を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

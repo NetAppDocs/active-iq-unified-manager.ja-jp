@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, broken disks, aggregate 
 summary: Unified Manager Web UI を使用して、ボリュームがオフラインになっている原因が、 RAID ディスクの問題によりそのホストアグリゲートがオフラインになったためであるかどうかを確認することができます。 
 ---
-= アグリゲート内のディスクが破損しているためにボリュームがオフラインになっているかどうかを確認する
+= ディスクの破損が原因でボリュームがオフラインになっているかどうかを Active IQ Unified Manager で確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

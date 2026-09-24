@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用可能な IOPS の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
-= ノードと集計の利用可能な IOPS 値を表示する
+= ノードとアグリゲートの利用可能な IOPS 値を Active IQ Unified Manager で表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

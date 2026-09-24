@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events 
 summary: イベントによって、監視対象のクラスタ内の問題を特定できます。 
 ---
-= イベントを管理する
+= Active IQ Unified Manager でイベントを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

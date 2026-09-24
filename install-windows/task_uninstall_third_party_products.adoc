@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: PythonやMicrosoft Visual C++などのサードパーティ製品をアンインストールする方法。 
 ---
-= サードパーティ製品をアンインストールする
+= Active IQ Unified Manager のサードパーティ製品をアンインストールする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

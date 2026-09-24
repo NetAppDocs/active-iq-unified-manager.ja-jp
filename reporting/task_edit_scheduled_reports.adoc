@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページで編集できます。' 
 ---
-= スケジュールされたレポートを編集する
+= Active IQ Unified Manager でスケジュールされたレポートを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions 
 summary: Performance / Node Failover Planning ページに表示原因された情報に基づいて、フェイルオーバーが HA ペアのパフォーマンスを許容可能なレベルよりも低下しないように対処できます。 
 ---
-= ノードフェイルオーバー計画ページを使用して修正アクションを決定します
+= Active IQ Unified Manager のパフォーマンス/ノードフェイルオーバー計画ページから是正措置を決定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

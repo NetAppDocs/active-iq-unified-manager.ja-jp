@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: FabricPool 以外のアグリゲート上のコールドデータを大量に含むボリュームを表示するレポートを作成できます。このレポートから、 FabricPool アグリゲートに移動する必要があるボリュームを特定できます。 
 ---
-= FabricPool が有効になっていないアグリゲート上の大量のコールド データを含むボリュームを表示するレポートを作成します。
+= Active IQ Unified Manager で非FabricPoolアグリゲート上のコールドデータが多いボリュームを特定するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

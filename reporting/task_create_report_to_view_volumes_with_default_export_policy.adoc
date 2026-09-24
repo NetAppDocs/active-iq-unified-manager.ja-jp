@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: デフォルトのエクスポートポリシーを使用しているボリュームを検出するレポートを作成できます。 
 ---
-= デフォルトのエクスポート ポリシーを使用しているボリュームを表示するレポートを作成します。
+= Active IQ Unified Manager でデフォルトのエクスポートポリシーを使用するボリュームを表示するレポートを作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

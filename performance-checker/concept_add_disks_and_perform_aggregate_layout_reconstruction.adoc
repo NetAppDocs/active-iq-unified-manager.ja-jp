@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction 
 summary: アグリゲートにディスクを追加することで、ストレージ容量を増やし、そのアグリゲートのパフォーマンスを高めることができます。ディスクの追加後は、アグリゲートを再構築したあとのパフォーマンスの改善だけを確認できます。 
 ---
-= ディスクを追加してアグリゲートレイアウトを再構築する
+= ディスクの追加がアグリゲートのレイアウトに与える影響について理解する（Active IQ Unified Manager）
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

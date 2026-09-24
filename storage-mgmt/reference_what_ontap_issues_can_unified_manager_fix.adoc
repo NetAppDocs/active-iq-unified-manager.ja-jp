@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events 
 summary: この表では、 Unified Manager のユーザインターフェイスで Fix it ボタンまたは Fix All ボタンをクリックして直接解決できる ONTAP の問題について説明します。 
 ---
-= Unified Manager で解決可能な問題
+= Active IQ Unified Manager で修正できる ONTAP の問題について
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

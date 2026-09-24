@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports 
 summary: 'スケジュールされたレポートは、 [ レポートスケジュール ] ページから削除できます。' 
 ---
-= スケジュールされたレポートを削除する
+= Active IQ Unified Manager でスケジュールされたレポートを削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

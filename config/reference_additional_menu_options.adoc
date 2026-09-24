@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: additional menu, options 
 summary: 次に示すメニューオプションでは、 Unified Manager サーバでさまざまな管理タスクを実行することができます。 
 ---
-= その他のメニューオプション
+= Active IQ Unified Manager のメンテナンスコンソールの追加メニューオプションについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

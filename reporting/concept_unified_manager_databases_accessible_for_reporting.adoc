@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, databases, access, custom, reporting 
 summary: Unified Manager では、監視対象のクラスタからのデータを MySQL データベースを使用して格納します。データは MySQL データベースのさまざまなスキーマに永続化されます。 
 ---
-= カスタムレポートを作成するために Unified Manager データベースにアクセスできる
+= Active IQ Unified Manager でカスタムレポート用のデータベースにアクセスする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

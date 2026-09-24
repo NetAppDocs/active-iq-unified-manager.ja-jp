@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL 
 summary: パフォーマンスサービスレベルの計算と管理： 
 ---
-= パフォーマンスサービスレベル
+= Active IQ Unified Manager でパフォーマンスサービスレベルを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

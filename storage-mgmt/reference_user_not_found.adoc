@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, not, found 
 summary: トラブルシューティング：ユーザが見つかりません 
 ---
-= ユーザが見つかりません
+= Active IQ Unified Manager でユーザーが見つからないエラーを解決する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

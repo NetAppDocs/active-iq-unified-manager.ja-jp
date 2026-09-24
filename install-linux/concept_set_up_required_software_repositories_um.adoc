@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。 
 ---
-= Unified Managerに必要なソフトウェアをセットアップする
+= Active IQ Unified Manager に必要なソフトウェアをセットアップする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

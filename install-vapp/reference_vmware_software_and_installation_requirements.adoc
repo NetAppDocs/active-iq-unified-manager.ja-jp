@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: vmware, software, installation, requirements 
 summary: Unified Manager をインストールする VMware vSphere システムには、特定のバージョンのオペレーティング システムと、特定のバージョンのサポート ソフトウェアが必要です。 
 ---
-= VMware ソフトウェアとインストールの要件
+= Active IQ Unified Manager のVMwareソフトウェアとインストール要件について説明します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

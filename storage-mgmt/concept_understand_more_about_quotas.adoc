@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, quotas 
 summary: クォータに関する概念を理解しておくと、ユーザクォータとユーザグループクォータを効率的に管理できるようになります。 
 ---
-= クォータについてさらに詳しく
+= Active IQ Unified Manager のクォータについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

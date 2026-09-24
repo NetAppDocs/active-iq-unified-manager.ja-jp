@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time 
 summary: 'マウスを使用して期間を短縮し、 [ カウンタグラフ ] ペインまたは [ カウンタグラフズームビュー ] ウィンドウで特定の期間にフォーカスを切り替えることができます。これにより、タイムラインの任意の部分について、パフォーマンスデータ、イベント、およびしきい値をより細かく確認することができます。' 
 ---
-= カウンターチャートの焦点をより短い期間に変更します
+= Active IQ Unified Manager でカウンターチャートのフォーカスをより短い期間に変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

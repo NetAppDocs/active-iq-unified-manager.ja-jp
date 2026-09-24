@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, group, quota, events, impact area, capacity 
 summary: ユーザクォータイベントとグループクォータイベントは、ユーザクォータとユーザグループクォータの容量およびファイルとディスクの制限に関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
-= ユーザクォータイベントとグループクォータイベント
+= Active IQ Unified Manager のユーザーおよびグループ クォータイベントについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

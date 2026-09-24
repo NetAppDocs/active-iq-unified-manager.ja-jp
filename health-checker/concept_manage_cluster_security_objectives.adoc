@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives 
 summary: Unified Manager には、『 NetApp Security Hardening Guide for ONTAP 9 』に定義されている推奨事項を基に、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがどの程度セキュアであるかを示すダッシュボードが用意されています。 
 ---
-= クラスターのセキュリティ目標を管理する
+= Active IQ Unified Manager でクラスターのセキュリティ目標を管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

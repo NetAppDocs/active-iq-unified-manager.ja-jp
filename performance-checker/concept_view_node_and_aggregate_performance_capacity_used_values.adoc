@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: クラスタ内のすべてのノードまたはアグリゲートの使用済みパフォーマンス容量の値、または、 1 つのノードまたはアグリゲートの詳細を表示できます。 
 ---
-= ノードと集計パフォーマンス容量の使用値を表示する
+= Active IQ Unified Manager でノードとアグリゲートのパフォーマンス容量使用値を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

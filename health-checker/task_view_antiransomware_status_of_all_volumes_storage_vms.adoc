@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
 summary: すべてのボリュームとStorage VM、および最新のランサムウェア対策ステータスのリストを表示して、ボリューム上のデータがランサムウェア攻撃から適切に保護されているかどうかを確認できます。 
 ---
-= すべてのボリュームおよびStorage VMのランサムウェア対策ステータスを表示する
+= Active IQ Unified Manager ですべてのボリュームとストレージ VM のランサムウェア対策ステータスを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

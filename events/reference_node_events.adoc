@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, events, impact area, availability, capacity, configuration, performance, security 
 summary: ノードイベントは、ノードのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。 
 ---
-= ノードイベント
+= Active IQ Unified Manager のノードイベントについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

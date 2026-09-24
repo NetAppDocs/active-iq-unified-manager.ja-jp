@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: メンテナンス コンソールを使用して、Unified Manager クライアント証明書を再生成できます。 
 ---
-= Unified Managerクライアント証明書を再生成する
+= Active IQ Unified Manager でクライアント証明書を再生成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: カウンタグラフペインを展開すると、グラフをより大きくて読みやすくすることができます。 
 ---
-= カウンターチャートペインを展開する
+= Active IQ Unified Manager でカウンターチャートペインを展開する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

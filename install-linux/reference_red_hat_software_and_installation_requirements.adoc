@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。 
 ---
-= Linux ソフトウェアとインストールの要件
+= Active IQ Unified Manager のLinuxソフトウェアとインストール要件について説明します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

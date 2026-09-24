@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, components, contention 
 summary: クラスタコンポーネントの競合の原因となるクラスタのパフォーマンスの問題を特定することができます。コンポーネントを使用するワークロードのパフォーマンスが低下し、クライアント要求に対する応答時間（レイテンシ）が長くなると、 Unified Manager でイベントがトリガーされます。 
 ---
-= クラスタコンポーネントとその競合要因
+= Active IQ Unified Manager でクラスタコンポーネントの競合を理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

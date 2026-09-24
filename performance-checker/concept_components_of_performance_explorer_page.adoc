@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, performance, explorer, page 
 summary: パフォーマンスエクスプローラページでは、クラスタ内のすべてのボリュームなど、同様のオブジェクトのパフォーマンスを比較できます。これは、パフォーマンスイベントのトラブルシューティングやオブジェクトのパフォーマンスの微調整を行う際に便利です。また、オブジェクトを他のオブジェクトとの比較でベースラインとなるルートオブジェクトと比較することもできます。 
 ---
-= パフォーマンスエクスプローラページのコンポーネント
+= Active IQ Unified Manager の Performance Explorer ページを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

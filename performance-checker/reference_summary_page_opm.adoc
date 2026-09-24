@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: summary page, charts, counter, statistics 
 summary: '概要ページには、過去 72 時間のオブジェクトごとのイベントとパフォーマンスの詳細が表示されます。このデータは自動では更新されず、最後にページがロードされた時点のデータです。[ 概要 ] ページのグラフ回答質問をさらに確認する必要がありますか ?' 
 ---
-= サマリページ
+= Active IQ Unified Manager のパフォーマンス概要ページを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

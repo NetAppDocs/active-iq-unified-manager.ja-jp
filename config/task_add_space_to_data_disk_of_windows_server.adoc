@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, logical, drive, microsoft windows server 
 summary: Unified Manager データベースのディスクスペースを増やす必要がある場合は、 Unified Manager がインストールされている論理ドライブに容量を追加できます。 
 ---
-= Microsoft Windows サーバーの論理ドライブにスペースを追加する
+= Active IQ Unified Manager で Windows サーバーの論理ドライブに空き容量を追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

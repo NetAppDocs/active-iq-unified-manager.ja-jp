@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network configuration menu 
 summary: Network Configuration メニューでは、ネットワーク設定を管理できます。このメニューは、 Unified Manager ユーザインターフェイスを使用できない場合に使用してください。 
 ---
-= Network Configuration （ネットワーク設定）メニュー
+= Active IQ Unified Manager のネットワーク設定メニュー
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

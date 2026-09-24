@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 各種のナビゲーションオプションを使用して、ストレージ効率化ポリシー（ SEP ）とパフォーマンスサービスレベル（ PSL ）をすべてのワークロードページからストレージワークロードに割り当てることができます。 
 ---
-= ワークロードにポリシーを割り当てる
+= Active IQ Unified Manager でワークロードにポリシーを割り当てる
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

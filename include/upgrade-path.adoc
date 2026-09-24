@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
 summary: サポートされているアップグレードパス 
 ---
-= Unified Managerバージョンでサポートされているアップグレードパス
+= Active IQ Unified Manager のバージョンに対してサポートされているアップグレードパスを使用してください
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

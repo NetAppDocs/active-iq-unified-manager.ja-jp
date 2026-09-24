@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page 
 summary: ボリュームでデータバックアップを有効にして保護するために、ボリューム / 健全性の詳細ページを使用して SnapVault 関係を作成することができます。 
 ---
-= ボリューム/ヘルスの詳細ページからSnapVault保護関係を作成します
+= Active IQ Unified Manager のボリューム／健全性の詳細ページから SnapVault 保護関係を作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

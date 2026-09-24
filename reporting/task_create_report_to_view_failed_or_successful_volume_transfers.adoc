@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: ボリューム転送のステータスを表示するレポートを作成できます。このレポートでは、失敗したボリューム転送と成功したボリューム転送の両方を確認できます。 
 ---
-= ボリューム転送の失敗または成功を表示するレポートを作成する
+= Active IQ Unified Manager で失敗または成功したボリューム転送を表示するレポートを作成します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, reports 
 summary: この表には、カスタマイズ、ダウンロード、およびスケジュール設定が可能なレポートとして使用できるビューとインベントリページの包括的なリストが表示されます。 
 ---
-= レポートのタイプ
+= Active IQ Unified Manager のレポートの種類について説明します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

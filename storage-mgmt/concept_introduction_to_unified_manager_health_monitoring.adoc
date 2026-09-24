@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
 summary: 容量の単位物理容量と論理容量 
 ---
-= Active IQ Unified Manager の健常性監視の概要
+= Active IQ Unified Manager の健全性監視について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

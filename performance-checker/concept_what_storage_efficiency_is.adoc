@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, efficiency 
 summary: Storage Efficiency を使用すると、低コストで最大限のデータを格納し、スペースを節約しながら急増するデータに対応することができます。ネットアップのストレージ効率化戦略は、コアオペレーティングシステムである ONTAP と Write Anywhere File Layout （ WAFL ）ファイルシステムが提供するストレージ仮想化とユニファイドストレージに基づいています。 
 ---
-= Storage Efficiency とは
+= Active IQ Unified Manager でのストレージ効率の概要
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

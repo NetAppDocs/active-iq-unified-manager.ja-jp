@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, objects, asynchronous, processes 
 summary: Active IQ Unified Manager には、他の API の実行中に実行されたジョブに関する情報を取得するジョブ API が用意されています。非同期処理がジョブオブジェクトを使用してどのように動作するかを理解しておく必要があります。 
 ---
-= ジョブオブジェクトの非同期プロセス
+= Active IQ Unified Manager が非同期処理にジョブオブジェクトを使用する方法を理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

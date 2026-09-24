@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: カウンタの値が定義されているパフォーマンスしきい値を超えて指定された期間が経過すると、しきい値違反としてイベントが報告されます。 
 ---
-= パフォーマンスしきい値ポリシーを超えた場合の動作
+= Active IQ Unified Manager でのパフォーマンスしきい値ポリシー違反への対応
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

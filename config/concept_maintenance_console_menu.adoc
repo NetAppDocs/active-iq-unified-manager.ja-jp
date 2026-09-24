@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: maintenance, console, menus 
 summary: メンテナンスコンソールは各種のメニューで構成され、 Unified Manager サーバの特別な機能や設定の保守と管理を行うことができます。 
 ---
-= メンテナンスコンソールのメニュー
+= Active IQ Unified Manager のメンテナンスコンソールメニューについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

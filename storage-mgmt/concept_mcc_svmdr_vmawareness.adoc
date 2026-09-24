@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: MetroCluster 構成または Storage Virtual Machine （ Storage VM ）ディザスタリカバリ（ SVM DR ）セットアップでホストされているデータストアの設定とパフォーマンスの指標を表示できます。 
 ---
-= 災害復旧セットアップにおける仮想インフラストラクチャの表示
+= Active IQ Unified Manager を使用したディザスタリカバリ設定における仮想インフラの可視性の表示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

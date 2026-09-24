@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: ディスク障害、 HA フェイルオーバー、ボリューム移動などのクラスタの構成変更が、ボリュームのパフォーマンスの低下や原因レイテンシの増加につながる可能性があります。 
 ---
-= 構成の変更がワークロードのパフォーマンスに与える影響を確認します
+= 構成変更がワークロードのパフォーマンスに与える影響を Active IQ Unified Manager で評価する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, authentication servers 
 summary: 認証サーバを追加して管理サーバでリモート認証を有効にすると、その認証サーバのリモートユーザが Unified Manager にアクセスできるようになります。 
 ---
-= 認証サーバを追加します
+= Active IQ Unified Manager に認証サーバーを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: 使用済みパフォーマンス容量の値は、利用率が高い状態や低い状態のノードやアグリゲートを特定するのに役立ちます。これにより、ストレージリソースをより効率的に活用できるようにワークロードを再配分することができます。 
 ---
-= 使用済みパフォーマンス容量の値の意味
+= Active IQ Unified Manager でパフォーマンス容量使用値を使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

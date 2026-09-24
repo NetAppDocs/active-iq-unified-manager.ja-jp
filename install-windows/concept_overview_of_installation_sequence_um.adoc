@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation, sequence 
 summary: 以下は、 Unified Manager を使用する前に必要なインストール作業のワークフローです。 
 ---
-= インストール手順の概要
+= Active IQ Unified Manager のインストール手順について
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

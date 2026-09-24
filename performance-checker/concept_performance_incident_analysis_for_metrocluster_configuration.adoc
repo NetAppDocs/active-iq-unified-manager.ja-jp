@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, metrocluster, configuration 
 summary: Unified Manager を使用して、 MetroCluster 構成のパフォーマンスイベントを分析できます。イベントに関連するワークロードを特定し、推奨される解決方法を確認できます。 
 ---
-= MetroCluster 構成のパフォーマンスイベント分析
+= MetroCluster パフォーマンスイベントを Active IQ Unified Manager で分析する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

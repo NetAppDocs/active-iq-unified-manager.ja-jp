@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: Health ： All Volumes ビューでは、同じ Storage VM 上にある複数のボリュームを選択して、複数の SnapMirror 保護関係を一度に作成できます。 
 ---
-= ヘルス: すべてのボリュームビューからSnapMirror保護関係を作成します。
+= Active IQ Unified Manager の「Health: All Volumes」ビューから SnapMirror 関係を作成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

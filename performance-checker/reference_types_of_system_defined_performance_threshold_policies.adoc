@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: Unified Manager には、クラスタのパフォーマンスを監視し、イベントを自動生成する標準のしきい値ポリシーがいくつか用意されています。これらのポリシーはデフォルトで有効になっており、監視対象のパフォーマンスしきい値を超えたときに警告イベントまたは情報イベントを生成します。 
 ---
-= システム定義のパフォーマンスしきい値ポリシーのタイプ
+= Active IQ Unified Manager のシステム定義パフォーマンスしきい値ポリシーについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

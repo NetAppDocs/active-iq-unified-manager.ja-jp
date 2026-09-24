@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
 summary: Windowsプラットフォーム向けのUnified Managerクイックスタートガイドです。 
 ---
-= Windows インストールのクイックスタート手順
+= Windows で Active IQ Unified Manager を使い始める
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

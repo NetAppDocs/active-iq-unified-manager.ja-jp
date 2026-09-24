@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: Active IQ Unified Manager では、 Storage VM ディザスタリカバリ関係の監視がサポートされており、ディザスタリカバリは Storage VM レベルできめ細かく実行できます。Storage VM ディザスタリカバリを使用すると、 Storage VM のコンスティチュエントボリュームに存在するデータをリカバリしたり、 Storage VM の設定をリカバリしたりできます。 
 ---
-= ストレージ VM 災害復旧保護関係の監視
+= Active IQ Unified Manager でのストレージ VM ディザスタリカバリ関係について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

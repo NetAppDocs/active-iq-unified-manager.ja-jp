@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, data, external, server 
 summary: Unified Manager は、監視対象のすべてのクラスタからさまざまなパフォーマンスデータを収集します。特定のデータグループを外部サーバに送信できます。 
 ---
-= 外部サーバに送信可能なパフォーマンスデータ
+= Active IQ Unified Manager のパフォーマンスデータを外部サーバーに送信する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

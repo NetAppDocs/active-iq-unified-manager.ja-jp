@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unknown, authentication, error 
 summary: トラブルシューティング：不明な認証エラーです 
 ---
-= 不明な認証エラーです
+= Active IQ Unified Manager で不明な認証エラーを解決する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, encryption, compliance, categories 
 summary: Unified Manager は、次の表に示すボリューム暗号化パラメータを評価して、ボリューム上のデータが権限のないユーザによるアクセスから適切に保護されているかどうかを判断します。 
 ---
-= ボリュームコンプライアンスのカテゴリ
+= Active IQ Unified Manager のボリュームコンプライアンスカテゴリについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: '[ ヘルプのお気に入り ] タブでは、頻繁に使用するヘルプトピックをブックマークできます。ブックマークに登録すると、お気に入りのトピックにすばやくアクセスできます。' 
 ---
-= お気に入りのヘルプトピックをブックマークする
+= Active IQ Unified Manager でお気に入りのヘルプ トピックをブックマークする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

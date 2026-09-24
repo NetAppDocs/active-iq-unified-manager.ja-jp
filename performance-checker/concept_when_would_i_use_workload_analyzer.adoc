@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, use 
 summary: Workload Analyzer は、ユーザから報告されたレイテンシ問題のトラブルシューティングを行う場合、報告されたイベントやアラートを詳しく分析する場合、動作に異常があるワークロードについて調べる場合に使用します。 
 ---
-= Workload Analyzer を使用するタイミング
+= Active IQ Unified Manager でワークロードアナライザーを使用するタイミングを理解する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

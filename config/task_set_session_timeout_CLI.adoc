@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: session timeout, CLI, maximum 
 summary: CLIを使用してUnified Managerの最大セッションタイムアウト値を設定し、一定期間が経過したあとにセッションを自動的に終了することができます。 
 ---
-= CLIを使用したセッションタイムアウトの設定
+= Active IQ Unified Manager でCLIを使用してセッションタイムアウトを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

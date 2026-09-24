@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group actions 
 summary: グループ操作の名前、概要、関連付けられているグループの名前、操作タイプのパラメータなど、 Unified Manager で設定したグループ操作のパラメータを編集することができます。 
 ---
-= グループアクションを編集する
+= Active IQ Unified Manager でグループアクションを編集する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

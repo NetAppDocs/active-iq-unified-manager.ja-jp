@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, custom, reports 
 summary: 以下に記載するサンプルのカスタムレポートを使用して、潜在的な問題を発生前に特定して対処することができます。 
 ---
-= サンプルのカスタムレポート
+= Active IQ Unified Manager のサンプルカスタムレポートについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

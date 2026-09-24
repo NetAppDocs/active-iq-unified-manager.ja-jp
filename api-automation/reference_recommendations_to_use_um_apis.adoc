@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: recommendations, apis, active iq, unified, manager 
 summary: Active IQ Unified Manager で API を使用するときは、特定の推奨される方法に従ってください。 
 ---
-= Active IQ Unified Manager で API を使用する際の推奨事項です
+= Active IQ Unified Manager API を使用する際は、推奨されるプラクティスに従ってください。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

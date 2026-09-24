@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: Unified Manager でセキュリティパラメータを有効または無効にして準拠の監視を行うことができます。 
 ---
-= コンプライアンスのためのセキュリティ設定を有効または無効にする
+= Active IQ Unified Manager でコンプライアンスのためのセキュリティ設定を有効化および無効化する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

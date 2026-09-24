@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Unified Managerをアップグレードするには、Linuxプラットフォームでインストールファイルをダウンロードして実行します。 
 ---
-= Unified Manager をアップグレードします
+= Active IQ Unified Manager のアップグレード
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

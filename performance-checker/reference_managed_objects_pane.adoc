@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: Performance Summary タブの Managed Objects ペインには、クラスタのストレージオブジェクトタイプと数の概要が表示されます。このペインでは、各クラスタ内のオブジェクトのステータスを追跡できます。 
 ---
-= [Managed Objects] ペイン
+= Active IQ Unified Manager の管理対象オブジェクトペインを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

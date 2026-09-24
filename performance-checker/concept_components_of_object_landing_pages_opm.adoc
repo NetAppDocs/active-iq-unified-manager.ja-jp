@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, object, landing pages 
 summary: オブジェクトのランディングページには、すべての重大イベント、警告イベント、情報イベントに関する詳細が表示されます。すべてのクラスタオブジェクトのパフォーマンスの詳細が表示され、個々のオブジェクトを選択してさまざまな期間のデータを比較することができます。 
 ---
-= オブジェクトランディングページのコンポーネント
+= Active IQ Unified Manager のオブジェクトランディングページのコンポーネントを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

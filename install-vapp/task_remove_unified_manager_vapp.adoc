@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove unified manager 
 summary: Unified Manager をアンインストールするには、 Unified Manager ソフトウェアがインストールされている仮想マシン（ VM ）を削除します。 
 ---
-= 統合マネージャーを削除する
+= Active IQ Unified Manager の削除
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

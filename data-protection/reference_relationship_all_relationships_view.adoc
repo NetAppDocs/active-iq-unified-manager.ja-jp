@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, relationships, metrocluster 
 summary: Relationship ： All Relationships ビューには、ストレージシステム上の保護関係に関する情報が表示されます。 
 ---
-= 関係：すべての関係ビュー
+= 関係を表示する：Active IQ Unified Manager のすべての関係ビュー
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

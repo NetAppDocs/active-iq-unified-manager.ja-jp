@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: diagnostic, user, capabilities 
 summary: 診断アクセスの目的は、テクニカルサポートからトラブルシューティングのサポートを受けられるようにすることです。このため、テクニカルサポートから指示された場合にのみ診断アクセスを使用する必要があります。 
 ---
-= 診断ユーザの権限
+= Active IQ Unified Manager における診断ユーザー機能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

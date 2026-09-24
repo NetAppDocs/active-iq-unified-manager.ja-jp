@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, VMWare QSG, vApp QSG, quick installation 
 summary: VMware vSphere プラットフォームの Unified Manager のクイックスタートガイドです。 
 ---
-= VMwareのインストールのクイックスタート手順
+= VMware vSphere の Active IQ Unified Manager を使用開始する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

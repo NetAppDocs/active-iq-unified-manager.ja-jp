@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: Snapshot の自動削除機能が無効になっていて容量がフルに近づいているボリュームをリストするレポートを作成できます。このレポートは、 Snapshot の自動削除を設定する必要があるボリュームを特定するのに役立ちます。 
 ---
-= スナップショットの自動削除がオフになっている、容量がいっぱいに近づいているボリュームを識別するレポートを作成します。
+= Active IQ Unified ManagerでSnapshotの自動削除が無効になっている、容量が上限に近づいているボリュームを特定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

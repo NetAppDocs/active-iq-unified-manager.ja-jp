@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: all san, array, performance, clusters 
 summary: Performance ： All SAN Array クラスタのパフォーマンスステータスは、 Performance ： All Clusters ビューを使用して表示できます。 
 ---
-= すべてのSANアレイクラスタのパフォーマンスを表示する
+= Active IQ Unified Manager ですべての SAN アレイクラスタのパフォーマンスを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

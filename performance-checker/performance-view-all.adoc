@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: すべてのストレージオブジェクトのパフォーマンスビュー 
 ---
-= すべてのストレージ オブジェクトのパフォーマンス インベントリ ページを表示します。
+= Active IQ Unified Manager ですべてのストレージオブジェクトのパフォーマンスインベントリページを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

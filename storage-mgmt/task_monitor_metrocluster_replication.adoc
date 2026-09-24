@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: データのミラーリング中に論理接続の全体的な健常性を監視して診断することができます。アグリゲート、ノード、 Storage Virtual Machine などのクラスタコンポーネントのミラーリングを中断する問題やリスクを特定することができます。 
 ---
-= MetroClusterレプリケーションを監視する
+= Active IQ Unified ManagerでのMetroClusterレプリケーションの監視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

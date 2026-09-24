@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, severity, types 
 summary: パフォーマンスイベントには、対処する際の優先度を判別できるように、それぞれ重大度タイプが関連付けられています。 
 ---
-= パフォーマンスイベントの重大度タイプ
+= Active IQ Unified Manager でパフォーマンスイベントを重大度に基づいて優先順位付けする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

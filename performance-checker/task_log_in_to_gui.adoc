@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: Unified Manager の UI には、サポートされている Web ブラウザからログインできます。 
 ---
-= UIにログインする
+= Active IQ Unified Manager UI にログインする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

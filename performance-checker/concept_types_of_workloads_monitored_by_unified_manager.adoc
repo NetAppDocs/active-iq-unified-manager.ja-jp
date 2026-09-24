@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, workloads, monitored, unified manager 
 summary: Unified Manager では、ユーザ定義とシステム定義の 2 種類のワークロードのパフォーマンスを監視できます。 
 ---
-= Unified Manager で監視されるワークロードのタイプ
+= Active IQ Unified Manager でワークロードの種類を監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

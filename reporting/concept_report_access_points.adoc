@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, points, generating, reports 
 summary: クラスタに関する情報を Unified Manager で収集して、 UI 、 MySQL データベースクエリ、 REST API からレポートを作成できます。 
 ---
-= レポートを生成するためのアクセスポイント
+= Active IQ Unified Manager でレポート機能にアクセスする 3 つの方法を紹介します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

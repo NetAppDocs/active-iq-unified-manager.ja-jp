@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification 
 summary: MetroCluster 構成でミラーされたワークロードにパフォーマンスの問題が発生しないようにするには、 MetroCluster 構成が正しくセットアップされていることを確認します。また、構成を変更するか、ソフトウェアまたはハードウェアコンポーネントをアップグレードすることで、ワークロードのパフォーマンスを向上させることもできます。 
 ---
-= MetroCluster 構成の検証
+= Active IQ Unified Manager で MetroCluster 構成を確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

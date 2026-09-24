@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: acknowledge, resolve, events 
 summary: イベントを生成した問題で作業を開始する前に、アラート通知が繰り返し送信されないようにイベントに確認応答する必要があります。特定のイベントに対処したら、そのイベントを解決済みとしてマークします。 
 ---
-= イベントを認識して解決する
+= Active IQ Unified Manager でイベントを確認して解決する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

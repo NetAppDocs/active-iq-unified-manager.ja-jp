@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: スケジュールの作成ダイアログボックスでは、 SnapMirror 関係と SnapVault 関係の転送の基本または詳細な保護スケジュールを作成できます。データ更新を頻繁に行うために、データ転送の頻度を増やすための新しいスケジュールを作成できます。データがあまり変更されない場合は、少ない頻度のスケジュールを作成することもできます。 
 ---
-= スケジュールの作成ダイアログボックス
+= Active IQ Unified Manager の「スケジュールの作成」ダイアログボックスを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box 
 summary: リストアダイアログボックスを使用すると、特定の Snapshot コピーからボリュームにデータをリストアできます。 
 ---
-= リストアダイアログボックス
+= Active IQ Unified Manager の復元ダイアログボックスを使用する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

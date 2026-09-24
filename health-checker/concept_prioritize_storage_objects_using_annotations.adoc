@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: prioritize, storage, object, events, annotations 
 summary: アノテーションルールを作成してストレージオブジェクトに適用すると、適用されたアノテーションのタイプとその優先度に基づいてオブジェクトを特定し、フィルタリングできるようになります。 
 ---
-= アノテーションを使用してストレージ オブジェクト イベントを優先順位付けする
+= Active IQ Unified Manager で注釈を使用してストレージオブジェクトに優先順位を付ける
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

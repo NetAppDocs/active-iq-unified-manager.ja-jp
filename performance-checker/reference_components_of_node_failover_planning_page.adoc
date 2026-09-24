@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, node, failover, planning page, performance, statistics, grid 
 summary: Performance / Node Failover Planning ページのコンポーネントが、グリッドと Comparing ペインに表示されます。これらのセクションで、ノードのフェイルオーバーによるテイクオーバーノードのパフォーマンスへの影響を評価できます。 
 ---
-= Node Failover Planning ページのコンポーネント
+= Active IQ Unified Manager のパフォーマンス/ノードフェイルオーバー計画ページのコンポーネントを確認する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
