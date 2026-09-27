@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_verify_qos_policy_group.html 
 sidebar: sidebar 
 keywords: verify, volumes, qos, policy, group, unusually, high, activity 
-summary: アクティビティの変化が最も大きい QoS ポリシーグループ内のワークロードを確認すると、複数のワークロードがイベントの原因となったかどうかを判断できます。また、他のワークロードがスループット制限を超えているかどうか、またはアクティビティの想定範囲内に戻ったかどうかを確認することもできます。 
+summary: サービス品質（QoS）ポリシーグループ内でアクティビティの変化が最も大きいワークロードを確認し、どのワークロードがイベントの原因となったかを特定します。 
 ---
 = Active IQ Unified Manager でQoSポリシーグループ内の高アクティビティボリュームを分析する
 :allow-uri-read: 

@@ -3,11 +3,13 @@ section: reporting
 title: カスタムレポートを生成
 entries:
 - title: Unified Manager のレポート機能
-  url: "/reporting/concept_unified_manager_reporting.html"
   entries:
+  - title: Unified Manager のレポート機能について
+    url: "/reporting/concept_unified_manager_reporting.html"
   - title: レポートを生成するためのアクセスポイント
-    url: "/reporting/concept_report_access_points.html"
     entries:
+    - title: レポート機能にアクセスする方法を確認する
+      url: "/reporting/concept_report_access_points.html"
     - title: カスタムレポートを作成するために Unified Manager データベースにアクセスできる
       url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
     - title: レポート作成に使用できる Unified Manager REST API
@@ -21,7 +23,6 @@ entries:
   - title: レポートの制限
     url: "/reporting/reference_reporting_limitations.html"
 - title: レポートの操作
-  url: "/reporting/concept_work_with_reports.html"
   entries:
   - title: レポートワークフロー
     url: "/reporting/concept_report_work_flow.html"
@@ -30,8 +31,9 @@ entries:
   - title: スケジュールされたレポートを検索する
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: レポートをカスタマイズする
-    url: "/reporting/concept_customize_reports.html"
     entries:
+    - title: レポートのカスタマイズについて
+      url: "/reporting/concept_customize_reports.html"
     - title: 列をカスタマイズする
       url: "/reporting/task_customize_columns.html"
     - title: データをフィルタリングする
@@ -45,25 +47,28 @@ entries:
   - title: レポートのダウンロード
     url: "/reporting/task_download_reports.html"
 - title: レポートのスケジュールを設定する
-  url: "/reporting/concept_schedule_reports.html"
   entries:
+  - title: レポートのスケジュール設定について
+    url: "/reporting/concept_schedule_reports.html"
   - title: レポートをスケジュールする
-    url: "/reporting/task_schedule_report.html"
     entries:
+    - title: レポートスケジュールを作成する
+      url: "/reporting/task_schedule_report.html"
     - title: インポートした.rptdesignレポートのスケジュール
       url: "/reporting/task_schedule_an_imported_report.html"
   - title: レポートスケジュールを管理する
-    url: "/reporting/task_manage_report_schedules.html"
     entries:
+    - title: レポートスケジュールの表示、編集、削除
+      url: "/reporting/task_manage_report_schedules.html"
     - title: スケジュールされたレポートを編集する
       url: "/reporting/task_edit_scheduled_reports.html"
     - title: スケジュールされたレポートを削除する
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: サンプルのカスタムレポート
-  url: "/reporting/concept_sample_custom_reports.html"
   entries:
+  - title: サンプルカスタムレポートを理解する
+    url: "/reporting/concept_sample_custom_reports.html"
   - title: クラスターストレージレポートをカスタマイズする
-    url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
     - title: クラスター モデル別に容量を表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
@@ -74,7 +79,6 @@ entries:
     - title: 古いバージョンのONTAPを実行しているノードを表示するレポートを作成します
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
   - title: 総容量レポートをカスタマイズする
-    url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
     - title: 最大容量に達した集計を表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
@@ -83,7 +87,6 @@ entries:
     - title: オーバーコミットされた集計を表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
   - title: ボリューム容量レポートをカスタマイズする
-    url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
     - title: スナップショットの自動削除がオフになっている、容量がいっぱいに近づいているボリュームを識別するレポートを作成します。
       url: "/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html"
@@ -92,27 +95,29 @@ entries:
     - title: クラウド層にデータを移動する必要がある FabricPool アグリゲート上のボリュームを識別するレポートを作成します
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
   - title: Qtree容量レポートをカスタマイズする
-    url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
     - title: ほぼ満杯のqtreeを表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
   - title: NFS共有レポートをカスタマイズする
-    url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
+    - title: NFS共有レポートのカスタマイズについて学ぶ
+      url: "/reporting/concept_customize_nfs_share_reports.html"
     - title: アクセスできないマウントパスを持つボリュームを表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
     - title: デフォルトのエクスポート ポリシーを使用しているボリュームを表示するレポートを作成します。
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
   - title: ストレージVMレポートをカスタマイズする
-    url: "/reporting/concept_customize_svm_reports.html"
     entries:
+    - title: ストレージVMレポートのカスタマイズについて
+      url: "/reporting/concept_customize_svm_reports.html"
     - title: 最大ボリューム制限に達したストレージVMを表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
     - title: 停止したストレージVMを表示するレポートを作成する
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
   - title: ボリューム関係レポートをカスタマイズする
-    url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
+    - title: ボリューム関係レポートのカスタマイズについて
+      url: "/reporting/concept_customize_volume_relationship_reports.html"
     - title: 障害の原因別にボリューム関係をグループ化するレポートを作成する
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
     - title: 問題別にボリューム関係をグループ化するレポートを作成する
@@ -126,13 +131,13 @@ entries:
     - title: 日別にグループ化されたボリューム転送を表示するレポートを作成します
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
   - title: ボリュームパフォーマンスレポートをカスタマイズする
-    url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
     - title: FabricPool が有効になっていないアグリゲート上の大量のコールド データを含むボリュームを表示するレポートを作成します。
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Microsoft Excel レポートの例
-  url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
+  - title: Microsoft Excelのサンプルレポートを理解する
+    url: "/reporting/concept_sample_microsoft_excel_reports.html"
   - title: 総容量表とグラフを表示するレポートを作成する
     url: "/reporting/task_create_report_to_view_capacity.html"
   - title: 総計と利用可能な容量のグラフを表示するレポートを作成します

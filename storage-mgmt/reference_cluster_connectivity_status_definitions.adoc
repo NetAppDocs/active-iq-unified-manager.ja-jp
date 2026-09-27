@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
 sidebar: sidebar 
 keywords: cluster, connectivity, status, definitions 
-summary: MetroCluster 構成のクラスタ間の接続のステータスは、「 Optimal 」、「 Impacted 」「 Down 」のいずれかになります。接続ステータスを理解しておくと、 MetroCluster 構成を効果的に管理できるようになります。 
+summary: MetroCluster 構成におけるクラスター間の接続ステータス（最適、影響あり、ダウンなど）を理解します。 
 ---
 = Active IQ Unified Manager における FC 構成の MetroCluster でのクラスター接続について理解する
 :allow-uri-read: 

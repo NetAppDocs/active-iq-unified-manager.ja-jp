@@ -644,7 +644,6 @@
   <block id="ef4468340aa48a263d65b4e33f9a2138" category="paragraph">更新を実行するジョブのジョブ ID が返されます。</block>
   <block id="62f51a91b3249532e04a44733b0ad032" category="list-text">同じファイル共有に対して詳細を照会し、パラメータが正しく追加されているかどうかを確認します。</block>
   <block id="9dc1f341f51fe25ce5b0a0da43b6105d" category="paragraph">同じファイル共有に対して、エクスポートポリシーに加えて ACL が割り当てられていることがわかります。</block>
-  <block id="d8e9e862087ebf8f8e32a5917b7772d7" category="summary">ここで説明する API は、ストレージワークロードの表示、 LUN とファイル共有の作成、パフォーマンスサービスレベルとストレージ効率化ポリシーの管理、ストレージワークロードに対するポリシーの割り当てなど、ストレージ管理のさまざまな機能に対応しています。</block>
   <block id="fe4e37f754b5aa18c75b074cc96e0619" category="summary">システムログを使用して、 API の実行中に発生する可能性のある障害の原因を分析し、問題のトラブルシューティングを行うことができます。</block>
   <block id="1f9b0b55f68737a51d8189f8361368f6" category="doc">トラブルシューティング用のログ</block>
   <block id="68ad63667b43782e3c10b077ce6ec62d" category="paragraph">API 呼び出しに関連する問題のトラブルシューティングを行うには、次の場所からログを取得します。</block>
@@ -754,7 +753,6 @@
   <block id="79500a96134ea895ab9ad39cf0211ea0" category="paragraph">Unified Manager Web UI では、管理者がデータストレージの容量、可用性、保護に関連するクラスタの問題を監視してトラブルシューティングすることができます。</block>
   <block id="7558fe4b20da84324c8e3d624ef24387" category="section-title">メンテナンスコンソール</block>
   <block id="601a076ceb57e2d6ddb048ba06d7a67a" category="paragraph">Unified Manager のメンテナンスコンソールでは、管理者が Unified Manager サーバ自体に関連するオペレーティングシステムの問題、バージョンアップグレードの問題、ユーザアクセスの問題、およびネットワークの問題を監視し、診断し、対処することができます。Unified Manager Web UI を使用できない場合は、メンテナンスコンソールが Unified Manager にアクセスする唯一の手段となります。</block>
-  <block id="b13bafc1be544d2808e9da0ba3f87f08" category="summary">アノテーションの概念を理解しておくと、環境内のストレージオブジェクトに関連するイベントを管理するのに役立ちます。</block>
   <block id="bc0773b8fbafaf2d9106119f2792b632" category="summary">Health ： All Storage VM ビューで、 Storage Virtual Machine （ SVM ）のインベントリを監視できます。Storage VM / 健全性の詳細ページを使用して、監視対象の SVM に関する詳細情報を表示できます。</block>
   <block id="c1ab51be5a6309604a096df41188c0c3" category="paragraph">オペレータ、アプリケーション管理者、またはストレージ管理者のロールが必要です。</block>
   <block id="afdfe6ebd16bda170dd07ae94b7aa05f" category="paragraph">SVM の容量、効率、構成など、 SVM の詳細を表示できます。また、その SVM に関連するデバイスやアラートに関する情報も参照できます。</block>
@@ -793,10 +791,7 @@
   <block id="f40751d926230fa564c49969b9d27a82" category="list-text">Aggregate の「 * Aggregate/Health * details 」ページの「 * Related Devices * 」ペインに表示されているハイパーテキストリンクを探してクリックします。</block>
   <block id="3ef29764860ba90400d3ede12030346a" category="paragraph">クラスタ / 健全性の詳細ページのノードタブには、 SVM ルートボリュームのホストノードが属しているノードの HA ペアの状態が表示されます。ノードの状態が画面に示されます。</block>
   <block id="579e0e62d3c7baabad04f4101c454bf0" category="paragraph">ボリュームのオフライン状態の原因が、そのボリュームのホスト SVM のオフライン状態であり、さらにその状態の原因が SVM のルートボリュームをホストするノードの停止であることを確認したら、適切な管理者またはオペレータに連絡して、停止したノードを手動で再起動するように依頼します。</block>
-  <block id="aab48123e19f96b4938a6aa960c608a9" category="summary">Unified Manager では、定期的な API クエリとデータ収集エンジンを使用してクラスタからデータが収集されます。Unified Manager データベースにクラスタを追加することで、そのクラスタの可用性と容量のリスクを監視して管理できるようになります。</block>
-  <block id="37e0f32458fc30744fd90ddfe6ca28cd" category="summary">Unified Manager の多くのワークフローに、共通のタスク、およびワークフローの理解と実行に役立つ参照情報があります。たとえば、イベントに関するメモの追加と確認、イベントの割り当て、イベントへの応答と解決、ボリューム、 Storage Virtual Machine （ SVM ）、アグリゲートに関する詳細情報、 など。</block>
   <block id="a47af708af924c3e98858f93842d0278" category="doc">複数のワークフローに関連するタスクと情報</block>
-  <block id="a1fcf7b0487549139338b1e2a01dfa90" category="summary">ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含むレポートを生成できます。このレポートは、 NetAppActive IQ プラットフォームに接続されていないセキュアなサイト（「ダーク」サイト）で契約更新を行う際に役立ちます。</block>
   <block id="5c12f12423d7cd4928b54ca46f3b1c4c" category="doc">契約更新用のハードウェアインベントリレポートの生成</block>
   <block id="ea47586537d9a627f67dc204857cc1ee" category="paragraph">ハードウェアのモデル番号とシリアル番号、ディスクのタイプと数、インストールされているライセンスなど、クラスタとノードのすべての情報を含むレポートを生成できます。このレポートは、 NetAppActive IQ プラットフォームに接続されていないセキュアなサイト（「ディレクトリ」）で契約更新を行う際に役立ちます。</block>
   <block id="b2d7c51446fe4051f38af85b8b7f2fc4" category="list-text">左側のナビゲーションペインで、 * Storage * &gt; * Nodes * をクリックします。</block>
@@ -1941,7 +1936,6 @@
   <block id="88ea85c6f41faf7838eeb9229aafdd58" category="list-text">igroup 名</block>
   <block id="f7cd5dd5148c05c492d4f7cdfb31fa02" category="list-text">ネットワークドライブがマウントされているボリュームの GUID</block>
   <block id="08511ea6018014e2adf65b1dad8b3557" category="list-text">ONTAP との通信に使用する iSCSI イニシエータ</block>
-  <block id="3fa18313144d7f96d30533346553d44a" category="summary">アノテーションルールを作成してストレージオブジェクトに適用すると、適用されたアノテーションのタイプとその優先度に基づいてオブジェクトを特定し、フィルタリングできるようになります。</block>
   <block id="efdb16254f5069676286e910b5a4b798" category="summary">Storage VM / 健全性の詳細ページでは、選択した Storage VM について、健全性、容量、構成、データポリシー、論理インターフェイス（ LIF ）、 LUN 、 qtree 、ユーザ、ユーザグループクォータ、および保護の詳細Storage VM に関連するオブジェクトやアラートに関する情報も確認できます。</block>
   <block id="01df14660230e93beb172e6aa6e592d1" category="paragraph">監視できるのはデータ Storage VM だけです。</block>
   <block id="0163d621f50d2abf7b8446329f0d1c49" category="paragraph">選択した Storage VM について、各コマンドボタンを使用して次のタスクを実行できます。</block>
@@ -2192,7 +2186,6 @@
   <block id="de7dc3460c4aaa0b33284ecb45ccd751" category="list-text">クラスタ認証 * カードを表示して、各認証タイプを使用してシステムにアクセスしているユーザの数を確認します。</block>
   <block id="73fa85facde3ed16e002ddf65b57ce8d" category="list-text">クラスタセキュリティ * カードを表示して、各クラスタのユーザ認証に使用される認証メカニズムを確認します。</block>
   <block id="643e29f4dc97809b8c5f77414378cd8b" category="paragraph">安全でない方法またはネットアップが推奨していない方法でシステムにアクセスしているユーザがいる場合は、その方法を無効にできます。</block>
-  <block id="bd37599e63c8c9f71cc8df057a0449bd" category="summary">すべてのアグリゲート、ボリューム、および qtree に適用されるグローバル健常性しきい値を設定して、健常性しきい値の違反を追跡することができます。</block>
   <block id="7070bca83b8913767bb5d42c771be5e8" category="summary">すべての SMB/CIFS 共有について、共有名、ジャンクションパス、コンテナオブジェクト、セキュリティ設定、共有に対して定義されているエクスポートポリシーなどの詳細情報を表示できます。すべての監視対象クラスタ上のすべての SMB 共有を表示するには Health ： All SMB Shares ビューを使用し、 Storage VM/Health 詳細ページを使用して特定の Storage Virtual Machine （ SVM ）上のすべての SMB 共有を表示します。</block>
   <block id="3bbe0a2d9c8a30e8f4cc84dbe10c5e8f" category="list-text">クラスタで CIFS ライセンスが有効になっている必要があります。</block>
   <block id="3357547ca666f32f5cb4fe32b2998be2" category="list-text">SMB / CIFS 共有を提供するネットワークインターフェイスが設定されている必要があります。</block>
@@ -2914,7 +2907,6 @@
   <block id="1a5988c5d76a9ffec9bf0d2d58f2b1bb" category="list-text">バックアップパス、保持数、およびスケジュールの値を設定します。</block>
   <block id="ad85571c0744603fcf1a8896664ac91b" category="paragraph">保持数のデフォルト値は 10 です。バックアップを無制限に作成する場合は 0 に設定します。</block>
   <block id="c9defe82acaadaf0bc7351323651edfd" category="paragraph">スケジュールに基づいてデータベースダンプバックアップファイルが作成されます。使用可能なバックアップファイルは、 [ データベースバックアップ ] ページに表示されます。</block>
-  <block id="af97b464ed741302dba625389e090a6c" category="summary">Unified Manager でグループを作成してストレージオブジェクトを管理できます。グループの概念とグループルールを使用してストレージオブジェクトをグループに追加する方法を理解しておくと、環境内のストレージオブジェクトを管理するのに役立ちます。</block>
   <block id="84274488ff0d9f83c407199a981aa8fe" category="summary">ストレージフェイルオーバー関連イベントのイベントの詳細ページを表示して、ページの概要情報を確認し、イベントの緊急性、問題の原因の候補、問題への解決策を特定できます。</block>
   <block id="6d41efffe88a8b4a78973a8d085197a9" category="paragraph">この例では、イベントの詳細ページに表示されるイベントの概要に、ストレージフェイルオーバーインターコネクトリンクの停止状態に関する次の情報が表示されます。</block>
   <block id="b829a6bd15a2130b968456c8c139fb69" category="paragraph">このイベント情報から、 HA ペアの aardvark ノードと bonobo ノードの間のストレージフェイルオーバーインターコネクトリンク Link1 が停止している一方で、 Apple と Boy の間の Link0 はアクティブであることがわかります。一方のリンクがアクティブであるため、 Remote Dynamic Memory Access （ RDMA ）は引き続き機能し、ストレージフェイルオーバージョブも正常に実行されます。</block>
@@ -2930,7 +2922,6 @@
   <block id="74a06a2e806156fa5ee1603a92e6e532" category="list-text">アクションタイプ * メニューからアクションタイプを選択します。</block>
   <block id="9776cbd0cc3557c93aee56ea4d14d72d" category="paragraph">ダイアログボックスが展開され、選択したアクションタイプに必要なパラメータを設定できます。</block>
   <block id="b6fcfb4d6ec764313a123d4b755aaf34" category="list-text">必須パラメータに適切な値を入力して、グループ操作を設定します。</block>
-  <block id="55def22757c6b9a04f8da81c6641c0ba" category="summary">Unified Manager でグループを作成してストレージオブジェクトを管理できます。</block>
   <block id="c709409f087df8d92bf79b678b53982f" category="summary">Unified Manager を使用して、ノードのルートボリュームを監視できます。ノードの停止を防ぐための十分な容量をノードのルートボリュームに確保しておくことを推奨します。</block>
   <block id="1aafd50acd3eec04290825cc7070495e" category="paragraph">ノードのルートボリュームの使用容量がノードのルートボリュームの合計容量の 80% を超えると、「 Node Root Volume Space Nearly Full 」イベントが生成されます。通知を受け取るようにイベントのアラートを設定できます。ONTAP System Manager または ONTAP CLI を使用して、ノードの停止を防ぐための適切な処置を行うことができます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
@@ -3397,8 +3388,6 @@
   <block id="94011235619f452c237c5a14ce34203f" category="paragraph">再同期ジョブが開始されると、ボリューム / 健全性の詳細ページに戻り、ページの上部にジョブのリンクが表示されます。</block>
   <block id="f350c18430b04f7035ef3037e83d22b3" category="list-text">* オプション： * Volume/Health details * ページで * View Jobs * をクリックして、各再同期ジョブのステータスを追跡します。</block>
   <block id="26b8eb9df82c52effa5802e15719c3c5" category="paragraph">すべてのタスクが正常に完了すれば再同期ジョブは終了です。</block>
-  <block id="3912f4e1ad31862162c0d2c881440cd1" category="summary">Unified Manager では、保護関係の作成、管理対象クラスタに保存されているデータのミラー保護とバックアップ保護の監視とトラブルシューティング、および上書きされたデータや失われたデータのリストアを実行できます。</block>
-  <block id="e56ac40426fbb16f4024976e611d39ab" category="doc">保護関係の作成、監視、およびトラブルシューティング</block>
   <block id="4a15dff59cc24772c11142eaf855d814" category="summary">既存の保護関係を編集して、最大転送速度、保護ポリシー、保護スケジュールを変更することができます。</block>
   <block id="4da25ef7eba260737e69f53657e05d68" category="doc">関係の編集ダイアログボックス</block>
   <block id="8477b4f153f1d47a395407e74f026a0b" category="section-title">宛先情報</block>
@@ -3919,7 +3908,6 @@
   <block id="1b3a3f92fbb9524d7e5cddd6ab8e2ff8" category="list-text">* 別の場所 *</block>
   <block id="ec2401f9a02066ade56349fa8ffcdc68" category="paragraph">選択したデータを新しい場所にリストアします。</block>
   <block id="dea5b83df1bb0b61c0180cc1e26f2326" category="list-text">リストアパス</block>
-  <block id="d591d92c35cfa4c99c4bed1c192ca7ef" category="paragraph">選択したデータをリストアする代替パスを指定します。既存のパスを指定する必要があります。「 * Browse * 」ボタンを使用して、データをリストアする場所に移動したり、 cluster ： //SVM/volume/path の形式でパスを手動で入力したりできます。</block>
   <block id="c9e89914575b6cbaa0810769d7ba09ed" category="list-text">ディレクトリ階層を維持します</block>
   <block id="f1bf52366ed8a29ea276c73d44cc195a" category="paragraph">このチェックボックスをオンにすると、元のファイルまたはディレクトリの構造が保持されます。たとえば、ソースが「 /A/B/C/ myfile.txt 」で、デスティネーションが「 /X/Y/Z 」である場合、 Unified Manager はデスティネーションでディレクトリ構造「 /X/Y/Z/A/B/C/myFile.txt 」を使用してデータをリストアします。</block>
   <block id="6f3bdb3c9c9b67e5d9f7a0ed469f8cc9" category="paragraph">選択内容を破棄して、 [ 復元 ] ダイアログボックスを閉じます。</block>
@@ -3975,7 +3963,6 @@
   <block id="60917ca5cc3a7b7da5a7efeed96d8ff3" category="paragraph">休止ジョブのステータスは、ボリューム / 健全性の詳細ページの上部にジョブの詳細へのリンクとともに表示されます。</block>
   <block id="1d0c62c76ad424fe12cbd79c3349cdfe" category="list-text">[ * 詳細の表示 * ] リンクをクリックして、 [ * ジョブ * 詳細 ] ページに移動し、詳細とジョブの進捗状況を確認します。</block>
   <block id="f818cdf01b01dce33090ef66a5e0c83e" category="paragraph">すべてのジョブタスクが正常に完了すれば休止ジョブは終了です。</block>
-  <block id="28d59a31e0c455868121ba1f0071cbca" category="summary">リソースプール、 SVM の関連付け、保護ジョブなど、保護に関連する詳細を表示および管理できます。適切な健常性しきい値ページを使用して、アグリゲート、ボリューム、および関係のグローバルな健常性しきい値を設定できます。</block>
   <block id="0dfcebea8fa1e701a2e1e7629f57777b" category="doc">保護関係の概要のウィンドウとダイアログボックス</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">OnCommand Workflow Automation （ WFA ）と Unified Manager の間にセキュアな接続を確立することができます。Workflow Automation に接続することで、 SnapMirror や SnapVault の設定ワークフロー、 SnapMirror 関係の管理用コマンドなどの保護機能を使用できるようになります。</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">WFA と Unified Manager の接続をサポートするために Unified Manager で作成したデータベースユーザの名前を確認しておく必要があります。</block>
@@ -4394,8 +4381,6 @@
   <block id="cee9c9f467d07df0f536920b0c81137d" category="list-text">Unified Manager のアンインストール時に削除されない次のサードパーティパッケージとデータをアンインストールします。</block>
   <block id="894a8f514225c80240b55b038fd71a5b" category="list-text">Unified Manager によって生成された MySQL のアプリケーションデータ</block>
   <block id="4ce380ffb0c2ac7f432c9a646e41fc52" category="list-text">アプリケーションログとアプリケーションデータディレクトリの内容</block>
-  <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">Windows で Unified Manager をダウンロードしてインストールする一連の手順を理解することが重要です。</block>
-  <block id="6934506078026f313f5366d7d0899031" category="summary">Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager アプリケーションの削除を実行できます。</block>
   <block id="90d0e221e2efe7b6e9b3933dbc0abbb5" category="summary">Unified Manager Web UI にアクセスするには、サポートされているブラウザを使用します。</block>
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">サポートされているブラウザ</block>
   <block id="64fa4b541831d42a2077400f1f10a1f0" category="paragraph">サポートされているブラウザとバージョンは Interoperability Matrix で確認できます。</block>
@@ -4517,7 +4502,6 @@
   <block id="48bb0ddb1336ce634d8f5d467013bd1a" category="list-text">リソースアクティビティ - 競合状態のクラスタコンポーネントの過去のパフォーマンス統計が表示されます。</block>
   <block id="c73a55b2ea80df996d117ecb515dd332" category="paragraph">一部のクラスタコンポーネントが競合状態にある場合は、これ以外のグラフが表示されます。</block>
   <block id="7e6bc3dfe51cc8c168e1b84a9c805438" category="paragraph">その他のイベントについては、ストレージオブジェクトに対して実行されている分析タイプの簡単な概要が表示されます。複数のパフォーマンスカウンタを分析するシステム定義のパフォーマンスポリシーについて、分析されたコンポーネントごとに 1 行以上の行が表示されることがあります。このシナリオでは、診断の横に、その診断で問題が見つかったかどうかを示す緑または赤のアイコンが表示されます。</block>
-  <block id="b6a1b7ab92b7809cd6b5fa6d25778eb0" category="summary">Scripts ページを使用して、 Unified Manager にスクリプトを追加できます。</block>
   <block id="2958a2a0b4f88e4844c280ad73c42393" category="doc">スクリプトのウィンドウとダイアログボックスの概要</block>
   <block id="915ab90f4f2b7a3890d87822fbdd1908" category="summary">Unified Manager では、クラスタの構成の変更が監視され、それが原因で発生したパフォーマンスイベントがないかどうかを判断できます。パフォーマンスエクスプローラのページには、変更イベントのアイコンが表示され、その日時が変更されたことを示します。</block>
   <block id="841cfe8833e05adf7f9e11ef0ffc3abf" category="doc">Unified Manager によって設定の変更が検出されました</block>
@@ -4608,7 +4592,6 @@
   <block id="c323f1226a439bf1226e371a945287fc" category="paragraph">FC ネットワークインターフェイス MBps の警告しきい値を超過（ドキュメント FcpLifMbpsWarning ）</block>
   <block id="ff2146c456d7bd7dfbe1cee6a981f9a6" category="paragraph">NVMf FC ネットワークインターフェイス MBps の重大しきい値を超過（ドキュメント NvmfFcLifMbpsIncident ）</block>
   <block id="93ec267dd2758aaa6f3b8d13b30953a3" category="paragraph">NVMf FC ネットワークインターフェイス MBps の警告しきい値を超過（ドキュメント NvmfFcLifMbpsWarning ）</block>
-  <block id="983709e41d8a9f3a7ed87f61343974ee" category="summary">リストに表示されるイベントを使用して、イベントのカテゴリと名前、および Unified Manager に表示される各イベントの重大度タイプを確認することができます。イベントは、オブジェクトカテゴリごとにアルファベット順に一覧表示されます。</block>
   <block id="da7c1532d24bac89950570832d779dd0" category="doc">イベントおよび重大度タイプのリスト</block>
   <block id="517aaccf8e2fba3a3d92b67d0c9175cf" category="summary">MetroCluster ブリッジイベントは、ブリッジのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="971501f74d6a54c9a3baf391e7d5affb" category="doc">MetroCluster ブリッジイベント</block>
@@ -5102,7 +5085,6 @@
   <block id="2b69f0fb74a45ed26fa7a2dd286e21a4" category="paragraph">wafl.vol.autoSize.done</block>
   <block id="3094d5bf098a1367b94e35a4c46ce8f9" category="paragraph">WAFL READDIR ファイル処理タイムアウト</block>
   <block id="1e05e4185307973284a525fff6f0e349" category="paragraph">wafl.readdir.expired</block>
-  <block id="d5115a56160e45240d2698485e7e3777" category="summary">イベントに関する概念を理解しておくと、クラスタおよびクラスタオブジェクトを効率的に管理し、アラートを適切に定義できるようになります。</block>
   <block id="3812f68f054737009998626d978c8845" category="summary">Active IQ プラットフォームイベントは、デフォルトで生成されて Unified Manager ユーザインターフェイスに表示されます。これらのイベントが「ノイジー」に起因している場合や、 Unified Manager でこれらのイベントを表示したくない場合は、これらのイベントの生成を無効にすることができます。あとで有効にして、これらの通知の受信を再開することができます。</block>
   <block id="3957a09b96d45842d6e5d4f3e4c407d5" category="paragraph">Active IQ プラットフォームイベントは、デフォルトで生成されて Unified Manager ユーザインターフェイスに表示されます。「ノイジー」が大きすぎる場合や、 Unified Manager でこれらのイベントを表示したくない場合は、これらのイベントの生成を無効にすることができます。あとで有効にして、これらの通知の受信を再開することができます。</block>
   <block id="c87d437f549a7a821713ef9ef7ddded6" category="paragraph">この機能を無効にすると、 Unified Manager は Active IQ プラットフォームイベントの受信をただちに停止します。</block>
@@ -5158,7 +5140,6 @@
   <block id="74d800b6de362daf0e3571d74c291e8f" category="paragraph">使用済みパフォーマンス容量のしきい値を超過（ドキュメントノードのオーバー利用率警告）</block>
   <block id="b6a7ef8bba2cdeb62abe3a35b05740f2" category="paragraph">ノード動的しきい値を超過（ Document NodeDynamicEventWarning ）</block>
   <block id="3032d54c1243efca0a9bf4ae47ca4d9a" category="paragraph">アドバイザリ ID ： NTAP-&lt;_advisory ID__ （ドキュメント x ）</block>
-  <block id="74de15f9cecf758bf5ea88c7c521769a" category="summary">[Add Alert] ダイアログボックスを使用して、イベントに関する通知を受信するようにアラートを設定する必要があります。アラートのリストは、 Alert Setup ページからも表示できます。</block>
   <block id="faaeaaa707e021a5daefebc0257c2bef" category="doc">概要のアラートウィンドウとダイアログボックス</block>
   <block id="5369e77205afd9038a19ea4126f7c3d6" category="summary">さまざまなイベントに対して作成されたアラートのリストは、 [Alert Setup] ページで表示できます。アラートのプロパティとして、アラート概要、通知の方法と頻度、アラートをトリガーするイベント、アラートの E メール受信者、クラスタ、アグリゲート、ボリュームなどの影響を受けるリソースなどを表示することもできます。</block>
   <block id="0490f29104db57d94bc40671bc7d27ef" category="paragraph">アラートのリストは、 Alert Setup ページに表示されます。</block>
@@ -5242,7 +5223,6 @@
   <block id="9b0b13c502a072a09d14410712cd958c" category="paragraph">MetroCluster のリソースコンポーネントの場合にのみ、 MetroCluster 構成のパートナークラスタにミラーリングされるすべてのボリュームワークロードについて、書き込みスループットの合計が 1 秒あたりのメガバイト数（ MBps ）で表示されます。</block>
   <block id="a2afea93d275d79ca2336ec3d3753122" category="list-text">* イベント履歴 *</block>
   <block id="228d1e0373bb13a360cabba1f8fecc0e" category="paragraph">競合状態のコンポーネントの過去のイベントを示す赤い影付きの線が表示されます。廃止イベントの場合は、選択したイベントが検出される前に発生したイベントと解決後のイベントがグラフに表示されます。</block>
-  <block id="a989b80ae6afb9e9b422c72ae554cd03" category="summary">イベントによって、監視対象のクラスタ内の問題を特定できます。</block>
   <block id="5e112fa45ecde7c059c7cc314842ff5b" category="summary">Scripts ページを使用して、 Unified Manager にカスタムスクリプトを追加できます。これらのスクリプトをアラートに関連付けると、ストレージオブジェクトが自動的に再設定されます。</block>
   <block id="b11580cbf91b50418ae45c0045a37c5e" category="doc">[ スクリプト ] ページ</block>
   <block id="6eac68c2a5ac9fd6f5ce96e0d68fefca" category="paragraph">Scripts ページを使用して、 Unified Manager に対してスクリプトを追加または削除できます。</block>
@@ -5407,7 +5387,6 @@
   <block id="a979160e6e4a7cefc8baaf828d3479b0" category="list-text">スクリプトを割り当てて、アラートが生成されたときに実行するようにスクリプトを設定しておく必要があります。</block>
   <block id="7584af8f042a17193534d8a97da96b0a" category="list-text">[* アラート設定 * ] ページで、テストするアラートを選択し、 [ * テスト * ] をクリックします。</block>
   <block id="5d85e3333b272d485dbcde87f0a72e91" category="paragraph">アラートの作成時に指定した E メールアドレスにテストアラート E メールが送信されます。</block>
-  <block id="42d323be222c31104efdd346bfa00930" category="summary">特定のイベントまたは特定の重大度タイプのイベントが発生したときに自動的に通知を送信するアラートを設定できます。アラートをスクリプトに関連付けて、アラートがトリガーされたときにスクリプトが実行されるようにすることもできます。</block>
   <block id="687c4ad055f235be531ad3a1c6e765ac" category="summary">イベントによっては、 Unified Manager の詳細な診断によって解決ボタンが 1 つ表示される場合があります。解決策がある場合は、ダッシュボード、イベントの詳細ページ、左側のナビゲーションメニューのワークロード分析の順に表示されます。</block>
   <block id="22028b2a7ee542d452d0faebe43c3e91" category="paragraph">イベントによっては、 Unified Manager の詳細な診断によって、 * Fix it * ボタンを使用して単一の解決策が提供されることがあります。解決策がある場合は、ダッシュボード、イベントの詳細ページ、左側のナビゲーションメニューのワークロード分析の順に表示されます。</block>
   <block id="62c1c4512db65a8497e64484d26bdb4c" category="paragraph">ほとんどのイベントではイベントの詳細ページにさまざまな解決策が表示されるため、 ONTAP システムマネージャまたは ONTAP CLI を使用して最適な解決策を実装できます。問題を修正する解像度が 1 つで、 ONTAP の CLI コマンドで解決できることが Unified Manager で確認された場合は、 * Fix it * アクションを使用できます。</block>
@@ -5600,7 +5579,6 @@
   <block id="f22b8e3c0b2a0488ac9e0902195cc352" category="paragraph">「 Cluster Not Reachable 」イベントがトリガーされると、イベントの状態は「 New 」になります。イベントを確認すると、イベントの状態は「確認済み」に変わります。適切な方法で対処したら、イベントを解決済みとしてマークする必要があります。その後、イベントの状態が「解決済み」に変わります。</block>
   <block id="be54bfc7b294e3b710d047f620eeb156" category="paragraph">「クラスタに到達できません」イベントが生成された原因が停電であった場合は、電源が復旧すると、管理者の介入なしでクラスタが起動します。そのため、「クラスタに到達できません」イベントは有効でなくなり、イベントの状態が次回の監視サイクルで「廃止」に変わります。</block>
   <block id="238d2c061cd8106d7f15da51a708792d" category="paragraph">Unified Manager では、イベントが「 Obsolete 」または「 Resolved 」の状態になるとアラートを送信します。アラートの E メールの件名と内容に、イベントの状態に関する情報が記載されます。SNMP トラップには、イベントの状態に関する情報も含まれます。</block>
-  <block id="9e3b3d32e8f20a5d84c0e35ac994c1c0" category="summary">環境内の問題はイベントを通じて通知されます。イベント管理のインベントリページおよびイベントの詳細ページを使用して、すべてのイベントを監視できます。通知設定オプションダイアログボックスを使用して通知を設定できます。イベントの設定ページを使用して、イベントを無効または有効にすることができます。</block>
   <block id="bf77b539a9cbc23c20c190040353b031" category="doc">イベントウィンドウとダイアログボックスの概要</block>
   <block id="c7aaa38e589ce009c5c3608da3b72bd2" category="summary">NVMe ネームスペースイベントは、ネームスペースのステータス情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="8aca9c7a78f337bd575b59ab2bf3384d" category="doc">NVMe ネームスペースイベント</block>
@@ -5627,7 +5605,6 @@
   <block id="40bf608f1697f7ae784100ee7cfef65a" category="paragraph">ストレージフェイルオーバーの状態 - 部分的なギブバック（ドキュメント EvtSfoStatePartialGiveback ）</block>
   <block id="8706edaa33404b4124a82cc163d21b4b" category="paragraph">ストレージフェイルオーバーノードのステータスが停止しています（ Document EvtSfoNodeStatusDown ）</block>
   <block id="6b40a616d6bd672694ec84521a453bf4" category="paragraph">ストレージフェイルオーバーのテイクオーバーを実行できません（ドキュメントエヴァットフォックステイクオーバー可能）</block>
-  <block id="b6d7b3d374f0eb0f8bc28abda4c13835" category="summary">アラートを送信するように設定したすべてのイベントについて、使用可能なすべての状態（新規、確認済み、解決済み、廃止）に移行したときにアラートメッセージが送信されます。イベントが解決済み / 廃止状態に移行したときにアラートを受信したくない場合は、アラートを抑制するようグローバルに設定できます。</block>
   <block id="e6c1e402aa18363c1918db2d06150ef2" category="paragraph">デフォルトでは、イベントが解決済み / 廃止状態に移行する際にアラートは送信されません。</block>
   <block id="7ed7790eca956b7e497698b1e3d6541d" category="list-text">[* アラートの設定 * （ * Alert Setup * ） ] ページで、項目の横にあるスライダコントロールを使用して、解決済み / 廃止イベントのアラート * を使用して、次のいずれかのアクションを実行します。</block>
   <block id="22c85e525e5edd5ccd35af4f79bc2e9a" category="paragraph">イベントが解決済みまたは廃止状態に移行したときのアラートの送信を停止します</block>
@@ -6269,7 +6246,6 @@
   <block id="ecd55bfc88b1bfcc18e74516d3930fe0" category="list-text">アグリゲート / パフォーマンスエクスプローラページで、表示と比較メニューから、このアグリゲート上の * ボリュームをクリックします。</block>
   <block id="425a10f179801ef3880ceeba20ca6550" category="list-text">IOPS が最も高いボリュームを特定します。</block>
   <block id="e09eeba9fc0d787fa2e568508d172ab2" category="paragraph">特定したボリュームを調べて、 QoS ポリシーまたはパフォーマンスサービスレベルポリシーを適用するかどうかを判断するか、またはポリシーの設定を変更し、これらのボリュームが使用する IOPS の割合が少なくなるようにします。</block>
-  <block id="effa6ec295d256166212c21ed1967250" category="summary">概要ページには、過去 72 時間のオブジェクトごとのイベントとパフォーマンスの詳細が表示されます。このデータは自動では更新されず、最後にページがロードされた時点のデータです。[ 概要 ] ページのグラフ回答質問をさらに確認する必要がありますか ?</block>
   <block id="84ca298df72ab058f684940ba6fc7883" category="paragraph">概要ページには、過去 72 時間のオブジェクトごとのイベントとパフォーマンスの詳細が表示されます。このデータは自動では更新されず、最後にページがロードされた時点のデータです。サマリページのグラフ回答 the question_do I need to look further ？ _</block>
   <block id="928a3ee10cac32e26a95e3b617e56177" category="section-title">グラフとカウンタの統計情報</block>
   <block id="b43dd1a22516489da0059dd81579258c" category="paragraph">サマリグラフには、過去 72 時間の概要が表示され、さらに調査が必要な潜在的な問題の特定に役立ちます。</block>
@@ -6530,7 +6506,6 @@
   <block id="b8493122268f85b9b34965b4710fcaf7" category="paragraph">ネットワーク処理、データ処理、およびアグリゲートコンポーネントのワークロード処理を完了するためにビジー状態になる一定期間における時間の割合です。たとえば、ネットワーク処理やデータ処理のコンポーネントで I/O 要求を処理するのにかかる時間の割合や、アグリゲートで読み取りや書き込みの要求に対応するのにかかる時間の割合などがあります。</block>
   <block id="36253e4e04da9e48c8869465ee3b2794" category="paragraph">書き込みスループット</block>
   <block id="7fb5017310d183e81ee3903a0274d595" category="paragraph">MetroCluster 構成におけるローカルクラスタのワークロードからパートナークラスタへの書き込みスループットです。 1 秒あたりのメガバイト数（ MBps ）で示されます。</block>
-  <block id="72563a114421d5c552819f674bfc5377" category="summary">Active IQ Unified Manager では、データストレージのパフォーマンスに関する問題の監視とトラブルシューティング用に、 Web ユーザインターフェイスとメンテナンスコンソールの 2 つのインターフェイスを提供しています。</block>
   <block id="4a6543511f6b6ff2d29a6c6c7a97bdc7" category="doc">ストレージシステムのパフォーマンスを管理するために使用される Unified Manager インターフェイス</block>
   <block id="db05cf50590ac0ed41bc6f379a423753" category="summary">パフォーマンス容量は、あるリソースの有用なパフォーマンスを超過しない範囲で、そのリソースから引き出すことのできるスループットの量を示します。既存のパフォーマンスカウンタを使用した場合、レイテンシが問題になる前に、ノードまたはアグリゲートを最大限利用できるポイントがパフォーマンス容量です。</block>
   <block id="f7845532eac2f55da15805d9bdc1ac71" category="doc">パフォーマンス容量と使用可能な IOPS の情報を使用してパフォーマンスを管理する</block>
@@ -7581,7 +7556,6 @@
   <block id="bf1fb2bda1bd93d3b5faa49f29a9c6ea" category="list-text">[Event Name Contains] フィールドに「 * IOPS* 」と入力し、矢印をクリックして、一致するすべてのイベントを選択します。</block>
   <block id="1d8be7b6944ec382660dc8c0dece6fb9" category="list-text">[Event Name Contains] フィールドに「 *Mbps*] 」と入力し、矢印をクリックして一致するすべてのイベントを選択します。</block>
   <block id="71bbd146216ed9038fe06d70f5739461" category="list-text">SNMP トラップの発行やスクリプトの実行など、このページの他のオプションを設定します。</block>
-  <block id="5a0655841e7a6403311674d5e01aa003" category="summary">アクティビティの変化が最も大きい QoS ポリシーグループ内のワークロードを確認すると、複数のワークロードがイベントの原因となったかどうかを判断できます。また、他のワークロードがスループット制限を超えているかどうか、またはアクティビティの想定範囲内に戻ったかどうかを確認することもできます。</block>
   <block id="108996a47a494b1edffaf879f72e7acf" category="doc">QoS ポリシーグループ内の他のボリュームのアクティビティが非常に高くなっていないかを確認してください</block>
   <block id="927c85638637b4418f4206e7048cb4a2" category="paragraph">アクティビティの変化が最も大きい QoS ポリシーグループ内のワークロードを確認すると、複数のワークロードがイベントの原因となったかどうかを判断できます。また、他のワークロードがスループット制限を超えているかどうか、またはアクティビティの想定範囲内に戻ったかどうかを確認することもできます。</block>
   <block id="769d20ca7e6783d914750e8af6b9c711" category="paragraph">イベントの詳細ページのシステム診断セクションで、ワークロードをアクティビティのピーク偏差でソートして、アクティビティの変化が最も大きいワークロードをテーブルの先頭に表示できます。これらのワークロードは、アクティビティが設定された制限を超え、イベントの原因となった「いじめ」である可能性があります。</block>
@@ -7796,7 +7770,6 @@
   <block id="d57aa4c410a0dabbe6107b64eadb8670" category="paragraph">適切な権限があれば、システム内のすべてのレポートとそのスケジュールを削除できます。</block>
   <block id="77575f28aa43d90e6a0f15b9b1a8d7fb" category="paragraph">スケジュール済みレポートがリストから削除され、設定したスケジュールで生成および配布されなくなります。</block>
   <block id="bb1c2e9297490454b79f35a4c34168e1" category="paragraph">インベントリページからカスタムビューを削除すると、そのビューを使用するカスタム Excel ファイルまたはスケジュール済みレポートもすべて削除されます。</block>
-  <block id="96aeeb6ea929356f485d93717faef0eb" category="summary">このセクションのクラスタストレージレポートは、それぞれのストレージシステムリソースの監視に役立つクラスタ容量に関するレポートの作成方法を説明するためのサンプルです。</block>
   <block id="535b6bf0b8fc54acc0470b974734e9c1" category="summary">レポートとして再利用して共有したいビューがある場合は、 Active IQ Unified Manager を使用してそのビューをスケジュール設定できます。スケジュールされたレポートの管理、各レポートスケジュールの受信者と配信頻度の変更が可能です。</block>
   <block id="4c5b5e756b9338c1b38b308b1ab251c2" category="paragraph">Unified Manager では、ほとんどのビューまたはインベントリページをスケジュール設定できます。ただしイベントだけは例外で、 CSV ファイルとしてダウンロードすることはできますが、スケジュール設定して再生成および共有することはできません。また、ダッシュボード、お気に入り、設定ページをダウンロードしたり、スケジュール設定したりすることもできません。</block>
   <block id="e14516b1db6f88e6f6dd546cb99596e7" category="paragraph">Active IQ Unified Manager 9.8 以降では、 Microsoft ® Excel 形式のビューをダウンロードしてカスタマイズできます。複雑な並べ替え、レイヤーフィルター、ピボットテーブル、グラフなど、 Excel の高度な機能を使用できます。結果の Excel レポートに問題がなければ、レポートがスケジュールされて共有されるたびに使用する Excel ファイルをアップロードできます。</block>
@@ -7912,7 +7885,6 @@
   <block id="211f61cf102dd0b6f979351f58679249" category="list-text">「正常でない理由」列の上部をクリックして、ボリューム関係を障害の原因別にグループ化します。</block>
   <block id="215026e4244cf8fc98aff16a7d3aa1b3" category="list-text">ビューには ' 失敗によるボリューム関係など ' 表示されているビューの名前が反映された名前を付けて保存します</block>
   <block id="b9a788e34d75217afbebc51543b3a3aa" category="paragraph">レポートに表示された結果を基に、障害のタイプごとに原因と影響を調査できます。</block>
-  <block id="29c7333e782dea789336ad2e1c014685" category="summary">以下に記載するサンプルのカスタムレポートを使用して、ボリュームの容量とパフォーマンスに関連する潜在的な問題を特定して対処することができます。</block>
   <block id="5379275129e08ae5db2a393bd6069261" category="summary">Active IQ Unified Manager （旧 OnCommand Unified Manager ）では、 ONTAP ストレージシステムのレポートを表示、カスタマイズ、ダウンロード、およびスケジュール設定できます。レポートには、ストレージシステムの容量、健全性、パフォーマンス、保護関係に関する詳細を表示できます。</block>
   <block id="b31bf9e59ab9182770659e8d7407cc89" category="doc">Unified Manager のレポート機能</block>
   <block id="7a5430cc19cdd71473f2428039c2c2d0" category="paragraph">Active IQ Unified Manager （旧 OnCommand Unified Manager ）では、 ONTAP ストレージシステムのレポートを表示、カスタマイズ、ダウンロード、およびスケジュール設定できます。レポートには、ストレージシステムの容量、健全性、パフォーマンス、セキュリティ、保護関係に関する詳細を表示できます。</block>
@@ -7932,7 +7904,6 @@
   <block id="eeff320b68d197eb4b7defeb592aef7b" category="list-text">「使用済みディスク % 」列の上部をクリックして、結果を容量の割合でソートします。</block>
   <block id="cb16e3120c70bde153fef42a2f270ce4" category="list-text">ビューに表示されている内容を反映した名前でビューを保存します（例：「 qtree がフルに近づいています」）。チェックマーク（）をクリックします<block ref="084f5fd11ecd9791c3a6678c5f224e6b" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="68859c91557b1496011f9c58ca59c45e" category="paragraph">レポートに表示された結果を基に、ディスクのハードリミットやソフトリミットを調整したり（設定されている場合）、 qtree 間でデータのバランスを調整したりすることができます。</block>
-  <block id="d83294a3729568ee795a306512eeb4ae" category="summary">共有可能なスケジュール済みレポートにインベントリページビューを見つけてカスタマイズする方法について説明します。</block>
   <block id="85ea07cf45dddd1bb4cfccaec4331e00" category="summary">さまざまな方法でビューをカスタマイズして、 ONTAP クラスタの管理に必要なすべての情報を含むレポートを作成できます。</block>
   <block id="234b12bf7e76391cb11df24bc3450c8c" category="paragraph">デフォルトのインベントリページまたはカスタムビューで開始し、列の追加や削除、列の順序変更、データのフィルタリング、特定の列での昇順または降順のソートなどを行ってカスタマイズします。</block>
   <block id="822199e84782118372be247348a5b0ea" category="paragraph">Unified Manager 9.8 以降では、 Excel のビューをダウンロードして、高度な機能を使用してカスタマイズすることもできます。完了したら、カスタマイズした Excel ファイルをアップロードします。そのビューを使用してレポートをスケジュールすると、カスタマイズした Excel ファイルを使用して、共有可能な堅牢なレポートが作成されます。</block>
@@ -8052,7 +8023,6 @@
   <block id="cf34db983c807f1b3f9a4ea61d46d60a" category="summary">REST API を使用すると、 Unified Manager で収集された健全性、容量、パフォーマンス、セキュリティの情報を確認することができ、クラスタの管理に便利です。</block>
   <block id="d4ebc5d6d732b6ec32a446521b4a3d9a" category="doc">レポート作成に使用できる Unified Manager REST API</block>
   <block id="e562c08e75037d1102362250b8921681" category="paragraph">REST API にアクセスするには、オペレータ、ストレージ管理者、またはアプリケーション管理者のロールが必要です。</block>
-  <block id="b43af741dbae1838a692f1c1ea700ca3" category="summary">以下に記載するサンプルのカスタムレポートを使用して、 qtree 容量に関連する潜在的な問題を特定して対処することができます。</block>
   <block id="1b209a610ad395670a50fbd872028eba" category="summary">Snapshot の自動削除機能が無効になっていて容量がフルに近づいているボリュームをリストするレポートを作成できます。このレポートは、 Snapshot の自動削除を設定する必要があるボリュームを特定するのに役立ちます。</block>
   <block id="40297d7e8489bd971e6bc51bab1305da" category="list-text">「スナップショットの自動削除」列と「フル」列を「使用可能なデータ容量」列の近くにドラッグアンドドロップします。</block>
   <block id="72701fbe43107196eb838a141342f9a9" category="list-text">フィルタアイコンをクリックして次の 2 つのフィルタを追加し、 * フィルタの適用 * をクリックします。</block>
@@ -8077,9 +8047,6 @@
   <block id="8df0cb701c2ff21cf6997bfbaff5c8d4" category="list-text">「 OS バージョン」列の上部をクリックして、 ONTAP の最も古いバージョンで結果をソートします。</block>
   <block id="699fbdb83d549afde39cedcd2276eb5d" category="list-text">ビューに表示されている内容を反映した名前でビューを保存します ( 例 : ONTAP バージョンごとのノード )</block>
   <block id="2bfe84af4415c93a990fee81b9074d15" category="paragraph">レポートに表示された結果を基に、古いバージョンの ONTAP を実行しているノードをアップグレードできます。</block>
-  <block id="f869c5ebf4dab96af5c925d450b297fc" category="summary">以下に記載するサンプルのカスタムレポートを使用して、アグリゲートのストレージ容量に関連する潜在的な問題を特定して対処することができます。</block>
-  <block id="cd8b3d3744695ca73f8c29af659a98a7" category="doc">アグリゲート容量レポートのカスタマイズ</block>
-  <block id="3d9f8138f17e1d3282f0e4926b433f0d" category="paragraph">このセクションのレポートは、それぞれのストレージシステムリソースの監視に役立つアグリゲート容量レポートの作成方法を説明するためのサンプルです。</block>
   <block id="12a0a464c09d79e465da9098df75c951" category="summary">80% 以上フルのアグリゲートを表示するレポートを作成できます。</block>
   <block id="0438660e5f1975c6afabee46ca638e6f" category="paragraph">次の手順に従って、 80% 以上フルのアグリゲートを表示するカスタムビューを作成し、そのビューのレポートを生成するようにスケジュール設定します。</block>
   <block id="65a50c0a6f930d851516e7f08722b01f" category="list-text">「使用可能なデータ % 」列と「使用済みデータ % 」列を「アグリゲート」列の近くにドラッグします。</block>
@@ -8114,7 +8081,6 @@
   <block id="cf554e5156a0ef7a69de1c4c75eed19c" category="paragraph">VMWARE_performance</block>
   <block id="0371d63b1e614f7ac6d412149513a01d" category="paragraph">ネットアップストレージでホストされているデータストアの VMware パフォーマンスカウンタデータ。</block>
   <block id="030a4fbaf40ce64a3de26a58a2349f3b" category="paragraph">レポートスキーマロールを持つデータベースユーザーであるレポートユーザーは、これらのテーブルのデータにアクセスできます。このユーザには、レポートおよびその他のデータベースビューに Unified Manager データベースから直接アクセスするための読み取り専用アクセスが付与されます。このユーザには、ユーザデータやクラスタクレデンシャル情報を含むテーブルにアクセスする権限はありません。</block>
-  <block id="427bcb62e2bd1c94ae6a83f6e7a71b6a" category="summary">以下に記載するサンプルのカスタムレポートを使用して、ボリュームのパフォーマンスに関連する潜在的な問題を特定して対処することができます。</block>
   <block id="c8c0da96d2349fc0c9076ef9211e4100" category="summary">このレポートには、新しいワークロードをプロビジョニングできるアグリゲートタイプごとの IOPS が最も使用可能なアグリゲートが表示されます。</block>
   <block id="74636eb2599c188689117476d35d525a" category="list-text">View * ドロップダウンから * Performance ： All aggregates * を選択します。</block>
   <block id="2d14bbb3ef3dcda61f319d27c9ba1bb2" category="list-text">[ 使用可能な IOPS] 列を表示し、 [ クラスタ FQDN ] 、 [ 非アクティブなデータレポート ] 、 [ しきい値ポリシー ] 列を非表示にするには、 [*Show/Hide *] を選択します。</block>
@@ -8369,7 +8335,6 @@
   <block id="5cae6de22cb19e23696d6d2a0ecbdf24" category="summary">新しいバージョンが利用可能になったときは、 Unified Manager ソフトウェアをアップグレードできます。</block>
   <block id="78f7bd17e8dc5c60aabeddc5a7edd6c4" category="paragraph">Unified Manager ソフトウェアのパッチリリースがネットアップから提供されたときは、新規リリースと同じ手順を使用してインストールします。</block>
   <block id="f696145a54e424214c1c269032a174b3" category="summary">Linux システムで、 Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager の削除を実行できます。</block>
-  <block id="52d79db225dfcf2c566661e9d8c9b0da" category="summary">Unified Manager をダウンロードしてインストールする一連の手順は、インストールシナリオによって異なります。</block>
   <block id="af5e840663cada43f534ae4ad3ceb289" category="doc">Linux システムへの Unified Manager のインストール</block>
   <block id="fb5b873db02917e17fa1056c6d372bf3" category="summary">Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。</block>
   <block id="1db66d7ea8f6111cd5dc19a357090311" category="paragraph">ここに記載する 2 つの方法の違いは、 Unified Manager のリストア処理を新しい 8.x サーバで実行する場合と同じサーバで実行する場合です。</block>
@@ -8448,7 +8413,6 @@
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager のドキュメント</block>
   <block id="c200239369f7ea49229003f057ad8769" category="summary">Unified Manager のインストールファイルをネットアップサポートサイトからダウンロードして、 Unified Manager を仮想アプライアンスとして導入します。</block>
   <block id="89ceb9ec1fb3db99ae27c6381019e506" category="paragraph">ネットアップサポートサイトのログインクレデンシャルが必要です。</block>
-  <block id="90bb491fbeff708e2e5dc4390c2d45dd" category="summary">VMware vSphere システムで、 Unified Manager ソフトウェアのインストール、新しいバージョンへのアップグレード、または Unified Manager 仮想アプライアンスの削除を実行できます。</block>
   <block id="ec269d35cea219958d7c15c9ba6b33f8" category="summary">Unified Manager を導入するには、ソフトウェアをダウンロードし、仮想アプライアンスを導入し、メンテナンスユーザを作成してユーザ名とパスワードを設定し、 Web UI で初期セットアップを行います。</block>
   <block id="7475bf5a0292d4ec25a6a390aefcf728" category="list-text">導入に必要なシステム要件を確認し、満たしておく必要があります。</block>
   <block id="54ffe2e3a63aa1b0ec1790010c84aad7" category="list-text">次の情報があることを確認します。</block>
@@ -8592,7 +8556,6 @@
   <block id="3d5964916dd7fe905feb820b18404950" category="paragraph">[* アクティビティなしタイムアウト * ] パネルで、スライダボタンを左（オフ）に移動し、 [ * 適用 * ] をクリックします。</block>
   <block id="3a35e00df04cea9d3511be82409ccb88" category="paragraph">タイムアウト値として特定の時間（分）を設定します</block>
   <block id="7d6285bdde6a7017e4ecbec7d3898f94" category="paragraph">[*Inactivity Timeout*] パネルで、スライダボタンを右（オン）に動かし、非アクティブ時のタイムアウト値を分単位で指定して、 [*Apply*] をクリックします。</block>
-  <block id="4b4d4348e829eaf3a0de3ed56cd0de9b" category="summary">HTTPS 証明書ページを使用して、現在のセキュリティ証明書を表示したり、新しい HTTPS 証明書を生成したりできます。</block>
   <block id="9d8906bca89b5ca3210e219efa4a8a9e" category="doc">証明書管理のページの説明</block>
   <block id="9ad6cdbafa6d2afeff6fa8613d36f754" category="paragraph">Unified Manager がインストールされている Linux システムへの root ユーザアクセスが必要です。</block>
   <block id="8fae856b678489b4ce37733b2f2b89e4" category="paragraph">Unified Manager Web UI には、ホスト名（またはホストの IP アドレス）を使用してアクセスできます。導入時に静的 IP アドレスを使用してネットワークを設定した場合は、指定したネットワークホストの名前を使用します。DHCP を使用してネットワークを設定した場合は、 DNS サーバからホスト名を取得します。</block>
@@ -8635,7 +8598,6 @@
   <block id="4ffdd3b739d2b10bed518fda3f08e253" category="paragraph">許可されたリモートユーザが Unified Manager のグラフィカルインターフェイスにアクセスする際にクレデンシャルを入力するページが、次回から Unified Manager のログインページではなく IdP のログインページに変わります。</block>
   <block id="c1d74022648b86f70cbdd0ec625ed157" category="paragraph">まだ完了していない場合は、 IdP にアクセスし、 Unified Manager サーバの URI とメタデータを入力して設定を完了します。</block>
   <block id="76494b592476ffaecfe45efcef46e516" category="paragraph">アイデンティティプロバイダに ADFS を使用している場合は、 Unified Manager GUI で ADFS のタイムアウトが考慮されず、 Unified Manager のセッションタイムアウトに達するまでセッションが続行されます。GUI セッションのタイムアウトを変更するには、 * General * &gt; * Feature Settings * &gt; * Inactivity Timeout * をクリックします。</block>
-  <block id="166019a1b30f1eef3de504d56cb45235" category="summary">必要に応じて、 Unified Manager をインストールしたシステムのホスト名をあとから変更することができます。たとえば、タイプ、ワークグループ、監視対象のクラスタグループなどがわかるような名前に変更すると、 Unified Manager サーバを識別しやすくなります。</block>
   <block id="678a80e003e568f26edb7d0c39902856" category="summary">HTTPS 証明書の詳細をブラウザで取得した証明書と比較して、 Unified Manager に対するブラウザの暗号化された接続が妨害されていないことを確認できます。</block>
   <block id="e35aa1a138f9b558c345d18e215f2316" category="paragraph">HTTPS 証明書の詳細をブラウザで取得した証明書と比較して、 Unified Manager に対するブラウザの暗号化された接続が妨害されていないことを確認できます。</block>
   <block id="b2c90a5b30ba4ff49a4fbaeb27d71523" category="paragraph">証明書を表示すると、再生成された証明書の内容を検証したり、 Unified Manager へのアクセスに使用できる Subject Alternative Name （ SAN ）を表示したりできます。</block>
@@ -8723,7 +8685,6 @@
   <block id="a8eee6424f8da76b212b1e42c2e47f7d" category="paragraph">レポートのスケジュール設定と保存</block>
   <block id="9e458d28742dbc15a5b4acfaf77ddeae" category="paragraph">管理アクションから「 Fix it 」オペレーションを実行します</block>
   <block id="9bbf216791095ba47f3140c08e216b5d" category="paragraph">データベースビューへの読み取り専用アクセスを提供します</block>
-  <block id="79abcc44d842a51cae5a0281764346f2" category="summary">Unified Manager サーバで HTTPS を設定することで、セキュアな接続を介してクラスタを監視および管理できるようになります。</block>
   <block id="6b4f457ac39355cc25c773e73cf93d42" category="summary">監査ログを使用すると、監査ログが侵害されたかどうかを検出できます。ユーザが実行するすべてのアクティビティが監視され、監査ログに記録されます。監査は、 Active IQ Unified Manager のすべてのユーザーインターフェイスと公開されている API の機能に対して実行されます。</block>
   <block id="ed10928e6764b24cf2eafc3e0fe7ede0" category="doc">監査ログ</block>
   <block id="44b31e988f780161d753574c7520c579" category="paragraph">監査ログを使用すると、監査ログが侵害されたかどうかを検出できます。ユーザが実行するすべてのアクティビティが監視され、監査ログに記録されます。監査は、 Active IQ Unified Manager のすべてのユーザーインターフェイスと公開されている API の機能に対して実行されます。</block>
@@ -9050,8 +9011,6 @@
   <block id="e836e66ffb29fe4cfb6c461e95a190d5" category="list-text">コンソールウィンドウ内をクリックし、ユーザ名とパスワードを使用してメンテナンスコンソールにログインします。</block>
   <block id="896ecfb429b37d6ff67a88b96dcef9ae" category="list-text">メインメニューで、 *System Configuration* オプションの番号を入力します。</block>
   <block id="bb93796412fecb4dba551373165770fc" category="list-text">System Configuration Menu （システム構成メニュー）で、 * データディスクサイズの増加 * オプションの数値を入力します。</block>
-  <block id="41a9e9d8647d9b0031e95a417ce0ff1f" category="summary">Unified Manager サーバで LDAP または Active Directory のいずれかを使用して認証を有効にし、サーバと連携してリモートユーザを認証するように設定することができます。</block>
-  <block id="081aad09b163af228b77c97e10a98363" category="paragraph">リモート認証の有効化、認証サービスのセットアップ、認証サーバの追加については、「 Unified Manager でアラート通知を送信するための設定」の前のセクションを参照してください。</block>
   <block id="b17da30636e58927197d11a5c3a69480" category="summary">Unified Manager サーバが認証サーバとの通信に使用するポートを変更することができます。</block>
   <block id="aef9d03229c060a54d825c2329ae1a16" category="list-text">[ ネストされたグループの検索を無効にする *] ボックスをオンにします。</block>
   <block id="570c42d696911b4054b41590b22a1756" category="list-text">[* 認証サーバ * ] 領域で、編集する認証サーバを選択し、 [ * 編集 ] をクリックします。</block>
@@ -9150,7 +9109,6 @@
   <block id="bfb26aad10adbec1f5cd25ef16ca9bb0" category="paragraph">この手順はオプションです。クラスタは、 Web UI の * Storage Management * &gt; * Cluster Setup * からあとから追加できます。</block>
   <block id="8fe7045b0b6050a6dc3a12043504e646" category="list-text">[ 概要 ] ページで、すべての設定が正しいことを確認し、 [ 完了 *] をクリックします。</block>
   <block id="3ac84f96e0648695eb908e35db1f0fdf" category="paragraph">Getting Started ページが閉じ、 Unified Manager の Dashboard ページが表示されます。</block>
-  <block id="d1ba0e66678266ac2bfdc09f3fe23824" category="summary">メンテナンスコンソールでは、ネットワークの設定、 Unified Manager がインストールされているシステムの設定と管理、潜在的な問題の防止とトラブルシューティングに役立つその他のメンテナンスタスクを実行することができます。</block>
   <block id="bf913913742b01031a05064ed1d20297" category="doc">メンテナンスコンソールを使用する</block>
   <block id="a1725868f0277a5fb4d98ac70d04a488" category="summary">Active IQ Unified Manager に非アクティブ時のタイムアウト値を指定できます。非アクティブな状態が指定した時間を経過すると、アプリケーションは自動的にログアウトされます。このオプションはデフォルトで有効になっています。</block>
   <block id="3e32d70f729e221e6069bcf0ca78343e" category="paragraph">この機能を非アクティブにするか、 * 一般 * &gt; * 機能設定 * &gt; * 非アクティブタイムアウト * から時間を変更できます。この機能をアクティブにしたら、システムが自動的にログアウトするまでの時間制限（分単位）を * logout after * フィールドに指定する必要があります。デフォルト値は 4320 分（ 72 時間）です。</block>
@@ -9376,7 +9334,6 @@
   <block id="a996e58fc5a4637ea0fb9b58413a0089" category="list-text">[ はい ] をクリックして証明書を再生成します。</block>
   <block id="540bc4f4015742af23a3c7083217a531" category="list-text">新しい証明書を有効にするために Unified Manager サーバを再起動します。</block>
   <block id="de94c8175a828bf1903276c43d25322e" category="paragraph">HTTPS 証明書を表示して新しい証明書の情報を確認します。</block>
-  <block id="369d42629beea2ad70c23667467de925" category="summary">選択したクラスタオブジェクトへのユーザアクセスを制御するために、ロールを作成し、機能を割り当てることができます。クラスタ内の選択したオブジェクトにアクセスするために必要な権限を持つユーザを特定できます。これらのユーザにのみ、クラスタオブジェクトを管理するためのアクセス権が付与されます。</block>
   <block id="ed760fa5888cdf1f92b3c34ef5ebfbff" category="summary">API ゲートウェイ機能を使用すると、 ONTAP を個別にログインせずに、複数の Active IQ Unified Manager クラスタを一元的に管理できます。</block>
   <block id="53188ee373fe9d107911ef7a6d30ad90" category="paragraph">この機能は、 Unified Manager に最初にログインしたときに表示される設定ページから有効にできます。または、 * 一般 * &gt; * 機能設定 * &gt; * API ゲートウェイ * からこの機能を有効または無効にすることもできます。</block>
   <block id="d6176f802f7deaa8a88fcf58eeb728f4" category="paragraph">Unified Manager REST API と ONTAP REST API は別のものであり、 Unified Manager REST API を使用して ONTAP REST API のすべての機能を利用できるわけではありません。ただし、 Unified Manager では提供されていない特定の機能を管理するために ONTAP API にアクセスする必要がある場合は、 API ゲートウェイ機能を有効にして ONTAP API を実行できます。ゲートウェイは、ヘッダーと本文の形式を ONTAP API と同じにすることで、 API 要求をトンネリングするプロキシとして機能します。Unified Manager のクレデンシャルを使用して特定の API を実行することで、個々のクラスタのクレデンシャルを渡すことなく ONTAP クラスタにアクセスして管理することができます。Unified Manager は単一の管理ポイントとして機能し、 Unified Manager インスタンスで管理される ONTAP クラスタ全体で API を実行できます。API から返される応答は、対応する ONTAP REST API を ONTAP から直接実行した場合と同じです。</block>
@@ -9386,7 +9343,6 @@
   <block id="a5b3e1c78ed256053f5d6bc36320f18d" category="summary">Active IQ Unified Manager （旧 OnCommand Unified Manager ）をインストールしたら、 Web UI にアクセスするために初期セットアップ（初期設定ウィザード）を完了する必要があります。その後、クラスタの追加、リモート認証の設定、ユーザの追加、アラートの追加など、その他の設定作業を実行することができます。</block>
   <block id="bb996c96ac04e471a45c620446bd3402" category="doc">Active IQ Unified Manager を設定しています</block>
   <block id="641f4e1cc9fd016eb1fecd7c79d7dbad" category="paragraph">このマニュアルに記載されている手順の一部は、 Unified Manager インスタンスの初期セットアップを完了するための必須の手順です。その他の手順は、新しいインスタンスをセットアップする際に推奨される設定か、または ONTAP システムの定期的な監視を開始する前に把握しておくことが推奨される設定です。</block>
-  <block id="2c6bc67c55ca1b8f948ebbd441af2d3b" category="doc">RBAC とは</block>
   <block id="43b62104ba825e79372a66f8043d535f" category="summary">ネットワークホストの名前は、 Unified Manager 仮想アプライアンスの導入時に割り当てられます。このホスト名は導入後に変更することができます。ホスト名を変更する場合は、 HTTPS 証明書も再生成する必要があります。</block>
   <block id="9bc2a68e636629bbc72508802b1ff20b" category="paragraph">このタスクを実行するには、 Unified Manager にメンテナンスユーザとしてログインするか、アプリケーション管理者ロールが割り当てられている必要があります。</block>
   <block id="8ee11697de3657a13f093f92fb57cdd0" category="paragraph">Unified Manager Web UI には、ホスト名（またはホストの IP アドレス）を使用してアクセスできます。導入時に静的 IP アドレスを使用してネットワークを設定した場合は、指定したネットワークホストの名前を使用します。DHCP を使用してネットワークを設定した場合は、 DNS からホスト名を取得します。DHCP または DNS が適切に設定されていないと、ホスト名「 Unified Manager 」が自動的に割り当てられ、セキュリティ証明書に関連付けられます。</block>
@@ -9563,7 +9519,6 @@
   <block id="c823d6d6c0c4eac0f4c8c4fda454cb9e" category="paragraph">VMDK については指標は報告されません。トポロジでは、 VMDK 名のみ表示され、指標は表示されません。</block>
   <block id="d0fe288b5bf264234611be2e22e10568" category="inline-link-macro">Workload Analyzer を使用したワークロードのトラブルシューティング</block>
   <block id="8f012ada63b1dde158ec2ce132b85313" category="paragraph"><block ref="8f012ada63b1dde158ec2ce132b85313" category="inline-link-macro-rx"></block></block>
-  <block id="5a1829b996821d842e0c63ffd9f17a89" category="summary">トラブルシューティング：ユーザが見つかりません</block>
   <block id="b846d1144d90307e0cfa35b918a98a98" category="doc">ユーザが見つかりません</block>
   <block id="d26fa69be0f704c9189ab877b46c91a2" category="paragraph">リモートユーザまたはリモートグループの追加、編集、削除、テストなどの認証に関連する操作を実行すると、「 User not found. 」というエラーメッセージが表示されます</block>
   <block id="3bef6104c92bf17bdfdf66c9a257bbfc" category="paragraph">* 原因 *</block>
@@ -9628,7 +9583,6 @@
   <block id="ea261153033425edab1a02b9950edee4" category="paragraph">使用可能容量は、アグリゲートの想定レイテンシと推奨されるパフォーマンスサービスレベルに基づいて計算されます。これには、想定レイテンシがアグリゲート独自の想定レイテンシ以下であるすべてのパフォーマンスサービスレベルの使用可能容量が含まれます。</block>
   <block id="30cdb66f31bf486298502756e7326d31" category="summary">Storage VM / Health の詳細ページには、 SVM で設定されているユーザクォータとユーザグループクォータに関する情報が表示されます。ユーザまたはユーザグループの名前、ディスクとファイルに設定されている制限、ディスクとファイルの使用済みスペース、および通知用の E メールアドレスを確認できます。</block>
   <block id="58fa607aba6ac689de28f80f6b83af60" category="list-text">[ * 健常性：すべての Storage VM] ビューで、 Storage VM を選択し、 [ * ユーザクォータとグループクォータ * ] タブをクリックします。</block>
-  <block id="d535a648f3a63ed10fdc7f2579617e0f" category="summary">トラブルシューティング：不明な認証エラーです</block>
   <block id="aa1daa474c7a5ca26676f22debadc497" category="doc">不明な認証エラーです</block>
   <block id="155987fb3970b6856df9321343d0de60" category="paragraph">リモートユーザまたはリモートグループの追加、編集、削除、テストなどの認証に関連する操作を実行すると、「不明な認証エラー」というエラーメッセージが表示されることがあります</block>
   <block id="603985874695e48f0f343eddd9f00df0" category="paragraph">この問題は、次のオプションに誤った値を設定した場合に発生することがあります。</block>
@@ -9712,7 +9666,6 @@
   <block id="642fa7ffa5c8279944eb98b2c97822c4" category="list-text">ワークロードページからストレージワークロードにポリシーを割り当てます</block>
   <block id="6cadccc84da38bfa5d917b1cd5991c21" category="inline-link-macro">ポリシーベースのストレージ管理</block>
   <block id="fd20d4b7d2ab504e544b30c37c130f81" category="paragraph"><block ref="fd20d4b7d2ab504e544b30c37c130f81" category="inline-link-macro-rx"></block></block>
-  <block id="e8e6a4dc5e729ecead86e2fb5b7001d6" category="summary">Unified Manager を使用してクラスタを監視、追加、編集、削除することで、 ONTAP クラスタを管理できます。</block>
   <block id="f1f7b1d74b063b5567ed9648637525ed" category="summary">カスタムスクリプトを作成してアラートに関連付けることで、特定のイベントに対して特定の処理を実行できます。この処理に使用できるデフォルトの管理操作は、管理操作ページや Unified Manager のダッシュボードでは選択できません。</block>
   <block id="d3a01c5f6be5e48837989e970f7bc409" category="paragraph">あるイベントタイプに対して特定の操作を実行し、 Unified Manager の管理操作機能の一部として修正しないように選択するには、特定の操作用のカスタムスクリプトを設定します。その後、スクリプトをそのイベントタイプのアラートに関連付けることで、このようなイベントを個別に管理できます。この場合、その特定のイベントタイプに対する管理操作は生成されません。このイベントタイプについては、管理操作ページまたは Unified Manager のダッシュボードでは生成されません。</block>
   <block id="bdde3504b1e7b098d79ffa16f84acb36" category="list-text">クラスタのホスト名またはクラスタ管理 IP アドレス（ IPv4 または IPv6 ）が必要です。</block>
@@ -9750,7 +9703,6 @@
   <block id="aaad6fd27e0ae8622644061f24eef053" category="paragraph">修正は、次の 15 分間に実施される構成ポーリングで反映される場合もあります。構成の変更が検証されてイベントが廃止状態になるまでに最大数時間かかることもあります。</block>
   <block id="b8d1278cd657b54fac0220123e54e964" category="paragraph">完了または進行中の管理アクションのリストを表示するには、フィルタアイコンをクリックし、 * 完了 * または * 進行中 * を選択します。</block>
   <block id="7f874cc30f7d82ad122626a3fcf7a4f4" category="paragraph">すべてのオペレーションがシリアルに実行されるように修正します。このため、 [ 進行中 ] パネルを表示すると、 [ ステータス *- 進行中 ] が表示されるオブジェクトと、 [ ステータス *Scheduled （ステータス * スケジュール済み） ] が表示されるオブジェクトがあります。これは、実装を待機していることを意味します。</block>
-  <block id="c8af6ec34ad2c054d72953bfcb333d10" category="summary">ユーザクォータとグループクォータを使用して、ユーザまたはユーザグループが使用できるディスクスペースの量やファイルの数を制限できます。ディスクやファイルの使用量、ディスクに設定されている各種の制限など、ユーザクォータとユーザグループクォータの情報を表示できます。</block>
   <block id="91ee9c9d739842e37808ca0479996583" category="summary">MetroCluster 構成の接続の問題を監視することができます。クラスタ内のコンポーネントおよび接続のステータス、および MetroCluster 構成のクラスタ間の接続ステータスなどの詳細情報を確認できます。</block>
   <block id="d63a2c85390193a1d2579ea20f08e15d" category="doc">MetroCluster 構成を監視しています</block>
   <block id="6a30f7bcad62ce1906f2eee59828bb4a" category="paragraph">アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。</block>
@@ -9787,7 +9739,6 @@
   <block id="6351f661749dab893dbbb292fcc8f82d" category="list-text">自動スイッチオーバー（ ASO ）が有効になっていない限り、プライマリクラスタがダウンした場合、セカンダリクラスタは検出できず、トポロジはプライマリクラスタ内のボリュームまたは LUN を引き続き参照します。</block>
   <block id="33a397acc09e3b44eed8380cf19d3562" category="list-text">Storage VM ディザスタリカバリ構成では、次の制限に注意してください。</block>
   <block id="eed128e18ee80ef87fb62d2b302bb051" category="list-text">Site Recovery Manager （ SRM ）または Storage Replication Adapter （ SRA ）が SAN ストレージ環境で有効になっている構成はサポートされません。</block>
-  <block id="b97bb074fb53596c9c077d008b947aaf" category="summary">クォータに関する概念を理解しておくと、ユーザクォータとユーザグループクォータを効率的に管理できるようになります。</block>
   <block id="88c88f6b56a9d98bd33b05c15caf1b59" category="summary">Rules to Generate User and Group Quota Email Address ページでは、クラスタ、 SVM 、ボリューム、 qtree 、ユーザに関連付けられたユーザクォータに基づいて E メールアドレスを指定するルールを作成できます。 またはユーザグループを指定します。クォータに違反が発生すると、指定した E メールアドレスに通知が送信されます。</block>
   <block id="51ec35fdada9b22f0ab61058a1d6b10a" category="doc">RulestoGenerateUserandGroupQuotaEmailAddress ヘエシ</block>
   <block id="38177b330d524696f6cd3f56f4146279" category="section-title">ルール領域</block>
@@ -9863,7 +9814,6 @@
   <block id="155911350b9e89c97341b8b8f66ff0b4" category="paragraph">vCenter Server は、リアルタイムのパフォーマンスデータのサンプルを 20 秒収集して 5 分ごとのサンプルに集計します。Unified Manager のパフォーマンスデータの収集スケジュールは、 vCenter Server のデフォルトの設定に基づきます。Unified Manager は、 vCenter Server から取得した 5 分ごとのサンプルを処理し、仮想ディスク、 VM 、およびホストの IOPS とレイテンシの 1 時間の平均を計算します。データストアの場合、 Unified Manager は ONTAP から取得したサンプルに基づいて IOPS とレイテンシの 1 時間の平均を計算します。これらの値は毎時 00 分に更新されます。パフォーマンス指標は vCenter Server を追加した直後には収集されず、次の 1 時間の開始時にのみ収集されます。パフォーマンスデータのポーリングは、設定データ収集のサイクルが完了すると開始されます。</block>
   <block id="91924122537a7547c4aa56a7d81c040c" category="paragraph">Unified Manager は、クラスタの構成データの収集と同じスケジュールで vCenter Server の構成データをポーリングします。vCenter Server の構成とパフォーマンスのデータ収集スケジュールについては、「クラスタの構成とパフォーマンスのデータ収集アクティビティ」を参照してください。</block>
   <block id="58434942205df8848061da3c3cf3966a" category="paragraph"><block ref="58434942205df8848061da3c3cf3966a" category="inline-link-macro-rx"></block></block>
-  <block id="af06d22b339b3378a25899ee64f782a9" category="summary">トラブルシューティング：問題に他の認証サービスを使用して LDAP を追加する</block>
   <block id="f8c7955493ba86fcced30f572e78ef85" category="doc">問題で他の認証サービスを使用して LDAP を追加</block>
   <block id="d574cdb8f39f9bda55a3db785d43a212" category="paragraph">認証サービスとして ［ その他 ］ を選択すると、ユーザーおよびグループのオブジェクトクラスには、以前に選択したテンプレートの値が保持されます。LDAP サーバが同じ値を使用していないと、処理が失敗することがあります。</block>
   <block id="3a631188663e4e5dc9ec5295941a0c82" category="paragraph">OpenLDAP でユーザが正しく設定されていません。</block>
@@ -9969,10 +9919,8 @@
   <block id="4d9d35fd8f897d5e4e3e4d2ff9bfd6c7" category="paragraph">パフォーマンスサービスレベルを追加または編集するためのページが表示されます。</block>
   <block id="0f4f5378a7bef4618ecacdd1fdf2be8b" category="list-text">パフォーマンスの目標を指定してパフォーマンスサービスレベルをカスタマイズし、 * Submit * をクリックしてパフォーマンスサービスレベルを保存します。</block>
   <block id="17990caace860bb7d6235f76023cd84f" category="paragraph">新規または変更したパフォーマンスサービスレベルをワークロード（ LUN 、 NFS ファイル共有、 CIFS 共有）に適用できるのは、ワークロードページから、または新しいワークロードをプロビジョニングするときです。</block>
-  <block id="5978d74a2d776716d6a10f2b8ff228c1" category="summary">Unified Manager Web UI では、 MetroCluster 構成を監視して、 MetroCluster 構成に接続の問題がないかを確認できます。接続問題を早期に検出することで、 MetroCluster 構成を効果的に管理できます。</block>
   <block id="8a13d1a5338f1794b0454274eb4286a1" category="summary">Active IQ Unified Manager には、ストレージ環境の監視と管理に関する情報を表示するための REST API が用意されています。また、ポリシーに基づいてストレージオブジェクトをプロビジョニングおよび管理できる API もあります。</block>
   <block id="3c7317176d7c7efc96ac34c6081c3782" category="paragraph">Unified Manager でサポートされている API ゲートウェイを使用して、 ONTAP で管理されるすべてのクラスタに対して ONTAP API を実行することもできます。</block>
-  <block id="337930ae0771c912aef51058b393b6af" category="summary">MetroCluster 構成のクラスタ間の接続のステータスは、「 Optimal 」、「 Impacted 」「 Down 」のいずれかになります。接続ステータスを理解しておくと、 MetroCluster 構成を効果的に管理できるようになります。</block>
   <block id="9578fa84ff359de78da764edb1c96f57" category="doc">クラスタの接続ステータスの定義</block>
   <block id="3469305ea3a1c509615e7602d8aee430" category="cell">接続ステータス</block>
   <block id="7f181d17e5151df833c62235f25606f9" category="cell">アイコンが表示されます</block>
@@ -10109,7 +10057,6 @@
   <block id="42c2bda38b8e65ce3b58e2179ad2d4c5" category="list-text">iSCSI 仮想ディスクのみがサポートされます。NVMe タイプと SATA タイプの仮想ディスクはサポートされません。</block>
   <block id="e6953f643467cb96916c623b6d28a1b9" category="list-text">これらのビューでは、さまざまなコンポーネントのパフォーマンスを分析するためのレポートを生成することはできません。</block>
   <block id="7e78cd03435baa45d0ef72116b7570bc" category="list-text">Unified Manager の仮想インフラのみでサポートされる Storage Virtual Machine （ Storage VM ）ディザスタリカバリ（ DR ）セットアップの場合は、スイッチオーバーおよびスイッチバックのシナリオでアクティブな LUN を参照するように vCenter Server で設定を手動で変更する必要があります。手動操作なしでは、データストアにアクセスできなくなります。</block>
-  <block id="043eedf4072f9e2466440138f81e7ab9" category="summary">トラブルシューティング情報は、 Unified Manager の使用時に発生する問題を特定し、解決する上で役立ちます。</block>
   <block id="9a12660614e4e9c1fc248f889c104160" category="summary">ユーザクォータ制限とは、ユーザのスペース使用量がそのユーザのクォータで設定されている制限値に近づいているかどうか、または到達したかどうかを評価するために Unified Manager サーバで使用される値です。ソフトリミットを超えた場合や、ハードリミットに達した場合は、 Unified Manager サーバでユーザクォータイベントが生成されます。</block>
   <block id="c67de2b5ac1de4817d5f241d48105232" category="doc">クォータ制限とは</block>
   <block id="4b995024a54807dca91028c7051b29b2" category="paragraph">ユーザクォータ制限とは、ユーザのスペース使用量がそのユーザのクォータで設定されている制限値に近づいているかどうか、または到達したかどうかを評価するために Unified Manager サーバで使用される値です。ソフトリミットを超えた場合や、ハードリミットに達した場合は、 Unified Manager サーバでユーザクォータイベントが生成されます。</block>
@@ -10341,7 +10288,6 @@
   <block id="8f03a3d977b03b60a275743462ed9db9" category="list-text">Active IQ Unified Manager ディレクトリに移動し、次のコマンドを実行します。</block>
   <block id="2e5a5aa28eccce1bee3eb2d3c56b5309" category="paragraph">「+ msiexec /x｛A78760DB-7EC0-4305-97dB - E4A89CDFF4E1｝/qn /l * v %systemdrive%\UmUnInstall.log +」</block>
   <block id="281a23b64ca4e7554e3f0e93b5e421a4" category="list-text">サードパーティパッケージ：JRE、MySQL、Microsoft Visual C# 43；2015再頒布可能パッケージ、Python、 7zipで構成されます</block>
-  <block id="e097d9836e6942eb333688aa40c458db" category="paragraph">Active IQ Unified Manager へのユーザアクセスを制御するために、ロールを作成し、機能を割り当てることができます。Unified Managerで選択したオブジェクトにアクセスするために必要な権限を持つユーザを特定できます。これらのロールと機能を持つユーザのみがUnified Managerでオブジェクトを管理できます。</block>
   <block id="6f07476dbe3e0c87ef5417742f01281d" category="summary">診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。</block>
   <block id="f6edcb137df0b7c4e3fba5f2b371471f" category="paragraph">診断情報を含むサポートバンドルを生成して、トラブルシューティングのサポートを受けるためにテクニカルサポートに送信することができます。</block>
   <block id="f90eb4e62285b9cd8dd7d52b71e3aaeb" category="paragraph">Unified Manager 9.8 以降では、 Unified Manager サーバがインターネットに接続されている場合に、メンテナンスコンソールからネットアップにサポートバンドルをアップロードすることもできます。</block>
@@ -10423,7 +10369,6 @@
   <block id="7baeb0c9081f1a8cb146f93643de73dc" category="paragraph">ルールパッケージには、ルールリポジトリ、データソース、およびネットアップの技術情報アーティクルが含まれています。</block>
   <block id="201ca5b66dc9dc1a3dc4493152ebe8ca" category="admonition">Windowsシステムでは、ネットワークに接続されていないサイトでは、デフォルトではネットアップの技術情報アーティクルがインストーラにバンドルされていません。サポートサイトから_secure_rules.zipファイルをダウンロードしてアップロードすると、すべてのルールのKB記事を参照できます。</block>
   <block id="7e90bd45823841034e4e866f708433ba" category="paragraph">ルールファイルが Unified Manager サーバに解凍されます。午前0時を過ぎた時点で管理対象クラスタでAutoSupport ファイルが生成され、Unified Managerがルールファイルに照らしてクラスタをチェックし、必要に応じて新しいリスクイベントとインシデントイベントを生成します。</block>
-  <block id="a0f263b9cc09522b877ec0d8c725a9d9" category="summary">ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ：</block>
   <block id="159e979b9af8e11071d96adc2e429f87" category="admonition">_um run_commandを実行するには、アカウントに_console_applicationアクセス権があることを確認します。</block>
   <block id="926c1db915510c0dea522b314f2f37b1" category="paragraph">クラスタ証明書の有効期限が近づいています（DocumentEvtClusterCertificateAboutToExpire）</block>
   <block id="d555b856e6422225ce026b79cc781404" category="paragraph">クラスタ証明書の有効期間が終了しました（ドキュメントのEvtClusterCertificateExpired）</block>
@@ -10546,7 +10491,6 @@
   <block id="870f5ef7bd12dc2c56965bfcd2ec62f2" category="paragraph">キーまたはキーの不一致が見つからないというエラーが表示され、インストールが失敗した場合は、次の手順を実行してください。</block>
   <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">接続されているシステムで、次のコマンドを実行して、更新されたMySQLキーをインポートします。</block>
   <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">インターネットに接続されていないシステムでは'MySQLリポジトリファイルを更新し'gpgcheck=0とマークしてgpgcheckを無効にします</block>
-  <block id="8b5c53741ace59564e91943c6402cc3a" category="summary">NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホストマシンで Microsoft iSCSI イニシエータを起動するには、検索バーに「 iscsi 」と入力し、 iSCSI イニシエータをクリックします。</block>
   <block id="1248b2e744f7fb1ee933bde0f938b102" category="paragraph">NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします</block>
   <block id="f8cd459ff4a7192edfbedc254b7bca7b" category="paragraph">Unified ManagerでSnapshotコピーを作成するように設定する前に、次の設定タスクを実行する必要があります。</block>
   <block id="acb0ccecf8f7da295a8d8689fb4fa3dd" category="paragraph">Active IQ Unified Manager システムのバックアップタイプを変更する場合は、メンテナンスコンソールのオプションを使用できます。Unconfigure NetApp Snapshot Backup *オプションを使用すると、MySQLベースのバックアップにフォールバックできます。</block>
@@ -10608,7 +10552,6 @@
   <block id="ce5ddf4bea759996010f53b321d1ab17" category="list-text">Unified Managerのインストールディレクトリ。たとえば、「\C:\Program Files\NetApp\`です</block>
   <block id="f9d3a25dc93d1316544e0bc4c27c6779" category="list-text">MySQLのデータ・ディレクトリ（例：C：\ProgramData\MySQL\MySQLServerData）</block>
   <block id="35016a16114185b9f23c8e507180958f" category="paragraph">管理者は、監視対象のストレージシステムリソースのパフォーマンスを監視し、管理することができます。を参照してください <block ref="ba69bc4fc63cd6b5cc812da4cc091472" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="7680e8653656c48f3243310c83932b54" category="paragraph">保護関係を作成して設定したあと、ストレージ管理者は、保護関係に関連する潜在的な問題、保護関係の現在の状態、該当する関係に対して成功した現在と過去の保護ジョブの情報、およびトラブルシューティングのアドバイスを確認できます。を参照してください <block ref="4e76243b1e59b37cf4420efe0ce8dc5b" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="b7f7029b19d9761718c4c55a16cdf61d" category="list-text">REST API を使用すると、 Unified Manager で収集された健全性、容量、パフォーマンスの情報を確認することができ、クラスタの管理に便利です。を参照してください <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="459527cf1ec141d19f1b0f88f8c19905" category="inline-link">ディスクとアグリゲートの概要</block>
   <block id="d44aaf9fc8b7b474d77879bc4e8cd00a" category="summary">このセクションでは、Active IQ Unified Manager でデータストレージの容量、可用性、保護に関する問題をトラブルシューティングするための2つのユーザインターフェイスについて説明します。2 種類の UI とは、 Unified Manager Web UI とメンテナンスコンソールです。</block>
@@ -10694,7 +10637,6 @@
   <block id="aa12e5ca6e6d09d5729e88dfd4f763bd" category="paragraph">Unified Managerサーバからの直接アクセスが環境によって提供されない場合に、AutoSupport のコンテンツをサポートに送信するためのインターネットアクセスを提供するプロキシを指定できます。このセクションは、管理者およびメンテナンスユーザのみが使用できます。</block>
   <block id="d1f76e665fdd430d5969d3e2f36d46f9" category="inline-link-macro">パフォーマンス：すべてのアグリゲートが表示されます</block>
   <block id="7120162c48c02217114f6bf570a90efd" category="list-text"><block ref="7120162c48c02217114f6bf570a90efd" category="inline-link-macro-rx"></block></block>
-  <block id="0f5a3a105039f308680a5aca67778787" category="list-text"><block ref="0f5a3a105039f308680a5aca67778787" category="inline-link-macro-rx"></block></block>
   <block id="19c8b2c7c231701f5f56c45000cd9582" category="paragraph">FabricPool アグリゲートの詳細については、を参照してください<block ref="9923f5cc5c6dab834ea3bb7ffc7dbcfc" category="inline-link-rx"></block>。</block>
   <block id="6e82f13c8e5be10b74dc55b708ed2d14" category="paragraph">Snapshotベースのバックアップは、Unified Managerのすべてのサービスの実行中に作成できます。データベースの整合性が取れた状態はスナップショットの一部としてキャプチャされます。バックアップによってデータベース全体にグローバルな読み取りロックが適用され、同時に書き込みを行うことができなくなります。Unified Manager システムを Windows OS 上にインストールし、 NetApp Snapshot を使用してバックアップとリストアを実行する場合は、まずメンテナンスコンソールを使用して、 Unified Manager のバックアップを Snapshot に設定します。</block>
   <block id="51e90e9a1703561bf3b23bcfd3ce3586" category="section-title">可用性の問題</block>
@@ -10782,7 +10724,6 @@
   <block id="23807fda15fb4088e9db90dccd96a1d6" category="list-text">ディスクタイプにFabricPool が含まれています</block>
   <block id="6e20e72b50c870b4bf0884ff43d8c4fa" category="paragraph">MySQL のデフォルトのポート 3306 は、 VMware vSphere システムに Unified Manager をインストールする際に localhost にのみ使用できます。これは、前の構成を維持したままのアップグレードシナリオには影響しません。この設定は変更可能で、を使用して他のホストから接続を利用できるようにすることができます<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> メンテナンスコンソールのオプション。詳細については、を参照してください <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP 通信と HTTPS 通信に使用されるポート（ポート 80 と 443 ）は、 Unified Manager メンテナンスコンソールを使用して変更できます。詳細については、を参照してください <block ref="1ea31912406b3a6cc1e16f90a586273f" category="inline-link-macro-rx"></block>。</block>
   <block id="4cc4dc3d322bbb329c62069ad877831e" category="paragraph">AutoSupport 情報の送信に使用されます。この機能を実行するには、インターネットアクセスが必要です。</block>
-  <block id="a5014d3257e026e655ee770d9b9b474b" category="paragraph">VMware vSphereシステムで、Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Manager仮想アプライアンス（vApp）の削除を実行できます。</block>
   <block id="80cd4cbe1704d7224b26b62877da23b2" category="list-text">をダウンロードします<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> ルート証明書を含むファイル<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> ファイル、および<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="f27da469eb55d88b24ee57e1213a1957" category="list-text">をダウンロードしたディレクトリ<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> ファイルで、を入力します<block ref="38a59909f09e47a2d2eb432ec7222982" prefix=" " category="inline-code"></block> コマンドを実行します+必要なを押します<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイル、ルート証明書、および<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> ファイルがターゲットディレクトリに解凍されます。</block>
   <block id="f8535e66202122afabb6c16833facfa1" category="section-title">整合性を検証</block>
@@ -10971,13 +10912,11 @@
   <block id="ca51b5eb394408fc66c7ff276f2d388f" category="paragraph">自動修正を使用して管理できる ONTAP の問題と機能については、を参照してください <block ref="69bb48d7285fcc4963176b1e083f2e69" category="inline-link-macro-rx"></block>。</block>
   <block id="81694560ce6841f5b6e22f6feb54db33" category="list-text">vCenter Server にデータストアを追加する際には、ホストの IP アドレスまたは完全修飾ドメイン名（ FQDN ）を使用できます。FQDN を追加する場合は、 Unified Manager サーバがドメイン名を解決できることを確認してください。たとえば、Linuxのインストールの場合は、ドメイン名がに追加されていることを確認します<block ref="f0b96341c66fa0d1b2202f74a027bbda" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="f0e3981cfdbf71181aa6b1e4fb47e9cc" category="paragraph">MetroCluster over FC構成では、データのミラーリングが可能で、サイト全体が利用できなくなった場合にフェイルオーバーを開始する機能も利用できます。MetroCluster over FC構成のクラスタ間のデータミラーリングのステータスは、「Normal」または「Mirroring Unavailable」のいずれかになります。これらのステータスを理解しておくと、 MetroCluster 構成を効果的に管理できます。</block>
-  <block id="e8758725a8a19f259ad3d888980dce5c" category="paragraph">Unified Manager Web UIでは、MetroCluster 構成を監視することで、MetroCluster over FCおよびIP構成の接続に問題がないかを確認できます。接続問題を早期に検出することで、 MetroCluster 構成を効果的に管理できます。</block>
   <block id="9ec26db79eb1cb03722ca1be8a38ede3" category="paragraph">MetroCluster over IP構成の場合は、左側のナビゲーションペインの次のビューから、MetroCluster over IPで保護されたクラスタのトポロジプレビュービューにデータレプリケーションステータスが表示されます。</block>
   <block id="e6c30c17d4f47b3ee3ca6a46c0cea7e0" category="inline-link-macro">MetroCluster over IPで接続の問題を監視します</block>
   <block id="c1d47624946f3a469492d8dba1510dc8" category="paragraph">以下の手順に従って、MetroCluster over FC構成のデータレプリケーションの問題を特定します。</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">[* Health: All Clusters]ビューで、MetroCluster レプリケーションの詳細を表示するクラスタの名前をクリックします。[*クラスタ/ヘルスの詳細*]ページで、[* MetroCluster レプリケーション*]タブをクリックします。</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。</block>
-  <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Unified Managerのインストール、新しいバージョンへのアップグレード、またはUnified Managerアプリケーションの削除を実行できます。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">を参照してください <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">サポートされているWebブラウザで新しいウィンドウでWeb UIを起動し、ログインしてアップグレード後のバージョンのUnified Managerを使用します。</block>
   <block id="29932be7bd13705461dc34fdd5fb130d" category="list-text"><block ref="5d201191fde87fde991d42023bfce519" category="inline-link-macro-rx"></block>。</block>
@@ -11257,7 +11196,6 @@
   <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">Windowsシステムでのインストールとアップグレード</block>
   <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">Unified Manager を設定します</block>
   <block id="65c111a1825897e67ec3ff98b2dcf4e3" category="sidebar">機能設定を管理します</block>
-  <block id="9e6b6e7742d96ad773931b8a78e9e6f3" category="sidebar">ロールベースアクセスの管理</block>
   <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">パフォーマンスの監視</block>
   <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">パフォーマンスしきい値</block>
   <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">クラスタのパフォーマンス</block>
@@ -11268,8 +11206,6 @@
   <block id="8af3b43a5a64432d35c94880633df02f" category="sidebar">ストレージとオブジェクトの健常性監視</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">仮想インフラ</block>
   <block id="8b03ab143dde9355a51949d8bb9ca578" category="sidebar">MetroCluster 構成</block>
-  <block id="138596885ef6a770335b0f958ce9d084" category="sidebar">クラスタとクラスタオブジェクトの健常性</block>
-  <block id="90d18dd78a87b153d16c1819d4028f7c" category="sidebar">健常性しきい値</block>
   <block id="c1a5720865a9f4d704047c6a3994bba0" category="sidebar">AutoSupport メッセージとサポートバンドルを送信する</block>
   <block id="9c8007a675a79a50e15e5f8b518142de" category="sidebar">データ保護の監視</block>
   <block id="bf54949621b6403edf2732fa98614df6" category="sidebar">保護関係をセットアップする</block>
@@ -11289,7 +11225,6 @@
   <block id="2938c7f7e560ed972f8a4f68e80ff834" category="sidebar">ダッシュボード</block>
   <block id="74b4081b8a74cd9f44a771845c7c885f" category="sidebar">イベントワークフロー</block>
   <block id="52b908547ee09cb59aaf164c198a5e2f" category="sidebar">Active IQ プラットフォームイベント</block>
-  <block id="838d44a8410719f3471f499e2bddcc48" category="sidebar">イベントおよび重大度タイプ</block>
   <block id="25b95061d817f1cd4aeac25ef4d89f69" category="sidebar">修正イベント</block>
   <block id="62aaa6a933d2ff8ba87b5093233576f7" category="sidebar">自動修復</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
@@ -11318,7 +11253,6 @@
   <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">Unified Manager管理情報ベース（MIB）</block>
   <block id="cda417ab3ce8513849242e7fb90f668c" category="sidebar">Unified Managerデータベーススキーマ</block>
   <block id="84f1453e00902cf14e28a64b61cac9e8" category="paragraph">データディレクトリの容量を追加する手順は、Unified ManagerをVMware ESXiサーバ、Red Hatサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。</block>
-  <block id="2a5129ebe6b5dc34b957c83a73eb711b" category="paragraph">ホスト名を変更する手順は、Unified ManagerをVMware ESXiサーバ、Red Hat Linuxサーバ、Microsoft Windowsサーバのいずれで実行しているかによって異なります。</block>
   <block id="66e2670683df3625173edd7d8c448cc5" category="summary">メンテナンスユーザは、Unified ManagerをRed Hat Enterprise Linuxシステムにインストールするときに作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、Web UIでアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。</block>
   <block id="c018578cad8e79727cbd716c87816ba4" category="paragraph">メンテナンスユーザは、Unified ManagerをRed Hat Enterprise Linuxシステムにインストールするときに作成されます。メンテナンスユーザの名前は「 umadmin 」です。メンテナンスユーザは、Web UIでアプリケーション管理者のロールが割り当てられ、他のユーザを作成してロールを割り当てることができます。</block>
   <block id="90306e6d8bec17a4aa414c3b49fc97a1" category="paragraph">Unified Manager の初期設定時に作成されます。メンテナンスユーザは、追加のユーザを作成してロールを割り当てます。メンテナンスコンソールにアクセスできる唯一のユーザでもあります。Unified ManagerをRed Hat Enterprise Linuxシステムにインストールしている場合、メンテナンスユーザのユーザ名は「umadmin」になります。</block>
@@ -11360,7 +11294,6 @@
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">ASA R2システムを除くすべてのクラスタがサポートされます。</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Unified Manager WindowsインストールファイルまたはzipファイルをWindowsシステムのターゲットディレクトリにダウンロードします。</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">必要に応じてzipファイルを展開し、インストールファイルがあるディレクトリに移動します。</block>
-  <block id="c42aef995ff40406a5f5bd4e18b841c5" category="summary">PythonやMicrosoft Visual C++などのサードパーティ製品をアンインストールする方法。</block>
   <block id="6e0f8dcf3bf0d57785709c49aa46d41b" category="paragraph">Unified Managerをアップグレードしたあと、PythonやMicrosoft Visual C++ 2013などのサードパーティ製品をアンインストールできます。これはオプションです。</block>
   <block id="a49f65adc5b5fb777c87058a91fd08a1" category="list-text">[コントロールパネル]*で、*[プログラム]*&gt;*[プログラムと機能]*を選択します。</block>
   <block id="2135c569ee3f102b46d835b22fa7351c" category="list-text">プログラムのリストからPythonを選択します。</block>
@@ -11372,7 +11305,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始する前に</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*何。始める前に</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">Workflow Automationのバージョンが5.1.1P6以降である必要があります。</block>
-  <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">の手順に従って、LinuxサーバにUnified Managerをインストールしておく必要があります<block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Managerでは、ユーティリティを使用して<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ソフトウェアとそれに依存するソフトウェアをインストールします。Red Hat Enterprise Linuxにはさまざまなイメージがあるため、インストールされるパッケージはイメージに含まれるソフトウェアによって異なります。<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>ユーティリティによって、インストールに必要な依存ソフトウェアパッケージが決定されます。依存するソフトウェアパッケージの詳細については、を参照してください<block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>。</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">お使いのRed Hat Enterprise Linuxシステムに対応した正しいバージョンのインストーラファイルをダウンロードしてください。インストールされているRed Hat Enterprise Linux 8または9に基づいて、適切なバージョンのUnified Managerファイルをダウンロードして<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>ください。</block>
   <block id="19c4a5941b195c20d40b06f049672572" category="paragraph">を参照して <block ref="cf70fd654b04a0c92e5d4b7fed50b3d9" category="inline-link-macro-rx"></block></block>
@@ -11381,7 +11313,6 @@
   <block id="732f8b59fb176e61ded542460f2b84e0" category="paragraph"><block ref="bf806cbb1cb8f7651ccd8a97025996a8" prefix="" category="inline-code"></block></block>
   <block id="3717278eaf7b770b8c5c946fe5b23f12" category="list-text">インストールに対応するMySQLリポジトリをダウンロードします。バージョン8の場合は、次のサイトからダウンロードします。</block>
   <block id="5c17ea3e79e1636d2840d1f9fab25337" category="paragraph">Unified ManagerがインストールされているRed Hat Enterprise Linux 7.xシステムをRed Hat Enterprise Linux 8.xにアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、Red Hat Enterprise Linux 7.xでUnified Managerのバックアップを作成し、そのバックアップをRed Hat Enterprise Linux 8.xシステムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.10です。</block>
-  <block id="c6e74cf56812c87ccc3bc2f6640b0b6f" category="paragraph">を参照して <block ref="f09744d7bd837929fda35b3531c47312" category="inline-link-macro-rx"></block></block>
   <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">アクティブでないセッションのタイムアウトを設定</block>
   <block id="5b864f90874a257a247b735985d967ca" category="paragraph">Unified Managerに非アクティブ時のタイムアウト値を指定して、一定期間非アクティブな状態が続いた場合にセッションを自動的に終了するように設定できます。デフォルトでは、タイムアウトは4、320分（72時間）に設定されています。</block>
   <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">CLIを使用してUnified Managerの最大セッションタイムアウト値を設定し、一定期間が経過したあとにセッションを自動的に終了することができます。</block>
@@ -11403,7 +11334,6 @@
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">トラブルシューティング: ログローテーションの問題を解決するには、次の手順に従ってください。</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Windows システムにおける NetApp Manageability SDK のログローテーションの問題</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Windowsオペレーティングシステム上のUnified ManagerにONTAPI APIベースのクラスタを追加した後、 <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block>ファイル サイズが増加し、10 MB のサイズ制限を超えます。</block>
   <block id="45e4d43f3921d93a4b17af11a66a4dea" category="paragraph">この問題は、ログのローテーションが行われない場合に発生する可能性があります。</block>
@@ -11418,9 +11348,7 @@
   <block id="6b58c1940f3237f8b68aff9dee0612c0" category="section-title">API要求に関連付けられているジョブオブジェクトを照会する</block>
   <block id="38263a28ce7341901e4c14482d893025" category="section-title">イベントの表示と変更</block>
   <block id="394d507cce41d6ae3633fc43f6715634" category="inline-link-macro">イベントを管理する</block>
-  <block id="6abb3025099e03dc81e219a31cd2d8ea" category="paragraph">イベントの詳細については、を参照してください<block ref="c0f3f78c9dfa509920adca3905a0ba53" category="inline-link-macro-rx"></block>。</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">アラートの管理</block>
-  <block id="d1944becba685cf8683fb918bd55a951" category="paragraph">アラートの詳細については、を参照してください<block ref="ff05cde0ec41fde9b33c0e5302e3a935" category="inline-link-macro-rx"></block>。</block>
   <block id="3a3e30f8426f78f1290bc68b262b49f2" category="section-title">スクリプトを管理する</block>
   <block id="1e98553b8d12285682ae1fb3e2c366cb" category="paragraph">スクリプトの詳細については、を参照してください<block ref="3945877c4ec08006fadc171d5a251e0e" category="inline-link-macro-rx"></block>。</block>
   <block id="2c5dc21619b8de9598f14d50791916dd" category="doc">プロキシアクセスを介してONTAP APIにアクセスする</block>
@@ -11463,9 +11391,7 @@
   <block id="e58f76bb3aa10bda70c691a09d6ca45d" category="doc">Unified Manager が HTTP および HTTPS プロトコルに使用するポートを変更する</block>
   <block id="2c6741db08918b4e7bd7be67209e6ef1" category="doc">LinuxシステムでUnified Managerのホスト名を変更する</block>
   <block id="950c932fbfaf16c880b9e3159698ec46" category="doc">Linuxシステムでumadminパスワードを変更する</block>
-  <block id="a3e7325bdc8802d2b97616abd100af4b" category="doc">Unified Manager仮想アプライアンスのホスト名を変更する</block>
   <block id="82bc72116c72c5f85d83649146b03942" category="doc">監査ログを構成する</block>
-  <block id="fe3124ca1009da3f18337e7bbf1d954a" category="doc">アラート通知を送信するようにUnified Managerを構成する</block>
   <block id="98abf53c0218d7ca977c214d35e15ff6" category="doc">データベースユーザーを作成する</block>
   <block id="f44fbeb51f975c8f5b5f1f3cacce95b0" category="doc">認証サーバーを削除する</block>
   <block id="68adfbdc30164a8ca4e4b35511afca41" category="doc">ユーザーまたはグループを削除する</block>
@@ -11580,7 +11506,6 @@
   <block id="9214819c8de8c2a1e68e955fe68a8d6f" category="doc">MetroCluster構成内のクラスタの健全性をチェックする</block>
   <block id="3589d76dadc305fce3086a09071c2e97" category="section-title">MetroCluster over FC構成でクラスタの健全性を確認する</block>
   <block id="b545c3b796582c3fd91c425935b98a0b" category="section-title">MetroCluster over IP構成でクラスタの健全性を確認する</block>
-  <block id="66cdb361233211f7999d5e3e7a9228ee" category="doc">Windowsのバックアップ場所を設定する</block>
   <block id="265d29ed9f06d8829bc11a8cb67fba83" category="doc">注釈ルールの条件を設定する</block>
   <block id="aa3f3001fa4c94c979a656271ceef011" category="doc">グローバル集計ヘルスしきい値を構成する</block>
   <block id="1a711a45ca49ae9760027b676f030b79" category="doc">グローバルヘルスしきい値設定を構成する</block>
@@ -11590,7 +11515,6 @@
   <block id="824b4cae0fe08e508ebea7e2e19447a2" category="doc">メンテナンスコンソールからスナップショットコピーによるバックアップを構成する</block>
   <block id="282a1358573d405589e8faee8409043f" category="doc">グループのボリューム健全性しきい値を構成する</block>
   <block id="3fb9bf737d745286898338e5f303398f" category="doc">注釈ルールを作成する</block>
-  <block id="3b3e254547f070cbc2ed5a742e103ff1" category="doc">スナップショットコピーの場所を構成する</block>
   <block id="5be13d3ccaef9515fb50bb2692e13979" category="doc">LinuxとWindowsのバックアップスケジュールを定義する</block>
   <block id="51b081370e0adf72662b98df369265b3" category="doc">注釈ルールを削除する</block>
   <block id="33c18e336a8f40d4c835cd720730e77d" category="doc">注釈を削除する</block>
@@ -11613,7 +11537,6 @@
   <block id="b607dce58afdbf4fdd5bc6f939c41e73" category="doc">サポートバンドルを生成してアップロードする</block>
   <block id="3658416cd97c7673eeb5f11d1c08a0a5" category="doc">契約更新のためのハードウェア在庫レポートを生成する</block>
   <block id="0c037b40d394632e7bc09fc7de801365" category="doc">ストレージフェイルオーバー相互接続リンクのダウンに対する修正アクションを実行する</block>
-  <block id="1015ad7e53ddd6eceb233d1b239fee9f" category="doc">ボリュームのオフライン状態に対する診断アクションを実行する</block>
   <block id="032b7c9be27bd45ae71fc749a2afbf38" category="doc">ボリューム全体に対して推奨される修復アクションを実行する</block>
   <block id="c8a8b2f1db5cacc25fed1aa395f4555b" category="doc">注釈ルールの並べ替え</block>
   <block id="2d4fbd8ee246544ec2eef79571f6aed8" category="doc">グループアクションの順序を変更する</block>
@@ -11627,8 +11550,6 @@
   <block id="c9ded998f6e8b38cb013b956eb46d8b5" category="doc">Windows クライアントを使用してサポート バンドルを取得する</block>
   <block id="a4506a7e1d76e7e27acb868a1740c69c" category="doc">Web UI とメンテナンス コンソールからサポート バンドルを送信する</block>
   <block id="744a1f5edce2d86abca28f259a26863f" category="doc">サポートバンドルをテクニカルサポートに送信する</block>
-  <block id="5cc9606a13793154b8a21c4d8dacd7c9" category="doc">スナップショットコピーの保存先を指定する</block>
-  <block id="74569cc3f6cefa498d936958d88905a5" category="doc">Windows でスナップショットコピーの保存先を指定する</block>
   <block id="1ec94287b697efac833a4d73ca3d176f" category="doc">バックアップの種類を変更する</block>
   <block id="d4ebbfa69fa9d7309eecee87a9207082" category="doc">集計リストと詳細を表示する</block>
   <block id="37c6bc247580228ae479e91df577d411" category="doc">すべてのアクティブなセキュリティイベントを表示</block>
@@ -11956,7 +11877,6 @@
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">リモート ログを有効にするには、[*リモート ログを有効にする*] を選択します。</block>
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">System ManagerでONTAP証明書を管理する</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*関連情報* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
-  <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">インストール プログラムが必要なすべてのソフトウェア依存関係にアクセスしてインストールできるように、システムは特定のリポジトリとパッケージにアクセスできる必要があります。</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">7-zipソフトウェアパッケージを構成する</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip バージョン 7z2301-linux-x64。詳細については、 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
@@ -12054,7 +11974,6 @@
   <block id="330c586e3cf6ca7b792e71451b347f2a" category="doc">Active IQ Unified Manager でAPIを使用してLUNを管理する</block>
   <block id="0b498f4c86114a8d86a6f294c6ef88d8" category="doc">Active IQ Unified Manager で API を使用してパフォーマンスサービスレベルを管理する</block>
   <block id="5c06dfd47a373f2720f9daf65f49abe2" category="doc">Active IQ Unified Manager で API を使用してストレージ効率化ポリシーを管理する</block>
-  <block id="9a059cf8542681c45f3c9ac092b3c338" category="doc">Active IQ Unified Manager でストレージ管理 API を確認する</block>
   <block id="a644bbf08605085bd8a5cdf376974b43" category="doc">Active IQ Unified Manager でAPIを使用してパフォーマンス指標を表示する</block>
   <block id="f5ca4c100a8f248f6e3ecdf56fa6c763" category="doc">Active IQ Unified Manager で API を使用してストレージワークロードを変更する</block>
   <block id="7830205b499fe991f7bdb91955ce0f75" category="doc">Active IQ Unified Manager ゲートウェイ API を使用した ONTAP ボリュームのトラブルシューティング</block>
@@ -12080,20 +11999,15 @@
   <block id="c0ed2c8ab6a460c2375f5e5d58499a05" category="doc">Active IQ Unified Manager の API Gateway 機能について</block>
   <block id="ac955911d0f754875f74ac112c0af065" category="doc">Active IQ Unified Manager の監査ログについて</block>
   <block id="fba6c91bf794e0babdca90d6471a67ae" category="doc">Active IQ Unified Manager で Active Directory または OpenLDAP を使用して認証する</block>
-  <block id="3866df1bac2cb128b41bd561b97075da" category="doc">Active IQ Unified Manager ホスト名の変更</block>
   <block id="d4b960c3535e282ce85c82f9cc6f047f" category="doc">Active IQ Unified Manager バックアップの設定</block>
   <block id="2bd8e128d8a1eac920d0b22bbca6a870" category="doc">Active IQ Unified Manager の設定について</block>
   <block id="14078dbe09a0d583317c9c30b6b63570" category="doc">Active IQ Unified Manager で非アクティブタイムアウトを指定する</block>
   <block id="08259ebdba5f5ec23d9d6695c4725e72" category="doc">Active IQ Unified Manager で外部ツールを使用して生成された HTTPS 証明書について</block>
   <block id="cfd76692c8b8c940c44afcfdd099124b" category="doc">Active IQ Unified Manager にログインバナーを追加する</block>
   <block id="0b6fac564afd567fa9448a8c6f4bd328" category="doc">Active IQ Unified Manager のメンテナンスコンソールメニューについて</block>
-  <block id="d766961b8d7212f0954f55e7583c3ea0" category="doc">Active IQ Unified Manager で認証を有効にする</block>
   <block id="451c801bdeef9faaddcefd06f5389075" category="doc">Active IQ Unified Manager の機能設定について</block>
   <block id="50b8767678de7956c07fa9c9981816e4" category="doc">Active IQ Unified Manager で SAML 認証を有効にする</block>
-  <block id="2a089b11e833e1ed82120292ee5336a2" category="doc">Active IQ Unified Manager でセキュリティ証明書を管理する</block>
-  <block id="48727c7a2750c4a628441c22d22e7f21" category="doc">Active IQ Unified Manager でユーザーアクセスを管理する</block>
   <block id="558ee5aab1d6df4968febb66facbc08d" category="doc">Active IQ Unified Manager の設定手順について</block>
-  <block id="2c86b375c0a3b46d1d47cfae003613ba" category="doc">Active IQ Unified Manager の HTTPS 証明書ページを使用する</block>
   <block id="e7deaf81d671947add80b5ea992be64c" category="doc">Active IQ Unified Manager でポリシーベースのストレージ管理を有効にする</block>
   <block id="907cbda05a1be185a20eebfd42797da5" category="doc">Active IQ Unified Manager でコンプライアンスのためのセキュリティ設定を有効化および無効化する</block>
   <block id="41d9b7b6bb12ab79120100210e89d450" category="doc">Active IQ Unified Manager における診断ユーザー機能</block>
@@ -12157,10 +12071,8 @@
   <block id="51ff887fb67bda640687e68b9f3c4503" category="doc">Active IQ Unified Manager で認証サービスを設定する</block>
   <block id="5be4051030888384dbc3b78f9e4b7cc4" category="doc">Active IQ Unified Manager で認証サーバーの構成をテストする</block>
   <block id="e21f8f9712496e6a7a862bb5f56f8d60" category="doc">Active IQ Unified Manager のセキュリティ証明書変更後に SAML 認証設定を更新する</block>
-  <block id="4cf1d09e6179d1b0482a3dc0081eae1a" category="doc">Active IQ Unified Manager メンテナンスコンソールの使用</block>
   <block id="6bbd6c7f32c6c75ae8472c88ce5bf10b" category="doc">Active IQ Unified Manager でHTTPSセキュリティ証明書を表示する</block>
   <block id="563dc82c461ed282a00b25f24bc03e88" category="doc">Active IQ Unified Manager でユーザーを表示する</block>
-  <block id="3bcb978335c18b8b9ecdebdf58ca591d" category="doc">Active IQ Unified Manager での保護関係の作成と監視について学ぶ</block>
   <block id="dadae39cf2e4b77c99c5ab121ed94783" category="doc">Active IQ Unified Manager における保護関係の管理と監視について</block>
   <block id="8a0f63a220aa3141a819b5bbb950e9ae" category="doc">Active IQ Unified Manager でのストレージ VM ディザスタリカバリ関係について学ぶ</block>
   <block id="624153d2d07564649b89911b7d0fb8fb" category="doc">SVMとリソース プールがActive IQ Unified Managerのストレージサービスをサポートするための要件</block>
@@ -12177,7 +12089,6 @@
   <block id="9fa792e3b79be2fbea6fdfe88122f38d" category="doc">Active IQ Unified Manager の「スケジュールの作成」ダイアログボックスを使用する</block>
   <block id="849fe714f8ca4df92ca2cfad09c3ef38" category="doc">Active IQ Unified ManagerでCreate SnapMirror Policyダイアログボックスを使用します</block>
   <block id="db382d7ddacc47f6972cddcfb1078f97" category="doc">Active IQ Unified Manager の「SnapVault ポリシーの作成」ダイアログボックスを使用する</block>
-  <block id="169641426cee7744eb86f9c31b73748f" category="doc">Active IQ Unified Manager で保護の詳細を管理する</block>
   <block id="3047bb9d929d2a0870f2f2ccaa5b09f2" category="doc">Active IQ Unified Manager で保護関係を編集する</block>
   <block id="6c070986f112b7db3c4dedc38aa8e06b" category="doc">Active IQ Unified Manager の「リソース プール編集」ダイアログボックスを使用する</block>
   <block id="ac2f8bac1ed026f36e92c53a8f34b913" category="doc">Active IQ Unified Manager の「初期化/更新」ダイアログボックスを使用する</block>
@@ -12253,10 +12164,8 @@
   <block id="3ad72e22b2aa226c488e08b09f84eb60" category="doc">Active IQ Unified Manager がオブジェクトのステータスを計算する方法</block>
   <block id="179241ab3d77f843e02aacd28af58262" category="doc">Active IQ Unified Manager でスクリプトがアラートと連携する仕組み</block>
   <block id="8708fa0602cb9410b5053bc0952546bf" category="doc">Active IQ Unified Manager のアラートについて</block>
-  <block id="2296b637f2700435bbe84fcb15b77099" category="doc">Active IQ Unified Manager でイベントを管理する</block>
   <block id="c1a5dcbb60e58e0bc5350f268c42aac0" category="doc">Active IQ Unified Manager でスクリプトを管理する</block>
   <block id="b333e15de726f713da53980f8698e761" category="doc">Active IQ Unified Manager で Active IQ プラットフォームイベントを解決する</block>
-  <block id="7380fe530aa4a3c60b08eea18a7b9cbe" category="doc">Active IQ Unified Manager のイベントについて</block>
   <block id="8799da4bf2e5c7d532706bb0479fdc04" category="doc">Active IQ Unified Manager の Active IQ プラットフォームイベントについて</block>
   <block id="59640a06895a14dcd0c3404af1730cce" category="doc">Active IQ Unified Manager のイベント管理システムのイベントについて</block>
   <block id="634b81b6afc922e6282b1ed930a2b7bb" category="doc">Active IQ Unified Manager が受信したイベントを処理する方法を理解する</block>
@@ -12270,9 +12179,6 @@
   <block id="34c23c37f8eaec38e466855e150ffe72" category="doc">Active IQ Unified Manager のイベントの影響範囲について</block>
   <block id="90c45bf252894e0465b702350a71363e" category="doc">Active IQ Unified Manager のイベントの影響レベルについて</block>
   <block id="4b212a54e1505d0bf1de75a2b826095f" category="doc">Active IQ Unified Manager のイベント重大度タイプについて</block>
-  <block id="ab26ab1b7c87a0ecd16cad94074afb4b" category="doc">Active IQ Unified Manager のイベントウィンドウとダイアログボックスについて</block>
-  <block id="5f933d494c6b0841e39f2069e2836477" category="doc">Active IQ Unified Manager の「アラートの追加」ダイアログボックスを使用する</block>
-  <block id="575c0756d35068e0ac115f8ce68e098f" category="doc">Active IQ Unified Manager のスクリプトウィンドウとダイアログボックス</block>
   <block id="aa692ee1b95eaeca447a0afe773bc89e" category="doc">Active IQ Unified Manager でイベントダイアログボックスを無効にする</block>
   <block id="8f1bc362aa989ade0ecb39b550d06342" category="doc">Active IQ Unified Manager のディスクイベントについて</block>
   <block id="f80b43d65e919dbba43109c92a2b8165" category="doc">Active IQ Unified Manager の動的パフォーマンスイベントについて</block>
@@ -12285,7 +12191,6 @@
   <block id="e4f17a0bc5c9a1c6f9a2f45fe737935e" category="doc">Active IQ Unified Manager のファンイベントについて</block>
   <block id="04be133590fe5d67226aca41258e1399" category="doc">Active IQ Unified Manager のフラッシュカードイベントについて</block>
   <block id="8fed2de29b392fb571b49232c42b564b" category="doc">Active IQ Unified Manager の inode イベントについて</block>
-  <block id="2c8a42f7aeadd3708c694d7f0b7e41ab" category="doc">Active IQ Unified Manager のイベント一覧について</block>
   <block id="088f543a0d07f03fdf74dd6c7e4487db" category="doc">Active IQ Unified Manager のネットワークインターフェイスイベント</block>
   <block id="b6241628a873b3fef00f6ae8f9c3ad07" category="doc">Active IQ Unified Manager の LUN イベントについて</block>
   <block id="22534d0a95a4459662f56e1f2b090a85" category="doc">Active IQ Unified Manager の [スクリプト] ページについて</block>
@@ -12354,20 +12259,13 @@
   <block id="2418b961ebed8eed367a63a3ec284fe3" category="doc">Active IQ Unified Manager におけるグループのグループルールの仕組みを理解する</block>
   <block id="2e72ad14631e2caf5b07909ea85abed0" category="doc">Active IQ Unified Manager でスクリプトがアラートとどのように連携するかを理解する</block>
   <block id="89a616f7484da49d84dca63cd4d66c5c" category="doc">Active IQ Unified Manager の健全性監視について</block>
-  <block id="34365a3fc2592f8661e0d62c079ae279" category="doc">Active IQ Unified Manager でクラスターとクラスターオブジェクトの健全性を管理および監視する</block>
-  <block id="0159ce6672a34849d014c2082de48324" category="doc">Active IQ Unified Manager でグループを管理および監視する</block>
   <block id="1037bb811299fc9906b73b483b648356" category="doc">Active IQ Unified Manager でバックアップとリストア操作を管理する</block>
   <block id="a36ebd8dc7a0eb4835a4040512b0c7f8" category="doc">Active IQ Unified Manager でクラスターのセキュリティ目標を管理する</block>
-  <block id="b2daa139f28a8c8365e223ad0c8337b9" category="doc">Active IQ Unified Manager でヘルスしきい値を管理する</block>
   <block id="c615801ec0d6c9a409b2fbe6674de211" category="doc">Active IQ Unified Manager でデータの可用性を監視およびトラブルシューティングする</block>
   <block id="e21b50c8660a5c3d3f811548c4ff796b" category="doc">Active IQ Unified Manager のオンデマンドバックアップについて</block>
-  <block id="62230696acb222f720425104f2541ce5" category="doc">Active IQ Unified Manager で注釈を使用してストレージオブジェクトに優先順位を付ける</block>
-  <block id="58031992f1245bf5dd129d9a6e61fe5a" category="doc">Active IQ Unified Manager ワークフローに共通する情報を理解する</block>
   <block id="149002f2bdeea05fc44c2e2e71e44f15" category="doc">Active IQ Unified Manager インターフェースを使用してストレージシステムの健全性を管理する</block>
   <block id="6d4709b82b6a7ea08249e040bb227a3c" category="doc">Active IQ Unified Manager でのノードルートアグリゲートのイベントとしきい値について</block>
   <block id="1e08671b677f06498a000132381254c3" category="doc">Active IQ Unified Manager でのクラスター監視について</block>
-  <block id="bdb4862b66b36dc266a10b739e854c57" category="doc">Active IQ Unified Manager のグループについて</block>
-  <block id="d53836e00b387c148a8e2a0918cee1f1" category="doc">Active IQ Unified Manager の注釈について</block>
   <block id="586267483960638c992f99b0f72660c3" category="doc">Active IQ Unified Manager でのノードルートボリュームについて</block>
   <block id="6e2a3ac514199a3d8f025c8490388210" category="doc">Active IQ Unified Manager における ONTAP クラスターのクォーラムとイプシロンについて</block>
   <block id="f6a30972e73c1bbcb35774eac544ede5" category="doc">Active IQ Unified Manager の正常性監視機能について</block>
@@ -12470,13 +12368,11 @@
   <block id="e8efcc1ee69032b712ac7ee4ab110086" category="doc">Active IQ Unified Manager でボリュームリストと詳細を表示する</block>
   <block id="879a0713cfae0b7ba1b8964f6808ddc9" category="doc">Active IQ Unified Manager のバージョンに対してサポートされているアップグレードパスを使用してください</block>
   <block id="7cce07ca0323e998f6bd8bbb12d77087" category="doc">Active IQ Unified Manager でサポートされているブラウザを使用してください</block>
-  <block id="a5d30961a7f2071bd48571cbaa2c9cf2" category="doc">LinuxシステムへのActive IQ Unified Managerのインストール</block>
   <block id="c689e7b64152a1bba97fb2edd20c845e" category="doc">Active IQ Unified Manager ソフトウェアのインストール、アップグレード、および削除</block>
   <block id="64e88b614a54ea3b3f6898a073ae7acb" category="doc">Active IQ Unified Manager について学ぶ</block>
   <block id="565af86c01ad7ce14e46d75f939591e7" category="doc">Red Hat Enterprise Linux への Active IQ Unified Manager のインストール手順を理解する</block>
   <block id="3a18b8c6562abe629867a6e413ec1477" category="doc">Active IQ Unified Manager のインストール手順を確認する</block>
   <block id="4897bd68f064fb7b102341961c09bd7f" category="doc">Active IQ Unified Manager のインストール要件を確認する</block>
-  <block id="4b50d92781c98c22737903c30847e6ed" category="doc">Active IQ Unified Manager に必要なソフトウェアをセットアップする</block>
   <block id="172a418384d967aaecffb2c44fc739e4" category="doc">Active IQ Unified Manager のインストール後にサードパーティ製品をアップグレードする</block>
   <block id="8bd4e35fc17333bce0ee595d12386ee2" category="doc">Red Hat Enterprise Linux 上の Active IQ Unified Manager をアップグレードする</block>
   <block id="f8bc942d8e727d6d6670386379507631" category="doc">Active IQ Unified Manager の仮想インフラおよびハードウェア要件を理解する</block>
@@ -12501,7 +12397,6 @@
   <block id="6507e665e3c4245b259fd2237fcdccef" category="doc">Linux 上の OpenJDK を Active IQ Unified Manager 用にアップグレードする</block>
   <block id="c1295643d064d27a35919741f1aa93c9" category="doc">Active IQ Unified Manager のアップグレード</block>
   <block id="0a2d88856e7a2fc6bc8d9a9e31aec4d7" category="doc">Active IQ Unified Manager でサポートされているブラウザを使用してください</block>
-  <block id="6bca007fd8ccffe3e8e3086281a83f72" category="doc">VMware vSphere への Active IQ Unified Manager のインストール、アップグレード、および削除</block>
   <block id="8879e221bc3f347e63525f5e75c0d012" category="doc">Active IQ Unified Manager の導入プロセスについて学ぶ</block>
   <block id="ef99d4f18bc9777708d1a4c274c52396" category="doc">Active IQ Unified Manager のインストール手順について</block>
   <block id="7beb9b0b3c4e52647e5a15193fbb8fe1" category="doc">サーバーが Active IQ Unified Manager のインストール要件を満たしていることを確認してください</block>
@@ -12690,14 +12585,9 @@
   <block id="1e9b378280fabbdb24c0b4cf2870a4a5" category="doc">Active IQ Unified Manager で同じ QoS ポリシーグループ内のボリュームまたは LUN を表示する</block>
   <block id="4c53b1d20e3e17d5c553822382225466" category="doc">Active IQ Unified Manager でワークロード QoS の最小および最大設定を表示する</block>
   <block id="9d2a37adaf61ff87e59e0f07495ca089" category="doc">Active IQ Unified Manager のリリースノート</block>
-  <block id="42295b8fd789480238bc0645425e0a86" category="doc">Active IQ Unified Manager でアグリゲート容量レポートをカスタマイズする</block>
-  <block id="4d23b38954c463594278f59636a32c2d" category="doc">Active IQ Unified Manager でクラスタストレージレポートをカスタマイズする</block>
   <block id="d7ff0f638484cd6f82c4396b32c481a8" category="doc">Active IQ Unified ManagerでNFS共有レポートをカスタマイズする</block>
-  <block id="84dadb73d2d74cb436944bdaac2ae82a" category="doc">Active IQ Unified Manager で Qtree の容量レポートをカスタマイズする</block>
   <block id="bc1c66d2139e3188d1e2286e7101b5fb" category="doc">Active IQ Unified Manager でレポートをカスタマイズする</block>
   <block id="73c4f931a734e9431ea93439c3c89b62" category="doc">Active IQ Unified Manager でストレージ VM レポートをカスタマイズする</block>
-  <block id="2ca85616768242ee5f27995f7be28a3d" category="doc">Active IQ Unified Manager でボリューム容量レポートをカスタマイズする</block>
-  <block id="0110261dba06c9a5c92b8df83c955b00" category="doc">Active IQ Unified Manager でボリュームパフォーマンスレポートをカスタマイズする</block>
   <block id="d4d70344cc35f77918160b0d1cdd05b2" category="doc">Active IQ Unified Manager でボリューム関係レポートをカスタマイズする</block>
   <block id="066b83339f158e15fc03b82bb3af4966" category="doc">Active IQ Unified Manager でレポート機能にアクセスする 3 つの方法を紹介します</block>
   <block id="1076abf58c242329455d30cb451e97a2" category="doc">Active IQ Unified Manager のレポートワークフローを理解する</block>
@@ -12708,7 +12598,6 @@
   <block id="214a61e544aca57b18945ca52f2e07a0" category="doc">Active IQ Unified Manager におけるビューとレポートの関係を理解する</block>
   <block id="b4c02ae9bdb9ff4e238ad974b750f25a" category="doc">Active IQ Unified Manager でカスタムレポート用のデータベースにアクセスする</block>
   <block id="73b1ac0a25ca974072b51efe291ffe18" category="doc">Active IQ Unified Manager レポートについて学ぶ</block>
-  <block id="4266ef197fbc2b59e1541d0613f78189" category="doc">Active IQ Unified Manager でのレポートの操作</block>
   <block id="d8ae7f271e865d9b72fe89f322ae70f7" category="doc">レポート作成のためのActive IQ Unified Manager REST APIの使用</block>
   <block id="873516a3ea19b608e6af836d619c65dc" category="doc">Active IQ Unified Manager のレポートの制限事項について</block>
   <block id="2f6a9104b0d4bd30ca815ed6b1dcab42" category="doc">Active IQ Unified Manager のレポートの種類について説明します</block>
@@ -12758,10 +12647,7 @@
   <block id="7ca01b1ac376706b273a4cf788375a30" category="doc">Active IQ Unified Manager から ONTAP の問題や機能を直接管理する</block>
   <block id="30e67b48ee82967d2556bdb312fc7819" category="doc">Active IQ Unified Manager におけるクラスター検出プロセスの仕組みについて説明します。</block>
   <block id="2ba128b2fec458400febbe2160eb1614" category="doc">Active IQ Unified Manager の健全性監視について学ぶ</block>
-  <block id="077819aa397f2ae293340d1c685b8c24" category="doc">Active IQ Unified Manager での MetroCluster 構成の管理と監視</block>
-  <block id="edf26b4c45fd428e701e46dac013d52d" category="doc">Active IQ Unified Manager で ONTAP クラスターを管理する</block>
   <block id="4ec8078e44bf0dfb5ebd52d97a0d9091" category="doc">Active IQ Unified Manager でパフォーマンスサービスレベルを管理する</block>
-  <block id="23cfca5ba97b2ec7a677b275ed531d9b" category="doc">Active IQ Unified Manager でユーザーおよびグループ クォータを管理する</block>
   <block id="2e9726d3e65c8a02f6082a16361c03b8" category="doc">Active IQ Unified Manager でストレージ効率化ポリシーを管理する</block>
   <block id="c5b583f7ee012ce588a7d1c9d5032976" category="doc">Active IQ Unified Manager を使用したディザスタリカバリ設定における仮想インフラの可視性の表示</block>
   <block id="45894598593972b28181aaa1f369bc08" category="doc">Active IQ Unified Manager のダッシュボードからクラスターを監視および管理する</block>
@@ -12770,7 +12656,6 @@
   <block id="14e53d4357f09223ab6158cfbdeaeada" category="doc">Active IQ Unified Manager でスクリプトを使用して管理アクションをオーバーライドする</block>
   <block id="5138d9f16d5f659c8aea0ba65666730c" category="doc">Active IQ Unified Manager のクォータプロセスについて学ぶ</block>
   <block id="fb6db5f9b3abbb6c7f81a8fb30ab01be" category="doc">Active IQ Unified Manager でのワークロードのプロビジョニングと管理</block>
-  <block id="178c2dd6c0a5ba758b908d4a61687988" category="doc">Active IQ Unified Manager のトラブルシューティング</block>
   <block id="e858d547a9b0048c79dc8e5d6acf97c1" category="doc">Active IQ Unified Manager の一般的なウィンドウレイアウト</block>
   <block id="c98ad2a500751b972c5c3cfdc828fd7e" category="doc">Active IQ Unified Manager ユーザーインターフェースについて</block>
   <block id="1be5a81f0301b52049c18615ebd14ace" category="doc">Active IQ Unified Manager REST API を使用する</block>
@@ -12826,4 +12711,135 @@
   <block id="e2759540dff477e9074a50116daa1200" category="sidebar">Unified Manager の導入プロセスについて</block>
   <block id="693cd77d8b73573c6a24bb3a3e66378a" category="sidebar">Unified Manager仮想アプライアンスの展開ワークフロー</block>
   <block id="2c3b3d06e66cca95f441e028f5e75e98" category="sidebar">Unified Manager仮想アプライアンスのアップグレードワークフロー</block>
+  <block id="1f2cecda91b81527c1f6b89813af69de" category="inline-link-macro">Active IQ プラットフォームイベントについて</block>
+  <block id="e406c6dc4d14cf6290026de6223c8528" category="paragraph">イベントの詳細については、<block ref="249e15fc9fa0f30a37aead3fa6310729" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="994105756220e6295eef7b40bb2f9bbb" category="inline-link-macro">アラートについて</block>
+  <block id="d4f59399c822bf3cf5b3084d9790f5b9" category="paragraph">アラートの詳細については、<block ref="889e0ca813c52ebaa25158e14ee3fadc" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0c2e0dcdb1bf962ba3ad904caf2a34c7" category="summary">パートナーストレージサービスにおける保護トポロジーをサポートするために必要な SVM の関連付けとリソース プールの要件を確認します。</block>
+  <block id="50fe8c5075550e32ae6b98cf9c83f558" category="summary">「関係」ページの「すべての関係」ビューには、ストレージシステム上の保護関係に関する情報が表示されます。</block>
+  <block id="11cdf1e057a7a5e309b5e90a2aafe053" category="summary">関係ページの「過去1か月間の転送速度」ビューには、非同期関係にあるボリュームの1日あたりのデータ転送量と転送時間が表示されます。</block>
+  <block id="cc275fe4f7f4c92a542faf92bcb2fa4f" category="summary">関係ページの「過去1か月間の転送ステータス」ビューには、非同期関係の転送傾向と成功または失敗のステータスが表示されます。</block>
+  <block id="a270e28eece676bb4f8b1ddd27db10e1" category="paragraph">選択したデータを復元するための代替パスを指定します。パスはすでに存在している必要があります。「参照」ボタンを使用してデータの復元先の場所に移動するか、次の形式<block ref="2e0e7b3eb9a82f46d86829cc2d1bdebb" prefix=" " category="inline-code"></block>を使用してパスを手動で入力できます。</block>
+  <block id="1b7c01bf98c59037ac9aa53937d1c744" category="summary">ヘルスページの「すべてのボリューム」ビューを使用して、同一ストレージVM上のボリュームに対して複数のSnapMirror保護関係を一度に作成します。</block>
+  <block id="7bbff8a952a31530550ae5b3960f101f" category="summary">ヘルスページの「すべてのボリューム」ビューを使用して、同じStorage VM上の1つ以上のボリュームのデータバックアップ用にSnapVault関係を作成します。</block>
+  <block id="31d03431f4175f67d588127cdb5ceee0" category="summary">ソースボリュームが利用できなくなった場合は保護先にフェイルオーバーし、利用可能になり次第、元のソースにフェイルバックします。</block>
+  <block id="c06335ef38fc3cc788d73c8398e80b1c" category="summary">既存のリソース プールからアグリゲートを削除する場合（アグリゲートを別の目的で使用する場合など）。</block>
+  <block id="ad7c458bbb1b6a95918ac655045ebcf7" category="summary">ボリューム関係ページから、送信元と送信先の間の保護関係を完全に削除します。この操作は取り消すことができません。</block>
+  <block id="b40d1183e80f063c9c0f9ded60011abb" category="summary">選択した送信元と宛先間の保護関係を完全に削除します。この操作を行うと、すべてのメタデータが削除され、元に戻すことはできません。</block>
+  <block id="084def276eaf84b68ec1a0cc23473e93" category="summary">ボリュームの SnapMirror と SnapVault の関係のステータス（転送状況やラグステータス、送信元と送信先、スケジュールの詳細など）を表示します。</block>
+  <block id="bd20513f3f0d0ff9f68f5c82a53c0923" category="summary">CLIコマンドを使用して、クラスタ、アグリゲート、ボリューム、qtree、LUNなどのストレージオブジェクトに対してクエリを実行します。</block>
+  <block id="0f2b5faceaa3512020edadb1e681a001" category="summary">解決済みおよび廃止済み状態に移行したイベントのアラートを抑制するように、グローバル設定を構成します。</block>
+  <block id="4d198c7709176485c41c7c34715a43b2" category="summary">クラスターの監視、可用性や容量の問題の診断、サポートへの診断データの送信など、一般的な管理ワークフローについて説明します。</block>
+  <block id="1c3c164352f638448ebeac858bb85b06" category="inline-link-macro">保護関係の管理と監視について</block>
+  <block id="1287b89cfab66fd71ddf8f3ff5b17ad2" category="paragraph">保護関係を作成して設定したあと、ストレージ管理者は、保護関係に関連する潜在的な問題、保護関係の現在の状態、該当する関係に対して成功した現在と過去の保護ジョブの情報、およびトラブルシューティングのアドバイスを確認できます。詳細については、<block ref="c3bc01c01750eb0a8bfb1487703ee2de" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="5755a42db823d9a9c3bfae686b85a4b0" category="summary">Active IQ プラットフォームに接続されていないセキュアサイトでの契約更新のために、クラスターとノードのハードウェアの詳細を含むレポートを生成します。</block>
+  <block id="582a90e2ef75b3fdceeb88577f6ccafd" category="list-text">LinuxサーバーにUnified Managerをインストールする必要があります。手順については、<block ref="a82c42d891bec1a50003088b16ad78b6" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="1b52744945d3187a626105eab0333d38" category="summary">ヘルスページの「すべてのアグリゲート」ビューを使用してアグリゲートのインベントリを監視し、キャパシティページの「すべてのアグリゲート」ビューを使用してキャパシティと使用状況の詳細を確認してください。</block>
+  <block id="9c97a9b53732ddb3f07413bca60e861e" category="list-text"><block ref="9c97a9b53732ddb3f07413bca60e861e" category="inline-link-macro-rx"></block></block>
+  <block id="677193e0fe10d421b2a8327fc3336355" category="summary">クラスターのインベントリを表示するには、「ヘルス」ページの「すべてのクラスター」ビューを使用し、ストレージ容量と使用状況の詳細を表示するには、「容量」ページの「すべてのクラスター」ビューを使用します。</block>
+  <block id="f7ce19fb9daa86a154d895a8cf702536" category="summary">ヘルスページの「すべての SMB 共有」ビューを使用して、共有名、ジャンクションパス、セキュリティ設定、エクスポートポリシーなど、SMB/CIFS 共有の詳細を表示できます。</block>
+  <block id="e4ed0a1249c20c78f2857307787e0457" category="summary">ヘルスページの「すべてのNFS共有」ビューを使用して、ステータス、ボリュームパス、クライアントアクセスレベル、エクスポートポリシーなど、NFS共有の詳細を表示します。</block>
+  <block id="348e465e30e728a64b49da11eca50fe1" category="summary">クラスター内のノード一覧を表示するには、「ヘルス」ページの「すべてのノード」ビューを使用し、ノードの詳細情報については「クラスターヘルス詳細」ページを使用してください。</block>
+  <block id="45d3b02a268cf604654588f4b31a7c0e" category="summary">SVM のインベントリを監視するには、ヘルス ページの「すべてのストレージ VM」ビューを使用し、SVM の詳細情報については、ストレージ VM ヘルスの詳細ページを使用してください。</block>
+  <block id="19218b3321604efc38b96a2e4c6f8aa5" category="summary">ボリュームのインベントリを監視するには Health ページの All Volumes ビューを使用し、容量と使用状況の詳細を確認するには Capacity ページの All Volumes ビューを使用してください。</block>
+  <block id="c3b09fd60d5a573bab5153f94904411b" category="summary">Red Hat Enterprise Linux に Unified Manager をインストールすると、umadmin、jboss、mysql というユーザーが作成されます。</block>
+  <block id="f35ae7a6f880cce207016443bcdaa407" category="paragraph"><block ref="24706567e2334dd85692b77b012ee196" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0acc5168c17620d8a838dfdbd1c34f08" category="summary">PythonやMicrosoft Visual C++ 2013ランタイムなど、サードパーティ製品をアンインストールしてください。</block>
+  <block id="863acf19bbf0a039e1fcb80787eeed97" category="summary">Unified Managerを使用して、ユーザー定義ワークロードとシステム定義ワークロードの2種類のワークロードのパフォーマンスを監視します。</block>
+  <block id="0c7cdaa95b18f9afba925cd7b59a90c2" category="summary">Active IQ Unified Manager は、ストレージのパフォーマンスを監視およびトラブルシューティングするための2つのインターフェース（Web UI とメンテナンスコンソール）を提供します。</block>
+  <block id="eb8f863eb8d82bda4b17c564a8a6676e" category="summary">パフォーマンスページの「すべてのボリューム」ビューでは、非アクティブ（コールド）データのサイズが表示され、FabricPoolクラウド階層への階層化によってメリットが得られるボリュームが特定されます。</block>
+  <block id="b797a33b3edd7561c79a9e037b2ef000" category="summary">サービス品質（QoS）ポリシーグループ内でアクティビティの変化が最も大きいワークロードを確認し、どのワークロードがイベントの原因となったかを特定します。</block>
+  <block id="05c2d1323a20729e013552e633ddaba2" category="summary">概要ページには、最後のロード時点の、過去72時間のオブジェクトごとのイベントおよびパフォーマンスの詳細を示すカウンターチャートが表示されます。</block>
+  <block id="36e858c4e4eb2417b2da6dec591a1477" category="summary">パフォーマンスページの「すべてのクラスタ」ビューを使用して、All SAN Arrayクラスタのパフォーマンス状態を表示します。</block>
+  <block id="448a3c973005111616b72deac50a3ed2" category="summary">80%以上使用されているアグリゲートを強調表示するレポートを作成します。</block>
+  <block id="f4163a3761287cbf634d806d7f0b1907" category="summary">クラウド層へ移行するボリュームを検出するサンプルレポートを作成し、表示をカスタマイズしてレポートとして保存し、毎週共有するようにスケジュール設定します。</block>
+  <block id="a2dbc52f1ef06b87a98d75f91f74611a" category="summary">Unified Manager の一般的なウィンドウレイアウト、オブジェクト一覧や詳細情報、および効果的なナビゲーションのための推奨表示設定について説明します。</block>
+  <block id="14736ee84f666c601882eabcc55ddd6f" category="summary">MetroCluster 構成におけるクラスター間の接続ステータス（最適、影響あり、ダウンなど）を理解します。</block>
+  <block id="d0ec6a08cabea2147f84ebf62988ebac" category="summary">ヘルスページの「すべてのストレージVM」ビューで、クォータ関連のメール通知の形式と、メールアドレスを指定するためのルールを設定します。</block>
+  <block id="61f4ef9a7c10a541ae69f8f80fd5f4a4" category="summary">他の認証サービスを使用して LDAP を追加する際の問題のトラブルシューティングを行います。</block>
+  <block id="4109620fb5807c56709e6d651b894b81" category="summary">不明な認証エラーのトラブルシューティングを行います。</block>
+  <block id="35cf58eecbec64b19d48ed96ac08ebcc" category="summary">ユーザーが見つからないエラーのトラブルシューティングを行います。</block>
+  <block id="bd9fb116d2569cf7ca742e8e1ac35949" category="summary">Windowsのログローテーションの問題を解決するには、以下の手順に従ってください。</block>
+  <block id="6b807ca4b2fa992a5714ccb354eae8b5" category="sidebar">ストレージ管理のための一般的なAPIワークフローを理解する</block>
+  <block id="cdc259ec35b06103b7ef523953f723cb" category="sidebar">ストレージワークロードのプロビジョニングと変更</block>
+  <block id="c07d43dfefc3701214c83c800767302f" category="sidebar">APIを使用してストレージワークロードを変更する</block>
+  <block id="19a5158f1235c29843008925adb7baf8" category="sidebar">通知を設定する</block>
+  <block id="ed4f67ad4f08ff5cf972942d9c2fdf38" category="sidebar">ディスク容量を追加する</block>
+  <block id="f034b099fa1e7abeb6770338f5f4b9eb" category="sidebar">保護関係の設定について学ぶ</block>
+  <block id="ab0308e8f8cbd9bcf4b4a28e9f734f38" category="sidebar">フェイルオーバーとフェイルバックについて学ぶ</block>
+  <block id="eb4860d1f323cd85312e058cf5dedbd9" category="sidebar">保護ジョブの障害を解決する方法</block>
+  <block id="9d8741f91473027c0bad290cdab7feb9" category="sidebar">ストレージVMのディザスタリカバリ関係について説明します</block>
+  <block id="da20a7cdee9006fb951d2c9f24840b06" category="sidebar">イベント管理システムのイベントについて</block>
+  <block id="d14a1c344d7eb472a063e88d0c7bd1f5" category="sidebar">Unified Manager のメンテナンス ウィンドウについて</block>
+  <block id="e967dc0df8a7ab95b51344dc04437723" category="sidebar">イベントの詳細ページについて</block>
+  <block id="2beae0fbb1e00c0acc326ed6b8ba0a69" category="sidebar">Unified Managerでアラートを追加する</block>
+  <block id="76e9b00b25e9b43e9e49c1d25a36a9f5" category="sidebar">スクリプトの管理について</block>
+  <block id="eb2c74f1bad8e301d545e58813716f67" category="sidebar">クラスター監視について</block>
+  <block id="d98244b53b00d11c95baf3fac840b49e" category="sidebar">一般的なヘルス ワークフローとタスクを理解する</block>
+  <block id="a709f54e85c35a15a81b68c02da98b0d" category="sidebar">データ可用性の監視とトラブルシューティングについて</block>
+  <block id="589792bf3b7e52e4d75b47072d0a965b" category="sidebar">ストレージフェイルオーバー相互接続リンクのダウン状態を解決する</block>
+  <block id="5f4790855c35f96228e7011b43c89932" category="sidebar">ボリュームのオフライン問題を解決する方法</block>
+  <block id="a93084986507516aca62ce30e5febafb" category="sidebar">ボリュームがオフライン状態になった場合の診断アクションの実行方法について説明します。</block>
+  <block id="8f5d7e84456f0abf73921f663728e8bb" category="sidebar">容量の問題を解決する方法</block>
+  <block id="a20150fa66de6d3ab2baca49aa602060" category="sidebar">グローバルヘルスしきい値設定の構成方法について説明します</block>
+  <block id="b5be3ece6c6bf7a626319e1714290647" category="sidebar">クラスターのセキュリティ目標の管理について</block>
+  <block id="5c95051ce42ea8550702cfa8acf968bf" category="sidebar">Unified Managerがセキュリティ基準をどのように評価するかを理解する</block>
+  <block id="8d7f94b7f406e3d514d6a741a266b015" category="sidebar">バックアップとリストア操作について</block>
+  <block id="64c2534ca89c0e19bffea4582c5059dc" category="sidebar">MySQLデータベースダンプを使用したバックアップと復元について</block>
+  <block id="7885e86afdc34d916b3154eb99fa5225" category="sidebar">NetApp Snapshot を使用したバックアップとリストアについて</block>
+  <block id="5359fcc3268216150edb9845a571b52a" category="sidebar">サポートバンドルの送信について</block>
+  <block id="cc05dc505475aeb5d0a90dea2a674232" category="sidebar">Unified Managerのインストール要件を理解する</block>
+  <block id="8f8e7d765b1236f0cb41f4122eb296fb" category="sidebar">Unified Managerソフトウェアのインストール、アップグレード、および削除の概要</block>
+  <block id="41e1a0598507ac53a4be66377d4e1258" category="sidebar">Red Hat Enterprise Linux 上で Unified Manager をアップグレードする方法を理解する</block>
+  <block id="55d5b5f8fb92f18a723360d3a4c16b82" category="sidebar">サードパーティ製品のアップグレードについて</block>
+  <block id="e5aa7eb9a550fb4dc246ac46b8ae6b0c" category="sidebar">パフォーマンス監視について</block>
+  <block id="bfb123e6e813a33d2751497fa3e0a97e" category="sidebar">GUIでパフォーマンスワークフローを操作する</block>
+  <block id="f5ba0e68c2d123991026ed6f0053b15d" category="sidebar">グラフィカルインターフェースとナビゲーションパスを探索する</block>
+  <block id="0d016a506e4e90c77b4c3f5509de3aef" category="sidebar">ダッシュボードからのクラスタパフォーマンス監視について</block>
+  <block id="fa01de135bbb7197b84633724cbc7da4" category="sidebar">ワークロードアナライザーについて</block>
+  <block id="5efe7baacb006c17f22269d9cef5204c" category="sidebar">クラスターランディングページからのクラスターパフォーマンスの監視について</block>
+  <block id="270fcdef6a48b7b405ffdcc25973faea" category="sidebar">パフォーマンスクラスタのランディングページを確認する</block>
+  <block id="38625d8c096fdc53da2e68e20d96bd40" category="sidebar">パフォーマンスクラスタの概要ページを確認する</block>
+  <block id="3ab089a3703541260dda7420abef501b" category="sidebar">パフォーマンスインベントリページを使用してオブジェクトのパフォーマンスを監視する</block>
+  <block id="73757dc49f3a6b44dcee7ec58a790fa3" category="sidebar">パフォーマンスインベントリページのコンテンツを改善する方法を理解する</block>
+  <block id="677b3660fde70686dae43d18ae70023d" category="sidebar">パフォーマンスエクスプローラーのページを理解する</block>
+  <block id="1bfc9215d9c46284942c4a60ae1acf87" category="sidebar">相関オブジェクトの時間範囲の指定について</block>
+  <block id="b0be532fb8bf91bea9131d22784b5885" category="sidebar">カウンターチャートのズーム表示について</block>
+  <block id="28bd6d4ebb6d39b0fd22cf20a1cefb96" category="sidebar">オブジェクトランディングページの構成要素を確認する</block>
+  <block id="a8a778fcbe373438fac92171f8975331" category="sidebar">QoSポリシーグループのパフォーマンス管理について</block>
+  <block id="300e4320ff6033a06ce6cd55fae4008d" category="sidebar">パフォーマンス容量と利用可能なIOPSを管理する</block>
+  <block id="9f8efbe947ec95c945057b4ee9c44501" category="sidebar">ノードフェイルオーバー計画の概要ページ</block>
+  <block id="d1d7dc3fa1da362a052f348e0fa43f31" category="sidebar">Unified Manager がワークロードのパフォーマンスデータを収集する方法について説明します。</block>
+  <block id="0fd134df68c15a37ce11e827d8533d03" category="sidebar">パフォーマンスイベントとアラートについて</block>
+  <block id="ea6e1bdb8200e4ba19e4b137575bc66f" category="sidebar">パフォーマンスしきい値ポリシーを理解する</block>
+  <block id="b50c4dd19fb586e9007a35626b15d8f3" category="sidebar">パフォーマンスイベントの分析方法について説明します</block>
+  <block id="2ba9e7395c5b7e6a360ba1c2793643f8" category="sidebar">ユーザー定義のパフォーマンスしきい値に基づくイベントについて</block>
+  <block id="11903d24e3b202008ebc6191054e5fdd" category="sidebar">システム定義のパフォーマンスしきい値からのイベントについて</block>
+  <block id="6b3c439dbceb4279f5a78ee593027908" category="sidebar">動的パフォーマンスしきい値からのイベントについて</block>
+  <block id="2d019d34820bb97abad97458b1487bbf" category="sidebar">MetroCluster パフォーマンスイベントの分析</block>
+  <block id="9ae6e9a218ac391524f29e5a262edc11" category="sidebar">パフォーマンスイベントの解決方法について</block>
+  <block id="ff55960185a4b69b8e51342c29a41623" category="sidebar">ストレージ効率化処理は、比較的混雑の少ない時間帯にスケジュールしてください。</block>
+  <block id="11a5e36bc3b6ebad0498bd960773468f" category="sidebar">外部データプロバイダーへの接続について</block>
+  <block id="37b4dbe75d0c5e5c2654fb06fa78d8db" category="sidebar">Unified Manager のレポート機能について</block>
+  <block id="060e533d3d7eab83627aa666bd3f05d9" category="sidebar">レポート機能にアクセスする方法を確認する</block>
+  <block id="d5401a9ab2ff863b3356b25b679c9537" category="sidebar">レポートのカスタマイズについて</block>
+  <block id="026e4d5d301ac34d9d2059ea2d2d1bac" category="sidebar">レポートのスケジュール設定について</block>
+  <block id="69c80827be24f640ef8097a823957632" category="sidebar">レポートスケジュールを作成する</block>
+  <block id="94eac6c7a92d1e79b6042de86d03e2d5" category="sidebar">レポートスケジュールの表示、編集、削除</block>
+  <block id="152244161940003464ada1e9b1bddc7a" category="sidebar">サンプルカスタムレポートを理解する</block>
+  <block id="132e444e5a3b8b21e30657d6d584d2e4" category="sidebar">NFS共有レポートのカスタマイズについて学ぶ</block>
+  <block id="81f488871d927553cdeab1351963df5a" category="sidebar">ストレージVMレポートのカスタマイズについて</block>
+  <block id="49124fedc51f989179dfdc74d25e7290" category="sidebar">ボリューム関係レポートのカスタマイズについて</block>
+  <block id="b3c6a123e39688ba794e61950e707ad7" category="sidebar">Microsoft Excelのサンプルレポートを理解する</block>
+  <block id="59c7b6e88719b99787990d11e794ec5c" category="sidebar">Unified Manager サーバーについて</block>
+  <block id="b39806e068472d705dd76d56a7a0c2ec" category="sidebar">ユーザーインターフェースについて説明します</block>
+  <block id="163b89feffcee2ad110fca0e27a7fa8b" category="sidebar">ダッシュボードパネル</block>
+  <block id="7178e937817a220e4cfc672825b49984" category="sidebar">ONTAP の問題と機能を管理する</block>
+  <block id="3901ddf2c82db9ecf52c59d610b26aa9" category="sidebar">VMware 仮想インフラ監視の詳細</block>
+  <block id="51b25f9b65ff8f2f9cf19b65f23a4e4d" category="sidebar">ワークロードのプロビジョニングと管理について学ぶ</block>
+  <block id="5965eebc74f4b74f427c0dfbf56a11a1" category="sidebar">ワークロードダッシュボードについて</block>
+  <block id="8a65dc701b1bfa436ce33931c344fab2" category="sidebar">パフォーマンスサービスレベルについて</block>
+  <block id="a6e16397851d52fce837670c7fe5c107" category="sidebar">ストレージ効率化ポリシーについて</block>
+  <block id="442ea426f05852b9149238a396ebc980" category="sidebar">クォータダイアログボックスを使用する</block>
+  <block id="d476210c705af2dbde35b19ec388481b" category="sidebar">データベースディレクトリへのディスク容量の追加について</block>
 </blocks>

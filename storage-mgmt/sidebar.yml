@@ -3,8 +3,9 @@ section: storage-mgmt
 title: ストレージを監視および管理する
 entries:
 - title: Active IQ Unified Manager の概要
-  url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Active IQ Unified Manager について学ぶ
+    url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
   - title: Active IQ Unified Manager の健常性監視の概要
     url: "/storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html"
   - title: Active IQ Unified Manager によるパフォーマンス監視の概要
@@ -12,13 +13,15 @@ entries:
   - title: Unified Manager REST APIを使用する
     url: "/storage-mgmt/concept_use_unified_manager_rest_apis_ocum.html"
   - title: Unified Manager サーバの機能
-    url: "/storage-mgmt/concept_what_unified_manager_server_does.html"
     entries:
+    - title: Unified Manager サーバーについて
+      url: "/storage-mgmt/concept_what_unified_manager_server_does.html"
     - title: 検出プロセスの仕組み
       url: "/storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html"
 - title: ユーザーインターフェースを理解する
-  url: "/storage-mgmt/concept_understand_user_interface.html"
   entries:
+  - title: ユーザーインターフェースについて説明します
+    url: "/storage-mgmt/concept_understand_user_interface.html"
   - title: 一般的なウィンドウレイアウト
     url: "/storage-mgmt/concept_typical_window_layouts_um_6_x.html"
   - title: ウィンドウレイアウトのカスタマイズ
@@ -36,13 +39,15 @@ entries:
   - title: 通知ベルからアクティブなイベントを表示する
     url: "/storage-mgmt/task_view_active_events_from_notification_bell.html"
 - title: ダッシュボードからクラスターを監視および管理する
-  url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
   entries:
+  - title: ダッシュボードパネル
+    url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
   - title: ダッシュボードページ
     url: "/storage-mgmt/reference_dashboard_page.html"
   - title: ONTAP の問題を Unified Manager から直接修正または管理します
-    url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     entries:
+    - title: ONTAP の問題と機能を管理する
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: "[ 修正 ] または [ すべて修正 ] ボタンが表示されたら、どのようなオプションがありますか"
       url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
     - title: 修正するために選択した管理アクションのステータスを表示します
@@ -52,7 +57,6 @@ entries:
     - title: スクリプトによる管理アクションの上書き
       url: "/storage-mgmt/concept_override_management_actions_through_scripts.html"
 - title: クラスターを管理する
-  url: "/storage-mgmt/concept_manage_clusters.html"
   entries:
   - title: クラスタ検出プロセスの仕組み
     url: "/storage-mgmt/concept_how_discovery_process_works.html"
@@ -67,8 +71,9 @@ entries:
   - title: クラスタの再検出
     url: "/storage-mgmt/task_rediscover_clusters.html"
 - title: VMware仮想インフラストラクチャを監視する
-  url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
   entries:
+  - title: VMware 仮想インフラ監視の詳細
+    url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
   - title: vCenter Server の表示と追加
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
   - title: vCenter Server を削除する
@@ -78,11 +83,13 @@ entries:
   - title: 災害復旧セットアップにおける仮想インフラストラクチャの表示
     url: "/storage-mgmt/concept_mcc_svmdr_vmawareness.html"
 - title: ワークロードのプロビジョニングと管理
-  url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
   entries:
+  - title: ワークロードのプロビジョニングと管理について学ぶ
+    url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
   - title: ワークロードの概要
-    url: "/storage-mgmt/concept_workloads_dashboard.html"
     entries:
+    - title: ワークロードダッシュボードについて
+      url: "/storage-mgmt/concept_workloads_dashboard.html"
     - title: ワークロードを表示
       url: "/storage-mgmt/concept_all_workloads.html"
     - title: ワークロードにポリシーを割り当てる
@@ -92,17 +99,18 @@ entries:
     - title: LUNのプロビジョニング
       url: "/storage-mgmt/task_provision_luns.html"
   - title: パフォーマンスサービスレベルの管理
-    url: "/storage-mgmt/concept_manage_performance_service_levels.html"
     entries:
+    - title: パフォーマンスサービスレベルについて
+      url: "/storage-mgmt/concept_manage_performance_service_levels.html"
     - title: パフォーマンス サービス レベルの作成と編集
       url: "/storage-mgmt/task_create_and_edit_psls.html"
   - title: ストレージ効率ポリシーの管理
-    url: "/storage-mgmt/concept_manage_storage_efficiency_policies.html"
     entries:
+    - title: ストレージ効率化ポリシーについて
+      url: "/storage-mgmt/concept_manage_storage_efficiency_policies.html"
     - title: ストレージ効率ポリシーの作成と編集
       url: "/storage-mgmt/task_create_and_edit_seps.html"
 - title: MetroCluster構成の管理と監視
-  url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
   entries:
   - title: スイッチオーバーおよびスイッチバックの発生時のボリュームの動作
     url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
@@ -115,7 +123,6 @@ entries:
   - title: MetroClusterレプリケーションを監視する
     url: "/storage-mgmt/task_monitor_metrocluster_replication.html"
 - title: 割り当てを管理する
-  url: "/storage-mgmt/concept_manage_quotas.html"
   entries:
   - title: クォータ制限とは
     url: "/storage-mgmt/concept_what_quota_limits_are.html"
@@ -128,7 +135,6 @@ entries:
   - title: ユーザーとグループのクォータのメールアドレスを編集する
     url: "/storage-mgmt/task_edit_user_and_group_quota_email_addresses.html"
   - title: クォータについてさらに詳しく
-    url: "/storage-mgmt/concept_understand_more_about_quotas.html"
     entries:
     - title: クォータプロセスの概要
       url: "/storage-mgmt/concept_overview_of_quota_process_um_6_1.html"
@@ -137,18 +143,19 @@ entries:
     - title: クォータの使用目的
       url: "/storage-mgmt/concept_why_you_use_quotas.html"
   - title: クォータの概要ダイアログボックス
-    url: "/storage-mgmt/reference_description_of_quotas_dialog_boxes.html"
     entries:
+    - title: クォータダイアログボックスを使用する
+      url: "/storage-mgmt/reference_description_of_quotas_dialog_boxes.html"
     - title: Email Notification Format ページ
       url: "/storage-mgmt/reference_email_notification_format_page.html"
     - title: RulestoGenerateUserandGroupQuotaEmailAddress ヘエシ
       url: "/storage-mgmt/reference_rules_to_generate_user_and_group_quota.html"
 - title: トラブルシューティング
-  url: "/storage-mgmt/concept_troubleshooting.html"
   entries:
   - title: Unified Managerデータベースディレクトリにディスクスペースを追加する
-    url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
     entries:
+    - title: データベースディレクトリへのディスク容量の追加について
+      url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
     - title: VMware仮想マシンのデータディスクにスペースを追加する
       url: "/storage-mgmt/task_add_space_to_data_disk_of_vmware.html"
     - title: Linuxホストのデータディレクトリにスペースを追加する

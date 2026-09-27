@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_aggregates_from_resource_pools.html 
 sidebar: sidebar 
 keywords: remove, aggregates, resource pools 
-summary: アグリゲートを他の目的に使用したい場合などに、既存のリソースプールからアグリゲートを削除することができます。 
+summary: 既存のリソース プールからアグリゲートを削除する場合（アグリゲートを別の目的で使用する場合など）。 
 ---
 = Active IQ Unified Manager のリソース プールからアグリゲートを削除する
 :allow-uri-read: 

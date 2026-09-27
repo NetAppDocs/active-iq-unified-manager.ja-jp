@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html 
 sidebar: sidebar 
 keywords: issue, addi, ldap, use, other, authentication, services 
-summary: トラブルシューティング：問題に他の認証サービスを使用して LDAP を追加する 
+summary: 他の認証サービスを使用して LDAP を追加する際の問題のトラブルシューティングを行います。 
 ---
 = Active IQ Unified Manager で他の認証サービスを使用して LDAP を追加することによって発生した問題を解決する
 :allow-uri-read: 

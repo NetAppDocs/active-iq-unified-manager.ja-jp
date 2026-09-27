@@ -3,8 +3,9 @@ section: api-automation
 title: REST API を使用してストレージを管理できます
 entries:
 - title: Active IQ Unified Manager での作業の開始
-  url: "/api-automation/concept_get_started_with_um_apis.html"
   entries:
+  - title: Active IQ Unified Manager REST APIの使用を開始する
+    url: "/api-automation/concept_get_started_with_um_apis.html"
   - title: このコンテンツの対象読者
     url: "/api-automation/reference_intended_audience_for_this_guide.html"
   - title: Active IQ Unified Manager API アクセスおよびカテゴリ
@@ -16,8 +17,9 @@ entries:
   - title: ONTAP のストレージリソース
     url: "/api-automation/concept_storage_resource_model.html"
 - title: Active IQ Unified Manager での REST API へのアクセスおよび認証
-  url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
   entries:
+  - title: Active IQ Unified Manager で REST API にアクセスして認証する
+    url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
   - title: Active IQ Unified Manager で使用される HTTP ステータスコード
     url: "/api-automation/reference_authentication_errors.html"
   - title: Active IQ Unified Manager で API を使用する際の推奨事項です
@@ -29,8 +31,9 @@ entries:
   - title: Hello API server 」と入力します
     url: "/api-automation/concept_hello_api_server.html"
 - title: Unified Manager REST API
-  url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
+  - title: Active IQ Unified Manager REST API のカテゴリについて
+    url: "/api-automation/concept_um_apis_list_intro.html"
   - title: データセンター内のストレージオブジェクトを管理する
     url: "/api-automation/concept_data_center_apis.html"
   - title: プロキシアクセスを介してONTAP APIにアクセスする
@@ -46,7 +49,6 @@ entries:
   - title: イベントとアラートの管理
     url: "/api-automation/concept_events_api.html"
   - title: ワークロードの管理
-    url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
     - title: ストレージワークロードを表示します
       url: "/api-automation/concept_view_workloads.html"
@@ -63,8 +65,9 @@ entries:
     - title: ストレージ効率ポリシーの管理
       url: "/api-automation/concept_manage_sep.html"
 - title: ストレージ管理の一般的なワークフロー
-  url: "/api-automation/concept_workflow_intro.html"
   entries:
+  - title: ストレージ管理のための一般的なAPIワークフローを理解する
+    url: "/api-automation/concept_workflow_intro.html"
   - title: 集合体のスペース問題を特定する
     url: "/api-automation/concept_workflow_space_issue.html"
   - title: イベントを使用してストレージオブジェクトの問題を特定する
@@ -72,8 +75,9 @@ entries:
   - title: ゲートウェイ API を使用して ONTAP ボリュームのトラブルシューティングを行う
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: ワークロード管理のワークフロー
-    url: "/api-automation/concept_provision_workflow.html"
     entries:
+    - title: ストレージワークロードのプロビジョニングと変更
+      url: "/api-automation/concept_provision_workflow.html"
     - title: クラスタ上のSVMを検証する
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: CIFS および NFS ファイル共有のプロビジョニング
@@ -81,7 +85,8 @@ entries:
     - title: LUN のプロビジョニング
       url: "/api-automation/concept_provision_luns.html"
     - title: ストレージワークロードを変更する
-      url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
+      - title: APIを使用してストレージワークロードを変更する
+        url: "/api-automation/concept_modify_workloads_workflow.html"
       - title: NFS ファイル共有を変更して CIFS をサポートする
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

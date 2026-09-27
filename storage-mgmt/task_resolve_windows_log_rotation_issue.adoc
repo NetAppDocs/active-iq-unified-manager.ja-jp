@@ -2,7 +2,7 @@
 permalink: storage-mgmt/task_resolve_windows_log_rotation_issue.html 
 sidebar: sidebar 
 keywords: windows, log rotation issue, Netapp Manageability SDK 
-summary: 'トラブルシューティング: ログローテーションの問題を解決するには、次の手順に従ってください。' 
+summary: Windowsのログローテーションの問題を解決するには、以下の手順に従ってください。 
 ---
 = Active IQ Unified Manager における NetApp Manageability SDK のログローテーション問題の解決
 :allow-uri-read: 

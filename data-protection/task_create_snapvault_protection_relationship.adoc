@@ -2,7 +2,7 @@
 permalink: data-protection/task_create_snapvault_protection_relationship.html 
 sidebar: sidebar 
 keywords: create, snapvault, protection, relationship, health, volumes view 
-summary: 健全性：すべてのボリュームビューを使用して、同じ Storage VM 上の 1 つ以上のボリュームの SnapVault 関係を作成し、データを保護するためのデータバックアップを有効にすることができます。 
+summary: ヘルスページの「すべてのボリューム」ビューを使用して、同じStorage VM上の1つ以上のボリュームのデータバックアップ用にSnapVault関係を作成します。 
 ---
 = Active IQ Unified Manager の「健全性：すべてのボリューム」ビューから SnapVault 関係を作成する
 :allow-uri-read: 

@@ -3,13 +3,13 @@ section: data-protection
 title: データを保護、リストア
 entries:
 - title: 保護関係の作成とトラブルシューティング
-  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
   entries:
   - title: SnapMirror 保護のタイプ
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
   - title: Unified Managerで保護関係を設定する
-    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
+    - title: 保護関係の設定について学ぶ
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     - title: ワークフロー自動化とUnified Manager間の接続を構成する
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
     - title: ワークフロー自動化におけるUnified Managerデータソースのキャッシュを確認する
@@ -19,8 +19,9 @@ entries:
     - title: Unified Manager から OnCommand Workflow Automation セットアップを削除します。
       url: "/data-protection/task_remove_workflow_automation.html"
   - title: 保護関係のフェイルオーバーとフェイルバックを実行する
-    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
+    - title: フェイルオーバーとフェイルバックについて学ぶ
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     - title: ボリュームの健全性詳細ページからSnapMirror関係を解除する
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
     - title: ボリュームの健全性の詳細ページから保護関係を逆転させる
@@ -30,15 +31,17 @@ entries:
     - title: ボリュームの健全性の詳細ページから保護関係を再同期します
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 保護ジョブの失敗を解決する
-    url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
+    - title: 保護ジョブの障害を解決する方法
+      url: "/data-protection/task_resolve_protection_job_failure.html"
     - title: 問題を特定し、失敗した保護ジョブに対する修正アクションを実行する
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: ラグの問題を解決する
     url: "/data-protection/task_resolve_lag_issues.html"
 - title: 保護関係の管理と監視
-  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
+  - title: 保護関係の管理と監視について
+    url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   - title: ボリューム保護ステータスの表示
     url: "/data-protection/view-protection-status.html"
   - title: ボリューム保護関係の表示
@@ -112,8 +115,9 @@ entries:
   - title: リソースプールを削除する
     url: "/data-protection/task_delete_resource_pools.html"
   - title: ストレージ VM 災害復旧保護関係の監視
-    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
+    - title: ストレージVMのディザスタリカバリ関係について説明します
+      url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     - title: 関係ページを使用してストレージ VM を監視する
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
     - title: ストレージVMページから保護関係を表示する
@@ -135,7 +139,6 @@ entries:
   - title: 失敗した保護ジョブを再試行する
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: 保護関係の概要のウィンドウとダイアログボックス
-    url: "/data-protection/reference_description_of_protection_relationships_window.html"
     entries:
     - title: リソースプールページ
       url: "/data-protection/reference_resource_pools_page.html"

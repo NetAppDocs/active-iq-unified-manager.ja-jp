@@ -2,7 +2,7 @@
 permalink: reporting/task_report_quick_start.html 
 sidebar: sidebar 
 keywords: reporting, quick, start 
-summary: サンプルのカスタムレポートを作成して、各ビューの内容とレポートのスケジュール設定について学びます。このクイックスタートのレポートでは、アクセス頻度の低いコールドデータが相当量あり、クラウド階層への移動を検討するボリュームを特定します。Performance ： All Volumes ビューを開き、フィルタと列を使用してビューをカスタマイズし、カスタムビューをレポートとして保存し、レポートを週に 1 回共有するようにスケジュール設定します。 
+summary: クラウド層へ移行するボリュームを検出するサンプルレポートを作成し、表示をカスタマイズしてレポートとして保存し、毎週共有するようにスケジュール設定します。 
 ---
 = Active IQ Unified Manager でのレポート作成の開始
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
-summary: ストレージ管理者は、 CLI コマンドを使用して、クラスタ、アグリゲート、ボリューム、 qtree 、および LUN ： 
+summary: CLIコマンドを使用して、クラスタ、アグリゲート、ボリューム、qtree、LUNなどのストレージオブジェクトに対してクエリを実行します。 
 ---
 = サポートされている Active IQ Unified Manager CLI コマンドについて学ぶ
 :allow-uri-read: 

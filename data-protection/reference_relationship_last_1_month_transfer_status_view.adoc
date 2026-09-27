@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_last_1_month_transfer_status_view.html 
 sidebar: sidebar 
 keywords: relationship, 1 month, transfer status, view 
-summary: Relationship ： Last 1 month Transfer Status ビューを使用すると、非同期関係にあるボリュームと Storage VM の一定期間の転送の傾向を分析できます。また、転送が成功したか失敗したかが表示されます。 
+summary: 関係ページの「過去1か月間の転送ステータス」ビューには、非同期関係の転送傾向と成功または失敗のステータスが表示されます。 
 ---
 = Active IQ Unified Manager で過去 1 か月の転送状況ビューを表示する
 :allow-uri-read: 

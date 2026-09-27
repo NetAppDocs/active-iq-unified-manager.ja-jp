@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_unknown_authentication_error.html 
 sidebar: sidebar 
 keywords: unknown, authentication, error 
-summary: トラブルシューティング：不明な認証エラーです 
+summary: 不明な認証エラーのトラブルシューティングを行います。 
 ---
 = Active IQ Unified Manager で不明な認証エラーを解決する
 :allow-uri-read: 

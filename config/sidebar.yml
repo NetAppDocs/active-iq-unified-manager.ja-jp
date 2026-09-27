@@ -3,8 +3,9 @@ section: config
 title: 設定タスクと管理タスクを実行
 entries:
 - title: Active IQ Unified Managerを構成する
-  url: "/config/concept_configure_unified_manager.html"
   entries:
+  - title: Active IQ Unified Manager の設定について
+    url: "/config/concept_configure_unified_manager.html"
   - title: 設定手順の概要
     url: "/config/concept_overview_of_configuration_sequence.html"
   - title: Unified Manager Web UI にアクセスする
@@ -13,9 +14,10 @@ entries:
     url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
   - title: クラスタを追加
     url: "/config/task_add_clusters.html"
-  - title: アラート通知を送信するようにUnified Managerを構成する
-    url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+  - title: 通知を設定する
     entries:
+    - title: Active IQ Unified Manager でアラート通知を送信するように設定する
+      url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
     - title: イベント通知を設定
       url: "/config/task_configure_event_notification_settings.html"
     - title: リモート認証を有効にします
@@ -37,15 +39,13 @@ entries:
   - title: CLIを使用したセッションタイムアウトの設定
     url: "/config/task_set_session_timeout_CLI.html"
   - title: Unified Managerのホスト名を変更する
-    url: "/config/concept_change_unified_manager_host_name.html"
     entries:
-    - title: Unified Manager仮想アプライアンスのホスト名を変更する
+    - title: Active IQ Unified Manager 仮想アプライアンスのホスト名を変更する
       url: "/config/task_change_unified_manager_host_name_on_vmware.html"
-      entries:
-      - title: HTTPS セキュリティ証明書を生成する
-        url: "/config/task_generate_an_https_security_certificate_ocf.html"
-      - title: Unified Manager 仮想マシンを再起動します
-        url: "/config/task_restart_unified_manager_virtual_machine.html"
+    - title: HTTPS セキュリティ証明書を生成する
+      url: "/config/task_generate_an_https_security_certificate_ocf.html"
+    - title: Unified Manager 仮想マシンを再起動します
+      url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: LinuxシステムでUnified Managerのホスト名を変更する
       url: "/config/task_change_um_host_name_on_rhel.html"
   - title: ポリシーベースのストレージ管理を有効または無効にする
@@ -53,8 +53,9 @@ entries:
 - title: Unified Manager バックアップを構成する
   url: "/config/concept_configure_um_backup.html"
 - title: 機能設定を管理します
-  url: "/config/concept_manage_feature_settings.html"
   entries:
+  - title: Active IQ Unified Manager の機能設定について
+    url: "/config/concept_manage_feature_settings.html"
   - title: ポリシーベースのストレージ管理を有効化
     url: "/config/concept_policy_based_storage_management.html"
   - title: API ゲートウェイを有効にする
@@ -70,7 +71,6 @@ entries:
   - title: ログインバナーを追加する
     url: "/config/concept_login_banner.html"
 - title: メンテナンスコンソールを使用する
-  url: "/config/task_use_maintenance_console.html"
   entries:
   - title: メンテナンスコンソールで提供される機能
     url: "/config/concept_what_functionality_maintenance_console_provides.html"
@@ -83,8 +83,9 @@ entries:
   - title: vSphere VM コンソールを使用してメンテナンス コンソールにアクセスする
     url: "/config/task_access_maintenance_console_using_vsphere.html"
   - title: メンテナンスコンソールのメニュー
-    url: "/config/concept_maintenance_console_menu.html"
     entries:
+    - title: Active IQ Unified Manager のメンテナンスコンソールメニューについて
+      url: "/config/concept_maintenance_console_menu.html"
     - title: Network Configuration （ネットワーク設定）メニュー
       url: "/config/reference_network_configuration_menu.html"
     - title: System Configuration （システム設定）メニュー
@@ -103,9 +104,10 @@ entries:
     url: "/config/task_add_additional_network_interfaces.html"
   - title: クライアント証明書を再生成する
     url: "/config/task_regenerate_client_certificate.html"
-  - title: Unified Managerデータベースディレクトリにディスクスペースを追加する
-    url: "/config/concept_add_disk_space_to_um_database_directory.html"
+  - title: ディスク容量を追加する
     entries:
+    - title: Active IQ Unified Manager データベースディレクトリへのディスク容量の追加
+      url: "/config/concept_add_disk_space_to_um_database_directory.html"
     - title: Linuxホストのデータディレクトリにスペースを追加する
       url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
     - title: VMware仮想マシンのデータディスクにスペースを追加する
@@ -113,11 +115,11 @@ entries:
     - title: Microsoft Windows サーバーの論理ドライブにスペースを追加する
       url: "/config/task_add_space_to_data_disk_of_windows_server.html"
 - title: ユーザーアクセスを管理する
-  url: "/config/concept_manage_user_access.html"
   entries:
   - title: ユーザを追加します
-    url: "/config/task_add_users.html"
     entries:
+    - title: Active IQ Unified Manager でユーザーを追加する
+      url: "/config/task_add_users.html"
     - title: データベースユーザーを作成する
       url: "/config/task_create_database_user.html"
   - title: ユーザー設定を編集する
@@ -126,8 +128,6 @@ entries:
     url: "/config/task_view_users.html"
   - title: ユーザーまたはグループを削除する
     url: "/config/task_delete_users_or_groups.html"
-  - title: RBAC とは
-    url: "/config/concept_what_rbac_is.html"
   - title: ロールベースアクセス制御の機能
     url: "/config/concept_what_role_based_access_control_does.html"
   - title: ユーザタイプの定義
@@ -137,8 +137,9 @@ entries:
   - title: Unified Manager のユーザロールと機能
     url: "/config/reference_unified_manager_roles_and_capabilities.html"
 - title: SAML認証設定を管理する
-  url: "/config/concept_manage_saml_authentication_settings_um.html"
   entries:
+  - title: Active IQ Unified Manager で SAML 認証を有効にする
+    url: "/config/concept_manage_saml_authentication_settings_um.html"
   - title: アイデンティティプロバイダの要件
     url: "/config/reference_identity_provider_requirements_um.html"
   - title: SAML認証を有効にする
@@ -154,7 +155,6 @@ entries:
   - title: SAML Authentication ページ
     url: "/config/reference_saml_authentication_page_um.html"
 - title: 認証を管理する
-  url: "/config/concept_manage_authentication.html"
   entries:
   - title: 認証サーバーを編集する
     url: "/config/task_edit_authentication_servers.html"
@@ -163,8 +163,9 @@ entries:
   - title: Active Directory または OpenLDAP による認証
     url: "/config/concept_authentication_with_active_directory_or_openldap.html"
   - title: 監査ログ
-    url: "/config/concept_audit_logging.html"
     entries:
+    - title: Active IQ Unified Manager の監査ログについて
+      url: "/config/concept_audit_logging.html"
     - title: 監査ログを構成する
       url: "/config/task_configure_audit_logs.html"
     - title: 監査ログのリモートログ記録を有効にする
@@ -172,7 +173,6 @@ entries:
   - title: Remote Authentication ページの略
     url: "/config/reference_remote_authentication_page.html"
 - title: セキュリティ証明書を管理する
-  url: "/config/concept_manage_security_certificates_ocf.html"
   entries:
   - title: HTTPSセキュリティ証明書を表示する
     url: "/config/task_view_https_security_certificate_ocf.html"
@@ -183,7 +183,6 @@ entries:
   - title: 外部ツールを使用して生成されたHTTPS証明書をインストールする
     url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
   - title: 証明書管理のページの説明
-    url: "/config/concept_page_descriptions_for_certificate_management.html"
     entries:
     - title: HTTPS 証明書ページ
       url: "/config/reference_https_dialog_box_ocf.html"

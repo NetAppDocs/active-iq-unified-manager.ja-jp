@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_volume_list_and_details.html 
 sidebar: sidebar 
 keywords: view, volume list, details 
-summary: Health ： All Volumes ビューでは、ボリュームのインベントリを監視できます。Capacity ： All Volumes ビューでは、クラスタ内のボリュームの容量と使用状況に関する情報を表示できます。 
+summary: ボリュームのインベントリを監視するには Health ページの All Volumes ビューを使用し、容量と使用状況の詳細を確認するには Capacity ページの All Volumes ビューを使用してください。 
 ---
 = Active IQ Unified Manager でボリュームリストと詳細を表示する
 :allow-uri-read: 

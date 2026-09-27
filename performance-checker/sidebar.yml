@@ -3,8 +3,9 @@ section: performance-checker
 title: クラスタのパフォーマンスを監視および管理する
 entries:
 - title: Active IQ Unified Manager によるパフォーマンス監視の概要
-  url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
   entries:
+  - title: パフォーマンス監視について
+    url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
   - title: Unified Manager のパフォーマンス監視機能
     url: "/performance-checker/concept_unified_manager_performance_monitoring_features.html"
   - title: ストレージシステムのパフォーマンスを管理するために使用される Unified Manager インターフェイス
@@ -16,13 +17,15 @@ entries:
   - title: 収集されたデータとイベントのタイムスタンプの意味
     url: "/performance-checker/concept_what_timestamp_means_in_collected_data_and_events.html"
 - title: Unified Manager の GUI で実行するパフォーマンスワークフロー
-  url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
   entries:
+  - title: GUIでパフォーマンスワークフローを操作する
+    url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
   - title: UIにログインする
     url: "/performance-checker/task_log_in_to_gui.html"
   - title: グラフィカルインターフェイスと操作手順
-    url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
     entries:
+    - title: グラフィカルインターフェースとナビゲーションパスを探索する
+      url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
     - title: クラスタオブジェクト監視時の操作
       url: "/performance-checker/concept_monitor_cluster_object_navigation.html"
     - title: クラスタパフォーマンス監視時の画面操作
@@ -34,8 +37,9 @@ entries:
   - title: 在庫ページのコンテンツをフィルタリングする
     url: "/performance-checker/task_filter_inventory_page_content.html"
 - title: ダッシュボードからクラスターのパフォーマンスを監視する
-  url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   entries:
+  - title: ダッシュボードからのクラスタパフォーマンス監視について
+    url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   - title: ダッシュボードのパフォーマンスパネルを理解する
     url: "/performance-checker/concept_understand_performance_panels_on_dashboard.html"
   - title: パフォーマンスのバナーメッセージと説明
@@ -43,8 +47,9 @@ entries:
   - title: パフォーマンス統計の収集間隔を変更する
     url: "/performance-checker/task_change_performance_statistics_collection_interval.html"
 - title: ワークロード アナライザーを使用してワークロードをトラブルシューティングする
-  url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
   entries:
+  - title: ワークロードアナライザーについて
+    url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
   - title: Workload Analyzer で表示されるデータは何ですか
     url: "/performance-checker/reference_what_data_does_workload_analyzer_display.html"
   - title: Workload Analyzer を使用するタイミング
@@ -52,16 +57,19 @@ entries:
   - title: ワークロードアナライザーを使用する
     url: "/performance-checker/task_use_workload_analyzer.html"
 - title: パフォーマンス クラスター ランディング ページからクラスターのパフォーマンスを監視します。
-  url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
   entries:
+  - title: クラスターランディングページからのクラスターパフォーマンスの監視について
+    url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
   - title: パフォーマンス クラスターのランディング ページを理解する
     url: "/performance-checker/concept_understand_performance_cluster_landing_page.html"
   - title: パフォーマンスクラスタランディングページ
-    url: "/performance-checker/reference_performance_cluster_landing_page.html"
     entries:
+    - title: パフォーマンスクラスタのランディングページを確認する
+      url: "/performance-checker/reference_performance_cluster_landing_page.html"
     - title: Performance Cluster Summary ページ
-      url: "/performance-checker/reference_cluster_summary_page_opm.html"
       entries:
+      - title: パフォーマンスクラスタの概要ページを確認する
+        url: "/performance-checker/reference_cluster_summary_page_opm.html"
       - title: クラスタパフォーマンスイベントのペイン
         url: "/performance-checker/reference_cluster_performance_events_pane.html"
       - title: "[Managed Objects] ペイン"
@@ -69,13 +77,15 @@ entries:
     - title: ハフオオマンスシヨウイヘエシ
       url: "/performance-checker/reference_top_performers_page.html"
 - title: パフォーマンスインベントリページを使用してパフォーマンスを監視する
-  url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   entries:
+  - title: パフォーマンスインベントリページを使用してオブジェクトのパフォーマンスを監視する
+    url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   - title: すべてのストレージ オブジェクトのパフォーマンス インベントリ ページを表示します。
     url: "/performance-checker/performance-view-all.html"
   - title: パフォーマンスインベントリページのコンテンツを調整する
-    url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     entries:
+    - title: パフォーマンスインベントリページのコンテンツを改善する方法を理解する
+      url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     - title: オブジェクトインベントリパフォーマンスページで検索
       url: "/performance-checker/task_search_on_object_inventory_performance_pages.html"
     - title: オブジェクトインベントリパフォーマンスページで並べ替える
@@ -85,15 +95,17 @@ entries:
   - title: データをクラウドに階層化するための Unified Manager の推奨事項を理解する
     url: "/performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html"
 - title: パフォーマンス エクスプローラー ページを使用してパフォーマンスを監視する
-  url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
   entries:
+  - title: パフォーマンスエクスプローラーのページを理解する
+    url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
   - title: ルートオブジェクトを理解する
     url: "/performance-checker/concept_understand_root_object.html"
   - title: フィルタによるグリッドの関連オブジェクトのリストの絞り込み
     url: "/performance-checker/concept_apply_filtering_to_correlated_objects.html"
   - title: 相関オブジェクトの時間範囲を指定する
-    url: "/performance-checker/task_specify_correlated_objects_time_range.html"
     entries:
+    - title: 相関オブジェクトの時間範囲の指定について
+      url: "/performance-checker/task_specify_correlated_objects_time_range.html"
     - title: 定義済みの時間範囲を選択する
       url: "/performance-checker/task_select_predefined_time_range.html"
     - title: カスタム時間範囲を指定する
@@ -113,8 +125,9 @@ entries:
   - title: イベントタイムラインでイベントの詳細を表示する
     url: "/performance-checker/task_view_event_details_in_performance_explorer_events_timeline.html"
   - title: カウンタグラフズームビュー
-    url: "/performance-checker/concept_counter_charts_zoom_view.html"
     entries:
+    - title: カウンターチャートのズーム表示について
+      url: "/performance-checker/concept_counter_charts_zoom_view.html"
     - title: カウンターチャートのズームビューを表示する
       url: "/performance-checker/task_display_counter_charts_zoom_view.html"
     - title: ズームビューで時間範囲を指定する
@@ -132,15 +145,17 @@ entries:
   - title: ローカルノードにのみ存在するワークロードに基づいてノードIOPSを表示する
     url: "/performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html"
   - title: オブジェクトランディングページのコンポーネント
-    url: "/performance-checker/concept_components_of_object_landing_pages_opm.html"
     entries:
+    - title: オブジェクトランディングページの構成要素を確認する
+      url: "/performance-checker/concept_components_of_object_landing_pages_opm.html"
     - title: サマリページ
       url: "/performance-checker/reference_summary_page_opm.html"
     - title: パフォーマンスエクスプローラページのコンポーネント
       url: "/performance-checker/concept_components_of_performance_explorer_page.html"
 - title: QoSポリシーグループ情報を使用してパフォーマンスを管理する
-  url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
   entries:
+  - title: QoSポリシーグループのパフォーマンス管理について
+    url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
   - title: ストレージ QoS がワークロードスループットを制御する仕組み
     url: "/performance-checker/concept_how_storage_qos_can_control_workload_throughput.html"
   - title: すべてのクラスタで利用可能なすべての QoS ポリシー グループを表示します
@@ -156,8 +171,9 @@ entries:
   - title: パフォーマンス エクスプローラーでワークロード QoS の最小および最大設定を表示します。
     url: "/performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html"
 - title: パフォーマンス容量と利用可能なIOPS情報を使用してパフォーマンスを管理する
-  url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
   entries:
+  - title: パフォーマンス容量と利用可能なIOPSを管理する
+    url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
   - title: 使用済みパフォーマンス容量とは
     url: "/performance-checker/concept_what_performance_capacity_used_is.html"
   - title: 使用済みパフォーマンス容量の値の意味
@@ -175,8 +191,9 @@ entries:
   - title: パフォーマンス容量使用カウンタを使用してパフォーマンスを管理する
     url: "/performance-checker/concept_use_performance_capacity_used_counter.html"
 - title: ノードフェイルオーバー計画ページを理解して使用する
-  url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
   entries:
+  - title: ノードフェイルオーバー計画の概要ページ
+    url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
   - title: ノードフェイルオーバー計画ページを使用して修正アクションを決定します
     url: "/performance-checker/concept_use_failover_planning_page_to_determine_corrective_actions.html"
   - title: Node Failover Planning ページのコンポーネント
@@ -186,8 +203,9 @@ entries:
   - title: フェイルオーバー計画にはパフォーマンス使用容量の内訳チャートを使用します
     url: "/performance-checker/task_use_perf_capacity_used_breakdown_chart_for_failover_planning.html"
 - title: データを収集し、ワークロードのパフォーマンスを監視する
-  url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
   entries:
+  - title: Unified Manager がワークロードのパフォーマンスデータを収集する方法について説明します。
+    url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
   - title: Unified Manager で監視されるワークロードのタイプ
     url: "/performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html"
   - title: ワークロードのパフォーマンスの測定値
@@ -203,8 +221,9 @@ entries:
   - title: MetroCluster 構成のパフォーマンス監視
     url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
 - title: パフォーマンスイベントとアラートを理解する
-  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
   entries:
+  - title: パフォーマンスイベントとアラートについて
+    url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
   - title: パフォーマンスイベントのソース
     url: "/performance-checker/concept_sources_of_performance_events.html"
   - title: パフォーマンスイベントの重大度タイプ
@@ -222,8 +241,9 @@ entries:
   - title: パフォーマンスイベントに関連したワークロードの役割
     url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
 - title: パフォーマンスしきい値を管理する
-  url: "/performance-checker/concept_manage_performance_thresholds.html"
   entries:
+  - title: パフォーマンスしきい値ポリシーを理解する
+    url: "/performance-checker/concept_manage_performance_thresholds.html"
   - title: ユーザ定義のパフォーマンスしきい値ポリシーの仕組み
     url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
   - title: パフォーマンスしきい値ポリシーを超えた場合の動作
@@ -247,18 +267,21 @@ entries:
   - title: オブジェクトの移動によるパフォーマンスしきい値ポリシーへの影響
     url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: パフォーマンスイベントを分析する
-  url: "/performance-checker/concept_analyze_performance_events.html"
   entries:
+  - title: パフォーマンスイベントの分析方法について説明します
+    url: "/performance-checker/concept_analyze_performance_events.html"
   - title: パフォーマンスイベントに関する情報を表示する
     url: "/performance-checker/task_display_information_about_performance_event.html"
   - title: ユーザー定義のパフォーマンスしきい値からイベントを分析する
-    url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
     entries:
+    - title: ユーザー定義のパフォーマンスしきい値に基づくイベントについて
+      url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
     - title: ユーザー定義のパフォーマンスしきい値イベントに応答する
       url: "/performance-checker/task_respond_to_user_defined_performance_threshold_events.html"
   - title: システム定義のパフォーマンスしきい値からイベントを分析する
-    url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
     entries:
+    - title: システム定義のパフォーマンスしきい値からのイベントについて
+      url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
     - title: システム定義のパフォーマンスしきい値イベントに応答する
       url: "/performance-checker/task_respond_to_system_defined_performance_threshold_events.html"
     - title: QoSポリシーグループのパフォーマンスイベントに応答する
@@ -270,8 +293,9 @@ entries:
     - title: クラスタの不均衡なパフォーマンスイベントに応答する
       url: "/performance-checker/task_respond_to_cluster_imbalance_performance_events.html"
   - title: 動的パフォーマンスしきい値からイベントを分析する
-    url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
     entries:
+    - title: 動的パフォーマンスしきい値からのイベントについて
+      url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
     - title: 動的パフォーマンス イベントに関係する被害ワークロードを特定する
       url: "/performance-checker/task_identify_victim_workloads_involved_in_performance_event.html"
     - title: 動的パフォーマンスイベントに関係するワークロードを特定する
@@ -279,8 +303,9 @@ entries:
     - title: 動的パフォーマンスイベントに関係するシャークワークロードを特定する
       url: "/performance-checker/task_identify_shark_workloads_involved_in_performance_event.html"
     - title: MetroCluster 構成のパフォーマンスイベント分析
-      url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
       entries:
+      - title: MetroCluster パフォーマンスイベントの分析
+        url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
       - title: MetroCluster構成のクラスタ上の動的パフォーマンスイベントを分析する
         url: "/performance-checker/task_analyze_performance_incident_on_cluster_in_metrocluster.html"
       - title: MetroCluster構成のリモート クラスタの動的パフォーマンス イベントを分析する
@@ -292,8 +317,9 @@ entries:
     - title: HAテイクオーバーによって発生する動的なパフォーマンスイベントに対応する
       url: "/performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html"
 - title: パフォーマンスイベントを解決する
-  url: "/performance-checker/reference_resolve_performance_events.html"
   entries:
+  - title: パフォーマンスイベントの解決方法について
+    url: "/performance-checker/reference_resolve_performance_events.html"
   - title: レイテンシが予想範囲内であることを確認する
     url: "/performance-checker/concept_confirm_that_response_time_is_within_expected_range.html"
   - title: 構成の変更がワークロードのパフォーマンスに与える影響を確認します
@@ -307,8 +333,9 @@ entries:
   - title: 論理インターフェイス（ LIF ）の移動
     url: "/performance-checker/concept_move_logical_interfaces.html"
   - title: 負荷の低い時間帯で Storage Efficiency 処理を実行
-    url: "/performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html"
     entries:
+    - title: ストレージ効率化処理は、比較的混雑の少ない時間帯にスケジュールしてください。
+      url: "/performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html"
     - title: Storage Efficiency とは
       url: "/performance-checker/concept_what_storage_efficiency_is.html"
   - title: ディスクを追加してデータを再配置
@@ -338,8 +365,9 @@ entries:
   - title: ディスクを追加してアグリゲートレイアウトを再構築する
     url: "/performance-checker/concept_add_disks_and_perform_aggregate_layout_reconstruction.html"
 - title: Unified Manager サーバーと外部データ プロバイダー間の接続を設定する
-  url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
   entries:
+  - title: 外部データプロバイダーへの接続について
+    url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
   - title: 外部サーバに送信可能なパフォーマンスデータ
     url: "/performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html"
   - title: Unified Managerからパフォーマンスデータを受信できるようにGraphiteを設定する

@@ -1,14 +1,8 @@
 ---
 permalink: install-windows/concept_install_unified_manager_windows.html 
-sidebar: sidebar 
-keywords: install, unified manager, windows 
-summary: Windows で Unified Manager をダウンロードしてインストールする一連の手順を理解することが重要です。 
+redirect: install-windows/task_install_unified_manager_on_windows.html 
 ---
-= WindowsへのActive IQ Unified Managerのインストール
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-Windows で Unified Manager をダウンロードしてインストールする一連の手順を理解することが重要です。

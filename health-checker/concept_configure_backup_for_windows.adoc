@@ -20,3 +20,138 @@ Unified ManagerでSnapshotコピーを作成するように設定する前に、
 * ONTAP クラスタを設定する
 * Windows ホスト・マシンを設定します
 
+
+
+
+[[configure-a-backup-location-for-active-iq-unified-manager-on-windows]]
+== Windows 上の Active IQ Unified Manager のバックアップ場所を設定する
+
+WindowsでのUnified Managerのバックアップ後、Snapshotコピーを格納するようにボリュームを設定する必要があります。
+
+.開始する前に
+クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
+
+* クラスタの要件：
++
+** ONTAP 9.3 以降がインストールされている必要があります
+** Unified Manager サーバに地理的に近い場所に配置する必要があります
+** Unified Manager によって監視されます
+
+
+* Storage VM の要件：
++
+** ONTAP クラスタでの iSCSI 接続
+** 構成されたマシンで iSCSI プロトコルが有効になっている必要があります
+** バックアップ構成用に専用のボリュームと LUN を用意します。選択したボリュームには LUN が 1 つしか含まれていない必要があります。
+** LUN のサイズは、 9.9 Active IQ Unified Manager で処理されると想定されるデータサイズの 2 倍以上にする必要があります。
++
+これにより、ボリュームにも同じサイズ要件が設定されます。
+
+** すべての読み取り / 書き込みアクセスが選択されていることを確認します
+** エクスポートポリシーで Superuser Access が「 any 」に設定されていることを確認します
+
+
+* ボリュームと LUN の要件：
++
+** ボリュームのサイズは、 Unified Manager の MySQL データディレクトリの 2 倍以上にする必要があります。
+** セキュリティ形式は Windows に設定する必要があります
+** ローカル Snapshot ポリシーを無効にする必要があります
+** ボリュームのオートサイズを有効にする必要があります
+** パフォーマンス・サービス・レベルは 'Extreme など ' 高い IOPS と低い遅延を持つポリシーに設定する必要があります
+
+
+
+
+
+
+[[configure-an-ontap-cluster-for-backup-and-restore-in-active-iq-unified-manager]]
+== Active IQ Unified Manager でバックアップとリストア用の ONTAP クラスターを設定する
+
+WindowsシステムでSnapshotコピーを使用してActive IQ Unified Manager をバックアップおよびリストアするには、ONTAP クラスタでいくつかの事前設定手順を実行する必要があります。
+
+ONTAP クラスタは、コマンドプロンプトまたは System Manager ユーザインターフェイスを使用して設定できます。ONTAP クラスタの設定では、データ LIF を設定して、 iSCSI LIF として Storage VM に割り当てることができます。次の手順は、 System Manager ユーザインターフェイスを使用して、 iSCSI 対応の Storage VM を設定することです。この Storage VM には、 LIF が発信トラフィックをネットワークでどのように取り扱うかを制御するための静的なネットワークルートを設定する必要があります。
+
+[NOTE]
+====
+バックアップ構成用に専用のボリュームと LUN を用意します。選択したボリュームに含まれる LUN は 1 つだけです。LUN のサイズは、 Active IQ Unified Manager で処理されると予想されるデータサイズの 2 倍以上にする必要があります。
+
+====
+次の設定を行う必要があります。
+
+.手順
+. iSCSI 対応の Storage VM を設定するか、設定が同じ既存の Storage VM を使用してください。
+. 設定された Storage VM のネットワークルートを設定
+. ボリュームがこの LUN 専用になるように、適切な容量と単一の LUN を内部で設定します。
++
+
+NOTE: System Manager で LUN を作成した場合、 LUN のマッピングを解除すると igroup が削除されてリストアが失敗することがあります。この状況を回避するには、 LUN の作成時に、 LUN がマッピング解除されても明示的に作成され、削除されないようにします。
+
+. Storage VM にイニシエータグループを設定します。
+. ポートセットを設定します。
+. igroup をポートセットに統合します。
+. LUN を igroup にマッピングします。
+
+
+
+
+[[configure-a-windows-host-machine-in-active-iq-unified-manager]]
+== Active IQ Unified Manager で Windows ホストマシンを設定する
+
+NetApp Snapshotを使用してActive IQ Unified Manager をバックアップおよびリストアするには、Windowsホストマシンを設定する必要があります。Windows ホスト・マシン上で Microsoft iSCSI イニシエータを起動するには ' 検索バーに「 iscsi 」と入力し '[* iSCSI Initiator *] をクリックします
+
+.開始する前に
+ホストマシン上の以前の設定をすべてクリーンアップする必要があります。
+
+Windows の新規インストール時に iSCSI イニシエータを起動しようとすると、確認のプロンプトが表示され、確認のために [iSCSI Properties] ダイアログボックスが表示されます。既存の Windows インストールの場合は、非アクティブまたは接続しようとしているターゲットとともに iSCSI Properties （ iSCSI プロパティ）ダイアログボックスが表示されます。そのため、 Windows ホストで以前の設定をすべて削除する必要があります。
+
+.手順
+. ホストマシン上の以前の設定をクリーンアップします。
+. ターゲットポータルを検出する。
+. ターゲットポータルに接続します。
+. マルチパスを使用してターゲットポータルに接続します。
+. 両方の LIF を検出します。
+. Windows マシンでデバイスとして設定されている LUN を検出します。
+. Windows で、検出された LUN を新しいボリュームドライブとして設定します。
+
+
+
+
+[[specify-the-destination-location-for-snapshot-copies-on-windows-in-active-iq-unified-manager]]
+== Active IQ Unified Manager で Windows における Snapshot コピーの保存先を指定する
+
+いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。
+
+* Active IQ Unified Manager がインストールされている Windows ホストに対する管理者権限が必要です。
+* Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
+* クラスタ管理 IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、およびストレージシステムのユーザ名とパスワードが必要です。
+* ボリュームをネットワークドライブとして Active IQ Unified Manager ホストにマウントし、マウントドライブを用意しておく必要があります。
+
+
+.手順
+. パワーシェルを使用して、 Active IQ Unified Manager システムの IP アドレスまたは完全修飾ドメイン名に接続します。
+. メンテナンスユーザ（ umadmin ）の名前とパスワードでシステムにログインします。
+. コマンド「 maintenance_console' 」を入力し、 Enter キーを押します。
+. メンテナンスコンソール * メインメニュー * で、 * バックアップリストア * オプションの番号を入力します。
+. Configure NetApp Snapshot Backup * の番号を入力します。
+. iSCSI を設定する番号を入力します。
+. 指定する必要がある情報を確認し、「バックアップ設定の詳細を入力」 * の番号を入力します。
+. Snapshot を書き込むボリュームを特定するには、クラスタ管理インターフェイスの IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、ストレージシステムのユーザ名とパスワード、およびマウントドライブを入力します。
+. この情報を確認して 'y' を入力します
++
+システムは次のタスクを実行します。
+
++
+** Storage VM が検証されました
+** ボリュームが検証されています
+** マウントドライブとステータスが検証されます
+** LUN の有無とステータス
+** ネットワークドライブの存在
+** マウントされたボリュームに推奨されるスペース（ MySQL データディレクトリの 2 倍以上）があるかどうかが検証されます
+** ボリューム内の専用 LUN に対応する LUN パス
+** igroup 名
+** ネットワークドライブがマウントされているボリュームの GUID
+** ONTAP との通信に使用する iSCSI イニシエータ
+
+
+. メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します。
+

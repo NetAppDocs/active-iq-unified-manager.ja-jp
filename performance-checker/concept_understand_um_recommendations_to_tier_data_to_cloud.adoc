@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html 
 sidebar: sidebar 
 keywords: understand, unified manager, recommendations, tier, data, cloud 
-summary: Performance ： All Volumes ビューには、ボリュームに格納されているアクセス頻度の低いユーザデータ（コールドデータ）のサイズに関する情報が表示されます。Unified Manager が、特定のボリュームについて、アクセス頻度の低いデータを FabricPool 対応アグリゲートのクラウド階層（クラウドプロバイダまたは StorageGRID ）に階層化することを推奨することがあります。 
+summary: パフォーマンスページの「すべてのボリューム」ビューでは、非アクティブ（コールド）データのサイズが表示され、FabricPoolクラウド階層への階層化によってメリットが得られるボリュームが特定されます。 
 ---
 = Active IQ Unified Manager のクラウドへのデータ階層化に関する推奨事項を確認する
 :allow-uri-read: 

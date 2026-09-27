@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_user_not_found.html 
 sidebar: sidebar 
 keywords: user, not, found 
-summary: トラブルシューティング：ユーザが見つかりません 
+summary: ユーザーが見つからないエラーのトラブルシューティングを行います。 
 ---
 = Active IQ Unified Manager でユーザーが見つからないエラーを解決する
 :allow-uri-read: 

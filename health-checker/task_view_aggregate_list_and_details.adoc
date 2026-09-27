@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html 
 sidebar: sidebar 
 keywords: view, aggregate list, details 
-summary: Health ： All aggregates ビューでは、アグリゲートのインベントリを監視できます。Capacity ： All Aggregates ビューでは、すべてのクラスタのアグリゲートの容量と使用状況に関する情報を確認できます。 
+summary: ヘルスページの「すべてのアグリゲート」ビューを使用してアグリゲートのインベントリを監視し、キャパシティページの「すべてのアグリゲート」ビューを使用してキャパシティと使用状況の詳細を確認してください。 
 ---
 = Active IQ Unified Manager でアグリゲートのリストと詳細を確認する
 :allow-uri-read: 
@@ -37,5 +37,5 @@ Health ： All aggregates ビューでは、アグリゲートのインベント
 
 * link:../health-checker/reference_health_aggregate_details_page.html["アグリゲート / 健全性の詳細ページ"]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["パフォーマンス：すべてのアグリゲートが表示されます"]
-* link:../reporting/concept_customize_aggregate_capacity_reports.html["アグリゲート容量レポートのカスタマイズ"]
+* link:../reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html["Active IQ Unified Manager で容量が上限に達しているアグリゲートを表示するレポートを作成する"]
 

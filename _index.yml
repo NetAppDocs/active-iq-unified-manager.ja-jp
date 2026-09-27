@@ -31,8 +31,6 @@ indexpage:
       url: "/config/concept_configure_unified_manager.html"
     - title: 機能設定を管理します
       url: "/config/concept_manage_feature_settings.html"
-    - title: ロールベースアクセスの管理
-      url: "/config/concept_manage_user_access.html"
   - title: パフォーマンスの監視
     links:
     - title: パフォーマンスしきい値
@@ -55,10 +53,6 @@ indexpage:
       url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
     - title: MetroCluster 構成
       url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
-    - title: クラスタとクラスタオブジェクトの健常性
-      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
-    - title: 健常性しきい値
-      url: "/health-checker/concept_manage_health_thresholds.html"
     - title: AutoSupport メッセージとサポートバンドルを送信する
       url: "/health-checker/task_send_asup_to_technical_support.html"
   - title: データ保護の監視
@@ -99,8 +93,6 @@ indexpage:
       url: "/events/concept_what_happens_when_an_event_is_received.html"
     - title: Active IQ プラットフォームイベント
       url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-    - title: イベントおよび重大度タイプ
-      url: "/events/reference_list_of_events_and_severity_types.html"
     - title: 修正イベント
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: 自動修復

@@ -27,3 +27,83 @@ Snapshotコピーにかかる時間はごくわずかで、通常は数分です
 
 
 ====
+
+
+[[configure-snapshot-copy-location-in-active-iq-unified-manager]]
+== Active IQ Unified Manager でSnapshotコピーの場所を設定する
+
+ONTAP System ManagerまたはONTAP CLIを使用して、ONTAP クラスタのいずれかにSnapshotコピーを格納するボリュームを設定できます。
+
+.開始する前に
+クラスタ、 Storage VM 、およびボリュームが次の要件を満たしている必要があります。
+
+* クラスタの要件：
++
+** ONTAP 9.3 以降がインストールされている必要があります
+** Unified Manager サーバに地理的に近い場所に配置する必要があります
+** Unified Manager で監視できますが、必須ではありません
+
+
+* Storage VM の要件：
++
+** ネームスイッチとネームマッピングは「 files 」を使用するように設定する必要があります。
+** クライアント側ユーザに対応するように作成されたローカルユーザ
+** すべての読み取り / 書き込みアクセスが選択されていることを確認します
+** エクスポートポリシーで Superuser Access が「 any 」に設定されていることを確認します
+** Linux 用 NetApp Snapshot 用の NFS
+** NFS サーバと、クライアントおよび Storage VM で指定された NFSv4 ID ドメインで NFSv4 が有効になっている必要があります
+** ボリュームのサイズは、 Unified Manager /opt/NetApp/data ディレクトリのサイズの少なくとも 2 倍にする必要があります
++
+コマンド du -sh /opt/NetApp/data/ を使用して、現在のサイズを確認します。
+
+
+
+* ボリューム要件：
++
+** ボリュームのサイズは、 Unified Manager /opt/NetApp/data ディレクトリのサイズの少なくとも 2 倍にする必要があります
+** セキュリティ形式は UNIX に設定する必要があります
+** ローカル Snapshot ポリシーを無効にする必要があります
+** ボリュームのオートサイズを有効にする必要があります
+** パフォーマンス・サービス・レベルは 'Extreme など ' 高い IOPS と低い遅延を持つポリシーに設定する必要があります
+
+
+
+
+NFS ボリュームの作成手順の詳細については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["ONTAP 9 で NFSv4 を設定する方法"] および http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["ONTAP 9 NFS 構成エクスプレスガイド"]。
+
+
+
+[[specify-the-destination-location-for-snapshot-copies-in-active-iq-unified-manager]]
+== Active IQ Unified Manager でSnapshotコピーの保存先を指定する
+
+いずれかのONTAP クラスタですでに設定してあるボリューム上のActive IQ Unified Manager Snapshotコピーのデスティネーションの場所を設定する必要があります。メンテナンスコンソールを使用して場所を定義する必要があります。
+
+* Active IQ Unified Manager がインストールされている Linux ホストの root ユーザのクレデンシャルが必要です。
+* Unified Manager サーバのメンテナンスコンソールへのログインが許可されているユーザ ID とパスワードが必要です。
+* クラスタ管理 IP アドレス、 Storage VM の名前、ボリュームの名前、およびストレージシステムのユーザ名とパスワードが必要です。
+* Active IQ Unified Manager ホストにボリュームをマウントし、マウントパスを確認しておく必要があります。
+
+
+.手順
+. Secure Shell を使用して、 Active IQ Unified Manager システムの IP アドレスまたは FQDN に接続します。
+. メンテナンスユーザ（ umadmin ）の名前とパスワードでシステムにログインします。
+. コマンド「 maintenance_console' 」を入力し、 Enter キーを押します。
+. メンテナンスコンソール * メインメニュー * で、 * バックアップリストア * オプションの番号を入力します。
+. Configure NetApp Snapshot Backup * の番号を入力します。
+. NFS を設定する番号を入力します。
+. 指定する必要がある情報を確認し、「バックアップ設定の詳細を入力」 * の番号を入力します。
+. Snapshot を書き込むボリュームを特定するには、クラスタ管理インターフェイスの IP アドレス、 Storage VM の名前、ボリュームの名前、 LUN 名、ストレージシステムのユーザ名とパスワード、およびマウントパスを入力します。
+. この情報を確認して 'y' を入力します
++
+システムは次のタスクを実行します。
+
++
+** クラスタへの接続を確立します
+** すべてのサービスを停止します
+** ボリュームに新しいディレクトリを作成し、 Active IQ Unified Manager データベース構成ファイルをコピーします
+** Active IQ Unified Manager からファイルを削除し、新しいデータベースディレクトリへのシンボリックリンクを作成します
+** すべてのサービスを再起動します
+
+
+. メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します（まだ作成していない場合）。
+

@@ -2,7 +2,7 @@
 permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
 sidebar: sidebar 
 keywords: Common, unified, manager, health, workflows, tasks 
-summary: Unified Manager に関連する一般的な管理ワークフローと管理タスクには、監視対象のストレージクラスタの選択、データの可用性 / 容量 / 保護に悪影響を及ぼす状態の診断、消失したデータのリストア、ボリュームの設定と管理、診断データのバンドルとテクニカルサポートへの送信（必要時）などがあります。 
+summary: クラスターの監視、可用性や容量の問題の診断、サポートへの診断データの送信など、一般的な管理ワークフローについて説明します。 
 ---
 = Active IQ Unified Manager の一般的なヘルスワークフローとタスクを理解する
 :allow-uri-read: 
@@ -35,7 +35,7 @@ Unified Manager は、 OnCommand Workflow Automation （ WFA ）などの関連�
 
 * 保護関係の設定、監視、問題の診断
 +
-保護関係を作成して設定したあと、ストレージ管理者は、保護関係に関連する潜在的な問題、保護関係の現在の状態、該当する関係に対して成功した現在と過去の保護ジョブの情報、およびトラブルシューティングのアドバイスを確認できます。を参照してください link:../data-protection/concept_create_and_monitor_protection_relationships.html["保護関係の作成、監視、およびトラブルシューティング"] を参照してください。
+保護関係を作成して設定したあと、ストレージ管理者は、保護関係に関連する潜在的な問題、保護関係の現在の状態、該当する関係に対して成功した現在と過去の保護ジョブの情報、およびトラブルシューティングのアドバイスを確認できます。詳細については、link:../data-protection/concept_manage_and_monitor_protection_relationships.html["保護関係の管理と監視について"]を参照してください。
 
 * バックアップファイルの作成とバックアップファイルからのデータのリストア
 * ストレージオブジェクトへのアノテーションの関連付け

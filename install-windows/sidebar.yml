@@ -3,15 +3,17 @@ section: install-windows
 title: Windows システムに Unified Manager をインストールする
 entries:
 - title: Active IQ Unified Manager の概要
-  url: "/install-windows/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Active IQ Unified Manager について学ぶ
+    url: "/install-windows/concept_introduction_to_unified_manager.html"
   - title: Unified Manager サーバの機能
     url: "/install-windows/concept_what_unified_manager_server_does.html"
   - title: インストール手順の概要
     url: "/install-windows/concept_overview_of_installation_sequence_um.html"
 - title: Unified Manager をインストールするための要件
-  url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   entries:
+  - title: Unified Managerのインストール要件を理解する
+    url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   - title: 仮想インフラおよびハードウェアシステムの要件
     url: "/install-windows/concept_virtual_infrastructure_or_hardware_system_requirements.html"
   - title: Windows ソフトウェアとインストールの要件
@@ -23,12 +25,10 @@ entries:
   - title: ワークシートを完成させる
     url: "/install-windows/reference_complete_worksheet_um.html"
 - title: Unified Manager ソフトウェアのインストール、アップグレード、および削除
-  url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: インストールプロセスの概要
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
   - title: WindowsにUnified Managerをインストールする
-    url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
     - title: Unified Manager をインストールします
       url: "/install-windows/task_install_unified_manager_on_windows.html"
@@ -41,8 +41,9 @@ entries:
   - title: Unified Manager をアップグレードします
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
   - title: サードパーティ製品のアップグレード
-    url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
+    - title: サードパーティ製品のアップグレードについて
+      url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     - title: OpenJDK をアップグレードします
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
   - title: サードパーティ製品をアンインストールする

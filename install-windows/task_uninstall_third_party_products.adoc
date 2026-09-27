@@ -1,8 +1,8 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html 
 sidebar: sidebar 
-keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
-summary: PythonやMicrosoft Visual C++などのサードパーティ製品をアンインストールする方法。 
+keywords: MS Visual C, python, uninstall, uninstalling, 9.18 
+summary: PythonやMicrosoft Visual C++ 2013ランタイムなど、サードパーティ製品をアンインストールしてください。 
 ---
 = Active IQ Unified Manager のサードパーティ製品をアンインストールする
 :allow-uri-read: 

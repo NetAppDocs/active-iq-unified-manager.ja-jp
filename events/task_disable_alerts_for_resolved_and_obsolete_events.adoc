@@ -2,7 +2,7 @@
 permalink: events/task_disable_alerts_for_resolved_and_obsolete_events.html 
 sidebar: sidebar 
 keywords: enable, disable, alerts, resolved, obsolete, events 
-summary: アラートを送信するように設定したすべてのイベントについて、使用可能なすべての状態（新規、確認済み、解決済み、廃止）に移行したときにアラートメッセージが送信されます。イベントが解決済み / 廃止状態に移行したときにアラートを受信したくない場合は、アラートを抑制するようグローバルに設定できます。 
+summary: 解決済みおよび廃止済み状態に移行したイベントのアラートを抑制するように、グローバル設定を構成します。 
 ---
 = Active IQ Unified Manager で解決済みおよび廃止されたイベントのアラートを無効にする
 :allow-uri-read: 

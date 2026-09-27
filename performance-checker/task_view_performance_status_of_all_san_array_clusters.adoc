@@ -2,7 +2,7 @@
 permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
 sidebar: sidebar 
 keywords: all san, array, performance, clusters 
-summary: Performance ： All SAN Array クラスタのパフォーマンスステータスは、 Performance ： All Clusters ビューを使用して表示できます。 
+summary: パフォーマンスページの「すべてのクラスタ」ビューを使用して、All SAN Arrayクラスタのパフォーマンス状態を表示します。 
 ---
 = Active IQ Unified Manager ですべての SAN アレイクラスタのパフォーマンスを表示する
 :allow-uri-read: 

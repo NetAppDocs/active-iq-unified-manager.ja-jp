@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_protection_relationship.html 
 sidebar: sidebar 
 keywords: remove, protection, relationship, volume, relationships page 
-summary: ボリューム関係ページでは、保護関係を削除して、選択したソースとデスティネーションの間の既存の関係を完全に削除できます。たとえば、別のデスティネーションを使用して関係を作成する場合などです。この処理ではすべてのメタデータが削除され、元に戻すことはできません。 
+summary: ボリューム関係ページから、送信元と送信先の間の保護関係を完全に削除します。この操作は取り消すことができません。 
 ---
 = Active IQ Unified Manager のボリューム関係ページから保護関係を削除する
 :allow-uri-read: 

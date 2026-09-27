@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_protection_relationship_voldtls.html 
 sidebar: sidebar 
 keywords: remove, protection, relationship,  volume, health details page 
-summary: 保護関係を削除すると、選択したソースとデスティネーションの間の既存の関係を完全に削除することができます。これは、たとえば別のデスティネーションを使用して関係を作成する場合などに行います。この処理ではすべてのメタデータが削除され、元に戻すことはできません。 
+summary: 選択した送信元と宛先間の保護関係を完全に削除します。この操作を行うと、すべてのメタデータが削除され、元に戻すことはできません。 
 ---
 = Active IQ Unified Manager のボリューム/ヘルス詳細ページから保護関係を削除する
 :allow-uri-read: 
