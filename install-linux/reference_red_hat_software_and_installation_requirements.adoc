@@ -11,7 +11,7 @@ summary: Unified Manager をインストールする Linux システムには、
 
 
 [role="lead"]
-Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。
+Unified ManagerをインストールするLinuxシステムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。Linux環境でのインストールの場合、Unified ManagerはRed Hat Enterprise Linuxオペレーティングシステムにのみインストールできます。他のオペレーティングシステムにはインストールできません。
 
 
 
@@ -20,14 +20,14 @@ Unified Manager をインストールする Linux システムには、特定の
 
 Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。
 
-* x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.6。
+* x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.6
 
 
 サポートされているRed Hat Enterprise Linuxのバージョンの最新のリストについては、Interoperability Matrixを参照してください。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+https://mysupport.netapp.com/matrix["NetApp Interoperability Matrix"^]
 
-Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。会社の規制により、Qualysのような脆弱性スキャナがLinuxシステムにインストールされている可能性があります。インストールが失敗しないようにするには、Unified Managerをインストールする前に脆弱性スキャナを無効にする必要があります。
+サーバーはUnified Managerの実行専用にする必要があります。サーバーには他のアプリケーションをインストールしないでください。企業方針により、一部の環境ではQualysなどの脆弱性スキャナーがLinuxシステムにインストールされています。Unified Managerをインストールする前に、インストールの失敗を防ぐため、脆弱性スキャナーを無効にしてください。
 
 
 NOTE: 脆弱性スキャナ（Qualysなど）を使用すると、内部（Unified Managerと脆弱性スキャナが同じVMにインストールされている場合）または外部で仮想マシン（VM）をスキャンする際にCPU使用率が高くなることがあります。 （Unified Managerと脆弱性スキャナが2つの異なるサーバにインストールされ、脆弱性スキャナがUnified ManagerがインストールされているVMをスキャンします）。この問題を実行すると、VMが応答しなくなり、Unified Managerサービスに影響することがよくあります。そのため、NetAppでは、Unified ManagerがインストールされているVMで脆弱性スキャナを無効にすることを推奨しています。スキャナを無効にできない場合は、営業時間外にVMをスキャンし、スキャンの完了後にサービスを再起動してください。

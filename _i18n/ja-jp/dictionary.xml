@@ -11153,7 +11153,6 @@
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">GraphiteサーバがUnified Managerからボリュームのパフォーマンスデータを受信しません。</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">クラスタでONTAP 9.14.1バージョン以降が実行されている場合、ノードのルートボリュームの監視機能は使用できません。</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">クラスタでONTAP 9.14.1バージョン以降が実行されている場合、ノードのルートアグリゲートの監視機能は使用できません。</block>
-  <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">Unified Manager のみを実行する専用のサーバを用意する必要があります。他のアプリケーションをサーバにインストールしないでください。会社の規制により、Qualysのような脆弱性スキャナがLinuxシステムにインストールされている可能性があります。インストールが失敗しないようにするには、Unified Managerをインストールする前に脆弱性スキャナを無効にする必要があります。</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">外部で生成された証明書をActiveIQ Unified Managerでインストールできない</block>
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">クォータの E メールアドレスのルールを定義して、実行順にそれらを入力する必要があります。たとえば、abcのクォータ違反に関する通知をEメールアドレスabc@xyz.comで受信し、他のすべてのグループにEメールアドレスDL-$GROUP@$DOMAINを使用する場合は、ルールを次の順序で指定する必要があります。</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">if（$user =='abc'）then abc@xyz.com</block>
@@ -11852,7 +11851,6 @@
   <block id="d940b6d335f7a34f0e4b4bc38551cbb7" category="paragraph">たとえば、Unified Manager 9.18で作成したバックアップは、Unified Manager 9.18のシステムにのみリストアできます。</block>
   <block id="8961a4d8d4d7912111f44031511afc59" category="paragraph">すべてのバージョンのUnified Managerで、新しいバージョンへのインプレース アップグレードを実行できるわけではありません。Unified Manager のアップグレードは N-2 モデルに制限されます。つまり、すべてのプラットフォームで次の 2 つのリリースへのアップグレードのみ実行できます。たとえば、Unified Manager 9.18へのアップグレードはUnified Manager 9.14と9.16からのみ実行できます。</block>
   <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">9.14 または 9.16 から 9.18 へのアップグレード</block>
-  <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.6。</block>
   <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK バージョン 17.0.14+6 (Red Hat Extra Enterprise Linux Server リポジトリから)</block>
   <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK バージョン 17.0.14+6</block>
   <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">LinuxプラットフォームでUnified Manager 9.14または9.16から9.18にアップグレードするには、インストール ファイルをダウンロードして実行します。</block>
@@ -12842,4 +12840,9 @@
   <block id="a6e16397851d52fce837670c7fe5c107" category="sidebar">ストレージ効率化ポリシーについて</block>
   <block id="442ea426f05852b9149238a396ebc980" category="sidebar">クォータダイアログボックスを使用する</block>
   <block id="d476210c705af2dbde35b19ec388481b" category="sidebar">データベースディレクトリへのディスク容量の追加について</block>
+  <block id="8862bfdb779b55db7354b5395ef7912e" category="paragraph">Unified ManagerをインストールするLinuxシステムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。Linux環境でのインストールの場合、Unified ManagerはRed Hat Enterprise Linuxオペレーティングシステムにのみインストールできます。他のオペレーティングシステムにはインストールできません。</block>
+  <block id="f3622d009fee7f204f8320b21b353eee" category="list-text">x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン8.xおよび9.6</block>
+  <block id="bc8be72fdc9d6054f356bb2b7f80fd12" category="inline-link">NetApp Interoperability Matrix</block>
+  <block id="57e8907ee54130f9131ad948e8b40a5f" category="paragraph"><block ref="57e8907ee54130f9131ad948e8b40a5f" category="inline-link-rx"></block></block>
+  <block id="ddb394221852f5631862ea9ec9cd9673" category="paragraph">サーバーはUnified Managerの実行専用にする必要があります。サーバーには他のアプリケーションをインストールしないでください。企業方針により、一部の環境ではQualysなどの脆弱性スキャナーがLinuxシステムにインストールされています。Unified Managerをインストールする前に、インストールの失敗を防ぐため、脆弱性スキャナーを無効にしてください。</block>
 </blocks>
